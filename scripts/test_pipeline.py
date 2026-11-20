@@ -8,6 +8,7 @@ import struct
 import sys
 import tempfile
 import unittest
+import zipfile
 import zlib
 from pathlib import Path
 
@@ -501,6 +502,37 @@ class PipelineTestCase(unittest.TestCase):
             ed["karaoke"],
             [{"text": "oh, ", "t": 60.3}, {"text": "please ", "t": 60.6}, {"text": "stay", "t": 60.9}],
         )
+
+    def test_export_release_zips(self) -> None:
+        ext_root = self.root / "extension"
+        (ext_root / "subtitles").mkdir(parents=True, exist_ok=True)
+        (ext_root / "manifest.json").write_text(json.dumps({"version": "9.9.9"}), encoding="utf-8")
+        (ext_root / "subtitles" / "manifest.json").write_text("{}", encoding="utf-8")
+        (ext_root / "subtitles" / ".gitkeep").write_text("", encoding="utf-8")
+        sp.TRANSLATED_DIR.mkdir(parents=True, exist_ok=True)
+        (sp.TRANSLATED_DIR / "arc01-ep01.ass").write_text("[Script Info]\n", encoding="utf-8")
+        (sp.TRANSLATED_DIR / "arc01-ep01.vtt").write_text("WEBVTT\n", encoding="utf-8")
+        (sp.WORK_DIR / "arc01-ep01").mkdir(parents=True, exist_ok=True)
+        (sp.WORK_DIR / "arc01-ep01" / "chunk_001.json").write_text("[]", encoding="utf-8")
+        (self.root / "GLOSSARIO.md").write_text("# Glossario", encoding="utf-8")
+
+        out_dir = self.root / "dist_out"
+        self.assertEqual(sp.main(["export-release", "--out-dir", str(out_dir)]), 0)
+        ext_zip = out_dir / "rezero-perfect-ptbr-extensao-v9.9.9.zip"
+        subs_zip = out_dir / "rezero-perfect-ptbr-legendas-ass-vtt.zip"
+        self.assertTrue(ext_zip.is_file())
+        self.assertTrue(subs_zip.is_file())
+
+        with zipfile.ZipFile(ext_zip, "r") as zf:
+            names = set(zf.namelist())
+            self.assertIn("extension/manifest.json", names)
+            self.assertNotIn("extension/subtitles/.gitkeep", names)
+        with zipfile.ZipFile(subs_zip, "r") as zf:
+            names = set(zf.namelist())
+            self.assertIn("GLOSSARIO.md", names)
+            self.assertIn("legendas/arc01-ep01.ass", names)
+            self.assertIn("legendas/arc01-ep01.vtt", names)
+            self.assertFalse(any("chunk_001" in n for n in names))
 
 
 if __name__ == "__main__":

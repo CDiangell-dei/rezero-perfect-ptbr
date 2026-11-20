@@ -16,6 +16,9 @@ const ui = {
   toggleEnabled: document.getElementById('toggle-enabled'),
   toggleSigns: document.getElementById('toggle-signs'),
   toggleKaraoke: document.getElementById('toggle-karaoke'),
+  toggleRemoteSync: document.getElementById('toggle-remote-sync'),
+  syncNowBtn: document.getElementById('sync-now-btn'),
+  syncStatusLine: document.getElementById('sync-status-line'),
   localSubInput: document.getElementById('local-sub-input'),
   clearLocalBtn: document.getElementById('clear-local-btn'),
   localFileStatus: document.getElementById('local-file-status'),
@@ -62,6 +65,7 @@ function renderSettings(settings) {
   ui.toggleEnabled.checked = Boolean(settings.enabled);
   ui.toggleSigns.checked = Boolean(settings.showSigns);
   ui.toggleKaraoke.checked = Boolean(settings.showKaraoke ?? true);
+  ui.toggleRemoteSync.checked = Boolean(settings.autoRemoteSync ?? true);
 
   const fontPct = Math.round((settings.fontScale || 1.0) * 100);
   ui.fontScaleRange.value = String(fontPct);
@@ -99,10 +103,13 @@ function renderSelectedEpisode() {
     ui.epMeta.textContent = `${count} falas ativas (arquivo local)`;
     ui.localFileStatus.textContent = `Ativo: ${localEntry.filename} (${count} falas)`;
     ui.clearLocalBtn.classList.remove('is-hidden');
-  } else if (selected.hasSubtitle && selected.source === 'bundled') {
-    ui.epStatusPill.textContent = 'Embutida PT-BR';
+  } else if (selected.hasSubtitle && (selected.source === 'bundled' || selected.source === 'remote')) {
+    ui.epStatusPill.textContent = selected.source === 'remote' ? 'GitHub PT-BR' : 'Embutida PT-BR';
     ui.epStatusPill.classList.add('pill-ok');
-    ui.epMeta.textContent = `${selected.cueCount} falas prontas em PT-BR`;
+    ui.epMeta.textContent =
+      selected.source === 'remote'
+        ? `${selected.cueCount} falas atualizadas via GitHub`
+        : `${selected.cueCount} falas prontas em PT-BR`;
     ui.localFileStatus.textContent = 'Nenhuma legenda local carregada para este episódio.';
     ui.clearLocalBtn.classList.add('is-hidden');
   } else {
@@ -154,7 +161,14 @@ function renderPageState() {
   for (const ep of ps.episodes || []) {
     const opt = document.createElement('option');
     opt.value = ep.episodeKey;
-    const statusTag = ep.source === 'local' ? ' [Local]' : ep.hasSubtitle ? ' [PT-BR]' : '';
+    const statusTag =
+      ep.source === 'local'
+        ? ' [Local]'
+        : ep.source === 'remote'
+          ? ' [GitHub]'
+          : ep.hasSubtitle
+            ? ' [PT-BR]'
+            : '';
     opt.textContent = `${ep.label}${statusTag}`;
     ui.episodeSelect.appendChild(opt);
   }
@@ -199,6 +213,46 @@ function wireEvents() {
 
   ui.toggleKaraoke.addEventListener('change', async () => {
     await saveSettingsPatch({ showKaraoke: ui.toggleKaraoke.checked });
+  });
+
+  ui.toggleRemoteSync.addEventListener('change', async () => {
+    await saveSettingsPatch({ autoRemoteSync: ui.toggleRemoteSync.checked });
+    if (appState.tabId) {
+      try {
+        await chrome.tabs.sendMessage(appState.tabId, { type: 'REFRESH_FROM_MANIFEST' });
+        await refreshPageState();
+        renderPageState();
+      } catch (_) {}
+    }
+  });
+
+  ui.syncNowBtn.addEventListener('click', async () => {
+    ui.syncNowBtn.disabled = true;
+    ui.syncStatusLine.textContent = 'Verificando atualizações no GitHub...';
+    try {
+      const resp = await chrome.runtime.sendMessage({ type: 'SYNC_REMOTE_NOW' });
+      if (resp?.ok && resp.manifest) {
+        updateCatalogAndSyncUI(resp.manifest, resp.syncInfo);
+        if (appState.tabId) {
+          try {
+            await chrome.tabs.sendMessage(appState.tabId, { type: 'REFRESH_FROM_MANIFEST' });
+            await refreshPageState();
+            renderPageState();
+          } catch (_) {}
+        }
+        if (resp.syncInfo?.error) {
+          showFeedback(`GitHub indisponível (${resp.syncInfo.error}). Usando pacote local.`, true);
+        } else {
+          showFeedback(
+            `Catálogo sincronizado: ${resp.manifest.availableEpisodes || 0}/${resp.manifest.totalEpisodes || 60} episódios.`
+          );
+        }
+      }
+    } catch (err) {
+      showFeedback(`Erro ao sincronizar: ${err?.message || err}`, true);
+    } finally {
+      ui.syncNowBtn.disabled = false;
+    }
   });
 
   ui.fontScaleRange.addEventListener('input', async () => {
@@ -299,6 +353,28 @@ function wireEvents() {
   });
 }
 
+function updateCatalogAndSyncUI(manifest, syncInfo) {
+  if (!manifest) return;
+  const avail = manifest.availableEpisodes || 0;
+  const total = manifest.totalEpisodes || 60;
+  ui.catalogBadge.textContent = `${avail}/${total}`;
+
+  if (!syncInfo) {
+    ui.syncStatusLine.textContent = `${avail}/${total} episódios disponíveis.`;
+    return;
+  }
+  if (syncInfo.error) {
+    ui.syncStatusLine.textContent = `Offline/fallback local (${avail}/${total} prontos).`;
+  } else if (syncInfo.source === 'remote' || syncInfo.source === 'cache') {
+    const when = syncInfo.lastSyncAt
+      ? new Date(syncInfo.lastSyncAt).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })
+      : '';
+    ui.syncStatusLine.textContent = `GitHub sincronizado${when ? ` às ${when}` : ''} • ${avail}/${total} prontos.`;
+  } else {
+    ui.syncStatusLine.textContent = `Pacote local • ${avail}/${total} prontos.`;
+  }
+}
+
 async function init() {
   wireEvents();
 
@@ -312,8 +388,7 @@ async function init() {
   appState.tabId = tabs[0]?.id || null;
 
   if (manifestRes?.ok && manifestRes.manifest) {
-    const m = manifestRes.manifest;
-    ui.catalogBadge.textContent = `${m.availableEpisodes || 0}/${m.totalEpisodes || 60}`;
+    updateCatalogAndSyncUI(manifestRes.manifest, manifestRes.syncInfo);
   }
 
   if (settingsRes?.ok && settingsRes.settings) {

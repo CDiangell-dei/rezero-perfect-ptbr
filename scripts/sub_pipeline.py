@@ -12,6 +12,7 @@ import json
 import math
 import re
 import sys
+import zipfile
 from pathlib import Path
 from typing import Any
 
@@ -1425,6 +1426,50 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_export_release(args: argparse.Namespace) -> int:
+    out_dir = Path(args.out_dir) if args.out_dir else (PROJECT_ROOT / "dist")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    ext_dir = PROJECT_ROOT / "extension"
+    manifest_file = ext_dir / "manifest.json"
+    version = "0.2.0"
+    if manifest_file.is_file():
+        version = str(json.loads(manifest_file.read_text(encoding="utf-8")).get("version", version))
+
+    ext_zip_path = out_dir / f"rezero-perfect-ptbr-extensao-v{version}.zip"
+    ext_count = 0
+    with zipfile.ZipFile(ext_zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for fp in sorted(ext_dir.rglob("*")):
+            if not fp.is_file():
+                continue
+            if fp.name in (".gitkeep", ".DS_Store") or "__pycache__" in fp.parts:
+                continue
+            arcname = str(Path("extension") / fp.relative_to(ext_dir)).replace("\\", "/")
+            zf.write(fp, arcname)
+            ext_count += 1
+
+    subs_zip_path = out_dir / "rezero-perfect-ptbr-legendas-ass-vtt.zip"
+    subs_count = 0
+    with zipfile.ZipFile(subs_zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        for doc_name in ("GLOSSARIO.md", "README.md"):
+            doc_path = PROJECT_ROOT / doc_name
+            if doc_path.is_file():
+                zf.write(doc_path, doc_name)
+                subs_count += 1
+        if TRANSLATED_DIR.is_dir():
+            for fp in sorted(TRANSLATED_DIR.iterdir()):
+                if fp.is_file() and fp.suffix.lower() in (".ass", ".srt", ".vtt"):
+                    zf.write(fp, f"legendas/{fp.name}")
+                    subs_count += 1
+
+    print(
+        f"Pacotes de distribuição gerados em {out_dir}:\n"
+        f"  - Extensão ({ext_count} arquivos): {ext_zip_path} ({ext_zip_path.stat().st_size / 1024:.1f} KB)\n"
+        f"  - Legendas para o site ({subs_count} arquivos): {subs_zip_path} ({subs_zip_path.stat().st_size / 1024:.1f} KB)"
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Pipeline PT-BR para Re:ZERO -Perfect Run- (extração leve, preparação, validação e build)."
@@ -1468,6 +1513,10 @@ def build_parser() -> argparse.ArgumentParser:
     p_build.add_argument("--arc", required=True)
     p_build.add_argument("--ep", required=True)
     p_build.set_defaults(func=cmd_build)
+
+    p_export = sub.add_parser("export-release", help="Gera arquivos .zip limpos da extensão e das legendas (.ass/.vtt) para GitHub Releases.")
+    p_export.add_argument("--out-dir", default=None, help="Pasta de saída (padrão: dist/)")
+    p_export.set_defaults(func=cmd_export_release)
 
     return parser
 

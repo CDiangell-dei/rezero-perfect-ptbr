@@ -12,6 +12,7 @@
     delayMs: 0,
     showSigns: true,
     showKaraoke: true,
+    autoRemoteSync: true,
   };
 
   const state = {
@@ -267,17 +268,19 @@
           const resp = await chrome.runtime.sendMessage({
             type: 'GET_BUNDLED_SUBTITLE',
             path: this.manifestEntry.file,
+            updatedAt: this.manifestEntry.updatedAt || null,
+            remotePreferred: Boolean(this.manifestEntry.remoteAvailable),
           });
           if (resp?.ok && Array.isArray(resp.data?.cues)) {
             this.cues = resp.data.cues;
-            this.subtitleSource = 'bundled';
+            this.subtitleSource = resp.source === 'remote' ? 'remote' : 'bundled';
             this.subtitleFilename = this.manifestEntry.file;
             this.lastSignature = '';
             this.renderAtCurrentTime();
             return;
           }
         } catch (err) {
-          console.warn('[RZPT] Erro ao buscar legenda embutida:', err);
+          console.warn('[RZPT] Erro ao buscar legenda:', err);
         }
       }
 
@@ -571,6 +574,24 @@
           episodes,
         });
         return false;
+      }
+
+      if (message?.type === 'REFRESH_FROM_MANIFEST') {
+        (async () => {
+          try {
+            const manifestRes = await chrome.runtime.sendMessage({ type: 'GET_MANIFEST' });
+            if (manifestRes?.ok && manifestRes.manifest) {
+              state.manifest = manifestRes.manifest;
+            }
+            await Promise.all(
+              Array.from(state.controllers.values()).map((ctrl) => ctrl.refreshSubtitle())
+            );
+            sendResponse({ ok: true });
+          } catch (err) {
+            sendResponse({ ok: false, error: err?.message || String(err) });
+          }
+        })();
+        return true;
       }
 
       if (message?.type === 'TURN_OFF_SITE_CC') {
