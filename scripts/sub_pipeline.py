@@ -691,38 +691,8 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
         align = style_alignments.get(style, 8)
         fs = float(style_fontsizes.get(style, 72.0) or 72.0)
 
-        # Check Format 1: native ASS \k tags
-        has_native_k = any(K_TAG_RE.search(e.get("raw_text", "")) for e in evs)
-        if has_native_k:
-            seen_native: set[tuple[float, float, str]] = set()
-            for ev in sorted(evs, key=lambda e: (e["start"], e["end"], e["id"])):
-                raw_text = ev.get("raw_text", "")
-                if K_TAG_RE.search(raw_text):
-                    joined, syls = _parse_native_k_karaoke(ev["start"], raw_text)
-                else:
-                    joined = _normalize_ass_plain(raw_text).replace(r"\N", " ")
-                    syls = []
-                if not joined:
-                    continue
-                sig = (round(ev["start"], 2), round(ev["end"], 2), joined)
-                if sig in seen_native:
-                    continue
-                seen_native.add(sig)
-                cue: dict[str, Any] = {
-                    "start": ev["start"],
-                    "end": ev["end"],
-                    "align": align,
-                    "style": style,
-                    "isSign": False,
-                    "isKaraoke": True,
-                    "lines": [[{"text": joined, "i": False, "b": False}]],
-                }
-                if syls:
-                    cue["karaoke"] = syls
-                karaoke_cues.append(cue)
-            continue
-
-        # Check Format 2: per-syllable \fad(200,0) + \pos(x, y) pre-rendered frames (e.g. ED01)
+        # Inspect Format 1 (native ASS \k tags) and Format 2 (\fad(200,0)+\pos per-syllable frames)
+        native_k_evs = [e for e in evs if K_TAG_RE.search(e.get("raw_text", ""))]
         fad_in_groups: dict[float, dict[tuple[float, float, str], tuple[float, float, float, str]]] = {}
         fad_out_spans: list[tuple[float, float]] = []
         for ev in evs:
@@ -743,6 +713,34 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 fad_out_spans.append((ev["start"], ev["end"]))
 
         is_per_syllable_fad = any(len(g) >= 2 for g in fad_in_groups.values())
+
+        # Prefer Format 2 when it covers at least as many lyric lines as sparse native \k templates (e.g. ED01)
+        if native_k_evs and not (is_per_syllable_fad and len(fad_in_groups) >= len(native_k_evs)):
+            seen_native: set[tuple[float, float, str]] = set()
+            for ev in sorted(native_k_evs, key=lambda e: (e["start"], e["end"], e["id"])):
+                raw_text = ev.get("raw_text", "")
+                joined, syls = _parse_native_k_karaoke(ev["start"], raw_text)
+                if not joined:
+                    continue
+                sig = (round(ev["start"], 2), round(ev["end"], 2), joined)
+                if sig in seen_native:
+                    continue
+                seen_native.add(sig)
+                cue: dict[str, Any] = {
+                    "start": ev["start"],
+                    "end": ev["end"],
+                    "align": align,
+                    "style": style,
+                    "isSign": False,
+                    "isKaraoke": True,
+                    "lines": [[{"text": joined, "i": False, "b": False}]],
+                }
+                if syls:
+                    cue["karaoke"] = syls
+                karaoke_cues.append(cue)
+            continue
+
+        # Format 2: per-syllable \fad(200,0) + \pos(x, y) pre-rendered frames (e.g. ED01)
         if is_per_syllable_fad and fad_in_groups:
             starts_sorted = sorted(fad_in_groups.keys())
             row_band = max(20.0, fs * 0.35)

@@ -1,0 +1,373 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,-1,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - margin,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Episode Title,Open Sans Semibold,122,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6.8,0,5,45,45,93,1
+Style: SignA,Arial,33,&H00070701,&H000000FF,&H00AC4D65,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,60,60,30,1
+Style: Default - upper,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Signs,Arial,102,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,23,23,23,1
+Style: Re:Zero OP - Romaji,Aldo the Apache,72,&H00000000,&H000000FF,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,8,60,60,33,1
+Style: Re:Zero OP - English,Aldo the Apache,72,&H00000000,&H00000000,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,2,60,60,45,1
+Style: Re:Zero ED01 - Romaji,Adobe Caslon Pro Bold,98,&H00000000,&H00FF000F,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,45,1
+Style: Re:Zero ED01 - English,Adobe Caslon Pro Bold,78,&H00000000,&H00433233,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,113,1
+Style: Signs - Preview,Franklin Gothic Book,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.02,Default,chapter,0,0,0,,{Intro}
+Dialogue: 0,0:00:05.19,0:00:09.37,Default,Chief,0,0,0,,Para nós do clã dos demônios,\Ngêmeos são o tabu supremo.
+Dialogue: 0,0:00:10.48,0:00:12.39,Default,Mom,0,0,0,,Por favor, reconsidere, Chefe!
+Dialogue: 0,0:00:12.39,0:00:13.49,Default,Chief,0,0,0,,Não reconsiderarei!
+Dialogue: 0,0:00:13.49,0:00:16.43,Default,Chief,0,0,0,,Para proteger o orgulho da nossa raça,
+Dialogue: 0,0:00:16.43,0:00:17.86,Default,Chief,0,0,0,,devemos nos livrar deles.
+Dialogue: 0,0:00:18.61,0:00:20.58,Default,Chief,0,0,0,,Tal é o costume do nosso clã!
+Dialogue: 0,0:00:20.99,0:00:22.26,Default,Chief,0,0,0,,É a nossa lei!
+Dialogue: 0,0:00:52.62,0:00:54.03,Default,Chief,0,0,0,,Esta criança é...
+Dialogue: 0,0:00:57.03,0:00:57.07,Default,chapter,0,0,0,,{Part A}
+Dialogue: 0,0:01:19.49,0:01:21.56,Default,Chief,0,0,0,,Ela é um verdadeiro prodígio.
+Dialogue: 0,0:01:22.18,0:01:24.84,Default,Guy,0,0,0,,Tamanho poder, com apenas um chifre!
+Dialogue: 0,0:01:24.84,0:01:27.68,Default,Guy,0,0,0,,Imagine se ela tivesse dois chifres...
+Dialogue: 0,0:01:30.81,0:01:32.61,Default,Dad,0,0,0,,Muito bem, Ram.
+Dialogue: 0,0:01:32.61,0:01:35.07,Default,Mom,0,0,0,,Rem, siga o exemplo de sua irmã\Ne esforce-se.
+Dialogue: 0,0:01:35.53,0:01:36.72,Default,Dad,0,0,0,,Não se preocupe.
+Dialogue: 0,0:01:36.72,0:01:40.09,Default,,0,0,0,,Um dia, a Rem nos mostrará que ela\Ntambém possui um poder incrível.
+Dialogue: 0,0:01:40.09,0:01:43.58,Default,Mom,0,0,0,,Tem razão. Afinal, é irmã da Ram.
+Dialogue: 0,0:01:43.99,0:01:45.39,Default,Dad,0,0,0,,Esperamos grandes coisas.
+Dialogue: 0,0:02:05.46,0:02:06.55,Default,Ram,0,0,0,,Está tudo bem.
+Dialogue: 0,0:02:08.70,0:02:10.30,Default,Rem,0,0,0,,Maninha...
+Dialogue: 0,0:02:10.30,0:02:11.52,Default,Ram,0,0,0,,Apenas seja você mesma, Rem.
+Dialogue: 0,0:02:12.05,0:02:14.98,Default,Ram,0,0,0,,Não importa o que os outros digam.
+Dialogue: 0,0:02:35.01,0:02:37.95,Default,Rem,0,0,0,,{\i1}Jamais alcançarei minha irmã em poder.{\i0}
+Dialogue: 0,0:02:38.74,0:02:39.47,Default,Rem,0,0,0,,{\i1}Por isso...{\i0}
+Dialogue: 0,0:02:47.86,0:02:49.51,Default,Rem,0,0,0,,Ei, mamãe...
+Dialogue: 0,0:02:50.50,0:02:52.44,Default,Mom,0,0,0,,O que foi, Rem?
+Dialogue: 0,0:02:52.44,0:02:55.65,Default,Mom,0,0,0,,Me deixa fazer o jantar amanhã!
+Dialogue: 0,0:02:57.93,0:03:00.20,Default,Ram,0,0,0,,O que você vai preparar?
+Dialogue: 0,0:03:00.20,0:03:01.27,Default,Rem,0,0,0,,Hum...
+Dialogue: 0,0:03:01.27,0:03:05.62,Default,,0,0,0,,Talvez um refogado de carne de coelho barbaro\Ncom nozes das árvores da floresta.
+Dialogue: 0,0:03:05.62,0:03:07.59,Default,Rem,0,0,0,,Ah, e tatôs no vapor!
+Dialogue: 0,0:03:07.59,0:03:09.06,Default,Ram,0,0,0,,Eu ajudo você.
+Dialogue: 0,0:03:09.06,0:03:12.34,Default,Rem,0,0,0,,Não, tudo bem. Eu faço sozinha.
+Dialogue: 0,0:03:12.34,0:03:13.58,Default,Rem,0,0,0,,Só sente e observe.
+Dialogue: 0,0:03:21.79,0:03:23.84,Default,Rem,0,0,0,,Agora, só preciso de um coelho barbaro.
+Dialogue: 0,0:03:53.97,0:03:55.23,Default,Rem,0,0,0,,Maninha!
+Dialogue: 0,0:04:03.44,0:04:05.89,Default,Mom,0,0,0,,Que bom que estão ambas sãs e salvas.
+Dialogue: 0,0:04:06.95,0:04:08.60,Default,Rem,0,0,0,,{\i1}Ambas...{\i0}
+Dialogue: 0,0:04:08.85,0:04:12.08,Default,Dad,0,0,0,,Rem, não entre mais na floresta sozinha.
+Dialogue: 0,0:04:12.08,0:04:13.98,Default,Mom,0,0,0,,Você não quer preocupar sua irmã.
+Dialogue: 0,0:04:14.46,0:04:17.08,Default,Rem,0,0,0,,Tudo bem, desculpe.
+Dialogue: 0,0:04:18.55,0:04:20.94,Default,Ram,0,0,0,,Esqueçam isso. Mais importante...
+Dialogue: 0,0:04:21.73,0:04:25.90,Default,Ram,0,0,0,,Os tatôs no vapor que a Rem fez\Nestão muito bons.
+Dialogue: 0,0:04:26.54,0:04:28.77,Default,Ram,0,0,0,,Estão com a medida certa de sal.
+Dialogue: 0,0:04:28.77,0:04:31.29,Default,Dad,0,0,0,,Tem razão! Estão ótimos!
+Dialogue: 0,0:04:31.81,0:04:34.77,Default,Mom,0,0,0,,Eu nem imaginava que a Rem sabia fazer\Nalgo tão delicioso!
+Dialogue: 0,0:04:46.89,0:04:49.06,Default,Mom,0,0,0,,Já chega, Rem.
+Dialogue: 0,0:04:49.59,0:04:53.42,Default,Mom,0,0,0,,Fico feliz em saber que vocês duas\Nestão sãs e salvas.
+Dialogue: 0,0:04:53.42,0:04:56.15,Default,Dad,0,0,0,,Sim, estamos felizes que ambas\Nestão vivas e bem.
+Dialogue: 0,0:04:57.27,0:05:01.23,Default,Chief,0,0,0,,Não, teria sido bem melhor\Nse apenas a Ram tivesse vivido.
+Dialogue: 0,0:05:01.23,0:05:02.72,Default,Guy,0,0,0,,Isso mesmo.
+Dialogue: 0,0:05:02.72,0:05:03.90,Default,Guy,0,0,0,,Disse tudo.
+Dialogue: 0,0:05:05.77,0:05:08.93,Default,Mom,0,0,0,,É verdade, se ao menos a inútil da Rem\Ntivesse morrido.
+Dialogue: 0,0:05:08.93,0:05:11.95,Default,Dad,0,0,0,,Teria sido melhor se apenas a Ram\Ntivesse sobrevivido.
+Dialogue: 0,0:05:34.21,0:05:36.31,Default,Ram,0,0,0,,Você estava tendo um pesadelo, não estava?
+Dialogue: 0,0:05:36.78,0:05:38.56,Default,Ram,0,0,0,,Estava gemendo dormindo.
+Dialogue: 0,0:05:38.92,0:05:40.61,Default,Rem,0,0,0,,Maninha...
+Dialogue: 0,0:05:40.61,0:05:43.28,Default,Ram,0,0,0,,Está tudo bem. Estou aqui com você.
+Dialogue: 0,0:05:43.81,0:05:46.69,Default,Ram,0,0,0,,Não precisa se preocupar com nada,\Nestá bem?
+Dialogue: 0,0:05:47.27,0:05:49.49,Default,Rem,0,0,0,,Sim, Maninha.
+Dialogue: 0,0:05:51.02,0:05:52.16,Default,Rem,0,0,0,,Eu te amo!
+Dialogue: 0,0:05:54.47,0:05:56.90,Default,Rem,0,0,0,,{\i1}Minha irmã é mesmo incrível.{\i0}
+Dialogue: 0,0:05:56.90,0:05:58.79,Default,,0,0,0,,{\i1}Não consigo igualá-la em nada.{\i0}
+Dialogue: 0,0:05:59.23,0:06:02.28,Default,Rem,0,0,0,,{\i1}Sendo assim, não preciso mais me esforçar.{\i0}
+Dialogue: 0,0:06:03.07,0:06:06.30,Default,Rem,0,0,0,,{\i1}Estou bem apenas seguindo os passos dela.{\i0}
+Dialogue: 0,0:06:15.29,0:06:16.91,Default,Rem,0,0,0,,Maninha?
+Dialogue: 0,0:06:51.24,0:06:52.22,Default,Rem,0,0,0,,Maninha!
+Dialogue: 0,0:07:02.98,0:07:05.65,Default,Ram,0,0,0,,Rem... Que bom que está a salvo.
+Dialogue: 0,0:07:22.51,0:07:24.79,Default,Rem,0,0,0,,{\i1}Finalmente quebrou.{\i0}
+Dialogue: 0,0:07:26.81,0:07:28.63,Default,Rem,0,0,0,,{\i1}Por minha causa,{\i0}
+Dialogue: 0,0:07:29.01,0:07:30.84,Default,,0,0,0,,{\i1}o chifre da minha irmã foi quebrado.{\i0}
+Dialogue: 0,0:07:31.47,0:07:33.30,Default,,0,0,0,,{\i1}E ela perdeu seu poder.{\i0}
+Dialogue: 0,0:07:33.86,0:07:37.72,Default,Rem,0,0,0,,{\i1}De agora em diante, é meu dever preencher\No vazio que a Maninha...{\i0}
+Dialogue: 0,0:07:37.93,0:07:40.60,Default,,0,0,0,,{\i1}que a Irmã costumava preencher.{\i0}
+Dialogue: 0,0:07:41.02,0:07:42.56,Default,Rem,0,0,0,,{\i1}Irmã faria deste jeito.{\i0}
+Dialogue: 0,0:07:43.07,0:07:44.48,Default,Rem,0,0,0,,{\i1}Irmã é muito mais impressionante.{\i0}
+Dialogue: 0,0:07:44.91,0:07:46.82,Default,Rem,0,0,0,,{\i1}Irmã faria tudo muito melhor.{\i0}
+Dialogue: 0,0:07:47.05,0:07:49.78,Default,Rem,0,0,0,,{\i1}Estou apenas imitando o que Irmã saberia fazer.{\i0}
+Dialogue: 0,0:07:50.05,0:07:52.24,Default,Rem,0,0,0,,{\i1}Se não consigo nem fazer isso direito,{\i0}
+Dialogue: 0,0:07:53.04,0:07:54.70,Default,Rem,0,0,0,,{\i1}eu não valho nada.{\i0}
+Dialogue: 0,0:07:54.97,0:07:57.14,Default,Roswaal,0,0,0,,Está fazendo um ótimo trabalho.
+Dialogue: 0,0:07:57.14,0:08:00.62,Default,Rem,0,0,0,,{\i1}Muitas vezes ouvi essas palavras lá em casa.{\i0}
+Dialogue: 0,0:08:01.93,0:08:03.62,Default,Ram,0,0,0,,Não se force demais.
+Dialogue: 0,0:08:03.62,0:08:06.59,Default,Rem,0,0,0,,{\i1}Mesmo me esforçando, nunca será suficiente.{\i0}
+Dialogue: 0,0:08:06.86,0:08:09.30,Default,Frederica,0,0,0,,Por que você se esforça tanto?
+Dialogue: 0,0:08:09.30,0:08:13.18,Default,Rem,0,0,0,,{\i1}Por quê? Porque nada do que faço basta.{\i0}
+Dialogue: 0,0:08:13.43,0:08:15.62,Default,Rem,0,0,0,,{\i1}Para que eu sequer estou vivendo?{\i0}
+Dialogue: 0,0:08:15.62,0:08:19.60,Default,Rem,0,0,0,,{\i1}Tudo isto é minha penitência pelo que{\i0}
+Dialogue: 0,0:08:19.60,0:08:22.10,Default,,0,0,0,,{\i1}eu pensei naquela noite em chamas.{\i0}
+Dialogue: 0,0:08:22.71,0:08:25.06,Default,Rem,0,0,0,,{\i1}O que posso fazer para me redimir?{\i0}
+Dialogue: 0,0:08:25.06,0:08:29.37,Default,Rem,0,0,0,,{\i1}Arriscarei minha vida para trilhar o caminho\Nque Irmã teria trilhado,{\i0}
+Dialogue: 0,0:08:29.37,0:08:31.61,Default,Rem,0,0,0,,{\i1}o caminho que roubei dela.{\i0}
+Dialogue: 0,0:08:32.09,0:08:36.10,Default,Rem,0,0,0,,{\i1}Porque sou inferior a ela em tudo.{\i0}
+Dialogue: 0,0:08:36.10,0:08:38.83,Default,Rem,0,0,0,,{\i1}Não passo de uma substituta.{\i0}
+Dialogue: 0,0:08:41.88,0:08:44.28,Default,Ram,0,0,0,,Barusu, vá para a direita\Ndaquela árvore partida ali na frente!
+Dialogue: 0,0:08:44.28,0:08:45.23,Default,Ram,0,0,0,,Acelere o passo!
+Dialogue: 0,0:08:45.23,0:08:46.75,Default,Subaru,0,0,0,,Não peça o impossível!
+Dialogue: 0,0:08:47.15,0:08:49.50,Default,Subaru,0,0,0,,Estou correndo... o mais rápido que posso!
+Dialogue: 0,0:08:49.95,0:08:53.03,Default,Rem,0,0,0,,Subaru-kun... O que...
+Dialogue: 0,0:08:53.03,0:08:54.38,Default,Subaru,0,0,0,,Você acordou, Rem?
+Dialogue: 0,0:08:55.12,0:08:58.35,Default,Ram,0,0,0,,Ainda bem, Rem.\NVocê dá mesmo trabalho.
+Dialogue: 0,0:09:00.58,0:09:01.39,Default,Ram,0,0,0,,{\i1}Fula!{\i0}
+Dialogue: 0,0:09:09.90,0:09:11.42,Default,Rem,0,0,0,,Por quê...
+Dialogue: 0,0:09:12.41,0:09:15.97,Default,Rem,0,0,0,,Por que não me deixaram sozinha?
+Dialogue: 0,0:09:16.85,0:09:20.84,Default,Rem,0,0,0,,Vocês dois aparecerem\Ntorna tudo sem sentido.
+Dialogue: 0,0:09:21.48,0:09:23.61,Default,Rem,0,0,0,,Tenho que fazer isso sozinha.
+Dialogue: 0,0:09:23.61,0:09:26.12,Default,Rem,0,0,0,,Ninguém mais precisa se machucar.
+Dialogue: 0,0:09:26.12,0:09:27.71,Default,Subaru,0,0,0,,Meio tarde pra isso.
+Dialogue: 0,0:09:27.71,0:09:30.75,Default,Subaru,0,0,0,,A Ram e eu já estamos em frangalhos,\Ntalvez até mais do que você!
+Dialogue: 0,0:09:30.75,0:09:32.71,Default,Subaru,0,0,0,,Meu ombro direito até deslocou!
+Dialogue: 0,0:09:34.26,0:09:37.81,Default,Rem,0,0,0,,É... É tudo culpa minha.
+Dialogue: 0,0:09:37.81,0:09:40.70,Default,Rem,0,0,0,,Então preciso assumir a responsabilidade.
+Dialogue: 0,0:09:40.70,0:09:45.23,Default,Rem,0,0,0,,Se não fizer isso, diante da Irmã\Ne de você, eu...
+Dialogue: 0,0:09:46.33,0:09:49.32,Default,Rem,0,0,0,,Não mudei absolutamente nada.
+Dialogue: 0,0:09:50.15,0:09:53.53,Default,Rem,0,0,0,,Cometi exatamente o mesmo\Npecado daquela época!
+Dialogue: 0,0:09:54.53,0:09:58.05,Default,Rem,0,0,0,,Porque hesitei em estender minha mão para você...
+Dialogue: 0,0:09:59.70,0:10:01.33,Default,Rem,0,0,0,,{\i1}O cheiro da bruxa?{\i0}
+Dialogue: 0,0:10:01.74,0:10:03.92,Default,Rem,0,0,0,,Você quase morreu.
+Dialogue: 0,0:10:07.45,0:10:09.40,Default,Subaru,0,0,0,,Não entendo bem do que você está falando,
+Dialogue: 0,0:10:09.40,0:10:13.46,Default,Subaru,0,0,0,,mas pra pagar por isso, você ficou brava\Ne decidiu resolver tudo sozinha?
+Dialogue: 0,0:10:14.72,0:10:15.67,Default,Subaru,0,0,0,,Rem...
+Dialogue: 0,0:10:18.41,0:10:19.59,Default,Rem,0,0,0,,Sim?
+Dialogue: 0,0:10:19.83,0:10:22.18,Default,Subaru,0,0,0,,Super cabeçada!
+Dialogue: 0,0:10:23.06,0:10:25.48,Default,Subaru,0,0,0,,Pra começar, você é idiota?
+Dialogue: 0,0:10:25.48,0:10:27.39,Default,Subaru,0,0,0,,Não, você {\i1}é{\i0} idiota!
+Dialogue: 0,0:10:27.39,0:10:30.50,Default,Ram,0,0,0,,Barusu, o corte na sua testa\Nreabriu e está sangrando.
+Dialogue: 0,0:10:30.50,0:10:32.76,Default,Subaru,0,0,0,,É, sei que sou idiota também!
+Dialogue: 0,0:10:32.76,0:10:35.28,Default,Subaru,0,0,0,,Mas sua irmã é uma idiota ainda maior!
+Dialogue: 0,0:10:35.59,0:10:39.88,Default,Subaru,0,0,0,,Olha, lá de onde eu venho tem um ditado:\N"Três cabeças pensam melhor que uma."
+Dialogue: 0,0:10:39.88,0:10:41.40,Default,Subaru,0,0,0,,Espera, ou eram duas cabeças?
+Dialogue: 0,0:10:41.40,0:10:42.87,Default,Subaru,0,0,0,,Tanto faz. De todo jeito,
+Dialogue: 0,0:10:42.87,0:10:46.66,Default,,0,0,0,,a questão é que três cabeças juntas\Nsão fortes como um feixe de varas!
+Dialogue: 0,0:10:46.92,0:10:48.21,Default,Subaru,0,0,0,,Quer dizer que você devia contar com
+Dialogue: 0,0:10:48.21,0:10:50.71,Default,,0,0,0,,quem está ao seu redor em vez de\Nfazer tudo sozinha!
+Dialogue: 0,0:10:51.61,0:10:53.21,Default,Rem,0,0,0,,Subaru-kun...
+Dialogue: 0,0:10:57.34,0:10:58.80,Default,Subaru,0,0,0,,Droga...
+Dialogue: 0,0:10:58.80,0:11:02.04,Default,Subaru,0,0,0,,Ram, para que lado corremos\Npara sair da barreira?
+Dialogue: 0,0:11:02.04,0:11:04.81,Default,Ram,0,0,0,,Para a esquerda a toda velocidade. Qual o plano?
+Dialogue: 0,0:11:07.06,0:11:11.24,Default,Subaru,0,0,0,,Posso jogar a Rem pra você\Ne correr heroicamente pra direita...
+Dialogue: 0,0:11:11.24,0:11:12.81,Default,Ram,0,0,0,,Eu atraio a atenção dos ulgares,
+Dialogue: 0,0:11:12.81,0:11:14.30,Default,,0,0,0,,enquanto você leva a Rem e corre.
+Dialogue: 0,0:11:14.30,0:11:16.90,Default,Subaru,0,0,0,,Dá pra não estragar minha tentativa\Nde disfarçar a vergonha tão fácil assim?!
+Dialogue: 0,0:11:16.90,0:11:19.67,Default,Rem,0,0,0,,Não há chance de você sobreviver.
+Dialogue: 0,0:11:19.67,0:11:23.37,Default,Rem,0,0,0,,Por favor, não faça isso. Se fizer, eu vou...
+Dialogue: 0,0:11:23.77,0:11:25.35,Default,Subaru,0,0,0,,Não esquenta.
+Dialogue: 0,0:11:25.35,0:11:29.37,Default,,0,0,0,,Você não conhece meu plano brilhante\Npara reunir todas as mabestas.
+Dialogue: 0,0:11:29.88,0:11:33.17,Default,Rem,0,0,0,,Subaru-kun, por que faria tudo isso?
+Dialogue: 0,0:11:33.82,0:11:35.41,Default,Subaru,0,0,0,,Bom...
+Dialogue: 0,0:11:39.28,0:11:42.49,Default,Subaru,0,0,0,,Você foi minha parceira no meu primeiro encontro.
+Dialogue: 0,0:11:43.32,0:11:45.76,Default,Subaru,0,0,0,,Não seria tão sem coração a ponto de te abandonar.
+Dialogue: 0,0:11:49.52,0:11:52.60,Default,Subaru,0,0,0,,Certo, melhor eu ir logo fazer isso.
+Dialogue: 0,0:11:52.97,0:11:55.22,Default,Subaru,0,0,0,,Cuide da Rem, irmãzona!
+Dialogue: 0,0:11:55.22,0:11:57.56,Default,Ram,0,0,0,,Estarei rezando pelo nosso reencontro seguro,\NBarusu.
+Dialogue: 0,0:11:59.48,0:12:01.78,Default,Ram,0,0,0,,Barusu está arriscando a vida para ganhar tempo.
+Dialogue: 0,0:12:02.09,0:12:03.78,Default,Ram,0,0,0,,Vamos aproveitar ao máximo.
+Dialogue: 0,0:12:11.91,0:12:15.48,Default,Subaru,0,0,0,,Eu adoraria encerrar logo as contas\Ncom você agora mesmo.
+Dialogue: 0,0:12:26.58,0:12:29.01,Default,Subaru,0,0,0,,Eu também tenho uma carta na manga!
+Dialogue: 0,0:12:29.01,0:12:32.64,Default,Subaru,0,0,0,,Somos eu e você, amigão. Prepara!
+Dialogue: 0,0:12:33.13,0:12:35.90,Default,Rem,0,0,0,,Irmã! O Subaru-kun está... O Subaru-kun está...
+Dialogue: 0,0:12:35.90,0:12:37.85,Default,Ram,0,0,0,,Não olhe para trás, Rem.
+Dialogue: 0,0:12:37.85,0:12:40.15,Default,,0,0,0,,A determinação do Barusu será em vão.
+Dialogue: 0,0:12:47.56,0:12:49.62,Default,Rem,0,0,0,,Maninha!
+Dialogue: 0,0:12:57.05,0:12:59.13,Default,Rem,0,0,0,,Subaru-kun!
+Dialogue: 0,0:13:02.26,0:13:03.92,Default,Subaru,0,0,0,,Shamac!
+Dialogue: 0,0:13:15.10,0:13:18.31,Default,Subaru,0,0,0,,Dispensava os insetos,\Nmas agradeço muito pela fruta bocco!
+Dialogue: 0,0:13:18.31,0:13:20.98,Default,Subaru,0,0,0,,Valeu por essa, pirralhos.
+Dialogue: 0,0:13:23.11,0:13:24.24,Default,Subaru,0,0,0,,Merda...
+Dialogue: 0,0:13:29.86,0:13:32.65,Default,Subaru,0,0,0,,Vê se cai logo e morre de uma vez!
+Dialogue: 0,0:13:36.00,0:13:39.08,Default,Subaru,0,0,0,,Qual foi? Vem pra cima, chefão ulgarm!
+Dialogue: 0,0:13:41.21,0:13:42.84,Default,Roswaal,0,0,0,,{\i1}Ulgoa!{\i0}
+Dialogue: 0,0:13:49.93,0:13:55.10,Default,Roswaal,0,0,0,,Ora, ora! Está com uma aparência pavorosa!
+Dialogue: 0,0:13:56.91,0:14:00.70,Default,Subaru,0,0,0,,Você está muito atrasado, Roscchi.
+Dialogue: 0,0:14:03.82,0:14:06.88,Default,Subaru,0,0,0,,Mas me surpreende que tenha\Nsabido onde me encontrar.
+Dialogue: 0,0:14:06.88,0:14:11.62,Default,Roswaal,0,0,0,,Na vila, Emilia-sama deixou isso\Nbem gravado em mim.
+Dialogue: 0,0:14:11.85,0:14:14.97,Default,Roswaal,0,0,0,,"Mesmo que seja imprudente, ele usará magia\Nquando estiver encurralado,
+Dialogue: 0,0:14:14.97,0:14:18.78,Default,Roswaal,0,0,0,,então não tem como não vê-lo lá de cima!"\Nela disse.
+Dialogue: 0,0:14:18.78,0:14:20.71,Default,Ram,0,0,0,,Roswaal-sama!
+Dialogue: 0,0:14:25.17,0:14:28.04,Default,Ram,0,0,0,,Pedimos desculpas por causar tanto trabalho!
+Dialogue: 0,0:14:28.04,0:14:30.30,Default,Roswaal,0,0,0,,Oh, de modo algum.
+Dialogue: 0,0:14:30.30,0:14:34.26,Default,Roswaal,0,0,0,,Na verdade, ambas fizeram um belo trabalho\Nna minha ausência.
+Dialogue: 0,0:14:36.26,0:14:40.12,Default,Roswaal,0,0,0,,Com certeza demonstrarei minha gratidão\Npelas ações de vocês.
+Dialogue: 0,0:14:40.60,0:14:41.91,Default,Roswaal,0,0,0,,Têm a minha palavra.
+Dialogue: 0,0:14:42.99,0:14:44.86,Default,Rem,0,0,0,,Subaru-kun!
+Dialogue: 0,0:14:44.86,0:14:47.08,Default,Subaru,0,0,0,,Rem, isso dói! Para!
+Dialogue: 0,0:14:47.08,0:14:49.74,Default,Subaru,0,0,0,,Estou meio quebrado inteiro agora.
+Dialogue: 0,0:14:49.74,0:14:52.62,Default,Rem,0,0,0,,Está vivo! Você sobreviveu!
+Dialogue: 0,0:14:52.62,0:14:55.87,Default,Rem,0,0,0,,Subaru-kun! Subaru-kun! Subaru-kun!
+Dialogue: 0,0:14:56.22,0:15:00.45,Default,Subaru,0,0,0,,{\t(2929,4096,0.9,\c&H000000&\3c&H000000&)}Isso... de novo...
+Dialogue: 0,0:15:01.00,0:15:01.04,Default,chapter,0,0,0,,{Part B}
+Dialogue: 0,0:15:07.62,0:15:09.90,Default,Rem,0,0,0,,Você acordou?
+Dialogue: 0,0:15:17.43,0:15:21.31,Default,Subaru,0,0,0,,Fui eu que fiz isso? Tipo, agarrei você\Ne não soltei mais?
+Dialogue: 0,0:15:22.04,0:15:24.78,Default,Rem,0,0,0,,Não, hum... Isto é, bem...
+Dialogue: 0,0:15:25.07,0:15:27.49,Default,Rem,0,0,0,,Foi por vontade própria.
+Dialogue: 0,0:15:27.87,0:15:32.50,Default,Rem,0,0,0,,Enquanto dormia, parecia estar sentindo dor,\Nentão eu...
+Dialogue: 0,0:15:33.10,0:15:34.71,Default,Subaru,0,0,0,,Segurou minha mão?
+Dialogue: 0,0:15:35.60,0:15:39.74,Default,Rem,0,0,0,,Em momentos assim, não sei o que fazer,
+Dialogue: 0,0:15:39.74,0:15:44.05,Default,Rem,0,0,0,,então fiz o que me deixaria mais feliz\Nse estivesse no seu lugar.
+Dialogue: 0,0:15:44.35,0:15:47.56,Default,Subaru,0,0,0,,Enfim, queria saber o resto... Quer dizer,
+Dialogue: 0,0:15:47.56,0:15:49.30,Default,Subaru,0,0,0,,queria saber como terminou.
+Dialogue: 0,0:15:49.81,0:15:52.33,Default,Subaru,0,0,0,,Minhas maldições foram removidas?
+Dialogue: 0,0:15:52.33,0:15:57.54,Default,Rem,0,0,0,,Sim. Roswaal-sama deu conta\Nde todas as mabestas.
+Dialogue: 0,0:15:57.54,0:16:00.78,Default,Rem,0,0,0,,Portanto, não há risco de as maldições ativarem.
+Dialogue: 0,0:16:04.84,0:16:07.03,Default,Rem,0,0,0,,Sinto muito, Subaru-kun.
+Dialogue: 0,0:16:07.03,0:16:09.73,Default,Subaru,0,0,0,,Ei... Vamos lá, erga a cabeça, Rem.
+Dialogue: 0,0:16:09.73,0:16:12.07,Default,Subaru,0,0,0,,Não tem nada de errado comigo.
+Dialogue: 0,0:16:14.06,0:16:16.11,Default,Subaru,0,0,0,,Você sempre parece calma por fora,
+Dialogue: 0,0:16:16.11,0:16:19.68,Default,,0,0,0,,mas na real não é nem um pouco\Ncalma ou controlada, né?
+Dialogue: 0,0:16:20.23,0:16:22.38,Default,Rem,0,0,0,,Eu tenho consciência
+Dialogue: 0,0:16:22.91,0:16:27.82,Default,Rem,0,0,0,,de que sou uma rejeitada fraca\Ne incompetente do clã dos demônios.
+Dialogue: 0,0:16:27.82,0:16:30.53,Default,Rem,0,0,0,,Então, faça o que fizer, jamais me igualarei\Nà minha irmã.
+Dialogue: 0,0:16:31.12,0:16:33.29,Default,Rem,0,0,0,,Sou apenas a substituta dela,
+Dialogue: 0,0:16:33.29,0:16:35.50,Default,Rem,0,0,0,,e sempre fui inferior.
+Dialogue: 0,0:16:35.50,0:16:36.85,Default,,0,0,0,,Uma inútil.
+Dialogue: 0,0:16:40.16,0:16:44.81,Default,Rem,0,0,0,,Por que fui eu a ficar com o chifre?
+Dialogue: 0,0:16:45.50,0:16:49.71,Default,Rem,0,0,0,,Por que Irmã não pôde ficar com o dela?
+Dialogue: 0,0:16:50.22,0:16:55.53,Default,Rem,0,0,0,,Por que ela nasceu com apenas um chifre?
+Dialogue: 0,0:16:55.81,0:17:00.16,Default,Rem,0,0,0,,Por que nós... tivemos que ser gêmeas?
+Dialogue: 0,0:17:02.65,0:17:06.41,Default,Rem,0,0,0,,Peço desculpas. Que coisa estranha eu disse.
+Dialogue: 0,0:17:06.41,0:17:07.98,Default,Rem,0,0,0,,Por favor, não dê atenção.
+Dialogue: 0,0:17:10.11,0:17:14.85,Default,Subaru,0,0,0,,Sabe, Rem, você vive colocando a Ram\Nnum pedestal
+Dialogue: 0,0:17:14.85,0:17:17.05,Default,,0,0,0,,e rebaixando a si mesma,
+Dialogue: 0,0:17:17.05,0:17:19.33,Default,Subaru,0,0,0,,mas se ela estivesse no seu lugar,
+Dialogue: 0,0:17:19.33,0:17:21.43,Default,,0,0,0,,não acho que se sairia melhor não.
+Dialogue: 0,0:17:22.22,0:17:24.81,Default,Subaru,0,0,0,,A Ram é mais fraca que você, não cozinha,
+Dialogue: 0,0:17:24.81,0:17:27.06,Default,Subaru,0,0,0,,enrola no trabalho e tem a língua venenosa.
+Dialogue: 0,0:17:27.06,0:17:29.07,Default,Rem,0,0,0,,E-Está errado!
+Dialogue: 0,0:17:29.07,0:17:31.25,Default,Rem,0,0,0,,A verdadeira natureza da Irmã é mais...
+Dialogue: 0,0:17:31.25,0:17:33.85,Default,,0,0,0,,Se ela tivesse o chifre, você não diria...
+Dialogue: 0,0:17:33.85,0:17:37.12,Default,Subaru,0,0,0,,Mas a Ram não tem o chifre dela,
+Dialogue: 0,0:17:37.12,0:17:39.79,Default,,0,0,0,,então eu não conheço essa Ram.
+Dialogue: 0,0:17:39.79,0:17:41.98,Default,Subaru,0,0,0,,Tenho quase certeza de que você é a única
+Dialogue: 0,0:17:41.98,0:17:45.10,Default,,0,0,0,,que se importa se ela tem chifre ou não.
+Dialogue: 0,0:17:46.52,0:17:49.05,Default,Subaru,0,0,0,,O que falta na Ram, você tem de sobra.
+Dialogue: 0,0:17:49.76,0:17:51.62,Default,Subaru,0,0,0,,Apenas aceite isso.
+Dialogue: 0,0:17:52.22,0:17:55.68,Default,Subaru,0,0,0,,Você é gentil, esforçada,\Ndá sempre o seu melhor,
+Dialogue: 0,0:17:56.10,0:17:58.37,Default,Subaru,0,0,0,,e seus seios são maiores que os dela!
+Dialogue: 0,0:17:59.59,0:18:04.10,Default,Subaru,0,0,0,,Se não fosse por você,\Neu teria virado ração de cachorro.
+Dialogue: 0,0:18:04.81,0:18:07.54,Default,Subaru,0,0,0,,Fui salvo porque você estava lá.
+Dialogue: 0,0:18:07.97,0:18:10.28,Default,Subaru,0,0,0,,E como pode ver, estou vivo!
+Dialogue: 0,0:18:10.28,0:18:13.83,Default,Subaru,0,0,0,,Não só por causa da sua irmã,\Nmas por sua causa.
+Dialogue: 0,0:18:14.83,0:18:17.95,Default,Rem,0,0,0,,A verdadeira Irmã teria se saído muito melhor.
+Dialogue: 0,0:18:17.95,0:18:20.12,Default,Subaru,0,0,0,,Talvez sim.
+Dialogue: 0,0:18:20.12,0:18:22.58,Default,Subaru,0,0,0,,Mas foi você quem esteve lá por mim.
+Dialogue: 0,0:18:24.98,0:18:27.07,Default,Subaru,0,0,0,,E fico feliz que tenha sido você.
+Dialogue: 0,0:18:27.67,0:18:28.78,Default,,0,0,0,,Obrigado.
+Dialogue: 0,0:18:30.61,0:18:35.12,Default,Rem,0,0,0,,Eu... Eu disse que sou apenas\Na substituta da minha irmã.
+Dialogue: 0,0:18:35.12,0:18:38.33,Default,Subaru,0,0,0,,Não se defina assim. É triste demais.
+Dialogue: 0,0:18:38.33,0:18:41.80,Default,Subaru,0,0,0,,Claro, não ouvi os detalhes de como\Nela perdeu o chifre.
+Dialogue: 0,0:18:41.80,0:18:44.11,Default,Subaru,0,0,0,,Não vou perguntar, então nunca saberei.
+Dialogue: 0,0:18:44.11,0:18:47.94,Default,Subaru,0,0,0,,E já que não sei, posso falar\Ncomo se entendesse de tudo.
+Dialogue: 0,0:18:50.19,0:18:54.03,Default,Subaru,0,0,0,,Tudo o que você precisa fazer é ser\No chifre que falta na Ram.
+Dialogue: 0,0:18:54.65,0:18:57.86,Default,Subaru,0,0,0,,Vocês duas podem ser um demônio juntas.
+Dialogue: 0,0:18:59.29,0:19:02.29,Default,Subaru,0,0,0,,Aliás, você se chama de substituta,
+Dialogue: 0,0:19:02.29,0:19:04.65,Default,Subaru,0,0,0,,mas ninguém conseguiria substituir você.
+Dialogue: 0,0:19:05.90,0:19:07.00,Default,Rem,0,0,0,,Mas...
+Dialogue: 0,0:19:07.00,0:19:08.54,Default,Subaru,0,0,0,,De onde eu venho, há um ditado:
+Dialogue: 0,0:19:08.54,0:19:12.37,Default,Subaru,0,0,0,,"Os demônios riem quando você fala do próximo ano."
+Dialogue: 0,0:19:12.37,0:19:13.46,Default,Subaru,0,0,0,,Então...
+Dialogue: 0,0:19:14.30,0:19:16.34,Default,Subaru,0,0,0,,Ria, Rem.
+Dialogue: 0,0:19:16.34,0:19:19.70,Default,Subaru,0,0,0,,Tire essa expressão triste do rosto e ria.
+Dialogue: 0,0:19:19.70,0:19:22.14,Default,Subaru,0,0,0,,Ria enquanto falamos sobre o futuro!
+Dialogue: 0,0:19:23.04,0:19:26.25,Default,Subaru,0,0,0,,Enquanto falamos, olhe pra frente\Npara recuperar
+Dialogue: 0,0:19:26.25,0:19:28.96,Default,Subaru,0,0,0,,todo o tempo que desperdiçou olhando para trás!
+Dialogue: 0,0:19:29.37,0:19:31.87,Default,Subaru,0,0,0,,Podemos começar falando sobre amanhã.
+Dialogue: 0,0:19:31.87,0:19:33.55,Default,Rem,0,0,0,,Amanhã?
+Dialogue: 0,0:19:33.55,0:19:35.97,Default,Subaru,0,0,0,,É, amanhã.
+Dialogue: 0,0:19:35.97,0:19:37.72,Default,Subaru,0,0,0,,Pode dizer qualquer coisa, tipo...
+Dialogue: 0,0:19:37.72,0:19:43.88,Default,Subaru,0,0,0,,Se vai preparar um café da manhã tradicional\Nou ocidental amanhã,
+Dialogue: 0,0:19:43.88,0:19:46.97,Default,Subaru,0,0,0,,ou se vai calçar o sapato direito\Nou o esquerdo primeiro.
+Dialogue: 0,0:19:46.97,0:19:48.90,Default,Subaru,0,0,0,,Pode ser qualquer bobagem assim.
+Dialogue: 0,0:19:49.48,0:19:51.47,Default,Subaru,0,0,0,,Por mais bobo que seja,
+Dialogue: 0,0:19:51.47,0:19:54.56,Default,,0,0,0,,você pode falar sobre o amanhã\Nporque você tem um amanhã.
+Dialogue: 0,0:19:54.56,0:19:55.51,Default,Subaru,0,0,0,,O que me diz?
+Dialogue: 0,0:19:56.37,0:19:59.79,Default,Rem,0,0,0,,Eu sou... muito fraca.
+Dialogue: 0,0:20:00.52,0:20:04.25,Default,Rem,0,0,0,,Então tenho certeza de que vou acabar\Nme apoiando em você.
+Dialogue: 0,0:20:04.25,0:20:05.77,Default,Subaru,0,0,0,,E o que há de errado nisso?
+Dialogue: 0,0:20:06.29,0:20:10.71,Default,Subaru,0,0,0,,Eu sou fraco, burro, tenho cara feia e sou lerdo.
+Dialogue: 0,0:20:11.19,0:20:16.46,Default,Subaru,0,0,0,,Mas ainda sigo minha vida, esperando que\Nos outros cuidem das coisas pra mim.
+Dialogue: 0,0:20:17.07,0:20:19.73,Default,Subaru,0,0,0,,Enquanto seguimos em frente,\Npodemos nos apoiar um no outro.
+Dialogue: 0,0:20:21.41,0:20:26.17,Default,Subaru,0,0,0,,Vamos rir e conversar sobre o amanhã,\Nde braços dados.
+Dialogue: 0,0:20:26.17,0:20:29.40,Default,Subaru,0,0,0,,Sempre foi meu sonho conversar sobre\No ano que vem com um demônio
+Dialogue: 0,0:20:29.40,0:20:30.87,Default,,0,0,0,,enquanto nós dois damos risada!
+Dialogue: 0,0:20:34.03,0:20:36.06,Default,Rem,0,0,0,,Você está possuído por um demônio.
+Dialogue: 0,0:20:38.18,0:20:39.21,Default,Subaru,0,0,0,,Né?
+Dialogue: 0,0:20:58.03,0:21:01.99,Signs,Title,0,0,0,,Rem
+Dialogue: 0,0:21:01.99,0:21:02.03,Default,chapter,0,0,0,,{Epilogue}
+Dialogue: 0,0:21:02.36,0:21:03.95,Default,Roswaal,0,0,0,,A propósito, Ram,
+Dialogue: 0,0:21:03.95,0:21:08.45,Default,,0,0,0,,descobriu quem estava\Ncontrolando as mabestas?
+Dialogue: 0,0:21:08.45,0:21:12.04,Default,Ram,0,0,0,,Sim, mas a trilha já esfriou.
+Dialogue: 0,0:21:12.67,0:21:16.15,Default,Ram,0,0,0,,Parece que uma das crianças que Barusu e Rem\Ntrouxeram de volta
+Dialogue: 0,0:21:16.15,0:21:18.55,Default,Ram,0,0,0,,da floresta desapareceu no dia seguinte.
+Dialogue: 0,0:21:18.55,0:21:22.08,Default,Roswaal,0,0,0,,Será que isso vai ser outra batalha\Npelo trono?
+Dialogue: 0,0:21:22.08,0:21:24.39,Default,Roswaal,0,0,0,,A Caçadora de Entranhas, domadores de mabestas...
+Dialogue: 0,0:21:24.91,0:21:27.56,Default,Roswaal,0,0,0,,Envolvemo-nos com algumas figuras\Nbem peculiares.
+Dialogue: 0,0:21:27.91,0:21:30.72,Default,Ram,0,0,0,,Não importa quantas figuras estranhas enfrente,
+Dialogue: 0,0:21:30.72,0:21:33.19,Default,Ram,0,0,0,,o senhor não é do tipo que perde a coragem, é?
+Dialogue: 0,0:21:33.44,0:21:36.74,Default,Roswaal,0,0,0,,Ora, ora. Como você ficou atrevida.
+Dialogue: 0,0:21:37.97,0:21:39.19,Default,Roswaal,0,0,0,,Venha aqui.
+Dialogue: 0,0:21:42.65,0:21:45.47,Default,Roswaal,0,0,0,,Agora, vamos começar?
+Dialogue: 0,0:21:46.06,0:21:48.99,Default,Roswaal,0,0,0,,Afinal, não pude atendê-la durante\Numa noite inteira.
+Dialogue: 0,0:21:48.99,0:21:52.44,Default,Ram,0,0,0,,Peço profundas desculpas. Por favor.
+Dialogue: 0,0:21:52.44,0:21:54.75,Default,Roswaal,0,0,0,,Você consumiu bastante mana.
+Dialogue: 0,0:21:55.55,0:21:57.77,Default,Roswaal,0,0,0,,Que as estrelas a protejam.
+Dialogue: 0,0:22:03.38,0:22:05.83,Default,Roswaal,0,0,0,,Estarei ocupado novamente por um tempo.
+Dialogue: 0,0:22:05.83,0:22:09.78,Default,Roswaal,0,0,0,,Sei que será difícil para você,\Nmas cuide de si e da Rem.
+Dialogue: 0,0:22:10.41,0:22:12.35,Default,Ram,0,0,0,,Como desejar.
+Dialogue: 0,0:22:12.71,0:22:15.42,Default,Ram,0,0,0,,Desde aquela noite em chamas,
+Dialogue: 0,0:22:15.42,0:22:17.56,Default,,0,0,0,,tudo o que sou pertence ao senhor,\NRoswaal-sama.
+Dialogue: 0,0:22:17.88,0:22:22.51,Default,Roswaal,0,0,0,,Preciso vencer esta batalha pelo trono,\Ncuste o que custar.
+Dialogue: 0,0:22:22.51,0:22:24.63,Default,Roswaal,0,0,0,,Pelo bem do meu objetivo.
+Dialogue: 0,0:22:26.95,0:22:30.52,Default,Roswaal,0,0,0,,Pelo dia em que matarei o dragão.
+Dialogue: 0,0:22:31.69,0:22:35.52,Default,Emilia,0,0,0,,Você está sempre se machucando,\Nnão é, Subaru?
+Dialogue: 0,0:22:35.52,0:22:39.13,Default,Emilia,0,0,0,,Você veio parar nesta mansão, antes de tudo,\Nporque estava ferido.
+Dialogue: 0,0:22:39.13,0:22:42.25,Default,Emilia,0,0,0,,Desde então, passaram-se apenas quatro dias.
+Dialogue: 0,0:22:42.25,0:22:45.22,Default,Subaru,0,0,0,,Não é como se eu me machucasse\Nporque eu quero.
+Dialogue: 0,0:22:45.90,0:22:49.45,Default,Subaru,0,0,0,,O mundo é que pega meio pesado comigo.
+Dialogue: 0,0:22:49.88,0:22:54.05,Default,Subaru,0,0,0,,Então pode me mimar à vontade,\Njá que ninguém mais vai fazer isso, Emilia-tan!
+Dialogue: 0,0:22:54.05,0:22:55.64,Default,Emilia,0,0,0,,Não brinque com isso!
+Dialogue: 0,0:22:55.64,0:23:00.05,Default,Emilia,0,0,0,,O Puck ficou me impedindo de ir\Natrás de vocês também.
+Dialogue: 0,0:23:00.05,0:23:03.22,Default,Emilia,0,0,0,,Quem sabe o que teria acontecido\Nse o Roswaal não tivesse voltado?
+Dialogue: 0,0:23:03.22,0:23:04.03,Default,Emilia,0,0,0,,Você entendeu?
+Dialogue: 0,0:23:06.45,0:23:09.61,Default,Emilia,0,0,0,,Ainda assim, acho que você me salvou de novo.
+Dialogue: 0,0:23:09.61,0:23:10.41,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:23:10.41,0:23:14.87,Default,Emilia,0,0,0,,Como agradecimento por me salvar,\Neu te trouxe à mansão,
+Dialogue: 0,0:23:14.87,0:23:16.64,Default,,0,0,0,,e cá estamos nós, mais uma vez...
+Dialogue: 0,0:23:16.64,0:23:19.75,Default,Emilia,0,0,0,,Mas mesmo assim, obrigada.\NSignifica muito para mim!
+Dialogue: 0,0:23:20.81,0:23:22.59,Default,Subaru,0,0,0,,Ei! Não foi nada de mais, sério!
+Dialogue: 0,0:23:22.59,0:23:24.76,Default,Subaru,0,0,0,,Só fiz porque eu queria.
+Dialogue: 0,0:23:25.03,0:23:27.33,Default,Emilia,0,0,0,,Imaginei que diria isso,
+Dialogue: 0,0:23:27.33,0:23:29.88,Default,,0,0,0,,mas isso não me faz sentir melhor.
+Dialogue: 0,0:23:29.88,0:23:31.89,Default,Emilia,0,0,0,,Preciso recompensar você de algum jeito.
+Dialogue: 0,0:23:31.89,0:23:35.20,Default,Subaru,0,0,0,,Beleza. Que tal eu aceitar essa oferta?
+Dialogue: 0,0:23:36.02,0:23:38.54,Default,Subaru,0,0,0,,Vá a um encontro comigo, Emilia-tan!
+Dialogue: 0,0:23:38.54,0:23:39.73,Default,Emilia,0,0,0,,Um "encontro"?
+Dialogue: 0,0:23:40.15,0:23:43.23,Default,Subaru,0,0,0,,Vamos sair juntos, ver as mesmas coisas,
+Dialogue: 0,0:23:43.23,0:23:45.34,Default,Subaru,0,0,0,,comer as mesmas coisas, fazer as mesmas coisas,
+Dialogue: 0,0:23:45.34,0:23:47.82,Default,,0,0,0,,e compartilhar as mesmas memórias.
+Dialogue: 0,0:23:48.21,0:23:50.19,Default,Emilia,0,0,0,,E é só isso o que você quer?
+Dialogue: 0,0:23:50.19,0:23:51.70,Default,Subaru,0,0,0,,É exatamente o que eu quero.
+Dialogue: 0,0:23:52.27,0:23:54.94,Default,Subaru,0,0,0,,Quero te exibir para as crianças da vila,
+Dialogue: 0,0:23:54.94,0:23:57.08,Default,Subaru,0,0,0,,e tem um campo de flores lindo por lá!
+Dialogue: 0,0:23:57.08,0:24:00.79,Default,Subaru,0,0,0,,Mesmo que a gente só dê uma volta por aí,\Njá vai ser uma ocasião especial pra mim!
+Dialogue: 0,0:24:04.99,0:24:09.78,Default,Emilia,0,0,0,,Tudo bem. Vou a um encontro com você.
+Dialogue: 0,0:24:12.77,0:24:16.33,Default,Subaru,0,0,0,,Isso! É exatamente isso que faz de você uma EMF!
+Dialogue: 0,0:24:16.33,0:24:21.56,Default,Subaru,0,0,0,,Ah, "EMF" significa\N"Emilia-tan, Maravilhosa Fada"!

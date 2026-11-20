@@ -478,11 +478,22 @@ class PipelineTestCase(unittest.TestCase):
                 r"Dialogue: 0,0:01:00.00,0:01:00.60,ED - Romaji,,0,0,0,,{\pos(220,90)\fad(200,0)\bord0}please",
                 r"Dialogue: 0,0:01:00.00,0:01:00.90,ED - Romaji,,0,0,0,,{\pos(370,90)\fad(200,0)\bord0}stay",
                 r"Dialogue: 0,0:01:01.20,0:01:01.50,ED - Romaji,,0,0,0,,{\pos(100,90)\fad(0,200)\bord0}oh,",
+                # Regression: mixed native \k + redundant animation frames / empty template marker
+                r"Dialogue: 0,0:02:00.00,0:02:02.00,Mixed - Romaji,,0,0,0,,{OP First Frame}",
+                r"Dialogue: 0,0:02:00.00,0:02:02.00,Mixed - Romaji,,0,0,0,,{\k40}yo{\k60}ru",
+                r"Dialogue: 0,0:02:00.00,0:02:00.04,Mixed - Romaji,,0,0,0,,{\pos(100,90)}yoru",
+                r"Dialogue: 0,0:02:00.04,0:02:00.08,Mixed - Romaji,,0,0,0,,{\pos(100,90)}yoru",
+                # Regression: sparse native \k on chorus + full per-syllable \fad(200,0)+\pos frames across verses
+                r"Dialogue: 0,0:03:00.00,0:03:02.00,EDMixed - Romaji,,0,0,0,,{\k50}sta{\k50}rt",
+                r"Dialogue: 0,0:03:00.00,0:03:00.50,EDMixed - Romaji,,0,0,0,,{\pos(100,90)\fad(200,0)}sta",
+                r"Dialogue: 0,0:03:00.00,0:03:01.00,EDMixed - Romaji,,0,0,0,,{\pos(160,90)\fad(200,0)}rt",
+                r"Dialogue: 0,0:03:02.00,0:03:02.50,EDMixed - Romaji,,0,0,0,,{\pos(100,90)\fad(200,0)}en",
+                r"Dialogue: 0,0:03:02.00,0:03:03.00,EDMixed - Romaji,,0,0,0,,{\pos(160,90)\fad(200,0)}d",
             ]
         )
         ass_path.write_text(ass_content + "\n", encoding="utf-8")
         cues = sp._extract_karaoke_web_cues(ass_path)
-        self.assertEqual(len(cues), 2)
+        self.assertEqual(len(cues), 5)
 
         native = cues[0]
         self.assertTrue(native["isKaraoke"])

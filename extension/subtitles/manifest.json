@@ -1,9 +1,9 @@
 {
   "version": 1,
   "language": "pt-BR",
-  "generatedAt": "2026-11-20T22:42:45.783828+00:00",
+  "generatedAt": "2026-11-20T23:57:02.469868+00:00",
   "totalEpisodes": 60,
-  "availableEpisodes": 2,
+  "availableEpisodes": 6,
   "arcs": [
     {
       "id": "arc01",
@@ -60,9 +60,9 @@
           ],
           "label": "EP 1",
           "file": "subtitles/arc02/ep01.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 512,
+          "updatedAt": "2026-11-20T23:56:59.242746+00:00"
         },
         {
           "episodeKey": "arc02-ep02",
@@ -75,9 +75,9 @@
           ],
           "label": "EP 2",
           "file": "subtitles/arc02/ep02.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 404,
+          "updatedAt": "2026-11-20T23:57:00.140343+00:00"
         },
         {
           "episodeKey": "arc02-ep03",
@@ -90,9 +90,9 @@
           ],
           "label": "EP 3",
           "file": "subtitles/arc02/ep03.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 429,
+          "updatedAt": "2026-11-20T23:57:01.945571+00:00"
         },
         {
           "episodeKey": "arc02-ep04",
@@ -105,9 +105,9 @@
           ],
           "label": "EP 4",
           "file": "subtitles/arc02/ep04.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 342,
+          "updatedAt": "2026-11-20T23:57:02.469741+00:00"
         },
         {
           "episodeKey": "arc02-memory-snow",
