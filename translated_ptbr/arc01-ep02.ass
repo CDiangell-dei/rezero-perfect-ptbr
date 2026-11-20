@@ -1,0 +1,445 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,-1,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - margin,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - upper,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Episode Title,Open Sans Semibold,81,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,5,30,30,62,1
+Style: Signs,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Re:Zero OP - Romaji,Aldo the Apache,72,&H000E0EA3,&H0065212F,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,1.5,0,1,0,0,8,60,60,45,1
+Style: Re:Zero OP - English,Aldo the Apache,72,&H000E0EA3,&H00000000,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,1.5,0,1,0,0,2,60,60,45,1
+Style: Re:Zero ED01 - Romaji,Adobe Caslon Pro Bold,98,&H00000000,&H00433233,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,45,1
+Style: Re:Zero ED01 - English,Adobe Caslon Pro Bold,78,&H00000000,&H00433233,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,113,1
+Style: Re:Zero ED01 - Romaji - noshadow,Adobe Caslon Pro Bold,98,&H00000000,&H00433233,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,45,1
+Style: Re:Zero ED01 - English - noshadow,Adobe Caslon Pro Bold,78,&H00000000,&H00433233,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,8.3,0,7,60,15,113,1
+Style: Signs - Preview,Franklin Gothic Book,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.00,0:00:00.02,Default,chapter,0,0,0,,{Intro}
+Dialogue: 5,0:00:01.78,0:00:03.67,Default,,0,0,0,,Que bom que você está aqui.
+Dialogue: 5,0:00:03.67,0:00:04.94,Default,,0,0,0,,Você não vai escapar desta vez.
+Dialogue: 5,0:00:05.56,0:00:07.45,Default,,0,0,0,,{\i1}Por que ela está aqui?{\i0}
+Dialogue: 5,0:00:07.45,0:00:09.47,Default,,0,0,0,,{\i1}Ainda está claro lá fora.{\i0}
+Dialogue: 5,0:00:09.47,0:00:13.18,Default,,0,0,0,,{\i1}Espera, ela teria chegado\Ntão cedo se eu não estivesse com ela?{\i0}
+Dialogue: 5,0:00:13.18,0:00:15.56,Default,,0,0,0,,Você nunca desiste, né?
+Dialogue: 5,0:00:15.56,0:00:18.00,Default,,0,0,0,,Por que não larga logo de mão?!
+Dialogue: 5,0:00:18.00,0:00:20.60,Default,,0,0,0,,Desculpe, mas isto não é algo\Nde que eu possa abrir mão.
+Dialogue: 5,0:00:20.60,0:00:23.00,Default,,0,0,0,,Rendam-se em silêncio e não vou machucá-los.
+Dialogue: 5,0:00:32.10,0:00:34.16,Default,,0,0,0,,Eu tenho apenas uma exigência:
+Dialogue: 5,0:00:34.16,0:00:35.17,Default,,0,0,0,,devolva a minha insígnia.
+Dialogue: 5,0:00:35.77,0:00:38.01,Default,,0,0,0,,Ela é muito importante para mim.
+Dialogue: 5,0:00:41.02,0:00:41.06,Default,chapter,0,0,0,,{Part A}
+Dialogue: 5,0:00:43.72,0:00:49.52,Default,,0,0,0,,Eu não recuaria se fosse só\Noutra maga qualquer, mas essa aí é encrenca.
+Dialogue: 5,0:00:49.52,0:00:50.95,Default,,0,0,0,,Qual é a sua, Velho Rom?
+Dialogue: 5,0:00:50.95,0:00:53.74,Default,,0,0,0,,Vai desistir antes mesmo de a gente lutar?
+Dialogue: 5,0:00:53.74,0:00:56.69,Default,,0,0,0,,Mocinha, você é uma elfa, não é?
+Dialogue: 5,0:01:03.58,0:01:05.39,Default,,0,0,0,,Não exatamente.
+Dialogue: 5,0:01:05.39,0:01:07.54,Default,,0,0,0,,Eu sou apenas uma meio-elfa.
+Dialogue: 5,0:01:07.87,0:01:09.61,Default,,0,0,0,,Uma meio-elfa?
+Dialogue: 5,0:01:09.61,0:01:11.46,Default,,0,0,0,,Com cabelos prateados? Espera, você é...
+Dialogue: 5,0:01:11.46,0:01:13.39,Default,,0,0,0,,É só coincidência eu me parecer com ela!
+Dialogue: 5,0:01:13.39,0:01:15.00,Default,,0,0,0,,E isso só me traz problemas.
+Dialogue: 5,0:01:16.56,0:01:19.07,Default,,0,0,0,,Você armou pra mim, não foi?!
+Dialogue: 5,0:01:19.07,0:01:21.38,Default,,0,0,0,,Hã? Não, eu não fiz nada!
+Dialogue: 5,0:01:21.38,0:01:25.47,Default,,0,0,0,,Sabia que tinha coisa errada quando disse\Nque ia devolver pra dona!
+Dialogue: 5,0:01:25.79,0:01:27.06,Default,,0,0,0,,Como assim?
+Dialogue: 0,0:01:27.06,0:01:28.85,Default,,0,0,0,,Vocês dois não estão trabalhando juntos?
+Dialogue: 5,0:01:44.06,0:01:46.42,Default,,0,0,0,,Ei! Do que está rindo?!
+Dialogue: 5,0:01:46.42,0:01:50.13,Default,,0,0,0,,Vamos lá, a farsa acabou.\NSó devolve a insígnia dela.
+Dialogue: 5,0:01:50.13,0:01:51.35,Default,,0,0,0,,E Sat—
+Dialogue: 5,0:01:51.35,0:01:53.30,Default,,0,0,0,,Quer dizer, dê o fora daqui depressa.
+Dialogue: 5,0:01:53.30,0:01:55.11,Default,,0,0,0,,Tenta não deixar ninguém roubar de novo.
+Dialogue: 5,0:01:55.11,0:01:57.70,Default,,0,0,0,,Por que está sendo tão gentil de repente?
+Dialogue: 5,0:01:57.70,0:01:59.98,Default,,0,0,0,,Não estou entendendo nada.
+Dialogue: 5,0:01:59.98,0:02:02.71,Default,,0,0,0,,Estou do lado dela! Tente fazer algum sentido!
+Dialogue: 5,0:02:02.71,0:02:04.50,Default,,0,0,0,,Qual é o seu problema?!
+Dialogue: 5,0:02:05.73,0:02:07.25,Default,,0,0,0,,Puck! Proteja ela!
+Dialogue: 5,0:02:11.21,0:02:15.11,Default,,0,0,0,,Bloqueei essa por um triz.
+Dialogue: 5,0:02:15.11,0:02:16.30,Default,,0,0,0,,Obrigado pelo aviso!
+Dialogue: 5,0:02:16.30,0:02:17.57,Default,,0,0,0,,Mandou bem, Puck!
+Dialogue: 5,0:02:17.57,0:02:20.44,Default,,0,0,0,,Ainda bem que você dá expediente até as cinco!
+Dialogue: 5,0:02:20.44,0:02:21.22,Default,,0,0,0,,Valeu!
+Dialogue: 5,0:02:22.29,0:02:23.78,Default,,0,0,0,,Um espírito...
+Dialogue: 5,0:02:23.78,0:02:25.41,Default,,0,0,0,,Esse é um espírito, não é?
+Dialogue: 5,0:02:26.38,0:02:27.88,Default,,0,0,0,,Que maravilha.
+Dialogue: 5,0:02:27.88,0:02:32.21,Default,,0,0,0,,Nunca abri a barriga de um espírito antes.
+Dialogue: 5,0:02:34.83,0:02:36.87,Default,,0,0,0,,Ei, que palhaçada é essa?
+Dialogue: 5,0:02:37.43,0:02:41.82,Default,,0,0,0,,Dificilmente dá para negociar\Ncom a dona original bem na nossa frente.
+Dialogue: 5,0:02:41.82,0:02:44.16,Default,,0,0,0,,Então houve uma leve mudança de planos.
+Dialogue: 5,0:02:44.16,0:02:46.87,Default,,0,0,0,,Vou massacrar todo mundo aqui.
+Dialogue: 5,0:02:46.87,0:02:49.13,Default,,0,0,0,,Você não cumpriu o seu trabalho até o fim.
+Dialogue: 5,0:02:49.75,0:02:53.40,Default,,0,0,0,,Você fala bonito,\Nmas faz um serviço péssimo.
+Dialogue: 5,0:02:53.40,0:02:55.76,Default,,0,0,0,,Não passa mesmo de mais uma rata de favela.
+Dialogue: 5,0:02:58.13,0:02:59.55,Default,,0,0,0,,Sua desgraçada...
+Dialogue: 5,0:02:59.55,0:03:01.23,Default,,0,0,0,,Para com essa merda!
+Dialogue: 5,0:03:01.23,0:03:04.06,Default,,0,0,0,,Não se ache só por pisar numa criança!
+Dialogue: 5,0:03:04.06,0:03:06.37,Default,,0,0,0,,Sua sádica viciada em tripas!
+Dialogue: 5,0:03:06.37,0:03:08.88,Default,,0,0,0,,A Felt dá o melhor de si para seguir firme!
+Dialogue: 5,0:03:08.88,0:03:11.60,Default,,0,0,0,,E você vira a mesa só\Nporque seu plano saiu do controle!
+Dialogue: 5,0:03:11.60,0:03:12.78,Default,,0,0,0,,Quem aqui é criança?!
+Dialogue: 5,0:03:12.78,0:03:14.38,Default,,0,0,0,,Você devia dar mais valor à vida!
+Dialogue: 5,0:03:14.38,0:03:16.53,Default,,0,0,0,,Sabe o quanto dói\Nter a barriga rasgada no meio?!
+Dialogue: 5,0:03:16.53,0:03:18.15,Default,,0,0,0,,Pois eu sei!
+Dialogue: 5,0:03:18.75,0:03:20.79,Default,,0,0,0,,Do que está falando?
+Dialogue: 5,0:03:20.79,0:03:26.15,Default,,0,0,0,,Estou deixando meu senso de justiça e cavalheirismo\Ndenunciar a injustiça deste mundo!
+Dialogue: 5,0:03:26.15,0:03:29.41,Default,,0,0,0,,E o que eu considero "injusto" é você,\Ntoda esta situação, e...
+Dialogue: 5,0:03:29.41,0:03:30.99,Default,,0,0,0,,Não mudem de canal, pessoal.
+Dialogue: 5,0:03:30.99,0:03:31.83,Default,,0,0,0,,Pronto!
+Dialogue: 5,0:03:31.83,0:03:34.07,Default,,0,0,0,,Terminei de ganhar tempo.
+Dialogue: 5,0:03:34.07,0:03:35.78,Default,,0,0,0,,Pega ela, Puck!
+Dialogue: 5,0:03:35.78,0:03:38.86,Default,,0,0,0,,Uma atuação vergonhosa que espero\Nque seja lembrada por gerações.
+Dialogue: 5,0:03:38.86,0:03:40.47,Default,,0,0,0,,Melhor não te decepcionar!
+Dialogue: 5,0:03:41.09,0:03:43.97,Default,,0,0,0,,Ainda não me apresentei, não é?
+Dialogue: 5,0:03:43.97,0:03:45.68,Default,,0,0,0,,Meu nome é Puck.
+Dialogue: 5,0:03:45.68,0:03:47.18,Default,,0,0,0,,Leve meu nome com você...
+Dialogue: 5,0:03:47.18,0:03:48.14,Default,,0,0,0,,para o túmulo!
+Dialogue: 5,0:03:53.05,0:03:54.06,Default,,0,0,0,,Pegaram ela?!
+Dialogue: 5,0:03:54.06,0:03:55.82,Default,,0,0,0,,Não zica agora, velhote!
+Dialogue: 5,0:04:00.70,0:04:02.82,Default,,0,0,0,,É sempre bom estar preparada para tudo.
+Dialogue: 5,0:04:09.08,0:04:11.75,Default,,0,0,0,,Não vai derrotar uma usuária de artes\Nespirituais tão fácil assim.
+Dialogue: 5,0:04:15.67,0:04:18.42,Default,,0,0,0,,Você é bem acostumada a lutar para uma garota.
+Dialogue: 5,0:04:18.42,0:04:22.64,Default,,0,0,0,,Ora, faz tempo desde que me chamaram\Napenas de uma simples garota.
+Dialogue: 5,0:04:22.64,0:04:26.33,Default,,0,0,0,,Bom, da minha perspectiva,\Ntodo oponente é basicamente um bebê.
+Dialogue: 5,0:04:26.33,0:04:29.67,Default,,0,0,0,,Mesmo assim, você é tão forte que quase dá pena.
+Dialogue: 5,0:04:29.67,0:04:32.73,Default,,0,0,0,,Fico comovida de ser elogiada por um espírito.
+Dialogue: 5,0:04:35.55,0:04:39.39,Default,,0,0,0,,Acho que levamos a melhor\Nse a luta virar guerra de desgaste.
+Dialogue: 5,0:04:39.39,0:04:43.55,Default,,0,0,0,,Não, para um espírito, a batalha real\Né por quanto tempo ele se mantém aqui.
+Dialogue: 5,0:04:44.10,0:04:46.08,Default,,0,0,0,,É verdade! Já são quase cinco horas.
+Dialogue: 5,0:04:46.39,0:04:49.41,Default,,0,0,0,,Ah, logo quando estávamos nos divertindo tanto.\NQue tédio.
+Dialogue: 5,0:04:49.41,0:04:52.10,Default,,0,0,0,,É o que dá ser um conquistador nato.
+Dialogue: 5,0:04:52.10,0:04:54.86,Default,,0,0,0,,As garotas simplesmente não te deixam dormir.
+Dialogue: 5,0:04:54.86,0:05:00.34,Default,,0,0,0,,Mas sabe, ficar acordada até tarde faz mal\Npra pele, então vamos encerrar logo!
+Dialogue: 5,0:05:04.52,0:05:07.22,Default,,0,0,0,,Não saí jogando aquelas estacas à toa.
+Dialogue: 5,0:05:07.66,0:05:09.43,Default,,0,0,0,,Ora, então eu caí numa armadilha?
+Dialogue: 5,0:05:09.43,0:05:11.47,Default,,0,0,0,,Bons sonhos!
+Dialogue: 5,0:05:22.54,0:05:24.49,Default,,0,0,0,,Nossa, que adorável...
+Dialogue: 5,0:05:25.72,0:05:27.90,Default,,0,0,0,,Achei que fosse morrer.
+Dialogue: 5,0:05:30.40,0:05:34.44,Default,,0,0,0,,Não acho esse tipo de traço\Nmuito atraente numa garota.
+Dialogue: 5,0:05:34.44,0:05:36.15,Default,,0,0,0,,Puck, consegue continuar?
+Dialogue: 5,0:05:36.15,0:05:38.70,Default,,0,0,0,,Desculpa, estou com muito sono.
+Dialogue: 5,0:05:38.70,0:05:40.89,Default,,0,0,0,,Subestimei ela um pouco.
+Dialogue: 5,0:05:40.89,0:05:42.66,Default,,0,0,0,,Não tenho mais mana para ficar por aqui.
+Dialogue: 5,0:05:42.66,0:05:45.89,Default,,0,0,0,,Eu dou um jeito nisso, pode descansar.
+Dialogue: 5,0:05:45.89,0:05:46.51,Default,,0,0,0,,Obrigada.
+Dialogue: 5,0:05:47.77,0:05:51.62,Default,,0,0,0,,Se acontecer algo com você,\Neu vou cumprir o meu contrato.
+Dialogue: 5,0:05:51.62,0:05:56.02,Default,,0,0,0,,Se precisar mesmo, me invoque,\Nnem que tenha que usar o seu od à força.
+Dialogue: 5,0:05:57.76,0:05:59.58,Default,,0,0,0,,Já vai embora?
+Dialogue: 5,0:06:06.64,0:06:09.49,Default,,0,0,0,,Bem, isso é uma pena mesmo.
+Dialogue: 5,0:06:19.80,0:06:24.26,Default,,0,0,0,,Não dá pra ficar só parado olhando, Felt.
+Dialogue: 5,0:06:24.26,0:06:26.10,Default,,0,0,0,,É, eu sei.
+Dialogue: 5,0:06:26.10,0:06:29.54,Default,,0,0,0,,Se for fugir, a hora é agora.
+Dialogue: 5,0:06:29.54,0:06:30.70,Default,,0,0,0,,E sobre aquilo de antes...
+Dialogue: 5,0:06:31.68,0:06:32.95,Default,,0,0,0,,Acho que você meio que me salvou.
+Dialogue: 5,0:06:34.85,0:06:36.38,Default,,0,0,0,,Só um pouquinho, tá?
+Dialogue: 5,0:06:36.38,0:06:39.06,Default,,0,0,0,,Ah, é! Não me chame de criança!
+Dialogue: 5,0:06:39.06,0:06:41.07,Default,,0,0,0,,Eu tenho quinze anos, sabia?!
+Dialogue: 5,0:06:41.07,0:06:43.17,Default,,0,0,0,,Não devo ser tão mais nova que você!
+Dialogue: 5,0:06:43.17,0:06:46.06,Default,,0,0,0,,Eu faço dezoito este ano.
+Dialogue: 5,0:06:46.06,0:06:47.74,Default,,0,0,0,,Mentira! Você tem cara de moleque mimado!
+Dialogue: 5,0:06:47.74,0:06:50.06,Default,,0,0,0,,A vida pegou leve demais contigo!
+Dialogue: 5,0:07:00.10,0:07:01.60,Default,,0,0,0,,Lá vou eu!
+Dialogue: 5,0:07:01.60,0:07:04.94,Default,,0,0,0,,Ora, não é falta de educação\Ninterromper uma dança?
+Dialogue: 5,0:07:04.94,0:07:09.14,Default,,0,0,0,,Se quer dançar, vou te mostrar\Na melhor dança que você já viu!
+Dialogue: 5,0:07:13.97,0:07:16.12,Default,,0,0,0,,Lá vamos nós! Girando sem parar!
+Dialogue: 5,0:07:23.24,0:07:25.84,Default,,0,0,0,,Mas o que—
+Dialogue: 5,0:07:27.84,0:07:30.51,Default,,0,0,0,,Você é tão forte que eu consigo fazer isso!
+Dialogue: 5,0:07:30.51,0:07:31.68,Default,,0,0,0,,Nem pense nisso!
+Dialogue: 5,0:07:35.18,0:07:37.66,Default,,0,0,0,,Velho Rom!
+Dialogue: 5,0:07:41.36,0:07:42.85,Default,,0,0,0,,Que garota má.
+Dialogue: 5,0:07:44.88,0:07:47.47,Default,,0,0,0,,Você não tem nem determinação\Nnem força para lutar.
+Dialogue: 5,0:07:47.47,0:07:51.40,Default,,0,0,0,,Deveria ter ficado quietinha no canto\Ne se encolhido.
+Dialogue: 5,0:07:52.28,0:07:55.85,Default,,0,0,0,,{\i1}Não, eu não quero mesmo passar\Npor aquela dor de novo.{\i0}
+Dialogue: 5,0:07:56.28,0:07:58.30,Default,,0,0,0,,{\i1}Não quero morrer!{\i0}
+Dialogue: 5,0:07:59.25,0:08:01.31,Default,,0,0,0,,{\i1}Acho que enquanto eu ainda estiver de pé,{\i0}
+Dialogue: 5,0:08:01.87,0:08:05.31,Default,,0,0,0,,{\i1}tudo o que posso fazer é lutar com todas as forças.{\i0}
+Dialogue: 5,0:08:11.36,0:08:13.99,Default,,0,0,0,,{\fad(0,800)}Toma essa!
+Dialogue: 5,0:08:22.27,0:08:23.43,Default,,0,0,0,,Você está bem?
+Dialogue: 5,0:08:24.20,0:08:25.61,Default,,0,0,0,,Por que você...
+Dialogue: 5,0:08:25.61,0:08:29.61,Default,,0,0,0,,Escuta aqui, Felt. Vou ganhar tempo pra nós.
+Dialogue: 5,0:08:29.61,0:08:33.41,Default,,0,0,0,,Vou abrir uma brecha de algum jeito.\NQuando conseguir, corra o mais rápido que puder!
+Dialogue: 5,0:08:33.41,0:08:36.55,Default,,0,0,0,,O quê? Tá mandando eu meter o rabo\Nentre as pernas e fugir?!
+Dialogue: 5,0:08:36.55,0:08:39.62,Default,,0,0,0,,Isso mesmo! Empina a bunda,\Nenfia o rabo entre as pernas e corre!
+Dialogue: 5,0:08:39.62,0:08:41.87,Default,,0,0,0,,Você tem quinze anos, e eu dezoito.
+Dialogue: 5,0:08:41.87,0:08:44.92,Default,,0,0,0,,Ou seja, você provavelmente\Né a mais nova aqui.
+Dialogue: 5,0:08:44.92,0:08:48.25,Default,,0,0,0,,É óbvio que vamos escolher o que tiver\Na maior chance de te manter viva!
+Dialogue: 5,0:08:48.25,0:08:49.06,Default,,0,0,0,,Totalmente óbvio!
+Dialogue: 5,0:08:49.06,0:08:52.80,Default,,0,0,0,,Dá um tempo. Você estava tremendo\Nde medo há um minuto!
+Dialogue: 5,0:08:52.80,0:08:54.90,Default,,0,0,0,,Aquilo era antes. Agora é agora.
+Dialogue: 5,0:08:55.20,0:08:57.83,Default,,0,0,0,,O que importa é que agora eu não estou.
+Dialogue: 5,0:09:02.68,0:09:05.49,Default,,0,0,0,,Engole essa!
+Dialogue: 5,0:09:07.23,0:09:10.31,Default,,0,0,0,,Agora! Vai, Felt!
+Dialogue: 5,0:09:13.17,0:09:14.38,Default,,0,0,0,,Acha mesmo que vou deixá-la escapar?
+Dialogue: 5,0:09:18.63,0:09:19.89,Default,,0,0,0,,Uau, eu sou incrível!
+Dialogue: 5,0:09:19.89,0:09:22.60,Default,,0,0,0,,Mas isso doeu no dedo do pé\Nbem mais do que eu esperava.
+Dialogue: 5,0:09:32.21,0:09:35.34,Default,,0,0,0,,Veja só, você deixou alguém escapar.
+Dialogue: 5,0:09:35.34,0:09:38.55,Default,,0,0,0,,Isso despertou uma rara irritação em mim.
+Dialogue: 5,0:09:38.55,0:09:41.11,Default,,0,0,0,,Não se esqueça de mim.
+Dialogue: 5,0:09:43.52,0:09:47.09,Default,,0,0,0,,Já me cansei bastante desse joguinho.
+Dialogue: 5,0:09:47.09,0:09:49.44,Default,,0,0,0,,Acha que ainda consegue me entreter?
+Dialogue: 5,0:09:49.44,0:09:51.98,Default,,0,0,0,,Se estiver guardando alguma carta na manga,
+Dialogue: 5,0:09:51.98,0:09:54.46,Default,,0,0,0,,agora seria uma boa hora para usá-la.
+Dialogue: 5,0:09:54.99,0:09:56.45,Default,,0,0,0,,Eu até tenho um trunfo.
+Dialogue: 5,0:09:56.45,0:09:59.16,Default,,0,0,0,,Mas só eu sobraria de pé se usasse.
+Dialogue: 5,0:09:59.16,0:10:00.82,Default,,0,0,0,,Nada de autodestruição, por favor.
+Dialogue: 5,0:10:00.82,0:10:02.51,Default,,0,0,0,,Não faça nenhuma loucura, tá bom?
+Dialogue: 5,0:10:02.51,0:10:04.33,Default,,0,0,0,,Não vou usar.
+Dialogue: 5,0:10:04.33,0:10:06.39,Default,,0,0,0,,Não enquanto você ainda estiver aqui...
+Dialogue: 5,0:10:08.19,0:10:09.84,Default,,0,0,0,,se esforçando tanto.
+Dialogue: 5,0:10:13.01,0:10:15.76,Default,,0,0,0,,Nada aconteceu agora há pouco.
+Dialogue: 5,0:10:15.76,0:10:16.47,Default,,0,0,0,,Hã?
+Dialogue: 5,0:10:16.47,0:10:19.61,Default,,0,0,0,,Essa conversa inteira nunca aconteceu!
+Dialogue: 5,0:10:19.61,0:10:22.82,Default,,0,0,0,,Finalmente lembrei por que estou aqui.
+Dialogue: 5,0:10:23.09,0:10:25.24,Default,,0,0,0,,Vou acabar com você, sua desgraçada!
+Dialogue: 5,0:10:25.60,0:10:27.58,Default,,0,0,0,,Não vou deixar esse trunfo ser usado!
+Dialogue: 5,0:10:28.17,0:10:30.71,Default,,0,0,0,,Vou te mandar pelos ares e conseguir
+Dialogue: 5,0:10:33.05,0:10:35.15,Default,,0,0,0,,um final feliz!
+Dialogue: 5,0:10:36.78,0:10:39.30,Default,,0,0,0,,Parece que você ainda tem energia de sobra.
+Dialogue: 5,0:10:39.30,0:10:40.93,Default,,0,0,0,,Sua viúva-negra!
+Dialogue: 5,0:10:40.93,0:10:44.50,Default,,0,0,0,,É verdade que vocês já caíram na minha teia.
+Dialogue: 5,0:10:46.97,0:10:48.68,Default,,0,0,0,,Boa cobertura!
+Dialogue: 5,0:10:52.85,0:10:53.65,Default,,0,0,0,,Droga!
+Dialogue: 5,0:10:53.65,0:10:57.02,Default,,0,0,0,,Que tal esta aqui?!
+Dialogue: 5,0:10:58.23,0:10:59.79,Default,,0,0,0,,Peguei você.
+Dialogue: 5,0:11:06.53,0:11:07.70,Default,,0,0,0,,Já basta.
+Dialogue: 5,0:11:19.85,0:11:22.05,Default,,0,0,0,,Parece que foi por pouco,
+Dialogue: 5,0:11:22.05,0:11:23.42,Default,,0,0,0,,mas fico feliz de ter chegado a tempo.
+Dialogue: 5,0:11:24.51,0:11:25.81,Default,,0,0,0,,Agora...
+Dialogue: 5,0:11:25.81,0:11:27.27,Default,,0,0,0,,Você é...
+Dialogue: 5,0:11:29.85,0:11:32.35,Default,,0,0,0,,Vamos dar um fim nisso?
+Dialogue: 5,0:11:34.15,0:11:34.19,Default,chapter,0,0,0,,{Part B}
+Dialogue: 5,0:11:36.41,0:11:37.86,Default,,0,0,0,,Alguém!
+Dialogue: 5,0:11:38.28,0:11:39.37,Default,,0,0,0,,Qualquer um!
+Dialogue: 5,0:11:39.37,0:11:40.95,Default,,0,0,0,,Vamos, tem que ter alguém!
+Dialogue: 5,0:11:43.57,0:11:44.62,Default,,0,0,0,,Droga!
+Dialogue: 5,0:11:45.76,0:11:49.23,Default,,0,0,0,,Por favor... Por favor, alguém...
+Dialogue: 5,0:11:49.23,0:11:51.28,Default,,0,0,0,,Alguém ajude!
+Dialogue: 5,0:11:55.61,0:11:56.75,Default,,0,0,0,,Muito bem.
+Dialogue: 5,0:12:00.25,0:12:01.50,Default,,0,0,0,,Eu a ajudarei.
+Dialogue: 5,0:12:06.05,0:12:08.79,Default,,0,0,0,,Reinhard?
+Dialogue: 5,0:12:08.79,0:12:10.33,Default,,0,0,0,,De fato, Subaru.
+Dialogue: 5,0:12:10.33,0:12:12.64,Default,,0,0,0,,Nos encontramos de novo. Desculpe a demora.
+Dialogue: 5,0:12:13.90,0:12:15.79,Default,,0,0,0,,Cabelos negros, roupas negras,
+Dialogue: 5,0:12:15.79,0:12:18.36,Default,,0,0,0,,e uma lâmina exclusiva das províncias do norte.
+Dialogue: 5,0:12:18.36,0:12:21.41,Default,,0,0,0,,Não há como confundir essas características.
+Dialogue: 5,0:12:21.41,0:12:23.49,Default,,0,0,0,,Você deve ser a Caçadora de Entranhas.
+Dialogue: 5,0:12:23.49,0:12:26.71,Default,,0,0,0,,Que tipo de apelido maligno é esse?
+Dialogue: 5,0:12:26.71,0:12:30.35,Default,,0,0,0,,Vem do estilo peculiar como ela mata.
+Dialogue: 5,0:12:30.35,0:12:33.94,Default,,0,0,0,,O nome dela é conhecido por toda a capital\Ncomo uma figura perigosa.
+Dialogue: 5,0:12:33.94,0:12:35.20,Default,,0,0,0,,Reinhard...
+Dialogue: 5,0:12:35.20,0:12:39.63,Default,,0,0,0,,Sim, um cavaleiro entre os cavaleiros,\Nnascido como o Santo da Espada, correto?
+Dialogue: 5,0:12:39.63,0:12:42.84,Default,,0,0,0,,Espera que uma predadora faminta resista\Na uma presa tão nobre e suculenta?
+Dialogue: 5,0:12:43.53,0:12:45.62,Default,,0,0,0,,Há várias coisas que gostaria de lhe perguntar.
+Dialogue: 5,0:12:45.62,0:12:47.95,Default,,0,0,0,,Sugiro fortemente que se renda.
+Dialogue: 5,0:12:47.95,0:12:54.08,Default,,0,0,0,,Espera que uma predadora faminta resista\Na uma presa tão suculenta e selecionada?
+Dialogue: 5,0:12:55.13,0:12:57.46,Default,,0,0,0,,Subaru, afaste-se um pouco.
+Dialogue: 5,0:12:57.46,0:12:59.57,Default,,0,0,0,,Se puder ficar ao lado dela, agradeceria.
+Dialogue: 5,0:12:59.92,0:13:01.59,Default,,0,0,0,,Pode deixar!
+Dialogue: 5,0:13:01.59,0:13:04.11,Default,,0,0,0,,Essa mulher é praticamente um monstro,\Nentão não abaixe a guarda.
+Dialogue: 5,0:13:04.11,0:13:06.22,Default,,0,0,0,,Por sorte,
+Dialogue: 5,0:13:06.22,0:13:09.33,Default,,0,0,0,,caçar monstros é a minha especialidade.
+Dialogue: 5,0:13:13.62,0:13:15.77,Default,,0,0,0,,O Velho Rom ainda está vivo?
+Dialogue: 5,0:13:15.77,0:13:19.38,Default,,0,0,0,,Ele ainda não está fora de perigo.\NPreciso curá-lo agora.
+Dialogue: 5,0:13:19.38,0:13:20.65,Default,,0,0,0,,Quer mesmo fazer isso?
+Dialogue: 5,0:13:20.65,0:13:23.68,Default,,0,0,0,,Ele faz parte do bando que roubou sua insígnia.
+Dialogue: 5,0:13:23.68,0:13:24.89,Default,,0,0,0,,É justamente por isso.
+Dialogue: 5,0:13:24.89,0:13:28.51,Default,,0,0,0,,Ele vai me retribuir com informações\Ndepois de se recuperar.
+Dialogue: 5,0:13:29.00,0:13:32.62,Default,,0,0,0,,Ele não mentiria para quem salvou sua vida.
+Dialogue: 5,0:13:32.62,0:13:35.24,Default,,0,0,0,,Estou fazendo isto tanto por mim quanto por ele.
+Dialogue: 5,0:13:37.21,0:13:40.73,Default,,0,0,0,,Preferiria não usar violência contra uma mulher.
+Dialogue: 5,0:13:45.58,0:13:46.65,Default,,0,0,0,,Os rumores são verdadeiros.
+Dialogue: 5,0:13:46.65,0:13:47.96,Default,,0,0,0,,Não...
+Dialogue: 5,0:13:47.96,0:13:50.74,Default,,0,0,0,,Você é ainda melhor do que dizem.
+Dialogue: 5,0:13:51.03,0:13:52.99,Default,,0,0,0,,Não sei se estarei à altura de suas expectativas.
+Dialogue: 5,0:13:52.99,0:13:55.92,Default,,0,0,0,,Não vai usar aquela espada na sua cintura?
+Dialogue: 5,0:13:55.92,0:13:59.53,Default,,0,0,0,,Adoraria experimentar\No corte lendário dela.
+Dialogue: 5,0:13:59.53,0:14:02.83,Default,,0,0,0,,Esta espada só pode ser sacada\Nquando é necessário.
+Dialogue: 5,0:14:02.83,0:14:05.49,Default,,0,0,0,,O fato de não ter saído da bainha
+Dialogue: 5,0:14:05.49,0:14:07.49,Default,,0,0,0,,significa que este não é um desses momentos.
+Dialogue: 5,0:14:07.49,0:14:09.79,Default,,0,0,0,,Creio que fui subestimada.
+Dialogue: 5,0:14:09.79,0:14:13.28,Default,,0,0,0,,Bom, é um julgamento frustrante para mim também.
+Dialogue: 5,0:14:13.28,0:14:14.79,Default,,0,0,0,,Portanto,
+Dialogue: 5,0:14:14.79,0:14:16.64,Default,,0,0,0,,vou enfrentá-la com isto no lugar.
+Dialogue: 5,0:14:19.48,0:14:20.35,Default,,0,0,0,,Tem alguma objeção?
+Dialogue: 5,0:14:20.35,0:14:22.55,Default,,0,0,0,,Não, é maravilhoso.
+Dialogue: 5,0:14:22.55,0:14:23.97,Default,,0,0,0,,Realmente maravilhoso!
+Dialogue: 5,0:14:23.97,0:14:25.48,Default,,0,0,0,,Por favor, me divirta bastante.
+Dialogue: 5,0:14:31.75,0:14:34.45,Default,,0,0,0,,Agora que perdeu sua arma,\Nsugiro fortemente que se renda.
+Dialogue: 5,0:14:36.33,0:14:38.87,Default,,0,0,0,,Ela tem uma segunda lâmina, Reinhard!
+Dialogue: 5,0:14:42.05,0:14:43.09,Default,,0,0,0,,Que surpresa você saber disso.
+Dialogue: 5,0:14:43.45,0:14:45.09,Default,,0,0,0,,Aprendi do jeito mais difícil.
+Dialogue: 5,0:14:45.91,0:14:48.89,Default,,0,0,0,,Mas eu não tenho apenas duas presas.
+Dialogue: 5,0:14:48.89,0:14:51.41,Default,,0,0,0,,Importa-se se começarmos de novo?
+Dialogue: 5,0:14:51.41,0:14:55.00,Default,,0,0,0,,Ficaria satisfeita se eu a desarmasse\Nde todas as suas armas?
+Dialogue: 5,0:14:55.00,0:14:57.06,Default,,0,0,0,,Se perder minhas presas, usarei minhas garras.
+Dialogue: 5,0:14:57.39,0:14:59.54,Default,,0,0,0,,Se perder minhas garras, usarei meus ossos.
+Dialogue: 5,0:14:59.54,0:15:01.58,Default,,0,0,0,,E se perder meus ossos, usarei minha própria vida.
+Dialogue: 5,0:15:01.95,0:15:03.99,Default,,0,0,0,,É assim que a Caçadora de Entranhas luta.
+Dialogue: 5,0:15:05.65,0:15:10.11,Default,,0,0,0,,O Reinhard não vai errar o golpe\Ndecisivo, vai?
+Dialogue: 5,0:15:10.42,0:15:14.95,Default,,0,0,0,,Ele não pode lutar com força total\Nenquanto eu estiver usando artes espirituais.
+Dialogue: 5,0:15:14.95,0:15:16.55,Default,,0,0,0,,O que uma coisa tem a ver com a outra?
+Dialogue: 5,0:15:16.55,0:15:19.13,Default,,0,0,0,,Se Reinhard lutasse mesmo a sério,
+Dialogue: 5,0:15:19.13,0:15:22.00,Default,,0,0,0,,toda a mana da atmosfera\Nse afastaria de mim.
+Dialogue: 5,0:15:22.94,0:15:24.75,Default,,0,0,0,,Estou quase terminando de curá-lo.
+Dialogue: 5,0:15:24.75,0:15:27.00,Default,,0,0,0,,Quando eu der o sinal, avise a ele.
+Dialogue: 5,0:15:32.70,0:15:34.67,Default,,0,0,0,,Ele já está bem. Pode ir!
+Dialogue: 5,0:15:34.67,0:15:37.76,Default,,0,0,0,,Reinhard! Não entendi direito, mas manda ver!
+Dialogue: 5,0:15:40.11,0:15:42.34,Default,,0,0,0,,O que vai me mostrar?
+Dialogue: 5,0:15:42.34,0:15:44.27,Default,,0,0,0,,A esgrima da família Astrea.
+Dialogue: 5,0:15:50.97,0:15:54.45,Default,,0,0,0,,Elsa Granhiert, a Caçadora de Entranhas.
+Dialogue: 5,0:15:55.24,0:15:59.34,Default,,0,0,0,,Reinhard van Astrea, o Santo da Espada.
+Dialogue: 5,0:16:19.97,0:16:23.31,Default,,0,0,0,,Eita, eita, eita!
+Dialogue: 5,0:16:35.81,0:16:38.66,Default,,0,0,0,,"Caçar monstros é minha especialidade", uma ova!
+Dialogue: 5,0:16:38.94,0:16:41.56,Default,,0,0,0,,Você é que é um monstro!
+Dialogue: 5,0:16:41.56,0:16:45.19,Default,,0,0,0,,Até eu fico meio magoado com um comentário\Ndesses, Subaru.
+Dialogue: 5,0:16:46.85,0:16:48.70,Default,,0,0,0,,Desculpe ter forçado tanto você.
+Dialogue: 5,0:16:49.12,0:16:50.46,Default,,0,0,0,,Descanse bem agora.
+Dialogue: 5,0:16:50.96,0:16:53.98,Default,,0,0,0,,Não sobrou nem sombra, que dirá o corpo.
+Dialogue: 5,0:16:53.98,0:16:56.57,Default,,0,0,0,,Tudo isso foi feito com um único golpe?
+Dialogue: 5,0:16:56.57,0:16:58.04,Default,,0,0,0,,Acabou agora?
+Dialogue: 5,0:16:58.04,0:16:58.75,Default,,0,0,0,,Sim.
+Dialogue: 5,0:16:59.27,0:17:01.25,Default,,0,0,0,,Não faço ideia de como, mas acho que sim.
+Dialogue: 5,0:17:02.13,0:17:05.94,Default,,0,0,0,,Por que está me encarando assim?\NIsso é bem indelicado.
+Dialogue: 5,0:17:05.94,0:17:10.59,Default,,0,0,0,,É que seus braços, pernas e até a cabeça\Ncontinuam no lugar.
+Dialogue: 5,0:17:10.59,0:17:14.21,Default,,0,0,0,,Claro que continuam.\NNão diga coisas tão assustadoras.
+Dialogue: 5,0:17:14.21,0:17:16.81,Default,,0,0,0,,É, tem razão. Por que não estariam?
+Dialogue: 5,0:17:16.81,0:17:18.43,Default,,0,0,0,,Eu também ainda tenho meus braços.
+Dialogue: 5,0:17:18.43,0:17:22.41,Default,,0,0,0,,E não tem faca nas minhas costas,\Nnem um rombo na minha barriga.
+Dialogue: 5,0:17:22.62,0:17:26.57,Default,,0,0,0,,Você fala como se já tivesse\Npassado por essas coisas antes.
+Dialogue: 5,0:17:26.57,0:17:29.00,Default,,0,0,0,,Houve um tempo em que passei.
+Dialogue: 5,0:17:29.00,0:17:31.86,Default,,0,0,0,,Ah, é, Reinhard. Ainda não te agradeci.
+Dialogue: 5,0:17:31.86,0:17:33.29,Default,,0,0,0,,Você salvou a minha pele!
+Dialogue: 5,0:17:33.29,0:17:35.00,Default,,0,0,0,,Lá no beco também.
+Dialogue: 5,0:17:35.00,0:17:37.72,Default,,0,0,0,,Acho que ouviu os gritos do meu coração\Npedindo ajuda, meu grande amigo!
+Dialogue: 5,0:17:38.01,0:17:41.21,Default,,0,0,0,,Certamente teria orgulho se fosse isso,
+Dialogue: 5,0:17:41.21,0:17:42.39,Default,,0,0,0,,meu amigo.
+Dialogue: 5,0:17:43.04,0:17:46.06,Default,,0,0,0,,Enquanto corria desesperada pelas ruas,
+Dialogue: 5,0:17:46.06,0:17:48.52,Default,,0,0,0,,sua companheira ali esbarrou comigo\Ne pediu minha ajuda.
+Dialogue: 5,0:17:48.98,0:17:50.40,Default,,0,0,0,,Ela...
+Dialogue: 5,0:17:50.40,0:17:52.05,Default,,0,0,0,,Espera aí...
+Dialogue: 5,0:17:52.05,0:17:56.01,Default,,0,0,0,,A gente seria um monte de tripas agora\Nse ela não tivesse trazido o Reinhard.
+Dialogue: 5,0:17:56.01,0:18:00.14,Default,,0,0,0,,Olhe bem pra minha cara e repense\Na punição da estátua de gelo, tá?
+Dialogue: 5,0:18:00.14,0:18:01.74,Default,,0,0,0,,Eu não faria algo tão violento!
+Dialogue: 5,0:18:02.04,0:18:04.25,Default,,0,0,0,,E o que sua cara tem a ver com—
+Dialogue: 5,0:18:04.83,0:18:05.28,Default,,0,0,0,,Subaru!
+Dialogue: 5,0:18:14.88,0:18:18.55,Default,,0,0,0,,Ela vai mirar na barriga!
+Dialogue: 5,0:18:20.95,0:18:22.45,Default,,0,0,0,,Esse garoto se meteu no meu caminho de novo.
+Dialogue: 5,0:18:22.45,0:18:23.68,Default,,0,0,0,,Já chega, Elsa!
+Dialogue: 5,0:18:27.27,0:18:31.50,Default,,0,0,0,,Muito em breve, estriparei todos os presentes.
+Dialogue: 5,0:18:33.55,0:18:37.20,Default,,0,0,0,,Até lá, cuidem bem de suas entranhas.
+Dialogue: 5,0:18:38.70,0:18:39.99,Default,,0,0,0,,Você está ileso?
+Dialogue: 5,0:18:40.68,0:18:42.77,Default,,0,0,0,,Meu estado não é o problema agora!
+Dialogue: 5,0:18:42.77,0:18:43.70,Default,,0,0,0,,Mais importante,
+Dialogue: 5,0:18:43.70,0:18:45.19,Default,,0,0,0,,você está bem?
+Dialogue: 0,0:18:45.19,0:18:46.75,Default,,0,0,0,,Isso foi imprudente demais!
+Dialogue: 5,0:18:47.06,0:18:49.45,Default,,0,0,0,,Não foi nada. Sério.
+Dialogue: 5,0:18:49.45,0:18:53.92,Default,,0,0,0,,Foi uma jornada longa e difícil,\Nmas finalmente cheguei até aqui.
+Dialogue: 5,0:18:55.08,0:18:57.27,Default,,0,0,0,,Meu nome é Subaru Natsuki!
+Dialogue: 5,0:18:57.27,0:19:01.24,Default,,0,0,0,,E eu acabei de salvar sua vida de uma vilã cruel!
+Dialogue: 5,0:19:01.24,0:19:02.43,Default,,0,0,0,,Tudo OK com isso?
+Dialogue: 5,0:19:03.54,0:19:04.89,Default,,0,0,0,,"OK"?
+Dialogue: 5,0:19:04.89,0:19:07.21,Default,,0,0,0,,Significa "Estamos entendidos?". Então...
+Dialogue: 5,0:19:07.21,0:19:07.80,Default,,0,0,0,,O{\alpha&HFF&}K?
+Dialogue: 5,0:19:07.80,0:19:08.80,Default,,0,0,0,,OK?
+Dialogue: 5,0:19:08.80,0:19:10.06,Default,,0,0,0,,O-OK...
+Dialogue: 5,0:19:10.63,0:19:12.86,Default,,0,0,0,,Eu sou o herói que salvou sua vida!
+Dialogue: 5,0:19:12.86,0:19:15.20,Default,,0,0,0,,E você é a heroína que eu salvei!
+Dialogue: 5,0:19:15.20,0:19:18.57,Default,,0,0,0,,Então isso não significa que deveria\Nme recompensar à altura? Não acha?
+Dialogue: 5,0:19:18.95,0:19:20.76,Default,,0,0,0,,Tudo bem, eu entendi.
+Dialogue: 5,0:19:20.76,0:19:23.99,Default,,0,0,0,,Só se estiver ao meu alcance, claro.
+Dialogue: 5,0:19:23.99,0:19:28.00,Default,,0,0,0,,Nesse caso, tenho apenas um pedido!
+Dialogue: 5,0:19:28.23,0:19:30.75,Default,,0,0,0,,E o meu pedido é...
+Dialogue: 5,0:19:36.20,0:19:38.46,Default,,0,0,0,,Por favor, me diga o seu nome.
+Dialogue: 5,0:19:41.43,0:19:42.44,Default,,0,0,0,,Emilia.
+Dialogue: 5,0:19:42.44,0:19:43.23,Default,,0,0,0,,Hã?
+Dialogue: 5,0:19:44.90,0:19:49.10,Default,,0,0,0,,Meu nome é Emilia. Apenas Emilia.
+Dialogue: 5,0:19:49.10,0:19:50.65,Default,,0,0,0,,Obrigada, Subaru.
+Dialogue: 5,0:19:51.70,0:19:53.57,Default,,0,0,0,,Obrigada por me salvar.
+Dialogue: 5,0:19:57.78,0:20:00.99,Default,,0,0,0,,{\i1}Por todos os ferimentos, todo o choro,{\i0}
+Dialogue: 5,0:20:00.99,0:20:04.70,Default,,0,0,0,,{\t(3150,3692,1.2,\3c&HFFFFFF&)}{\i1}toda a dor que senti e todas as lutas\Narriscando a minha vida...{\i0}
+Dialogue: 5,0:20:05.52,0:20:08.97,Default,,0,0,0,,{\i1}Minhas únicas recompensas foram o nome dela\Ne um único sorriso.{\i0}
+Dialogue: 5,0:20:10.68,0:20:12.08,Default,,0,0,0,,Caramba...
+Dialogue: 5,0:20:12.08,0:20:13.95,Default,,0,0,0,,Fala sério, que recompensa desigual.
+Dialogue: 5,0:20:18.29,0:20:21.28,Default,,0,0,0,,Enfim, Subaru, é impressionante\Nque você esteja ileso.
+Dialogue: 5,0:20:21.28,0:20:23.85,Default,,0,0,0,,Bloqueei com aquela coisa na hora certa.
+Dialogue: 5,0:20:23.85,0:20:26.75,Default,,0,0,0,,Se não fosse por isso,\Neu estaria partido ao meio agora.
+Dialogue: 5,0:20:26.75,0:20:29.18,Default,,0,0,0,,Verdade, se não fosse por isto...
+Dialogue: 5,0:20:29.73,0:20:30.65,Default,,0,0,0,,Hã?
+Dialogue: 5,0:20:34.84,0:20:35.70,Default,,0,0,0,,Ih, deu ruim.
+Dialogue: 5,0:20:36.19,0:20:38.94,Default,,0,0,0,,Eu devia ter imaginado isso.
+Dialogue: 5,0:20:39.84,0:20:40.93,Default,,0,0,0,,Subaru?
+Dialogue: 5,0:20:41.67,0:20:42.82,Default,,0,0,0,,Subaru!
+Dialogue: 5,0:20:45.89,0:20:47.16,Default,,0,0,0,,{\i1}Nossa...{\i0}
+Dialogue: 5,0:20:47.74,0:20:51.00,Default,,0,0,0,,{\i1}Ela é tão fofa até quando entra em pânico.{\i0}
+Dialogue: 5,0:20:51.71,0:20:54.10,Default,,0,0,0,,{\i1}Um mundo de fantasia...{\i0}
+Dialogue: 5,0:20:57.50,0:20:59.83,Default,,0,0,0,,Pronto. O tratamento dele terminou.
+Dialogue: 5,0:20:59.83,0:21:01.70,Default,,0,0,0,,Ele já deve estar fora de perigo agora.
+Dialogue: 5,0:21:01.70,0:21:06.29,Default,,0,0,0,,A propósito, Emilia-sama,\Nqual é a sua relação com o Subaru?
+Dialogue: 5,0:21:07.78,0:21:09.04,Default,,0,0,0,,Um conhecido de passagem?
+Dialogue: 5,0:21:10.15,0:21:13.08,Default,,0,0,0,,Não me lembro de tê-lo visto antes de hoje.
+Dialogue: 5,0:21:13.08,0:21:16.50,Default,,0,0,0,,Até onde sei, nos conhecemos hoje mais cedo.
+Dialogue: 5,0:21:16.50,0:21:19.47,Default,,0,0,0,,Mas ele estava procurando por você.
+Dialogue: 5,0:21:19.47,0:21:21.53,Default,,0,0,0,,Disse que tinha algo para lhe entregar.
+Dialogue: 5,0:21:21.53,0:21:23.40,Default,,0,0,0,,É isso que torna tudo tão estranho.
+Dialogue: 5,0:21:23.93,0:21:26.24,Default,,0,0,0,,O que faremos com ele?
+Dialogue: 5,0:21:26.24,0:21:29.60,Default,,0,0,0,,Seria um prazer levá-lo para casa como hóspede.
+Dialogue: 5,0:21:29.60,0:21:32.56,Default,,0,0,0,,Não, eu o levarei comigo.
+Dialogue: 5,0:21:32.56,0:21:35.08,Default,,0,0,0,,Assim, posso descobrir o que realmente está havendo.
+Dialogue: 5,0:21:35.58,0:21:37.09,Default,,0,0,0,,Mas o mais importante:
+Dialogue: 5,0:21:37.09,0:21:40.11,Default,,0,0,0,,o que vai acontecer com aquela garota e o velho?
+Dialogue: 5,0:21:40.11,0:21:44.07,Default,,0,0,0,,Oficialmente, não posso ignorar o que fizeram.
+Dialogue: 5,0:21:44.60,0:21:45.76,Default,,0,0,0,,Porém...
+Dialogue: 5,0:21:46.20,0:21:49.01,Default,,0,0,0,,Infelizmente, estou de folga hoje.
+Dialogue: 5,0:21:50.66,0:21:52.26,Default,,0,0,0,,Que péssimo cavaleiro.
+Dialogue: 5,0:21:55.70,0:21:58.48,Default,,0,0,0,,Aquele senhor é sua família?
+Dialogue: 5,0:21:59.14,0:22:00.97,Default,,0,0,0,,Algo assim.
+Dialogue: 5,0:22:00.97,0:22:03.84,Default,,0,0,0,,O Velho Rom é tudo o que eu tenho.
+Dialogue: 5,0:22:05.18,0:22:07.20,Default,,0,0,0,,Acho que ele é como meu avô.
+Dialogue: 5,0:22:07.53,0:22:11.51,Default,,0,0,0,,Entendo. Eu também só tenho um familiar.
+Dialogue: 5,0:22:11.51,0:22:14.19,Default,,0,0,0,,Mas ele sempre dorme quando mais importa.
+Dialogue: 5,0:22:14.19,0:22:17.08,Default,,0,0,0,,Não que eu vá dizer isso com ele acordado.
+Dialogue: 5,0:22:18.16,0:22:20.92,Default,,0,0,0,,Achei que você fosse ser bem mais dura comigo.
+Dialogue: 5,0:22:20.92,0:22:22.04,Default,,0,0,0,,Desculpa.
+Dialogue: 5,0:22:22.88,0:22:26.57,Default,,0,0,0,,Você salvou minha vida,\Ne eu não deixo dívida sem pagar.
+Dialogue: 5,0:22:26.57,0:22:28.17,Default,,0,0,0,,Vou devolver o que roubei.
+Dialogue: 5,0:22:28.99,0:22:31.29,Default,,0,0,0,,Se é {\i1}tão{\i0} importante assim, deixe bem escondido,
+Dialogue: 5,0:22:31.29,0:22:32.57,Default,,0,0,0,,para não ser roubada de novo.
+Dialogue: 5,0:22:32.57,0:22:36.22,Default,,0,0,0,,É engraçado ouvir isso justamente de você.
+Dialogue: 5,0:22:40.39,0:22:41.72,Default,,0,0,0,,Reinhard?
+Dialogue: 5,0:22:41.72,0:22:44.02,Default,,0,0,0,,Tá me machucando! Me solta!
+Dialogue: 5,0:22:45.78,0:22:47.03,Default,,0,0,0,,Como isso é possível?
+Dialogue: 5,0:22:47.03,0:22:48.42,Default,,0,0,0,,Qual é o seu nome?
+Dialogue: 5,0:22:48.42,0:22:50.43,Default,,0,0,0,,É... É Felt, por quê?
+Dialogue: 5,0:22:50.43,0:22:53.16,Default,,0,0,0,,E seu sobrenome? Quantos anos você tem?
+Dialogue: 5,0:22:53.16,0:22:56.35,Default,,0,0,0,,Não tenho nada chique como um sobrenome!
+Dialogue: 5,0:22:56.35,0:22:59.21,Default,,0,0,0,,Tenho... uns quinze, eu acho.
+Dialogue: 5,0:22:59.21,0:23:00.78,Default,,0,0,0,,Não sei meu aniversário.
+Dialogue: 5,0:23:00.78,0:23:02.26,Default,,0,0,0,,Olha, só me solta!
+Dialogue: 5,0:23:02.26,0:23:06.43,Default,,0,0,0,,Emilia-sama, temo que não poderei\Ncumprir minha promessa com você.
+Dialogue: 5,0:23:06.43,0:23:09.45,Default,,0,0,0,,Terei que levar esta garota comigo.
+Dialogue: 5,0:23:09.45,0:23:11.27,Default,,0,0,0,,Posso perguntar por quê?
+Dialogue: 5,0:23:11.27,0:23:13.70,Default,,0,0,0,,Se for por ter roubado minha insígnia...
+Dialogue: 5,0:23:13.70,0:23:15.97,Default,,0,0,0,,De fato, não é um crime pequeno.
+Dialogue: 5,0:23:16.57,0:23:22.10,Default,,0,0,0,,Mas perto da gravidade de ignorar o crime\Nque se revela diante de mim, isso é trivial.
+Dialogue: 5,0:23:22.81,0:23:24.35,Default,,0,0,0,,Preciso que venha comigo.
+Dialogue: 5,0:23:24.35,0:23:26.51,Default,,0,0,0,,Lamento, mas não posso permitir que recuse.
+Dialogue: 5,0:23:26.51,0:23:27.49,Default,,0,0,0,,Não se ache tanto!
+Dialogue: 5,0:23:27.49,0:23:30.16,Default,,0,0,0,,Só porque me ajudou não quer dizer—
+Dialogue: 5,0:23:31.51,0:23:33.62,Default,,0,0,0,,Isso também não foi muito cortês.
+Dialogue: 5,0:23:34.12,0:23:36.10,Default,,0,0,0,,Tive cuidado para não usar força demais.
+Dialogue: 5,0:23:36.10,0:23:40.31,Default,,0,0,0,,Emilia-sama, provavelmente será convocada em breve.
+Dialogue: 5,0:23:41.06,0:23:42.21,Default,,0,0,0,,Espero que compreenda.
+Dialogue: 5,0:23:43.73,0:23:46.73,Default,,0,0,0,,Por favor, cuide bem do Subaru.
+Dialogue: 5,0:23:53.72,0:23:59.31,Default,,0,0,0,,{\fad(0,769)}Talvez hoje seja a última chance\Nque temos de olhar com calma para a lua.
+Dialogue: 0,0:24:03.08,0:24:06.09,Signs,Title,0,0,0,,Começando a Vida do Zero
+Dialogue: 0,0:24:03.08,0:24:06.09,Signs,Title,0,0,0,,em Outro Mundo

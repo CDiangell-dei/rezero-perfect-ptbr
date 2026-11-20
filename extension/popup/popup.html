@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Re:ZERO Perfect Run — Legendas PT-BR</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="../icons/icon-48.png" alt="" width="28" height="28" class="brand-icon">
+      <div>
+        <h1 class="brand-title">Re:ZERO Perfect Run</h1>
+        <p class="brand-sub">Legendas em Português (BR)</p>
+      </div>
+    </div>
+    <span id="catalog-badge" class="badge" title="Episódios traduzidos no pacote">0/60</span>
+  </header>
+
+  <main id="main-content" class="main">
+    <section id="offsite-card" class="card is-hidden">
+      <p class="muted">
+        Abra uma página de arco em <strong>rezeroperfect.run</strong> (ex.: <code>/arc-1</code>) para ativar ou testar as legendas PT-BR no player.
+      </p>
+      <button type="button" id="open-site-btn" class="btn btn-primary btn-full">
+        Abrir Arcos no Site
+      </button>
+    </section>
+
+    <div id="onsite-panel" class="stack is-hidden">
+      <section id="cc-warning-card" class="card card-warning is-hidden" role="alert">
+        <p class="warning-text">
+          As legendas em inglês queimadas no vídeo (<strong>CC</strong>) estão ativadas no site e podem ficar por baixo da legenda PT-BR.
+        </p>
+        <button type="button" id="turn-off-cc-btn" class="btn btn-warning btn-full">
+          Desligar legenda EN e recarregar
+        </button>
+      </section>
+
+      <section class="card">
+        <div class="card-row">
+          <span id="arc-label" class="section-label">Arco</span>
+          <span id="ep-status-pill" class="pill pill-muted">Sem legenda</span>
+        </div>
+        <label class="field-label" for="episode-select">Episódio selecionado</label>
+        <select id="episode-select" class="select-input"></select>
+        <p id="ep-meta" class="meta-line"></p>
+      </section>
+
+      <section class="card stack-sm">
+        <label class="check-label" for="toggle-enabled">
+          <input type="checkbox" id="toggle-enabled" class="rz-check">
+          <span>Ativar legendas PT-BR</span>
+        </label>
+        <label class="check-label" for="toggle-signs">
+          <input type="checkbox" id="toggle-signs" class="rz-check">
+          <span>Mostrar placas e notas (signs)</span>
+        </label>
+        <label class="check-label" for="toggle-karaoke">
+          <input type="checkbox" id="toggle-karaoke" class="rz-check">
+          <span>Mostrar karaokê (OP/ED Romaji)</span>
+        </label>
+      </section>
+
+      <section class="card stack-sm">
+        <div class="card-row">
+          <span class="section-label">Legenda local (teste ou override)</span>
+        </div>
+        <div class="file-actions">
+          <label class="btn btn-secondary file-btn" for="local-sub-input">
+            Carregar .ass / .srt / .vtt
+          </label>
+          <input type="file" id="local-sub-input" accept=".ass,.ssa,.srt,.vtt,.json" class="visually-hidden">
+          <button type="button" id="clear-local-btn" class="btn btn-ghost is-hidden">Remover</button>
+        </div>
+        <p id="local-file-status" class="meta-line">Nenhuma legenda local carregada para este episódio.</p>
+      </section>
+
+      <section class="card stack-sm">
+        <span class="section-label">Aparência e Sincronia</span>
+
+        <div class="slider-group">
+          <div class="slider-head">
+            <label for="font-scale-range">Tamanho da fonte</label>
+            <span id="font-scale-val" class="val-readout">100%</span>
+          </div>
+          <input type="range" id="font-scale-range" min="70" max="160" step="5" value="100">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-head">
+            <label for="bg-opacity-range">Opacidade do fundo</label>
+            <span id="bg-opacity-val" class="val-readout">68%</span>
+          </div>
+          <input type="range" id="bg-opacity-range" min="0" max="100" step="5" value="68">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-head">
+            <label for="bottom-offset-range">Altura inferior</label>
+            <span id="bottom-offset-val" class="val-readout">5%</span>
+          </div>
+          <input type="range" id="bottom-offset-range" min="2" max="20" step="1" value="5">
+        </div>
+
+        <div class="sync-group">
+          <label class="field-label" for="delay-ms-input">Sincronia (ms)</label>
+          <div class="sync-controls">
+            <button type="button" id="delay-minus-btn" class="btn btn-mini">-100ms</button>
+            <input type="number" id="delay-ms-input" min="-5000" max="5000" step="50" value="0" class="num-input">
+            <button type="button" id="delay-plus-btn" class="btn btn-mini">+100ms</button>
+            <button type="button" id="delay-reset-btn" class="btn btn-ghost btn-mini">0</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <p id="feedback-msg" class="feedback is-hidden" role="status"></p>
+  </main>
+
+  <footer class="footer">
+    <span>Atalhos: <code>Alt+S</code> ligar/desligar • <code>Alt+[</code> / <code>Alt+]</code> sincronia</span>
+  </footer>
+
+  <script src="../content/subtitle-parser.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

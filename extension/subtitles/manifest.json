@@ -1,0 +1,959 @@
+{
+  "version": 1,
+  "language": "pt-BR",
+  "generatedAt": "2026-11-20T22:42:45.783828+00:00",
+  "totalEpisodes": 60,
+  "availableEpisodes": 2,
+  "arcs": [
+    {
+      "id": "arc01",
+      "number": 1,
+      "title": "The Tumultuous First Day",
+      "animeEpisodes": "S1 [1–3]",
+      "episodes": [
+        {
+          "episodeKey": "arc01-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc01/ep01.json",
+          "available": true,
+          "cueCount": 406,
+          "updatedAt": "2026-11-20T22:42:45.424241+00:00"
+        },
+        {
+          "episodeKey": "arc01-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc01/ep02.json",
+          "available": true,
+          "cueCount": 414,
+          "updatedAt": "2026-11-20T22:42:45.783623+00:00"
+        }
+      ]
+    },
+    {
+      "id": "arc02",
+      "number": 2,
+      "title": "The Turbulent Week",
+      "animeEpisodes": "S1 [4–11], OVA: Memory Snow",
+      "episodes": [
+        {
+          "episodeKey": "arc02-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc02/ep01.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc02-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc02/ep02.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc02-ep03",
+          "epSlug": "ep03",
+          "episode": "3",
+          "aliases": [
+            "3",
+            "ep03",
+            "EP 3"
+          ],
+          "label": "EP 3",
+          "file": "subtitles/arc02/ep03.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc02-ep04",
+          "epSlug": "ep04",
+          "episode": "4",
+          "aliases": [
+            "4",
+            "ep04",
+            "EP 4"
+          ],
+          "label": "EP 4",
+          "file": "subtitles/arc02/ep04.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc02-memory-snow",
+          "epSlug": "memory-snow",
+          "episode": "memory-snow",
+          "aliases": [
+            "5",
+            "ova",
+            "memory-snow",
+            "memory snow",
+            "Movie: Memory Snow"
+          ],
+          "label": "Movie: Memory Snow",
+          "file": "subtitles/arc02/memory-snow.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "arc03",
+      "number": 3,
+      "title": "Return to the Royal Capital",
+      "animeEpisodes": "S1 [12–25], S2 [1]",
+      "episodes": [
+        {
+          "episodeKey": "arc03-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc03/ep01.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc03/ep02.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep03",
+          "epSlug": "ep03",
+          "episode": "3",
+          "aliases": [
+            "3",
+            "ep03",
+            "EP 3"
+          ],
+          "label": "EP 3",
+          "file": "subtitles/arc03/ep03.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep04",
+          "epSlug": "ep04",
+          "episode": "4",
+          "aliases": [
+            "4",
+            "ep04",
+            "EP 4"
+          ],
+          "label": "EP 4",
+          "file": "subtitles/arc03/ep04.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep05",
+          "epSlug": "ep05",
+          "episode": "5",
+          "aliases": [
+            "5",
+            "ep05",
+            "EP 5"
+          ],
+          "label": "EP 5",
+          "file": "subtitles/arc03/ep05.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep06",
+          "epSlug": "ep06",
+          "episode": "6",
+          "aliases": [
+            "6",
+            "ep06",
+            "EP 6"
+          ],
+          "label": "EP 6",
+          "file": "subtitles/arc03/ep06.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep07",
+          "epSlug": "ep07",
+          "episode": "7",
+          "aliases": [
+            "7",
+            "ep07",
+            "EP 7"
+          ],
+          "label": "EP 7",
+          "file": "subtitles/arc03/ep07.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep08",
+          "epSlug": "ep08",
+          "episode": "8",
+          "aliases": [
+            "8",
+            "ep08",
+            "EP 8"
+          ],
+          "label": "EP 8",
+          "file": "subtitles/arc03/ep08.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc03-ep09",
+          "epSlug": "ep09",
+          "episode": "9",
+          "aliases": [
+            "9",
+            "ep09",
+            "EP 9"
+          ],
+          "label": "EP 9",
+          "file": "subtitles/arc03/ep09.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "arc04",
+      "number": 4,
+      "title": "The Everlasting Contract",
+      "animeEpisodes": "S2 [2–25]",
+      "episodes": [
+        {
+          "episodeKey": "arc04-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc04/ep01.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc04/ep02.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep03",
+          "epSlug": "ep03",
+          "episode": "3",
+          "aliases": [
+            "3",
+            "ep03",
+            "EP 3"
+          ],
+          "label": "EP 3",
+          "file": "subtitles/arc04/ep03.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep04",
+          "epSlug": "ep04",
+          "episode": "4",
+          "aliases": [
+            "4",
+            "ep04",
+            "EP 4"
+          ],
+          "label": "EP 4",
+          "file": "subtitles/arc04/ep04.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep05",
+          "epSlug": "ep05",
+          "episode": "5",
+          "aliases": [
+            "5",
+            "ep05",
+            "EP 5"
+          ],
+          "label": "EP 5",
+          "file": "subtitles/arc04/ep05.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep06",
+          "epSlug": "ep06",
+          "episode": "6",
+          "aliases": [
+            "6",
+            "ep06",
+            "EP 6"
+          ],
+          "label": "EP 6",
+          "file": "subtitles/arc04/ep06.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep07",
+          "epSlug": "ep07",
+          "episode": "7",
+          "aliases": [
+            "7",
+            "ep07",
+            "EP 7"
+          ],
+          "label": "EP 7",
+          "file": "subtitles/arc04/ep07.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep08",
+          "epSlug": "ep08",
+          "episode": "8",
+          "aliases": [
+            "8",
+            "ep08",
+            "EP 8"
+          ],
+          "label": "EP 8",
+          "file": "subtitles/arc04/ep08.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep09",
+          "epSlug": "ep09",
+          "episode": "9",
+          "aliases": [
+            "9",
+            "ep09",
+            "EP 9"
+          ],
+          "label": "EP 9",
+          "file": "subtitles/arc04/ep09.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep10",
+          "epSlug": "ep10",
+          "episode": "10",
+          "aliases": [
+            "10",
+            "ep10",
+            "EP 10"
+          ],
+          "label": "EP 10",
+          "file": "subtitles/arc04/ep10.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep11",
+          "epSlug": "ep11",
+          "episode": "11",
+          "aliases": [
+            "11",
+            "ep11",
+            "EP 11"
+          ],
+          "label": "EP 11",
+          "file": "subtitles/arc04/ep11.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep12",
+          "epSlug": "ep12",
+          "episode": "12",
+          "aliases": [
+            "12",
+            "ep12",
+            "EP 12"
+          ],
+          "label": "EP 12",
+          "file": "subtitles/arc04/ep12.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep13",
+          "epSlug": "ep13",
+          "episode": "13",
+          "aliases": [
+            "13",
+            "ep13",
+            "EP 13"
+          ],
+          "label": "EP 13",
+          "file": "subtitles/arc04/ep13.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep14",
+          "epSlug": "ep14",
+          "episode": "14",
+          "aliases": [
+            "14",
+            "ep14",
+            "EP 14"
+          ],
+          "label": "EP 14",
+          "file": "subtitles/arc04/ep14.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep15",
+          "epSlug": "ep15",
+          "episode": "15",
+          "aliases": [
+            "15",
+            "ep15",
+            "EP 15"
+          ],
+          "label": "EP 15",
+          "file": "subtitles/arc04/ep15.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep16",
+          "epSlug": "ep16",
+          "episode": "16",
+          "aliases": [
+            "16",
+            "ep16",
+            "EP 16"
+          ],
+          "label": "EP 16",
+          "file": "subtitles/arc04/ep16.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc04-ep17",
+          "epSlug": "ep17",
+          "episode": "17",
+          "aliases": [
+            "17",
+            "ep17",
+            "EP 17"
+          ],
+          "label": "EP 17",
+          "file": "subtitles/arc04/ep17.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "arc05",
+      "number": 5,
+      "title": "The Stars That Engrave History",
+      "animeEpisodes": "S3 [1–16]",
+      "episodes": [
+        {
+          "episodeKey": "arc05-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc05/ep01.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc05/ep02.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep03",
+          "epSlug": "ep03",
+          "episode": "3",
+          "aliases": [
+            "3",
+            "ep03",
+            "EP 3"
+          ],
+          "label": "EP 3",
+          "file": "subtitles/arc05/ep03.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep04",
+          "epSlug": "ep04",
+          "episode": "4",
+          "aliases": [
+            "4",
+            "ep04",
+            "EP 4"
+          ],
+          "label": "EP 4",
+          "file": "subtitles/arc05/ep04.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep05",
+          "epSlug": "ep05",
+          "episode": "5",
+          "aliases": [
+            "5",
+            "ep05",
+            "EP 5"
+          ],
+          "label": "EP 5",
+          "file": "subtitles/arc05/ep05.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep06",
+          "epSlug": "ep06",
+          "episode": "6",
+          "aliases": [
+            "6",
+            "ep06",
+            "EP 6"
+          ],
+          "label": "EP 6",
+          "file": "subtitles/arc05/ep06.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep07",
+          "epSlug": "ep07",
+          "episode": "7",
+          "aliases": [
+            "7",
+            "ep07",
+            "EP 7"
+          ],
+          "label": "EP 7",
+          "file": "subtitles/arc05/ep07.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep08",
+          "epSlug": "ep08",
+          "episode": "8",
+          "aliases": [
+            "8",
+            "ep08",
+            "EP 8"
+          ],
+          "label": "EP 8",
+          "file": "subtitles/arc05/ep08.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep09",
+          "epSlug": "ep09",
+          "episode": "9",
+          "aliases": [
+            "9",
+            "ep09",
+            "EP 9"
+          ],
+          "label": "EP 9",
+          "file": "subtitles/arc05/ep09.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep10",
+          "epSlug": "ep10",
+          "episode": "10",
+          "aliases": [
+            "10",
+            "ep10",
+            "EP 10"
+          ],
+          "label": "EP 10",
+          "file": "subtitles/arc05/ep10.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep11",
+          "epSlug": "ep11",
+          "episode": "11",
+          "aliases": [
+            "11",
+            "ep11",
+            "EP 11"
+          ],
+          "label": "EP 11",
+          "file": "subtitles/arc05/ep11.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep12",
+          "epSlug": "ep12",
+          "episode": "12",
+          "aliases": [
+            "12",
+            "ep12",
+            "EP 12"
+          ],
+          "label": "EP 12",
+          "file": "subtitles/arc05/ep12.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep13",
+          "epSlug": "ep13",
+          "episode": "13",
+          "aliases": [
+            "13",
+            "ep13",
+            "EP 13"
+          ],
+          "label": "EP 13",
+          "file": "subtitles/arc05/ep13.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep14",
+          "epSlug": "ep14",
+          "episode": "14",
+          "aliases": [
+            "14",
+            "ep14",
+            "EP 14"
+          ],
+          "label": "EP 14",
+          "file": "subtitles/arc05/ep14.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc05-ep15",
+          "epSlug": "ep15",
+          "episode": "15",
+          "aliases": [
+            "15",
+            "ep15",
+            "EP 15"
+          ],
+          "label": "EP 15",
+          "file": "subtitles/arc05/ep15.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "arc06",
+      "number": 6,
+      "title": "The Corridor of Memories",
+      "animeEpisodes": "S4 [1–19]",
+      "episodes": [
+        {
+          "episodeKey": "arc06-ep01",
+          "epSlug": "ep01",
+          "episode": "1",
+          "aliases": [
+            "1",
+            "ep01",
+            "EP 1"
+          ],
+          "label": "EP 1",
+          "file": "subtitles/arc06/ep01.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep02",
+          "epSlug": "ep02",
+          "episode": "2",
+          "aliases": [
+            "2",
+            "ep02",
+            "EP 2"
+          ],
+          "label": "EP 2",
+          "file": "subtitles/arc06/ep02.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep03",
+          "epSlug": "ep03",
+          "episode": "3",
+          "aliases": [
+            "3",
+            "ep03",
+            "EP 3"
+          ],
+          "label": "EP 3",
+          "file": "subtitles/arc06/ep03.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep04",
+          "epSlug": "ep04",
+          "episode": "4",
+          "aliases": [
+            "4",
+            "ep04",
+            "EP 4"
+          ],
+          "label": "EP 4",
+          "file": "subtitles/arc06/ep04.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep05",
+          "epSlug": "ep05",
+          "episode": "5",
+          "aliases": [
+            "5",
+            "ep05",
+            "EP 5"
+          ],
+          "label": "EP 5",
+          "file": "subtitles/arc06/ep05.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep06",
+          "epSlug": "ep06",
+          "episode": "6",
+          "aliases": [
+            "6",
+            "ep06",
+            "EP 6"
+          ],
+          "label": "EP 6",
+          "file": "subtitles/arc06/ep06.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep07",
+          "epSlug": "ep07",
+          "episode": "7",
+          "aliases": [
+            "7",
+            "ep07",
+            "EP 7"
+          ],
+          "label": "EP 7",
+          "file": "subtitles/arc06/ep07.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep08",
+          "epSlug": "ep08",
+          "episode": "8",
+          "aliases": [
+            "8",
+            "ep08",
+            "EP 8"
+          ],
+          "label": "EP 8",
+          "file": "subtitles/arc06/ep08.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep09",
+          "epSlug": "ep09",
+          "episode": "9",
+          "aliases": [
+            "9",
+            "ep09",
+            "EP 9"
+          ],
+          "label": "EP 9",
+          "file": "subtitles/arc06/ep09.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep10",
+          "epSlug": "ep10",
+          "episode": "10",
+          "aliases": [
+            "10",
+            "ep10",
+            "EP 10"
+          ],
+          "label": "EP 10",
+          "file": "subtitles/arc06/ep10.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep11",
+          "epSlug": "ep11",
+          "episode": "11",
+          "aliases": [
+            "11",
+            "ep11",
+            "EP 11"
+          ],
+          "label": "EP 11",
+          "file": "subtitles/arc06/ep11.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        },
+        {
+          "episodeKey": "arc06-ep12",
+          "epSlug": "ep12",
+          "episode": "12",
+          "aliases": [
+            "12",
+            "ep12",
+            "EP 12"
+          ],
+          "label": "EP 12",
+          "file": "subtitles/arc06/ep12.json",
+          "available": false,
+          "cueCount": 0,
+          "updatedAt": null
+        }
+      ]
+    }
+  ]
+}

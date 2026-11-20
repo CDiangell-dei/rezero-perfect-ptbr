@@ -1,0 +1,15 @@
+*.mkv
+*.mp4
+*.m4v
+*.torrent
+workspace_tmp/*
+!workspace_tmp/.gitkeep
+episodios_mkv/*/*
+!episodios_mkv/*/.gitkeep
+raw_en/*
+!raw_en/.gitkeep
+translated_ptbr/work/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
