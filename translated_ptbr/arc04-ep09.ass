@@ -1,0 +1,489 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: AstralSigns,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.60,0:00:11.46,Default,Puck,0,0,0,,Me desculpa...
+Dialogue: 0,0:00:12.53,0:00:13.42,Default,,0,0,0,,Me desculpa...
+Dialogue: 0,0:00:15.47,0:00:18.11,Default,Emilia,0,0,0,,Por que você está chorando?
+Dialogue: 0,0:00:19.34,0:00:22.19,Default,Puck,0,0,0,,Porque eu te deixei sozinha...
+Dialogue: 0,0:00:23.06,0:00:25.50,Default,Emilia,0,0,0,,Deixou?
+Dialogue: 0,0:00:26.50,0:00:31.95,Default,Puck,0,0,0,,Porque não consegui te encontrar\Ndurante todo esse tempo...
+Dialogue: 0,0:00:33.28,0:00:36.23,Default,Emilia,0,0,0,,Mas... eu estou bem aqui.
+Dialogue: 0,0:00:39.87,0:00:42.27,Default,Emilia,0,0,0,,Qual é o seu nome?
+Dialogue: 0,0:00:44.38,0:00:47.91,Default,Puck,0,0,0,,Meu nome é...
+Dialogue: 0,0:01:08.72,0:01:10.88,Default,Emilia,0,0,0,,Sei que este é só um mundo de sonhos,
+Dialogue: 0,0:01:11.17,0:01:14.77,Default,Emilia,0,0,0,,mas sinto o cheiro do vento\Ne até a textura da terra.
+Dialogue: 0,0:01:14.77,0:01:16.71,Default,Emilia,0,0,0,,É tão estranho, não é?
+Dialogue: 0,0:01:17.57,0:01:20.10,Default,Emilia,0,0,0,,Echidna? Está me ouvindo?
+Dialogue: 0,0:01:24.64,0:01:26.60,Default,Emilia,0,0,0,,Desculpa! Você está bem?
+Dialogue: 0,0:01:26.60,0:01:28.89,Default,Emilia,0,0,0,,Eu estava andando rápido demais?
+Dialogue: 0,0:01:28.89,0:01:30.66,Default,Echidna,0,0,0,,Achou que uma compaixão tão óbvia
+Dialogue: 0,0:01:30.66,0:01:33.36,Default,,0,0,0,,mudaria minha atitude sequer um pouco?
+Dialogue: 0,0:01:33.73,0:01:35.24,Default,Echidna,0,0,0,,É bem tola, se pensou isso.
+Dialogue: 0,0:01:36.19,0:01:38.86,Default,Emilia,0,0,0,,Ora, eu só estava preocupada com você.
+Dialogue: 0,0:01:38.86,0:01:41.68,Default,Echidna,0,0,0,,Não preciso da sua preocupação de modo algum.
+Dialogue: 0,0:01:41.68,0:01:45.18,Default,Echidna,0,0,0,,Havia sonhos demais acontecendo\Nao mesmo tempo, só isso.
+Dialogue: 0,0:01:45.18,0:01:46.91,Default,Echidna,0,0,0,,Logo vai se ajustar sozinho.
+Dialogue: 0,0:01:47.23,0:01:48.43,Default,Echidna,0,0,0,,Bem assim.
+Dialogue: 0,0:01:49.12,0:01:49.67,Default,Echidna,0,0,0,,Viu?
+Dialogue: 0,0:01:50.90,0:01:54.63,Default,Echidna,0,0,0,,"Mundo de sonhos" é apenas\Numa expressão figurativa.
+Dialogue: 0,0:01:54.96,0:01:58.62,Default,Echidna,0,0,0,,Mais precisamente, é um mundo à parte\Nque reproduz as memórias
+Dialogue: 0,0:01:58.62,0:02:02.10,Default,Echidna,0,0,0,,e reflete a consciência de quem\Nenfrenta a provação.
+Dialogue: 0,0:02:02.52,0:02:06.87,Default,Emilia,0,0,0,,Obrigada por explicar tão bem,\Nmesmo me odiando.
+Dialogue: 0,0:02:06.87,0:02:11.99,Default,Echidna,0,0,0,,Só não vá ter ideias tolas achando\Nque, no fundo, sou uma boa pessoa.
+Dialogue: 0,0:02:11.99,0:02:15.64,Default,Echidna,0,0,0,,É apenas da minha natureza responder\Na qualquer pergunta que me façam.
+Dialogue: 0,0:02:16.02,0:02:17.02,Default,Emilia,0,0,0,,Sim, claro.
+Dialogue: 0,0:02:19.77,0:02:24.09,Default,Echidna,0,0,0,,Lembra-se da luta patética que travou\Nna última vez em que tentou a provação?
+Dialogue: 0,0:02:24.66,0:02:29.17,Default,Emilia,0,0,0,,Eu estava tão impotente que nem posso\Ncontestar essa descrição maldosa.
+Dialogue: 0,0:02:29.57,0:02:33.41,Default,Emilia,0,0,0,,Devo ter encoberto minhas memórias\Nporque não queria vê-las.
+Dialogue: 0,0:02:33.41,0:02:37.14,Default,Emilia,0,0,0,,Por isso não consigo recordá-las sozinha.
+Dialogue: 0,0:02:37.99,0:02:39.18,Default,Emilia,0,0,0,,E até agora,
+Dialogue: 0,0:02:39.82,0:02:43.10,Default,,0,0,0,,ainda não estou preparada.
+Dialogue: 0,0:02:43.33,0:02:46.74,Default,Echidna,0,0,0,,Então não seria surpresa\Nse falhasse de novo?
+Dialogue: 0,0:02:46.74,0:02:50.00,Default,Echidna,0,0,0,,Criar uma linha de defesa antes mesmo\Nde começar é terrivelmente derrotista.
+Dialogue: 0,0:02:50.36,0:02:52.31,Default,Emilia,0,0,0,,Não, não é isso.
+Dialogue: 0,0:02:52.66,0:02:56.31,Default,Emilia,0,0,0,,Vou me preparar agora mesmo.
+Dialogue: 0,0:02:59.72,0:03:03.12,Default,Echidna,0,0,0,,Esta não é uma árvore comum, é?
+Dialogue: 0,0:03:03.12,0:03:06.91,Default,Echidna,0,0,0,,Havia algo que queria desesperadamente\Nmanter trancado aqui dentro.
+Dialogue: 0,0:03:06.91,0:03:08.50,Default,Emilia,0,0,0,,Este é o Quarto da Princesa.
+Dialogue: 0,0:03:09.43,0:03:12.48,Default,Emilia,0,0,0,,Muitas vezes me mandavam brincar aqui\Nquando eu era pequena.
+Dialogue: 0,0:03:12.48,0:03:15.09,Default,Emilia,0,0,0,,Ah, é mesmo... Não posso tocar na porta.
+Dialogue: 0,0:03:15.34,0:03:17.37,Default,Emilia,0,0,0,,Podemos simplesmente atravessá-la?
+Dialogue: 0,0:03:39.41,0:03:41.48,Default,Echidna,0,0,0,,Aquela criança é você, certo?
+Dialogue: 0,0:03:41.97,0:03:43.78,Default,Echidna,0,0,0,,Mesmo considerando que ainda\Nnão sabia nada,
+Dialogue: 0,0:03:44.10,0:03:46.61,Default,Echidna,0,0,0,,você parece irritantemente despreocupada.
+Dialogue: 0,0:03:46.61,0:03:49.05,Default,Emilia,0,0,0,,Precisa mesmo reclamar até de mim\Nquando eu era pequena?
+Dialogue: 0,0:03:49.81,0:03:51.70,Default,Emilia,0,0,0,,Além disso, agora eu...
+Dialogue: 0,0:04:01.63,0:04:03.24,Default,Emilia,0,0,0,,Mamãe Fortuna...
+Dialogue: 0,0:04:04.66,0:04:07.80,Default,Fortuna,0,0,0,,Emilia, preciso ir cuidar\Nde uma coisa importante.
+Dialogue: 0,0:04:08.18,0:04:10.38,Default,Fortuna,0,0,0,,Então fique aqui e se comporte, está bem?
+Dialogue: 0,0:04:10.77,0:04:12.91,Default,Emilia,0,0,0,,"Uma coisa importante" de novo?
+Dialogue: 0,0:04:15.73,0:04:18.32,Default,Fortuna,0,0,0,,Você tem o cabelo prateado do meu irmão...
+Dialogue: 0,0:04:18.78,0:04:22.50,Default,Fortuna,0,0,0,,Mas os seus traços gentis\Nvêm da sua mãe.
+Dialogue: 0,0:04:22.50,0:04:24.45,Default,Fortuna,0,0,0,,Todo mundo na minha família\Ntem olhos severos.
+Dialogue: 0,0:04:25.31,0:04:28.16,Default,Emilia,0,0,0,,Eu gosto dos seus olhos, Mamãe Fortuna!
+Dialogue: 0,0:04:28.74,0:04:31.90,Default,Emilia,0,0,0,,Mamãe Fortuna era a irmã mais nova\Ndo meu pai.
+Dialogue: 0,0:04:32.31,0:04:36.17,Default,Emilia,0,0,0,,Meus pais verdadeiros eram ocupados demais\Npara ficar comigo,
+Dialogue: 0,0:04:36.75,0:04:39.82,Default,Emilia,0,0,0,,então fui deixada aos cuidados\Nda Mamãe Fortuna.
+Dialogue: 0,0:04:49.82,0:04:51.43,Default,Emilia,0,0,0,,Que tédio!
+Dialogue: 0,0:04:51.84,0:04:55.98,Default,Emilia,0,0,0,,E a mamãe sempre diz que mentir\Ne guardar segredos é errado!
+Dialogue: 0,0:04:55.98,0:04:57.12,Default,Emilia,0,0,0,,Não é?!
+Dialogue: 0,0:04:58.28,0:05:00.40,Default,Emilia,0,0,0,,Queria tanto poder sair.
+Dialogue: 0,0:05:06.95,0:05:08.30,Default,Emilia,0,0,0,,Uma fada?
+Dialogue: 0,0:05:10.88,0:05:12.70,Default,Emilia,0,0,0,,Ei, não vale! Espera!
+Dialogue: 0,0:05:30.18,0:05:33.68,Default,Emilia,0,0,0,,A Mamãe Fortuna e todo mundo\Nguardam segredos de mim,
+Dialogue: 0,0:05:33.68,0:05:34.81,Default,Emilia,0,0,0,,então estamos quites!
+Dialogue: 0,0:05:42.40,0:05:43.37,Default,Emilia,0,0,0,,Bem de fininho...
+Dialogue: 0,0:05:46.15,0:05:46.99,Default,Emilia,0,0,0,,De fininho...
+Dialogue: 0,0:05:57.59,0:06:01.63,Default,Fortuna,0,0,0,,Vocês têm feito tanto por nós.
+Dialogue: 0,0:06:01.63,0:06:06.23,Default,Geuse,0,0,0,,E nós temos dado tanto trabalho a vocês.
+Dialogue: 0,0:06:06.23,0:06:08.43,Default,Fortuna,0,0,0,,Bem, isso vale para nós dois,
+Dialogue: 0,0:06:08.43,0:06:09.29,Default,Fortuna,0,0,0,,Geuse.
+Dialogue: 0,0:06:11.28,0:06:12.26,Default,Geuse,0,0,0,,E também...
+Dialogue: 0,0:06:12.64,0:06:14.92,Default,Geuse,0,0,0,,Sei que pergunto isso toda vez\Nque nos vemos,
+Dialogue: 0,0:06:15.94,0:06:17.73,Default,Geuse,0,0,0,,mas o selo continua intacto?
+Dialogue: 0,0:06:18.11,0:06:20.36,Default,Fortuna,0,0,0,,Não se preocupe. Nada mudou.
+Dialogue: 0,0:06:20.80,0:06:22.48,Default,Fortuna,0,0,0,,Se o pior acontecesse,
+Dialogue: 0,0:06:22.48,0:06:25.52,Default,,0,0,0,,eu jamais poderia encarar\Nmeu irmão e minha irmã.
+Dialogue: 0,0:06:26.07,0:06:28.45,Default,Geuse,0,0,0,,Quer dizer seu irmão... e a esposa dele?
+Dialogue: 0,0:06:28.82,0:06:31.09,Default,Fortuna,0,0,0,,Tudo bem. Eu sei.
+Dialogue: 0,0:06:31.57,0:06:36.92,Default,Fortuna,0,0,0,,Mas jamais devo esquecer o peso\Nda responsabilidade que carrego.
+Dialogue: 0,0:06:36.92,0:06:39.77,Default,Fortuna,0,0,0,,Não quero abandoná-la nem\Ndeixá-la pela metade.
+Dialogue: 0,0:06:40.34,0:06:41.67,Default,Fortuna,0,0,0,,Não é o mesmo para você?
+Dialogue: 0,0:06:42.10,0:06:43.15,Default,Geuse,0,0,0,,Eu...
+Dialogue: 0,0:06:44.76,0:06:47.42,Default,Geuse,0,0,0,,Afinal, não tenho mais nada.
+Dialogue: 0,0:06:48.02,0:06:51.84,Default,Geuse,0,0,0,,Suponho que seja um senso de\Nresponsabilidade diferente do seu.
+Dialogue: 0,0:06:52.43,0:06:54.15,Default,Geuse,0,0,0,,Obsessão, arrependimento...
+Dialogue: 0,0:06:54.93,0:06:57.81,Default,Geuse,0,0,0,,Apenas me agarro a coisas que\Nbem poderiam ser delírios.
+Dialogue: 0,0:07:01.63,0:07:03.25,Default,Fortuna,0,0,0,,Graças aos espíritos,
+Dialogue: 0,0:07:03.25,0:07:06.28,Default,,0,0,0,,as estações pouco mudam na floresta,
+Dialogue: 0,0:07:06.28,0:07:08.90,Default,Fortuna,0,0,0,,mas vocês continuam nos trazendo\Ncoisas como roupas e livros.
+Dialogue: 0,0:07:09.45,0:07:10.86,Default,Fortuna,0,0,0,,Nós realmente agradecemos.
+Dialogue: 0,0:07:12.39,0:07:13.87,Default,Fortuna,0,0,0,,Obrigada, como sempre.
+Dialogue: 0,0:07:15.42,0:07:17.89,Default,Geuse,0,0,0,,Na verdade, é errado obrigar todos vocês
+Dialogue: 0,0:07:17.89,0:07:21.87,Default,,0,0,0,,a viver com tanta privação\Nem um lugar como este.
+Dialogue: 0,0:07:22.45,0:07:24.91,Default,Fortuna,0,0,0,,Não diga "um lugar como este".
+Dialogue: 0,0:07:25.28,0:07:27.67,Default,Fortuna,0,0,0,,Nós amamos a floresta, sabia?
+Dialogue: 0,0:07:28.34,0:07:29.47,Default,Archi,0,0,0,,Fortuna-sama!
+Dialogue: 0,0:07:30.61,0:07:32.69,Default,Archi,0,0,0,,Todos os itens foram transferidos.
+Dialogue: 0,0:07:33.14,0:07:34.75,Default,Fortuna,0,0,0,,Obrigada, Archi.
+Dialogue: 0,0:07:35.22,0:07:38.35,Default,Geuse,0,0,0,,Você também ficou ainda mais\Nconfiável, Archi-dono.
+Dialogue: 0,0:07:38.59,0:07:41.23,Default,Archi,0,0,0,,Como parte da próxima geração\Ndos moradores da floresta,
+Dialogue: 0,0:07:41.23,0:07:43.60,Default,,0,0,0,,não posso ser tratado como novato\Npara sempre.
+Dialogue: 0,0:07:44.41,0:07:46.36,Default,Geuse,0,0,0,,Rezo para que sua boa saúde perdure.
+Dialogue: 0,0:07:46.79,0:07:48.34,Default,Geuse,0,0,0,,Pela floresta e pelo selo,
+Dialogue: 0,0:07:49.03,0:07:51.26,Default,Geuse,0,0,0,,por sua família e por você também.
+Dialogue: 0,0:07:58.32,0:08:01.12,Default,Geuse,0,0,0,,Ah, sim... Só mais uma coisa.
+Dialogue: 0,0:08:01.89,0:08:04.25,Default,Geuse,0,0,0,,Emilia-sama está com boa saúde?
+Dialogue: 0,0:08:05.78,0:08:07.39,Default,Fortuna,0,0,0,,Não se preocupe.
+Dialogue: 0,0:08:07.39,0:08:10.88,Default,Fortuna,0,0,0,,Emilia está crescendo como uma menina\Nmuito boa e muito saudável.
+Dialogue: 0,0:08:11.41,0:08:12.62,Default,Fortuna,0,0,0,,Mas... desculpe.
+Dialogue: 0,0:08:13.02,0:08:14.68,Default,,0,0,0,,Não posso deixar que ela o conheça.
+Dialogue: 0,0:08:15.05,0:08:16.16,Default,Geuse,0,0,0,,Tudo bem.
+Dialogue: 0,0:08:16.52,0:08:20.67,Default,Geuse,0,0,0,,Contanto que Emilia-sama cresça\Nsaudável, já basta.
+Dialogue: 0,0:08:21.09,0:08:25.74,Default,Geuse,0,0,0,,Um pecador como eu jamais ousaria\Npedir mais do que isso.
+Dialogue: 0,0:08:28.23,0:08:31.18,Default,Black,0,0,0,,Bispo Romanée-Conti, está pronto?
+Dialogue: 0,0:08:31.18,0:08:32.78,Default,Geuse,0,0,0,,Sim, já terminei.
+Dialogue: 0,0:08:33.19,0:08:35.97,Default,,0,0,0,,Nós, pecadores, vamos partir.
+Dialogue: 0,0:08:36.69,0:08:39.62,Default,Geuse,0,0,0,,Que possamos nos rever em breve,\NFortuna-sama.
+Dialogue: 0,0:08:40.42,0:08:42.56,Default,Fortuna,0,0,0,,Mesmo que ninguém mais diga,
+Dialogue: 0,0:08:42.56,0:08:44.93,Default,,0,0,0,,nós somos gratos a você.
+Dialogue: 0,0:08:45.32,0:08:47.08,Default,Fortuna,0,0,0,,Digo isso de verdade.
+Dialogue: 0,0:08:47.51,0:08:53.50,Default,Geuse,0,0,0,,Só suas palavras já me sustentariam\Nem cem anos de tormento.
+Dialogue: 0,0:09:05.42,0:09:07.60,Default,Archi,0,0,0,,Fortuna-sama, está cansada?
+Dialogue: 0,0:09:08.03,0:09:10.79,Default,Fortuna,0,0,0,,Não me trate como uma velha.
+Dialogue: 0,0:09:11.15,0:09:14.53,Default,Fortuna,0,0,0,,Sei que sou velha perto de um\Njovem como você,
+Dialogue: 0,0:09:14.53,0:09:15.82,Default,Fortuna,0,0,0,,mas ainda estou em forma!
+Dialogue: 0,0:09:16.08,0:09:18.72,Default,Archi,0,0,0,,N-Não foi nada disso que quis dizer!
+Dialogue: 0,0:09:18.72,0:09:22.52,Default,Archi,0,0,0,,Só pensei que deve ser duro, tendo\Ntambém o dever dos moradores da floresta...
+Dialogue: 0,0:09:23.09,0:09:25.79,Default,Fortuna,0,0,0,,Então acho que vou aceitar\Na sua gentileza...
+Dialogue: 0,0:09:26.37,0:09:28.10,Default,Fortuna,0,0,0,,e deixar o resto com você.
+Dialogue: 0,0:09:28.56,0:09:33.22,Default,Fortuna,0,0,0,,Preciso ir libertar uma princesinha\Nque deve estar bem entediada.
+Dialogue: 0,0:09:35.76,0:09:38.08,Default,Emilia,0,0,0,,E agora? E agora? E agora? E agora?
+Dialogue: 0,0:09:38.08,0:09:39.45,Default,Emilia,0,0,0,,E agora? E ago—
+Dialogue: 0,0:09:40.41,0:09:41.93,Default,Emilia,0,0,0,,E agora? E agora? E—
+Dialogue: 0,0:09:42.32,0:09:43.52,Default,Emilia,0,0,0,,E agora? E agora?
+Dialogue: 0,0:09:45.01,0:09:47.06,Default,Emilia,0,0,0,,E agora? E agora? E agora?
+Dialogue: 0,0:09:54.23,0:09:55.65,Default,Emilia,0,0,0,,Uau...
+Dialogue: 0,0:09:56.02,0:09:57.81,Default,Fortuna,0,0,0,,Emilia, está acordada?
+Dialogue: 0,0:09:57.81,0:09:58.81,Default,Emilia,0,0,0,,Ai!
+Dialogue: 0,0:09:58.81,0:10:00.48,Default,Emilia,0,0,0,,E-Estou acordada!
+Dialogue: 0,0:10:00.92,0:10:02.30,Default,Emilia,0,0,0,,M-Mas...
+Dialogue: 0,0:10:02.30,0:10:03.44,Default,Fortuna,0,0,0,,O quê?
+Dialogue: 0,0:10:03.44,0:10:05.25,Default,Fortuna,0,0,0,,Por que está tão nervosa?
+Dialogue: 0,0:10:08.19,0:10:11.29,Default,Emilia,0,0,0,,Hã... D-Desculpa.
+Dialogue: 0,0:10:11.29,0:10:14.37,Default,Emilia,0,0,0,,Derramei um monte da\Nminha tinta de desenho.
+Dialogue: 0,0:10:14.91,0:10:16.41,Default,Fortuna,0,0,0,,Ora, ora...
+Dialogue: 0,0:10:16.41,0:10:19.12,Default,Emilia,0,0,0,,Mamãe Fortuna, eu...
+Dialogue: 0,0:10:19.12,0:10:21.93,Default,Fortuna,0,0,0,,Francamente, você se preocupa demais, Emilia.
+Dialogue: 0,0:10:22.51,0:10:25.82,Default,Fortuna,0,0,0,,Não precisa ter tanto medo.\NNão estou brava.
+Dialogue: 0,0:10:26.66,0:10:28.64,Default,Fortuna,0,0,0,,Mas não se machucou, né?
+Dialogue: 0,0:10:33.04,0:10:34.15,Default,Emilia,0,0,0,,Mamãe?
+Dialogue: 0,0:10:34.92,0:10:37.04,Default,Fortuna,0,0,0,,Ah, não é nada.
+Dialogue: 0,0:10:37.73,0:10:41.15,Default,Fortuna,0,0,0,,Eu só senti muita, muita saudade de você.
+Dialogue: 0,0:10:44.42,0:10:45.52,Default,Fortuna,0,0,0,,Menina manhosa...
+Dialogue: 0,0:10:47.16,0:10:48.69,Default,Fortuna,0,0,0,,Ei, Emilia...
+Dialogue: 0,0:10:50.82,0:10:52.08,Default,Fortuna,0,0,0,,Eu te amo.
+Dialogue: 0,0:10:55.73,0:10:59.73,Default,Echidna,0,0,0,,Talvez o que você trancou no fundo\Ndo coração tenha começado
+Dialogue: 0,0:10:59.73,0:11:02.26,Default,Echidna,0,0,0,,a se sobrepor às suas memórias,\Npouco a pouco?
+Dialogue: 0,0:11:02.62,0:11:03.65,Default,Emilia,0,0,0,,Estou surpresa.
+Dialogue: 0,0:11:03.65,0:11:08.27,Default,Emilia,0,0,0,,Achei que faria algum comentário\Nmordaz sobre mim e a mamãe.
+Dialogue: 0,0:11:08.85,0:11:10.73,Default,Echidna,0,0,0,,Mesmo que tenha pensado isso,
+Dialogue: 0,0:11:10.73,0:11:13.66,Default,Echidna,0,0,0,,eu não recomendaria dizer\Nem voz alta.
+Dialogue: 0,0:11:14.04,0:11:16.99,Default,Echidna,0,0,0,,Minha opinião sobre você já é bem baixa,
+Dialogue: 0,0:11:16.99,0:11:19.73,Default,Echidna,0,0,0,,e está fazendo-a despencar ainda mais.
+Dialogue: 0,0:11:19.73,0:11:21.37,Default,Emilia,0,0,0,,Ah, não se preocupe.
+Dialogue: 0,0:11:21.37,0:11:24.20,Default,Emilia,0,0,0,,Não vou contar isso a mais ninguém.
+Dialogue: 0,0:11:25.57,0:11:27.38,Default,Echidna,0,0,0,,Para o bem ou para o mal,
+Dialogue: 0,0:11:27.38,0:11:30.83,Default,Echidna,0,0,0,,a influência dele sobre você\Ntem ficado cada vez mais forte.
+Dialogue: 0,0:11:31.17,0:11:32.12,Default,Emilia,0,0,0,,Sério?
+Dialogue: 0,0:11:32.74,0:11:34.00,Default,,0,0,0,,Obrigada!
+Dialogue: 0,0:11:36.16,0:11:37.79,Default,Echidna,0,0,0,,Enfim, agora que você se lembrou
+Dialogue: 0,0:11:37.79,0:11:42.34,Default,Echidna,0,0,0,,da sua mãe, de conhecidos\Ne daquela suposta fada...
+Dialogue: 0,0:11:42.34,0:11:44.38,Default,Echidna,0,0,0,,Já está pronta para encarar seu passado?
+Dialogue: 0,0:11:44.98,0:11:46.51,Default,Emilia,0,0,0,,Não, ainda não.
+Dialogue: 0,0:11:48.45,0:11:51.74,Default,Emilia,0,0,0,,Ainda faltam memórias\Nimportantes para mim.
+Dialogue: 0,0:11:52.41,0:11:53.73,Default,Echidna,0,0,0,,O que mais poderia haver?
+Dialogue: 0,0:11:56.21,0:11:57.18,Default,Emilia,0,0,0,,O selo.
+Dialogue: 0,0:12:00.58,0:12:04.82,Default,Emilia,0,0,0,,Vamos, fadinha.\NHoje vamos fugir de novo.
+Dialogue: 0,0:12:06.78,0:12:07.94,Default,Archi,0,0,0,,Emilia, vou entrar.
+Dialogue: 0,0:12:07.94,0:12:08.70,Default,Emilia,0,0,0,,Ai!
+Dialogue: 0,0:12:11.28,0:12:12.29,Default,Archi,0,0,0,,O que houve?
+Dialogue: 0,0:12:12.56,0:12:15.98,Default,Emilia,0,0,0,,E-E você, Archi?\NDo que precisava?
+Dialogue: 0,0:12:15.98,0:12:19.12,Default,Archi,0,0,0,,Bem, primeiro, trouxe uns\Npetiscos para você.
+Dialogue: 0,0:12:19.12,0:12:19.80,Default,Archi,0,0,0,,São nozes.
+Dialogue: 0,0:12:20.97,0:12:23.34,Default,Archi,0,0,0,,Coma isso e seja uma boa menina, sim?
+Dialogue: 0,0:12:25.09,0:12:26.35,Default,Emilia,0,0,0,,Obrigada...
+Dialogue: 0,0:12:27.36,0:12:30.43,Default,Emilia,0,0,0,,O Archi anda preocupado demais\Nultimamente.
+Dialogue: 0,0:12:30.43,0:12:31.77,Default,,0,0,0,,Preciso tomar cuidado.
+Dialogue: 0,0:12:33.09,0:12:33.81,Default,Emilia,0,0,0,,De fininho...
+Dialogue: 0,0:12:34.41,0:12:36.77,Default,Emilia,0,0,0,,O grupo do Geuse veio hoje de novo.
+Dialogue: 0,0:12:37.49,0:12:40.67,Default,Emilia,0,0,0,,Achei que o que eles escondiam\Nfosse algo mais divertido.
+Dialogue: 0,0:12:40.67,0:12:42.61,Default,Emilia,0,0,0,,A mamãe e os outros são tão esquisitos.
+Dialogue: 0,0:12:43.47,0:12:46.80,Default,Fortuna,0,0,0,,Emilia tem estado tão cheia de energia\Nultimamente.
+Dialogue: 0,0:12:46.80,0:12:49.53,Default,Fortuna,0,0,0,,Sempre volta para casa com\Nas roupas todas sujas de lama.
+Dialogue: 0,0:12:49.53,0:12:52.62,Default,Geuse,0,0,0,,Ela ser tão saudável\Nsó pode ser algo bom.
+Dialogue: 0,0:12:52.62,0:12:54.71,Default,Geuse,0,0,0,,Trarei quantas roupas novas\Neu puder para ela.
+Dialogue: 0,0:12:55.24,0:12:57.06,Default,Fortuna,0,0,0,,Desculpe se pareço pedir demais
+Dialogue: 0,0:12:57.06,0:12:59.19,Default,,0,0,0,,quando você já fez tanto.
+Dialogue: 0,0:12:59.97,0:13:01.54,Default,Fortuna,0,0,0,,Também tem roupas de adulto?
+Dialogue: 0,0:13:01.93,0:13:03.09,Default,Geuse,0,0,0,,Sim, claro.
+Dialogue: 0,0:13:03.71,0:13:07.84,Default,Geuse,0,0,0,,Tenho certeza de que temos algo\Nque ficará lindo em você.
+Dialogue: 0,0:13:09.28,0:13:11.95,Default,Fortuna,0,0,0,,Ei, sei que nos conhecemos\Nhá muito tempo,
+Dialogue: 0,0:13:11.95,0:13:14.10,Default,Fortuna,0,0,0,,mas desde quando você faz\Nbrincadeiras assim?
+Dialogue: 0,0:13:15.35,0:13:17.81,Default,Geuse,0,0,0,,Apenas disse o que sinto ser a verdade...
+Dialogue: 0,0:13:17.81,0:13:20.32,Default,Geuse,0,0,0,,Houve algo de estranho\Nno que eu disse?
+Dialogue: 0,0:13:28.10,0:13:30.35,Default,Fortuna,0,0,0,,Geuse, o que é isso?
+Dialogue: 0,0:13:30.35,0:13:33.02,Default,Geuse,0,0,0,,Ah, acabei de me lembrar de outra vez
+Dialogue: 0,0:13:33.02,0:13:36.15,Default,,0,0,0,,em que você pareceu chateada\Nao falar comigo,
+Dialogue: 0,0:13:36.15,0:13:38.86,Default,Geuse,0,0,0,,e era porque estava com febre.
+Dialogue: 0,0:13:38.86,0:13:41.21,Default,Geuse,0,0,0,,Você não parece quente agora...
+Dialogue: 0,0:13:41.21,0:13:44.29,Default,Fortuna,0,0,0,,Ora, isso foi há décadas!
+Dialogue: 0,0:13:44.29,0:13:46.08,Default,Fortuna,0,0,0,,Não me trate como uma criança!
+Dialogue: 0,0:13:46.53,0:13:47.93,Default,Fortuna,0,0,0,,Francamente...
+Dialogue: 0,0:13:50.13,0:13:51.66,Default,Emilia,0,0,0,,Geuse bobo!
+Dialogue: 0,0:13:51.66,0:13:53.64,Default,Emilia,0,0,0,,E Archi bobo também!
+Dialogue: 0,0:13:56.74,0:14:00.19,Default,Geuse,0,0,0,,Então... o selo continua no lugar?
+Dialogue: 0,0:14:00.50,0:14:02.24,Default,Fortuna,0,0,0,,Como sempre, sim.
+Dialogue: 0,0:14:03.18,0:14:06.54,Default,Fortuna,0,0,0,,É muito zeloso da sua parte\Nconferir isso todas as vezes.
+Dialogue: 0,0:14:06.54,0:14:08.42,Default,Geuse,0,0,0,,Afinal, esse é o meu dever.
+Dialogue: 0,0:14:09.03,0:14:11.95,Default,Geuse,0,0,0,,A situação fora da floresta\Nanda incerta no momento.
+Dialogue: 0,0:14:12.57,0:14:14.35,Default,Geuse,0,0,0,,Talvez minha preocupação seja infundada,
+Dialogue: 0,0:14:14.35,0:14:16.25,Default,,0,0,0,,mas queria que ficasse atenta.
+Dialogue: 0,0:14:16.88,0:14:17.91,Default,Fortuna,0,0,0,,Eu entendo.
+Dialogue: 0,0:14:18.48,0:14:20.14,Default,Geuse,0,0,0,,Por favor, mantenha-se vigilante.
+Dialogue: 0,0:14:20.65,0:14:24.13,Default,Geuse,0,0,0,,Pela Emilia-sama e por\Neles dois também.
+Dialogue: 0,0:14:24.92,0:14:26.13,Default,Emilia,0,0,0,,Selo?
+Dialogue: 0,0:14:31.52,0:14:33.06,Default,Emilia,0,0,0,,Sim, por favor!
+Dialogue: 0,0:14:53.68,0:14:54.65,Default,Echidna,0,0,0,,Uma porta?
+Dialogue: 0,0:14:55.67,0:14:57.43,Default,Echidna,0,0,0,,Que visão estranha.
+Dialogue: 0,0:15:01.17,0:15:03.24,Default,Emilia,0,0,0,,Este é... o selo.
+Dialogue: 0,0:15:08.90,0:15:12.34,Default,Emilia,0,0,0,,É por causa deste selo... que...
+Dialogue: 0,0:15:15.26,0:15:16.97,Default,Echidna,0,0,0,,Encontrou a resposta?
+Dialogue: 0,0:15:27.21,0:15:29.20,Default,Emilia,0,0,0,,Este é o selo?
+Dialogue: 0,0:15:34.88,0:15:40.00,Default,Subaru,0,0,0,,Outro cara leu minha carta de amor\Npra garota de quem gosto antes dela.
+Dialogue: 0,0:15:40.26,0:15:42.06,Default,Subaru,0,0,0,,Minha vida acabou.
+Dialogue: 0,0:15:42.06,0:15:45.04,Default,Garfiel,0,0,0,,Tá abatido demais por causa disso!
+Dialogue: 0,0:15:45.04,0:15:47.28,Default,Garfiel,0,0,0,,Vamos, levante esse ânimo!
+Dialogue: 0,0:15:47.28,0:15:51.81,Default,Subaru,0,0,0,,Eu jamais imaginei que o Garfiel\Nestaria lá, esperando acertar as contas...
+Dialogue: 0,0:15:51.81,0:15:55.01,Default,Otto,0,0,0,,Você já vive dando em cima dela\Nna frente de todo mundo mesmo.
+Dialogue: 0,0:15:55.01,0:15:58.48,Default,Otto,0,0,0,,Por que tanta vergonha só porque\Ncolocou no papel desta vez?
+Dialogue: 0,0:15:58.48,0:16:01.39,Default,Subaru,0,0,0,,Nas outras vezes eu já tô pronto\Npra ela nem dar bola!
+Dialogue: 0,0:16:01.39,0:16:04.32,Default,Subaru,0,0,0,,E é sempre o que acontece,\Nentão fica tudo bem!
+Dialogue: 0,0:16:04.32,0:16:06.88,Default,Subaru,0,0,0,,Mas desta vez eu tava falando sério!
+Dialogue: 0,0:16:06.88,0:16:10.02,Default,Subaru,0,0,0,,E foi literalmente uma carta\Nde amor escrita na madrugada.
+Dialogue: 0,0:16:10.02,0:16:11.79,Default,Subaru,0,0,0,,O tipo mais vergonhoso!
+Dialogue: 0,0:16:11.79,0:16:14.00,Default,Garfiel,0,0,0,,Não se preocupe, chefe.
+Dialogue: 0,0:16:14.00,0:16:17.75,Default,Garfiel,0,0,0,,Se quer saber, deu até vontade\Nde me escorar nessa sua sorte.
+Dialogue: 0,0:16:17.75,0:16:20.75,Default,Garfiel,0,0,0,,"Em assuntos de amor, siga o exemplo\Ndo lingdorn", como diz o ditado.
+Dialogue: 0,0:16:20.75,0:16:22.95,Default,Subaru,0,0,0,,Quando {\i1}você{\i0} diz isso,
+Dialogue: 0,0:16:22.95,0:16:26.00,Default,,0,0,0,,parece que tá provocando,\Nmesmo sem querer!
+Dialogue: 0,0:16:27.17,0:16:30.70,Default,Subaru,0,0,0,,Levou cerca de uma hora quando\No Garfiel entrou,
+Dialogue: 0,0:16:30.70,0:16:32.38,Default,Subaru,0,0,0,,então ela deve levar o mesmo tempo.
+Dialogue: 0,0:16:32.62,0:16:34.98,Default,Otto,0,0,0,,Se conseguir, sim.
+Dialogue: 0,0:16:35.47,0:16:36.35,Default,Otto,0,0,0,,Ai!
+Dialogue: 0,0:16:37.06,0:16:39.09,Default,Ram,0,0,0,,Tente ter um pouco de tato desta vez.
+Dialogue: 0,0:16:39.85,0:16:40.96,Default,Otto,0,0,0,,Ai!
+Dialogue: 0,0:16:40.96,0:16:42.66,Default,Ram,0,0,0,,É tão alheio ao clima assim,
+Dialogue: 0,0:16:42.66,0:16:43.97,Default,,0,0,0,,e ainda se diz mercador?
+Dialogue: 0,0:16:43.97,0:16:46.90,Default,Otto,0,0,0,,Isso doeu ainda mais que\No peteleco na testa!
+Dialogue: 0,0:16:46.06,0:16:46.90,Default,Ram,0,0,0,,Enfim...
+Dialogue: 0,0:16:47.77,0:16:50.63,Default,Ram,0,0,0,,Shima-sama quer falar com você, Barusu.
+Dialogue: 0,0:16:50.63,0:16:53.03,Default,Ram,0,0,0,,Ela quer continuar\Na conversa de ontem à noite.
+Dialogue: 0,0:16:53.47,0:16:57.22,Default,Garfiel,0,0,0,,Do que você e a Vo— aquela velha\Nconversaram?
+Dialogue: 0,0:16:57.22,0:16:58.50,Default,Subaru,0,0,0,,Nem precisa se corrigir.
+Dialogue: 0,0:16:58.50,0:17:01.33,Default,,0,0,0,,Todo mundo sabe que você é\Nnetinho da vovó.
+Dialogue: 0,0:17:01.33,0:17:04.37,Default,Subaru,0,0,0,,Ela contou principalmente o que houve\Nquando você entrou no cemitério.
+Dialogue: 0,0:17:05.15,0:17:06.58,Default,Garfiel,0,0,0,,Ah, é mesmo?
+Dialogue: 0,0:17:06.88,0:17:10.69,Default,Subaru,0,0,0,,Ontem eu tava ocupado demais tentando\Ndescobrir como lidar com o Garfiel.
+Dialogue: 0,0:17:10.69,0:17:13.60,Default,Subaru,0,0,0,,Acabamos deixando a parte\Nimportante para depois.
+Dialogue: 0,0:17:13.60,0:17:15.74,Default,Ram,0,0,0,,E o que exatamente deixaram para depois?
+Dialogue: 0,0:17:16.42,0:17:17.39,Default,Subaru,0,0,0,,Bem...
+Dialogue: 0,0:17:17.39,0:17:23.02,Default,Shima,0,0,0,,Um assunto inevitável caso desejem\Nlibertar o Santuário.
+Dialogue: 0,0:17:31.09,0:17:33.39,Default,Emilia,0,0,0,,Hnf... Hnf... Hnf...
+Dialogue: 0,0:17:35.08,0:17:37.53,Default,Emilia,0,0,0,,Por que não cai de uma vez?
+Dialogue: 0,0:17:38.03,0:17:40.36,Default,Emilia,0,0,0,,É estranho demais para eu\Nconseguir entender.
+Dialogue: 0,0:17:40.79,0:17:43.82,Default,Emilia,0,0,0,,Mas graças a todos vocês,\Neu consegui encontrar!
+Dialogue: 0,0:17:43.82,0:17:46.00,Default,Emilia,0,0,0,,Palmas, palmas, palmas!
+Dialogue: 0,0:17:47.15,0:17:50.77,Default,Emilia,0,0,0,,Hmpf. A culpa é toda da Mamãe Fortuna.
+Dialogue: 0,0:17:50.77,0:17:52.47,Default,Emilia,0,0,0,,E do Geuse também.
+Dialogue: 0,0:17:53.06,0:17:54.46,Default,Emilia,0,0,0,,Bleh!
+Dialogue: 0,0:17:57.14,0:18:00.02,Default,Emilia,0,0,0,,Certo, hora de ir para casa.
+Dialogue: 0,0:18:00.02,0:18:04.52,Default,Emilia,0,0,0,,Hoje, o pintor resolveu colorir o céu\Nde vermelho e a floresta de branco!
+Dialogue: 0,0:18:09.34,0:18:10.38,Default,Emilia,0,0,0,,O que foi?
+Dialogue: 0,0:18:15.94,0:18:18.37,Default,Emilia,0,0,0,,Será que... alguma coisa vai acontecer?
+Dialogue: 0,0:18:24.66,0:18:26.54,Default,Geuse,0,0,0,,Isso é um grande problema.
+Dialogue: 0,0:18:27.81,0:18:30.24,Default,Geuse,0,0,0,,Talvez não chegue na hora marcada.
+Dialogue: 0,0:18:32.60,0:18:36.19,Default,Geuse,0,0,0,,Ora? E de quem é esse\Nbumbumzinho fofo?
+Dialogue: 0,0:18:39.36,0:18:42.55,Default,Emilia,0,0,0,,Imploro que me conceda\Nclemente misericórdia...
+Dialogue: 0,0:18:42.55,0:18:46.98,Default,Geuse,0,0,0,,Ora, ora! Mas que jovem senhorita adorável—
+Dialogue: 0,0:18:49.89,0:18:51.86,Default,Geuse,0,0,0,,V-Você é...
+Dialogue: 0,0:18:52.23,0:18:55.36,Default,Geuse,0,0,0,,Não, não pode ser...
+Dialogue: 0,0:18:57.22,0:18:58.07,Default,Emilia,0,0,0,,Geuse?
+Dialogue: 0,0:18:59.63,0:19:00.57,Default,Emilia,0,0,0,,Você está bem?
+Dialogue: 0,0:19:10.45,0:19:12.08,Default,Geuse,0,0,0,,Eu estou... bem...
+Dialogue: 0,0:19:13.00,0:19:16.90,Default,Geuse,0,0,0,,Sim... Sim! Claro que estou bem!
+Dialogue: 0,0:19:16.90,0:19:18.84,Default,Geuse,0,0,0,,Não há absolutamente nada de errado!
+Dialogue: 0,0:19:19.54,0:19:20.84,Default,Geuse,0,0,0,,Porque eu...
+Dialogue: 0,0:19:21.77,0:19:25.12,Default,Geuse,0,0,0,,Eu... eu acabei de...
+Dialogue: 0,0:19:26.53,0:19:30.93,Default,Geuse,0,0,0,,receber uma salvação como nunca antes!
+Dialogue: 0,0:19:33.60,0:19:34.75,Default,Emilia,0,0,0,,Sério?
+Dialogue: 0,0:19:35.93,0:19:38.23,Default,Emilia,0,0,0,,Foi salvo, mas está chorando?
+Dialogue: 0,0:19:38.76,0:19:42.10,Default,Geuse,0,0,0,,Não estou chorando por tristeza.
+Dialogue: 0,0:19:42.55,0:19:45.81,Default,Geuse,0,0,0,,Estou tão feliz... tão radiante.
+Dialogue: 0,0:19:46.21,0:19:47.79,Default,Geuse,0,0,0,,Sou tão abençoado...
+Dialogue: 0,0:19:48.24,0:19:52.21,Default,Geuse,0,0,0,,E tamanha alegria às vezes\Ntraz lágrimas quentes.
+Dialogue: 0,0:20:01.13,0:20:04.43,Default,Emilia,0,0,0,,Você chora... mesmo quando está feliz?
+Dialogue: 0,0:20:06.59,0:20:09.04,Default,Emilia,0,0,0,,Está tudo bem, Geuse.
+Dialogue: 0,0:20:09.57,0:20:10.68,Default,,0,0,0,,Está tudo bem.
+Dialogue: 0,0:20:12.39,0:20:13.63,Default,Emilia,0,0,0,,Está tudo bem.
+Dialogue: 0,0:20:18.72,0:20:22.10,Default,Emilia,0,0,0,,Sei que há tantas coisas assim\Nque eu tinha esquecido...
+Dialogue: 0,0:20:22.10,0:20:26.82,Default,Emilia,0,0,0,,Mas há pouco tempo, eu não teria\Nconseguido aceitar isso.
+Dialogue: 0,0:20:27.62,0:20:28.76,Default,Emilia,0,0,0,,Ainda assim, agora...
+Dialogue: 0,0:20:30.85,0:20:33.75,Default,Emilia,0,0,0,,Tenho medo, mas não vou me acovardar.
+Dialogue: 0,0:20:34.16,0:20:37.24,Default,Echidna,0,0,0,,Está abrindo mão de depender\Nde um homem ou figura paterna,
+Dialogue: 0,0:20:37.24,0:20:41.09,Default,Echidna,0,0,0,,mesmo sendo tão típico de uma\Nmulher imunda como você?
+Dialogue: 0,0:20:41.09,0:20:44.59,Default,Emilia,0,0,0,,Tenho certeza de que o Subaru\Nme perdoaria se eu fizesse isso,
+Dialogue: 0,0:20:45.21,0:20:47.23,Default,Emilia,0,0,0,,mas eu continuaria fraca,
+Dialogue: 0,0:20:47.23,0:20:48.99,Default,,0,0,0,,e não quero simplesmente ignorar isso.
+Dialogue: 0,0:20:49.62,0:20:50.56,Default,Emilia,0,0,0,,Além disso...
+Dialogue: 0,0:20:50.96,0:20:55.69,Default,Emilia,0,0,0,,Não quero que tudo o que o Subaru\Nescreveu para mim se prove errado.
+Dialogue: 0,0:20:56.48,0:20:58.42,Default,Emilia,0,0,0,,O Subaru acredita em mim,
+Dialogue: 0,0:20:58.42,0:21:01.56,Default,Emilia,0,0,0,,e é por isso que não quero me\Nenvergonhar dos sentimentos dele.
+Dialogue: 0,0:21:02.84,0:21:04.65,Default,Echidna,0,0,0,,Faça como quiser.
+Dialogue: 0,0:21:04.96,0:21:09.26,Default,Echidna,0,0,0,,Apenas encontrarei satisfação\Nno seu sofrimento.
+Dialogue: 0,0:21:11.47,0:21:13.58,Default,Emilia,0,0,0,,Então está tudo pronto agora?
+Dialogue: 0,0:21:14.00,0:21:17.05,Default,Echidna,0,0,0,,Sim. O aquecimento acabou.
+Dialogue: 0,0:21:17.53,0:21:21.50,Default,Echidna,0,0,0,,A provação que a quebrou antes\Nagora começa de verdade.
+Dialogue: 0,0:21:22.88,0:21:24.93,Default,Geuse,0,0,0,,Espere, Emilia-sama!
+Dialogue: 0,0:21:24.93,0:21:26.97,Default,Geuse,0,0,0,,É perigoso correr desse jeito!
+Dialogue: 0,0:21:26.97,0:21:28.57,Default,Emilia,0,0,0,,Não! Não!
+Dialogue: 0,0:21:28.57,0:21:30.76,Default,Emilia,0,0,0,,Vamos! Tente me pegar!
+Dialogue: 0,0:21:32.88,0:21:36.86,Default,Fortuna,0,0,0,,As travessuras dela são demais\Naté para nós darmos conta.
+Dialogue: 0,0:21:37.45,0:21:39.67,Default,Geuse,0,0,0,,Ter tanta energia assim é bom.
+Dialogue: 0,0:21:39.67,0:21:43.40,Default,Geuse,0,0,0,,Só... gostaria que ela evitasse\Nfazer coisas perigosas.
+Dialogue: 0,0:21:44.12,0:21:46.27,Default,Geuse,0,0,0,,Se ela pudesse apenas pular em casa,
+Dialogue: 0,0:21:46.27,0:21:48.31,Default,Geuse,0,0,0,,saudável e banhada pela luz do sol,
+Dialogue: 0,0:21:48.31,0:21:50.88,Default,,0,0,0,,sem se preocupar em quebrar nada...
+Dialogue: 0,0:21:50.88,0:21:52.24,Default,Fortuna,0,0,0,,Geuse...
+Dialogue: 0,0:21:52.53,0:21:54.95,Default,Fortuna,0,0,0,,Isso seria muito difícil.
+Dialogue: 0,0:21:56.77,0:21:58.19,Default,Geuse,0,0,0,,S-Seria?
+Dialogue: 0,0:21:58.69,0:22:01.89,Default,Geuse,0,0,0,,Mas pelo bem de Emilia-sama, eu...
+Dialogue: 0,0:22:01.89,0:22:03.09,Default,Geuse,0,0,0,,eu só...
+Dialogue: 0,0:22:04.63,0:22:05.42,Default,Emilia,0,0,0,,Ei!
+Dialogue: 0,0:22:06.00,0:22:09.88,Default,Emilia,0,0,0,,Mamãe e Geuse! Por que nenhum\Ndos dois está correndo atrás de mim?
+Dialogue: 0,0:22:09.88,0:22:12.51,Default,Emilia,0,0,0,,A gente não está brincando de pega-pega?!
+Dialogue: 0,0:22:12.90,0:22:15.12,Default,Geuse,0,0,0,,Ah, por favor, perdoe-me!
+Dialogue: 0,0:22:15.12,0:22:17.61,Default,Geuse,0,0,0,,Jamais cometi erro tão terrível!
+Dialogue: 0,0:22:18.02,0:22:19.98,Default,Fortuna,0,0,0,,Não a mime desse jeito.
+Dialogue: 0,0:22:20.40,0:22:22.48,Default,Fortuna,0,0,0,,Emilia, venha cá.
+Dialogue: 0,0:22:23.03,0:22:24.69,Default,Emilia,0,0,0,,O que foi, mamãe?
+Dialogue: 0,0:22:25.21,0:22:28.07,Default,Emilia,0,0,0,,Nossa, você é tão manhosa.
+Dialogue: 0,0:22:28.50,0:22:29.55,Default,Emilia,0,0,0,,Ai!
+Dialogue: 0,0:22:29.55,0:22:30.88,Default,Fortuna,0,0,0,,Que pena!
+Dialogue: 0,0:22:30.88,0:22:34.21,Default,,0,0,0,,Você foi capturada pela Mamãe Fortuna!
+Dialogue: 0,0:22:34.21,0:22:36.24,Default,Emilia,0,0,0,,Não vale! Isso é trapaça, mamãe!
+Dialogue: 0,0:22:36.24,0:22:38.39,Default,Emilia,0,0,0,,Isso é errado! É sujo! Pede desculpa!
+Dialogue: 0,0:22:38.39,0:22:41.37,Default,Fortuna,0,0,0,,Nossa, só escutem esta menina!
+Dialogue: 0,0:22:41.37,0:22:45.92,Default,Fortuna,0,0,0,,Está pensando no que eu\Nte disse, então?
+Dialogue: 0,0:22:45.92,0:22:49.13,Default,Fortuna,0,0,0,,Por que acha que o Geuse\Ne eu estávamos atrás de você?
+Dialogue: 0,0:22:50.36,0:22:52.60,Default,Emilia,0,0,0,,N-Não, mamãe!
+Dialogue: 0,0:22:52.60,0:22:56.89,Default,Emilia,0,0,0,,As fadas disseram pra gente ir\Nbrincar lá fora, então eu...
+Dialogue: 0,0:22:57.28,0:23:02.32,Default,Fortuna,0,0,0,,Não gosto de crianças que jogam a culpa\Nos outros — digo, nas fadas.
+Dialogue: 0,0:23:04.40,0:23:05.81,Default,Emilia,0,0,0,,Desculpa.
+Dialogue: 0,0:23:05.81,0:23:08.35,Default,Emilia,0,0,0,,Como fiz amizade com o Geuse,
+Dialogue: 0,0:23:08.35,0:23:11.16,Default,,0,0,0,,eu queria contar pra você.
+Dialogue: 0,0:23:11.16,0:23:13.38,Default,Emilia,0,0,0,,E como o Geuse é um chorão,
+Dialogue: 0,0:23:13.38,0:23:14.91,Default,,0,0,0,,achei que precisava ajudar ele.
+Dialogue: 0,0:23:15.30,0:23:17.97,Default,Fortuna,0,0,0,,Esse sentimento é muito precioso.
+Dialogue: 0,0:23:17.97,0:23:22.32,Default,Fortuna,0,0,0,,Mas prometemos que você nunca\Niria até aquele lugar, não foi?
+Dialogue: 0,0:23:23.04,0:23:25.13,Default,Emilia,0,0,0,,S-Sim... prometemos.
+Dialogue: 0,0:23:25.57,0:23:28.39,Default,Fortuna,0,0,0,,O que você fez foi muito feio.
+Dialogue: 0,0:23:31.56,0:23:34.89,Default,Fortuna,0,0,0,,Uma promessa é o símbolo da confiança,
+Dialogue: 0,0:23:35.39,0:23:40.51,Default,Fortuna,0,0,0,,e quebrá-la é trair essa confiança,\Nentão jamais deve fazer isso.
+Dialogue: 0,0:23:41.19,0:23:44.17,Default,Fortuna,0,0,0,,Prometa para mim, Emilia,
+Dialogue: 0,0:23:44.17,0:23:47.20,Default,,0,0,0,,que vai cumprir suas promessas\Ndaqui em diante.
+Dialogue: 0,0:23:48.88,0:23:50.78,Default,Emilia,0,0,0,,Sim... eu prometo.
+Dialogue: 0,0:23:51.24,0:23:53.96,Default,Emilia,0,0,0,,Desculpa, mamãe...
+Dialogue: 0,0:23:55.54,0:23:56.28,Default,Fortuna,0,0,0,,Tudo bem.
+Dialogue: 0,0:23:57.96,0:23:59.23,Default,Fortuna,0,0,0,,Assim já basta.
+Dialogue: 0,0:24:04.77,0:24:07.68,Default,Fortuna,0,0,0,,E... quanto a você,\NGeuse? Está tudo bem?
+Dialogue: 0,0:24:07.68,0:24:12.36,Default,Geuse,0,0,0,,F-Foi uma cena tão deslumbrante...
+Dialogue: 0,0:24:12.36,0:24:15.42,Default,Geuse,0,0,0,,Não consegui... não consegui\Nconter as lágrimas...
+Dialogue: 0,0:24:17.44,0:24:19.24,Default,Fortuna,0,0,0,,Enfim, Emilia...
+Dialogue: 0,0:24:19.97,0:24:22.25,Default,Fortuna,0,0,0,,Você falou em fadas?
+Dialogue: 0,0:24:22.25,0:24:24.74,Default,Emilia,0,0,0,,Ah, é! Fadas!
+Dialogue: 0,0:24:24.74,0:24:27.49,Default,Emilia,0,0,0,,Elas vêm me ajudar\Nhá muito tempo!
+Dialogue: 0,0:24:28.00,0:24:28.86,Default,Emilia,0,0,0,,Venham.
+Dialogue: 0,0:24:32.28,0:24:34.12,Default,Fortuna,0,0,0,,São... espíritos menores?!
+Dialogue: 0,0:24:34.61,0:24:36.64,Default,Fortuna,0,0,0,,E tantos deles!
+Dialogue: 0,0:24:41.09,0:24:46.25,Default,Geuse,0,0,0,,Parece que Emilia-sama possui talento\Nnatural para ser usuária de espíritos.
+Dialogue: 0,0:24:46.68,0:24:50.09,Default,Emilia,0,0,0,,Espíritos menores? Talento natural\Npara ser... usuária de espíritos?
+Dialogue: 0,0:24:50.42,0:24:54.87,Default,Geuse,0,0,0,,O que chama de "fadas" são seres\Nchamados de espíritos menores.
+Dialogue: 0,0:24:55.28,0:24:58.29,Default,Geuse,0,0,0,,Aqueles que se comunicam com eles,\Nfirmam contratos com eles
+Dialogue: 0,0:24:58.29,0:25:00.97,Default,Geuse,0,0,0,,e tomam seu poder emprestado\Nsão os usuários de espíritos.
+Dialogue: 0,0:25:01.52,0:25:03.56,Default,Emilia,0,0,0,,E eu posso me tornar uma?
+Dialogue: 0,0:25:03.92,0:25:07.14,Default,Fortuna,0,0,0,,Ei, não ponha ideias estranhas\Nna cabeça dela.
+Dialogue: 0,0:25:07.14,0:25:10.64,Default,Geuse,0,0,0,,Emilia-sama não permanecerá\Ntão jovem para sempre.
+Dialogue: 0,0:25:10.64,0:25:15.45,Default,Geuse,0,0,0,,Sobretudo quando não houver ninguém\Nao seu lado, eles serão a força dela.
+Dialogue: 0,0:25:15.78,0:25:20.43,Default,Fortuna,0,0,0,,Mas pode ser perigoso, e não posso\Ndeixar minha doce Emilia...
+Dialogue: 0,0:25:21.29,0:25:23.86,Default,Emilia,0,0,0,,Hoje estou do lado do Geuse!
+Dialogue: 0,0:25:23.86,0:25:26.92,Default,Emilia,0,0,0,,Vou virar usuária de espíritos! Pronto!
+Dialogue: 0,0:25:27.31,0:25:29.78,Default,Fortuna,0,0,0,,Viu? Ela levou você a sério.
+Dialogue: 0,0:25:29.78,0:25:31.13,Default,Fortuna,0,0,0,,Como vai se responsabilizar?
+Dialogue: 0,0:25:31.33,0:25:34.09,Default,Geuse,0,0,0,,Bem... não sei o que...
+Dialogue: 0,0:25:34.44,0:25:35.20,Default,Geuse,0,0,0,,Hã...
+Dialogue: 0,0:25:36.16,0:25:37.47,Default,Geuse,0,0,0,,Que dilema.
+Dialogue: 0,0:25:40.13,0:25:43.25,Default,Emilia,0,0,0,,Sabem, Mamãe Fortuna e Geuse,
+Dialogue: 0,0:25:43.25,0:25:45.09,Default,,0,0,0,,vocês parecem uma mamãe e um papai.
+Dialogue: 0,0:25:45.09,0:25:45.98,Default,Fortuna,0,0,0,,O qu—
+Dialogue: 0,0:25:47.30,0:25:49.70,Default,Fortuna,0,0,0,,N-Não diga bobagens assim!
+Dialogue: 0,0:25:49.70,0:25:53.30,Default,Fortuna,0,0,0,,Geuse e eu nos conhecemos há muito\Ntempo! É só por isso—
+Dialogue: 0,0:25:51.54,0:25:53.30,Default,Geuse,0,0,0,,{\an8}Isso mesmo, Emilia-sama!
+Dialogue: 0,0:25:53.30,0:25:55.14,Default,Geuse,0,0,0,,Para quem tem vida tão longa\Ncomo a minha,
+Dialogue: 0,0:25:55.14,0:25:57.64,Default,Geuse,0,0,0,,até Fortuna-sama é praticamente uma criança.
+Dialogue: 0,0:25:58.18,0:26:00.83,Default,Fortuna,0,0,0,,Ei, me chamar de criança\Njá é passar dos limites!
+Dialogue: 0,0:26:00.83,0:26:03.50,Default,Fortuna,0,0,0,,Você faz ideia de quantos anos eu tenho?!
+Dialogue: 0,0:26:03.50,0:26:06.45,Default,Geuse,0,0,0,,N-Não, eu me expressei mal!
+Dialogue: 0,0:26:06.45,0:26:09.49,Default,Geuse,0,0,0,,É claro que conheço bem\Na sua idade exata,
+Dialogue: 0,0:26:09.49,0:26:14.13,Default,Geuse,0,0,0,,e certamente é bela e madura demais\Npara ser uma criança.
+Dialogue: 0,0:26:15.60,0:26:16.74,Default,Fortuna,0,0,0,,Pois bem, pois bem.
+Dialogue: 0,0:26:17.28,0:26:19.80,Default,Fortuna,0,0,0,,Muito bem, então. Eu perdoo.
+Dialogue: 0,0:26:21.12,0:26:23.76,Default,Fortuna,0,0,0,,Mas é bom estar muito arrependido.
+Dialogue: 0,0:26:24.44,0:26:25.23,Default,Geuse,0,0,0,,Certo...
+Dialogue: 0,0:26:26.72,0:26:31.55,Default,Geuse,0,0,0,,De todo modo, conheço Fortuna-sama\Nhá muito, muito tempo.
+Dialogue: 0,0:26:31.94,0:26:36.28,Default,Geuse,0,0,0,,Na verdade, desde os tempos em que\Nsua mãe e seu pai ainda estavam bem—
+Dialogue: 0,0:26:36.28,0:26:37.25,Default,Fortuna,0,0,0,,Geuse!
+Dialogue: 0,0:26:38.01,0:26:39.94,Default,Geuse,0,0,0,,P-Perdoe-me.
+Dialogue: 0,0:26:40.86,0:26:42.99,Default,Emilia,0,0,0,,Minha mãe e meu pai?
+Dialogue: 0,0:26:47.48,0:26:49.32,Default,Fortuna,0,0,0,,Desculpa, Emilia.
+Dialogue: 0,0:26:50.53,0:26:52.74,Default,Fortuna,0,0,0,,Conversaremos sobre isso outra hora.
+Dialogue: 0,0:26:53.32,0:26:55.04,Default,Fortuna,0,0,0,,Volte para o seu quarto.
+Dialogue: 0,0:26:55.93,0:26:57.80,Default,Emilia,0,0,0,,Outra hora?
+Dialogue: 0,0:26:58.68,0:27:00.57,Default,Emilia,0,0,0,,Você vai mesmo me contar, então?
+Dialogue: 0,0:27:03.25,0:27:05.68,Default,Fortuna,0,0,0,,Seja uma boa menina. Sei que consegue.
+Dialogue: 0,0:27:06.36,0:27:10.04,Default,Fortuna,0,0,0,,Também deixarei que veja o Geuse em breve.
+Dialogue: 0,0:27:10.04,0:27:11.23,Default,Emilia,0,0,0,,É verdade mesmo?
+Dialogue: 0,0:27:11.57,0:27:14.52,Default,Emilia,0,0,0,,Promete? E não vai quebrar?
+Dialogue: 0,0:27:22.58,0:27:24.66,Default,Fortuna,0,0,0,,Sim. Eu prometo.
+Dialogue: 0,0:27:26.10,0:27:30.70,Default,Fortuna,0,0,0,,Será uma promessa muito, muito\Nimportante entre nós duas.
+Dialogue: 0,0:27:33.53,0:27:34.66,Default,Emilia,0,0,0,,Então está bem.
+Dialogue: 0,0:27:35.19,0:27:37.76,Default,Emilia,0,0,0,,Vou voltar para o meu quarto agora.
+Dialogue: 0,0:27:43.22,0:27:44.64,Default,Emilia,0,0,0,,Até breve, Geuse.
+Dialogue: 0,0:27:45.06,0:27:47.27,Default,Emilia,0,0,0,,Tente não chorar demais.
+Dialogue: 0,0:27:47.78,0:27:49.89,Default,Emilia,0,0,0,,É uma promessa até nos vermos de novo.
+Dialogue: 0,0:27:51.59,0:27:55.48,Default,Geuse,0,0,0,,Claro. Nos veremos em breve.
+Dialogue: 0,0:28:05.12,0:28:06.45,Default,Echidna,0,0,0,,Tem alguém vindo.
+Dialogue: 0,0:28:19.57,0:28:20.23,Default,Fortuna,0,0,0,,Quem é você?
+Dialogue: 0,0:28:28.80,0:28:31.39,Default,Regulus,0,0,0,,Quando se quer saber o nome de alguém,
+Dialogue: 0,0:28:31.59,0:28:35.35,Default,Regulus,0,0,0,,não é cortesia básica\Ndizer o seu primeiro?
+Dialogue: 0,0:28:35.73,0:28:38.68,Default,Regulus,0,0,0,,É a primeira vez que nos\Nvemos na vida.
+Dialogue: 0,0:28:38.68,0:28:43.30,Default,Regulus,0,0,0,,Deveríamos estar em pé de igualdade\Nao iniciar uma relação,
+Dialogue: 0,0:28:43.30,0:28:47.47,Default,Regulus,0,0,0,,então por que você exige o meu nome\Ncomo se fosse tão superior a mim?
+Dialogue: 0,0:28:47.47,0:28:51.04,Default,Fortuna,0,0,0,,Para um homem, você até que\Ngosta bastante de falar.
+Dialogue: 0,0:28:50.48,0:28:52.64,Default,Regulus,0,0,0,,{\an8}"Para um homem"?
+Dialogue: 0,0:28:52.64,0:28:56.42,Default,Regulus,0,0,0,,Obrigado por mostrar que nem sequer\Nconhece homens para me comparar.
+Dialogue: 0,0:28:56.74,0:28:59.67,Default,Regulus,0,0,0,,Não posso simplesmente deixar\Nessa atitude passar, sabia?
+Dialogue: 0,0:29:00.12,0:29:03.63,Default,Regulus,0,0,0,,Está desrespeitando minha\Nindividualidade, minha autoridade—
+Dialogue: 0,0:29:03.63,0:29:04.67,Default,Fortuna,0,0,0,,Já chega!
+Dialogue: 0,0:29:04.67,0:29:07.14,Default,Fortuna,0,0,0,,Pare de falar como se estivesse\Nembriagado de si mesmo!
+Dialogue: 0,0:29:07.14,0:29:08.64,Default,Fortuna,0,0,0,,Quem é você?!
+Dialogue: 0,0:29:20.56,0:29:23.98,Default,Regulus,0,0,0,,Arcebispo do Culto da Bruxa,\Nrepresentando a Ganância...
+Dialogue: 0,0:29:24.50,0:29:26.51,Default,Regulus,0,0,0,,Regulus Corneas.
+Dialogue: 1,0:29:26.95,0:29:29.95,AstralSigns,,0,0,0,,Uma
+Dialogue: 1,0:29:26.95,0:29:29.95,AstralSigns,,0,0,0,,Jornada
+Dialogue: 1,0:29:26.95,0:29:29.95,AstralSigns,,0,0,0,,pelas
+Dialogue: 1,0:29:26.95,0:29:29.95,AstralSigns,,0,0,0,,Memórias

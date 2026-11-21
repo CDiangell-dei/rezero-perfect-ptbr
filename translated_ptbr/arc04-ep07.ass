@@ -1,0 +1,408 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,-1,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: AstralSigns,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.46,0:00:04.21,Default,Garfiel,0,0,0,,"No lugar"?!
+Dialogue: 0,0:00:04.21,0:00:04.90,Default,Otto,0,0,0,,Sim.
+Dialogue: 0,0:00:05.20,0:00:06.52,Default,Garfiel,0,0,0,,Cadê a velhota?
+Dialogue: 0,0:00:06.77,0:00:08.61,Default,Otto,0,0,0,,Não pude prever o que aconteceria,
+Dialogue: 0,0:00:08.61,0:00:10.03,Default,,0,0,0,,então a mandei para outro lugar.
+Dialogue: 0,0:00:10.29,0:00:13.53,Default,Garfiel,0,0,0,,E que diabos ainda tá fazendo aqui?
+Dialogue: 0,0:00:13.53,0:00:16.16,Default,Garfiel,0,0,0,,Quer "conversar", mas quem\Nvocê procura nem está aqui!
+Dialogue: 0,0:00:16.39,0:00:17.68,Default,Otto,0,0,0,,É verdade.
+Dialogue: 0,0:00:17.68,0:00:23.29,Default,Otto,0,0,0,,Digamos que estou ganhando tempo para um\Ncerto rapaz e uma moça ficarem a sós.
+Dialogue: 0,0:00:24.49,0:00:26.00,Default,Garfiel,0,0,0,,Ah, é mesmo?!
+Dialogue: 0,0:00:29.25,0:00:32.38,Default,Garfiel,0,0,0,,Não tem o que precisa, fracote.
+Dialogue: 0,0:00:37.54,0:00:38.35,Default,Garfiel,0,0,0,,A pedra—
+Dialogue: 0,0:00:43.62,0:00:44.92,Default,,0,0,0,,Droga...
+Dialogue: 0,0:00:46.16,0:00:48.46,Default,Otto,0,0,0,,É isto que está procurando?
+Dialogue: 0,0:00:49.60,0:00:54.16,Default,Otto,0,0,0,,Um mercador está sempre um passo à frente\Npara medir suas chances de vitória,
+Dialogue: 0,0:00:54.58,0:00:55.82,Default,Otto,0,0,0,,e é isso que eu sou.
+Dialogue: 0,0:00:56.12,0:00:57.49,Default,Garfiel,0,0,0,,Seu desgraçado...
+Dialogue: 0,0:00:59.52,0:01:03.12,Default,Otto,0,0,0,,Nunca tive muitos amigos humanos,
+Dialogue: 0,0:01:03.12,0:01:05.95,Default,Otto,0,0,0,,mas fiz muitos amigos\Nnão humanos em troca.
+Dialogue: 0,0:01:07.09,0:01:09.32,Default,Otto,0,0,0,,A floresta inteira está contra você agora.
+Dialogue: 0,0:01:09.74,0:01:12.81,Default,Otto,0,0,0,,Aproveite primeiro as boas-vindas\Ndos insetos zodda!
+Dialogue: 0,0:01:15.69,0:01:17.90,Default,Garfiel,0,0,0,,Droga... Droga!
+Dialogue: 0,0:01:17.90,0:01:20.01,Default,Garfiel,0,0,0,,Maldição!
+Dialogue: 0,0:01:31.80,0:01:34.11,Default - italics,Otto,0,0,0,,Quando eu era bem pequeno,
+Dialogue: 0,0:01:34.11,0:01:36.28,Default - italics,Otto,0,0,0,,o mundo era um berço infernal.
+Dialogue: 0,0:01:39.62,0:01:42.82,Default - italics,Otto,0,0,0,,Para onde quer que fosse,\Neu ouvia vozes intermináveis,
+Dialogue: 0,0:01:42.82,0:01:45.75,Default - italics,Otto,0,0,0,,mas não fazia ideia do que\Nnenhuma delas dizia.
+Dialogue: 0,0:01:46.72,0:01:51.53,Default - italics,Otto,0,0,0,,Naquela idade, eu não tinha como saber\Nque era a bênção com a qual nasci,
+Dialogue: 0,0:01:51.53,0:01:54.22,Default - italics,Otto,0,0,0,,a proteção divina da "alma da linguagem".
+Dialogue: 0,0:01:55.22,0:01:56.61,Default - flashback,Bro,0,0,0,,Espera aí!
+Dialogue: 0,0:02:00.27,0:02:02.14,Default - flashback,Mom,0,0,0,,Otto, o que está fazendo?
+Dialogue: 0,0:02:04.85,0:02:06.43,Default - flashback,Mom,0,0,0,,Não vai brincar com eles?
+Dialogue: 0,0:02:08.53,0:02:12.94,Default - italics,Otto,0,0,0,,Meus pais fizeram de tudo para\Nentender minha anormalidade,
+Dialogue: 0,0:02:13.50,0:02:18.20,Default - italics,Otto,0,0,0,,mas quem não possui uma proteção\Ndivina jamais consegue compreender.
+Dialogue: 0,0:02:35.14,0:02:37.08,Default - flashback,Bro,0,0,0,,Otto, tenta escrever.
+Dialogue: 0,0:02:43.86,0:02:46.73,Default - italics,Otto,0,0,0,,Foi meu irmão, sete anos mais velho,
+Dialogue: 0,0:02:46.73,0:02:50.36,Default - italics,Otto,0,0,0,,quem percebeu que palavras escritas\Ntalvez trouxessem esse entendimento
+Dialogue: 0,0:02:50.36,0:02:52.17,Default - italics,Otto,0,0,0,,quando as palavras faladas não bastavam.
+Dialogue: 0,0:03:16.09,0:03:17.42,Default - flashback,Mom,0,0,0,,Otto...
+Dialogue: 0,0:03:29.62,0:03:33.82,Default - italics,Otto,0,0,0,,Talvez tenha sido a primeira vez\Nque chorei desde que nasci.
+Dialogue: 0,0:03:38.29,0:03:40.77,Default - italics,Otto,0,0,0,,Então, quando fiz dez anos...
+Dialogue: 0,0:03:54.10,0:03:57.38,Default - flashback,Bug,0,0,0,,Luz... grande... foi... pra lá...
+Dialogue: 0,0:03:57.70,0:04:02.17,Default - italics,Otto,0,0,0,,Aquelas vozes sem sentido passaram a\Nse transformar em sons com significado.
+Dialogue: 0,0:04:02.96,0:04:04.64,Default - flashback,Bro,0,0,0,,Você entende o que os animais dizem?
+Dialogue: 0,0:04:04.99,0:04:05.74,Default - flashback,Otto,0,0,0,,Sim.
+Dialogue: 0,0:04:08.13,0:04:10.81,Default - flashback,Bug,0,0,0,,Chuva... cai logo. Chuva logo.
+Dialogue: 0,0:04:11.12,0:04:13.01,Default - flashback,Otto,0,0,0,,Estão dizendo que vai chover logo.
+Dialogue: 0,0:04:13.01,0:04:13.66,Default - flashback,Bro,0,0,0,,Hã?
+Dialogue: 0,0:04:22.29,0:04:24.91,Default - flashback,Bro,0,0,0,,Otto, esse poder é incrível.
+Dialogue: 0,0:04:25.23,0:04:26.57,Default - flashback,Bro,0,0,0,,E por ser tão incrível assim,
+Dialogue: 0,0:04:26.57,0:04:30.32,Default - flashback,,0,0,0,,não deve falar com insetos zodda\Nquando houver gente por perto.
+Dialogue: 0,0:04:30.32,0:04:31.12,Default - flashback,Otto,0,0,0,,Por quê?
+Dialogue: 0,0:04:31.58,0:04:34.10,Default - flashback,Bro,0,0,0,,Proteções divinas são bênçãos\Nconcedidas por este mundo,
+Dialogue: 0,0:04:34.10,0:04:36.58,Default - flashback,Bro,0,0,0,,mas há quem tente tirar\Nproveito disso.
+Dialogue: 0,0:04:36.90,0:04:38.92,Default - flashback,Bro,0,0,0,,Você precisa esconder esse seu poder.
+Dialogue: 0,0:04:40.41,0:04:44.59,Default - flashback,Otto,0,0,0,,Por isso não posso mais falar com você\Nperto dos outros, Fulfew.
+Dialogue: 0,0:04:45.02,0:04:47.28,Default - flashback,Fulfew,0,0,0,,Compreendo, Jovem Mestre.
+Dialogue: 0,0:04:47.93,0:04:49.07,Default - flashback,Kid,0,0,0,,Mentiroso!
+Dialogue: 0,0:04:49.07,0:04:50.79,Default - flashback,Kid,0,0,0,,Mentiroso! Mentiroso!
+Dialogue: 0,0:04:50.79,0:04:51.76,Default - flashback,Kid,0,0,0,,Você é um mentiroso!
+Dialogue: 0,0:04:51.76,0:04:52.79,Default - flashback,Kid,0,0,0,,É tudo mentira sua!
+Dialogue: 0,0:04:52.79,0:04:53.62,Default - flashback,Kid,0,0,0,,Tá mentindo feio!
+Dialogue: 0,0:04:53.62,0:04:55.27,Default - flashback,Bro,0,0,0,,Não estou mentindo!
+Dialogue: 0,0:04:55.27,0:04:58.51,Default - flashback,Bro,0,0,0,,Meu irmão Otto sabe falar com os animais!
+Dialogue: 0,0:04:59.55,0:05:01.44,Default - flashback,Bro,0,0,0,,Não sabe, Otto?!
+Dialogue: 0,0:05:20.68,0:05:21.37,Default - flashback,Kid,0,0,0,,É verdade!
+Dialogue: 0,0:05:21.37,0:05:22.17,Default - flashback,Kid,0,0,0,,Insetos zodda!
+Dialogue: 0,0:05:26.34,0:05:28.93,Default - flashback,Guy,0,0,0,,Ah, não! Insetos zodda!
+Dialogue: 0,0:05:33.75,0:05:35.23,Default - flashback,Kid,0,0,0,,Aberração dos insetos zodda!
+Dialogue: 0,0:05:38.16,0:05:41.27,Default - italics,Otto,0,0,0,,Depois disso, selei minha proteção divina
+Dialogue: 0,0:05:41.27,0:05:43.71,Default - italics,Otto,0,0,0,,e jurei nunca mais usá-la.
+Dialogue: 0,0:05:46.41,0:05:48.53,Default - italics,Otto,0,0,0,,Então, aos quinze anos...
+Dialogue: 0,0:05:50.30,0:05:54.16,Default - flashback,Guy,0,0,0,,Seu desgraçado! Sei que ficou\Ncom a minha namorada!
+Dialogue: 0,0:05:54.16,0:05:56.51,Default - flashback,Otto,0,0,0,,E-Espera um—
+Dialogue: 0,0:05:55.45,0:05:57.92,Default - flashback,Guy,0,0,0,,{\an8}Cala a boca, aberração dos insetos zodda!
+Dialogue: 0,0:05:58.13,0:06:01.17,Default - flashback,Otto,0,0,0,,Aberração... dos insetos zodda?
+Dialogue: 0,0:06:02.90,0:06:05.26,Default - flashback,Otto,0,0,0,,Vou descobrir a verdade!
+Dialogue: 0,0:06:06.18,0:06:06.88,Default - flashback,Dog,0,0,0,,Eu vi.
+Dialogue: 0,0:06:33.46,0:06:34.83,Default - flashback,Otto,0,0,0,,Eu sei a verdade!
+Dialogue: 0,0:06:34.83,0:06:37.83,Default - flashback,Otto,0,0,0,,Você é o oitavo rapaz com quem ela ficou!
+Dialogue: 0,0:06:38.96,0:06:39.75,Default - flashback,Girl,0,0,0,,Seu idiota!
+Dialogue: 0,0:06:41.08,0:06:43.09,Default - flashback,Girl,0,0,0,,Alguém mate ele!
+Dialogue: 0,0:06:47.37,0:06:50.55,Default - italics,Otto,0,0,0,,Fiz inimizade com a filha da pessoa\Nmais poderosa da cidade,
+Dialogue: 0,0:06:50.55,0:06:52.67,Default - italics,Otto,0,0,0,,e fui expulso de lá.
+Dialogue: 0,0:06:58.54,0:07:02.76,Default - italics,Otto,0,0,0,,Depois, acabei conquistando minha\Nindependência como mercador,
+Dialogue: 0,0:07:02.76,0:07:04.52,Default - italics,Otto,0,0,0,,e dei o sangue trabalhando.
+Dialogue: 0,0:07:08.66,0:07:13.41,Default - italics,Otto,0,0,0,,Decidi que um dia teria\Na minha própria loja.
+Dialogue: 0,0:07:18.40,0:07:19.99,Default - italics,Otto,0,0,0,,Você consegue, Otto!
+Dialogue: 0,0:07:20.77,0:07:22.70,Default - italics,Otto,0,0,0,,Vai, vai, Otto!
+Dialogue: 0,0:07:29.69,0:07:31.77,Default - flashback,Petel,0,0,0,,Ora, ora, ora...
+Dialogue: 0,0:07:31.77,0:07:34.47,Default - flashback,Petel,0,0,0,,Aonde vai com tanta...
+Dialogue: 0,0:07:34.88,0:07:35.97,Default - flashback,Petel,0,0,0,,pressa?!
+Dialogue: 0,0:08:12.63,0:08:14.80,Default - flashback,Ricardo,0,0,0,,Você deu sorte, garoto.
+Dialogue: 0,0:08:14.80,0:08:17.51,Default - flashback,Ricardo,0,0,0,,Teria morrido se eu não tivesse te achado.
+Dialogue: 0,0:08:17.89,0:08:20.98,Default - flashback,Ricardo,0,0,0,,É bom agradecer ao garoto chefe.
+Dialogue: 0,0:08:20.98,0:08:23.41,Default - flashback,Otto,0,0,0,,G-Garoto... chefe?
+Dialogue: 0,0:08:23.41,0:08:24.77,Default - flashback,Ricardo,0,0,0,,É, ele é o nosso chefe.
+Dialogue: 0,0:08:24.98,0:08:28.14,Default - flashback,Ricardo,0,0,0,,E foi ele quem salvou a sua vida.
+Dialogue: 0,0:08:28.14,0:08:31.52,Default - flashback,Otto,0,0,0,,E-Entendido. Muito obrigado.
+Dialogue: 0,0:08:31.99,0:08:33.53,Default - flashback,Otto,0,0,0,,E devo agradecer a ele também.
+Dialogue: 0,0:08:34.82,0:08:37.12,Default - flashback,Ricardo,0,0,0,,Se vai chorar, se esconde antes.
+Dialogue: 0,0:08:38.17,0:08:41.21,Default - flashback,Ricardo,0,0,0,,Homem nenhum devia cair no choro\Nna frente dos outros.
+Dialogue: 0,0:08:41.21,0:08:43.52,Default - flashback,Otto,0,0,0,,Hã? C-Chorar?
+Dialogue: 0,0:08:49.01,0:08:49.88,Default - flashback,Otto,0,0,0,,Droga...
+Dialogue: 0,0:08:51.62,0:08:52.69,Default - flashback,Otto,0,0,0,,O que é isto?
+Dialogue: 0,0:08:53.92,0:08:56.57,Default - flashback,Otto,0,0,0,,Isto... I-Isto...
+Dialogue: 0,0:08:59.85,0:09:04.50,Default - flashback,Otto,0,0,0,,Ainda bem... que eu não morri...
+Dialogue: 0,0:09:05.20,0:09:09.92,Default - italics,Otto,0,0,0,,Percebi que cada vez que choro\Nmarca um renascimento na minha vida.
+Dialogue: 0,0:09:10.47,0:09:13.44,Default - italics,Otto,0,0,0,,Meu primeiro choro de bebê\Nao receber a vida...
+Dialogue: 0,0:09:14.32,0:09:15.65,Default - italics,Otto,0,0,0,,O segundo, ao descobrir
+Dialogue: 0,0:09:16.12,0:09:19.58,Default - italics,Otto,0,0,0,,o amor da minha família\Ne entender o meu próprio coração...
+Dialogue: 0,0:09:20.03,0:09:23.24,Default - italics,Otto,0,0,0,,E naquele dia, o terceiro,\Nao escapar por pouco da morte,
+Dialogue: 0,0:09:23.24,0:09:27.24,Default - italics,Otto,0,0,0,,e enfim compreender meu propósito\Ne minha razão de viver.
+Dialogue: 0,0:09:29.17,0:09:33.67,Default,Otto,0,0,0,,Na verdade, ninguém me pediu\Npara ganhar tempo assim...
+Dialogue: 0,0:09:33.67,0:09:36.19,Default,Otto,0,0,0,,Mas tudo isso é para ajudar meu amigo!
+Dialogue: 0,0:09:42.72,0:09:44.60,Default,Bird,0,0,0,,...vindo! Vindo!
+Dialogue: 0,0:09:44.60,0:09:45.92,Default,Bird,0,0,0,,Um perigoso está vindo!
+Dialogue: 0,0:09:45.92,0:09:47.06,Default,Otto,0,0,0,,Eu já sei!
+Dialogue: 0,0:09:47.34,0:09:49.52,Default,Bug,0,0,0,,Bem atrás. Já chegou.
+Dialogue: 0,0:09:49.52,0:09:51.45,Default,Otto,0,0,0,,Eu disse que já {\i1}sei{\i0} disso!
+Dialogue: 0,0:09:51.45,0:09:53.98,Default,Otto,0,0,0,,Eu planejei isso! Está tudo\Ndentro dos meus cálculos!
+Dialogue: 0,0:09:53.98,0:09:56.24,Default,Hamster,0,0,0,,Você vai morrer. Coitadinho.
+Dialogue: 0,0:09:56.45,0:10:00.22,Default,Otto,0,0,0,,Dá para parar de ser tão pessimista, por favor?!
+Dialogue: 0,0:10:08.02,0:10:11.15,Default,Otto,0,0,0,,É isso que acontece quando uso demais?
+Dialogue: 0,0:10:11.15,0:10:14.42,Default,Otto,0,0,0,,Minha proteção divina dá muito trabalho.
+Dialogue: 0,0:10:15.25,0:10:20.14,Default,Otto,0,0,0,,Será que o Natsuki-san... está\Nconseguindo falar com a Emilia-sama?
+Dialogue: 0,0:10:44.14,0:10:46.04,Default,Garfiel,0,0,0,,Te achei!
+Dialogue: 0,0:10:57.39,0:10:58.70,Default,Garfiel,0,0,0,,Desgraçado!
+Dialogue: 0,0:10:59.51,0:11:02.68,Default,Otto,0,0,0,,Pela primeira vez, ganhei um papel\Nbem empolgante para interpretar!
+Dialogue: 0,0:11:02.68,0:11:05.18,Default,Otto,0,0,0,,Não vou deixar você me pegar tão fácil!
+Dialogue: 0,0:11:33.22,0:11:35.54,Default,Otto,0,0,0,,Tenha dó, me dê uma folga...
+Dialogue: 0,0:11:35.54,0:11:37.21,Default,Garfiel,0,0,0,,Nem pensar!
+Dialogue: 0,0:11:42.39,0:11:45.39,Default,Garfiel,0,0,0,,Não vou deixar você fazer\Nnenhuma merda de novo!
+Dialogue: 0,0:11:45.77,0:11:48.21,Default,Otto,0,0,0,,E-Eu não teria tanta certeza...
+Dialogue: 0,0:11:48.57,0:11:50.57,Default,Otto,0,0,0,,Esta luta ainda não acab—
+Dialogue: 0,0:11:51.33,0:11:54.02,Default,Garfiel,0,0,0,,Eu já disse, não vou deixar\Nfazer mais nenhuma merda!
+Dialogue: 0,0:11:54.53,0:11:56.72,Default,Garfiel,0,0,0,,Pra falar a verdade, você me surpreendeu.
+Dialogue: 0,0:11:56.72,0:11:59.98,Default,Garfiel,0,0,0,,Sério, eu nunca ia imaginar\Nque você tinha tudo isso.
+Dialogue: 0,0:12:01.51,0:12:05.79,Default,Garfiel,0,0,0,,Vai ter que me perdoar por fazer\Nalgo tão sujo com um homem.
+Dialogue: 0,0:12:08.41,0:12:11.46,Default,Otto,0,0,0,,Acho que já fiz tudo o que podia.
+Dialogue: 0,0:12:11.66,0:12:13.85,Default,Garfiel,0,0,0,,Devolve a pedra agora mesmo!
+Dialogue: 0,0:12:13.85,0:12:15.29,Default,Garfiel,0,0,0,,Já chega disso, maldição!
+Dialogue: 0,0:12:19.88,0:12:22.92,Default,Garfiel,0,0,0,,Muito bem, então. Quando\Nvocê acordar, tudo já vai—
+Dialogue: 0,0:12:22.92,0:12:26.68,Default,Otto,0,0,0,,Digamos que a minha batalha termina aqui.
+Dialogue: 0,0:12:28.58,0:12:29.18,Default,Garfiel,0,0,0,,Ram!
+Dialogue: 0,0:12:29.18,0:12:30.06,Default,Ram,0,0,0,,{\i1}El Fula!{\i0}
+Dialogue: 0,0:12:30.84,0:12:32.40,Default,Garfiel,0,0,0,,Sua maldita metida!
+Dialogue: 0,0:12:36.57,0:12:40.09,Default,Ram,0,0,0,,Eu já sabia, mas você estava tão\Npatético que nem dava para olhar.
+Dialogue: 0,0:12:40.09,0:12:44.36,Default,Otto,0,0,0,,Não é um pouco cruel com quem acabou\Nde dar tudo de si na luta?
+Dialogue: 0,0:12:44.57,0:12:47.12,Default,Ram,0,0,0,,Tudo de si? Nesse estado?
+Dialogue: 0,0:12:47.60,0:12:51.14,Default,Otto,0,0,0,,Nunca vi uma criada tão oposta\Nao conceito de reconfortante!
+Dialogue: 0,0:12:51.14,0:12:53.41,Default,Garfiel,0,0,0,,Ei, Ram, ficar do lado deles não quer dizer
+Dialogue: 0,0:12:53.41,0:12:57.13,Default,Garfiel,0,0,0,,que tá indo contra os planos\Ndaquele desgraçado do Roswaal?
+Dialogue: 0,0:12:57.53,0:13:00.40,Default,Ram,0,0,0,,Eu daria minha alma para realizar\No maior desejo do meu mestre.
+Dialogue: 0,0:13:00.96,0:13:01.59,Default,Ram,0,0,0,,Mas...
+Dialogue: 0,0:13:02.02,0:13:03.80,Default,Ram,0,0,0,,do meu próprio jeito.
+Dialogue: 0,0:13:04.04,0:13:05.83,Default,Garfiel,0,0,0,,Chega de conversa fiada!
+Dialogue: 0,0:13:05.83,0:13:09.85,Default,Garfiel,0,0,0,,O que acha que tá acontecendo\Nenquanto me segura aqui?!
+Dialogue: 0,0:13:09.85,0:13:13.22,Default,Garfiel,0,0,0,,Acha mesmo que ele merece toda essa confiança?!
+Dialogue: 0,0:13:13.22,0:13:15.17,Default,Otto,0,0,0,,Se o Natsuki-san merece?
+Dialogue: 0,0:13:15.55,0:13:18.48,Default,Otto,0,0,0,,Bem, se a questão for se ele vale algo,
+Dialogue: 0,0:13:18.48,0:13:19.96,Default,Otto,0,0,0,,imagino que não.
+Dialogue: 0,0:13:19.96,0:13:20.80,Default,Garfiel,0,0,0,,Hã?!
+Dialogue: 0,0:13:20.80,0:13:23.84,Default,Otto,0,0,0,,Mas espero ver que flores\Nvão brotar dele,
+Dialogue: 0,0:13:23.84,0:13:26.08,Default,Otto,0,0,0,,então continuo podando e\Nespantando os insetos...
+Dialogue: 0,0:13:27.76,0:13:29.91,Default,Otto,0,0,0,,É assim que me sinto no momento.
+Dialogue: 0,0:13:30.16,0:13:35.90,Default,Ram,0,0,0,,Hmpf. Francamente, não sei o que te faz\Nesperar tanta coisa do Barusu.
+Dialogue: 0,0:13:36.82,0:13:41.38,Default,Ram,0,0,0,,Ele é fraco, inútil e tão incompetente\Nque não sabe nem fazer chá direito.
+Dialogue: 0,0:13:41.38,0:13:45.13,Default,Otto,0,0,0,,Isso já é exagero... ou talvez\Nnem seja tanto assim.
+Dialogue: 0,0:13:45.44,0:13:48.69,Default,Ram,0,0,0,,Mas... na hora do tudo ou nada,
+Dialogue: 0,0:13:48.69,0:13:50.47,Default,Ram,0,0,0,,ele acerta o momento de um jeito bizarro.
+Dialogue: 0,0:13:52.43,0:13:54.04,Default,Ram,0,0,0,,Um homem que só acerta o momento.
+Dialogue: 0,0:13:54.04,0:13:55.23,Default,,0,0,0,,Esse é o Barusu.
+Dialogue: 0,0:13:56.08,0:13:59.89,Default,Ram,0,0,0,,Se ele vê uma brecha e resolve agir,
+Dialogue: 0,0:14:00.54,0:14:02.82,Default,Ram,0,0,0,,saiba que esse é o único caminho para a vitória.
+Dialogue: 0,0:14:03.07,0:14:06.76,Default,Otto,0,0,0,,No fim das contas, você também confia\Nno Natsuki-san, Ram-san.
+Dialogue: 0,0:14:06.76,0:14:07.79,Default,Ram,0,0,0,,É "Ram-sama".
+Dialogue: 0,0:14:07.79,0:14:09.95,Default,Otto,0,0,0,,Que jeito mais hostil\Nde esconder a timidez!
+Dialogue: 0,0:14:11.62,0:14:13.49,Default,Garfiel,0,0,0,,Chega!
+Dialogue: 0,0:14:25.50,0:14:26.54,Default,Ram,0,0,0,,Fique para trás.
+Dialogue: 0,0:14:26.96,0:14:27.97,Default,Otto,0,0,0,,Espere... Ram-san!
+Dialogue: 0,0:14:38.00,0:14:41.39,Default,Ram,0,0,0,,Já me venceu alguma vez numa troca de socos?
+Dialogue: 0,0:14:47.33,0:14:48.90,Default,Otto,0,0,0,,Não... pode ser...
+Dialogue: 0,0:15:01.84,0:15:04.13,Default,Ram,0,0,0,,Você ficou mais forte, Garf.
+Dialogue: 0,0:15:24.08,0:15:25.90,Default,Ram,0,0,0,,{\i1}Al Fula!{\i0}
+Dialogue: 0,0:15:32.13,0:15:35.95,Default,Subaru,0,0,0,,Conto com você, Otto. Por favor,\Nnão faça nenhuma loucura.
+Dialogue: 0,0:15:37.84,0:15:38.70,Default,Subaru,0,0,0,,Agora...
+Dialogue: 0,0:15:39.86,0:15:41.96,Default,Subaru,0,0,0,,Eu vou fazer a minha parte.
+Dialogue: 0,0:15:46.61,0:15:49.32,Default,Subaru,0,0,0,,Ah, que bom. Finalmente te encontrei.
+Dialogue: 1,0:15:53.93,0:15:56.93,AstralSigns,,0,0,0,,O
+Dialogue: 1,0:15:53.93,0:15:56.93,AstralSigns,,0,0,0,,tto Suwen
+Dialogue: 0,0:16:00.72,0:16:03.94,Default,Subaru,0,0,0,,Você pensou mesmo em tudo,\Nnão foi, Emilia-tan?
+Dialogue: 0,0:16:04.19,0:16:07.34,Default,Subaru,0,0,0,,Sabia que ninguém te acharia\Nse você se enfiasse aqui dentro.
+Dialogue: 0,0:16:08.27,0:16:13.01,Default,Emilia,0,0,0,,Por que... está aqui, Subaru?\NVocê não...
+Dialogue: 0,0:16:13.01,0:16:16.06,Default,Subaru,0,0,0,,...é repelido com tanta força quanto o Roswaal?
+Dialogue: 0,0:16:16.72,0:16:21.45,Default,Subaru,0,0,0,,Quer dizer, eu tô aqui, mas estou\Nfazendo uma baita força pra aguentar.
+Dialogue: 0,0:16:21.83,0:16:23.76,Default,Emilia,0,0,0,,Eu... entendi...
+Dialogue: 0,0:16:23.76,0:16:28.78,Default,Subaru,0,0,0,,Metade de mim acreditava que estaria aqui,\Ne a outra metade só torcia por isso.
+Dialogue: 0,0:16:29.84,0:16:31.65,Default,Emilia,0,0,0,,Metade... e metade...
+Dialogue: 0,0:16:31.65,0:16:33.66,Default,Subaru,0,0,0,,Que alívio ter te encontrado.
+Dialogue: 0,0:16:34.54,0:16:36.40,Default,Emilia,0,0,0,,Só... aliviado?
+Dialogue: 0,0:16:37.27,0:16:39.33,Default,Emilia,0,0,0,,Você não está bravo?
+Dialogue: 0,0:16:39.33,0:16:41.41,Default,Subaru,0,0,0,,Que papo é esse, Emilia-tan?
+Dialogue: 0,0:16:41.41,0:16:44.47,Default,Subaru,0,0,0,,Estava mesmo com medo\Nde eu ficar bravo com você?
+Dialogue: 0,0:16:44.47,0:16:46.22,Default,Subaru,0,0,0,,Não estou bravo.
+Dialogue: 0,0:16:46.22,0:16:49.40,Default,Subaru,0,0,0,,Apesar de eu ter entrado em pânico\Ne quase não saber se estava vivo.
+Dialogue: 0,0:16:49.94,0:16:52.64,Default,Emilia,0,0,0,,Entendi. Você não está bravo.
+Dialogue: 0,0:16:52.99,0:16:53.87,Default,Subaru,0,0,0,,Emilia?
+Dialogue: 0,0:16:56.05,0:16:59.55,Default,Emilia,0,0,0,,Você não está bravo comigo, Subaru.
+Dialogue: 0,0:17:01.12,0:17:03.02,Default,Emilia,0,0,0,,Você nem fica bravo.
+Dialogue: 0,0:17:04.42,0:17:07.66,Default,Emilia,0,0,0,,Por que você não fica bravo?
+Dialogue: 0,0:17:08.24,0:17:11.28,Default,Emilia,0,0,0,,O que eu fiz foi egoísmo, não foi?
+Dialogue: 0,0:17:11.28,0:17:13.01,Default,Emilia,0,0,0,,Eu te dei trabalho, não dei?
+Dialogue: 0,0:17:13.37,0:17:16.40,Default,Emilia,0,0,0,,Te deixei preocupado\Nsaindo sem dizer nada.
+Dialogue: 0,0:17:17.22,0:17:21.09,Default,Emilia,0,0,0,,Não fica bravo porque n-não esperava\Nnada de mim desde o começo?
+Dialogue: 0,0:17:21.09,0:17:24.88,Default,Emilia,0,0,0,,Você é gentil comigo mesmo quando eu erro
+Dialogue: 0,0:17:24.88,0:17:27.06,Default,Emilia,0,0,0,,porque nem chega a se\Ndecepcionar comigo, não é?
+Dialogue: 0,0:17:27.06,0:17:30.69,Default,Emilia,0,0,0,,Porque já sabe que nunca vai dar certo?
+Dialogue: 0,0:17:30.93,0:17:33.87,Default,Subaru,0,0,0,,Não, Emilia! Não é isso que eu penso!
+Dialogue: 0,0:17:33.87,0:17:35.07,Default,Emilia,0,0,0,,Então...
+Dialogue: 0,0:17:35.90,0:17:37.45,Default,Emilia,0,0,0,,Então por quê?
+Dialogue: 0,0:17:38.42,0:17:41.30,Default,Emilia,0,0,0,,Por que não cumpriu sua promessa?!
+Dialogue: 0,0:17:41.76,0:17:45.66,Default,Emilia,0,0,0,,Você e o Puck quebraram a palavra\Ne foram embora.
+Dialogue: 0,0:17:46.14,0:17:49.22,Default,Emilia,0,0,0,,Vocês foram embora e me deixaram para trás.
+Dialogue: 0,0:17:50.32,0:17:51.95,Default,Emilia,0,0,0,,Você é um mentiroso.
+Dialogue: 0,0:17:52.52,0:17:54.08,Default,,0,0,0,,O Puck é um mentiroso.
+Dialogue: 0,0:17:55.67,0:17:56.70,Default,Emilia,0,0,0,,Mentiroso...
+Dialogue: 0,0:17:57.78,0:17:59.09,Default,,0,0,0,,Seu mentiroso...
+Dialogue: 0,0:17:59.09,0:17:59.90,Default,Subaru,0,0,0,,Emilia...
+Dialogue: 0,0:17:59.90,0:18:02.76,Default,Emilia,0,0,0,,Não se deve... quebrar promessas...
+Dialogue: 0,0:18:03.22,0:18:04.72,Default,Emilia,0,0,0,,Não se deve mentir!
+Dialogue: 0,0:18:05.01,0:18:06.72,Default,Emilia,0,0,0,,Isso é errado!
+Dialogue: 0,0:18:20.72,0:18:21.71,Default,Subaru,0,0,0,,Emilia...
+Dialogue: 0,0:18:22.57,0:18:24.62,Default,Subaru,0,0,0,,Eu te amo.
+Dialogue: 0,0:18:24.99,0:18:25.58,Default,Emilia,0,0,0,,Hã?
+Dialogue: 0,0:18:28.12,0:18:32.46,Default,Subaru,0,0,0,,Noite após noite, você se joga\Nnessa mesma maldita Provação sem parar.
+Dialogue: 0,0:18:32.46,0:18:35.63,Default,Subaru,0,0,0,,E que diabos é essa Provação, afinal?\NÉ só o passado!
+Dialogue: 0,0:18:35.63,0:18:38.53,Default,Subaru,0,0,0,,Para de ficar choramingando\Npelo que já acabou e ficou para trás!
+Dialogue: 0,0:18:38.53,0:18:39.68,Default,Emilia,0,0,0,,Eh, o qu—
+Dialogue: 0,0:18:39.68,0:18:44.40,Default,Subaru,0,0,0,,Quando tentei fazer por você, insistiu\Nque só você mesma podia fazer.
+Dialogue: 0,0:18:44.40,0:18:47.07,Default,Subaru,0,0,0,,Então, se estraga tudo,\Né porque só tinha garganta!
+Dialogue: 0,0:18:47.07,0:18:48.57,Default,Emilia,0,0,0,,S-Subaru...
+Dialogue: 0,0:18:48.57,0:18:51.61,Default,Subaru,0,0,0,,E no fim, quando seu guardião\Ne mascote some do mapa,
+Dialogue: 0,0:18:51.61,0:18:54.57,Default,Subaru,0,0,0,,você larga seus deveres e foge\Npara chorar pelos cantos?
+Dialogue: 0,0:18:54.57,0:18:56.53,Default,Subaru,0,0,0,,Eu não aguento mais isso!
+Dialogue: 0,0:19:00.42,0:19:02.21,Default,Emilia,0,0,0,,Você tem razão.
+Dialogue: 0,0:19:02.21,0:19:06.49,Default,,0,0,0,,Faz todo sentido que você\Npense assim de mim.
+Dialogue: 0,0:19:06.70,0:19:07.45,Default,Subaru,0,0,0,,Mas ainda assim...
+Dialogue: 0,0:19:08.54,0:19:11.92,Default,Subaru,0,0,0,,Eu te amo, Emilia.
+Dialogue: 0,0:19:14.82,0:19:16.66,Default,Subaru,0,0,0,,Eu te amo.
+Dialogue: 0,0:19:17.38,0:19:21.59,Default,Subaru,0,0,0,,Eu te amo tanto, mas tanto,\Nque nem sei o que fazer comigo.
+Dialogue: 0,0:19:21.90,0:19:24.34,Default,Emilia,0,0,0,,D-De onde veio tudo isso?
+Dialogue: 0,0:19:24.34,0:19:27.36,Default,Subaru,0,0,0,,Eu amo esse seu lindo cabelo prateado,
+Dialogue: 0,0:19:27.36,0:19:30.64,Default,Subaru,0,0,0,,amo essas joias roxas e úmidas\Nque você tem no lugar dos olhos.
+Dialogue: 0,0:19:31.04,0:19:34.23,Default,Subaru,0,0,0,,Amo a sua voz e como só de ouvi-la\Neu entro em transe.
+Dialogue: 0,0:19:34.43,0:19:37.87,Default,Subaru,0,0,0,,Seus braços e pernas longos e esguios,\Nsua pele pálida,
+Dialogue: 0,0:19:38.24,0:19:41.82,Default,Subaru,0,0,0,,e sua altura são tão perfeitos\Npara mim que eu nem me aguento.
+Dialogue: 0,0:19:41.82,0:19:44.45,Default,Subaru,0,0,0,,Só de estar com você, meu coração\Ndispara fora de controle.
+Dialogue: 0,0:19:44.45,0:19:45.37,Default,Subaru,0,0,0,,Dá até medo, sério.
+Dialogue: 0,0:19:47.33,0:19:49.70,Default,Subaru,0,0,0,,Também amo esse seu jeito distraído.
+Dialogue: 0,0:19:49.70,0:19:52.30,Default,Subaru,0,0,0,,O jeito que se esforça em tudo é adorável,
+Dialogue: 0,0:19:52.69,0:19:55.87,Default,Subaru,0,0,0,,e respeito como faz o possível\Npara ajudar os outros.
+Dialogue: 0,0:19:56.26,0:19:59.96,Default,Subaru,0,0,0,,Não dá pra te deixar sozinha quando\Nse põe depois de todo mundo.
+Dialogue: 0,0:20:00.50,0:20:04.53,Default,Subaru,0,0,0,,Quero ver todas as suas expressões\Nbem aqui, do seu lado.
+Dialogue: 0,0:20:05.80,0:20:07.74,Default,Emilia,0,0,0,,N-Não é hora para...
+Dialogue: 0,0:20:08.47,0:20:10.45,Default,Emilia,0,0,0,,Pare de brincadeira!
+Dialogue: 0,0:20:10.45,0:20:13.04,Default,Emilia,0,0,0,,Por que está dizendo isso do nada?!
+Dialogue: 0,0:20:13.04,0:20:15.30,Default,Emilia,0,0,0,,Não era disso que estávamos falando!
+Dialogue: 0,0:20:15.30,0:20:17.81,Default,Emilia,0,0,0,,Você acabou de dizer que sou uma inútil,
+Dialogue: 0,0:20:17.81,0:20:19.11,Default,,0,0,0,,que não me aguentava mais!
+Dialogue: 0,0:20:19.11,0:20:20.40,Default,Subaru,0,0,0,,É, tem razão.
+Dialogue: 0,0:20:20.40,0:20:23.46,Default,Emilia,0,0,0,,Então por que perdoaria\Numa inútil como eu?!
+Dialogue: 0,0:20:23.46,0:20:26.45,Default,Subaru,0,0,0,,Se é só essa resposta que quer,\Neu já disse várias vezes!
+Dialogue: 0,0:20:26.78,0:20:29.45,Default,Subaru,0,0,0,,É porque eu te amo!
+Dialogue: 0,0:20:31.25,0:20:33.39,Default,Subaru,0,0,0,,Sou completamente apaixonado por você!
+Dialogue: 0,0:20:33.39,0:20:36.24,Default,Subaru,0,0,0,,Tudo em você brilha aos meus olhos!
+Dialogue: 0,0:20:36.71,0:20:39.06,Default,Subaru,0,0,0,,Claro que há partes suas\Nque não são perfeitas.
+Dialogue: 0,0:20:39.06,0:20:42.21,Default,Subaru,0,0,0,,Não é um anjo nem uma deusa.\NÉ só uma garota comum.
+Dialogue: 0,0:20:42.21,0:20:44.77,Default,Subaru,0,0,0,,Às vezes vai doer tanto\Nque vai dar vontade de chorar,
+Dialogue: 0,0:20:44.77,0:20:48.22,Default,Subaru,0,0,0,,e você vai querer fugir do que machuca!\NEu entendo isso!
+Dialogue: 0,0:20:48.51,0:20:53.63,Default,Subaru,0,0,0,,Mas incluindo essa fraqueza e as\Npartes que até chamaria de feias...
+Dialogue: 0,0:20:54.29,0:20:57.11,Default,Subaru,0,0,0,,Eu amo tudo o que você é, Emilia.
+Dialogue: 0,0:20:58.46,0:21:01.76,Default,Emilia,0,0,0,,Isso é... egoísta demais!
+Dialogue: 0,0:21:01.76,0:21:04.12,Default,Emilia,0,0,0,,Você acabou de listar tudo o que\Nme faz ser inútil,
+Dialogue: 0,0:21:04.69,0:21:06.70,Default,Emilia,0,0,0,,e ainda diz que me ama?
+Dialogue: 0,0:21:07.43,0:21:08.99,Default,Emilia,0,0,0,,Como quer que eu acredite em você?!
+Dialogue: 0,0:21:08.99,0:21:12.13,Default,Subaru,0,0,0,,Está errada! Entendeu\Ntudo completamente errado!
+Dialogue: 0,0:21:12.13,0:21:16.51,Default,Subaru,0,0,0,,Não é por acreditar em você\Nque eu te amo!
+Dialogue: 0,0:21:16.51,0:21:19.70,Default,Subaru,0,0,0,,Eu acredito em você porque te amo!
+Dialogue: 0,0:21:19.70,0:21:23.18,Default,Emilia,0,0,0,,Só amar alguém não é motivo\Npara acreditar nessa pessoa!
+Dialogue: 0,0:21:24.44,0:21:27.57,Default,Subaru,0,0,0,,Se só te amar não for motivo\Npara acreditar em você...
+Dialogue: 0,0:21:27.57,0:21:31.32,Default,Subaru,0,0,0,,quem diabos ia passar por todo\Nesse sofrimento por vontade própria
+Dialogue: 0,0:21:31.32,0:21:34.98,Default,Subaru,0,0,0,,pra vir ajudar uma chata\Ncomo você?!
+Dialogue: 0,0:21:34.98,0:21:38.29,Default,Subaru,0,0,0,,Eu te amo tanto que fico maluco!
+Dialogue: 0,0:21:38.29,0:21:40.36,Default,Subaru,0,0,0,,Eu te amo tanto que poderia morrer!
+Dialogue: 0,0:21:40.59,0:21:43.32,Default,Subaru,0,0,0,,Por isso suporto toda\Na dor e o sofrimento!
+Dialogue: 0,0:21:43.32,0:21:46.62,Default,Subaru,0,0,0,,Mesmo agora, quase vomitando,\Nsigo de pé na sua frente!
+Dialogue: 0,0:21:47.52,0:21:50.63,Default,Emilia,0,0,0,,Nunca te pedi para fazer isso!
+Dialogue: 0,0:21:50.63,0:21:52.32,Default,Emilia,0,0,0,,Você só está sendo egoísta!
+Dialogue: 0,0:21:52.32,0:21:56.37,Default,,0,0,0,,Não pensa nem um pouco\Nnos meus sentimentos!
+Dialogue: 0,0:21:56.37,0:21:59.25,Default,Emilia,0,0,0,,Você não faz ideia do que sinto\Ntoda vez que te vejo
+Dialogue: 0,0:21:59.72,0:22:02.59,Default,Emilia,0,0,0,,se machucar por minha causa!
+Dialogue: 0,0:22:02.59,0:22:05.73,Default,Subaru,0,0,0,,Como eu {\i1}saberia{\i0}?!\NNem paro pra pensar nisso!
+Dialogue: 0,0:22:05.73,0:22:09.68,Default,Subaru,0,0,0,,Só penso em como fazer\Nbonito na sua frente!
+Dialogue: 0,0:22:09.68,0:22:11.81,Default,Subaru,0,0,0,,Estou sofrendo por você aqui!
+Dialogue: 0,0:22:11.81,0:22:14.08,Default,,0,0,0,,Pelo menos tente ficar fofa\Ncomo eu esperava!
+Dialogue: 0,0:22:14.08,0:22:16.14,Default,Emilia,0,0,0,,Não fale como se eu fosse uma boneca!
+Dialogue: 0,0:22:16.14,0:22:18.77,Default,Emilia,0,0,0,,Por que quebrou sua promessa?!
+Dialogue: 0,0:22:18.77,0:22:21.52,Default,Emilia,0,0,0,,Se tivesse feito só o que pedi,\Njá teria bastado!
+Dialogue: 0,0:22:21.52,0:22:23.48,Default,Emilia,0,0,0,,Por que não fez nem isso?!
+Dialogue: 0,0:22:23.48,0:22:25.81,Default,Emilia,0,0,0,,Você na verdade me odeia, não é?!
+Dialogue: 0,0:22:25.81,0:22:26.46,Default,Subaru,0,0,0,,Eu te amo!
+Dialogue: 0,0:22:26.46,0:22:27.07,Default,Emilia,0,0,0,,Mentiroso!
+Dialogue: 0,0:22:27.07,0:22:28.91,Default,Subaru,0,0,0,,Não tô mentindo! Eu te amo!
+Dialogue: 0,0:22:28.91,0:22:30.03,Default,Emilia,0,0,0,,Então...
+Dialogue: 0,0:22:33.42,0:22:34.48,Default,Emilia,0,0,0,,Por quê?
+Dialogue: 0,0:22:35.23,0:22:37.63,Default,,0,0,0,,Por que quebrou sua promessa?
+Dialogue: 0,0:22:39.34,0:22:40.47,Default,Subaru,0,0,0,,Não posso te contar.
+Dialogue: 0,0:22:40.87,0:22:44.17,Default,Emilia,0,0,0,,Se tivesse ficado comigo até\Nde manhã como prometeu,
+Dialogue: 0,0:22:44.65,0:22:47.72,Default,Emilia,0,0,0,,acho que teria acreditado em você.
+Dialogue: 0,0:22:47.72,0:22:51.18,Default,Emilia,0,0,0,,Teria acreditado em você\Ne confiado tudo a você.
+Dialogue: 0,0:22:52.37,0:22:54.80,Default,Emilia,0,0,0,,Mas você...
+Dialogue: 0,0:23:01.38,0:23:07.30,Default,Emilia,0,0,0,,Desde que o Puck partiu, minhas\Nmemórias vêm voltando aos poucos.
+Dialogue: 0,0:23:07.78,0:23:10.50,Default,Emilia,0,0,0,,Cenas na minha mente que não reconheço...
+Dialogue: 0,0:23:10.50,0:23:12.28,Default,Emilia,0,0,0,,Conversas das quais não me lembro...
+Dialogue: 0,0:23:12.94,0:23:14.66,Default,Emilia,0,0,0,,Elas voltam cada vez mais.
+Dialogue: 0,0:23:15.22,0:23:18.79,Default,Emilia,0,0,0,,Achei que me lembrava de tudo\Nesse tempo todo,
+Dialogue: 0,0:23:19.73,0:23:23.41,Default,Emilia,0,0,0,,mas acabei esquecendo tudo,\Ncomo se nunca tivesse existido.
+Dialogue: 0,0:23:25.86,0:23:27.80,Default,Emilia,0,0,0,,Quando todas as memórias voltarem,
+Dialogue: 0,0:23:28.40,0:23:30.47,Default,Emilia,0,0,0,,o que vai acontecer comigo?
+Dialogue: 0,0:23:31.19,0:23:33.71,Default,Emilia,0,0,0,,Essa aqui... sou mesmo eu?
+Dialogue: 0,0:23:34.18,0:23:36.31,Default,Emilia,0,0,0,,Esqueci tantas coisas importantes.
+Dialogue: 0,0:23:36.56,0:23:38.89,Default,Emilia,0,0,0,,Esqueci até da Mamãe.
+Dialogue: 0,0:23:39.76,0:23:43.71,Default,Emilia,0,0,0,,E mesmo assim... eu não estou errada?
+Dialogue: 0,0:23:47.76,0:23:51.15,Default - flashback,Nahoko,0,0,0,,{\i1}O que importa não é como começa\Nnem o que acontece no meio.{\i0}
+Dialogue: 0,0:23:51.75,0:23:53.36,Default - flashback,Nahoko,0,0,0,,{\i1}É como termina.{\i0}
+Dialogue: 0,0:23:55.10,0:23:58.16,Default - italics,Subaru,0,0,0,,É... tem razão, mãe.
+Dialogue: 0,0:24:00.79,0:24:03.69,Default,Subaru,0,0,0,,Não importa quais memórias você recupere,
+Dialogue: 0,0:24:03.69,0:24:05.24,Default,Subaru,0,0,0,,nada vai mudar.
+Dialogue: 0,0:24:06.55,0:24:08.25,Default,Subaru,0,0,0,,Eu te amo.
+Dialogue: 0,0:24:08.69,0:24:10.26,Default,,0,0,0,,Eu sempre vou te amar.
+Dialogue: 0,0:24:11.87,0:24:13.85,Default,Emilia,0,0,0,,Não consigo acreditar nisso.
+Dialogue: 0,0:24:14.35,0:24:22.01,Default,Emilia,0,0,0,,Se essa que você diz amar...\Ns-sumir, você ainda...
+Dialogue: 0,0:24:22.01,0:24:23.17,Default,Subaru,0,0,0,,Ainda amaria.
+Dialogue: 0,0:24:23.17,0:24:26.85,Default,Subaru,0,0,0,,Aconteça o que acontecer,\Nvocê não vai desaparecer.
+Dialogue: 0,0:24:27.34,0:24:28.98,Default,Subaru,0,0,0,,Eu te amo.
+Dialogue: 0,0:24:29.31,0:24:30.86,Default,Emilia,0,0,0,,Mas você é um mentiroso!
+Dialogue: 0,0:24:31.68,0:24:34.41,Default,Emilia,0,0,0,,Não quis me fazer acreditar em você.
+Dialogue: 0,0:24:35.19,0:24:37.28,Default,Subaru,0,0,0,,Então vou fazer você acreditar agora.
+Dialogue: 0,0:24:40.29,0:24:41.19,Default,Emilia,0,0,0,,Suba—
+Dialogue: 0,0:24:41.59,0:24:43.00,Default,Subaru,0,0,0,,Se não quiser, então desvie.
+Dialogue: 0,0:25:14.90,0:25:16.16,Default,Subaru,0,0,0,,Eu te amo.
+Dialogue: 0,0:25:16.72,0:25:18.69,Default,Subaru,0,0,0,,Por mais lados sem jeito\Nseus que eu veja,
+Dialogue: 0,0:25:18.69,0:25:20.69,Default,Subaru,0,0,0,,e mesmo que a gente brigue assim...
+Dialogue: 0,0:25:20.69,0:25:23.84,Default,Subaru,0,0,0,,nunca vou deixar de te amar.
+Dialogue: 0,0:25:24.37,0:25:26.56,Default,Subaru,0,0,0,,Isso não vai mudar, aconteça o que acontecer.
+Dialogue: 0,0:25:27.21,0:25:29.13,Default,Subaru,0,0,0,,Vou te amar ainda mais do que antes.
+Dialogue: 0,0:25:29.55,0:25:32.80,Default,Subaru,0,0,0,,Por isso sempre vou acreditar em você.
+Dialogue: 0,0:25:33.57,0:25:35.09,Default,Subaru,0,0,0,,E se quiser saber o porquê...
+Dialogue: 0,0:25:36.82,0:25:38.65,Default,Emilia,0,0,0,,Porque... você me ama?
+Dialogue: 0,0:25:42.75,0:25:45.25,Default,Subaru,0,0,0,,Com todas essas memórias\Nestranhas te inundando,
+Dialogue: 0,0:25:45.25,0:25:47.69,Default,Subaru,0,0,0,,é natural que sinta\Nmedo e ansiedade.
+Dialogue: 0,0:25:48.34,0:25:50.90,Default,Subaru,0,0,0,,Mas o caminho que trilhou\Naté hoje não vai sumir.
+Dialogue: 0,0:25:52.08,0:25:54.03,Default,Subaru,0,0,0,,Vai ficar tudo bem.
+Dialogue: 0,0:25:54.34,0:25:58.08,Default,Emilia,0,0,0,,Como pode ter tanta certeza?
+Dialogue: 0,0:25:58.73,0:26:00.83,Default,Subaru,0,0,0,,O que importa não é como começa.
+Dialogue: 0,0:26:00.83,0:26:02.16,Default,,0,0,0,,É como termina.
+Dialogue: 0,0:26:03.91,0:26:07.37,Default,Subaru,0,0,0,,Foi o que disse a mulher que mais\Nrespeito neste mundo inteiro.
+Dialogue: 0,0:26:08.05,0:26:09.95,Default,Subaru,0,0,0,,Vai ficar tudo bem, Emilia.
+Dialogue: 0,0:26:10.74,0:26:12.77,Default,Subaru,0,0,0,,Estou do seu lado.
+Dialogue: 0,0:26:12.77,0:26:14.53,Default,,0,0,0,,Tudo bem se lembrar de tudo.
+Dialogue: 0,0:26:15.34,0:26:18.30,Default,Subaru,0,0,0,,E se ainda tiver medo, nós vamos achar.
+Dialogue: 0,0:26:18.57,0:26:20.86,Default,Emilia,0,0,0,,Achar... o quê?
+Dialogue: 0,0:26:22.32,0:26:26.19,Default,Subaru,0,0,0,,Assim como o que sinto por você\Nme faz continuar seguindo em frente,
+Dialogue: 0,0:26:26.66,0:26:30.84,Default,Subaru,0,0,0,,você vai achar seu sentimento mais\Nprecioso, capaz de espantar
+Dialogue: 0,0:26:30.84,0:26:32.52,Default,Subaru,0,0,0,,toda angústia e te fazer avançar.
+Dialogue: 0,0:26:34.73,0:26:39.90,Default,Subaru,0,0,0,,Claro que eu gostaria muito que esse\Nsentimento precioso fosse por mim.
+Dialogue: 0,0:26:41.18,0:26:44.10,Default,Emilia,0,0,0,,Meu sentimento... mais precioso...
+Dialogue: 0,0:26:46.69,0:26:51.68,Default,Emilia,0,0,0,,Será que ele está entre todas essas\Nmemórias que tenho recuperado?
+Dialogue: 0,0:26:52.17,0:26:54.17,Default,Emilia,0,0,0,,Meu sentimento mais precioso...
+Dialogue: 0,0:26:55.28,0:26:57.07,Default,Subaru,0,0,0,,Sim, com certeza está.
+Dialogue: 0,0:26:57.61,0:26:59.34,Default,Subaru,0,0,0,,Seu motivo para seguir em frente está lá.
+Dialogue: 0,0:27:08.69,0:27:09.35,Default,Emilia,0,0,0,,Sim.
+Dialogue: 1,0:27:09.81,0:27:14.82,AstralSigns,,0,0,0,,Uma
+Dialogue: 1,0:27:09.81,0:27:14.82,AstralSigns,,0,0,0,,Razão
+Dialogue: 1,0:27:09.81,0:27:14.82,AstralSigns,,0,0,0,,para
+Dialogue: 1,0:27:09.81,0:27:14.82,AstralSigns,,0,0,0,,Acreditar
+Dialogue: 0,0:27:24.47,0:27:26.29,Default,Subaru,0,0,0,,Ei. Desculpa a demora.
+Dialogue: 0,0:27:26.58,0:27:29.20,Default,Garfiel,0,0,0,,Não é como se eu tivesse te esperando.

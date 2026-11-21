@@ -1,0 +1,440 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,-1,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: AstralSigns,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:29.15,0:00:30.67,Default - flashback,Shima,0,0,0,,{\pos(960,929)}Jovem Gar, pare!
+Dialogue: 0,0:00:30.92,0:00:32.83,Default - flashback,,0,0,0,,{\pos(960,929)}Pare! Pare!
+Dialogue: 0,0:00:51.49,0:00:52.94,Default - flashback,Shima,0,0,0,,{\pos(960,929)}Jovem Gar...
+Dialogue: 0,0:01:02.78,0:01:04.97,Default,Subaru,0,0,0,,Otto, seu idiota.
+Dialogue: 0,0:01:04.97,0:01:07.58,Default,Subaru,0,0,0,,Você acabou fazendo uma\Nloucura mesmo, não foi?
+Dialogue: 0,0:01:07.95,0:01:10.69,Default,Garfiel,0,0,0,,Nunca pensei que ele fosse capaz disso.
+Dialogue: 0,0:01:11.07,0:01:14.34,Default,Garfiel,0,0,0,,E, como se não bastasse,\Naté a Ram ficou do lado dele...
+Dialogue: 0,0:01:14.55,0:01:16.59,Default,Garfiel,0,0,0,,E agora eu tô nesse estado!
+Dialogue: 0,0:01:16.89,0:01:18.11,Default,Subaru,0,0,0,,Ram?
+Dialogue: 0,0:01:18.11,0:01:19.30,Default,Subaru,0,0,0,,O que houve com eles?
+Dialogue: 0,0:01:19.61,0:01:23.47,Default,Garfiel,0,0,0,,O que vocês tão tramando\Nnão vale merda nenhuma.
+Dialogue: 0,0:01:23.47,0:01:24.89,Default,Subaru,0,0,0,,Você não matou eles, né?
+Dialogue: 0,0:01:25.09,0:01:26.98,Default,Garfiel,0,0,0,,Já falei que não vale merda nenhuma!
+Dialogue: 0,0:01:27.33,0:01:31.20,Default,Garfiel,0,0,0,,Sai da frente. Vou arrebentar a entrada
+Dialogue: 0,0:01:31.20,0:01:33.82,Default,Garfiel,0,0,0,,e acabar com tudo isso de uma vez.
+Dialogue: 0,0:01:34.15,0:01:38.61,Default,Subaru,0,0,0,,Se fizer isso, o Santuário\Nvai ficar fechado para sempre.
+Dialogue: 0,0:01:38.61,0:01:40.03,Default,Subaru,0,0,0,,É isso que você quer?
+Dialogue: 0,0:01:40.86,0:01:42.66,Default,Garfiel,0,0,0,,É sim.
+Dialogue: 0,0:01:42.66,0:01:45.54,Default,Garfiel,0,0,0,,Todo o resto é que é o maldito problema!
+Dialogue: 0,0:02:01.25,0:02:04.16,Default,Garfiel,0,0,0,,O que tá tentando fazer?! Hein?!
+Dialogue: 0,0:02:04.92,0:02:09.06,Default,Emilia,0,0,0,,Garfiel, do que você tem tanto medo?
+Dialogue: 0,0:02:09.62,0:02:12.36,Default,Garfiel,0,0,0,,Acha... que eu tô com medo?
+Dialogue: 0,0:02:12.85,0:02:14.56,Default,Emilia,0,0,0,,Tem sim.
+Dialogue: 0,0:02:14.56,0:02:18.86,Default,Emilia,0,0,0,,É por isso que você grita e tenta\Nparecer maior do que é, não é?
+Dialogue: 0,0:02:18.86,0:02:19.82,Default,Garfiel,0,0,0,,O que você...
+Dialogue: 0,0:02:19.82,0:02:23.13,Default,Garfiel,0,0,0,,O que diabos você pensa\Nque sabe sobre mim?!
+Dialogue: 0,0:02:23.13,0:02:24.18,Default,Emilia,0,0,0,,Eu sei sim.
+Dialogue: 0,0:02:24.59,0:02:29.42,Default,Emilia,0,0,0,,Porque... eu tive medo de muitas\Ncoisas durante toda a minha vida.
+Dialogue: 0,0:02:30.32,0:02:33.58,Default,Emilia,0,0,0,,Eu vivi com medo até o dia de hoje.
+Dialogue: 0,0:02:34.23,0:02:37.33,Default,Emilia,0,0,0,,Deixei tudo o que era ruim com o Puck\Npara poder esquecer,
+Dialogue: 0,0:02:37.33,0:02:38.95,Default,Emilia,0,0,0,,mas agora eu finalmente me lembrei.
+Dialogue: 0,0:02:38.95,0:02:40.09,Default,Garfiel,0,0,0,,Cala a boca.
+Dialogue: 0,0:02:40.54,0:02:44.74,Default,Emilia,0,0,0,,Ainda não descobri o que\Neu preciso fazer.
+Dialogue: 0,0:02:44.74,0:02:47.86,Default,Emilia,0,0,0,,Eu preciso descobrir o que é.
+Dialogue: 0,0:02:48.36,0:02:49.10,Default,,0,0,0,,Mas...
+Dialogue: 0,0:02:49.10,0:02:51.36,Default,Garfiel,0,0,0,,Cala a boca! Sai daqui!
+Dialogue: 0,0:02:51.36,0:02:54.34,Default,Garfiel,0,0,0,,Não... Não se atreva...
+Dialogue: 0,0:02:54.34,0:02:58.42,Default,Emilia,0,0,0,,Mas você já encontrou isso\Npara si mesmo, não foi?
+Dialogue: 0,0:02:58.42,0:03:00.22,Default,Garfiel,0,0,0,,Eu mandei você calar essa maldita boca!
+Dialogue: 0,0:03:00.22,0:03:02.70,Default,Subaru,0,0,0,,Você é meia-boca demais, Garfiel.
+Dialogue: 0,0:03:03.12,0:03:06.48,Default,Subaru,0,0,0,,É verdade que a Emilia falhou\Nna provação uma vez.
+Dialogue: 0,0:03:06.48,0:03:08.45,Default,Subaru,0,0,0,,Não nego que ela chorou\Naté não poder mais
+Dialogue: 0,0:03:08.45,0:03:11.26,Default,,0,0,0,,ao ver um passado\Nque não queria enxergar.
+Dialogue: 0,0:03:12.10,0:03:15.28,Default,Subaru,0,0,0,,Mas a Emilia vai continuar tentando,\Nvárias e várias vezes.
+Dialogue: 0,0:03:15.73,0:03:18.72,Default,Subaru,0,0,0,,Ao contrário de você, que\Ndesistiu e saiu correndo.
+Dialogue: 0,0:03:18.72,0:03:22.57,Default,Subaru,0,0,0,,Garfiel, você guarda rancor
+Dialogue: 0,0:03:22.57,0:03:24.75,Default,Subaru,0,0,0,,da sua mãe por ter te abandonado?
+Dialogue: 0,0:03:28.08,0:03:29.37,Default,Subaru,0,0,0,,Foi mal, cara.
+Dialogue: 0,0:03:29.37,0:03:31.71,Default,Subaru,0,0,0,,A gente tira os sapatos ao\Nvisitar a casa de alguém,
+Dialogue: 0,0:03:31.71,0:03:36.27,Default,Subaru,0,0,0,,mas é o jeito da família Natsuki invadir\No coração dos outros de sapato e tudo.
+Dialogue: 0,0:03:36.61,0:03:41.12,Default,Subaru,0,0,0,,Sua mãe deixou você e a Frederica para trás\Nquando foi embora do Santuário.
+Dialogue: 0,0:03:41.58,0:03:44.12,Default,Subaru,0,0,0,,E então... o que foi que você fez?
+Dialogue: 0,0:03:48.76,0:03:50.70,Default,Subaru,0,0,0,,A Frederica também saiu do Santuário.
+Dialogue: 0,0:03:51.25,0:03:53.67,Default,Subaru,0,0,0,,Ela acreditava que você acabaria\Nlibertando este lugar,
+Dialogue: 0,0:03:54.21,0:03:57.77,Default,Subaru,0,0,0,,então saiu para preparar um lugar lá fora\Npara quem vive aqui dentro.
+Dialogue: 0,0:03:58.27,0:04:01.30,Default,Subaru,0,0,0,,E o que você andou fazendo\Naqui do lado de dentro?
+Dialogue: 0,0:04:01.30,0:04:06.46,Default,Subaru,0,0,0,,Quer manter o Santuário fechado\Nporque odeia a sua mãe
+Dialogue: 0,0:04:06.46,0:04:09.41,Default,Subaru,0,0,0,,e o mundo lá fora que a fez\Ndeixar vocês para trás?
+Dialogue: 0,0:04:09.41,0:04:11.25,Default,Subaru,0,0,0,,Porque não quer se machucar aqui?!
+Dialogue: 0,0:04:11.25,0:04:13.81,Default,Garfiel,0,0,0,,Não, você... O que diabos você...
+Dialogue: 0,0:04:13.81,0:04:15.97,Default,Subaru,0,0,0,,Não sei mesmo! Não se você não me contar!
+Dialogue: 0,0:04:15.97,0:04:18.36,Default,Subaru,0,0,0,,Não vou entender até você falar!
+Dialogue: 0,0:04:19.12,0:04:20.74,Default,Subaru,0,0,0,,Se você odeia a sua mãe,
+Dialogue: 0,0:04:20.74,0:04:23.98,Default,Subaru,0,0,0,,então sai logo daqui e vai se vingar\Ndela ou sei lá o quê!
+Dialogue: 0,0:04:23.98,0:04:26.91,Default,Subaru,0,0,0,,Não desconte isso em quem ficou aqui dentro!
+Dialogue: 0,0:04:27.89,0:04:31.13,Default,Subaru,0,0,0,,Você odeia a sua família! Se não odiasse—
+Dialogue: 0,0:04:31.13,0:04:31.79,Default,Garfiel,0,0,0,,Tá errado!
+Dialogue: 0,0:04:34.20,0:04:37.00,Default,Garfiel,0,0,0,,Eu... Eu...
+Dialogue: 0,0:04:37.00,0:04:39.19,Default,Subaru,0,0,0,,Me conta a verdade!
+Dialogue: 0,0:04:41.65,0:04:45.02,Default,Garfiel,0,0,0,,Eu... queria...
+Dialogue: 0,0:04:46.74,0:04:50.11,Default,Garfiel,0,0,0,,que minha mãe... fosse feliz.
+Dialogue: 0,0:04:52.21,0:04:54.08,Default,Garfiel,0,0,0,,A gente estava atrapalhando, não é?
+Dialogue: 0,0:04:54.08,0:04:58.55,Default,Garfiel,0,0,0,,Eu e minha irmã estávamos no caminho\Nda felicidade dela, não é?!
+Dialogue: 0,0:05:00.13,0:05:01.43,Default,Garfiel,0,0,0,,Faz todo sentido!
+Dialogue: 0,0:05:01.43,0:05:03.79,Default,,0,0,0,,Ela não aguentava nem olhar pra gente!
+Dialogue: 0,0:05:03.79,0:05:07.87,Default,Garfiel,0,0,0,,Se você carrega um fardo desses,\No que tem demais em largar por aí?!
+Dialogue: 0,0:05:08.18,0:05:12.21,Default,Garfiel,0,0,0,,Minha mãe foi embora pra ser feliz!
+Dialogue: 0,0:05:12.80,0:05:15.22,Default,Garfiel,0,0,0,,Então eu não guardo rancor nenhum dela!
+Dialogue: 0,0:05:15.94,0:05:18.18,Default,Garfiel,0,0,0,,Mas... eu vi.
+Dialogue: 0,0:05:19.76,0:05:21.09,Default,Garfiel,0,0,0,,Eu vi no cemitério...
+Dialogue: 0,0:05:22.12,0:05:25.74,Default,Garfiel,0,0,0,,Logo depois que minha mãe saiu daqui,\Nteve um deslizamento de terra.
+Dialogue: 0,0:05:28.04,0:05:30.39,Default,Garfiel,0,0,0,,E ela morreu!
+Dialogue: 0,0:05:31.48,0:05:37.85,Default,Garfiel,0,0,0,,Por quê? Ela não saiu daqui\Npara conseguir ser feliz?
+Dialogue: 0,0:05:39.64,0:05:45.15,Default,Garfiel,0,0,0,,Ela não deixou a gente pra trás\Npara conseguir ser feliz?!
+Dialogue: 0,0:05:45.75,0:05:51.84,Default,Garfiel,0,0,0,,Se ela abandonou a gente só pra morrer\Nantes de encontrar a felicidade...
+Dialogue: 0,0:05:53.20,0:05:55.95,Default,Garfiel,0,0,0,,O que é que a gente deveria fazer?
+Dialogue: 0,0:05:56.70,0:06:00.44,Default,Garfiel,0,0,0,,Eu queria que minha mãe fosse feliz.
+Dialogue: 0,0:06:00.44,0:06:03.39,Default,Garfiel,0,0,0,,Queria que ela me fizesse acreditar que\Na nossa tristeza e solidão
+Dialogue: 0,0:06:03.39,0:06:08.57,Default,Garfiel,0,0,0,,serviram para ajudar ela\Na ser feliz!
+Dialogue: 0,0:06:09.73,0:06:14.43,Default,Garfiel,0,0,0,,Eu queria que ela me fizesse odiá-la!
+Dialogue: 0,0:06:17.94,0:06:21.40,Default,Garfiel,0,0,0,,Não vou deixar vocês saírem\Npara o mundo lá fora.
+Dialogue: 0,0:06:22.45,0:06:25.82,Default,Garfiel,0,0,0,,Mudar as coisas não vai deixar\Ntodo mundo feliz.
+Dialogue: 0,0:06:26.17,0:06:29.36,Default,Garfiel,0,0,0,,Pra muita gente aqui,\Nnada nunca vai melhorar!
+Dialogue: 0,0:06:31.17,0:06:33.34,Default,Garfiel,0,0,0,,Eu vou proteger eles.
+Dialogue: 0,0:06:33.34,0:06:38.62,Default,Garfiel,0,0,0,,Vou proteger tudo e todos\Nao meu alcance.
+Dialogue: 0,0:06:38.62,0:06:41.89,Default,Garfiel,0,0,0,,Eu vou me tornar uma barreira!
+Dialogue: 0,0:06:41.89,0:06:46.00,Default,Garfiel,0,0,0,,Uma barreira de verdade que separa\No lado de dentro do lado de fora!
+Dialogue: 0,0:06:46.00,0:06:47.09,Default,Subaru,0,0,0,,Garfiel!
+Dialogue: 0,0:06:47.09,0:06:51.98,Default,Garfiel,0,0,0,,O Santuário, o povo daqui, a velhota...\NVou proteger todo mundo!
+Dialogue: 0,0:06:51.98,0:06:54.33,Default,Garfiel,0,0,0,,Ninguém além de mim consegue!
+Dialogue: 0,0:06:54.33,0:06:56.45,Default,Garfiel,0,0,0,,Ninguém além de mim vai saber!
+Dialogue: 0,0:06:56.45,0:06:59.44,Default,Garfiel,0,0,0,,E mais ninguém {\i1}precisa{\i0} saber!
+Dialogue: 0,0:07:12.42,0:07:13.20,Default,Emilia,0,0,0,,Subaru!
+Dialogue: 0,0:07:14.58,0:07:16.41,Default,Subaru,0,0,0,,Tá tudo bem, Emilia.
+Dialogue: 0,0:07:19.82,0:07:22.25,Default,Subaru,0,0,0,,Você é teimoso demais, caramba.
+Dialogue: 0,0:07:22.25,0:07:25.86,Default,Subaru,0,0,0,,Acho que vou ter que te vencer na marra\Npara você perceber...
+Dialogue: 0,0:07:25.86,0:07:29.51,Default,Subaru,0,0,0,,que você é só um baita idiota gentil!
+Dialogue: 0,0:07:31.72,0:07:34.60,Default,Subaru,0,0,0,,É bom você aguentar essa, meu corpo!
+Dialogue: 0,0:07:35.22,0:07:37.60,Default,Subaru,0,0,0,,Shamac!
+Dialogue: 0,0:07:46.00,0:07:47.32,Default,Subaru,0,0,0,,Valeu.
+Dialogue: 0,0:07:55.70,0:07:59.66,Default,Subaru,0,0,0,,Desce pro meu nível, Garfiel!
+Dialogue: 0,0:08:22.26,0:08:23.87,Default,Garfiel,0,0,0,,M-Mas o que...
+Dialogue: 0,0:08:30.05,0:08:32.57,Default,Garfiel,0,0,0,,Isso é... da minha irmã?
+Dialogue: 0,0:08:33.07,0:08:35.19,Default,Garfiel,0,0,0,,Droga, por quê...
+Dialogue: 0,0:08:36.05,0:08:37.63,Default,Subaru,0,0,0,,Boa pergunta.
+Dialogue: 0,0:08:37.63,0:08:41.73,Default,Subaru,0,0,0,,Vai ver tem um gato bem faminto\Nmorando aí dentro?
+Dialogue: 0,0:08:41.73,0:08:43.96,Default,Puck,0,0,0,,Essa é toda a ajuda\Nque posso te dar.
+Dialogue: 0,0:08:44.21,0:08:46.81,Default,Subaru,0,0,0,,Pelo visto, mesmo sem poder falar,
+Dialogue: 0,0:08:46.81,0:08:49.04,Default,Subaru,0,0,0,,você dá um jeito de encher o saco brilhando.
+Dialogue: 0,0:08:50.80,0:08:52.51,Default,Subaru,0,0,0,,Olha pra mim, Garfiel.
+Dialogue: 0,0:08:53.68,0:08:54.77,Default,Garfiel,0,0,0,,Hã?
+Dialogue: 0,0:08:55.13,0:08:57.72,Default,Subaru,0,0,0,,Se quer me impedir,\Nfaça isso com suas próprias mãos.
+Dialogue: 0,0:08:58.24,0:09:02.37,Default,Subaru,0,0,0,,Não se acovarde atrás do seu sangue,\Nseu frouxo sem coragem!
+Dialogue: 0,0:09:02.96,0:09:05.63,Default,Subaru,0,0,0,,Até quando vai continuar\Nme fazendo de idiota?
+Dialogue: 0,0:09:06.41,0:09:08.79,Default,Subaru,0,0,0,,Nós vamos para o mundo lá fora.
+Dialogue: 0,0:09:08.79,0:09:10.61,Default,Subaru,0,0,0,,A Emilia vai encarar o cemitério.
+Dialogue: 0,0:09:10.61,0:09:12.19,Default,Subaru,0,0,0,,O Santuário vai ser libertado.
+Dialogue: 0,0:09:12.59,0:09:14.31,Default,Subaru,0,0,0,,Quer você queira ou não.
+Dialogue: 0,0:09:15.70,0:09:17.16,Default,Garfiel,0,0,0,,Quem pediu pra vocês fazerem isso?!
+Dialogue: 0,0:09:17.54,0:09:19.09,Default,,0,0,0,,Quem deixou?!
+Dialogue: 0,0:09:19.09,0:09:21.98,Default,Garfiel,0,0,0,,Este lugar não precisa mudar!
+Dialogue: 0,0:09:21.98,0:09:24.96,Default,Subaru,0,0,0,,Você sabe que não vai ficar\Nassim para sempre!
+Dialogue: 0,0:09:24.96,0:09:27.17,Default,Subaru,0,0,0,,Assim como todos nós fomos\Ntotalmente encurralados,
+Dialogue: 0,0:09:27.60,0:09:30.74,Default,Subaru,0,0,0,,vai chegar a hora em que você não vai\Nconseguir nada sozinho!
+Dialogue: 0,0:09:30.74,0:09:33.79,Default,Subaru,0,0,0,,Pode ser amanhã... ou agora mesmo!
+Dialogue: 0,0:09:34.37,0:09:36.42,Default,Subaru,0,0,0,,Cai logo de uma vez, Garfiel.
+Dialogue: 0,0:09:36.42,0:09:38.26,Default,,0,0,0,,Aprenda o que é a força dos números!
+Dialogue: 0,0:09:38.66,0:09:40.73,Default,Garfiel,0,0,0,,Tinha que existir...
+Dialogue: 0,0:09:41.24,0:09:43.77,Default,Garfiel,0,0,0,,um jeito melhor de dizer isso!
+Dialogue: 0,0:10:02.85,0:10:05.00,Default,Subaru,0,0,0,,Olha bem, Garfiel.
+Dialogue: 0,0:10:05.54,0:10:08.96,Default,Subaru,0,0,0,,Esse muro que você tanto teme\Nnão existe.
+Dialogue: 0,0:10:09.84,0:10:13.33,Default,Garfiel,0,0,0,,Existe sim! Eu sou o muro!
+Dialogue: 0,0:10:13.33,0:10:17.58,Default,Garfiel,0,0,0,,Eu parei aqui, e a velhota\Ne todo mundo também.
+Dialogue: 0,0:10:17.58,0:10:19.20,Default,Garfiel,0,0,0,,E acabou por aqui!
+Dialogue: 0,0:10:19.20,0:10:20.56,Default,Garfiel,0,0,0,,Significa que é o fim!
+Dialogue: 0,0:10:20.56,0:10:22.98,Default,Subaru,0,0,0,,Não desista de si mesmo assim!
+Dialogue: 0,0:10:22.98,0:10:26.52,Default,Subaru,0,0,0,,Quando você pensa: 'Eu quero fazer!\NEu quero mudar!'
+Dialogue: 0,0:10:26.52,0:10:29.14,Default,Subaru,0,0,0,,É aí que começa a sua linha de partida!
+Dialogue: 0,0:10:29.99,0:10:32.27,Default,Subaru,0,0,0,,Quando decidir erguer a cabeça\Ne voltar a caminhar,
+Dialogue: 0,0:10:32.27,0:10:35.11,Default,Subaru,0,0,0,,quem tem o direito de te impedir,\Nseja por qual motivo for?!
+Dialogue: 0,0:10:36.57,0:10:39.28,Default,Subaru,0,0,0,,Não é verdade, Garfiel?!
+Dialogue: 0,0:10:40.07,0:10:42.64,Default,Subaru,0,0,0,,Não é verdade, Emilia?!
+Dialogue: 0,0:10:44.15,0:10:45.08,Default,Subaru,0,0,0,,E...
+Dialogue: 0,0:10:47.14,0:10:49.18,Default,Subaru,0,0,0,,Não é verdade, Rem?!
+Dialogue: 0,0:10:51.99,0:10:54.32,Default,Garfiel,0,0,0,,Desgraçado!
+Dialogue: 0,0:11:34.59,0:11:37.99,Default,Subaru,0,0,0,,Mas que péssima primeira impressão\Npara uma técnica nova.
+Dialogue: 0,0:11:41.92,0:11:44.30,Default,Subaru,0,0,0,,Ah, qual é, só pode ser brincadeira.
+Dialogue: 0,0:11:45.20,0:11:48.44,Default,Subaru,0,0,0,,Quão resistente você é, cara?
+Dialogue: 0,0:11:49.17,0:11:52.27,Default,Garfiel,0,0,0,,Não vai... me subestimar.
+Dialogue: 0,0:11:52.58,0:11:56.83,Default,Garfiel,0,0,0,,Enquanto... eu não quebrar...\Neu ainda posso...
+Dialogue: 0,0:11:59.97,0:12:01.04,Default,Subaru,0,0,0,,Caramba.
+Dialogue: 0,0:12:01.49,0:12:04.66,Default,Subaru,0,0,0,,Depois disso tudo, não tenho escolha\Na não ser reconhecer sua força.
+Dialogue: 0,0:12:04.66,0:12:08.50,Default,Garfiel,0,0,0,,Isto é... o fim de tudo!
+Dialogue: 0,0:12:08.50,0:12:10.79,Default,Garfiel,0,0,0,,Mais ninguém nunca vai—
+Dialogue: 0,0:12:30.64,0:12:32.96,Default,Subaru,0,0,0,,E aí, o que achou, Garfiel?
+Dialogue: 0,0:12:32.96,0:12:35.49,Default,Subaru,0,0,0,,É isso que chamam de 'a força dos números'.
+Dialogue: 0,0:12:36.19,0:12:40.53,Default,Garfiel,0,0,0,,De novo... tinha que existir...
+Dialogue: 0,0:12:40.93,0:12:44.28,Default,Garfiel,0,0,0,,um jeito melhor... de dizer isso.
+Dialogue: 0,0:12:44.64,0:12:47.95,Default,Subaru,0,0,0,,Tá bom, então. Todos os nossos\Nsentimentos se uniram,
+Dialogue: 0,0:12:47.95,0:12:49.91,Default,Subaru,0,0,0,,e nossos laços venceram esta batalha.
+Dialogue: 0,0:12:52.48,0:12:58.38,Default,Garfiel,0,0,0,,Acho que ninguém consegue erguer\Numa pedra quain sozinho...
+Dialogue: 0,0:12:59.19,0:13:03.85,Default,Subaru,0,0,0,,Finalmente você soltou algo que parece\Nter saído mesmo da sua boca...
+Dialogue: 0,0:13:11.17,0:13:14.81,Default - italics,Subaru,0,0,0,,Aquela bruxa maldita provavelmente\Nestava por trás disso.
+Dialogue: 0,0:13:15.20,0:13:18.77,Default - italics,Subaru,0,0,0,,Aquele Fator da Bruxa da Preguiça\Nde que ela falou...
+Dialogue: 0,0:13:19.38,0:13:20.32,Default,Garfiel,0,0,0,,Raaar!
+Dialogue: 0,0:13:22.62,0:13:26.15,Default - italics,Subaru,0,0,0,,Mão Invisível... Impacto Imperceptível...
+Dialogue: 0,0:13:26.15,0:13:28.82,Default - italics,Subaru,0,0,0,,Não... é a vontade invisível de Deus.
+Dialogue: 0,0:13:30.42,0:13:33.41,Default,Subaru,0,0,0,,Providência Invisível.\NÉ assim que vou chamar.
+Dialogue: 0,0:13:33.66,0:13:35.55,Default,Emilia,0,0,0,,Hã? O que você disse?
+Dialogue: 0,0:13:35.55,0:13:37.36,Default,Subaru,0,0,0,,Ah, nada não.
+Dialogue: 0,0:13:40.82,0:13:44.27,Default,Subaru,0,0,0,,Você deixou eu deitar no seu colo\Nde novo, hein.
+Dialogue: 0,0:13:45.07,0:13:48.17,Default,Subaru,0,0,0,,Acho que é a recompensa por superar\Na maior batalha até agora.
+Dialogue: 0,0:13:49.70,0:13:50.76,Default,Emilia,0,0,0,,Sim, sim.
+Dialogue: 0,0:13:58.00,0:13:59.94,Default,Otto,0,0,0,,Ah, Natsuki-san, você já acor—
+Dialogue: 0,0:14:04.11,0:14:06.22,Default,Otto,0,0,0,,P-Por que você fez isso?!
+Dialogue: 0,0:14:06.22,0:14:08.13,Default,Subaru,0,0,0,,Cala a boca, seu idiota! Seu babaca!
+Dialogue: 0,0:14:08.13,0:14:10.64,Default,Subaru,0,0,0,,Isso aconteceu porque você saiu\Nfazendo tudo do seu jeito!
+Dialogue: 0,0:14:10.64,0:14:14.08,Default,Subaru,0,0,0,,Mas acho que eu estaria encrencado\Nsem a sua ajuda,
+Dialogue: 0,0:14:14.08,0:14:16.00,Default,Subaru,0,0,0,,então não é como se eu\Nnão fosse grato nem nada.
+Dialogue: 0,0:14:16.00,0:14:17.84,Default,Otto,0,0,0,,Não sei do que você está falando!
+Dialogue: 0,0:14:23.47,0:14:25.26,Default,Subaru,0,0,0,,Que bom que você tá bem.
+Dialogue: 0,0:14:30.02,0:14:31.50,Default,Otto,0,0,0,,Digo o mesmo, Natsuki-san.
+Dialogue: 0,0:14:38.32,0:14:39.95,Default,Otto,0,0,0,,Precisa de tradução?
+Dialogue: 0,0:14:39.95,0:14:42.79,Default,Subaru,0,0,0,,Ela disse 'Não me preocupe assim',\Nnão foi?
+Dialogue: 0,0:14:42.79,0:14:47.07,Default,Otto,0,0,0,,E também: 'Não se ache demais.\NNão vai ter uma próxima vez.'
+Dialogue: 0,0:14:47.07,0:14:49.52,Default,Otto,0,0,0,,É daí que vem essa raiva toda.
+Dialogue: 0,0:14:51.72,0:14:52.78,Default,Subaru,0,0,0,,Obrigado, garota.
+Dialogue: 0,0:14:58.17,0:15:00.52,Default,Subaru,0,0,0,,Então... cadê o Garfiel?
+Dialogue: 0,0:15:01.17,0:15:02.10,Default,Emilia,0,0,0,,Bem ali.
+Dialogue: 0,0:15:03.02,0:15:06.62,Default,Emilia,0,0,0,,Mas... acho melhor não\Natrapalhar por enquanto.
+Dialogue: 0,0:15:07.52,0:15:08.32,Default,Subaru,0,0,0,,Atrapalhar?
+Dialogue: 0,0:15:09.65,0:15:10.19,Default,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:15:16.19,0:15:17.93,Default,Ram,0,0,0,,Garf, você acordou?
+Dialogue: 0,0:15:18.58,0:15:21.36,Default,Garfiel,0,0,0,,É... eu acordei.
+Dialogue: 0,0:15:21.36,0:15:22.93,Default,Ram,0,0,0,,Então saia logo de cima de mim.
+Dialogue: 0,0:15:25.22,0:15:27.19,Default,Ram,0,0,0,,Meus pés estão ficando dormentes.
+Dialogue: 0,0:15:30.23,0:15:34.48,Default,Garfiel,0,0,0,,Continua sem um pingo de gentileza,\Nnão é mesmo?
+Dialogue: 0,0:15:34.48,0:15:37.97,Default,Ram,0,0,0,,Quando há alguém que mereça,\Neu sei ser gentil.
+Dialogue: 0,0:15:37.97,0:15:38.56,Default,Garfiel,0,0,0,,O quê...
+Dialogue: 0,0:15:40.62,0:15:43.08,Default,Garfiel,0,0,0,,E eu não mereço isso, né?
+Dialogue: 0,0:15:43.40,0:15:44.27,Default,Ram,0,0,0,,Desculpe.
+Dialogue: 0,0:15:44.74,0:15:46.65,Default,Ram,0,0,0,,Se quer ouvir o que uma dama\Nsente de verdade,
+Dialogue: 0,0:15:46.65,0:15:47.92,Default,,0,0,0,,esforce-se um pouco mais.
+Dialogue: 0,0:15:52.82,0:15:55.38,Default,Ram,0,0,0,,Garf, você é burro demais.
+Dialogue: 0,0:15:55.38,0:15:56.85,Default,,0,0,0,,Não adianta tentar pensar.
+Dialogue: 0,0:15:56.85,0:15:57.39,Default,Garfiel,0,0,0,,Hã?
+Dialogue: 0,0:15:57.78,0:16:01.31,Default,Ram,0,0,0,,De hoje em diante, lute de cabeça vazia\Ne não pense em nada.
+Dialogue: 0,0:16:02.16,0:16:04.23,Default,Ram,0,0,0,,Por mim, e por Emilia-sama também.
+Dialogue: 0,0:16:05.29,0:16:05.98,Default,Garfiel,0,0,0,,M-Mas—
+Dialogue: 0,0:16:06.44,0:16:07.95,Default,Garfiel,0,0,0,,Não fala besteira!
+Dialogue: 0,0:16:07.95,0:16:09.80,Default,Garfiel,0,0,0,,Eu admito que perdi!
+Dialogue: 0,0:16:09.80,0:16:13.76,Default,Garfiel,0,0,0,,Mas admitir e me render\Nsão duas coisas diferentes!
+Dialogue: 0,0:16:13.76,0:16:15.57,Default,Garfiel,0,0,0,,Eu podia muito bem continuar de onde—
+Dialogue: 0,0:16:15.57,0:16:16.57,Default,Ram,0,0,0,,Pare de tagarelar!
+Dialogue: 0,0:16:19.74,0:16:21.95,Default,Ram,0,0,0,,Você perdeu, Garf, seu gato derrotado.
+Dialogue: 0,0:16:22.34,0:16:26.84,Default,Ram,0,0,0,,Até quando vai fazer cena na frente\Nda mulher que ama para se dar por satisfeito?
+Dialogue: 0,0:16:27.14,0:16:32.61,Default,Garfiel,0,0,0,,Q-Quer que eu simplesmente entre na fila\Nao lado de vocês dando um sorrisinho?
+Dialogue: 0,0:16:32.61,0:16:36.85,Default,Garfiel,0,0,0,,Eu aceito que perdi, mas não aceito\Nque eu tava errado!
+Dialogue: 0,0:16:36.85,0:16:41.19,Default,Garfiel,0,0,0,,Isso mesmo! Não acho\Nque eu tava errado!
+Dialogue: 0,0:16:41.19,0:16:43.52,Default,Garfiel,0,0,0,,Então não posso aceitar nada\Npela metade—
+Dialogue: 0,0:16:43.52,0:16:45.65,Default,Ram,0,0,0,,Se não quer parar tudo pela metade,
+Dialogue: 0,0:16:45.65,0:16:48.42,Default,Ram,0,0,0,,basta provar que não está\Nparado no mesmo lugar.
+Dialogue: 0,0:16:48.42,0:16:49.16,Default,Garfiel,0,0,0,,Hã?
+Dialogue: 0,0:16:53.22,0:16:54.43,Default,Garfiel,0,0,0,,A provação...
+Dialogue: 0,0:16:55.15,0:16:56.97,Default,Ram,0,0,0,,Você consegue mudar,
+Dialogue: 0,0:16:56.97,0:17:00.81,Default,Ram,0,0,0,,ou vai ser uma criança medrosa\Npresa no mesmo lugar para sempre?
+Dialogue: 0,0:17:01.29,0:17:03.47,Default,Ram,0,0,0,,Veja com seus próprios olhos.
+Dialogue: 0,0:17:04.54,0:17:07.84,Default,Garfiel,0,0,0,,Não fala de um jeito que me dá\Nvontade de te contrariar!
+Dialogue: 0,0:17:10.16,0:17:12.17,Default - flashback,Subaru,0,0,0,,Não desista de si mesmo assim!
+Dialogue: 0,0:17:17.99,0:17:20.74,Default,Ram,0,0,0,,Parece que já se decidiu.
+Dialogue: 0,0:17:21.91,0:17:23.84,Default,Ram,0,0,0,,Vai ficar tudo bem, Garf.
+Dialogue: 0,0:17:24.64,0:17:28.60,Default,Ram,0,0,0,,Se algo te assustar até te fazer\Nchorar, eu vou te consolar.
+Dialogue: 0,0:17:28.60,0:17:31.04,Default,Ram,0,0,0,,Como favor a um velho amigo, sabe?
+Dialogue: 0,0:17:50.18,0:17:51.76,Default,Garfiel,0,0,0,,Que se dane tudo!
+Dialogue: 0,0:17:58.96,0:18:02.86,Default - italics,Garfiel,0,0,0,,Primeiro, confronte o seu próprio passado.
+Dialogue: 0,0:18:28.49,0:18:30.48,Default,Garfiel,0,0,0,,Mãe...
+Dialogue: 0,0:18:32.95,0:18:34.80,Default,Ryuzu,0,0,0,,Você insiste mesmo em ir?
+Dialogue: 0,0:18:35.10,0:18:35.82,Default,Mom,0,0,0,,Sim.
+Dialogue: 0,0:18:36.32,0:18:40.08,Default,Mom,0,0,0,,Mesmo sabendo que será\Num peso para a senhora...
+Dialogue: 0,0:18:40.56,0:18:43.36,Default,Ryuzu,0,0,0,,Não me importo com isso.
+Dialogue: 0,0:18:43.90,0:18:45.27,Default,Ryuzu,0,0,0,,A questão maior é...
+Dialogue: 0,0:18:45.62,0:18:48.14,Default,Ryuzu,0,0,0,,como estas duas crianças se sentem.
+Dialogue: 0,0:18:52.66,0:18:55.19,Default,Garfiel,0,0,0,,Seu pedaço de lixo!
+Dialogue: 0,0:18:58.88,0:19:02.01,Default,Frederica,0,0,0,,Mamãe, eu... eu...
+Dialogue: 0,0:19:04.16,0:19:05.77,Default,Mom,0,0,0,,Me desculpe, Fred, querida.
+Dialogue: 0,0:19:06.13,0:19:09.54,Default,Mom,0,0,0,,Sei que isso está causando muita\Npreocupação para você também.
+Dialogue: 0,0:19:11.60,0:19:15.04,Default,Frederica,0,0,0,,Eu estou bem... mas sinto pena do Garf.
+Dialogue: 0,0:19:15.89,0:19:19.51,Default,Mom,0,0,0,,Queria que fôssemos juntos,\Nmas eu sou tão desastrada.
+Dialogue: 0,0:19:19.84,0:19:23.30,Default,Mom,0,0,0,,Sei que seria horrível para ele.
+Dialogue: 0,0:19:23.97,0:19:27.78,Default,Mom,0,0,0,,Fred, mesmo sendo minha filha,\Nvocê é muito responsável,
+Dialogue: 0,0:19:27.78,0:19:28.89,Default,Mom,0,0,0,,então cuide bem dele.
+Dialogue: 0,0:19:30.11,0:19:32.35,Default,Garfiel,0,0,0,,Não! Não faz isso!
+Dialogue: 0,0:19:32.35,0:19:35.02,Default,Garfiel,0,0,0,,Mamãe, não vai lá pra fora!
+Dialogue: 0,0:19:35.57,0:19:36.51,Default,Mom,0,0,0,,Toma.
+Dialogue: 0,0:19:38.45,0:19:40.75,Default,Mom,0,0,0,,Para você e para o Gar.
+Dialogue: 0,0:19:46.19,0:19:47.12,Default,Mom,0,0,0,,Gar, meu amor,
+Dialogue: 0,0:19:48.10,0:19:50.71,Default,Mom,0,0,0,,a mamãe precisa ir agora.
+Dialogue: 0,0:19:52.72,0:19:53.83,Default,Garfiel,0,0,0,,Não vai!
+Dialogue: 0,0:19:57.21,0:20:01.31,Default,Mom,0,0,0,,Eu prometo que vou trazer\No seu papai de volta.
+Dialogue: 0,0:20:01.65,0:20:03.82,Default,Mom,0,0,0,,Só me espere até lá.
+Dialogue: 0,0:20:06.87,0:20:08.85,Default,Garfiel,0,0,0,,O meu... pai?
+Dialogue: 0,0:20:13.11,0:20:15.19,Default,Garfiel,0,0,0,,É mentira... Não foi isso.
+Dialogue: 0,0:20:15.56,0:20:19.63,Default,Garfiel,0,0,0,,Você saiu daqui para buscar a felicidade.
+Dialogue: 0,0:20:19.63,0:20:25.66,Default,Frederica,0,0,0,,A mamãe amava muito a nós dois, Garf.
+Dialogue: 0,0:20:26.26,0:20:29.82,Default,Frederica,0,0,0,,Ela saiu do Santuário pelo bem da família.
+Dialogue: 0,0:20:30.25,0:20:32.98,Default,Frederica,0,0,0,,Isso não basta para você?
+Dialogue: 0,0:20:32.98,0:20:37.02,Default,Garfiel,0,0,0,,Uma ova que amava! Se ela amava\Na gente, então por que—
+Dialogue: 0,0:20:37.02,0:20:40.42,Default,Frederica,0,0,0,,Deve ter sido mais fácil acreditar\Nque ela não nos amava.
+Dialogue: 0,0:20:41.42,0:20:44.41,Default,Frederica,0,0,0,,Se acreditasse que seu amor\Nnão era correspondido,
+Dialogue: 0,0:20:44.41,0:20:46.75,Default,Frederica,0,0,0,,poderia justificar a dor que sentia.
+Dialogue: 0,0:20:46.75,0:20:48.96,Default,Garfiel,0,0,0,,Não! Tá errado!
+Dialogue: 0,0:20:48.96,0:20:50.43,Default,Garfiel,0,0,0,,Você não sabe de nada!
+Dialogue: 0,0:20:50.43,0:20:52.29,Default,,0,0,0,,Quando minha mãe sair daqui, ela vai—
+Dialogue: 0,0:20:52.29,0:20:54.32,Default,Frederica,0,0,0,,É claro que eu sei disso.
+Dialogue: 0,0:20:54.32,0:20:54.88,Default,Garfiel,0,0,0,,Hã?
+Dialogue: 0,0:20:55.32,0:20:56.65,Default,Frederica,0,0,0,,Não tem como eu não saber.
+Dialogue: 0,0:20:57.33,0:21:02.19,Default,Frederica,0,0,0,,Se a mamãe sofreu uma desgraça\Nao sair daqui,
+Dialogue: 0,0:21:02.19,0:21:05.45,Default,Frederica,0,0,0,,acha que a vovó não nos contaria?
+Dialogue: 0,0:21:05.45,0:21:08.32,Default,Garfiel,0,0,0,,Então... Então por quê?!
+Dialogue: 0,0:21:08.85,0:21:12.24,Default,Frederica,0,0,0,,Você já deve saber por que não te\Ncontaram quando era tão pequeno.
+Dialogue: 0,0:21:12.80,0:21:17.56,Default,Frederica,0,0,0,,Porque, Garf, você não é mais\Numa criança pequena.
+Dialogue: 0,0:21:20.83,0:21:25.29,Default,Frederica,0,0,0,,Na verdade, você se lembrava de que\Na mamãe te amava, não lembrava?
+Dialogue: 0,0:21:26.29,0:21:30.47,Default,Frederica,0,0,0,,Você tem essa cicatriz na testa porque\Nqueria esquecer o beijo dela.
+Dialogue: 0,0:21:30.88,0:21:33.96,Default,Frederica,0,0,0,,Queria fazê-lo sumir, então\Nse feriu por conta própria.
+Dialogue: 0,0:21:38.13,0:21:40.98,Default,Frederica,0,0,0,,Este é o fim do seu passado.
+Dialogue: 0,0:21:44.76,0:21:45.45,Default,Garfiel,0,0,0,,Espera...
+Dialogue: 0,0:21:45.77,0:21:46.70,Default,,0,0,0,,Espera aí!
+Dialogue: 0,0:21:47.37,0:21:49.57,Default,Garfiel,0,0,0,,O que eu devo fazer agora?
+Dialogue: 0,0:21:50.45,0:21:53.56,Default,Frederica,0,0,0,,Se você precisa depender da sua irmã\Nmesmo ela sendo ainda tão jovem,
+Dialogue: 0,0:21:53.56,0:21:55.25,Default,Frederica,0,0,0,,nunca encontrará a sua resposta.
+Dialogue: 0,0:21:55.61,0:21:57.60,Default,Garfiel,0,0,0,,Eu sei que é patético!
+Dialogue: 0,0:21:57.60,0:22:00.20,Default,Garfiel,0,0,0,,Mas você é a única em quem posso confiar!
+Dialogue: 0,0:22:01.20,0:22:02.00,Default,Garfiel,0,0,0,,Por favor...
+Dialogue: 0,0:22:02.25,0:22:04.96,Default,Frederica,0,0,0,,O que você quer fazer, Garf?
+Dialogue: 0,0:22:08.69,0:22:12.14,Default,Frederica,0,0,0,,O que você quer fazer, Garf?
+Dialogue: 0,0:22:14.79,0:22:17.47,Default,Garfiel,0,0,0,,Quero fazer o que esperam de mim.
+Dialogue: 0,0:22:18.24,0:22:21.04,Default,Frederica,0,0,0,,O que quem espera de você?
+Dialogue: 0,0:22:21.52,0:22:25.74,Default,Garfiel,0,0,0,,As pessoas... Todo mundo\Nque precisa de mim.
+Dialogue: 0,0:22:26.16,0:22:28.03,Default,Garfiel,0,0,0,,Quero fazer o que esperam de mim.
+Dialogue: 0,0:22:28.53,0:22:31.99,Default,Frederica,0,0,0,,E o que te faz sentir assim?
+Dialogue: 0,0:22:36.71,0:22:40.31,Default,Garfiel,0,0,0,,Eles me fizeram lembrar...
+Dialogue: 0,0:22:42.52,0:22:43.63,Default,Garfiel,0,0,0,,que minha mãe...
+Dialogue: 0,0:22:46.74,0:22:49.19,Default,Garfiel,0,0,0,,me amava de verdade.
+Dialogue: 0,0:23:00.64,0:23:05.61,Default,Emilia,0,0,0,,Então... A Shima-san é irmã mais velha\Nou mais nova da Ryuzu-san?
+Dialogue: 0,0:23:06.16,0:23:10.43,Default,Subaru,0,0,0,,Bom, na verdade... isso é meio confuso,\Nentão vamos deixar pra depois.
+Dialogue: 0,0:23:14.10,0:23:15.22,Default,Delma,0,0,0,,Jovem Gar!
+Dialogue: 0,0:23:17.32,0:23:18.84,Default,Delma,0,0,0,,J-Jovem Gar...
+Dialogue: 0,0:23:18.84,0:23:21.29,Default,Delma,0,0,0,,Veja bem, eu... Nós...
+Dialogue: 0,0:23:21.77,0:23:24.67,Default,Garfiel,0,0,0,,Não façam essa cara, velhotas.\NNão combina com vocês.
+Dialogue: 0,0:23:27.73,0:23:30.11,Default,Garfiel,0,0,0,,Desculpa por preocupar vocês.
+Dialogue: 0,0:23:34.85,0:23:36.87,Default,Ram,0,0,0,,Garf, como foi?
+Dialogue: 0,0:23:38.93,0:23:42.31,Default,Garfiel,0,0,0,,Bom, não dá pra dizer que deu algum\Nresultado visível.
+Dialogue: 0,0:23:42.69,0:23:46.77,Default,Garfiel,0,0,0,,Mas... acho que enfim fiz\Nas pazes com isso.
+Dialogue: 0,0:23:50.16,0:23:52.74,Default,Subaru,0,0,0,,Certo, então vamos fazer o resto\Nda provação enquanto—
+Dialogue: 0,0:23:52.74,0:23:55.27,Default,Garfiel,0,0,0,,Bem, esse já não é trabalho meu.
+Dialogue: 0,0:23:55.27,0:23:58.05,Default,Emilia,0,0,0,,Isso mesmo. É trabalho meu.
+Dialogue: 0,0:23:58.05,0:24:00.02,Default,Emilia,0,0,0,,Não vá tomando ele assim.
+Dialogue: 0,0:24:00.02,0:24:01.28,Default,Garfiel,0,0,0,,É, hum...
+Dialogue: 0,0:24:01.96,0:24:04.20,Default,Garfiel,0,0,0,,E também quero dizer...
+Dialogue: 0,0:24:04.20,0:24:07.30,Default,Garfiel,0,0,0,,Acho que o motivo de eu ter aceitado\Nfazer a provação
+Dialogue: 0,0:24:07.30,0:24:09.49,Default,Garfiel,0,0,0,,provavelmente foi por sua causa.
+Dialogue: 0,0:24:10.33,0:24:11.24,Default,Garfiel,0,0,0,,Obrigado.
+Dialogue: 0,0:24:13.70,0:24:15.64,Default,Subaru,0,0,0,,Você acabou de dizer 'obrigado'?
+Dialogue: 0,0:24:15.64,0:24:17.40,Default,Garfiel,0,0,0,,Não vou repetir!
+Dialogue: 0,0:24:17.40,0:24:18.06,Default,Garfiel,0,0,0,,Escuta aqui!
+Dialogue: 0,0:24:18.40,0:24:20.32,Default,,0,0,0,,Eu sei que eu perdi!
+Dialogue: 0,0:24:20.32,0:24:25.74,Default,Garfiel,0,0,0,,Mas se libertarem este lugar e as velhotas\Nsofrerem por isso, não vou pegar leve!
+Dialogue: 0,0:24:25.74,0:24:27.77,Default,Subaru,0,0,0,,É-É, claro...
+Dialogue: 0,0:24:27.77,0:24:32.28,Default,Garfiel,0,0,0,,Então vou ficar de olho pra ver se vocês\Nnão são só da boca pra fora!
+Dialogue: 0,0:24:32.79,0:24:35.96,Default,Garfiel,0,0,0,,Então vê se faz direito, chefe!
+Dialogue: 0,0:24:35.96,0:24:36.32,Default,Subaru,0,0,0,,Ai!
+Dialogue: 0,0:24:38.00,0:24:40.05,Default,Emilia,0,0,0,,O rosto dele ficou tão vermelho!
+Dialogue: 0,0:24:40.05,0:24:41.86,Default,Subaru,0,0,0,,Chefe?
+Dialogue: 0,0:24:41.86,0:24:44.79,Default,Subaru,0,0,0,,Mas entre nós dois, você tá acima de mim.
+Dialogue: 0,0:24:45.04,0:24:47.79,Default,Ram,0,0,0,,Deve parecer que ganhou um novo irmão.
+Dialogue: 0,0:24:48.19,0:24:50.55,Default,Ram,0,0,0,,Você é mais velho que ele, portanto\Nseja indulgente.
+Dialogue: 0,0:24:50.83,0:24:52.82,Default,Subaru,0,0,0,,Bom, nesse caso...
+Dialogue: 0,0:24:52.82,0:24:54.25,Default,Subaru,0,0,0,,Espera aí!
+Dialogue: 0,0:24:54.25,0:24:57.51,Default,,0,0,0,,Você acabou de dizer que ele é\Nmais novo que eu?!
+Dialogue: 0,0:24:58.75,0:25:01.22,Default,Ram,0,0,0,,Garf só vai completar quatorze anos\Neste ano.
+Dialogue: 0,0:25:03.65,0:25:06.65,Default,Subaru,0,0,0,,Ele tá no oitavo ano!
+Dialogue: 0,0:25:13.60,0:25:14.66,Default,Subaru,0,0,0,,Já vai indo?
+Dialogue: 0,0:25:15.66,0:25:20.26,Default,Emilia,0,0,0,,Sim. Se eu ficar aqui tempo demais,\Nminha determinação vai vacilar.
+Dialogue: 0,0:25:22.61,0:25:23.62,Default,Emilia,0,0,0,,Ei, Subaru...
+Dialogue: 0,0:25:25.43,0:25:28.24,Default,Emilia,0,0,0,,Sobre o que aconteceu no cemitério...
+Dialogue: 0,0:25:31.73,0:25:32.74,Default,Subaru,0,0,0,,Emilia?
+Dialogue: 0,0:25:33.36,0:25:35.76,Default,Emilia,0,0,0,,V-Você sabe! Quando nós...
+Dialogue: 0,0:25:39.09,0:25:41.58,Default,Emilia,0,0,0,,Hum... significa muito para mim,
+Dialogue: 0,0:25:41.58,0:25:44.66,Default,Emilia,0,0,0,,então quando a provação e tudo o mais\Nestiverem resolvidos,
+Dialogue: 0,0:25:44.66,0:25:46.34,Default,Emilia,0,0,0,,vamos conversar direito... tá?
+Dialogue: 0,0:25:45.12,0:25:47.23,Default,Subaru,0,0,0,,{\an8}Sim! Sim!
+Dialogue: 0,0:25:51.93,0:25:54.90,Default,Subaru,0,0,0,,Já planejando o que fazer\Nquando tudo acabar...
+Dialogue: 0,0:25:54.90,0:25:57.41,Default,Subaru,0,0,0,,Deve estar bem confiante, Emilia-tan.
+Dialogue: 0,0:25:57.73,0:25:58.86,Default,Emilia,0,0,0,,Não tenho certeza.
+Dialogue: 0,0:25:59.30,0:26:02.24,Default,Emilia,0,0,0,,Talvez eu só esteja\Nfingindo estar firme.
+Dialogue: 0,0:26:03.38,0:26:05.04,Default,Subaru,0,0,0,,Eu sei que vai dar certo.
+Dialogue: 0,0:26:05.76,0:26:09.31,Default,Subaru,0,0,0,,Aposto um encontro com você nisso!
+Dialogue: 0,0:26:11.12,0:26:12.10,Default,Emilia,0,0,0,,Sim, com certeza.
+Dialogue: 0,0:26:16.26,0:26:18.56,Default,Emilia,0,0,0,,Eu já vou indo.
+Dialogue: 0,0:26:18.56,0:26:19.90,Default,Subaru,0,0,0,,Vai com tudo!
+Dialogue: 0,0:26:19.90,0:26:22.39,Default,Subaru,0,0,0,,Cuidado com os carros e com os garotos!
+Dialogue: 0,0:26:23.15,0:26:24.64,Default,Emilia,0,0,0,,Não diga bobagens.
+Dialogue: 0,0:26:32.37,0:26:34.56,Default,Garfiel,0,0,0,,Um giltylaw que parou a um passo?
+Dialogue: 0,0:26:35.14,0:26:38.64,Default,Garfiel,0,0,0,,Não se faz um homem com essa\Ncara preocupada, chefe.
+Dialogue: 0,0:26:39.11,0:26:43.30,Default,Subaru,0,0,0,,Esse seu jeito de falar faz sentido\Nagora que sei que é do oitavo ano.
+Dialogue: 0,0:26:43.30,0:26:46.37,Default,Subaru,0,0,0,,Eu também vivia recitando frases\Nde gente famosa nessa idade.
+Dialogue: 0,0:26:46.37,0:26:51.96,Default,Garfiel,0,0,0,,Ei, escuta... Tem uma coisa pela qual\Neu devia te pedir desculpas.
+Dialogue: 0,0:26:51.96,0:26:54.34,Default,Subaru,0,0,0,,Olha, que atitude admirável.
+Dialogue: 0,0:26:54.34,0:26:57.07,Default,Subaru,0,0,0,,Pode falar, então. Pode contar\Nqualquer coisa pro seu chefe.
+Dialogue: 0,0:26:57.76,0:26:59.84,Default,Subaru,0,0,0,,Cara, fiquei até sem graça\Nsó de falar isso.
+Dialogue: 0,0:27:00.57,0:27:02.90,Default,Garfiel,0,0,0,,Eu vi você.
+Dialogue: 0,0:27:03.34,0:27:04.00,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:27:04.72,0:27:06.87,Default,Garfiel,0,0,0,,Quando você, hã... sabe...
+Dialogue: 0,0:27:07.84,0:27:09.72,Default,Garfiel,0,0,0,,ficou meio... desesperado?
+Dialogue: 0,0:27:13.54,0:27:16.57,Default,Subaru,0,0,0,,Quê? A-Ai, droga! Eu tinha esquecido!
+Dialogue: 0,0:27:16.57,0:27:20.04,Default,Subaru,0,0,0,,Quer dizer, eu não tava esperando\Nque você fosse entrar lá!
+Dialogue: 0,0:27:20.49,0:27:22.57,Default,Garfiel,0,0,0,,Mas ver aquilo me fez perceber uma coisa.
+Dialogue: 0,0:27:22.57,0:27:25.84,Default,Garfiel,0,0,0,,Você pode até ser um completo idiota,
+Dialogue: 0,0:27:25.84,0:27:29.39,Default,Garfiel,0,0,0,,mas que bom que foi pra você\Nque eu perdi!
+Dialogue: 0,0:27:29.39,0:27:31.39,Default,Subaru,0,0,0,,Cala a boca! Esquece logo disso!
+Dialogue: 0,0:27:31.39,0:27:33.68,Default,Subaru,0,0,0,,Você não é criança, então finge\Nque nem... viu...
+Dialogue: 0,0:27:33.68,0:27:35.71,Default,Subaru,0,0,0,,Espera, você {\i1}é{\i0} criança!
+Dialogue: 0,0:27:41.45,0:27:43.38,Default,Subaru,0,0,0,,Subaru, seu bobo.
+Dialogue: 0,0:27:49.85,0:27:52.31,Default - italics,Subaru,0,0,0,,"Dê o seu melhor. Sei que você consegue."
+Dialogue: 0,0:27:52.83,0:27:54.52,Default - italics,Subaru,0,0,0,,"Eu e o Puck estamos torcendo por você."
+Dialogue: 0,0:27:54.88,0:27:57.02,Default - italics,Subaru,0,0,0,,"Quando isso acabar, vamos a um encontro!"
+Dialogue: 0,0:28:01.73,0:28:03.96,Default,Emilia,0,0,0,,Você é mesmo um bobo.
+Dialogue: 0,0:28:05.78,0:28:07.34,Default,Emilia,0,0,0,,Bobo... Bobo...
+Dialogue: 0,0:28:07.65,0:28:09.38,Default,Emilia,0,0,0,,Subaru, seu bobalhão.
+Dialogue: 0,0:28:09.38,0:28:12.29,Default,Emilia,0,0,0,,Como pôde quebrar a promessa\Nde ficar comigo?
+Dialogue: 0,0:28:13.14,0:28:17.26,Default,Emilia,0,0,0,,Eu juro que nunca, jamais vou te\Nperdoar até você pedir desculpas.
+Dialogue: 0,0:28:25.28,0:28:29.42,Default,Echidna,0,0,0,,Olá. Eu certamente tenho recebido\Nmuitas visitas ultimamente.
+Dialogue: 0,0:28:31.21,0:28:36.87,Default,Echidna,0,0,0,,Quanta ousadia entrar aqui como se nada\Nfosse depois daquela cena vergonhosa.
+Dialogue: 0,0:28:36.87,0:28:38.94,Default,Echidna,0,0,0,,Até eu estou surpresa.
+Dialogue: 0,0:28:39.49,0:28:41.68,Default,Echidna,0,0,0,,Sua mulher leviana, que se derrete pelo
+Dialogue: 0,0:28:41.68,0:28:45.91,Default,Echidna,0,0,0,,primeiro homem que a consola\Nquando chora em desespero...
+Dialogue: 0,0:28:46.48,0:28:50.09,Default,Echidna,0,0,0,,Sua tola sem-vergonha, que continua\Nsujando o mundo que é só meu...
+Dialogue: 0,0:28:50.51,0:28:55.34,Default,Echidna,0,0,0,,Sua hedonista egoísta ao extremo, que ama\Na versão de si mesma que ele perdoou...
+Dialogue: 0,0:28:56.58,0:28:58.29,Default,Echidna,0,0,0,,Vamos, por que não diz alguma coisa...
+Dialogue: 0,0:28:59.08,0:29:00.63,Default,Echidna,0,0,0,,filha da bruxa?
+Dialogue: 0,0:29:06.61,0:29:09.01,Default,Emilia,0,0,0,,Meu nome é apenas Emilia!
+Dialogue: 0,0:29:09.38,0:29:12.98,Default,Emilia,0,0,0,,Sou a Bruxa Congelada,\Nnascida na Floresta de Elior!
+Dialogue: 0,0:29:18.30,0:29:21.28,Default,Emilia,0,0,0,,Não vou ceder à malícia\Nde outra bruxa.
+Dialogue: 0,0:29:21.97,0:29:24.82,Default,Emilia,0,0,0,,Afinal, eu sou uma mulher\Nbem insuportável!
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Ninguém
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Pode
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Erguer
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,uma
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Pedra
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Quain
+Dialogue: 1,0:29:25.45,0:29:29.95,AstralSigns,,0,0,0,,Sozinho

@@ -1,0 +1,440 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: .0000
+WrapStyle: 0
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,-1,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: AstralSigns,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.31,0:00:03.85,Default,Echidna,0,0,0,,Você atravessou todas aquelas barreiras
+Dialogue: 0,0:00:03.85,0:00:06.77,Default,Echidna,0,0,0,,para entrar no Castelo dos Sonhos?
+Dialogue: 0,0:00:06.77,0:00:08.20,Default,Echidna,0,0,0,,Mas que falta de educação.
+Dialogue: 0,0:00:13.20,0:00:15.57,Default,Subaru,0,0,0,,Sério, qual é a sua?
+Dialogue: 0,0:00:16.21,0:00:17.95,Default,Subaru,0,0,0,,O que você quer de mim?!
+Dialogue: 0,0:00:18.80,0:00:19.89,Default,Satella,0,0,0,,Por tanto tempo...
+Dialogue: 0,0:00:20.81,0:00:22.52,Default,Satella,0,0,0,,Por tanto, tanto tempo...
+Dialogue: 0,0:00:23.68,0:00:25.62,Default,Satella,0,0,0,,Eu amei você...
+Dialogue: 0,0:00:26.60,0:00:27.84,Default,Satella,0,0,0,,e mais ninguém.
+Dialogue: 0,0:00:28.86,0:00:29.71,Default,Subaru,0,0,0,,Para...
+Dialogue: 0,0:00:30.24,0:00:31.21,Default,Satella,0,0,0,,Eu te amo.
+Dialogue: 0,0:00:32.53,0:00:33.59,Default,Subaru,0,0,0,,Para com isso.
+Dialogue: 0,0:00:33.59,0:00:39.43,Default,Satella,0,0,0,,Eu amei somente você\Npor muito, muito tempo.
+Dialogue: 0,0:00:39.88,0:00:42.60,Default,Subaru,0,0,0,,Eu mandei parar, droga!
+Dialogue: 0,0:00:43.49,0:00:45.93,Default,Subaru,0,0,0,,Você e a Echidna\Nsão completamente loucas!
+Dialogue: 0,0:00:45.93,0:00:48.56,Default,Subaru,0,0,0,,Já chega! Cansei de vocês duas!
+Dialogue: 0,0:00:48.95,0:00:50.77,Default,Subaru,0,0,0,,Não vou aceitar ajuda\Nde nenhuma de vocês!
+Dialogue: 0,0:00:50.77,0:00:52.65,Default,Subaru,0,0,0,,Vou dar um jeito de consertar\Ntudo sozinho!
+Dialogue: 0,0:00:52.65,0:00:54.32,Default,Subaru,0,0,0,,Isso não basta pra vocês?!
+Dialogue: 0,0:00:54.70,0:00:58.14,Default,Minerva,0,0,0,,Então vai continuar morrendo,\Nrecomeçando
+Dialogue: 0,0:00:58.14,0:01:01.08,Default,Minerva,0,0,0,,e fazendo todo mundo chorar? Sério?
+Dialogue: 0,0:01:01.32,0:01:02.90,Default,Minerva,0,0,0,,Deve ser ótimo ser você.
+Dialogue: 0,0:01:02.90,0:01:04.72,Default,Minerva,0,0,0,,Não importa o que os outros sintam,
+Dialogue: 0,0:01:04.72,0:01:07.58,Default,Minerva,0,0,0,,você sempre usa a desculpa\Nde que é quem mais sofre.
+Dialogue: 0,0:01:08.02,0:01:08.92,Default,Subaru,0,0,0,,Você está...
+Dialogue: 0,0:01:09.36,0:01:11.92,Default,Subaru,0,0,0,,Quer dizer que estou me fazendo\Nde herói trágico?!
+Dialogue: 0,0:01:11.92,0:01:13.12,Default,Minerva,0,0,0,,Não é isso.
+Dialogue: 0,0:01:13.12,0:01:17.32,Default,Minerva,0,0,0,,Estou dizendo que é covardia decidir\Nque só você precisa sofrer.
+Dialogue: 0,0:01:17.32,0:01:20.97,Default,Minerva,0,0,0,,Esse pensamento distorcido te torna\Nbem mais vil do que qualquer bruxa.
+Dialogue: 0,0:01:22.54,0:01:23.50,Default,Minerva,0,0,0,,E acima de tudo...
+Dialogue: 0,0:01:25.39,0:01:28.13,Default,Minerva,0,0,0,,É muita ingratidão com ela.
+Dialogue: 0,0:01:31.59,0:01:33.16,Default,Subaru,0,0,0,,Vil?
+Dialogue: 0,0:01:34.64,0:01:36.09,Default,Subaru,0,0,0,,Ingratidão?
+Dialogue: 0,0:01:38.03,0:01:39.70,Default,Subaru,0,0,0,,Mas que diabos?!
+Dialogue: 0,0:01:40.99,0:01:45.33,Default,Subaru,0,0,0,,Foi você quem me deixou assim!
+Dialogue: 0,0:01:45.33,0:01:49.80,Default,Subaru,0,0,0,,Toda a dor, todo o sofrimento...\N{\i1}tudo{\i0}... só acontece comigo!
+Dialogue: 0,0:01:50.25,0:01:52.71,Default,Subaru,0,0,0,,Se eu não tivesse feito nada,\Nalguma coisa mudaria?!
+Dialogue: 0,0:01:53.06,0:01:55.46,Default,Subaru,0,0,0,,Eu não estou preso a um futuro\Nhorrível de qualquer jeito?!
+Dialogue: 0,0:01:55.70,0:02:00.41,Default,Subaru,0,0,0,,Quem além de mim teria feito\Ntudo o que eu fiz?!
+Dialogue: 0,0:02:00.41,0:02:01.51,Default,Satella,0,0,0,,...chuque.
+Dialogue: 0,0:02:02.46,0:02:04.14,Default,Satella,0,0,0,,Não se machuque.
+Dialogue: 0,0:02:04.14,0:02:05.54,Default,Satella,0,0,0,,Não sofra.
+Dialogue: 0,0:02:05.96,0:02:08.06,Default,Satella,0,0,0,,Não fique triste.
+Dialogue: 0,0:02:08.06,0:02:11.61,Default,Subaru,0,0,0,,Você tem... a cara de pau de...
+Dialogue: 0,0:02:11.99,0:02:14.11,Default,Satella,0,0,0,,Por isso... ame...
+Dialogue: 0,0:02:14.60,0:02:16.69,Default,Subaru,0,0,0,,Então tudo se resume a isso?
+Dialogue: 0,0:02:17.19,0:02:20.43,Default,Subaru,0,0,0,,Está tão desesperada assim\Npara que eu te ame?!
+Dialogue: 0,0:02:20.43,0:02:21.35,Default,Satella,0,0,0,,Não.
+Dialogue: 0,0:02:21.85,0:02:25.33,Default,Satella,0,0,0,,Ame mais a si mesmo.
+Dialogue: 0,0:02:25.53,0:02:26.04,Default,Subaru,0,0,0,,O qu—
+Dialogue: 0,0:02:26.69,0:02:29.25,Default,Subaru,0,0,0,,Que diabos você acabou de dizer?
+Dialogue: 0,0:02:29.25,0:02:31.63,Default,Satella,0,0,0,,Não se machuque. Não se entristeça.
+Dialogue: 0,0:02:32.21,0:02:34.88,Default,Satella,0,0,0,,Valorize mais a si mesmo.
+Dialogue: 0,0:02:34.88,0:02:39.08,Default,Subaru,0,0,0,,Foi você quem me deu o poder\Nde Retornar através da Morte!
+Dialogue: 0,0:02:39.08,0:02:40.78,Default,Satella,0,0,0,,Eu te amo.
+Dialogue: 0,0:02:41.60,0:02:45.59,Default,Satella,0,0,0,,Por isso quero que se ame\Ne que se proteja.
+Dialogue: 0,0:02:44.89,0:02:48.03,Default,Subaru,0,0,0,,{\an8}Se eu perdesse esse poder\Npor amar a mim mesmo,
+Dialogue: 0,0:02:48.03,0:02:50.48,Default,Subaru,0,0,0,,o que ia sobrar pra mim?!
+Dialogue: 0,0:02:50.73,0:02:53.48,Default,Subaru,0,0,0,,Não tenho mais nada para usar\Nalém da minha própria vida!
+Dialogue: 0,0:02:53.48,0:02:57.71,Default,Subaru,0,0,0,,Contanto que eu me machuque mais\Nque todos para protegê-los,
+Dialogue: 0,0:02:57.71,0:03:01.11,Default,Subaru,0,0,0,,mais ninguém vai precisar sofrer!
+Dialogue: 0,0:03:01.74,0:03:05.20,Default,Subaru,0,0,0,,Ninguém se importa com o que\Nacontece a um inútil como eu, né?!
+Dialogue: 0,0:03:05.76,0:03:08.04,Default,Subaru,0,0,0,,Não importa o quanto eu apanhe,
+Dialogue: 0,0:03:08.50,0:03:11.37,Default,Subaru,0,0,0,,contanto que todos cheguem\Nao futuro...
+Dialogue: 0,0:03:11.90,0:03:17.42,Default,Subaru,0,0,0,,Contanto que possamos começar o amanhã\Nsem perder ninguém... então...
+Dialogue: 0,0:03:20.76,0:03:22.56,Default,Subaru,0,0,0,,A Rem se foi.
+Dialogue: 0,0:03:23.64,0:03:25.58,Default,Subaru,0,0,0,,Se eu tivesse sido mais forte...
+Dialogue: 0,0:03:26.57,0:03:28.96,Default,Subaru,0,0,0,,Se eu tivesse ido para a linha de frente
+Dialogue: 0,0:03:28.96,0:03:31.40,Default,Subaru,0,0,0,,sem me preocupar com o que\Npudesse acontecer comigo...
+Dialogue: 0,0:03:32.82,0:03:34.78,Default,Subaru,0,0,0,,Eu poderia ter evitado isso.
+Dialogue: 0,0:03:37.62,0:03:39.19,Default,Subaru,0,0,0,,Eu não quero...
+Dialogue: 0,0:03:39.76,0:03:43.98,Default,Subaru,0,0,0,,perder mais ninguém como perdi a Rem!
+Dialogue: 0,0:03:51.25,0:03:53.09,Default,Sekhmet,0,0,0,,Você não é uma criança.
+Dialogue: 0,0:03:53.98,0:03:58.25,Default,Sekhmet,0,0,0,,Olhe para você... chorando, gritando,\Ntentando resolver tudo sozinho.
+Dialogue: 0,0:03:58.70,0:04:00.18,Default,Sekhmet,0,0,0,,Você está agindo exatamente como
+Dialogue: 0,0:04:01.35,0:04:04.62,Default,Sekhmet,0,0,0,,uma criancinha solitária.
+Dialogue: 0,0:04:06.88,0:04:09.62,Default,Typhon,0,0,0,,Baru, você está chorando?
+Dialogue: 0,0:04:10.27,0:04:13.97,Default,Typhon,0,0,0,,Olha só o quanto te fizeram\Nchorar. Coitadinho.
+Dialogue: 0,0:04:15.18,0:04:16.40,Default,Typhon,0,0,0,,Então quem...
+Dialogue: 0,0:04:17.12,0:04:18.90,Default,Typhon,0,0,0,,fez você chorar?
+Dialogue: 0,0:04:28.55,0:04:31.83,Default,Satella,0,0,0,,Eu te amo.
+Dialogue: 0,0:04:32.50,0:04:34.33,Default,Subaru,0,0,0,,Para com isso...
+Dialogue: 0,0:04:35.00,0:04:38.53,Default,Satella,0,0,0,,É porque você me deu tudo.
+Dialogue: 0,0:04:39.66,0:04:41.80,Default,Satella,0,0,0,,É por isso que eu...
+Dialogue: 0,0:04:41.80,0:04:44.69,Default,Subaru,0,0,0,,Para com isso!
+Dialogue: 0,0:04:46.98,0:04:47.80,Default,Typhon,0,0,0,,Baru?
+Dialogue: 0,0:04:51.99,0:04:56.55,Default,Echidna,0,0,0,,Ah, essa de fato é uma opção,\NNatsuki Subaru.
+Dialogue: 0,0:05:00.80,0:05:02.36,Default,Minerva,0,0,0,,A língua dele...
+Dialogue: 0,0:05:02.36,0:05:04.61,Default,Minerva,0,0,0,,Seu completo idiota!
+Dialogue: 0,0:05:07.96,0:05:10.70,Default,Minerva,0,0,0,,Isso é fácil demais!
+Dialogue: 0,0:05:10.70,0:05:12.48,Default,Minerva,0,0,0,,Não se meta no caminho, Typhon!
+Dialogue: 0,0:05:12.48,0:05:14.24,Default,Typhon,0,0,0,,O Baru fez a própria escolha!
+Dialogue: 0,0:05:14.24,0:05:16.05,Default,Tyhpon,0,0,0,,{\i1}Você{\i0} que não se meta, Nerva!
+Dialogue: 0,0:05:16.05,0:05:20.46,Default,Minerva,0,0,0,,Não vou permitir automutilação,\Nsuicídio nem assassinato na minha frente!
+Dialogue: 0,0:05:22.88,0:05:24.05,Default,Minerva,0,0,0,,Sekhmet...
+Dialogue: 0,0:05:24.36,0:05:28.11,Default,Sekhmet,0,0,0,,Emocionalmente, também estou\Ndo lado do garoto.
+Dialogue: 0,0:05:29.60,0:05:33.38,Default,Sekhmet,0,0,0,,E... também estou do lado da Typhon.
+Dialogue: 0,0:05:42.81,0:05:45.01,Default,Satella,0,0,0,,Por que você ainda não percebeu
+Dialogue: 0,0:05:45.77,0:05:51.20,Default,Satella,0,0,0,,que também deve se incluir\Nentre os que deseja salvar?
+Dialogue: 0,0:05:51.20,0:05:52.41,Default,Satella,0,0,0,,Deveria ser tão óbvio...
+Dialogue: 0,0:05:59.95,0:06:05.00,Default,Satella,0,0,0,,O que foi que você viu\Nnaquelas duas provações?
+Dialogue: 0,0:06:08.60,0:06:10.58,Default - flashback,Kenichi,0,0,0,,Espero o melhor de você, filho.
+Dialogue: 0,0:06:10.58,0:06:11.96,Default - flashback,Nahoko,0,0,0,,Vá com cuidado.
+Dialogue: 0,0:06:11.96,0:06:12.81,Default - italics,Subaru,0,0,0,,Eu...
+Dialogue: 0,0:06:12.81,0:06:16.30,Default - flashback,Julius,0,0,0,,Eu queria poder chamá-lo de amigo.
+Dialogue: 0,0:06:16.90,0:06:19.04,Default - flashback,Wilhelm,0,0,0,,Por quê? Por quê?!
+Dialogue: 0,0:06:19.04,0:06:20.71,Default - flashback,Wilhelm,0,0,0,,Por que morreu tão facilmente?
+Dialogue: 0,0:06:20.71,0:06:22.69,Default - flashback,Wilhelm,0,0,0,,{\an8}Subaru-dono, você é...
+Dialogue: 0,0:06:22.20,0:06:23.68,Default - italics,Subaru,0,0,0,,Não importa no que eu acredite...
+Dialogue: 0,0:06:22.69,0:06:27.20,Default - flashback,Beatrice,0,0,0,,{\an8}Eu sabia que você não podia ser\N"aquela pessoa", eu suponho.
+Dialogue: 0,0:06:26.00,0:06:28.44,Default - italics,Subaru,0,0,0,,Não importa o que eu deseje, eu...
+Dialogue: 0,0:06:30.03,0:06:33.67,Default - flashback,Rem,0,0,0,,Mostre-me o quão incrível sabe ser, Subaru-kun.
+Dialogue: 0,0:06:36.43,0:06:37.82,Default - flashback,Emilia,0,0,0,,Obrigada, Subaru.
+Dialogue: 0,0:06:38.51,0:06:40.25,Default - flashback,Emilia,0,0,0,,Por ter me salvado.
+Dialogue: 0,0:06:43.33,0:06:45.67,Default - italics,Subaru,0,0,0,,Eu não quero morrer.
+Dialogue: 0,0:06:45.67,0:06:48.26,Default,Minerva,0,0,0,,Viu só?! É assim que você\Nse sente de verdade!
+Dialogue: 0,0:07:11.53,0:07:12.74,Default,,0,0,0,,Será que existe...
+Dialogue: 0,0:07:13.48,0:07:15.53,Default,Subaru,0,0,0,,algum valor na minha vida?
+Dialogue: 0,0:07:17.19,0:07:20.96,Default,Subaru,0,0,0,,O que eu posso fazer além de morrer\Ne repetir tudo?
+Dialogue: 0,0:07:31.95,0:07:39.26,Default,Subaru,0,0,0,,Será que posso mesmo acreditar...\Nque as pessoas de quem gosto...
+Dialogue: 0,0:07:41.35,0:07:44.48,Default,Subaru,0,0,0,,também... gostam de mim?
+Dialogue: 0,0:07:46.75,0:07:47.86,Default,Satella,0,0,0,,Eu permito.
+Dialogue: 0,0:07:51.50,0:07:53.82,Default,Satella,0,0,0,,Foi você quem me salvou,
+Dialogue: 0,0:07:54.44,0:07:58.70,Default,Satella,0,0,0,,então eu permito que você\Ntambém seja salvo.
+Dialogue: 0,0:07:59.52,0:08:01.54,Default,Satella,0,0,0,,O meu desejo é que você
+Dialogue: 0,0:08:02.34,0:08:04.54,Default,Satella,0,0,0,,seja salvo.
+Dialogue: 0,0:08:17.58,0:08:19.22,Default,Echidna,0,0,0,,Deixando a Minerva de lado,
+Dialogue: 0,0:08:19.84,0:08:24.08,Default,Echidna,0,0,0,,o que mais me surpreende é a forma\Ncomo vocês duas agiram agora.
+Dialogue: 0,0:08:25.71,0:08:27.77,Default,Typhon,0,0,0,,Não se meta nisso, Daph!
+Dialogue: 0,0:08:28.05,0:08:32.43,Default,Daphne,0,0,0,,Sabe, o Subarun se gabou bastante\Nna minha frente.
+Dialogue: 0,0:08:32.43,0:08:36.74,Default,Daphne,0,0,0,,Então adoraria vê-lo pelo menos\Ntentar cumprir o que prometeu.
+Dialogue: 0,0:08:37.60,0:08:39.64,Default,Echidna,0,0,0,,Uma linha de pensamento instigante.
+Dialogue: 0,0:08:40.08,0:08:44.71,Default,Echidna,0,0,0,,E foi você quem o trouxe de volta\Nda beira da morte, não foi,
+Dialogue: 0,0:08:44.71,0:08:45.46,Default,Echidna,0,0,0,,Carmilla?
+Dialogue: 0,0:08:46.46,0:08:50.83,Default,Echidna,0,0,0,,Chegou até a usar a Noiva Sem Rosto.\NCom que propósito?
+Dialogue: 0,0:08:51.56,0:08:52.67,Default,Carmilla,0,0,0,,Sem... motivo...
+Dialogue: 0,0:08:53.84,0:08:57.82,Default,Carmilla,0,0,0,,Eu só... acho... que o a-amor\Né importante.
+Dialogue: 0,0:08:58.26,0:09:01.23,Default,Carmilla,0,0,0,,Mesmo que ele não queira enxergar,
+Dialogue: 0,0:09:01.23,0:09:03.38,Default,Carmilla,0,0,0,,existe amor ali...
+Dialogue: 0,0:09:03.88,0:09:05.77,Default,Carmilla,0,0,0,,E eu...
+Dialogue: 0,0:09:06.63,0:09:09.27,Default,Carmilla,0,0,0,,Não suporto vê-lo ser recebido\Ne não retribuído.
+Dialogue: 0,0:09:13.16,0:09:16.96,Default,Echidna,0,0,0,,Sekhmet e Typhon respeitaram\Na vontade dele,
+Dialogue: 0,0:09:16.96,0:09:18.96,Default,Echidna,0,0,0,,e Minerva o curou.
+Dialogue: 0,0:09:19.46,0:09:21.66,Default,Echidna,0,0,0,,Daphne ajudou a prolongar sua vida,
+Dialogue: 0,0:09:21.66,0:09:25.79,Default,Echidna,0,0,0,,e Carmilla usou sua Autoridade para\Nfazê-lo notar o amor que não via.
+Dialogue: 0,0:09:26.24,0:09:29.82,Default,Echidna,0,0,0,,Portanto, embora cada uma de vocês\Npossa ter seus próprios motivos,
+Dialogue: 0,0:09:29.82,0:09:32.75,Default,Echidna,0,0,0,,todas desejam ajudar Natsuki Subaru.
+Dialogue: 0,0:09:36.24,0:09:38.11,Default,Echidna,0,0,0,,Isso é realmente fascinante.
+Dialogue: 0,0:09:38.60,0:09:40.47,Default,Echidna,0,0,0,,Não concorda?
+Dialogue: 0,0:09:41.67,0:09:46.14,Default,Subaru,0,0,0,,Sério... qual é o problema de vocês?
+Dialogue: 0,0:09:48.16,0:09:52.60,Default,Subaru,0,0,0,,Não consigo entender nem concordar com\Nquase nada do que as faz me apoiar.
+Dialogue: 0,0:09:52.60,0:09:54.51,Default,Subaru,0,0,0,,Não é à toa que chamam vocês de bruxas.
+Dialogue: 0,0:09:54.51,0:09:56.57,Default,Echidna,0,0,0,,Já que voltou a nos tratar como vilãs,
+Dialogue: 0,0:09:56.57,0:09:58.57,Default,Echidna,0,0,0,,posso presumir que recuperou as forças?
+Dialogue: 0,0:09:59.26,0:10:02.58,Default,Subaru,0,0,0,,Eu já nem sei mais o que fazer.
+Dialogue: 0,0:10:03.57,0:10:07.58,Default,Echidna,0,0,0,,Então deixe-me perguntar uma coisa,\NNatsuki Subaru.
+Dialogue: 0,0:10:08.75,0:10:11.01,Default,Echidna,0,0,0,,Se eu lhe prestar minha assistência,
+Dialogue: 0,0:10:11.01,0:10:16.21,Default,Echidna,0,0,0,,tenha certeza de que alcançará um futuro\Nem que salva quem deseja salvar.
+Dialogue: 0,0:10:16.86,0:10:19.48,Default,Echidna,0,0,0,,Se não sabe o que deve fazer,
+Dialogue: 0,0:10:19.94,0:10:22.43,Default,Echidna,0,0,0,,estenderia sua mão para mim?
+Dialogue: 0,0:10:23.12,0:10:27.21,Default,Echidna,0,0,0,,Eu o levarei ao futuro que deseja,\Nsem falta.
+Dialogue: 0,0:10:28.21,0:10:29.69,Default,Echidna,0,0,0,,Tem a minha palavra.
+Dialogue: 0,0:10:35.23,0:10:39.82,Default,Subaru,0,0,0,,Echidna... eu tenho medo de me machucar.
+Dialogue: 0,0:10:41.54,0:10:45.21,Default,Subaru,0,0,0,,Odeio me machucar, sofrer e ficar triste.
+Dialogue: 0,0:10:45.73,0:10:47.73,Default,Subaru,0,0,0,,Não quero sentir dor,
+Dialogue: 0,0:10:47.73,0:10:51.13,Default,Subaru,0,0,0,,e não quero ver coisas terríveis\Nacontecerem com ninguém.
+Dialogue: 0,0:10:53.05,0:10:54.67,Default,Subaru,0,0,0,,Eu não quero morrer.
+Dialogue: 0,0:10:55.91,0:10:59.42,Default,Subaru,0,0,0,,Então, já que o sacrifício é condição\Npara segurar a sua mão...
+Dialogue: 0,0:11:00.13,0:11:02.10,Default,Subaru,0,0,0,,eu não posso segurá-la de novo.
+Dialogue: 0,0:11:05.05,0:11:08.84,Default,Subaru,0,0,0,,Se eu tiver algum valor para eles\Nalém da minha própria morte,
+Dialogue: 0,0:11:09.71,0:11:11.78,Default,Subaru,0,0,0,,eu vou procurá-lo.
+Dialogue: 0,0:11:12.51,0:11:14.14,Default,Subaru,0,0,0,,Se eu conseguir encontrá-lo, sinto que
+Dialogue: 0,0:11:14.14,0:11:18.65,Default,Subaru,0,0,0,,posso retribuir a eles de outra forma\Nque não seja com a morte.
+Dialogue: 0,0:11:18.97,0:11:21.02,Default,Echidna,0,0,0,,Esse caminho é repleto de espinhos.
+Dialogue: 0,0:11:21.46,0:11:23.43,Default,Echidna,0,0,0,,Se encarasse sua morte como ferramenta,
+Dialogue: 0,0:11:23.43,0:11:26.41,Default,Echidna,0,0,0,,só precisaria oferecer o seu coração.
+Dialogue: 0,0:11:27.01,0:11:31.56,Default,Echidna,0,0,0,,Mas negar isso e tentar reivindicar\Ntanto seu coração quanto o futuro alheio
+Dialogue: 0,0:11:31.56,0:11:37.42,Default,Echidna,0,0,0,,seria extremamente difícil e, acima de tudo...
+Dialogue: 0,0:11:40.41,0:11:41.78,Default,Echidna,0,0,0,,ganancioso.
+Dialogue: 0,0:11:44.56,0:11:49.35,Default,Subaru,0,0,0,,É verdade que você me salvou\Nvárias e várias vezes.
+Dialogue: 0,0:11:50.60,0:11:55.01,Default,Subaru,0,0,0,,Não importa o que você tinha em mente,\Nessa parte é verdade.
+Dialogue: 0,0:11:58.21,0:12:02.93,Default,Echidna,0,0,0,,Aquele pobre e tolo Garfiel teme\No mundo exterior.
+Dialogue: 0,0:12:02.93,0:12:06.83,Default,Echidna,0,0,0,,Para libertá-lo dessa situação,\Nterá de quebrar esse feitiço.
+Dialogue: 0,0:12:07.48,0:12:08.50,Default,Subaru,0,0,0,,Echidna?
+Dialogue: 0,0:12:08.94,0:12:12.04,Default,Echidna,0,0,0,,Ah, estou só sendo uma perdedora\Nressentida e intrometida.
+Dialogue: 0,0:12:12.04,0:12:15.75,Default,Echidna,0,0,0,,Não quero que pense que as outras bruxas\Neram boas no fundo,
+Dialogue: 0,0:12:15.75,0:12:20.05,Default,Echidna,0,0,0,,enquanto só a Echidna foi má até o fim.
+Dialogue: 0,0:12:20.51,0:12:25.83,Default,Echidna,0,0,0,,Ainda é verdade que sou uma garota\Ne que gosto de você, afinal.
+Dialogue: 0,0:12:30.53,0:12:34.26,Default,Subaru,0,0,0,,Vocês todas são monstros além\Nda minha compreensão.
+Dialogue: 0,0:12:34.93,0:12:38.10,Default,Subaru,0,0,0,,Nunca vamos nos entender, e duvido\Nque eu chegue a gostar de você.
+Dialogue: 0,0:12:38.68,0:12:39.69,Default,Subaru,0,0,0,,Mas...
+Dialogue: 0,0:12:41.07,0:12:43.52,Default,Subaru,0,0,0,,Obrigado por aceitarem me deixar morrer.
+Dialogue: 0,0:12:44.84,0:12:47.93,Default,Subaru,0,0,0,,Obrigado por não me deixar morrer.
+Dialogue: 0,0:12:48.87,0:12:52.95,Default,Subaru,0,0,0,,Obrigado por me fazer ouvir as vozes\Npreciosas que eu precisava ouvir.
+Dialogue: 0,0:12:53.63,0:12:55.67,Default,Subaru,0,0,0,,Por isso, eu agradeço mesmo.
+Dialogue: 0,0:13:01.00,0:13:03.93,Default,Subaru,0,0,0,,Eu não entendo você.
+Dialogue: 0,0:13:05.68,0:13:10.43,Default,Subaru,0,0,0,,Mas é fato que o Retorno através da Morte\Nque você me deu já me salvou muito.
+Dialogue: 0,0:13:10.98,0:13:14.98,Default,Subaru,0,0,0,,O Retorno através da Morte é uma\Ndas opções à minha disposição?
+Dialogue: 0,0:13:15.68,0:13:20.44,Default,Subaru,0,0,0,,Se não depender demais disso é o que\Npreciso para me amar...
+Dialogue: 0,0:13:22.88,0:13:25.36,Default,Subaru,0,0,0,,Não posso dizer que vai ser fácil.
+Dialogue: 0,0:13:26.07,0:13:31.41,Default,Subaru,0,0,0,,Mas vou tentar gostar um pouco mais\Nde mim mesmo, como você pediu.
+Dialogue: 0,0:13:32.68,0:13:33.87,Default,Satella,0,0,0,,Você vai ficar bem?
+Dialogue: 0,0:13:34.29,0:13:34.98,Default,Subaru,0,0,0,,Vou.
+Dialogue: 0,0:13:35.36,0:13:38.12,Default,Subaru,0,0,0,,Perto de morrer, isso não é nada.
+Dialogue: 0,0:13:44.55,0:13:47.05,Default,Satella,0,0,0,,Não se atormente sozinho.
+Dialogue: 0,0:13:47.90,0:13:52.25,Default,Satella,0,0,0,,Lute ao lado das pessoas\Nque se importam com você.
+Dialogue: 0,0:13:53.95,0:13:58.81,Default,Satella,0,0,0,,Não se esqueça de que há pessoas\Nque sofrem quando você morre.
+Dialogue: 0,0:13:59.94,0:14:00.90,Default,Subaru,0,0,0,,Eu...
+Dialogue: 0,0:14:06.85,0:14:08.11,Default,Satella,0,0,0,,E um dia,
+Dialogue: 0,0:14:10.04,0:14:11.32,Default,Satella,0,0,0,,você precisa vir...
+Dialogue: 0,0:14:16.30,0:14:19.21,Default,Satella,0,0,0,,me matar.
+Dialogue: 0,0:14:23.50,0:14:24.92,Default,Subaru,0,0,0,,Eu juro...
+Dialogue: 0,0:14:25.88,0:14:27.92,Default,Subaru,0,0,0,,Eu vou salvar você.
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 1,0:14:27.93,0:14:30.93,AstralSigns,,0,0,0,,Os Sons que Fazem Você Querer Chorar
+Dialogue: 0,0:14:37.54,0:14:38.89,Default,Subaru,0,0,0,,É você...
+Dialogue: 0,0:14:41.05,0:14:42.90,Default,Otto,0,0,0,,Você acordou?
+Dialogue: 0,0:14:43.18,0:14:44.18,Default,Subaru,0,0,0,,Otto?
+Dialogue: 0,0:14:44.92,0:14:46.03,Default,Subaru,0,0,0,,Aqui é...
+Dialogue: 0,0:14:46.95,0:14:48.50,Default,Subaru,0,0,0,,Eu normalmente estaria lá dentro.
+Dialogue: 0,0:14:49.26,0:14:50.90,Default,Subaru,0,0,0,,Foi você quem me tirou de lá?
+Dialogue: 0,0:14:51.36,0:14:53.33,Default,Otto,0,0,0,,Foi a Patrasche.
+Dialogue: 0,0:14:53.33,0:14:55.22,Default,Otto,0,0,0,,Ela começou a se debater toda,
+Dialogue: 0,0:14:55.22,0:14:57.22,Default,Otto,0,0,0,,e assim que eu a soltei da carruagem...
+Dialogue: 0,0:14:59.09,0:15:00.08,Default,Subaru,0,0,0,,Espera...
+Dialogue: 0,0:15:00.39,0:15:03.88,Default,Subaru,0,0,0,,Quem entra na Tumba sem\Na qualificação é rejeitado.
+Dialogue: 0,0:15:05.16,0:15:07.41,Default,Subaru,0,0,0,,Por que você fez uma loucura dessas?
+Dialogue: 0,0:15:07.99,0:15:10.89,Default,Subaru,0,0,0,,Eu teria saído assim que acordasse.
+Dialogue: 0,0:15:11.65,0:15:13.09,Default,Subaru,0,0,0,,Por que você me salvou?
+Dialogue: 0,0:15:14.12,0:15:17.93,Default,Otto,0,0,0,,Você realmente não sabe por quê?
+Dialogue: 0,0:15:22.88,0:15:26.04,Default,Otto,0,0,0,,Claro. Sim, você tem razão.
+Dialogue: 0,0:15:26.04,0:15:29.08,Default,Subaru,0,0,0,,Quê? O que a Patrasche disse?
+Dialogue: 0,0:15:29.08,0:15:32.64,Default,Otto,0,0,0,,Ela disse: "Não me faça dizer o porquê."
+Dialogue: 0,0:15:32.64,0:15:34.71,Default,Otto,0,0,0,,Você não sabe mesmo?
+Dialogue: 0,0:15:37.81,0:15:39.35,Default,Otto,0,0,0,,Escute bem...
+Dialogue: 0,0:15:39.35,0:15:42.16,Default,Otto,0,0,0,,Saltar para salvar uma pessoa\Nao pensar que corre perigo,
+Dialogue: 0,0:15:42.16,0:15:44.74,Default,Otto,0,0,0,,salvá-la sem se importar\Ncom o próprio risco,
+Dialogue: 0,0:15:44.74,0:15:46.53,Default,Otto,0,0,0,,e sorrir quando ela acorda...
+Dialogue: 0,0:15:46.53,0:15:48.68,Default,Otto,0,0,0,,Creio que o sentimento por trás\Nseja o mesmo,
+Dialogue: 0,0:15:48.68,0:15:52.26,Default,,0,0,0,,seja você um humano ou um dragão terrestre.
+Dialogue: 0,0:15:53.47,0:15:56.90,Default,Otto,0,0,0,,Você é devagar demais para perceber.\NDeve ser ótimo ser você.
+Dialogue: 0,0:16:03.08,0:16:04.84,Default,Otto,0,0,0,,N-Natsuki-san?
+Dialogue: 0,0:16:04.08,0:16:07.24,Default,Subaru,0,0,0,,{\an8}Não, não... Não é o que está pensando...
+Dialogue: 0,0:16:07.24,0:16:08.98,Default,Subaru,0,0,0,,É só que... o momento foi...
+Dialogue: 0,0:16:12.93,0:16:17.28,Default,Subaru,0,0,0,,Entendi. Você gosta mesmo de mim, hein?
+Dialogue: 0,0:16:18.07,0:16:20.89,Default,Subaru,0,0,0,,Nunca pensei que seria de você\Nque eu ouviria isso primeiro.
+Dialogue: 0,0:16:22.20,0:16:24.55,Default,Subaru,0,0,0,,Obrigado, Patrasche.
+Dialogue: 0,0:16:33.59,0:16:36.33,Default,Otto,0,0,0,,Você está bem? O que aconteceu?
+Dialogue: 0,0:16:36.33,0:16:39.61,Default,Subaru,0,0,0,,Ficou preocupado? Espera,\Nvocê também gosta de mim?
+Dialogue: 0,0:16:39.61,0:16:42.10,Default,Otto,0,0,0,,Pode parar de falar uma coisa\Nnojenta dessas?!
+Dialogue: 0,0:16:42.10,0:16:44.10,Default,Otto,0,0,0,,Só estou pensando no que vem agora!
+Dialogue: 0,0:16:44.51,0:16:47.23,Default,Subaru,0,0,0,,É, eu sei. Somos amigos, afinal.
+Dialogue: 0,0:16:49.52,0:16:50.50,Default,Otto,0,0,0,,Natsuki-san?
+Dialogue: 0,0:16:50.50,0:16:54.61,Default,Subaru,0,0,0,,Será que isso quer dizer que passei\Nna segunda provação?
+Dialogue: 0,0:17:04.21,0:17:05.20,Default,Otto,0,0,0,,Ei!
+Dialogue: 0,0:17:05.20,0:17:07.62,Default,Subaru,0,0,0,,Droga... O que foi...
+Dialogue: 0,0:17:09.82,0:17:11.79,Default,Subaru,0,0,0,,Ela me rejeitou?
+Dialogue: 0,0:17:12.54,0:17:15.72,Default,Subaru,0,0,0,,Perdi a minha qualificação? Por quê?
+Dialogue: 0,0:17:18.74,0:17:20.78,Default,Subaru,0,0,0,,Aquela maldita...
+Dialogue: 0,0:17:19.85,0:17:22.19,Default,Otto,0,0,0,,{\an8}O que houve? Tem algo que eu possa—
+Dialogue: 0,0:17:22.19,0:17:24.26,Default,Subaru,0,0,0,,Tenho algo que preciso fazer.
+Dialogue: 0,0:17:24.26,0:17:26.29,Default,Subaru,0,0,0,,Leve a Patrasche de volta para a carruagem.
+Dialogue: 0,0:17:26.29,0:17:26.92,Default,Otto,0,0,0,,Mas—
+Dialogue: 0,0:17:26.92,0:17:27.52,Default,Subaru,0,0,0,,Por favor.
+Dialogue: 0,0:17:43.96,0:17:47.29,Default,Roswaal,0,0,0,,Um jeito de deixar o Santuário\Nsem passar pela Tumba?
+Dialogue: 0,0:17:47.98,0:17:50.17,Default,Roswaal,0,0,0,,Eis uma sugestão deveras ousada.
+Dialogue: 0,0:17:50.57,0:17:54.96,Default,Roswaal,0,0,0,,Acredito que esta talvez não seja\Na primeira vez.
+Dialogue: 0,0:17:56.78,0:17:58.78,Default,Subaru,0,0,0,,É a primeira vez que falamos disso.
+Dialogue: 0,0:17:59.56,0:18:01.71,Default,Subaru,0,0,0,,Não adiantaria nem tentar contar
+Dialogue: 0,0:18:01.71,0:18:04.02,Default,,0,0,0,,quantas vezes já nos interrogamos\Naté agora.
+Dialogue: 0,0:18:05.05,0:18:09.82,Default,Roswaal,0,0,0,,Ao que parece, você guarda\Numa bela história comigo.
+Dialogue: 0,0:18:09.82,0:18:12.41,Default,Subaru,0,0,0,,Também descobri um monte de outras coisas.
+Dialogue: 0,0:18:12.41,0:18:14.51,Default,Subaru,0,0,0,,Como a instalação onde a Ryuzu-san está,
+Dialogue: 0,0:18:14.51,0:18:16.90,Default,Subaru,0,0,0,,e que o Garfiel é o Apóstolo da Ganância.
+Dialogue: 0,0:18:17.14,0:18:20.08,Default,Roswaal,0,0,0,,Ora, mas isso é deveras esplêndido!
+Dialogue: 0,0:18:20.08,0:18:25.04,Default,Roswaal,0,0,0,,Contudo, ignorar a Tumba parece\Nterrivelmente covarde.
+Dialogue: 0,0:18:25.04,0:18:27.58,Default,Roswaal,0,0,0,,Há algum motivo para tamanha pressa?
+Dialogue: 0,0:18:27.58,0:18:29.30,Default,Subaru,0,0,0,,Claro que não.
+Dialogue: 0,0:18:29.77,0:18:30.63,Default,Subaru,0,0,0,,Eu só...
+Dialogue: 0,0:18:31.48,0:18:35.13,Default,Subaru,0,0,0,,não suporto mais ver a Emilia entrar lá\Ne se machucar toda vez.
+Dialogue: 0,0:18:35.39,0:18:37.01,Default,Roswaal,0,0,0,,E é exatamente para isso que você serve.
+Dialogue: 0,0:18:38.83,0:18:42.78,Default,Roswaal,0,0,0,,Não vai me dizer que lhe dói\Npassar por isso por ela, vai?
+Dialogue: 0,0:18:42.78,0:18:43.64,Default,Subaru,0,0,0,,Isso—
+Dialogue: 0,0:18:43.64,0:18:45.60,Default,Roswaal,0,0,0,,Não é o caso? Mesmo?
+Dialogue: 0,0:18:46.01,0:18:50.03,Default,Roswaal,0,0,0,,Se ama verdadeiramente Emilia-sama,\Nisso deveria ser tarefa simples para você.
+Dialogue: 0,0:18:50.03,0:18:53.55,Default,Roswaal,0,0,0,,Emilia-sama vem primeiro,\Ne você mesmo depois.
+Dialogue: 0,0:18:53.55,0:18:54.36,Default,Roswaal,0,0,0,,Estou errado?
+Dialogue: 0,0:18:54.63,0:18:55.44,Default,Subaru,0,0,0,,Eu...
+Dialogue: 0,0:18:55.66,0:19:00.49,Default - flashback,Satella,0,0,0,,Não se esqueça de que há pessoas\Nque sofrem quando você morre.
+Dialogue: 0,0:19:05.54,0:19:12.02,Default,Roswaal,0,0,0,,Vejo que ainda não afiou sua\Ndeterminação o suficiente.
+Dialogue: 0,0:19:13.78,0:19:18.74,Default,Roswaal,0,0,0,,Só um pouco... Sim, eu alimentava\Num fio de esperança.
+Dialogue: 0,0:19:19.16,0:19:20.80,Default,Roswaal,0,0,0,,De que talvez, quem sabe,
+Dialogue: 0,0:19:21.57,0:19:24.89,Default,Roswaal,0,0,0,,eu pudesse contemplar o futuro\Nque tanto almejo...
+Dialogue: 0,0:19:26.30,0:19:31.00,Default,Roswaal,0,0,0,,Mas você sequer pisou na linha\Nde partida dessa determinação.
+Dialogue: 0,0:19:31.48,0:19:33.81,Default,Subaru,0,0,0,,A linha de partida...\Nda minha determinação?
+Dialogue: 0,0:19:34.05,0:19:37.04,Default,Subaru,0,0,0,,Não sei o que isso quer dizer!\NO que você acha que eu—
+Dialogue: 0,0:19:36.27,0:19:37.97,Default,Roswaal,0,0,0,,{\an8}Espero que você possua
+Dialogue: 0,0:19:37.97,0:19:40.40,Default,Roswaal,0,0,0,,a vontade de cumprir seu objetivo,
+Dialogue: 0,0:19:40.40,0:19:43.07,Default,Roswaal,0,0,0,,mesmo que para isso tenha de\Npisotear a vontade de Emilia-sama.
+Dialogue: 0,0:19:43.32,0:19:44.27,Default,Roswaal,0,0,0,,Entende?
+Dialogue: 0,0:19:44.74,0:19:48.93,Default,Roswaal,0,0,0,,Se realmente faz tudo em prol\Nde Emilia-sama,
+Dialogue: 0,0:19:48.93,0:19:51.87,Default,Roswaal,0,0,0,,então deve ignorar o que\NEmilia-sama deseja.
+Dialogue: 0,0:19:52.07,0:19:54.57,Default,Roswaal,0,0,0,,Uma criança que sonha com\Num paraíso infantil
+Dialogue: 0,0:19:54.57,0:19:58.38,Default,Roswaal,0,0,0,,não tem a determinação para trilhar\No inferno que precisa escolher.
+Dialogue: 0,0:19:58.38,0:20:00.88,Default,Subaru,0,0,0,,Isso é tudo ao contrário, não é?!
+Dialogue: 0,0:20:00.88,0:20:02.21,Default,Subaru,0,0,0,,Se é pela Emilia—
+Dialogue: 0,0:20:02.21,0:20:03.72,Default,Roswaal,0,0,0,,Há vida.
+Dialogue: 0,0:20:04.60,0:20:07.08,Default,Roswaal,0,0,0,,Enquanto houver vida, há futuro.
+Dialogue: 0,0:20:07.08,0:20:09.41,Default,Roswaal,0,0,0,,Enquanto houver futuro, há esperança.
+Dialogue: 0,0:20:09.41,0:20:12.42,Default,Roswaal,0,0,0,,Enquanto houver esperança,\Nhá possibilidade.
+Dialogue: 0,0:20:12.42,0:20:15.72,Default,Roswaal,0,0,0,,Enquanto houver possibilidade,\Npessoas podem ser salvas.
+Dialogue: 0,0:20:15.72,0:20:16.79,Default,Roswaal,0,0,0,,Estou errado?
+Dialogue: 0,0:20:23.22,0:20:26.07,Default,Roswaal,0,0,0,,Nada a dizer em resposta, ao que vejo.
+Dialogue: 0,0:20:26.81,0:20:31.54,Default,Roswaal,0,0,0,,Quantas vezes mais precisa\Nme decepcionar?
+Dialogue: 0,0:20:31.85,0:20:35.76,Default,Roswaal,0,0,0,,Nesse caso, enquanto se empenha\Nem afiar sua determinação,
+Dialogue: 0,0:20:35.76,0:20:38.39,Default,Roswaal,0,0,0,,deixe-me pressioná-lo sobre\Nmais um assunto.
+Dialogue: 0,0:20:40.44,0:20:45.92,Default,Roswaal,0,0,0,,Creio que já enfrentou muitos\Ndos problemas que surgem no Santuário,
+Dialogue: 0,0:20:45.92,0:20:48.89,Default,Roswaal,0,0,0,,mas esses problemas não se limitam\Napenas ao Santuário.
+Dialogue: 0,0:20:49.99,0:20:52.99,Default,Subaru,0,0,0,,Quer dizer a mansão? Você sabe sobre—
+Dialogue: 0,0:20:52.99,0:20:54.19,Default,Roswaal,0,0,0,,É claro.
+Dialogue: 0,0:20:58.89,0:21:02.40,Default,Roswaal,0,0,0,,A ordem para que assassinos\Natacassem a mansão...
+Dialogue: 0,0:21:03.93,0:21:08.00,Default,Roswaal,0,0,0,,partiu de mim pessoalmente, afinal.
+Dialogue: 0,0:21:16.20,0:21:20.22,Default,Subaru,0,0,0,,Espera... Espera. Calma aí um segundo.
+Dialogue: 0,0:21:21.72,0:21:23.19,Default,Subaru,0,0,0,,Foi você?
+Dialogue: 0,0:21:23.19,0:21:25.33,Default,Roswaal,0,0,0,,Eu enviei assassinos à mansão
+Dialogue: 0,0:21:25.84,0:21:28.34,Default,Roswaal,0,0,0,,para ajudar a afiar sua determinação.
+Dialogue: 0,0:21:28.34,0:21:29.30,Default,Subaru,0,0,0,,Minha determinação?
+Dialogue: 0,0:21:29.56,0:21:33.97,Default,Roswaal,0,0,0,,Mesmo com a sua Autoridade,\Nvocê não consegue salvar ambos.
+Dialogue: 0,0:21:34.68,0:21:38.14,Default,Roswaal,0,0,0,,Deve decidir o que lhe é mais importante.
+Dialogue: 0,0:21:38.14,0:21:41.27,Default,Roswaal,0,0,0,,Feita essa escolha, não haverá\Ncomo voltar atrás.
+Dialogue: 0,0:21:41.54,0:21:43.90,Default,Roswaal,0,0,0,,Por fim, você será aperfeiçoado...
+Dialogue: 0,0:21:43.90,0:21:46.99,Default,Roswaal,0,0,0,,como um ser capaz de salvar apenas\Num lado e nenhum outro.
+Dialogue: 0,0:21:51.20,0:21:53.45,Default,Subaru,0,0,0,,Você é completamente insano.
+Dialogue: 0,0:21:53.45,0:21:57.48,Default,Roswaal,0,0,0,,Sim, de fato. Sou insano há muito tempo.
+Dialogue: 0,0:21:57.48,0:22:00.91,Default,Roswaal,0,0,0,,Desde o instante em que fui encantado\Npor aqueles olhos há 400 anos,
+Dialogue: 0,0:22:00.91,0:22:03.42,Default,Roswaal,0,0,0,,eu sou insano.
+Dialogue: 0,0:22:04.04,0:22:05.88,Default,Subaru,0,0,0,,Quatrocentos anos atrás?
+Dialogue: 0,0:22:06.13,0:22:11.36,Default,Roswaal,0,0,0,,Natsuki Subaru-kun, por que você\Nainda não enlouqueceu?
+Dialogue: 0,0:22:11.36,0:22:14.30,Default,Roswaal,0,0,0,,Para superar situações que exigem\Nloucura para serem enfrentadas,
+Dialogue: 0,0:22:14.30,0:22:16.19,Default,Roswaal,0,0,0,,para trilhar o caminho da solidão,
+Dialogue: 0,0:22:16.19,0:22:18.10,Default,Roswaal,0,0,0,,o coração humano é apenas um estorvo.
+Dialogue: 0,0:22:19.16,0:22:23.09,Default,Roswaal,0,0,0,,Portanto, eu o forçarei a isso.
+Dialogue: 0,0:22:28.48,0:22:29.61,Default,Roswaal,0,0,0,,O que...
+Dialogue: 0,0:22:30.46,0:22:32.01,Default,Roswaal,0,0,0,,você está tentando fazer?
+Dialogue: 0,0:22:34.55,0:22:35.58,Default,Subaru,0,0,0,,Espera...
+Dialogue: 0,0:22:36.60,0:22:39.50,Default,Subaru,0,0,0,,Por favor. Por favor, me perdoa.
+Dialogue: 0,0:22:39.50,0:22:42.41,Default,Subaru,0,0,0,,Foi... Foi tudo culpa minha... então...
+Dialogue: 0,0:22:42.41,0:22:45.41,Default,Roswaal,0,0,0,,Erga a cabeça, Subaru-kun.
+Dialogue: 0,0:22:45.41,0:22:47.47,Default,Roswaal,0,0,0,,Nada é culpa su—
+Dialogue: 0,0:22:46.78,0:22:48.26,Default,Subaru,0,0,0,,{\an8}Você está errado!
+Dialogue: 0,0:22:48.26,0:22:50.90,Default,Subaru,0,0,0,,Eu quero fazer o que você disse,\Nmas não consigo.
+Dialogue: 0,0:22:50.90,0:22:53.08,Default,Subaru,0,0,0,,Perdi a qualificação para fazer\Na provação.
+Dialogue: 0,0:22:53.08,0:22:53.68,Default,Roswaal,0,0,0,,O quê?
+Dialogue: 0,0:22:54.47,0:22:58.25,Default,Subaru,0,0,0,,Por favor! Mandar assassinos para\Na mansão não vai adiantar nada!
+Dialogue: 0,0:22:58.25,0:23:00.19,Default,Subaru,0,0,0,,Não importa quem morra, não vai...
+Dialogue: 0,0:23:00.69,0:23:02.38,Default,Subaru,0,0,0,,Então, por favor...
+Dialogue: 0,0:23:04.19,0:23:05.72,Default,Roswaal,0,0,0,,Não, eu me recuso.
+Dialogue: 0,0:23:06.93,0:23:09.77,Default,Roswaal,0,0,0,,Na verdade, agora vejo uma necessidade\Nainda maior de fazê-lo.
+Dialogue: 0,0:23:10.28,0:23:15.75,Default,Roswaal,0,0,0,,Se você realmente desejar, Echidna\Ncom certeza devolverá sua qualificação.
+Dialogue: 0,0:23:15.75,0:23:18.59,Default,Roswaal,0,0,0,,Essa é a natureza da personalidade\Ngananciosa dela.
+Dialogue: 0,0:23:18.59,0:23:21.62,Default,Roswaal,0,0,0,,Você pode recuperar a qualificação.\NVocê pode consertar isso.
+Dialogue: 0,0:23:22.25,0:23:24.88,Default,Roswaal,0,0,0,,Portanto, minhas ações não mudarão.
+Dialogue: 0,0:23:25.51,0:23:28.59,Default,Roswaal,0,0,0,,Continuarei a encurralá-lo\Npara afiar sua determinação...
+Dialogue: 0,0:23:29.08,0:23:31.55,Default,Roswaal,0,0,0,,até que seja aperfeiçoado.
+Dialogue: 0,0:23:33.31,0:23:35.35,Default,Roswaal,0,0,0,,Não seja presunçoso, Natsuki Subaru.
+Dialogue: 0,0:23:35.99,0:23:39.81,Default,Roswaal,0,0,0,,Você não é o único que compreende\Na Echidna!
+Dialogue: 0,0:23:41.83,0:23:45.69,Default,Subaru,0,0,0,,Se... Se você me odeia, então desconte\Ntudo apenas em mim...
+Dialogue: 0,0:23:45.88,0:23:47.74,Default,Roswaal,0,0,0,,Odiá-lo?
+Dialogue: 0,0:23:50.37,0:23:53.83,Default,Roswaal,0,0,0,,Eu jamais poderia odiá-lo.
+Dialogue: 0,0:23:53.83,0:23:55.70,Default,Roswaal,0,0,0,,Você é a minha esperança.
+Dialogue: 0,0:23:56.10,0:23:59.18,Default,Roswaal,0,0,0,,Os únicos que me permitem nutrir\Nalgum tipo de esperança
+Dialogue: 0,0:23:59.18,0:24:01.30,Default,Roswaal,0,0,0,,são você e a Ram.
+Dialogue: 0,0:24:02.06,0:24:04.54,Default,Roswaal,0,0,0,,Do fundo do meu coração,
+Dialogue: 0,0:24:04.85,0:24:06.25,Default,Roswaal,0,0,0,,eu acredito em você.
+Dialogue: 0,0:24:16.61,0:24:17.40,Default,Subaru,0,0,0,,Eu...
+Dialogue: 0,0:24:19.40,0:24:22.73,Default,Subaru,0,0,0,,Eu... nunca vou ser como você.
+Dialogue: 0,0:24:24.89,0:24:26.67,Default,Subaru,0,0,0,,Eu sou humano.
+Dialogue: 0,0:24:27.70,0:24:29.98,Default,Subaru,0,0,0,,Sempre... vou ser humano.
+Dialogue: 0,0:24:45.85,0:24:48.72,Default,Subaru,0,0,0,,Droga! Droga!
+Dialogue: 0,0:24:59.88,0:25:01.21,Default,Subaru,0,0,0,,O que eu devo fazer?
+Dialogue: 0,0:25:02.86,0:25:04.56,Default,Subaru,0,0,0,,O que eu faço?
+Dialogue: 0,0:25:05.07,0:25:07.52,Default,Subaru,0,0,0,,O que eu faço? O que eu faço?
+Dialogue: 0,0:25:07.98,0:25:09.86,Default,Subaru,0,0,0,,O que eu faço? O que eu faço?
+Dialogue: 0,0:25:09.86,0:25:11.98,Default,Subaru,0,0,0,,O que eu faço? O que eu faço? O que eu faço?
+Dialogue: 0,0:25:11.98,0:25:14.16,Default,Subaru,0,0,0,,O que eu faço? O que eu faço? O que eu faço?
+Dialogue: 0,0:25:14.16,0:25:15.91,Default,Subaru,0,0,0,,O que eu faço?! O que faço?!\NO que faço?!
+Dialogue: 0,0:25:15.91,0:25:18.91,Default,Otto,0,0,0,,Gostaria que eu lhe dissesse\No que você deve fazer?
+Dialogue: 0,0:25:25.49,0:25:26.59,Default,Subaru,0,0,0,,Otto?
+Dialogue: 0,0:25:27.26,0:25:28.79,Default,Otto,0,0,0,,Sim, olá.
+Dialogue: 0,0:25:29.26,0:25:30.86,Default,Otto,0,0,0,,E bom dia.
+Dialogue: 0,0:25:31.41,0:25:33.34,Default,Otto,0,0,0,,Isso mesmo. Sou eu.
+Dialogue: 0,0:25:33.64,0:25:34.75,Default,Subaru,0,0,0,,Bom...
+Dialogue: 0,0:25:38.18,0:25:39.93,Default,Subaru,0,0,0,,O que você está fazendo aqui?
+Dialogue: 0,0:25:39.93,0:25:42.31,Default,Otto,0,0,0,,Vamos deixar isso de lado por enquanto.
+Dialogue: 0,0:25:42.31,0:25:44.56,Default,Otto,0,0,0,,Precisamos falar sobre você primeiro.
+Dialogue: 0,0:25:44.56,0:25:48.19,Default,Otto,0,0,0,,Estava resmungando em delírio,\Ncom uma cara de quem ia morrer.
+Dialogue: 0,0:25:48.19,0:25:49.51,Default,Subaru,0,0,0,,Em delírio?
+Dialogue: 0,0:25:49.51,0:25:50.33,Default,Otto,0,0,0,,Sim.
+Dialogue: 0,0:25:50.84,0:25:51.92,Default,Subaru,0,0,0,,Entendi...
+Dialogue: 0,0:25:54.47,0:25:58.77,Default,Subaru,0,0,0,,Você sempre me encontra nos meus\Nmomentos mais bizarros.
+Dialogue: 0,0:25:58.77,0:26:01.36,Default,Otto,0,0,0,,Não se pode ser mercador\Nsem ter raciocínio rápido.
+Dialogue: 0,0:26:01.36,0:26:04.56,Default,Subaru,0,0,0,,Desculpa, mas não tenho tempo\Npara ficar de piadinha com você.
+Dialogue: 0,0:26:04.56,0:26:06.12,Default,Subaru,0,0,0,,Preciso pensar, então agora—
+Dialogue: 0,0:26:06.12,0:26:08.02,Default,Otto,0,0,0,,Você estava sem saída, não é?
+Dialogue: 0,0:26:08.02,0:26:10.45,Default,Otto,0,0,0,,E quer saber o que deve fazer?
+Dialogue: 0,0:26:10.97,0:26:12.34,Default,Otto,0,0,0,,Pode deixar comigo.
+Dialogue: 0,0:26:12.84,0:26:14.46,Default,Subaru,0,0,0,,Deixar o quê com você?
+Dialogue: 0,0:26:14.68,0:26:17.71,Default,Otto,0,0,0,,Escute bem. Isso vai exigir preparo.
+Dialogue: 0,0:26:17.71,0:26:18.72,Default,Subaru,0,0,0,,Preparo?
+Dialogue: 0,0:26:18.72,0:26:22.73,Default,Otto,0,0,0,,Sim. Primeiro, respire bem fundo.
+Dialogue: 0,0:26:23.39,0:26:23.96,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:26:23.96,0:26:25.22,Default,Otto,0,0,0,,Rápido, vamos.
+Dialogue: 0,0:26:42.03,0:26:43.45,Default,Otto,0,0,0,,Pare de tentar
+Dialogue: 0,0:26:44.01,0:26:46.41,Default,Otto,0,0,0,,se fazer de durão na frente\Ndos seus amigos,
+Dialogue: 0,0:26:46.70,0:26:48.16,Default,Otto,0,0,0,,Natsuki Subaru!

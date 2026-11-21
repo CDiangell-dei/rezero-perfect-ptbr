@@ -612,6 +612,122 @@ class PipelineTestCase(unittest.TestCase):
         self.assertEqual(by_id[6], "não desista")
         self.assertEqual(by_id[7], "neste beco sem saída")
 
+    def test_arc04_and_arc06_karaoke_formats(self) -> None:
+        ass_path = self.root / "arc46_sample.ass"
+        ass_content = "\n".join(
+            [
+                "[Script Info]",
+                "ScriptType: v4.00+",
+                "",
+                "[V4+ Styles]",
+                "Format: Name, Fontname, Fontsize, Alignment",
+                "Style: Default,Arial,20,2",
+                "Style: op1-rom,Littlebits,102,8",
+                "Style: op1-tl,Arial,40,2",
+                "Style: ed1-tl,Arial,40,2",
+                "Style: OP2 - Romaji (v0),Arial,64,8",
+                "Style: OP2 - English (v0),Arial,40,2",
+                "Style: OPR,QType,70,8",
+                "Style: OPE,QType,70,8",
+                "Style: EDR,Minion Pro,75,7",
+                "Style: EDE,Minion Pro,75,2",
+                "",
+                "[Events]",
+                "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
+                # op1-rom 40ms frame-by-frame per-syllable \pos fading out left-to-right
+                r"Dialogue: 2,0:00:10.00,0:00:10.04,op1-rom,,0,0,0,,{\an5\pos(420,69)}a",
+                r"Dialogue: 2,0:00:10.00,0:00:10.04,op1-rom,,0,0,0,,{\an5\pos(474,69)}ru",
+                r"Dialogue: 2,0:00:10.00,0:00:10.04,op1-rom,,0,0,0,,{\an5\pos(580,69)}ma",
+                r"Dialogue: 2,0:00:10.04,0:00:10.30,op1-rom,,0,0,0,,{\an5\pos(474,69)}ru",
+                r"Dialogue: 2,0:00:10.04,0:00:10.30,op1-rom,,0,0,0,,{\an5\pos(580,69)}ma",
+                # ed1-tl master Layer 0 + Layer 2/3 single-letter animation frames
+                r"Dialogue: 0,0:00:20.00,0:00:22.00,ed1-tl,,0,0,0,,I take the time",
+                r"Dialogue: 2,0:00:20.00,0:00:20.04,ed1-tl,,0,0,0,,{\pos(100,100)}I",
+                r"Dialogue: 2,0:00:20.00,0:00:20.04,ed1-tl,,0,0,0,,{\pos(130,100)}t",
+                r"Dialogue: 2,0:00:20.02,0:00:22.00,ed1-tl,,0,0,0,,{\pos(100,100)}I",
+                r"Dialogue: 2,0:00:20.02,0:00:22.00,ed1-tl,,0,0,0,,{\pos(130,100)}t",
+                # OP2 Layer 10 master \k + Layer 0 40ms jittering \pos+\k frames
+                r"Dialogue: 10,0:00:30.00,0:00:32.00,OP2 - Romaji (v0),,0,0,0,,{\k30}Watch {\k30}my {\k30}long {\k30}shot",
+                r"Dialogue: 0,0:00:30.00,0:00:30.04,OP2 - Romaji (v0),,0,0,0,,{\k30\pos(960,35)}Watch {\k30}my {\k30}long {\k30}shot",
+                r"Dialogue: 0,0:00:30.04,0:00:30.08,OP2 - Romaji (v0),,0,0,0,,{\k30\pos(961,36)}Watch {\k30}my {\k30}long {\k30}shot",
+                # OPR static layered syllables + OPE split-syllable words + EDR \ko0 chars
+                r"Dialogue: 2,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(751,122)}ze",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(749,120)}ze",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(797,120)}ro",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(425,60)}Trans",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(558,60)}form",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(655,60)}ing",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(752,60)}the",
+                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(864,60)}pain",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(87,74)}T",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(119,74)}h",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(145,74)}e",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(182,74)}e",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(212,74)}n",
+                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(244,74)}d",
+            ]
+        )
+        ass_path.write_text(ass_content + "\n", encoding="utf-8")
+
+        kc = sp._extract_karaoke_web_cues(ass_path)
+        kc_texts = [(c["style"], c["lines"][0][0]["text"]) for c in kc]
+        self.assertIn(("op1-rom", "aru ma"), kc_texts)
+        self.assertIn(("OP2 - Romaji (v0)", "Watch my long shot"), kc_texts)
+        self.assertEqual(sum(1 for st, _ in kc_texts if st == "OP2 - Romaji (v0)"), 1)
+        self.assertIn(("OPR", "zero"), kc_texts)
+        self.assertIn(("EDR", "The end"), kc_texts)
+
+        parsed = sp.parse_ass_file(ass_path)
+        evs = sp._collapse_animated_events(parsed["events"], parsed.get("style_fontsizes"))
+        synth = sp._synthesize_english_karaoke_entries(ass_path, evs, parsed["style_alignments"])
+        evs.extend(synth)
+        active = [e for e in evs if not e.get("skip")]
+        active_texts = [(e["style"], e["en"]) for e in active]
+        self.assertIn(("ed1-tl", "I take the time"), active_texts)
+        self.assertEqual(sum(1 for st, _ in active_texts if st == "ed1-tl"), 1)
+        self.assertIn(("OPE", "Trans forming the pain"), active_texts)
+        self.assertIn(("OP2 - English (v0)", "Watch my long shot"), active_texts)
+        self.assertEqual(sum(1 for st, _ in active_texts if st in ("EDR", "EDE")), 1)
+
+    def test_zero_duration_lua_script_dialogue_skipped(self) -> None:
+        ass_path = self.root / "raw_en" / "arc06-ep07.ass"
+        ass_path.parent.mkdir(parents=True, exist_ok=True)
+        ass_content = "\n".join(
+            [
+                "[Script Info]",
+                "ScriptType: v4.00+",
+                "",
+                "[V4+ Styles]",
+                "Format: Name, Fontname, Fontsize, Alignment",
+                "Style: Default,Arial,20,2",
+                "Style: OPE,QType,70,8",
+                "Style: EDR,Minion Pro,75,7",
+                "",
+                "[Events]",
+                "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
+                r"Dialogue: 0,0:01:32.99,0:01:32.99,OPE,,0,0,0,,Yutils = require 'Yutils'",
+                r"Dialogue: 0,0:01:32.99,0:01:32.99,Default,,0,0,0,,function offset_y() return 0 end",
+                r"Dialogue: 4,0:21:31.00,0:21:31.00,EDR,,0,0,0,,{\pos(87,74)}T",
+                r"Dialogue: 4,0:21:31.00,0:21:31.00,EDR,,0,0,0,,{\pos(119,74)}h",
+                r"Dialogue: 0,0:01:35.00,0:01:38.00,Default,,0,0,0,,Real dialogue line.",
+            ]
+        )
+        ass_path.write_text(ass_content + "\n", encoding="utf-8")
+
+        parsed = sp.parse_ass_file(ass_path)
+        skips = [(e["style"], e["en"], e["skip"]) for e in parsed["events"]]
+        self.assertEqual(
+            skips,
+            [
+                ("OPE", "Yutils = require 'Yutils'", True),
+                ("Default", "function offset_y() return 0 end", True),
+                ("EDR", "T", True),
+                ("EDR", "h", True),
+                ("Default", "Real dialogue line.", False),
+            ],
+        )
+        self.assertEqual(sp._extract_karaoke_web_cues(ass_path), [])
+
 
 if __name__ == "__main__":
     unittest.main()

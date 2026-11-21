@@ -1,0 +1,476 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,-1,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: Signs,Arial,102,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,23,23,23,1
+Style: ED2 - English (v0),FOT-Matisse Pro Toaru B,60,&H00FFFFFF,&HFF0000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1,0,2,135,135,160,1
+Style: ED2 - Romaji (v0),FOT-Matisse Pro Toaru B,60,&H00FAFFFE,&HFF0000FF,&H00000000,&H7A000000,0,0,0,0,100,100,0,0,1,1,0,8,135,135,160,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.74,0:00:08.99,Default,Elsa,0,0,0,,Maravilhoso. Você é maravilhoso.
+Dialogue: 0,0:00:08.99,0:00:12.91,Default,Garfiel,0,0,0,,Ouvir isso de alguém além da Ram\Nnão me deixa nem um pouco feliz!
+Dialogue: 0,0:00:23.99,0:00:25.13,Default,Elsa,0,0,0,,Simplesmente o melhor.
+Dialogue: 0,0:00:26.22,0:00:28.85,Default,Garfiel,0,0,0,,Já falei que não quero ouvir isso!
+Dialogue: 0,0:00:31.89,0:00:36.62,Default,Garfiel,0,0,0,,Ei, Irmãzona! Ainda tá aí parada\Nfeito uma maldita estátua?!
+Dialogue: 0,0:00:36.62,0:00:37.65,Default,Frederica,0,0,0,,Não, eu...
+Dialogue: 0,0:00:38.22,0:00:42.11,Default,Garfiel,0,0,0,,O chefe tá contando com você\Npra fazer a sua parte também.
+Dialogue: 0,0:00:42.11,0:00:43.31,Default,Garfiel,0,0,0,,Então vai lá!
+Dialogue: 0,0:00:49.44,0:00:51.33,Default,Frederica,0,0,0,,Eu acredito em você!
+Dialogue: 0,0:00:51.51,0:00:53.46,Default,Garfiel,0,0,0,,Pode confiar!
+Dialogue: 0,0:01:18.73,0:01:21.32,Default,Garfiel,0,0,0,,Parece que a Irmãzona já foi.
+Dialogue: 0,0:01:31.46,0:01:32.76,Default,Elsa,0,0,0,,Sou a Caçadora de Entranhas...
+Dialogue: 0,0:01:36.87,0:01:38.79,Default,Elsa,0,0,0,,Elsa Granhiert.
+Dialogue: 0,0:01:40.37,0:01:43.50,Default,Garfiel,0,0,0,,O maldito escudo mais forte\Ndo Santuário...
+Dialogue: 0,0:01:43.98,0:01:46.01,Default,Garfiel,0,0,0,,Garfiel Tinsel!
+Dialogue: 0,0:01:47.62,0:01:51.28,Default,Garfiel,0,0,0,,É minha primeira batalha, Chefe,\Ne vou fazer um grande espetáculo!
+Dialogue: 0,0:01:51.28,0:01:54.27,Default,Garfiel,0,0,0,,Então vê se cumpre\Na sua parte também!
+Dialogue: 0,0:02:00.61,0:02:01.84,Default,Beatrice,0,0,0,,Por que está aqui?
+Dialogue: 0,0:02:02.48,0:02:04.61,Default,Subaru,0,0,0,,Vou tirar você daqui, Beatrice.
+Dialogue: 0,0:02:05.39,0:02:10.07,Default,Subaru,0,0,0,,Desta vez, você vai deixar eu te\Narrastar pra luz do sol,
+Dialogue: 0,0:02:10.35,0:02:14.83,Default,Subaru,0,0,0,,e depois vamos brincar até seu\Nvestido ficar preto de lama!
+Dialogue: 0,0:02:15.27,0:02:17.83,Default,Beatrice,0,0,0,,Vai me tirar daqui?
+Dialogue: 0,0:02:19.36,0:02:21.28,Default,Beatrice,0,0,0,,Cuide da sua própria vida,\Neu suponho.
+Dialogue: 0,0:02:21.28,0:02:24.24,Default,Beatrice,0,0,0,,Ninguém pediu para fazer algo assim.
+Dialogue: 0,0:02:24.24,0:02:26.93,Default,Subaru,0,0,0,,Não temos tempo pra discutir isso.
+Dialogue: 0,0:02:26.93,0:02:29.96,Default,Subaru,0,0,0,,Você faz ideia do que está\Nacontecendo lá fora?
+Dialogue: 0,0:02:29.96,0:02:33.41,Default,Beatrice,0,0,0,,Estou ciente da intrusa na mansão,\Neu suponho.
+Dialogue: 0,0:02:33.41,0:02:36.32,Default,Beatrice,0,0,0,,Mas esta é a biblioteca proibida\Nde um grande espírito.
+Dialogue: 0,0:02:36.32,0:02:38.24,Default,Beatrice,0,0,0,,Não importa que ameaça haja lá fora—
+Dialogue: 0,0:02:38.24,0:02:42.22,Default,Subaru,0,0,0,,Não, a Travessia de Portas só\Nfunciona em portas fechadas.
+Dialogue: 0,0:02:42.22,0:02:43.44,Default,Subaru,0,0,0,,Ela sabe disso.
+Dialogue: 0,0:02:43.44,0:02:46.82,Default,Beatrice,0,0,0,,E como o inimigo conhece essa\Nfraqueza, eu suponho?
+Dialogue: 0,0:02:50.00,0:02:52.03,Default,Beatrice,0,0,0,,O Roswaal contou a ela.
+Dialogue: 0,0:02:54.16,0:02:55.99,Default,Beatrice,0,0,0,,É assim que as coisas são.
+Dialogue: 0,0:02:57.19,0:03:01.80,Default,Beatrice,0,0,0,,Significa que minha morte foi escrita no\NLivro da Sabedoria do Roswaal, eu suponho.
+Dialogue: 0,0:03:05.39,0:03:09.36,Default,Subaru,0,0,0,,Por que... Você...\NPor que está com essa cara?
+Dialogue: 0,0:03:09.36,0:03:12.25,Default,Beatrice,0,0,0,,Meu destino já está selado.
+Dialogue: 0,0:03:12.25,0:03:16.64,Default,Subaru,0,0,0,,Esse seu livro diz que você tem\Nque deixar aquela psicopata te matar?!
+Dialogue: 0,0:03:17.04,0:03:19.58,Default,Beatrice,0,0,0,,Não diz nada, eu suponho.
+Dialogue: 0,0:03:20.43,0:03:23.60,Default,Beatrice,0,0,0,,Meu destino está em branco,\Ncomo sempre esteve.
+Dialogue: 0,0:03:23.60,0:03:29.03,Default,Subaru,0,0,0,,Então que motivo você tem pra\Nacabar do jeito que o Roswaal quer?!
+Dialogue: 0,0:03:29.03,0:03:33.41,Default,Subaru,0,0,0,,Decida por si mesma o que fazer,\Ncomo sempre fez!
+Dialogue: 0,0:03:34.03,0:03:36.35,Default,Beatrice,0,0,0,,Decidir por mim mesma?
+Dialogue: 0,0:03:38.24,0:03:42.99,Default,Beatrice,0,0,0,,O que foi que eu já decidi\Npor mim mesma até hoje?
+Dialogue: 0,0:03:43.73,0:03:47.25,Default,Beatrice,0,0,0,,Continuei obedecendo às ordens\Nda Mãe aqui nesta mansão,
+Dialogue: 0,0:03:47.25,0:03:48.68,Default,Beatrice,0,0,0,,completamente sozinha.
+Dialogue: 0,0:03:49.23,0:03:51.82,Default,Beatrice,0,0,0,,O que eu pude escolher disso tudo?
+Dialogue: 0,0:03:52.23,0:03:54.77,Default,Beatrice,0,0,0,,O que esta Beatrice fez?
+Dialogue: 0,0:03:54.77,0:03:55.47,Default,Beatrice,0,0,0,,Quem é ela?
+Dialogue: 0,0:03:56.62,0:03:58.03,Default,Subaru,0,0,0,,Beatrice...
+Dialogue: 0,0:03:58.36,0:04:00.87,Default,Beatrice,0,0,0,,Minha vida é um branco puro,\Neu suponho.
+Dialogue: 0,0:04:01.24,0:04:04.22,Default,Beatrice,0,0,0,,Está totalmente em branco,\Nde verdade mesmo.
+Dialogue: 0,0:04:04.85,0:04:07.88,Default,Beatrice,0,0,0,,Só este livro era tudo\Nde que eu precisava.
+Dialogue: 0,0:04:09.20,0:04:12.44,Default,Beatrice,0,0,0,,Afinal, eu tenho uma alma.
+Dialogue: 0,0:04:12.93,0:04:15.68,Default,Beatrice,0,0,0,,Com o tempo, acabo pensando\Nem muitas coisas.
+Dialogue: 0,0:04:15.68,0:04:18.48,Default,Beatrice,0,0,0,,Eu me preocupo e deixo de acreditar,\Neu suponho.
+Dialogue: 0,0:04:19.45,0:04:22.61,Default,Beatrice,0,0,0,,Houve tantas noites em que eu não\Nlembrava do sorriso da Mãe,
+Dialogue: 0,0:04:22.61,0:04:26.75,Default,Beatrice,0,0,0,,então juntei cada retalho de\Nmemória e tentei me agarrar a eles.
+Dialogue: 0,0:04:27.38,0:04:29.02,Default,Beatrice,0,0,0,,Houve até momentos em que
+Dialogue: 0,0:04:29.02,0:04:31.96,Default,Beatrice,0,0,0,,tive medo da solidão e quis\Nficar com alguém!
+Dialogue: 0,0:04:32.67,0:04:35.81,Default,Beatrice,0,0,0,,Mas todos me deixam para trás!
+Dialogue: 0,0:04:35.81,0:04:39.64,Default,Beatrice,0,0,0,,A Mãe e o Roswaal...\Ne a Ryuzu também!
+Dialogue: 0,0:04:41.21,0:04:45.00,Default,Beatrice,0,0,0,,Como espírito, Beatrice está fadada\Na ficar sozinha,
+Dialogue: 0,0:04:45.00,0:04:47.73,Default,Beatrice,0,0,0,,a ser deixada para trás por todos\Npara sempre.
+Dialogue: 0,0:04:49.48,0:04:50.34,Default,Beatrice,0,0,0,,Mas...
+Dialogue: 0,0:04:52.16,0:04:55.07,Default,Beatrice,0,0,0,,Sinto um pequeno alívio agora,\Neu suponho.
+Dialogue: 0,0:04:56.94,0:05:00.28,Default,Beatrice,0,0,0,,Se fui mencionada no Livro\Nda Sabedoria,
+Dialogue: 0,0:05:00.95,0:05:06.46,Default,Beatrice,0,0,0,,então a Mãe não se esqueceu\Nde mim, afinal.
+Dialogue: 0,0:05:08.73,0:05:10.37,Default,Subaru,0,0,0,,Dá um tempo!
+Dialogue: 0,0:05:11.14,0:05:14.16,Default,Subaru,0,0,0,,Sua idiota! Você é uma baita idiota!
+Dialogue: 0,0:05:14.16,0:05:16.72,Default,Subaru,0,0,0,,Ver você tão patética assim\Nchega a doer!
+Dialogue: 0,0:05:17.27,0:05:19.17,Default,Subaru,0,0,0,,Você teve 400 anos inteiros!
+Dialogue: 0,0:05:19.17,0:05:22.42,Default,Subaru,0,0,0,,Por que uma resposta tão extrema\Nfoi a única em que pensou?!
+Dialogue: 0,0:05:22.42,0:05:27.12,Default,Subaru,0,0,0,,Não é possível que sua mãe tenha te\Ndado o livro errado por engano?!
+Dialogue: 0,0:05:27.12,0:05:29.58,Default,Beatrice,0,0,0,,Ousa insultar a Mãe, eu suponho?!
+Dialogue: 0,0:05:29.58,0:05:32.09,Default,Beatrice,0,0,0,,Ela jamais cometeria um erro\Ntão estúpido!
+Dialogue: 0,0:05:32.09,0:05:34.11,Default,Subaru,0,0,0,,Tem certeza absoluta disso?!
+Dialogue: 0,0:05:34.33,0:05:39.74,Default,Subaru,0,0,0,,Então você acredita mesmo que\Nsua mãe te deu um livro em branco?!
+Dialogue: 0,0:05:40.20,0:05:43.48,Default,Beatrice,0,0,0,,Isso... Precisa falar desse jeito?
+Dialogue: 0,0:05:44.03,0:05:47.00,Default,Beatrice,0,0,0,,O que quer que eu diga, eu suponho?
+Dialogue: 0,0:05:47.22,0:05:49.71,Default,Subaru,0,0,0,,Tá bom, vou falar sem rodeios,
+Dialogue: 0,0:05:49.71,0:05:52.22,Default,Subaru,0,0,0,,pra sua mãe idiota ouvir!
+Dialogue: 0,0:05:53.46,0:05:58.94,Default,Subaru,0,0,0,,Não deixe um livro em branco e uma\Npromessa verbal de 400 anos te guiarem!
+Dialogue: 0,0:05:58.94,0:06:02.68,Default,Subaru,0,0,0,,Escolha o que quer fazer\Npor si mesma, Beatrice!
+Dialogue: 0,0:06:03.79,0:06:05.37,Default,Subaru,0,0,0,,Já se passaram 400 anos!
+Dialogue: 0,0:06:05.37,0:06:09.89,Default,Subaru,0,0,0,,É tempo mais que suficiente pra\Nvocê ter uma fase rebelde!
+Dialogue: 0,0:06:09.89,0:06:13.79,Default,Beatrice,0,0,0,,Diga o que disser, estou\Npresa a um contrato.
+Dialogue: 0,0:06:13.79,0:06:16.10,Default,Beatrice,0,0,0,,O contrato é absoluto...\Ne isso significa que...
+Dialogue: 0,0:06:16.10,0:06:18.56,Default,Subaru,0,0,0,,Logo você, que tentou encontrar
+Dialogue: 0,0:06:18.56,0:06:21.86,Default,Subaru,0,0,0,,uma brecha no contrato e quis morrer\Nquando viu que era inquebrável!
+Dialogue: 0,0:06:22.28,0:06:24.65,Default,Subaru,0,0,0,,Se cumprir uma promessa\Nsignifica você morrer,
+Dialogue: 0,0:06:24.65,0:06:27.88,Default,Subaru,0,0,0,,prefiro quebrar essa promessa\Ne manter você viva!
+Dialogue: 0,0:06:27.88,0:06:30.62,Default,Subaru,0,0,0,,É tão estranho assim eu fazer\Nessa escolha?!
+Dialogue: 0,0:06:31.11,0:06:34.69,Default,Beatrice,0,0,0,,Q-Que pensamento mais insolente\Ne egoísta, eu suponho.
+Dialogue: 0,0:06:34.69,0:06:38.91,Default,Subaru,0,0,0,,Sei que é insolente, e sei\Nque é egoísta!
+Dialogue: 0,0:06:38.91,0:06:39.34,Default,Subaru,0,0,0,,Mas...
+Dialogue: 0,0:06:40.40,0:06:43.18,Default,Subaru,0,0,0,,Não abro mão do que\Né importante pra mim!
+Dialogue: 0,0:06:45.70,0:06:50.18,Default,Beatrice,0,0,0,,Se... você for... "aquela pessoa"...
+Dialogue: 0,0:06:53.81,0:06:56.72,Default,Beatrice,0,0,0,,Você seria...
+Dialogue: 0,0:06:57.56,0:06:59.95,Default,Beatrice,0,0,0,,"aquela pessoa" para mim?
+Dialogue: 0,0:07:01.93,0:07:03.33,Default,Subaru,0,0,0,,Você é idiota?
+Dialogue: 0,0:07:03.33,0:07:07.45,Default,Subaru,0,0,0,,Não tem como eu ser\N"aquela pessoa" pra você.
+Dialogue: 0,0:07:11.78,0:07:13.55,Default,Subaru,0,0,0,,Inacreditável!
+Dialogue: 0,0:07:14.05,0:07:15.80,Default,Subaru,0,0,0,,Aquela idiota!
+Dialogue: 0,0:07:17.00,0:07:19.72,Default,Subaru,0,0,0,,Maldita loli tirando conclusões\Nprecipitadas!
+Dialogue: 0,0:07:21.23,0:07:22.38,Default,Otto,0,0,0,,Natsuki-san?
+Dialogue: 0,0:07:22.96,0:07:25.92,Default,Subaru,0,0,0,,Por que vocês... Era pra vocês\Nterem fugido há séculos!
+Dialogue: 0,0:07:25.92,0:07:28.22,Default,Otto,0,0,0,,Mabestas! Já estão por toda parte!
+Dialogue: 0,0:07:28.61,0:07:31.65,Default,Subaru,0,0,0,,Meili... Mas já tínhamos\Nprevisto isso!
+Dialogue: 0,0:07:31.65,0:07:34.52,Default,Petra,0,0,0,,Mas tem uma mabesta em que\Nisso não fez efeito nenhum!
+Dialogue: 0,0:07:37.49,0:07:39.82,Default,Subaru,0,0,0,,Sério mesmo? Mas por quê...
+Dialogue: 0,0:07:49.00,0:07:49.92,Default,Subaru,0,0,0,,Petra!
+Dialogue: 0,0:07:51.01,0:07:53.25,Default,Frederica,0,0,0,,Fiquem exatamente como estão!
+Dialogue: 0,0:07:58.96,0:08:00.27,Default,Subaru,0,0,0,,O-O que foi...
+Dialogue: 0,0:08:00.27,0:08:02.71,Default,Frederica,0,0,0,,Peço perdão, mesmo sendo\Numa emergência.
+Dialogue: 0,0:08:03.14,0:08:04.93,Default,Frederica,0,0,0,,Não se machucaram, certo?
+Dialogue: 0,0:08:10.03,0:08:11.92,Default,Petra,0,0,0,,Nee-sama!
+Dialogue: 0,0:08:13.56,0:08:15.41,Default,Otto,0,0,0,,Ai!
+Dialogue: 0,0:08:15.41,0:08:18.43,Default,Otto,0,0,0,,Salvou a minha vida só\Npra me tratar desse jeito?!
+Dialogue: 0,0:08:18.43,0:08:21.18,Default,Frederica,0,0,0,,E-Eu peço sinceras desculpas,\NOtto-sama.
+Dialogue: 0,0:08:21.68,0:08:24.64,Default,Frederica,0,0,0,,A ordem de prioridade ficou\Nmuito clara de repente para mim.
+Dialogue: 0,0:08:24.64,0:08:28.56,Default,Subaru,0,0,0,,Mulheres e crianças, idosos,\Nhomens e por último o Otto?
+Dialogue: 0,0:08:28.56,0:08:32.17,Default,Otto,0,0,0,,Você nem sequer me colocou\Nna categoria de "homens"!
+Dialogue: 0,0:08:33.78,0:08:37.88,Default,Frederica,0,0,0,,Subaru-sama, eu a trouxe aqui\Nconforme solicitado.
+Dialogue: 0,0:08:38.99,0:08:40.15,Default,Subaru,0,0,0,,Trouxe mesmo.
+Dialogue: 0,0:08:44.12,0:08:46.46,Default,Subaru,0,0,0,,Obrigado por tirá-la a salvo.
+Dialogue: 0,0:08:47.81,0:08:50.00,Default,Subaru,0,0,0,,Muito... obrigado mesmo.
+Dialogue: 0,0:08:51.24,0:08:52.91,Default,Frederica,0,0,0,,Apenas fiz o que era preciso.
+Dialogue: 0,0:08:53.52,0:08:55.89,Default,Frederica,0,0,0,,Nossa preocupação maior agora é...
+Dialogue: 0,0:09:06.73,0:09:09.36,Default,Maylie,0,0,0,,Nossa, estou impressionada!
+Dialogue: 0,0:09:09.36,0:09:13.33,Default,Maylie,0,0,0,,Nem acreditei quando ninguém\Nmorreu no meio de tudo aquilo.
+Dialogue: 0,0:09:13.56,0:09:14.80,Default,Subaru,0,0,0,,Meili!
+Dialogue: 0,0:09:15.14,0:09:18.90,Default,Maylie,0,0,0,,Ué? Você nem parece surpreso.
+Dialogue: 0,0:09:18.90,0:09:20.74,Default,Maylie,0,0,0,,Que decepção.
+Dialogue: 0,0:09:21.13,0:09:25.24,Default,Maylie,0,0,0,,Mesmo assim, vou levar essas\Ncamareiras agora.
+Dialogue: 0,0:09:25.24,0:09:28.30,Default,Maylie,0,0,0,,Vou ser bem gentil com a Petra-chan.
+Dialogue: 0,0:09:28.30,0:09:29.85,Default,Maylie,0,0,0,,Afinal, ela é minha amiga.
+Dialogue: 0,0:09:30.15,0:09:32.87,Default,Petra,0,0,0,,Q-Que bom! Fico tão feliz!
+Dialogue: 0,0:09:32.87,0:09:35.81,Default,Petra,0,0,0,,Se você é minha amiga de verdade,\Npode até me deixar ir, sabia?
+Dialogue: 0,0:09:35.81,0:09:40.64,Default,Maylie,0,0,0,,Somos amigas... então vai brincar\Ncomigo até o finzinho, né?
+Dialogue: 0,0:09:40.64,0:09:41.18,Default,Petra,0,0,0,,Hã...
+Dialogue: 0,0:09:41.82,0:09:44.82,Default,Petra,0,0,0,,Desculpa, Subaru! Acho que\Nnão deu certo!
+Dialogue: 0,0:09:49.85,0:09:54.46,Default,Frederica,0,0,0,,Deixe esta garota comigo...\Nnão, esta assassina.
+Dialogue: 0,0:09:54.93,0:09:56.57,Default,Frederica,0,0,0,,Fujam enquanto eu a seguro.
+Dialogue: 0,0:09:56.57,0:09:58.83,Default,Petra,0,0,0,,N-Não pode, Frederica-neesama!
+Dialogue: 0,0:09:59.27,0:10:00.80,Default,Petra,0,0,0,,É que, da outra vez...
+Dialogue: 0,0:10:01.35,0:10:02.92,Default,Petra,0,0,0,,E eu finalmente pude te rever...
+Dialogue: 0,0:10:05.17,0:10:07.65,Default,Frederica,0,0,0,,Não, desta vez será diferente.
+Dialogue: 0,0:10:08.10,0:10:11.45,Default,Frederica,0,0,0,,Afinal, da última vez eu estava\Npronta para morrer.
+Dialogue: 0,0:10:12.93,0:10:14.83,Default,Frederica,0,0,0,,Mas, desta vez, não estou.
+Dialogue: 0,0:10:15.54,0:10:19.27,Default,Frederica,0,0,0,,Reencontrei o Garf, meu irmãozinho,\Ndepois de dez anos separados,
+Dialogue: 0,0:10:19.80,0:10:22.19,Default,Frederica,0,0,0,,e agora tenho uma subordinada\Ntão adorável.
+Dialogue: 0,0:10:22.19,0:10:24.48,Default,Frederica,0,0,0,,Não há felicidade maior.
+Dialogue: 0,0:10:25.12,0:10:27.44,Default,Frederica,0,0,0,,Portanto, eu não vou perder.
+Dialogue: 0,0:10:30.82,0:10:31.42,Default,Petra,0,0,0,,Tá bom.
+Dialogue: 0,0:10:32.45,0:10:33.74,Default,Subaru,0,0,0,,Frederica!
+Dialogue: 0,0:10:33.74,0:10:35.61,Default,Subaru,0,0,0,,Nós vamos pro quarto do Roswaal!
+Dialogue: 0,0:10:36.00,0:10:37.87,Default,Frederica,0,0,0,,Sim, como desejar.
+Dialogue: 0,0:10:41.12,0:10:44.00,Default,Maylie,0,0,0,,Ei, espera! Não vá decidindo tudo\Nsozinho assim!
+Dialogue: 0,0:10:44.00,0:10:45.20,Default,Maylie,0,0,0,,Petra-chan!
+Dialogue: 0,0:10:45.20,0:10:46.42,Default,Petra,0,0,0,,Aah!
+Dialogue: 0,0:10:53.03,0:10:54.04,Default,Frederica,0,0,0,,Ilustre convidada...
+Dialogue: 0,0:10:54.46,0:10:58.81,Default,Frederica,0,0,0,,Aprecie a melhor hospitalidade\Nque a casa Mathers tem a oferecer.
+Dialogue: 0,0:10:59.97,0:11:03.20,Default,Maylie,0,0,0,,Não vou deixar isso barato!
+Dialogue: 0,0:11:03.20,0:11:04.90,Default,Maylie,0,0,0,,Pega eles, Porquinho de Pedra!
+Dialogue: 0,0:11:09.32,0:11:11.94,Default,Frederica,0,0,0,,Por favor, venha até mim.
+Dialogue: 0,0:11:11.94,0:11:14.70,Default,Frederica,0,0,0,,Estou me sentindo bem severa\Nno momento.
+Dialogue: 0,0:11:15.88,0:11:16.82,Default,Frederica,0,0,0,,Prepare-se!
+Dialogue: 0,0:11:21.29,0:11:22.50,Default,Otto,0,0,0,,O que vamos fazer?!
+Dialogue: 0,0:11:22.78,0:11:25.68,Default,Subaru,0,0,0,,Tem uma rota de fuga no\Nescritório do Roswaal!
+Dialogue: 0,0:11:25.68,0:11:26.80,Default,Subaru,0,0,0,,Vamos usá-la para...
+Dialogue: 0,0:11:38.85,0:11:39.68,Default,Petra,0,0,0,,Está aqui!
+Dialogue: 0,0:11:39.98,0:11:43.74,Default,Otto,0,0,0,,Natsuki-san, é ele! O guiltylowe!
+Dialogue: 0,0:11:43.74,0:11:45.85,Default,Otto,0,0,0,,A proteção contra mabestas\Nnão funciona nele!
+Dialogue: 0,0:11:45.85,0:11:47.70,Default,Otto,0,0,0,,Ele é o nosso inimigo natural!
+Dialogue: 0,0:11:53.85,0:11:56.52,Default - flashback,Roswaal,0,0,0,,Fomos minha mestra e eu quem\Ncomeçamos tudo.
+Dialogue: 0,0:11:57.02,0:11:59.03,Default - flashback,Roswaal,0,0,0,,Eis a única coisa em que\Nse equivocou,
+Dialogue: 0,0:11:59.28,0:12:00.40,Default - flashback,Roswaal,0,0,0,,Emilia-sama.
+Dialogue: 0,0:12:06.16,0:12:07.41,Default,Emilia,0,0,0,,Eu já vi o passado.
+Dialogue: 0,0:12:07.99,0:12:09.45,Default,Emilia,0,0,0,,Então, o próximo deve ser...
+Dialogue: 0,0:12:15.13,0:12:17.34,Default - italics,Emilia,0,0,0,,Contemple um presente impensável.
+Dialogue: 0,0:12:27.10,0:12:30.72,Default,Fortuna,0,0,0,,Ora, Lia, não fique sacudindo\Na cabeça desse jeito.
+Dialogue: 0,0:12:30.72,0:12:32.35,Default,Fortuna,0,0,0,,Apenas fique quietinha.
+Dialogue: 0,0:12:32.35,0:12:34.56,Default,Fortuna,0,0,0,,Francamente, o que eu vou\Nfazer com você?
+Dialogue: 0,0:12:37.61,0:12:39.53,Default,Emilia,0,0,0,,Mãe Fortuna?
+Dialogue: 0,0:12:40.53,0:12:43.24,Default,Fortuna,0,0,0,,O que foi? Estava pegando no sono?
+Dialogue: 0,0:12:49.20,0:12:52.20,Default,Emilia,0,0,0,,Você está toda arrumada hoje.
+Dialogue: 0,0:12:52.66,0:12:54.12,Default,Emilia,0,0,0,,Está tão linda!
+Dialogue: 0,0:12:54.71,0:12:57.21,Default,Fortuna,0,0,0,,Fiquei imaginando o que ia dizer.
+Dialogue: 0,0:12:57.21,0:12:59.38,Default,Fortuna,0,0,0,,Não provoque os adultos assim.
+Dialogue: 0,0:13:10.22,0:13:12.18,Default,Fortuna,0,0,0,,Pronto. Agora sim está linda.
+Dialogue: 0,0:13:12.77,0:13:14.56,Default,Emilia,0,0,0,,Obrigada, Mãe.
+Dialogue: 0,0:13:15.81,0:13:17.31,Default,Emilia,0,0,0,,E o espelho...
+Dialogue: 0,0:13:25.90,0:13:27.11,Default,Fortuna,0,0,0,,Emilia?
+Dialogue: 0,0:13:30.62,0:13:31.70,Default,Emilia,0,0,0,,Tem visita!
+Dialogue: 0,0:13:33.83,0:13:36.58,Default,Geuse,0,0,0,,Bom dia, Emilia-sama.
+Dialogue: 0,0:13:37.33,0:13:39.75,Default,Geuse,0,0,0,,Que alegria ser recebido por você.
+Dialogue: 0,0:13:41.13,0:13:42.13,Default,Emilia,0,0,0,,Geuse...
+Dialogue: 0,0:13:43.76,0:13:45.13,Default,Emilia,0,0,0,,Bom dia.
+Dialogue: 0,0:13:46.34,0:13:47.68,Default,Fortuna,0,0,0,,Bem na hora.
+Dialogue: 0,0:13:48.30,0:13:50.26,Default,Fortuna,0,0,0,,Bem, vamos indo?
+Dialogue: 0,0:13:57.19,0:13:57.98,Default,Fortuna,0,0,0,,O quê?
+Dialogue: 0,0:13:57.98,0:14:01.69,Default,Geuse,0,0,0,,Bem... Espero não ofendê-la...
+Dialogue: 0,0:14:01.69,0:14:03.69,Default,Fortuna,0,0,0,,Há quanto tempo nos conhecemos?
+Dialogue: 0,0:14:03.69,0:14:07.07,Default,Fortuna,0,0,0,,Nada do que disser vai me ofender.
+Dialogue: 0,0:14:07.99,0:14:09.70,Default,Geuse,0,0,0,,Então, Fortuna-sama...
+Dialogue: 0,0:14:10.32,0:14:13.12,Default,Geuse,0,0,0,,Seu traje de hoje lhe cai\Nmuito bem.
+Dialogue: 0,0:14:13.54,0:14:17.33,Default,Geuse,0,0,0,,Acabei me vendo um tanto cativado.
+Dialogue: 0,0:14:23.55,0:14:25.76,Default,Geuse,0,0,0,,Disse algo descortês?
+Dialogue: 0,0:14:25.76,0:14:27.68,Default,Emilia,0,0,0,,Não, de jeito nenhum.
+Dialogue: 0,0:14:28.34,0:14:29.76,Default,Emilia,0,0,0,,Ela só está com vergonha.
+Dialogue: 0,0:14:30.26,0:14:32.01,Default,Emilia,0,0,0,,A Mãe é tão fofa!
+Dialogue: 0,0:14:32.01,0:14:34.43,Default,Fortuna,0,0,0,,Não saia falando o que bem entende!
+Dialogue: 0,0:14:34.43,0:14:36.52,Default,Fortuna,0,0,0,,Como consegue ser tão maldosa?
+Dialogue: 0,0:14:36.52,0:14:38.31,Default,Tanse,0,0,0,,Ah, Fortuna-sama.
+Dialogue: 0,0:14:39.69,0:14:42.52,Default,Wife,0,0,0,,E a Emilia e o Geuse-san\Nestão com você.
+Dialogue: 0,0:14:43.02,0:14:44.94,Default,Wife,0,0,0,,Vocês são uma família tão unida.
+Dialogue: 0,0:14:44.94,0:14:46.03,Default,Fortuna,0,0,0,,Nós não somos—
+Dialogue: 0,0:14:46.03,0:14:47.90,Default,Geuse,0,0,0,,A senhora é amada por tantos.
+Dialogue: 0,0:14:50.53,0:14:52.66,Default,Fortuna,0,0,0,,É... acho que sim.
+Dialogue: 0,0:15:05.50,0:15:06.55,Default,Geuse,0,0,0,,Não é bom assim?
+Dialogue: 0,0:15:12.01,0:15:15.76,Default,Fortuna,0,0,0,,Ora, veja só. Será que só a sua\Naltura cresceu até agora?
+Dialogue: 0,0:15:18.27,0:15:20.98,Default,Geuse,0,0,0,,Vejo que vocês duas continuam\Ntão próximas como sempre.
+Dialogue: 0,0:15:21.77,0:15:23.98,Default,Geuse,0,0,0,,Vê-las assim aquece o meu coração.
+Dialogue: 0,0:15:24.36,0:15:26.03,Default,Emilia,0,0,0,,Por que você não se junta a nós?
+Dialogue: 0,0:15:26.03,0:15:27.78,Default,Emilia,0,0,0,,Poderia vir morar com a gente.
+Dialogue: 0,0:15:29.24,0:15:30.45,Default,Fortuna,0,0,0,,Emilia...
+Dialogue: 0,0:15:31.32,0:15:32.61,Default,Geuse,0,0,0,,Você está bem?
+Dialogue: 0,0:15:34.91,0:15:37.79,Default,Geuse,0,0,0,,Seu convite me deixa muito feliz,\NEmilia-sama.
+Dialogue: 0,0:15:38.50,0:15:41.67,Default,Geuse,0,0,0,,Desejo do fundo do coração\Nque eu pudesse fazer isso.
+Dialogue: 0,0:15:41.67,0:15:44.88,Default,Emilia,0,0,0,,"Pudesse"? Por que não faz logo?
+Dialogue: 0,0:15:44.88,0:15:46.84,Default,Emilia,0,0,0,,Ou será que eu atrapalharia?
+Dialogue: 0,0:15:46.84,0:15:48.67,Default,Fortuna,0,0,0,,{\an8}De jeito nenhum.
+Dialogue: 0,0:15:46.84,0:15:48.67,Default,Geuse,0,0,0,,De forma alguma.
+Dialogue: 0,0:15:49.47,0:15:51.93,Default,Emilia,0,0,0,,Viram? Vocês dois se dão tão bem!
+Dialogue: 0,0:15:52.55,0:15:55.89,Default,Geuse,0,0,0,,Fortuna-sama tem um dever\Nmuito importante a cumprir.
+Dialogue: 0,0:15:56.31,0:15:59.89,Default,Geuse,0,0,0,,Se alguém como eu vivesse com ela\Ne isso gerasse rumores,
+Dialogue: 0,0:15:59.89,0:16:01.48,Default,,0,0,0,,lhe traria problemas.
+Dialogue: 0,0:16:02.06,0:16:04.23,Default,Emilia,0,0,0,,Mas acho que já é tarde pra isso.
+Dialogue: 0,0:16:05.06,0:16:08.15,Default,Emilia,0,0,0,,Lembra do que a tia Tanse e os\Noutros disseram agora há pouco?
+Dialogue: 0,0:16:08.73,0:16:10.49,Default,Emilia,0,0,0,,Que somos uma família unida!
+Dialogue: 0,0:16:12.20,0:16:15.99,Default,Geuse,0,0,0,,E-Eu achei que ela falava\Nsó de vocês duas!
+Dialogue: 0,0:16:15.99,0:16:17.87,Default,Emilia,0,0,0,,Você entendeu, não é, Mãe?
+Dialogue: 0,0:16:19.33,0:16:23.29,Default,Emilia,0,0,0,,Eu acho uma ótima ideia! Sério!
+Dialogue: 0,0:16:23.79,0:16:26.59,Default,Emilia,0,0,0,,O povo da floresta não vai\Nachar estranho.
+Dialogue: 0,0:16:26.59,0:16:31.67,Default,Emilia,0,0,0,,Nunca vou deixar ninguém dizer\Nque isso é algo ruim!
+Dialogue: 0,0:16:33.76,0:16:35.84,Default,Emilia,0,0,0,,Já disse o que eu queria dizer.
+Dialogue: 0,0:16:36.22,0:16:39.14,Default,Emilia,0,0,0,,Deixo o resto com vocês dois, jovens!
+Dialogue: 0,0:16:41.39,0:16:45.60,Default,Fortuna,0,0,0,,Emilia... Francamente, onde\Nvocê aprende essas coisas?
+Dialogue: 0,0:16:51.49,0:16:53.86,Default,Fortuna,0,0,0,,Sério, você é fofa demais!
+Dialogue: 0,0:16:53.86,0:16:57.49,Default,Geuse,0,0,0,,Entendo. Emilia-sama cresceu\Nsaudável e feliz.
+Dialogue: 0,0:16:57.49,0:16:58.95,Default,Geuse,0,0,0,,Isso de fato me alegra muito.
+Dialogue: 0,0:16:58.95,0:17:02.12,Default,Fortuna,0,0,0,,Mas é claro! É uma filha\Nde quem posso me orgulhar!
+Dialogue: 0,0:17:02.12,0:17:04.50,Default,Geuse,0,0,0,,Sem dúvida. Como não perceber?
+Dialogue: 0,0:17:10.88,0:17:14.55,Default,Emilia,0,0,0,,Ah... acho que caiu algo\Nno meu olho.
+Dialogue: 0,0:17:15.22,0:17:16.84,Default,Emilia,0,0,0,,Vou lá lavar.
+Dialogue: 0,0:17:16.84,0:17:18.14,Default,Fortuna,0,0,0,,Você está bem?
+Dialogue: 0,0:17:18.14,0:17:20.97,Default,Fortuna,0,0,0,,Cuidado para não perder esse olho\Nenquanto lava.
+Dialogue: 0,0:17:20.97,0:17:24.56,Default,Fortuna,0,0,0,,Afinal, você herdou esses lindos\Nolhos roxos do meu irmão.
+Dialogue: 0,0:17:24.56,0:17:27.69,Default,Emilia,0,0,0,,E são da mesma cor linda que os seus.
+Dialogue: 0,0:17:31.11,0:17:32.74,Default,Emilia,0,0,0,,Fiquem bem perto me esperando, tá?
+Dialogue: 0,0:17:33.28,0:17:37.49,Default,Emilia,0,0,0,,P-Por favor, fiquem superpertinho\Npara todo o sempre.
+Dialogue: 0,0:17:37.49,0:17:40.49,Default,Fortuna,0,0,0,,Sim, claro. Você se preocupa demais.
+Dialogue: 0,0:17:40.49,0:17:43.79,Default,Geuse,0,0,0,,Esperaremos o tempo que for preciso,\NEmilia-sama.
+Dialogue: 0,0:17:52.80,0:17:55.38,Default,Emilia,0,0,0,,Eu amo vocês dois.
+Dialogue: 0,0:18:04.52,0:18:05.81,Default,Archi,0,0,0,,Emilia?
+Dialogue: 0,0:18:05.81,0:18:08.19,Default,Archi,0,0,0,,É perigoso você ficar aqui\Nem cima sozinha.
+Dialogue: 0,0:18:08.60,0:18:09.52,Default,Emilia,0,0,0,,Archi...
+Dialogue: 0,0:18:10.69,0:18:13.53,Default,Archi,0,0,0,,O bispo está na floresta hoje, não é?
+Dialogue: 0,0:18:14.11,0:18:15.99,Default,Archi,0,0,0,,Você não está com... ah.
+Dialogue: 0,0:18:16.74,0:18:18.36,Default,Archi,0,0,0,,Ele está ali, entendi.
+Dialogue: 0,0:18:18.36,0:18:20.20,Default,Archi,0,0,0,,Estava deixando os dois a sós?
+Dialogue: 0,0:18:20.57,0:18:22.33,Default,Emilia,0,0,0,,Sim, estava.
+Dialogue: 0,0:18:23.20,0:18:26.00,Default,Emilia,0,0,0,,O que você acha dos dois, Archi?
+Dialogue: 0,0:18:26.41,0:18:28.17,Default,Archi,0,0,0,,Acho que combinam bem.
+Dialogue: 0,0:18:28.50,0:18:31.21,Default,Archi,0,0,0,,Fortuna-sama é rígida demais\Nconsigo mesma.
+Dialogue: 0,0:18:31.21,0:18:34.55,Default,Archi,0,0,0,,Queria que ela pensasse mais na\Nprópria felicidade.
+Dialogue: 0,0:18:35.09,0:18:38.80,Default,Archi,0,0,0,,Pode ser difícil agora, mas com\No tempo, eles poderiam...
+Dialogue: 0,0:18:39.34,0:18:40.09,Default,Emilia,0,0,0,,Mas...
+Dialogue: 0,0:18:40.93,0:18:44.06,Default,Emilia,0,0,0,,Esse mundo não existe\Nem lugar nenhum, não é?
+Dialogue: 0,0:18:46.02,0:18:47.14,Default,Archi,0,0,0,,Emilia...
+Dialogue: 0,0:18:51.52,0:18:53.90,Default,Archi,0,0,0,,Ao contemplar um presente impensável,
+Dialogue: 0,0:18:54.61,0:18:57.32,Default,Archi,0,0,0,,você não desejou viver aqui?
+Dialogue: 0,0:18:59.36,0:19:02.62,Default,Archi,0,0,0,,Sei que você queria que os dois\Nfossem felizes.
+Dialogue: 0,0:19:03.12,0:19:05.04,Default,Archi,0,0,0,,Este é o seu presente ideal,
+Dialogue: 0,0:19:05.41,0:19:07.50,Default,Archi,0,0,0,,o futuro que você desejou.
+Dialogue: 0,0:19:07.91,0:19:09.96,Default,Emilia,0,0,0,,Sim, é verdade.
+Dialogue: 0,0:19:09.96,0:19:12.25,Default,Archi,0,0,0,,Fortuna-sama já se foi,
+Dialogue: 0,0:19:12.25,0:19:14.55,Default,Archi,0,0,0,,não se sabe se o bispo ainda vive,
+Dialogue: 0,0:19:14.55,0:19:16.88,Default,Archi,0,0,0,,e o povo da floresta virou\Nestátuas de gelo.
+Dialogue: 0,0:19:17.34,0:19:18.05,Default,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:19:18.05,0:19:20.05,Default,Archi,0,0,0,,Sua terra natal está congelada,
+Dialogue: 0,0:19:20.05,0:19:22.51,Default,Archi,0,0,0,,você é perseguida pelo povo\Nde fora,
+Dialogue: 0,0:19:22.51,0:19:26.14,Default,Archi,0,0,0,,e teve de se despedir do espírito\Nque era como sua família.
+Dialogue: 0,0:19:26.14,0:19:26.72,Default,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:19:27.22,0:19:30.06,Default,Archi,0,0,0,,Aqui, você poderia viver feliz.
+Dialogue: 0,0:19:30.81,0:19:33.86,Default,Archi,0,0,0,,Ver você desejar um mundo assim\Nme parte o coração.
+Dialogue: 0,0:19:35.07,0:19:36.90,Default,Emilia,0,0,0,,Desculpe, Archi.
+Dialogue: 0,0:19:37.57,0:19:39.70,Default,Archi,0,0,0,,Por que você deseja aquele futuro?
+Dialogue: 0,0:19:41.11,0:19:42.82,Default,Emilia,0,0,0,,Quero ser alguém admirável.
+Dialogue: 0,0:19:43.70,0:19:44.70,Default,Archi,0,0,0,,Emilia...
+Dialogue: 0,0:19:45.24,0:19:47.87,Default,Emilia,0,0,0,,Como a Mãe Fortuna, minha inspiração.
+Dialogue: 0,0:19:48.33,0:19:51.04,Default,Emilia,0,0,0,,Como o Geuse, tão gentil e forte.
+Dialogue: 0,0:19:51.54,0:19:57.38,Default,Emilia,0,0,0,,Como o Archi, que sorriu até o fim\Npara que eu não tivesse medo.
+Dialogue: 0,0:19:59.13,0:20:03.22,Default,Emilia,0,0,0,,Como o Puck, que sempre me protegeu\Ne nunca me deixou sozinha.
+Dialogue: 0,0:20:03.64,0:20:05.22,Default,Emilia,0,0,0,,Como a Ram, que desejou fazer
+Dialogue: 0,0:20:05.22,0:20:09.73,Default,,0,0,0,,o que fosse mais útil à pessoa\Nmais preciosa para ela.
+Dialogue: 0,0:20:10.31,0:20:13.90,Default,Emilia,0,0,0,,Como o Otto-kun, que dá tudo\Nde si pelos amigos.
+Dialogue: 0,0:20:14.52,0:20:18.28,Default,Emilia,0,0,0,,Como o Garfiel, que não soltou\Numa única reclamação sequer.
+Dialogue: 0,0:20:19.23,0:20:20.99,Default,Emilia,0,0,0,,Como o Subaru, que diz me amar
+Dialogue: 0,0:20:20.99,0:20:25.03,Default,,0,0,0,,e faz loucuras mesmo estando todo\Nferido e machucado.
+Dialogue: 0,0:20:26.53,0:20:29.24,Default,Emilia,0,0,0,,Quero parecer admirável para todos eles.
+Dialogue: 0,0:20:29.70,0:20:33.46,Default,Emilia,0,0,0,,De agora em diante, quero ser eu\Na estender a mão para ajudar alguém.
+Dialogue: 0,0:20:34.42,0:20:36.13,Default,Emilia,0,0,0,,Então vou ficar bem.
+Dialogue: 0,0:20:36.71,0:20:40.05,Default,Emilia,0,0,0,,Não tenho medo do mundo lá fora,\Nnem do futuro.
+Dialogue: 0,0:20:41.30,0:20:43.18,Default,Emilia,0,0,0,,Obrigada por se preocupar comigo.
+Dialogue: 0,0:20:44.34,0:20:48.14,Default,Emilia,0,0,0,,Eu estou bem mesmo, Archi-oniichan.
+Dialogue: 0,0:20:53.48,0:20:55.98,Default,Archi,0,0,0,,Você é mesmo teimosa.
+Dialogue: 0,0:20:55.98,0:21:00.36,Default,Archi,0,0,0,,Não faz ideia do quanto deu trabalho\Npara a Fortuna-sama e para mim.
+Dialogue: 0,0:21:00.99,0:21:03.53,Default,Emilia,0,0,0,,D-Desculpa mesmo por isso...
+Dialogue: 0,0:21:03.53,0:21:05.16,Default,Archi,0,0,0,,Tudo bem. Afinal...
+Dialogue: 0,0:21:06.03,0:21:09.20,Default,Archi,0,0,0,,Um irmão mais velho deve sempre\Nmimar sua irmãzinha.
+Dialogue: 0,0:21:10.41,0:21:12.62,Default,Emilia,0,0,0,,Obrigada, Onii-chan!
+Dialogue: 0,0:21:20.96,0:21:25.43,Default,Emilia,0,0,0,,Obrigada por me mostrar\Neste mundo, Echidna.
+Dialogue: 0,0:21:27.59,0:21:30.60,Default,Emilia,0,0,0,,Nunca pensei que veria os dois,
+Dialogue: 0,0:21:30.60,0:21:36.40,Default,Emilia,0,0,0,,a Mãe e o Geuse... o Pai...\Nrindo juntos daquele jeito.
+Dialogue: 0,0:21:37.27,0:21:37.90,Default,Emilia,0,0,0,,Então...
+Dialogue: 0,0:21:38.77,0:21:39.65,Default,Emilia,0,0,0,,Obrigada.
+Dialogue: 0,0:21:41.86,0:21:42.82,Default,Echidna,0,0,0,,Você...
+Dialogue: 0,0:21:44.40,0:21:45.28,Default,Emilia,0,0,0,,Echidna?
+Dialogue: 0,0:21:47.99,0:21:49.53,Default,Echidna,0,0,0,,Você me dá nojo.
+Dialogue: 0,0:21:50.95,0:21:54.29,Default,Echidna,0,0,0,,Eu simplesmente... te odeio demais.
+Dialogue: 0,0:22:20.98,0:22:23.23,Default - flashback,Girl,0,0,0,,Não chegue perto, bruxa! Sai daqui!
+Dialogue: 0,0:22:23.23,0:22:24.49,Default - flashback,Bordeaux,0,0,0,,Mulher imunda!
+Dialogue: 0,0:22:39.21,0:22:44.13,Default,Emilia,0,0,0,,Quanto fui protegida pelos outros\Ndurante todo este tempo?
+Dialogue: 0,0:22:59.10,0:23:00.06,Default - italics,Emilia,0,0,0,,Ora, vejam só.
+Dialogue: 0,0:23:04.23,0:23:08.32,Default - italics,Emilia,0,0,0,,Pareço menos com a Mãe Fortuna\Ndo que eu pensava.
+Dialogue: 0,0:23:08.99,0:23:10.16,Default - italics,Emilia,0,0,0,,Que pena.
+Dialogue: 0,0:23:20.25,0:23:21.17,Default,Emilia,0,0,0,,Hã?
+Dialogue: 0,0:23:21.38,0:23:23.17,Default,Guy,0,0,0,,Ali está ela!
+Dialogue: 0,0:23:21.96,0:23:24.00,Default,Lady,0,0,0,,{\an8}Que bom que está a salvo!
+Dialogue: 0,0:23:23.17,0:23:24.50,Default,Lady,0,0,0,,Não está ferida, está?
+Dialogue: 0,0:23:24.50,0:23:26.88,Default,Guy,0,0,0,,O marquês estava à beira da morte...
+Dialogue: 0,0:23:30.38,0:23:32.39,Default,Emilia,0,0,0,,Obrigada por se preocuparem comigo.
+Dialogue: 0,0:23:32.85,0:23:34.72,Default,Emilia,0,0,0,,Estou perfeitamente bem.
+Dialogue: 0,0:23:35.31,0:23:37.02,Default,Emilia,0,0,0,,Não me machuquei nem um pouco.
+Dialogue: 0,0:23:37.39,0:23:39.56,Default,Emilia,0,0,0,,Mas... me desculpem.
+Dialogue: 0,0:23:39.94,0:23:43.44,Default,Emilia,0,0,0,,As provações ainda não acabaram.
+Dialogue: 0,0:23:44.11,0:23:47.61,Default,Emilia,0,0,0,,Mas o Subaru e os outros já devem\Nter dado a notícia, não é?
+Dialogue: 0,0:23:47.99,0:23:52.11,Default,Emilia,0,0,0,,Não há mais motivo para manter\Ntodos vocês neste Santuário.
+Dialogue: 0,0:23:52.11,0:23:55.37,Default,Emilia,0,0,0,,Eu vou desfazer a barreira,
+Dialogue: 0,0:23:55.37,0:23:57.70,Default,Emilia,0,0,0,,mas já podem voltar para onde\Nsuas famílias...
+Dialogue: 0,0:23:56.87,0:23:58.50,Default,Guy,0,0,0,,{\an8}Subaru-sama e os outros?
+Dialogue: 0,0:23:58.50,0:24:00.96,Default,Guy,0,0,0,,Espera, eles contaram alguma coisa?
+Dialogue: 0,0:24:00.96,0:24:03.38,Default,Guy,0,0,0,,Hã, não consigo me lembrar bem...
+Dialogue: 0,0:24:03.38,0:24:03.96,Default,Emilia,0,0,0,,Hã?
+Dialogue: 0,0:24:05.79,0:24:08.09,Default,Head,0,0,0,,Como vê, Emilia-sama,
+Dialogue: 0,0:24:08.09,0:24:10.67,Default,Head,0,0,0,,ficaremos esperando aqui,\Ncomo prometido.
+Dialogue: 0,0:24:16.89,0:24:23.94,Default,Head,0,0,0,,E não somos os únicos que depositam\Ngrandes esperanças no seu sucesso.
+Dialogue: 0,0:24:26.61,0:24:27.27,Default,Emilia,0,0,0,,Hã?
+Dialogue: 0,0:24:28.61,0:24:31.74,Default,Emilia,0,0,0,,A Ryuzu-san e o povo do Santuário...
+Dialogue: 0,0:24:31.74,0:24:36.53,Default,Ryuzu,0,0,0,,Ao que parece, podemos concluir que\Nsuperou a segunda provação.
+Dialogue: 0,0:24:37.87,0:24:40.41,Default,Ryuzu,0,0,0,,Antes de tudo, devo-lhe\Nminha gratidão por isso.
+Dialogue: 0,0:24:41.04,0:24:44.96,Default,Ryuzu,0,0,0,,E, após ouvir o jovem Gar\Ne os aldeões,
+Dialogue: 0,0:24:44.96,0:24:48.63,Default,Ryuzu,0,0,0,,as vozes tanto de dentro\Nquanto de fora,
+Dialogue: 0,0:24:48.63,0:24:52.47,Default,Ryuzu,0,0,0,,enfim conseguimos nos erguer\Ne seguir por conta própria.
+Dialogue: 0,0:24:54.51,0:24:57.89,Default,Tokaku,0,0,0,,Sendo sincero, ainda estamos\Nem dúvida
+Dialogue: 0,0:24:58.68,0:25:01.23,Default,Tokaku,0,0,0,,se podemos ou não confiar\Nna senhorita.
+Dialogue: 0,0:25:02.98,0:25:07.36,Default,Tokaku,0,0,0,,Mas todos ouvimos o Garfiel,\Naquele moleque, gritando de raiva.
+Dialogue: 0,0:25:07.94,0:25:11.90,Default,Tokaku,0,0,0,,Quando percebi o que ele sentia,\Nlogo ele, que tanto se esforça...
+Dialogue: 0,0:25:12.90,0:25:14.78,Default,Tokaku,0,0,0,,Isso me faz sentir tão patético.
+Dialogue: 0,0:25:15.49,0:25:19.62,Default,Tokaku,0,0,0,,Ele ainda é uma criança de catorze anos,\Ne mesmo assim...
+Dialogue: 0,0:25:20.79,0:25:22.12,Default,Tokaku,0,0,0,,O moleque merece elogios.
+Dialogue: 0,0:25:23.12,0:25:27.75,Default,Tokaku,0,0,0,,E, Emilia-sama, o mesmo vale\Npara a senhorita.
+Dialogue: 0,0:25:27.75,0:25:30.46,Default,Tokaku,0,0,0,,Então... por favor, deixe-nos\Ntestemunhar tudo.
+Dialogue: 0,0:25:36.34,0:25:37.39,Default,Emilia,0,0,0,,Muito bem.
+Dialogue: 0,0:25:37.89,0:25:39.68,Default,Emilia,0,0,0,,Vou sair inteira dessa provação,
+Dialogue: 0,0:25:39.68,0:25:42.22,Default,Emilia,0,0,0,,e depois podemos conversar direito.
+Dialogue: 0,0:25:43.43,0:25:45.52,Default,Tokaku,0,0,0,,Sim. Está prometido.
+Dialogue: 0,0:25:45.52,0:25:46.40,Default,Tokaku,0,0,0,,Aconteça o que—
+Dialogue: 0,0:25:47.44,0:25:49.61,Default,Ryuzu,0,0,0,,Longo demais, sério demais.
+Dialogue: 0,0:25:49.61,0:25:52.23,Default,Ryuzu,0,0,0,,E seu tom oscilou entre\Neducado e grosseiro.
+Dialogue: 0,0:25:52.23,0:25:53.94,Default,,0,0,0,,Devia ter vergonha.
+Dialogue: 0,0:25:53.94,0:25:55.95,Default,Tokaku,0,0,0,,D-Desculpe, Anciã.
+Dialogue: 0,0:25:57.66,0:26:01.16,Default,Ryuzu,0,0,0,,De todo modo, agora já ouviu\Nas nossas opiniões.
+Dialogue: 0,0:26:01.16,0:26:04.29,Default,Ryuzu,0,0,0,,Isto é... hm? O que foi?
+Dialogue: 0,0:26:05.62,0:26:11.05,Default,Emilia,0,0,0,,Hum... Quando ouvi ele te chamar\Nde "Anciã"...
+Dialogue: 0,0:26:11.75,0:26:13.05,Default,Emilia,0,0,0,,Só fiquei um pouco surpresa.
+Dialogue: 0,0:26:18.97,0:26:21.47,Default,Emilia,0,0,0,,Ainda não me sinto totalmente\Nsatisfeita com isso, mas...
+Dialogue: 0,0:26:22.35,0:26:24.18,Default,Emilia,0,0,0,,Certo. Obrigada.
+Dialogue: 0,0:26:25.02,0:26:26.73,Default,Emilia,0,0,0,,Sinto que posso dar o meu melhor.
+Dialogue: 0,0:26:27.19,0:26:30.40,Default,Ryuzu,0,0,0,,Se fomos de ajuda, não poderíamos\Npedir coisa melhor.
+Dialogue: 0,0:26:31.19,0:26:34.53,Default,Ryuzu,0,0,0,,Ao que sei, a próxima provação\Nserá a última.
+Dialogue: 0,0:26:34.53,0:26:36.99,Default,Emilia,0,0,0,,Sim. Vou começar logo.
+Dialogue: 0,0:26:36.99,0:26:41.03,Default,Emilia,0,0,0,,Mas... Ryuzu-san, sabe onde\Na Ram está?
+Dialogue: 0,0:26:41.58,0:26:44.95,Default,Ryuzu,0,0,0,,A Ram tinha uma tarefa que não\Npodia ser adiada.
+Dialogue: 0,0:26:44.95,0:26:45.95,Default,Emilia,0,0,0,,Uma tarefa?
+Dialogue: 0,0:26:47.67,0:26:51.84,Default,Ryuzu,0,0,0,,"Emilia-sama tem o dever dela,\Ne eu tenho o meu.
+Dialogue: 0,0:26:51.84,0:26:55.05,Default,Ryuzu,0,0,0,,Ambas iremos cumpri-lo até o fim",\Ndisse ela.
+Dialogue: 0,0:27:04.52,0:27:06.56,Default,Emilia,0,0,0,,Bem, eu já estou entrando.
+Dialogue: 0,0:27:09.94,0:27:11.98,Default,All,0,0,0,,Tome cuidado!
+Dialogue: 0,0:27:11.98,0:27:13.27,Default,All,0,0,0,,Boa sorte!
+Dialogue: 0,0:27:20.82,0:27:23.41,Default - italics,Emilia,0,0,0,,Enfrente o desastre que ainda está por vir.
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:27.04,0:27:30.04,Signs,Title,0,0,0,,Felicidade Refletida na Superfície da Água
+Dialogue: 0,0:27:30.04,0:29:00.00,Default,,0,0,0,,{ED2 START FRAME - Frame after EP}
+Dialogue: 0,0:27:40.42,0:27:46.27,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,527,\blur5)}{\c&H000000&\1a&HFF&\t(482,527,\1a&H00&)\t(5600,5645,\1a&HFF&)}{\fad(527,250)\3c&H000000&\c&H000000&\3a&H19&}kowarenai you ni yasashiku daite
+Dialogue: 1,0:27:40.42,0:27:46.27,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,527,\blur0.5)}{\bord0\4a&HFF&}{\fad(527,250)\c&HD9DCD9&\3a&H19&}kowarenai you ni yasashiku daite
+Dialogue: 0,0:27:40.42,0:27:46.27,ED2 - English (v0),,0,0,0,,Como se eu fosse quebrar, me abrace com carinho
+Dialogue: 0,0:27:46.45,0:27:50.56,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(3860,3905,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}tokete namida nagasu
+Dialogue: 1,0:27:46.45,0:27:50.56,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}tokete namida nagasu
+Dialogue: 0,0:27:46.45,0:27:50.56,ED2 - English (v0),,0,0,0,,Como se eu fosse derreter, as lágrimas escorrem
+Dialogue: 0,0:27:50.56,0:28:02.24,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,439,\blur5)}{\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(11430,11475,\1a&HFF&)}{\fad(439,250)\3c&H000000&\c&H000000&\3a&H19&}sonna koori no ningyou mitai ni narenaikara
+Dialogue: 1,0:27:50.56,0:28:02.24,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,439,\blur0.5)}{\bord0\4a&HFF&}{\fad(439,250)\c&HD9DCD9&\3a&H19&}sonna koori no ningyou mitai ni narenaikara
+Dialogue: 0,0:27:50.56,0:28:02.24,ED2 - English (v0),,0,0,0,,Mas não posso ser como uma boneca de gelo
+Dialogue: 0,0:28:05.85,0:28:14.50,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(8400,8445,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}mou nigenai shiritai no
+Dialogue: 1,0:28:05.85,0:28:14.50,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}mou nigenai shiritai no
+Dialogue: 0,0:28:05.85,0:28:14.50,ED2 - English (v0),,0,0,0,,Não vou mais fugir
+Dialogue: 0,0:28:14.70,0:28:15.70,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(750,795,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}tsuyoku
+Dialogue: 1,0:28:14.70,0:28:15.70,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}tsuyoku
+Dialogue: 0,0:28:14.70,0:28:15.70,ED2 - English (v0),,0,0,0,,Eu preciso saber!
+Dialogue: 0,0:28:15.71,0:28:17.47,ED2 - English (v0),,0,0,0,,Eu acredito, acredito em você
+Dialogue: 0,0:28:15.71,0:28:17.47,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(1510,1555,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}I believe, believe in you
+Dialogue: 1,0:28:15.71,0:28:17.47,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}I believe, believe in you
+Dialogue: 0,0:28:17.47,0:28:21.49,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(3770,3815,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}kitto ichiban no yakusoku no kotoba
+Dialogue: 1,0:28:17.47,0:28:21.49,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}kitto ichiban no yakusoku no kotoba
+Dialogue: 0,0:28:17.47,0:28:21.49,ED2 - English (v0),,0,0,0,,Tenho certeza de que é a promessa mais importante que já fiz
+Dialogue: 0,0:28:21.49,0:28:25.80,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4420,4465,\1a&HFF&)}{\fad(250,600)\3c&H000000&\c&H000000&\3a&H19&}itai kurai nigitte hanasanai
+Dialogue: 1,0:28:21.49,0:28:25.80,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,600)\3a&H19&}itai kurai nigitte hanasanai
+Dialogue: 0,0:28:21.49,0:28:25.80,ED2 - English (v0),,0,0,0,,Por isso vou me agarrar a ela e não vou soltar
+Dialogue: 0,0:28:26.16,0:28:28.75,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2340,2385,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}wagamama na ima tsurete
+Dialogue: 1,0:28:26.16,0:28:28.75,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}wagamama na ima tsurete
+Dialogue: 0,0:28:26.16,0:28:28.75,ED2 - English (v0),,0,0,0,,Reúna todo esse seu egoísmo
+Dialogue: 0,0:28:28.75,0:28:31.86,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2860,2905,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}dare no mono demo nai mirai wo
+Dialogue: 1,0:28:28.75,0:28:31.86,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}dare no mono demo nai mirai wo
+Dialogue: 0,0:28:28.75,0:28:31.86,ED2 - English (v0),,0,0,0,,e vamos começar um futuro
+Dialogue: 0,0:28:31.86,0:28:34.62,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2510,2555,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}soko kara hajimeru no
+Dialogue: 1,0:28:31.86,0:28:34.62,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}soko kara hajimeru no
+Dialogue: 0,0:28:31.86,0:28:34.62,ED2 - English (v0),,0,0,0,,que não pertença a mais ninguém
+Dialogue: 0,0:28:34.62,0:28:39.82,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4950,4995,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}{\t(298,298,)}sora wo tsukamu
+Dialogue: 1,0:28:34.62,0:28:39.82,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}sora wo tsukamu
+Dialogue: 0,0:28:34.62,0:28:39.82,ED2 - English (v0),,0,0,0,,Se você estender suas mãos em prece
+Dialogue: 0,0:28:39.82,0:28:45.09,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(5020,5065,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}inori no te wo
+Dialogue: 1,0:28:39.82,0:28:45.09,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}inori no te wo
+Dialogue: 0,0:28:39.82,0:28:45.09,ED2 - English (v0),,0,0,0,,o mais longe que puder,
+Dialogue: 0,0:28:45.09,0:28:50.19,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4850,4895,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}nobasu kagiri
+Dialogue: 1,0:28:45.09,0:28:50.19,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}nobasu kagiri
+Dialogue: 0,0:28:45.09,0:28:50.19,ED2 - English (v0),,0,0,0,,lá para o céu,
+Dialogue: 0,0:28:50.19,0:28:58.82,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(8380,8425,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}soko ni hontou wa aru no
+Dialogue: 1,0:28:50.19,0:28:58.82,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}soko ni hontou wa aru no
+Dialogue: 0,0:28:50.19,0:28:58.82,ED2 - English (v0),,0,0,0,,então com certeza alcançará a verdade

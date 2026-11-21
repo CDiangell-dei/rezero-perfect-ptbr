@@ -1,0 +1,506 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+Style: AstralSigns,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: ED2 - English (v0),FOT-Matisse Pro Toaru B,60,&H00FFFFFF,&HFF0000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1,0,2,135,135,160,1
+Style: ED2 - Romaji (v0),FOT-Matisse Pro Toaru B,60,&H00FAFFFE,&HFF0000FF,&H00000000,&H7A000000,0,0,0,0,100,100,0,0,1,1,0,8,135,135,160,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.23,0:00:17.15,Default - flashback,Echidna,0,0,0,,Entendo. É uma doença grave.
+Dialogue: 0,0:00:17.15,0:00:20.72,Default - flashback,Echidna,0,0,0,,É admirável que tenha resistido\Ntanto tempo sem morrer.
+Dialogue: 0,0:00:20.72,0:00:22.55,Default - flashback,Roswaal,0,0,0,,Q-Quem é você?!
+Dialogue: 0,0:00:34.81,0:00:38.03,Default - flashback,Echidna,0,0,0,,Você nem sequer sabe como liberar\Na sua mana acumulada?
+Dialogue: 0,0:00:38.59,0:00:41.28,Default - flashback,Echidna,0,0,0,,Sua falta de compreensão\Né realmente lamentável.
+Dialogue: 0,0:01:08.95,0:01:12.51,Default - flashback,Echidna,0,0,0,,E então? Sente-se um pouco melhor?
+Dialogue: 0,0:01:12.68,0:01:15.03,Default - flashback,Roswaal,0,0,0,,O-O que você fez?!
+Dialogue: 0,0:01:15.03,0:01:16.85,Default - flashback,,0,0,0,,Como uma jovem dama pôde...
+Dialogue: 0,0:01:17.70,0:01:20.35,Default - flashback,Echidna,0,0,0,,Apenas suguei sua mana diretamente.
+Dialogue: 0,0:01:21.50,0:01:22.35,Default - flashback,Roswaal,0,0,0,,Mana?
+Dialogue: 0,0:01:22.57,0:01:25.28,Default - flashback,Echidna,0,0,0,,O que você tem não é uma doença.
+Dialogue: 0,0:01:25.28,0:01:26.96,Default - flashback,Echidna,0,0,0,,Chama-se Período de Liberação Mágica.
+Dialogue: 0,0:01:27.41,0:01:29.31,Default - flashback,Roswaal,0,0,0,,Período de... Liberação Mágica?
+Dialogue: 0,0:01:29.72,0:01:31.68,Default - flashback,Echidna,0,0,0,,É algo extremamente raro.
+Dialogue: 0,0:01:32.05,0:01:36.02,Default - flashback,Echidna,0,0,0,,Tenho certeza de que ninguém\Njá o compreendeu por causa disso.
+Dialogue: 0,0:01:37.30,0:01:40.88,Default - flashback,Echidna,0,0,0,,Mas eu compreendo o seu sofrimento...
+Dialogue: 0,0:01:40.88,0:01:43.62,Default - flashback,Echidna,0,0,0,,como alguém que já passou\Npelos mesmos sentimentos.
+Dialogue: 0,0:01:58.50,0:01:59.95,Default - flashback,Roswaal,0,0,0,,Mas quem é você?
+Dialogue: 0,0:02:00.61,0:02:02.27,Default - flashback,Echidna,0,0,0,,Eu sou uma bruxa.
+Dialogue: 0,0:02:03.21,0:02:06.68,Default - flashback,Echidna,0,0,0,,Uma bruxa maligna que, às vezes,\Nfaz coisas boas.
+Dialogue: 0,0:02:08.05,0:02:08.99,Default - flashback,Echidna,0,0,0,,E você?
+Dialogue: 0,0:02:15.49,0:02:18.65,Default,Roswaal,0,0,0,,E então, Betty? O que acha do romance\Nentre a nossa mestra e eu?
+Dialogue: 0,0:02:18.65,0:02:20.13,Default,Beatrice,0,0,0,,Não há o que achar.
+Dialogue: 0,0:02:20.13,0:02:23.16,Default,Beatrice,0,0,0,,Não ouvi uma única palavra\Nsobre isso, eu suponho.
+Dialogue: 0,0:02:23.50,0:02:27.12,Default,Beatrice,0,0,0,,E além disso, "romance"? Está tomando\Nliberdade demais com a Mãe.
+Dialogue: 0,0:02:27.12,0:02:29.49,Default,Roswaal,0,0,0,,Tem razão. Foi apenas uma\Ndesculpa para dizê-lo.
+Dialogue: 0,0:02:29.49,0:02:33.70,Default,Roswaal,0,0,0,,Mas ainda me lembro de cada palavra\Nque ela disse naquele dia.
+Dialogue: 0,0:02:33.70,0:02:36.50,Default,Beatrice,0,0,0,,Isso só causaria transtornos\Npara a Mãe, eu suponho.
+Dialogue: 0,0:02:36.50,0:02:39.06,Default,Beatrice,0,0,0,,E para mim também, é claro.
+Dialogue: 0,0:02:39.06,0:02:42.34,Default,Ryuzu,0,0,0,,Beatrice-sama, não deveria\Ndizer coisas assim.
+Dialogue: 0,0:02:42.70,0:02:46.82,Default,Ryuzu,0,0,0,,Além disso, entendo como\NRoswaal-sama se sente,
+Dialogue: 0,0:02:46.82,0:02:50.19,Default,Ryuzu,0,0,0,,pois também fui salva\Npor Echidna-sama.
+Dialogue: 0,0:02:52.69,0:02:55.73,Default,Roswaal,0,0,0,,Você também deve ser grata\Na ela, Ryuzu-kun.
+Dialogue: 0,0:02:55.73,0:02:56.57,Default,Ryuzu,0,0,0,,Sim.
+Dialogue: 0,0:02:56.98,0:03:00.34,Default,Roswaal,0,0,0,,Se eu não a tivesse conhecido naquele dia,
+Dialogue: 0,0:03:00.34,0:03:02.88,Default,Roswaal,0,0,0,,ainda estaria sofrendo sozinho agora.
+Dialogue: 0,0:03:03.53,0:03:08.29,Default,Roswaal,0,0,0,,Ou então, em desespero,\Neu teria feito alguma loucura.
+Dialogue: 0,0:03:08.66,0:03:13.86,Default,Roswaal,0,0,0,,Em vez disso, superei meus pais e irmãos\Npara assumir a família Mathers,
+Dialogue: 0,0:03:14.51,0:03:16.50,Default,Roswaal,0,0,0,,tudo graças a ela.
+Dialogue: 0,0:03:16.80,0:03:19.44,Default,Beatrice,0,0,0,,Hah! Que homem mais descarado\Nvocê é, eu suponho!
+Dialogue: 0,0:03:19.44,0:03:22.40,Default,Beatrice,0,0,0,,É covardia forçar alguém\Na ser grato!
+Dialogue: 0,0:03:22.40,0:03:27.77,Default,Ryuzu,0,0,0,,Mas vive dizendo coisas como:\N"É bom que seja grata."
+Dialogue: 0,0:03:27.77,0:03:30.98,Default,Beatrice,0,0,0,,Ei! Está do meu lado ou do lado\Ndo Roswaal, eu suponho?!
+Dialogue: 0,0:03:33.95,0:03:38.21,Default,Beatrice,0,0,0,,Sabe, não gosto desse olhar\Nindulgente nos seus olhos.
+Dialogue: 0,0:03:38.21,0:03:40.77,Default,Beatrice,0,0,0,,Se tem algo a dizer, então diga,\Neu suponho.
+Dialogue: 0,0:03:40.77,0:03:42.73,Default,Roswaal,0,0,0,,Ora, eu te amo.
+Dialogue: 0,0:03:42.73,0:03:45.33,Default,Beatrice,0,0,0,,Não diga coisas nojentas assim!
+Dialogue: 0,0:03:46.98,0:03:48.02,Default,Roswaal,0,0,0,,Mestra!
+Dialogue: 0,0:03:48.37,0:03:50.12,Default,Echidna,0,0,0,,Os três estão aqui?
+Dialogue: 0,0:03:50.58,0:03:53.25,Default,Echidna,0,0,0,,Ótimo. Têm se dado bem,\Nsem brigas?
+Dialogue: 0,0:03:53.47,0:03:54.52,Default,Roswaal,0,0,0,,Claro!
+Dialogue: 0,0:03:54.52,0:03:55.74,Default,Beatrice,0,0,0,,Naturalmente, eu suponho.
+Dialogue: 0,0:03:58.61,0:04:00.02,Default,Echidna,0,0,0,,Ora, ora.
+Dialogue: 0,0:04:00.02,0:04:03.30,Default,Echidna,0,0,0,,Pelo visto, vocês ainda dão\Nbastante trabalho.
+Dialogue: 0,0:04:07.04,0:04:10.68,Default,Roswaal,0,0,0,,Oh? Então você ouviu essa história?
+Dialogue: 0,0:04:10.98,0:04:15.40,Default,Subaru,0,0,0,,Sim. São as memórias da Ryuzu Meyer\Nque a Shima-san viu na Tumba.
+Dialogue: 0,0:04:15.70,0:04:17.14,Default,Roswaal,0,0,0,,Entendo.
+Dialogue: 0,0:04:17.14,0:04:21.36,Default,,0,0,0,,Isso quer dizer que já sabe também\No que houve naquele dia...
+Dialogue: 0,0:04:22.47,0:04:26.32,Default,Roswaal,0,0,0,,O dia em que este Santuário nasceu.
+Dialogue: 0,0:04:28.10,0:04:31.58,Default,Beatrice,0,0,0,,Sério, aquele Roswaal é tão irritante,\Neu suponho!
+Dialogue: 0,0:04:31.92,0:04:33.89,Default,Beatrice,0,0,0,,Ele é totalmente insuportável!
+Dialogue: 0,0:04:33.89,0:04:40.96,Default,Ryuzu,0,0,0,,Acho que Roswaal-sama só me vingou\Nporque estava sendo má comigo.
+Dialogue: 0,0:04:41.27,0:04:44.22,Default,Beatrice,0,0,0,,N-Não diga que fui má, eu suponho!
+Dialogue: 0,0:04:44.22,0:04:46.72,Default,Beatrice,0,0,0,,Foi algo muito mais refinado que isso!
+Dialogue: 0,0:04:46.97,0:04:49.72,Default,Ryuzu,0,0,0,,Por mais portas que abrisse,\Ntodas davam no mesmo aposento.
+Dialogue: 0,0:04:49.72,0:04:52.93,Default,Ryuzu,0,0,0,,Foi uma experiência muito\Nassustadora para mim.
+Dialogue: 0,0:04:53.76,0:04:56.62,Default,Beatrice,0,0,0,,Era só um pouco de magia Yin, eu suponho.
+Dialogue: 0,0:04:56.62,0:04:59.12,Default,Beatrice,0,0,0,,Não há motivo para fazer tanto alarde.
+Dialogue: 0,0:04:59.49,0:05:00.42,Default,Roswaal,0,0,0,,Entendo.
+Dialogue: 0,0:05:00.85,0:05:04.95,Default,Roswaal,0,0,0,,Então, mesmo eu tendo feito o mesmo\Ncom você usando magia Yang,
+Dialogue: 0,0:05:05.25,0:05:07.41,Default,Roswaal,0,0,0,,você não vai fazer alarde.
+Dialogue: 0,0:05:07.68,0:05:08.54,Default,Roswaal,0,0,0,,Ngh!
+Dialogue: 0,0:05:09.30,0:05:11.55,Default,Roswaal,0,0,0,,Que bela expressão, Beatrice.
+Dialogue: 0,0:05:11.99,0:05:15.86,Default,Roswaal,0,0,0,,Seu rosto é o meu segundo favorito,\Ndepois do da nossa mestra, sabia?
+Dialogue: 0,0:05:15.86,0:05:17.67,Default,Beatrice,0,0,0,,O que pensa que está dizendo?!
+Dialogue: 0,0:05:18.05,0:05:20.83,Default,Beatrice,0,0,0,,Você é só um sortudo,\Nabençoado com talento e boa família,
+Dialogue: 0,0:05:20.83,0:05:23.92,Default,Beatrice,0,0,0,,que por acaso encontrou a melhor\Nmestra do mundo, eu suponho!
+Dialogue: 0,0:05:23.92,0:05:25.42,Default,Beatrice,0,0,0,,Não deixe isso subir à cabeça!
+Dialogue: 0,0:05:25.66,0:05:29.11,Default,Ryuzu,0,0,0,,Beatrice-sama, acho que está\Napenas elogiando ele.
+Dialogue: 0,0:05:29.11,0:05:33.74,Default,Roswaal,0,0,0,,Ryuzu-kun, se a Beatrice incomodar\Nvocê de novo, pode vir falar comigo.
+Dialogue: 0,0:05:33.74,0:05:36.96,Default,Roswaal,0,0,0,,Vou dar umas palmadas nela\Npara lhe ensinar uma lição.
+Dialogue: 0,0:05:36.96,0:05:41.40,Default,Beatrice,0,0,0,,Hah! Essa garota jamais vai depender\Nde você, eu suponho!
+Dialogue: 0,0:05:41.40,0:05:43.15,Default,Beatrice,0,0,0,,Vamos, diga a ele!
+Dialogue: 0,0:05:43.53,0:05:45.14,Default,Ryuzu,0,0,0,,Obrigada.
+Dialogue: 0,0:05:45.14,0:05:48.24,Default,Ryuzu,0,0,0,,Se algo acontecer, com certeza\Nlhe avisarei.
+Dialogue: 0,0:05:48.56,0:05:50.71,Default,Beatrice,0,0,0,,Como ousa, eu suponho?!
+Dialogue: 0,0:05:50.71,0:05:51.70,Default,Beatrice,0,0,0,,Hmpf!
+Dialogue: 0,0:05:52.85,0:05:54.97,Default,Roswaal,0,0,0,,Desculpe interromper sua leitura.
+Dialogue: 0,0:05:54.97,0:05:57.22,Default,Roswaal,0,0,0,,Peço desculpas em nome da Beatrice.
+Dialogue: 0,0:05:57.22,0:05:59.67,Default,Ryuzu,0,0,0,,Por favor, não se preocupe com isso.
+Dialogue: 0,0:05:59.93,0:06:03.48,Default,Ryuzu,0,0,0,,De qualquer forma, ainda não posso\Nchamar bem isto de "leitura".
+Dialogue: 0,0:06:04.03,0:06:07.30,Default,Beatrice,0,0,0,,Hmm... Ler livros é algo bom, eu suponho.
+Dialogue: 0,0:06:07.73,0:06:10.44,Default,Beatrice,0,0,0,,A leitura enriquece a vida.
+Dialogue: 0,0:06:10.44,0:06:14.31,Default,Roswaal,0,0,0,,Disse Beatrice, repetindo as mesmas\Npalavras que sua mestra usava.
+Dialogue: 0,0:06:14.64,0:06:15.81,Default,Beatrice,0,0,0,,Grr!
+Dialogue: 0,0:06:16.59,0:06:17.85,Default,Roswaal,0,0,0,,Ah, já sei.
+Dialogue: 0,0:06:17.85,0:06:22.22,Default,Roswaal,0,0,0,,Beatrice, por que não se torna\Na professora da Ryuzu-kun?
+Dialogue: 0,0:06:22.22,0:06:24.45,Default,Beatrice,0,0,0,,Eu? Ensiná-la?
+Dialogue: 0,0:06:24.45,0:06:29.83,Default,Ryuzu,0,0,0,,E-Eu não poderia incomodar Beatrice-sama\Ncom isso estando tão ocupada.
+Dialogue: 0,0:06:29.83,0:06:32.86,Default,Beatrice,0,0,0,,B-Bem, não disse que não estou\Ndisposta, eu suponho.
+Dialogue: 0,0:06:33.22,0:06:35.58,Default,Beatrice,0,0,0,,Seria uma tarefa simples.
+Dialogue: 0,0:06:37.49,0:06:41.11,Default,Beatrice,0,0,0,,O que foi, eu suponho? Se não quer,\Nnão precisa.
+Dialogue: 0,0:06:41.11,0:06:42.87,Default,Beatrice,0,0,0,,Não é como se eu estivesse animad—
+Dialogue: 0,0:06:42.87,0:06:43.46,Default,Ryuzu,0,0,0,,Ah, não!
+Dialogue: 0,0:06:43.86,0:06:48.42,Default,Ryuzu,0,0,0,,Ficaria muito feliz se me ensinasse.
+Dialogue: 0,0:06:49.40,0:06:52.84,Default,Beatrice,0,0,0,,B-Bom, se insiste, então não tenho\Nescolha, eu suponho.
+Dialogue: 0,0:06:52.84,0:06:55.36,Default,Beatrice,0,0,0,,Você é mesmo uma garota de sorte.
+Dialogue: 0,0:06:59.70,0:07:01.18,Default,Ryuzu,0,0,0,,Beatrice-sama?
+Dialogue: 0,0:07:01.60,0:07:03.50,Default,Beatrice,0,0,0,,A Mãe está chamando, eu suponho.
+Dialogue: 0,0:07:06.69,0:07:10.01,Default,Beatrice,0,0,0,,Roswaal! A Mãe está chamando você também!
+Dialogue: 0,0:07:10.01,0:07:11.32,Default,Beatrice,0,0,0,,É urgente, eu suponho!
+Dialogue: 0,0:07:11.93,0:07:12.94,Default,Roswaal,0,0,0,,Eu sei!
+Dialogue: 0,0:07:13.31,0:07:16.54,Default,Roswaal,0,0,0,,Parece que... ele chegou.
+Dialogue: 0,0:07:24.83,0:07:26.30,Default,Roswaal,0,0,0,,Eu confirmei.
+Dialogue: 0,0:07:26.68,0:07:28.13,Default,Roswaal,0,0,0,,É ele mesmo, sem dúvida.
+Dialogue: 0,0:07:29.11,0:07:30.06,Default,Echidna,0,0,0,,Entendo.
+Dialogue: 0,0:07:30.59,0:07:32.53,Default,Roswaal,0,0,0,,Devemos fugir daqui imediatamente!
+Dialogue: 0,0:07:32.53,0:07:35.17,Default,Roswaal,0,0,0,,Se ele vier até aqui, nosso plano falhará
+Dialogue: 0,0:07:35.17,0:07:36.76,Default,Roswaal,0,0,0,,e será impossível recomeçar!
+Dialogue: 0,0:07:38.97,0:07:41.73,Default,Roswaal,0,0,0,,Mestra! Não há tempo para hesitar!
+Dialogue: 0,0:07:41.73,0:07:44.44,Default,Roswaal,0,0,0,,Ainda não posso lhe ser útil.
+Dialogue: 0,0:07:44.44,0:07:47.27,Default,Roswaal,0,0,0,,Se pedir para eu ser seu escudo,\No farei de bom grado!
+Dialogue: 0,0:07:47.58,0:07:49.68,Default,Roswaal,0,0,0,,Mas se não tomarmos medidas...
+Dialogue: 0,0:07:51.36,0:07:53.44,Default,Echidna,0,0,0,,Não é como se não houvesse\Nnada a fazer.
+Dialogue: 0,0:07:53.44,0:07:56.24,Default,Echidna,0,0,0,,Os planos para o Santuário já estão\Nprontos, até certo ponto.
+Dialogue: 0,0:07:58.11,0:08:00.48,Default,Echidna,0,0,0,,A formulação da teoria está concluída.
+Dialogue: 0,0:08:00.48,0:08:01.78,Default,Roswaal,0,0,0,,E-Então...
+Dialogue: 0,0:08:01.78,0:08:06.61,Default,Echidna,0,0,0,,Mas ainda nos falta o núcleo necessário\Npara gerar a barreira.
+Dialogue: 0,0:08:06.61,0:08:09.00,Default,Echidna,0,0,0,,Sem ele, a barreira não funcionará.
+Dialogue: 0,0:08:09.42,0:08:11.31,Default,Roswaal,0,0,0,,Todo o trabalho que tivemos...
+Dialogue: 0,0:08:12.62,0:08:16.18,Default,Roswaal,0,0,0,,O Santuário estava a um passo\Nde ser concluído!
+Dialogue: 0,0:08:20.37,0:08:23.98,Default,Ryuzu,0,0,0,,Hum... Para esse núcleo\Nque ainda não possuem...
+Dialogue: 0,0:08:26.31,0:08:28.68,Default,Ryuzu,0,0,0,,Eu poderia ser útil?
+Dialogue: 0,0:08:30.18,0:08:31.15,Default,Roswaal,0,0,0,,Ryuzu-kun...
+Dialogue: 0,0:08:31.55,0:08:34.34,Default,Ryuzu,0,0,0,,Eu já ouvi a respeito.
+Dialogue: 0,0:08:34.34,0:08:40.13,Default,Ryuzu,0,0,0,,Quem atende aos requisitos para ser o núcleo\Nda barreira de Echidna-sama sou eu.
+Dialogue: 0,0:08:40.13,0:08:42.00,Default,EChidna,0,0,0,,Foi a Beatrice quem lhe contou isso?
+Dialogue: 0,0:08:43.09,0:08:43.96,Default,Ryuzu,0,0,0,,Sim.
+Dialogue: 0,0:08:45.19,0:08:50.40,Default,Echidna,0,0,0,,De fato, há boas chances de que funcione\Ncomo o núcleo da barreira,
+Dialogue: 0,0:08:50.40,0:08:54.76,Default,Echidna,0,0,0,,mas só depois que sua mana\Ne esta terra se adaptarem uma à outra.
+Dialogue: 0,0:08:54.76,0:08:57.20,Default,Ryuzu,0,0,0,,Então não posso fazê-lo agora?
+Dialogue: 0,0:08:57.20,0:08:59.43,Default,Roswaal,0,0,0,,Esta não é uma barreira comum.
+Dialogue: 0,0:08:59.43,0:09:03.35,Default,Roswaal,0,0,0,,Passamos anos reunindo pessoas de sangue\Nmisto entre humano e semi-humano aqui
+Dialogue: 0,0:09:03.35,0:09:05.73,Default,Roswaal,0,0,0,,em escala suficiente para ativar a barreira.
+Dialogue: 0,0:09:05.73,0:09:08.40,Default,Roswaal,0,0,0,,Você é o último passo para concluí-la.
+Dialogue: 0,0:09:09.03,0:09:09.95,Default,Roswaal,0,0,0,,Mas...
+Dialogue: 0,0:09:15.49,0:09:20.06,Default,Ryuzu,0,0,0,,Tenho certeza de que os dois têm um meio\Nde fazer funcionar, não têm?
+Dialogue: 0,0:09:21.70,0:09:25.79,Default,Ryuzu,0,0,0,,Echidna-sama e Roswaal-sama,\Nvocês dois me salvaram.
+Dialogue: 0,0:09:26.45,0:09:31.75,Default,Ryuzu,0,0,0,,Fui tão feliz vivendo sem ser\Nrejeitada ou desprezada.
+Dialogue: 0,0:09:32.19,0:09:34.70,Default,Ryuzu,0,0,0,,Se eu puder retribuir pelo tempo\Nem que vivi assim,
+Dialogue: 0,0:09:35.09,0:09:39.03,Default,Ryuzu,0,0,0,,creio que isso daria sentido à minha vida.
+Dialogue: 0,0:09:43.76,0:09:44.56,Default,Roswaal,0,0,0,,Mestra...
+Dialogue: 0,0:09:45.92,0:09:49.67,Default,Echidna,0,0,0,,Usaremos seu Od como catalisador\Npara criar o núcleo do Santuário.
+Dialogue: 0,0:09:50.28,0:09:55.03,Default,Echidna,0,0,0,,Isso encurtará o processo e permitirá\Nque a barreira entre em ação.
+Dialogue: 0,0:09:55.25,0:09:58.03,Default,Ryuzu,0,0,0,,E então o Santuário estará salvo?
+Dialogue: 0,0:09:58.03,0:10:01.05,Default,Echidna,0,0,0,,Tornará possível afastar a ameaça atual.
+Dialogue: 0,0:10:02.17,0:10:04.49,Default,Ryuzu,0,0,0,,Quando começaríamos?
+Dialogue: 0,0:10:04.77,0:10:06.22,Default,Echidna,0,0,0,,Imediatamente.
+Dialogue: 0,0:10:06.74,0:10:10.61,Default,Echidna,0,0,0,,Pedi a Beatrice que preparasse o local\Nonde o núcleo será instalado.
+Dialogue: 0,0:10:10.61,0:10:14.29,Default,Echidna,0,0,0,,Tudo de que preciso é tempo suficiente\Npara estruturar o feitiço.
+Dialogue: 0,0:10:14.29,0:10:16.55,Default,Roswaal,0,0,0,,E essa é a minha função, correto?
+Dialogue: 0,0:10:17.52,0:10:20.76,Default,Roswaal,0,0,0,,Farei tudo ao meu alcance para ganhar tempo.
+Dialogue: 0,0:10:21.36,0:10:23.73,Default,Roswaal,0,0,0,,Ryuzu-kun, sinto muito.
+Dialogue: 0,0:10:23.73,0:10:27.37,Default,Roswaal,0,0,0,,Minha força sozinha não basta\Npara proteger nossa mestra.
+Dialogue: 0,0:10:27.37,0:10:31.98,Default,Ryuzu,0,0,0,,Não, o senhor também já me deu\Nmuito, Roswaal-sama.
+Dialogue: 0,0:10:32.61,0:10:34.77,Default,Ryuzu,0,0,0,,Na verdade, sou imensamente grata.
+Dialogue: 0,0:10:34.77,0:10:37.19,Default,Ryuzu,0,0,0,,Não tenho motivo algum para lhe guardar rancor.
+Dialogue: 0,0:10:39.63,0:10:40.94,Default,Roswaal,0,0,0,,Irei agora mesmo.
+Dialogue: 0,0:10:41.33,0:10:44.95,Default,Roswaal,0,0,0,,Mestra, prepare a barreira e chame\Na Beatrice de volta para cá.
+Dialogue: 0,0:10:46.16,0:10:49.26,Default,Echidna,0,0,0,,Talvez não devêssemos deixar\Nque Beatrice saiba disso?
+Dialogue: 0,0:10:49.26,0:10:51.73,Default,Roswaal,0,0,0,,Se não chamarmos Beatrice de volta agora,
+Dialogue: 0,0:10:51.73,0:10:54.42,Default,Roswaal,0,0,0,,ela desprezará a senhora e a mim\Npara sempre.
+Dialogue: 0,0:10:55.78,0:10:58.42,Default,Roswaal,0,0,0,,Claro, talvez faça isso mesmo\Nse a chamarmos...
+Dialogue: 0,0:10:59.46,0:11:02.00,Default,Echidna,0,0,0,,Pois bem. Seguirei seu conselho.
+Dialogue: 0,0:11:15.99,0:11:17.55,Default,Ryuzu,0,0,0,,Beatrice-sama...
+Dialogue: 0,0:11:31.42,0:11:33.29,Default,Hector,0,0,0,,Ainda quer continuar?
+Dialogue: 0,0:11:35.29,0:11:36.80,Default,Hector,0,0,0,,Cale a boca.
+Dialogue: 0,0:11:36.80,0:11:37.96,Default,Hector,0,0,0,,Você faz barulho demais.
+Dialogue: 0,0:11:37.96,0:11:39.09,Default,,0,0,0,,Está me irritando.
+Dialogue: 0,0:11:39.09,0:11:40.34,Default,,0,0,0,,Você é um estorvo.
+Dialogue: 0,0:11:40.34,0:11:41.22,Default,Hector,0,0,0,,Perdi o interesse.
+Dialogue: 0,0:11:41.22,0:11:42.13,Default,,0,0,0,,Perdi o ânimo.
+Dialogue: 0,0:11:43.18,0:11:47.96,Default,Roswaal,0,0,0,,Eu... preciso detê-lo... aqui.
+Dialogue: 0,0:11:49.52,0:11:51.41,Default,Hector,0,0,0,,Eu detesto mesmo isso.
+Dialogue: 0,0:11:51.41,0:11:52.64,Default,,0,0,0,,Isso me desanima tanto.
+Dialogue: 0,0:11:53.20,0:11:55.89,Default,Hector,0,0,0,,Estou tão triste... tão abatido...
+Dialogue: 0,0:11:55.89,0:11:59.51,Default,Hector,0,0,0,,Isso é o pior do pior do pior.
+Dialogue: 0,0:11:59.51,0:12:00.57,Default,,0,0,0,,Que deprimente.
+Dialogue: 0,0:12:07.26,0:12:08.99,Default,Hector,0,0,0,,Tem alguém aí?
+Dialogue: 0,0:12:12.93,0:12:14.33,Default,Hector,0,0,0,,Que deprimente.
+Dialogue: 0,0:12:16.56,0:12:19.84,Default,Roswaal,0,0,0,,Al Goa!
+Dialogue: 0,0:12:22.11,0:12:24.93,Default,Hector,0,0,0,,Ficar suado me irrita tanto.
+Dialogue: 0,0:12:26.11,0:12:28.97,Default,Roswaal,0,0,0,,Maldito, Bruxo da Melancolia!
+Dialogue: 0,0:12:29.20,0:12:31.06,Default,Hector,0,0,0,,Odeio esse nome.
+Dialogue: 0,0:12:31.06,0:12:32.75,Default,,0,0,0,,Isso esmaga o meu espírito.
+Dialogue: 0,0:12:33.09,0:12:37.53,Default,Hector,0,0,0,,Acha que fiquei assim\Nporque eu quis?
+Dialogue: 0,0:12:37.53,0:12:41.20,Default,Roswaal,0,0,0,,Por mais que tente distorcer\No modo como vive,
+Dialogue: 0,0:12:41.20,0:12:45.91,Default,Roswaal,0,0,0,,foi você quem escolheu essa vida\Ndentre opções limitadas!
+Dialogue: 0,0:12:45.91,0:12:48.72,Default,Roswaal,0,0,0,,Não ouse se fazer de vítima...
+Dialogue: 0,0:12:48.72,0:12:51.88,Default,Roswaal,0,0,0,,Bruxo da Melancolia, Hector!
+Dialogue: 0,0:12:52.30,0:12:55.89,Default,Hector,0,0,0,,Sua afirmação correta me fere\Ne me deixa desconfortável.
+Dialogue: 0,0:12:55.89,0:12:59.96,Default,Hector,0,0,0,,Eu não suporto mesmo você.
+Dialogue: 0,0:13:04.76,0:13:07.72,Default,Hector,0,0,0,,Seus ossos esmagados,\Nseus órgãos espalhados,
+Dialogue: 0,0:13:07.72,0:13:09.57,Default,,0,0,0,,seu coração estilhaçado.
+Dialogue: 0,0:13:09.57,0:13:12.81,Default,Hector,0,0,0,,Resolvido isso, e agora?
+Dialogue: 0,0:13:14.92,0:13:19.02,Default,Echidna,0,0,0,,Acho que seria exagero dizer\Nque cheguei a tempo.
+Dialogue: 0,0:13:19.37,0:13:22.08,Default,Hector,0,0,0,,Não, chegou na hora certa.
+Dialogue: 0,0:13:22.66,0:13:29.84,Default,Hector,0,0,0,,Seu pupilo lutou bravamente para\Nme deter aqui e lhe ganhar tempo.
+Dialogue: 0,0:13:29.84,0:13:32.24,Default,Echidna,0,0,0,,Isso dói mais do que eu esperava.
+Dialogue: 0,0:13:32.24,0:13:35.84,Default,Hector,0,0,0,,Se quiser chorar, reservamos\Num tempo para isso?
+Dialogue: 0,0:13:35.84,0:13:38.06,Default,Echidna,0,0,0,,Você não mudou nada, não é?
+Dialogue: 0,0:13:38.06,0:13:40.18,Default,Echidna,0,0,0,,Continua igual a quando\Nnos separamos.
+Dialogue: 0,0:13:40.18,0:13:43.67,Default,Hector,0,0,0,,E, como naquela época, você ainda\Nnão sabe falar comigo.
+Dialogue: 0,0:13:44.00,0:13:48.34,Default,Hector,0,0,0,,Mas você era tão adorável\Nnaquela época.
+Dialogue: 0,0:13:53.18,0:13:57.01,Default,Beatrice,0,0,0,,Até quando vai ficar aí caída\Ncom essa cara patética, eu suponho?
+Dialogue: 0,0:13:57.31,0:13:59.72,Default,Ryuzu,0,0,0,,Hã? Beatrice-sama?
+Dialogue: 0,0:13:59.72,0:14:04.13,Default,Beatrice,0,0,0,,Pare de devanear. Temos que agir\Nenquanto a Mãe nos ganha tempo.
+Dialogue: 0,0:14:04.13,0:14:05.44,Default,Ryuzu,0,0,0,,M-Mas...
+Dialogue: 0,0:14:06.86,0:14:08.97,Default,Beatrice,0,0,0,,Os preparativos estão prontos.
+Dialogue: 0,0:14:08.97,0:14:11.16,Default,Beatrice,0,0,0,,Foi o que a Mãe disse, eu suponho.
+Dialogue: 0,0:14:13.76,0:14:15.03,Default,Ryuzu,0,0,0,,Certo.
+Dialogue: 0,0:14:15.49,0:14:17.62,Default,Ryuzu,0,0,0,,Vamos, Beatrice-sama.
+Dialogue: 0,0:14:31.21,0:14:34.02,Default,Beatrice,0,0,0,,Se não quiser virar parte desse cristal,
+Dialogue: 0,0:14:34.02,0:14:36.02,Default,Beatrice,0,0,0,,não fique parada olhando\Npara ele feita boba.
+Dialogue: 0,0:14:36.29,0:14:39.07,Default,Ryuzu,0,0,0,,Desculpe... Sei que não é hora.
+Dialogue: 0,0:14:39.52,0:14:41.57,Default,Beatrice,0,0,0,,E agora, eu suponho?
+Dialogue: 0,0:14:41.57,0:14:46.03,Default,Beatrice,0,0,0,,A Mãe mandou trazê-la aqui,\Nmas não disse mais nada.
+Dialogue: 0,0:14:47.03,0:14:52.38,Default,Ryuzu,0,0,0,,Mesmo assim, segue sem hesitar\No que Echidna-sama ordena.
+Dialogue: 0,0:14:52.38,0:14:53.74,Default,Beatrice,0,0,0,,Claro, eu suponho.
+Dialogue: 0,0:14:54.12,0:14:56.84,Default,Beatrice,0,0,0,,Para mim, a Mãe é absoluta.
+Dialogue: 0,0:14:57.78,0:15:00.96,Default,Beatrice,0,0,0,,Você e os moradores daqui\Nsão realmente abençoados.
+Dialogue: 0,0:15:01.46,0:15:03.57,Default,Beatrice,0,0,0,,Quando tudo isso for resolvido,
+Dialogue: 0,0:15:03.57,0:15:06.27,Default,Beatrice,0,0,0,,poderão retribuir dando o seu melhor,\Neu suponho.
+Dialogue: 0,0:15:11.38,0:15:14.72,Default,Beatrice,0,0,0,,Está sorrindo, mas essa expressão\Nnão me agrada nem um pouco.
+Dialogue: 0,0:15:21.94,0:15:25.90,Default,Ryuzu,0,0,0,,D-Desculpe! Entrou algo no meu olho.
+Dialogue: 0,0:15:27.49,0:15:31.14,Default,Beatrice,0,0,0,,Aliás, fique aqui e não faça\Nnada, eu suponho.
+Dialogue: 0,0:15:31.14,0:15:33.97,Default,Beatrice,0,0,0,,Eu vou ajudar a Mãe.
+Dialogue: 0,0:15:33.97,0:15:38.20,Default,Beatrice,0,0,0,,Também preciso salvar Roswaal antes\Nque morra, eu suponho.
+Dialogue: 0,0:15:38.20,0:15:40.32,Default,Beatrice,0,0,0,,Então, a partir de amanhã...
+Dialogue: 0,0:15:43.32,0:15:48.09,Default,Ryuzu,0,0,0,,Beatrice-sama, obrigada por tudo\No que fez durante todo este tempo.
+Dialogue: 0,0:15:48.39,0:15:49.05,Default,Beatrice,0,0,0,,Hã?
+Dialogue: 0,0:15:49.84,0:15:51.90,Default,Ryuzu,0,0,0,,É hora de dizer adeus.
+Dialogue: 0,0:15:52.37,0:15:55.06,Default,Beatrice,0,0,0,,O que quer dizer com "adeus"?
+Dialogue: 0,0:15:55.06,0:15:59.88,Default,Ryuzu,0,0,0,,Este lugar foi preparado para erguer\Numa barreira sobre a floresta.
+Dialogue: 0,0:15:59.88,0:16:03.27,Default,Ryuzu,0,0,0,,Eu deveria ativar a barreira aos poucos\Ncomo seu núcleo...
+Dialogue: 0,0:16:03.62,0:16:06.73,Default,Ryuzu,0,0,0,,Mas o tempo que tenho\Njá não é mais suficiente.
+Dialogue: 0,0:16:07.08,0:16:09.56,Default,Beatrice,0,0,0,,Tempo... para a barreira?
+Dialogue: 0,0:16:09.56,0:16:12.13,Default,Beatrice,0,0,0,,S-Se aquele homem está atrapalhando, eu—
+Dialogue: 0,0:16:12.13,0:16:14.11,Default,Ryuzu,0,0,0,,Não dá para vencer só lutando\Ncontra ele.
+Dialogue: 0,0:16:14.11,0:16:15.82,Default,Ryuzu,0,0,0,,É para isso que serve o Santuário.
+Dialogue: 0,0:16:16.29,0:16:19.15,Default,Ryuzu,0,0,0,,Foi por isso que Roswaal-sama\Nsacrificou tanto.
+Dialogue: 0,0:16:19.15,0:16:23.10,Default,Ryuzu,0,0,0,,Pois sabe que não pode salvar\NEchidna-sama de outro modo.
+Dialogue: 0,0:16:24.00,0:16:27.20,Default,Ryuzu,0,0,0,,Se concluirmos a barreira,\Npoderemos proteger este lugar.
+Dialogue: 0,0:16:27.91,0:16:30.71,Default,Ryuzu,0,0,0,,Eu me oferecerei para esse fim.
+Dialogue: 0,0:16:31.52,0:16:33.82,Default,Beatrice,0,0,0,,Não diga uma tolice dessas!
+Dialogue: 0,0:16:33.82,0:16:35.52,Default,Beatrice,0,0,0,,Vai se oferecer?!
+Dialogue: 0,0:16:35.52,0:16:39.21,Default,,0,0,0,,Nem sequer domina magia!\NO que pode fazer, eu suponho?!
+Dialogue: 0,0:16:39.21,0:16:39.85,Default,Beatrice,0,0,0,,Você não pode—
+Dialogue: 0,0:16:44.61,0:16:47.29,Default,Beatrice,0,0,0,,Este cristal mágico será o catalisador
+Dialogue: 0,0:16:47.29,0:16:50.10,Default,Beatrice,0,0,0,,para formar a barreira usando\Nseu Od como núcleo?
+Dialogue: 0,0:16:50.98,0:16:54.82,Default,Ryuzu,0,0,0,,Sim. Essa foi a ideia de Echidna-sama.
+Dialogue: 0,0:16:55.72,0:16:57.65,Default,Beatrice,0,0,0,,Espere! Está enganada!
+Dialogue: 0,0:16:57.65,0:17:01.08,Default,Beatrice,0,0,0,,Vou falar com a Mãe sobre isso\Nagora mesmo, eu suponho!
+Dialogue: 0,0:17:01.08,0:17:03.97,Default,Beatrice,0,0,0,,A Mãe me mima muito! Sei que vai ouv—
+Dialogue: 0,0:17:03.97,0:17:05.89,Default,Ryuzu,0,0,0,,Não temos tanto tempo assim.
+Dialogue: 0,0:17:05.89,0:17:08.54,Default,Ryuzu,0,0,0,,A decisão precisa ser tomada agora.
+Dialogue: 0,0:17:08.83,0:17:12.95,Default,Beatrice,0,0,0,,Então minha decisão é ir ajudar a Mãe!
+Dialogue: 0,0:17:12.95,0:17:16.59,Default,Beatrice,0,0,0,,Juntas, a Mãe e eu podemos vencê-lo\Nfacilmente, eu suponho!
+Dialogue: 0,0:17:19.24,0:17:23.31,Default,Beatrice,0,0,0,,Todos podem fugir daqui pela minha\NTravessia de Portas.
+Dialogue: 0,0:17:25.22,0:17:27.60,Default,Beatrice,0,0,0,,Viu? Farei isso, eu suponho!
+Dialogue: 0,0:17:27.60,0:17:30.10,Default,Beatrice,0,0,0,,Vai ser pesado para mim com tanta gente,
+Dialogue: 0,0:17:30.10,0:17:32.16,Default,Beatrice,0,0,0,,mas eu dou conta!
+Dialogue: 0,0:17:32.16,0:17:36.05,Default,Beatrice,0,0,0,,E acharei uma brecha para puxar Roswaal\Ne tirar a Mãe daqui, eu suponho!
+Dialogue: 0,0:17:36.05,0:17:37.53,Default,Beatrice,0,0,0,,Entendeu? Assim nós—
+Dialogue: 0,0:17:41.67,0:17:46.08,Default,Ryuzu,0,0,0,,Quer viver fugindo, com medo\Nde ser perseguida de novo?
+Dialogue: 0,0:17:46.82,0:17:49.65,Default,Ryuzu,0,0,0,,Enfim temos um lugar onde\Npodemos viver em paz,
+Dialogue: 0,0:17:49.65,0:17:52.13,Default,Ryuzu,0,0,0,,graças a Echidna-sama e Roswaal-sama.
+Dialogue: 0,0:17:52.48,0:17:57.86,Default,Ryuzu,0,0,0,,Se o abandonarmos, quanto levará\Npara erguer um novo Santuário?
+Dialogue: 0,0:17:58.90,0:18:03.10,Default,Ryuzu,0,0,0,,Já recebi tempo mais que suficiente\Npara conhecer afeto e bondade.
+Dialogue: 0,0:18:04.05,0:18:06.10,Default,Ryuzu,0,0,0,,Eu amo este lugar.
+Dialogue: 0,0:18:06.59,0:18:09.66,Default,Ryuzu,0,0,0,,Sou muito feliz por ter podido viver aqui.
+Dialogue: 0,0:18:10.18,0:18:13.52,Default,Ryuzu,0,0,0,,Amo o sorriso de todos os que moram aqui.
+Dialogue: 0,0:18:14.64,0:18:17.07,Default,Ryuzu,0,0,0,,Não quero perdê-los.
+Dialogue: 0,0:18:18.68,0:18:21.87,Default,Beatrice,0,0,0,,Não importa o que pense deste lugar,
+Dialogue: 0,0:18:21.87,0:18:24.82,Default,Beatrice,0,0,0,,ele não existe para gente como você!
+Dialogue: 0,0:18:24.82,0:18:26.96,Default,Ryuzu,0,0,0,,Sim, eu sei.
+Dialogue: 0,0:18:28.29,0:18:32.64,Default,Beatrice,0,0,0,,Então... Se sabe disso, por quê?!
+Dialogue: 0,0:18:34.21,0:18:35.49,Default,Ryuzu,0,0,0,,Está tudo bem.
+Dialogue: 0,0:18:35.49,0:18:37.88,Default,Ryuzu,0,0,0,,Talvez fosse verdade no começo.
+Dialogue: 0,0:18:38.74,0:18:39.47,Default,Ryuzu,0,0,0,,Mas...
+Dialogue: 0,0:18:40.80,0:18:44.04,Default,Ryuzu,0,0,0,,Não há como todo o tempo que passamos aqui
+Dialogue: 0,0:18:44.04,0:18:46.64,Default,Ryuzu,0,0,0,,continuar igual ao que era no início.
+Dialogue: 0,0:18:47.64,0:18:49.68,Default,Ryuzu,0,0,0,,A escolha de viver aqui
+Dialogue: 0,0:18:49.68,0:18:52.11,Default,Ryuzu,0,0,0,,e a escolha de conversar com você,
+Dialogue: 0,0:18:52.11,0:18:56.09,Default,Ryuzu,0,0,0,,foram escolhas que fiz por mim mesma.
+Dialogue: 0,0:18:57.24,0:19:00.32,Default,Ryuzu,0,0,0,,Não perdi nada.
+Dialogue: 0,0:19:01.01,0:19:04.23,Default,Ryuzu,0,0,0,,Ainda guardo tudo o que recebi.
+Dialogue: 0,0:19:05.55,0:19:07.71,Default,Ryuzu,0,0,0,,Viver aqui me fez feliz.
+Dialogue: 0,0:19:08.13,0:19:12.67,Default,Ryuzu,0,0,0,,Por isso, para proteger esses momentos...\Neu preciso ir.
+Dialogue: 0,0:19:13.59,0:19:20.88,Default,Ryuzu,0,0,0,,Ofereço meu afeto e minha gratidão\Na você, Beatrice-sama, vez após vez.
+Dialogue: 0,0:19:29.09,0:19:30.27,Default,Ryuzu,0,0,0,,Beatrice-sama...
+Dialogue: 0,0:19:33.23,0:19:37.02,Default,Ryuzu,0,0,0,,Tome cuidado para não comer\Ndoces demais.
+Dialogue: 0,0:19:49.44,0:19:51.37,Default,Beatrice,0,0,0,,O-Os livros...
+Dialogue: 0,0:19:52.45,0:19:55.59,Default,Beatrice,0,0,0,,Eu prometi ensiná-la a ler e escrever.
+Dialogue: 0,0:20:08.47,0:20:09.58,Default,Ryuzu,0,0,0,,Obrigada.
+Dialogue: 0,0:20:23.99,0:20:24.95,Default,Ryuzu,0,0,0,,Adeus,
+Dialogue: 0,0:20:25.84,0:20:26.80,Default,Ryuzu,0,0,0,,Betty.
+Dialogue: 0,0:20:32.32,0:20:36.13,Default,Subaru,0,0,0,,E foi tudo isso que me contaram.
+Dialogue: 0,0:20:37.24,0:20:38.43,Default,Roswaal,0,0,0,,E daí?
+Dialogue: 0,0:20:38.80,0:20:43.16,Default,Roswaal,0,0,0,,Supondo que essa história seja verdade,\Ne o que tem?
+Dialogue: 0,0:20:43.77,0:20:46.05,Default,Subaru,0,0,0,,Vou repetir! Renda-se!
+Dialogue: 0,0:20:46.43,0:20:48.35,Default,Subaru,0,0,0,,O rumo dos acontecimentos já mudou.
+Dialogue: 0,0:20:48.35,0:20:50.49,Default,Subaru,0,0,0,,Pare quem você mandou para a mansão.
+Dialogue: 0,0:20:50.49,0:20:52.68,Default,Subaru,0,0,0,,Assim ainda dá pra resolver tudo!
+Dialogue: 0,0:20:54.63,0:20:56.56,Default,Roswaal,0,0,0,,Eu recuso, Subaru-kun.
+Dialogue: 0,0:20:57.38,0:21:02.32,Default,Roswaal,0,0,0,,Não atravessei estes 400 anos para ceder\Na uma mudança desse porte.
+Dialogue: 0,0:21:02.69,0:21:04.87,Default,Roswaal,0,0,0,,Se pensa que trazer uma peça de fora\Ndo tabuleiro
+Dialogue: 0,0:21:04.87,0:21:09.63,Default,Roswaal,0,0,0,,e afastar o Garfiel lhe dá vantagem,\Nestá muito enganado.
+Dialogue: 0,0:21:09.63,0:21:10.72,Default,Garfiel,0,0,0,,O quê?!
+Dialogue: 0,0:21:10.72,0:21:12.08,Default,Roswaal,0,0,0,,Estou errado?
+Dialogue: 0,0:21:12.51,0:21:15.98,Default,Roswaal,0,0,0,,Você rosnava com tanta fúria\Npara os forasteiros antes,
+Dialogue: 0,0:21:15.98,0:21:20.02,Default,Roswaal,0,0,0,,e agora integra o alegre bando\Nde amigos do Subaru-kun.
+Dialogue: 0,0:21:20.02,0:21:23.26,Default,Roswaal,0,0,0,,Espanta-me a rapidez com que mudou\Nde postura.
+Dialogue: 0,0:21:23.26,0:21:27.09,Default,Garfiel,0,0,0,,Heh! Nada do que você diz tem\Npeso algum, Roswaal!
+Dialogue: 0,0:21:28.08,0:21:29.53,Default,Roswaal,0,0,0,,Não tem peso...
+Dialogue: 0,0:21:30.22,0:21:34.57,Default,Roswaal,0,0,0,,Após se agarrar a um desejo todos\Nos dias pelos últimos dez anos,
+Dialogue: 0,0:21:34.57,0:21:37.89,Default,Roswaal,0,0,0,,e largá-lo tão fácil, diz que {\i1}eu{\i0}\Nnão tenho peso?
+Dialogue: 0,0:21:37.89,0:21:39.56,Default,Roswaal,0,0,0,,Que piada patética.
+Dialogue: 0,0:21:40.75,0:21:43.12,Default,Roswaal,0,0,0,,Um desejo não desaparece assim.
+Dialogue: 0,0:21:43.12,0:21:46.70,Default,Roswaal,0,0,0,,Se amava de verdade sua mãe e família,
+Dialogue: 0,0:21:46.70,0:21:48.54,Default,Roswaal,0,0,0,,se os amava tanto assim,
+Dialogue: 0,0:21:48.54,0:21:51.53,Default,Roswaal,0,0,0,,mudaria mesmo com tanta facilidade?
+Dialogue: 0,0:21:51.86,0:21:56.48,Default,Roswaal,0,0,0,,Ou será que nunca amou sua mãe\Ne sua família?
+Dialogue: 0,0:21:56.82,0:22:00.08,Default,Roswaal,0,0,0,,Um desejo que ruiu no instante em que\Nsuas presas foram quebradas
+Dialogue: 0,0:22:00.08,0:22:02.50,Default,Roswaal,0,0,0,,foi no que gastou seus últimos dez anos?
+Dialogue: 0,0:22:02.81,0:22:04.77,Default,Garfiel,0,0,0,,Não entenda errado.
+Dialogue: 0,0:22:05.51,0:22:06.76,Default,Roswaal,0,0,0,,Entender errado?
+Dialogue: 0,0:22:07.09,0:22:12.14,Default,Garfiel,0,0,0,,Não decidi seguir o meu chefe só\Nporque ele me venceu numa luta.
+Dialogue: 0,0:22:12.81,0:22:16.02,Default,Garfiel,0,0,0,,Passei dez anos preso ao passado.
+Dialogue: 0,0:22:16.29,0:22:19.98,Default,Garfiel,0,0,0,,Só encarei esse passado pela primeira\Nvez em dez anos.
+Dialogue: 0,0:22:20.25,0:22:23.23,Default,Roswaal,0,0,0,,Você enfrentou seu passado? Logo você?
+Dialogue: 0,0:22:23.48,0:22:29.03,Default,Garfiel,0,0,0,,Não me interessa te contar o que vi lá\Nou por que passei a seguir meu chefe.
+Dialogue: 0,0:22:29.48,0:22:36.50,Default,Garfiel,0,0,0,,Mas vou te dizer o grande motivo de\Neu seguir ele em vez de você.
+Dialogue: 0,0:22:38.34,0:22:42.02,Default,Garfiel,0,0,0,,Porque, em vez de seguir quem me mandou\Ncontinuar fraco para sempre,
+Dialogue: 0,0:22:42.48,0:22:47.97,Default,Garfiel,0,0,0,,por que eu não seguiria quem diz:\N"Preciso de você porque é forte"?
+Dialogue: 0,0:22:49.43,0:22:51.68,Default,Garfiel,0,0,0,,Hã? O quê?!
+Dialogue: 0,0:22:51.68,0:22:55.14,Default,Subaru,0,0,0,,Ah, nada. Tô contando com você, cara.
+Dialogue: 0,0:22:57.77,0:23:00.08,Default,Subaru,0,0,0,,O Garfiel viu o passado.
+Dialogue: 0,0:23:00.08,0:23:02.03,Default,Subaru,0,0,0,,E mesmo que esteja aqui por causa disso,
+Dialogue: 0,0:23:02.48,0:23:06.65,Default,Subaru,0,0,0,,não quer dizer que o amor que sentiu\Npela família por dez anos enfraqueceu.
+Dialogue: 0,0:23:07.11,0:23:09.56,Default,Subaru,0,0,0,,A força dos sentimentos dele não mudou.
+Dialogue: 0,0:23:10.16,0:23:13.07,Default,Subaru,0,0,0,,Ele mudou sem jamais mudar.
+Dialogue: 0,0:23:14.48,0:23:16.27,Default,Subaru,0,0,0,,O mesmo vale pra você.
+Dialogue: 0,0:23:16.27,0:23:20.00,Default,Subaru,0,0,0,,Se os seus métodos... Se ao menos\Nolhasse na mesma direção que nós,
+Dialogue: 0,0:23:20.00,0:23:21.46,Default,Subaru,0,0,0,,a gente podia se dar bem.
+Dialogue: 0,0:23:21.92,0:23:23.75,Default,Subaru,0,0,0,,Ainda dá tempo de voltar atrás!
+Dialogue: 0,0:23:26.40,0:23:29.19,Default,Roswaal,0,0,0,,A vantagem ainda é minha.
+Dialogue: 0,0:23:29.19,0:23:30.57,Default,Subaru,0,0,0,,O quê?
+Dialogue: 0,0:23:30.57,0:23:34.40,Default,Roswaal,0,0,0,,Pelos termos da aposta, sua maior\Narma foi selada,
+Dialogue: 0,0:23:34.40,0:23:36.35,Default,Roswaal,0,0,0,,tornando-o uma pessoa comum.
+Dialogue: 0,0:23:36.35,0:23:39.51,Default,Roswaal,0,0,0,,E o que alguém comum como você faz?
+Dialogue: 0,0:23:39.51,0:23:41.14,Default,Roswaal,0,0,0,,Você não pode fazer nada!
+Dialogue: 0,0:23:41.47,0:23:43.01,Default,Roswaal,0,0,0,,Absolutamente nada!
+Dialogue: 0,0:23:43.01,0:23:45.60,Default,Roswaal,0,0,0,,É menos que comum! O que pode fazer?!
+Dialogue: 0,0:23:45.60,0:23:49.38,Default,Roswaal,0,0,0,,No Santuário, ninguém viola sentimentos\Ncravados em si pelo tempo!
+Dialogue: 0,0:23:49.38,0:23:51.83,Default,Roswaal,0,0,0,,Ninguém! Isso jamais mudará!
+Dialogue: 0,0:23:51.83,0:23:57.54,Default,Roswaal,0,0,0,,Meus 400 anos jamais serão derrubados\Npor alguém comum como você!
+Dialogue: 0,0:23:58.25,0:24:00.50,Default,Subaru,0,0,0,,Porque sentimentos não mudam?
+Dialogue: 0,0:24:00.69,0:24:01.37,Default,Roswaal,0,0,0,,Sim!
+Dialogue: 0,0:24:01.58,0:24:05.23,Default,Subaru,0,0,0,,Porque é nisso que acredita há tanto tempo?
+Dialogue: 0,0:24:05.23,0:24:06.88,Default,Roswaal,0,0,0,,Sim, exato!
+Dialogue: 0,0:24:06.88,0:24:11.38,Default,Subaru,0,0,0,,Por que você só olha para a fraqueza\Ndos sentimentos?!
+Dialogue: 0,0:24:11.38,0:24:15.73,Default,Subaru,0,0,0,,Você sabe que amar alguém por tanto\Ntempo é um sentimento forte!
+Dialogue: 0,0:24:15.73,0:24:18.47,Default,Subaru,0,0,0,,Por que insiste em só enxergar\Nfraqueza nisso?!
+Dialogue: 0,0:24:18.47,0:24:22.06,Default,Roswaal,0,0,0,,Porque é nisso que eu acredito!
+Dialogue: 0,0:24:22.63,0:24:26.40,Default,Roswaal,0,0,0,,Assim como você acha esperança ao crer\Nna força dos outros,
+Dialogue: 0,0:24:26.40,0:24:30.06,Default,Roswaal,0,0,0,,eu creio que todos continuam\Nsempre fracos!
+Dialogue: 0,0:24:30.06,0:24:33.89,Default,Roswaal,0,0,0,,Tão fracos e frágeis que, além de se\Nagarrar a uma única coisa preciosa,
+Dialogue: 0,0:24:33.89,0:24:37.28,Default,Roswaal,0,0,0,,nem sequer são capazes de realizar\Nos próprios desejos!
+Dialogue: 0,0:24:37.28,0:24:39.12,Default,Roswaal,0,0,0,,É nisso que acredito!
+Dialogue: 0,0:24:39.52,0:24:43.44,Default,Roswaal,0,0,0,,Por 400 anos, amei apenas uma mulher.
+Dialogue: 0,0:24:43.44,0:24:46.17,Default,Roswaal,0,0,0,,Muito mais tempo do que aquele\Nem que estivemos juntos.
+Dialogue: 0,0:24:46.17,0:24:48.43,Default,Roswaal,0,0,0,,E mesmo após tanto tempo sem ela,
+Dialogue: 0,0:24:48.43,0:24:50.80,Default,Roswaal,0,0,0,,a imagem dela arde em mim para sempre.
+Dialogue: 0,0:24:51.14,0:24:54.46,Default,Roswaal,0,0,0,,Jamais para de queimar minha própria alma!
+Dialogue: 0,0:24:56.16,0:24:59.81,Default,Roswaal,0,0,0,,Meu coração segue em pedaços, como\Ndesde o dia em que nos separamos.
+Dialogue: 0,0:25:00.13,0:25:02.56,Default,Roswaal,0,0,0,,Nada mudou para mim!
+Dialogue: 0,0:25:04.67,0:25:06.52,Default,Roswaal,0,0,0,,Direi mais uma vez.
+Dialogue: 0,0:25:06.74,0:25:09.65,Default,Roswaal,0,0,0,,A vantagem ainda é minha.
+Dialogue: 0,0:25:09.65,0:25:13.09,Default,Roswaal,0,0,0,,E se parte das nossas histórias\Nnão bater, o que acontece?
+Dialogue: 0,0:25:13.78,0:25:18.17,Default,Roswaal,0,0,0,,Tanto para você quanto para mim, enquanto\Nrestar essa pessoa crucial,
+Dialogue: 0,0:25:18.17,0:25:19.87,Default,Roswaal,0,0,0,,a batalha nunca terá fim.
+Dialogue: 0,0:25:20.37,0:25:22.64,Default,Subaru,0,0,0,,Não subestime a Emilia.
+Dialogue: 0,0:25:22.64,0:25:25.86,Default,Subaru,0,0,0,,Ela não vai mais seguir suas ideias.
+Dialogue: 0,0:25:25.86,0:25:27.37,Default,Subaru,0,0,0,,Ela vai superar tudo!
+Dialogue: 0,0:25:27.37,0:25:29.33,Default,Roswaal,0,0,0,,Acha mesmo isso possível?
+Dialogue: 0,0:25:29.33,0:25:33.05,Default,Roswaal,0,0,0,,Ficará sem saída, esmagada\Npelos próprios arrependimentos,
+Dialogue: 0,0:25:33.05,0:25:36.23,Default,Roswaal,0,0,0,,se arrependerá de ter tentado mudar,
+Dialogue: 0,0:25:36.23,0:25:38.40,Default,Roswaal,0,0,0,,e se agarrará a você em prantos.
+Dialogue: 0,0:25:38.40,0:25:39.62,Default,Roswaal,0,0,0,,É isso que combina—
+Dialogue: 0,0:25:39.62,0:25:42.70,Default,Subaru,0,0,0,,Chorar não combina com mulher nenhuma!
+Dialogue: 0,0:25:42.70,0:25:47.05,Default,Subaru,0,0,0,,Nunca vi uma garota tão péssima\Nem chorar!
+Dialogue: 0,0:25:47.05,0:25:49.48,Default,Roswaal,0,0,0,,Ela será ferida e desprezada.
+Dialogue: 0,0:25:49.48,0:25:51.94,Default,,0,0,0,,Esse é o destino da meia-elfa.
+Dialogue: 0,0:25:52.36,0:25:56.72,Default,Roswaal,0,0,0,,Nascida com a maldição de partilhar\Na linhagem da Bruxa da Inveja,
+Dialogue: 0,0:25:56.72,0:26:00.12,Default,Roswaal,0,0,0,,é inevitável que seja odiada\Ncomo uma bruxa!
+Dialogue: 0,0:26:00.70,0:26:02.30,Default,Subaru,0,0,0,,Vá pro inferno!
+Dialogue: 0,0:26:02.30,0:26:04.10,Default,Subaru,0,0,0,,Como diabos ela é uma bruxa?!
+Dialogue: 0,0:26:04.10,0:26:07.37,Default,Subaru,0,0,0,,São vocês que se juntam\Npra transformá-la em uma!
+Dialogue: 0,0:26:07.73,0:26:11.04,Default,Subaru,0,0,0,,Alguém já disse a ela alguma vez
+Dialogue: 0,0:26:11.04,0:26:14.29,Default,Subaru,0,0,0,,que tudo bem chorar quando estiver\Nmachucada ou triste?!
+Dialogue: 0,0:26:14.29,0:26:18.26,Default,Subaru,0,0,0,,Se ela não consegue enxugar as lágrimas,\Nalguém de fora seca por ela!
+Dialogue: 0,0:26:18.50,0:26:24.27,Default,Subaru,0,0,0,,Alguém já contou que existe alguém\Nlá fora que fará isso por ela?!
+Dialogue: 0,0:26:24.82,0:26:27.50,Default,Subaru,0,0,0,,Se ninguém mais fizer isso, eu faço!
+Dialogue: 0,0:26:27.86,0:26:28.89,Default,Subaru,0,0,0,,Sentimentos...
+Dialogue: 0,0:26:29.46,0:26:30.70,Default,,0,0,0,,Maldições...
+Dialogue: 0,0:26:30.70,0:26:33.73,Default,Subaru,0,0,0,,Se acredita que são coisas que\Nnunca podem mudar,
+Dialogue: 0,0:26:33.73,0:26:35.78,Default,Subaru,0,0,0,,vamos enfiar a verdade na sua cabeça!
+Dialogue: 0,0:26:36.63,0:26:39.13,Default,Subaru,0,0,0,,Meu nome é Natsuki Subaru!
+Dialogue: 0,0:26:39.13,0:26:42.99,Default,Subaru,0,0,0,,Eu sou o cavaleiro da meia-elfa\Nde cabelos prateados, Emilia!
+Dialogue: 0,0:26:46.98,0:26:49.46,Default,Subaru,0,0,0,,A Emilia tá chegando, Roswaal.
+Dialogue: 0,0:26:49.72,0:26:53.00,Default,Subaru,0,0,0,,A garota que você jura ser fraca
+Dialogue: 0,0:26:53.00,0:26:56.27,Default,Subaru,0,0,0,,vai vir pra cortar esse seu\Núltimo desejo!
+Dialogue: 0,0:26:57.48,0:27:01.43,Default,Roswaal,0,0,0,,Então minhas suspeitas estavam certas,\NNatsuki Subaru.
+Dialogue: 0,0:27:01.78,0:27:02.99,Default,Subaru,0,0,0,,O quê?
+Dialogue: 0,0:27:02.99,0:27:05.45,Default,Roswaal,0,0,0,,Você e eu somos parecidos...
+Dialogue: 0,0:27:06.61,0:27:10.47,Default,Roswaal,0,0,0,,no sentido de que ambos impomos nossos\Nideais às mulheres que amamos.
+Dialogue: 0,0:27:10.96,0:27:14.90,Default,Subaru,0,0,0,,Você acredita na fraqueza,\Ne eu acredito na força.
+Dialogue: 0,0:27:15.62,0:27:19.92,Default,Subaru,0,0,0,,Concordo na parte de que você e eu\Nsomos parecidos.
+Dialogue: 0,0:27:22.45,0:27:23.38,Default,Subaru,0,0,0,,Vamos.
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 1,0:27:28.33,0:27:32.33,AstralSigns,,0,0,0,,O Começo do Santuário e o Fim
+Dialogue: 10,0:27:28.91,0:27:30.77,Default,Subaru,0,0,0,,Seu idiota!
+Dialogue: 0,0:27:42.04,0:27:44.32,Default,Emilia,0,0,0,,Sim. Já estou bem agora.
+Dialogue: 0,0:27:55.04,0:27:57.63,Default,Ram,0,0,0,,Bem-vinda de volta, Emilia-sama.
+Dialogue: 0,0:27:59.99,0:29:29.95,Default,,0,0,0,,{ED2 START FRAME - Frame after EP}
+Dialogue: 0,0:28:10.37,0:28:16.22,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,527,\blur5)}{\c&H000000&\1a&HFF&\t(482,527,\1a&H00&)\t(5600,5645,\1a&HFF&)}{\fad(527,250)\3c&H000000&\c&H000000&\3a&H19&}kowarenai you ni yasashiku daite
+Dialogue: 1,0:28:10.37,0:28:16.22,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,527,\blur0.5)}{\bord0\4a&HFF&}{\fad(527,250)\c&HD9DCD9&\3a&H19&}kowarenai you ni yasashiku daite
+Dialogue: 0,0:28:10.37,0:28:16.22,ED2 - English (v0),,0,0,0,,Como se eu fosse quebrar, me abrace com carinho
+Dialogue: 0,0:28:16.40,0:28:20.51,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(3860,3905,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}tokete namida nagasu
+Dialogue: 1,0:28:16.40,0:28:20.51,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}tokete namida nagasu
+Dialogue: 0,0:28:16.40,0:28:20.51,ED2 - English (v0),,0,0,0,,Como se eu fosse derreter, as lágrimas escorrem
+Dialogue: 0,0:28:20.51,0:28:32.19,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,439,\blur5)}{\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(11430,11475,\1a&HFF&)}{\fad(439,250)\3c&H000000&\c&H000000&\3a&H19&}sonna koori no ningyou mitai ni narenaikara
+Dialogue: 1,0:28:20.51,0:28:32.19,ED2 - Romaji (v0),,0,0,0,,{\blur10}{\t(0,439,\blur0.5)}{\bord0\4a&HFF&}{\fad(439,250)\c&HD9DCD9&\3a&H19&}sonna koori no ningyou mitai ni narenaikara
+Dialogue: 0,0:28:20.51,0:28:32.19,ED2 - English (v0),,0,0,0,,Mas não posso ser como uma boneca de gelo
+Dialogue: 0,0:28:35.80,0:28:44.45,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(8400,8445,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}mou nigenai shiritai no
+Dialogue: 1,0:28:35.80,0:28:44.45,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}mou nigenai shiritai no
+Dialogue: 0,0:28:35.80,0:28:44.45,ED2 - English (v0),,0,0,0,,Não vou mais fugir
+Dialogue: 0,0:28:44.65,0:28:45.65,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(750,795,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}tsuyoku
+Dialogue: 1,0:28:44.65,0:28:45.65,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\c&HD9DCD9&\3a&H19&}tsuyoku
+Dialogue: 0,0:28:44.65,0:28:45.65,ED2 - English (v0),,0,0,0,,Eu preciso saber!
+Dialogue: 0,0:28:45.66,0:28:47.42,ED2 - English (v0),,0,0,0,,Eu acredito, acredito em você
+Dialogue: 0,0:28:45.66,0:28:47.42,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(1510,1555,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}I believe, believe in you
+Dialogue: 1,0:28:45.66,0:28:47.42,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}I believe, believe in you
+Dialogue: 0,0:28:47.42,0:28:51.44,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(3770,3815,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}kitto ichiban no yakusoku no kotoba
+Dialogue: 1,0:28:47.42,0:28:51.44,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}kitto ichiban no yakusoku no kotoba
+Dialogue: 0,0:28:47.42,0:28:51.44,ED2 - English (v0),,0,0,0,,Tenho certeza de que é a promessa mais importante que já fiz
+Dialogue: 0,0:28:51.44,0:28:55.75,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4420,4465,\1a&HFF&)}{\fad(250,600)\3c&H000000&\c&H000000&\3a&H19&}itai kurai nigitte hanasanai
+Dialogue: 1,0:28:51.44,0:28:55.75,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,600)\3a&H19&}itai kurai nigitte hanasanai
+Dialogue: 0,0:28:51.44,0:28:55.75,ED2 - English (v0),,0,0,0,,Por isso vou me agarrar a ela e não vou soltar
+Dialogue: 0,0:28:56.11,0:28:58.70,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2340,2385,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}wagamama na ima tsurete
+Dialogue: 1,0:28:56.11,0:28:58.70,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}wagamama na ima tsurete
+Dialogue: 0,0:28:56.11,0:28:58.70,ED2 - English (v0),,0,0,0,,Reúna todo esse seu egoísmo
+Dialogue: 0,0:28:58.70,0:29:01.81,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2860,2905,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}dare no mono demo nai mirai wo
+Dialogue: 1,0:28:58.70,0:29:01.81,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}dare no mono demo nai mirai wo
+Dialogue: 0,0:28:58.70,0:29:01.81,ED2 - English (v0),,0,0,0,,e vamos começar um futuro
+Dialogue: 0,0:29:01.81,0:29:04.57,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(2510,2555,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}soko kara hajimeru no
+Dialogue: 1,0:29:01.81,0:29:04.57,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}soko kara hajimeru no
+Dialogue: 0,0:29:01.81,0:29:04.57,ED2 - English (v0),,0,0,0,,que não pertença a mais ninguém
+Dialogue: 0,0:29:04.57,0:29:09.77,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4950,4995,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}{\t(298,298,)}sora wo tsukamu
+Dialogue: 1,0:29:04.57,0:29:09.77,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}sora wo tsukamu
+Dialogue: 0,0:29:04.57,0:29:09.77,ED2 - English (v0),,0,0,0,,Se você estender suas mãos em prece
+Dialogue: 0,0:29:09.77,0:29:15.04,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(5020,5065,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}inori no te wo
+Dialogue: 1,0:29:09.77,0:29:15.04,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}inori no te wo
+Dialogue: 0,0:29:09.77,0:29:15.04,ED2 - English (v0),,0,0,0,,o mais longe que puder,
+Dialogue: 0,0:29:15.04,0:29:20.14,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(4850,4895,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}nobasu kagiri
+Dialogue: 1,0:29:15.04,0:29:20.14,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}nobasu kagiri
+Dialogue: 0,0:29:15.04,0:29:20.14,ED2 - English (v0),,0,0,0,,lá para o céu,
+Dialogue: 0,0:29:20.14,0:29:28.77,ED2 - Romaji (v0),,0,0,0,,{\blur5\c&H000000&\1a&HFF&\t(205,250,\1a&H00&)\t(8380,8425,\1a&HFF&)}{\fad(250,250)\3c&H000000&\c&H000000&\3a&H19&}soko ni hontou wa aru no
+Dialogue: 1,0:29:20.14,0:29:28.77,ED2 - Romaji (v0),,0,0,0,,{\bord0\blur0.5\4a&HFF&}{\fad(250,250)\3a&H19&}soko ni hontou wa aru no
+Dialogue: 0,0:29:20.14,0:29:28.77,ED2 - English (v0),,0,0,0,,então com certeza alcançará a verdade
