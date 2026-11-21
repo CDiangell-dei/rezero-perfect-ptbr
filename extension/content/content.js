@@ -434,21 +434,40 @@
       }
 
       if (cue.isKaraoke && Array.isArray(cue.karaoke) && cue.karaoke.length > 0) {
-        const sylRefs = [];
-        for (let idx = 0; idx < cue.karaoke.length; idx++) {
-          const syl = cue.karaoke[idx];
+        const validSyls = [];
+        for (const syl of cue.karaoke) {
           const text = String(syl?.text || '');
           if (!text) continue;
-          const span = document.createElement('span');
-          span.className = 'rzpt-k-syl';
-          span.appendChild(document.createTextNode(text));
-          cueBox.appendChild(span);
-
-          const startT = Number(syl.t || cue.start);
-          const rawNext =
-            idx + 1 < cue.karaoke.length ? Number(cue.karaoke[idx + 1].t) : Number(cue.end);
-          const endT = Number.isFinite(rawNext) && rawNext > startT ? rawNext : Number(cue.end);
-          sylRefs.push({ el: span, t: startT, endT });
+          const parsedT = Number(syl?.t);
+          validSyls.push({
+            text,
+            rawT: Number.isFinite(parsedT) ? parsedT : Number(cue.start),
+          });
+        }
+        const cueEnd = Number(cue.end);
+        const sylRefs = [];
+        let i = 0;
+        while (i < validSyls.length) {
+          const baseT = validSyls[i].rawT;
+          let j = i + 1;
+          while (j < validSyls.length && validSyls[j].rawT <= baseT + 0.001) {
+            j += 1;
+          }
+          const rawHigher = j < validSyls.length ? validSyls[j].rawT : cueEnd;
+          const nextHigherT =
+            Number.isFinite(rawHigher) && rawHigher > baseT + 0.001 ? rawHigher : baseT + 0.15;
+          const count = j - i;
+          const step = (nextHigherT - baseT) / count;
+          for (let k = 0; k < count; k++) {
+            const startT = baseT + k * step;
+            const endT = k + 1 < count ? baseT + (k + 1) * step : nextHigherT;
+            const span = document.createElement('span');
+            span.className = 'rzpt-k-syl';
+            span.appendChild(document.createTextNode(validSyls[i + k].text));
+            cueBox.appendChild(span);
+            sylRefs.push({ el: span, t: startT, endT });
+          }
+          i = j;
         }
         this.karaokeRefs.push({ syls: sylRefs });
         rowEl.appendChild(cueBox);

@@ -28,6 +28,13 @@ const STORAGE_KEYS = {
   REMOTE_SUB_CACHE: 'rzptRemoteSubCache',
 };
 
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.storage.local.remove([
+    STORAGE_KEYS.REMOTE_MANIFEST_CACHE,
+    STORAGE_KEYS.REMOTE_SUB_CACHE,
+  ]);
+});
+
 function validateSubtitleRelPath(relPath) {
   if (
     typeof relPath !== 'string' ||
@@ -242,6 +249,7 @@ async function getBundledOrRemoteSubtitle({ path, updatedAt = null, forceRefresh
     const cachedEntry = subCache[path];
 
     if (
+      remotePreferred &&
       !forceRefresh &&
       cachedEntry?.data?.cues &&
       (!updatedAt || !isNewerTimestamp(updatedAt, cachedEntry.updatedAt))

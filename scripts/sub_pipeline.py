@@ -719,9 +719,26 @@ def _fill_monotone_karaoke_times(
         t_cur = round(max(last_t, min(max_t, t_cur)), 3)
         last_t = t_cur
         syls.append({"text": txt, "t": t_cur})
-    if len(syls) >= 2 and len({s["t"] for s in syls}) == 1:
-        for i, s in enumerate(syls):
-            s["t"] = round(st_s + (i / n) * span_dur, 3)
+
+    i = 0
+    while i < len(syls):
+        base_t = syls[i]["t"]
+        j = i + 1
+        while j < len(syls):
+            cand_t = syls[j]["t"]
+            if cand_t <= base_t + 0.001 or (cand_t - base_t) < 0.002 * (j - i + 1):
+                j += 1
+            else:
+                break
+        if j - i >= 2:
+            if j < len(syls):
+                span_step = syls[j]["t"] - base_t
+            else:
+                next_t = max(base_t + 0.05, en_s - 0.02)
+                span_step = max(0.02, next_t - base_t)
+            for k in range(j - i):
+                syls[i + k]["t"] = round(base_t + (k / (j - i)) * span_step, 3)
+        i = j
     return syls
 
 
@@ -1460,10 +1477,9 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                 if line_end <= st_s + 0.05:
                     continue
 
-                # Build spaced syllables: attach trailing space to preceding syllable
+                # Build spaced syllables: attach trailing space to preceding syllable; onset of syl i is prev syl end
                 syls_out: list[dict[str, Any]] = []
-                last_k_t = round(st_s, 3)
-                for s_idx, (x, y, k_end, raw_p) in enumerate(items):
+                for s_idx, (x, y, _k_end, raw_p) in enumerate(items):
                     if s_idx > 0:
                         px, py, _, prev_p = items[s_idx - 1]
                         same_row = abs(y - py) <= row_band
@@ -1474,9 +1490,14 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                             gap = (x - px) - expected_dx
                             if gap > 0.125 * fs and not prev_p.endswith(":"):
                                 syls_out[-1]["text"] += " "
-                    t_k = round(max(last_k_t, min(line_end - 0.05, max(st_s, float(k_end)))), 3)
-                    last_k_t = t_k
-                    syls_out.append({"text": raw_p, "t": t_k})
+                    raw_t = st_s if s_idx == 0 else float(items[s_idx - 1][2])
+                    syls_out.append({"text": raw_p, "t": raw_t})
+
+                syls_out = _fill_monotone_karaoke_times(
+                    [(s["text"], s["t"]) for s in syls_out],
+                    st_s,
+                    line_end,
+                )
 
                 joined = "".join(s["text"] for s in syls_out).strip()
                 if joined:
@@ -2425,22 +2446,46 @@ def cmd_build(args: argparse.Namespace) -> int:
     # Sort karaoke cues ahead of translation cues at the same timestamp so Romaji sits cleanly above PT-BR
     ext_cues.sort(key=lambda c: (c["start"], 0 if c.get("isKaraoke") else 1, c["end"]))
     dedup_cues: list[dict[str, Any]] = []
-    last_by_key: dict[tuple[bool, int, bool, str | None, str], dict[str, Any]] = {}
+    last_by_norm: dict[tuple[bool, str], dict[str, Any]] = {}
     for cue in ext_cues:
         plain_text = _runs_to_plain_text(cue["lines"])
+        norm_text = re.sub(r"\s+", " ", plain_text).strip().lower()
         is_k = bool(cue.get("isKaraoke"))
-        k_sig = (is_k, int(cue.get("align", 2)), bool(cue.get("isSign")), cue.get("role"), plain_text)
-        prev = last_by_key.get(k_sig)
-        if prev is not None and float(cue["start"]) < float(prev["end"]) - 0.01:
-            if float(cue["end"]) > float(prev["end"]):
-                prev["end"] = cue["end"]
-            prev_colored = any("color" in r for ln in prev["lines"] for r in ln)
-            cue_colored = any("color" in r for ln in cue["lines"] for r in ln)
-            if prev_colored and not cue_colored:
-                prev["lines"] = cue["lines"]
-            continue
+        if cue.get("role") == "title" and norm_text and set(norm_text) == {"!"}:
+            norm_key = (is_k, "title:!")
+        else:
+            norm_key = (is_k, norm_text)
+        prev = last_by_norm.get(norm_key)
+        if prev is not None:
+            if float(cue["start"]) < float(prev["end"]) - 0.01:
+                if float(cue["end"]) > float(prev["end"]):
+                    prev["end"] = cue["end"]
+                if prev.get("isSign") and not cue.get("isSign"):
+                    prev["align"] = cue.get("align", 2)
+                    prev["style"] = cue.get("style")
+                    prev["isSign"] = False
+                    if cue.get("role") is not None:
+                        prev["role"] = cue["role"]
+                    else:
+                        prev.pop("role", None)
+                    prev["lines"] = cue["lines"]
+                else:
+                    prev_colored = any("color" in r for ln in prev["lines"] for r in ln)
+                    cue_colored = any("color" in r for ln in cue["lines"] for r in ln)
+                    if prev_colored and not cue_colored and prev.get("isSign") == cue.get("isSign"):
+                        prev["lines"] = cue["lines"]
+                continue
+            if (
+                not is_k
+                and len(norm_text) >= 25
+                and cue.get("style") == prev.get("style")
+                and float(cue["start"]) <= float(prev["end"]) + 0.05
+            ):
+                if float(cue["end"]) > float(prev["end"]):
+                    prev["end"] = cue["end"]
+                continue
         dedup_cues.append(cue)
-        last_by_key[k_sig] = cue
+        last_by_norm[norm_key] = cue
 
     for cue in dedup_cues:
         if not cue.get("isKaraoke"):

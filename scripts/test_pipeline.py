@@ -521,7 +521,7 @@ class PipelineTestCase(unittest.TestCase):
         self.assertEqual(ed["lines"][0][0]["text"], "oh, please stay")
         self.assertEqual(
             ed["karaoke"],
-            [{"text": "oh, ", "t": 60.3}, {"text": "please ", "t": 60.6}, {"text": "stay", "t": 60.9}],
+            [{"text": "oh, ", "t": 60.0}, {"text": "please ", "t": 60.3}, {"text": "stay", "t": 60.6}],
         )
 
     def test_export_release_zips(self) -> None:
