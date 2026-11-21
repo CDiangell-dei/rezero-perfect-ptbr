@@ -11,6 +11,28 @@
     mono: '"Cascadia Code", "Consolas", ui-monospace, SFMono-Regular, monospace',
   };
 
+  function detectSongTheme(cue, arcId, episodeKey) {
+    const style = String(cue?.style || '').trim().toLowerCase();
+    if (style.includes('re:zero op2')) return 'op2-paradisus';
+    if (style.includes('re:zero op')) return 'op1-redo';
+    if (style.startsWith('op1-')) return 'op3-realize';
+    if (
+      style.startsWith('op2 -') ||
+      (arcId === 'arc04' && episodeKey === 'arc04-ep17' && (cue.isKaraoke || cue.role === 'song'))
+    ) {
+      return 'op4-longshot';
+    }
+    if (style === 'opr' || style === 'ope') return 'op5-reweave';
+    if (style.includes('ed01')) return 'ed1-styx';
+    if (style === 'insert') return 'ova-memories';
+    if (style === 'ed - r' || style === 'ed - e') return 'ova-snow';
+    if (style.includes('ed02') || style.startsWith('ending -')) return 'ed2-stayalive';
+    if (style.startsWith('ed1-')) return 'ed3-memento';
+    if (style.startsWith('ed2 -') || style.startsWith('insert ed')) return 'ed4-believe';
+    if (style === 'edr' || style === 'ede') return 'ed5-noxlux';
+    return null;
+  }
+
   const DEFAULT_SETTINGS = {
     enabled: true,
     fontScale: 1.0,
@@ -402,6 +424,12 @@
       }
       if (cue.role) {
         cueBox.classList.add(`rzpt-role-${cue.role}`);
+      }
+      if (cue.isKaraoke || cue.role === 'song') {
+        const songTheme = detectSongTheme(cue, state.arcId, this.episodeKey);
+        if (songTheme) {
+          cueBox.classList.add(`rzpt-song-${songTheme}`);
+        }
       }
 
       if (cue.isKaraoke && Array.isArray(cue.karaoke) && cue.karaoke.length > 0) {

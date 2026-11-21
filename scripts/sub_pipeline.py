@@ -667,31 +667,103 @@ def _spans_overlap_same_cue(s1: float, e1: float, s2: float, e2: float) -> bool:
     return ov >= 0.4 * min(d1, d2)
 
 
+def _reconstruct_pos_tokens(
+    items: list[tuple[Any, ...]],
+    fs: float,
+    gap_ratio: float | None = None,
+    width_scale: float = 1.0,
+) -> list[tuple[str, float | None]]:
+    if not items:
+        return []
+    row_band = max(20.0, fs * 0.35)
+    sorted_items = sorted(items, key=lambda t: (round(t[1] / row_band), t[0]))
+    if gap_ratio is None:
+        single_chars = sum(1 for t in sorted_items if len(t[2]) == 1)
+        gap_ratio = 0.20 if single_chars >= 0.6 * len(sorted_items) else 0.36
+    tokens: list[tuple[str, float | None]] = []
+    for s_idx, item in enumerate(sorted_items):
+        x, y, raw_p = float(item[0]), float(item[1]), str(item[2])
+        t_val = item[3] if len(item) >= 4 else None
+        if s_idx > 0 and tokens:
+            px, py, prev_p = float(sorted_items[s_idx - 1][0]), float(sorted_items[s_idx - 1][1]), str(sorted_items[s_idx - 1][2])
+            need_space = False
+            if abs(y - py) > row_band:
+                need_space = True
+            else:
+                expected_dx = (_est_glyph_width(prev_p, fs) + _est_glyph_width(raw_p, fs)) * width_scale / 2.0
+                if (x - px) - expected_dx > gap_ratio * fs and not prev_p.endswith(":"):
+                    need_space = True
+            if need_space:
+                tokens[-1] = (tokens[-1][0] + " ", tokens[-1][1])
+        tokens.append((raw_p, t_val))
+    return tokens
+
+
+def _fill_monotone_karaoke_times(
+    tokens: list[tuple[str, float | None]],
+    st_s: float,
+    en_s: float,
+) -> list[dict[str, Any]]:
+    if not tokens:
+        return []
+    n = len(tokens)
+    span_dur = max(0.2, (en_s - st_s) * 0.88)
+    max_t = max(st_s, en_s - 0.05)
+    last_t = round(st_s, 3)
+    syls: list[dict[str, Any]] = []
+    for i, (txt, tv) in enumerate(tokens):
+        if tv is None or tv < st_s - 0.15 or tv > en_s:
+            t_cur = st_s + (i / max(1, n)) * span_dur
+        else:
+            t_cur = tv
+        t_cur = round(max(last_t, min(max_t, t_cur)), 3)
+        last_t = t_cur
+        syls.append({"text": txt, "t": t_cur})
+    if len(syls) >= 2 and len({s["t"] for s in syls}) == 1:
+        for i, s in enumerate(syls):
+            s["t"] = round(st_s + (i / n) * span_dur, 3)
+    return syls
+
+
+def _build_fallback_karaoke_syls(text: str, st_s: float, en_s: float) -> list[dict[str, Any]]:
+    clean = re.sub(r"[ \t]+", " ", text.replace("\n", " ")).strip()
+    if not clean:
+        return []
+    parts = re.findall(r"\S+\s*", clean)
+    if len(parts) == 1 and len(clean) >= 5 and not _looks_like_english_lyric(clean):
+        kana_chunks = re.findall(r"[^aiueo\s]*[aiueo]+n?(?![aiueo])|[^aiueo\s]+|\S+", clean, re.IGNORECASE)
+        if len(kana_chunks) >= 2:
+            parts = kana_chunks
+    elif len(parts) == 1 and len(clean) >= 6:
+        mid = len(clean) // 2
+        parts = [clean[:mid], clean[mid:]]
+    return _fill_monotone_karaoke_times([(p, None) for p in parts], st_s, en_s)
+
+
+def _reconstruct_pos_karaoke(
+    items_with_t: list[tuple[float, float, str, float | None]],
+    fs: float,
+    st_s: float,
+    en_s: float,
+    gap_ratio: float | None = None,
+    width_scale: float = 1.0,
+) -> tuple[str, list[dict[str, Any]]]:
+    tokens = _reconstruct_pos_tokens(items_with_t, fs, gap_ratio=gap_ratio, width_scale=width_scale)
+    if not tokens:
+        return "", []
+    syls = _fill_monotone_karaoke_times(tokens, st_s, en_s)
+    joined = "".join(s["text"] for s in syls).strip()
+    return joined, syls
+
+
 def _reconstruct_pos_line(
     items: list[tuple[float, float, str]],
     fs: float,
     gap_ratio: float | None = None,
     width_scale: float = 1.0,
 ) -> str:
-    if not items:
-        return ""
-    row_band = max(20.0, fs * 0.35)
-    sorted_items = sorted(items, key=lambda t: (round(t[1] / row_band), t[0]))
-    if gap_ratio is None:
-        single_chars = sum(1 for _, _, p in sorted_items if len(p) == 1)
-        gap_ratio = 0.20 if single_chars >= 0.6 * len(sorted_items) else 0.36
-    parts_out: list[str] = []
-    for s_idx, (x, y, raw_p) in enumerate(sorted_items):
-        if s_idx > 0:
-            px, py, prev_p = sorted_items[s_idx - 1]
-            if abs(y - py) > row_band:
-                parts_out.append(" ")
-            else:
-                expected_dx = (_est_glyph_width(prev_p, fs) + _est_glyph_width(raw_p, fs)) * width_scale / 2.0
-                if (x - px) - expected_dx > gap_ratio * fs and not prev_p.endswith(":"):
-                    parts_out.append(" ")
-        parts_out.append(raw_p)
-    return "".join(parts_out).strip()
+    tokens = _reconstruct_pos_tokens(items, fs, gap_ratio=gap_ratio, width_scale=width_scale)
+    return "".join(txt for txt, _ in tokens).strip()
 
 
 def _collapse_animated_events(
@@ -1137,26 +1209,39 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
 
     by_style: dict[str, list[dict[str, Any]]] = {}
     by_eng_song_style: dict[str, list[dict[str, Any]]] = {}
+    drawing_highlights_by_style: dict[str, list[tuple[float, float, float]]] = {}
     for ev in parsed["events"]:
         if ev.get("kind", "Dialogue").lower() == "comment":
             continue
         raw_text = ev.get("raw_text", "")
-        if DRAWING_TAG_RE.search(raw_text):
-            continue
         if float(ev["end"]) <= float(ev["start"]):
             continue
         style = ev.get("style", "Default")
+        is_eng_song = bool(re.match(r"^(?:op|ed)\d*e$", style.strip(), re.IGNORECASE))
+        if DRAWING_TAG_RE.search(raw_text):
+            if (_is_romaji_style(style) or is_eng_song) and r"\3c" in raw_text:
+                m_dh = POS_OR_MOVE_RE.search(raw_text)
+                if m_dh:
+                    drawing_highlights_by_style.setdefault(style, []).append(
+                        (float(ev["start"]), float(m_dh.group(1)), float(m_dh.group(2)))
+                    )
+            continue
         if not _normalize_ass_plain(raw_text):
             continue
         if _is_romaji_style(style):
             by_style.setdefault(style, []).append(ev)
-        elif re.match(r"^(?:op|ed)\d*e$", style.strip(), re.IGNORECASE):
+        elif is_eng_song:
             by_eng_song_style.setdefault(style, []).append(ev)
 
     karaoke_cues: list[dict[str, Any]] = []
+    t_color_re = re.compile(r"\\t\(\s*(-?\d+)\s*,\s*(-?\d+)\s*,[^)]*\\[1-4]?c", re.IGNORECASE)
 
-    def _collect_pos_move_spans(evs_in: list[dict[str, Any]]) -> dict[tuple[float, float], list[tuple[float, float, str]]]:
-        pos_span_raw: dict[tuple[float, float], list[tuple[int, float, float, str]]] = {}
+    def _collect_pos_move_spans(
+        evs_in: list[dict[str, Any]],
+        style_name: str = "",
+    ) -> dict[tuple[float, float], list[tuple[float, float, str, float | None]]]:
+        dh_list = drawing_highlights_by_style.get(style_name, [])
+        pos_span_raw: dict[tuple[float, float], list[tuple[int, float, float, str, float | None]]] = {}
         for ev in evs_in:
             if float(ev["end"]) - float(ev["start"]) < 0.4:
                 continue
@@ -1167,21 +1252,34 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                 continue
             x = float(m_pm.group(1))
             y = float(m_pm.group(2))
+            m_tc = t_color_re.search(rt)
+            t_syl: float | None = (
+                round(float(ev["start"]) + max(0, int(m_tc.group(1))) / 1000.0, 3) if m_tc else None
+            )
             span_key = (round(float(ev["start"]), 2), round(float(ev["end"]), 2))
-            pos_span_raw.setdefault(span_key, []).append((_ev_layer(ev), x, y, pl))
+            pos_span_raw.setdefault(span_key, []).append((_ev_layer(ev), x, y, pl, t_syl))
 
-        groups: dict[tuple[float, float], list[tuple[float, float, str]]] = {}
+        groups: dict[tuple[float, float], list[tuple[float, float, str, float | None]]] = {}
         for span_key, raw_items in pos_span_raw.items():
             max_l = max(t[0] for t in raw_items)
+            st_k, en_k = span_key
             seen_pos: set[tuple[float, float, str]] = set()
-            items: list[tuple[float, float, str]] = []
-            for lyr, x, y, plain in raw_items:
+            items: list[tuple[float, float, str, float | None]] = []
+            for lyr, x, y, plain, t_syl in raw_items:
                 if lyr != max_l:
                     continue
                 pk = (round(x, 1), round(y, 1), plain)
                 if pk not in seen_pos:
                     seen_pos.add(pk)
-                    items.append((x, y, plain))
+                    if t_syl is None and dh_list:
+                        matching_dh = [
+                            dh_s
+                            for dh_s, dh_x, dh_y in dh_list
+                            if st_k - 0.15 <= dh_s <= en_k and abs(dh_x - x) <= 18.0 and abs(dh_y - y) <= 20.0
+                        ]
+                        if matching_dh:
+                            t_syl = round(min(matching_dh), 3)
+                    items.append((x, y, plain, t_syl))
             groups[span_key] = items
 
         # Split single-syllable holds (e.g. op1-rom) break exact (start, end) grouping;
@@ -1212,12 +1310,13 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                         and s_v <= c["e"] + 1.2
                         and e_v >= c["s"] - 1.2
                     ):
+                        c["holds"].append((s_v, e_v))
                         c["s"] = min(c["s"], s_v)
                         c["e"] = max(c["e"], e_v)
                         matched = True
                         break
                 if not matched:
-                    clusters.append({"s": s_v, "e": e_v, "x": x, "y": y, "pl": pl})
+                    clusters.append({"s": s_v, "e": e_v, "x": x, "y": y, "pl": pl, "holds": [(s_v, e_v)]})
 
             clusters.sort(key=lambda c: -(c["e"] - c["s"]))
             verses: list[dict[str, Any]] = []
@@ -1231,22 +1330,24 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                         and c["s"] >= v["s"] - 0.15
                         and c["e"] <= v["e"] + 0.15
                     ):
-                        v["items"].append((c["x"], c["y"], c["pl"]))
+                        v["clusters"].append(c)
                         placed = True
                         break
                 if not placed:
-                    verses.append({"s": c["s"], "e": c["e"], "items": [(c["x"], c["y"], c["pl"])]})
+                    verses.append({"s": c["s"], "e": c["e"], "clusters": [c]})
 
-            if verses and any(len(v["items"]) >= 2 for v in verses):
-                verse_groups: dict[tuple[float, float], list[tuple[float, float, str]]] = {}
+            if verses and any(len(v["clusters"]) >= 2 for v in verses):
+                verse_groups: dict[tuple[float, float], list[tuple[float, float, str, float | None]]] = {}
                 for v in verses:
                     seen_v: set[tuple[float, float, str]] = set()
-                    items_v: list[tuple[float, float, str]] = []
-                    for x, y, pl in v["items"]:
-                        pk = (round(x, 1), round(y, 1), pl)
+                    items_v: list[tuple[float, float, str, float | None]] = []
+                    for c in v["clusters"]:
+                        pk = (round(c["x"], 1), round(c["y"], 1), c["pl"])
                         if pk not in seen_v:
                             seen_v.add(pk)
-                            items_v.append((x, y, pl))
+                            pre_ends = [eh for sh, eh in c["holds"] if abs(sh - v["s"]) <= 0.15 and eh < v["e"] - 0.15]
+                            t_syl = round(min(pre_ends), 3) if pre_ends else round(v["s"], 3)
+                            items_v.append((c["x"], c["y"], c["pl"], t_syl))
                     verse_groups[(round(v["s"], 2), round(v["e"], 2))] = items_v
                 return verse_groups
 
@@ -1281,7 +1382,7 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                 fad_out_spans.append((ev["start"], ev["end"]))
 
         is_per_syllable_fad = any(len(g) >= 2 for g in fad_in_groups.values())
-        pos_span_groups = _collect_pos_move_spans(evs)
+        pos_span_groups = _collect_pos_move_spans(evs, style)
         multi_pos_spans = sum(1 for g in pos_span_groups.values() if len(g) >= 2)
         has_format4 = bool(pos_span_groups and multi_pos_spans >= max(1, int(0.5 * len(pos_span_groups))))
 
@@ -1328,19 +1429,20 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                 for (st_s, en_s), items in sorted(pos_span_groups.items()):
                     if any(_spans_overlap_same_cue(st_s, en_s, ns, ne) for ns, ne in native_spans):
                         continue
-                    joined = _reconstruct_pos_line(items, fs, gap_ratio=g_ratio, width_scale=w_scale)
+                    joined, syls = _reconstruct_pos_karaoke(items, fs, st_s, en_s, gap_ratio=g_ratio, width_scale=w_scale)
                     if joined:
-                        karaoke_cues.append(
-                            {
-                                "start": st_s,
-                                "end": en_s,
-                                "align": align,
-                                "style": style,
-                                "isSign": False,
-                                "isKaraoke": True,
-                                "lines": [[{"text": joined, "i": False, "b": False}]],
-                            }
-                        )
+                        cue_m: dict[str, Any] = {
+                            "start": st_s,
+                            "end": en_s,
+                            "align": align,
+                            "style": style,
+                            "isSign": False,
+                            "isKaraoke": True,
+                            "lines": [[{"text": joined, "i": False, "b": False}]],
+                        }
+                        if len(syls) >= 2:
+                            cue_m["karaoke"] = syls
+                        karaoke_cues.append(cue_m)
             continue
 
         # Format 2: per-syllable \fad(200,0) + \pos(x, y) pre-rendered frames (e.g. ED01)
@@ -1360,6 +1462,7 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
 
                 # Build spaced syllables: attach trailing space to preceding syllable
                 syls_out: list[dict[str, Any]] = []
+                last_k_t = round(st_s, 3)
                 for s_idx, (x, y, k_end, raw_p) in enumerate(items):
                     if s_idx > 0:
                         px, py, _, prev_p = items[s_idx - 1]
@@ -1371,7 +1474,9 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                             gap = (x - px) - expected_dx
                             if gap > 0.125 * fs and not prev_p.endswith(":"):
                                 syls_out[-1]["text"] += " "
-                    syls_out.append({"text": raw_p, "t": round(k_end, 3)})
+                    t_k = round(max(last_k_t, min(line_end - 0.05, max(st_s, float(k_end)))), 3)
+                    last_k_t = t_k
+                    syls_out.append({"text": raw_p, "t": t_k})
 
                 joined = "".join(s["text"] for s in syls_out).strip()
                 if joined:
@@ -1389,22 +1494,23 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                     )
             continue
 
-        # Format 4: static per-syllable/per-char \pos/\move spans held >= 0.4s (e.g. ED - R, OPR, EDR)
+        # Format 4: static per-syllable/per-char \pos/\move spans held >= 0.4s (e.g. ED - R, OPR, EDR, op1-rom)
         if has_format4:
             for (st_s, en_s), items in sorted(pos_span_groups.items()):
-                joined = _reconstruct_pos_line(items, fs, gap_ratio=g_ratio, width_scale=w_scale)
+                joined, syls = _reconstruct_pos_karaoke(items, fs, st_s, en_s, gap_ratio=g_ratio, width_scale=w_scale)
                 if joined:
-                    karaoke_cues.append(
-                        {
-                            "start": st_s,
-                            "end": en_s,
-                            "align": align,
-                            "style": style,
-                            "isSign": False,
-                            "isKaraoke": True,
-                            "lines": [[{"text": joined, "i": False, "b": False}]],
-                        }
-                    )
+                    cue_f4: dict[str, Any] = {
+                        "start": st_s,
+                        "end": en_s,
+                        "align": align,
+                        "style": style,
+                        "isSign": False,
+                        "isKaraoke": True,
+                        "lines": [[{"text": joined, "i": False, "b": False}]],
+                    }
+                    if len(syls) >= 2:
+                        cue_f4["karaoke"] = syls
+                    karaoke_cues.append(cue_f4)
             continue
 
         # Format 5: 40ms frame-by-frame per-syllable \pos(x, y) animations (e.g. op1-rom)
@@ -1535,7 +1641,7 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
         fs = float(style_fontsizes.get(style, 70.0) or 70.0)
         w_scale, g_ratio = _style_width_params(style_fontnames.get(style, ""))
         row_tol = max(30.0, fs * 0.6)
-        pos_span_groups = _collect_pos_move_spans(evs)
+        pos_span_groups = _collect_pos_move_spans(evs, style)
         for (st_s, en_s), items in sorted(pos_span_groups.items()):
             ys = [t[1] for t in items]
             xs = {round(t[0], 1) for t in items}
@@ -1543,21 +1649,33 @@ def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en
                 continue
             if any(abs(st_s - rs) <= 0.15 and abs(en_s - re_) <= 0.15 for rs, re_ in romaji_spans):
                 continue
-            joined = _reconstruct_pos_line(
-                items, fs, gap_ratio=(g_ratio if g_ratio is not None else 0.60), width_scale=w_scale
+            joined, syls = _reconstruct_pos_karaoke(
+                items, fs, st_s, en_s, gap_ratio=(g_ratio if g_ratio is not None else 0.60), width_scale=w_scale
             )
             if joined:
-                karaoke_cues.append(
-                    {
-                        "start": st_s,
-                        "end": en_s,
-                        "align": align,
-                        "style": style,
-                        "isSign": False,
-                        "isKaraoke": True,
-                        "lines": [[{"text": joined, "i": False, "b": False}]],
-                    }
-                )
+                cue_e: dict[str, Any] = {
+                    "start": st_s,
+                    "end": en_s,
+                    "align": align,
+                    "style": style,
+                    "isSign": False,
+                    "isKaraoke": True,
+                    "lines": [[{"text": joined, "i": False, "b": False}]],
+                }
+                if len(syls) >= 2:
+                    cue_e["karaoke"] = syls
+                karaoke_cues.append(cue_e)
+
+    # Guarantee every karaoke cue has syllable/word highlight timing for live animation
+    for cue in karaoke_cues:
+        if not cue.get("karaoke"):
+            fallback_syls = _build_fallback_karaoke_syls(
+                _runs_to_plain_text(cue.get("lines", [])),
+                float(cue["start"]),
+                float(cue["end"]),
+            )
+            if fallback_syls:
+                cue["karaoke"] = fallback_syls
 
     karaoke_cues.sort(key=lambda c: (c["start"], c["end"]))
     return karaoke_cues
