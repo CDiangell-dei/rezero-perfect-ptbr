@@ -1,9 +1,9 @@
 {
   "version": 1,
   "language": "pt-BR",
-  "generatedAt": "2026-11-21T00:16:43.407234+00:00",
+  "generatedAt": "2026-11-21T00:42:05.775306+00:00",
   "totalEpisodes": 60,
-  "availableEpisodes": 6,
+  "availableEpisodes": 7,
   "arcs": [
     {
       "id": "arc01",
@@ -122,9 +122,9 @@
           ],
           "label": "Movie: Memory Snow",
           "file": "subtitles/arc02/memory-snow.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 1028,
+          "updatedAt": "2026-11-21T00:42:05.774995+00:00"
         }
       ]
     },

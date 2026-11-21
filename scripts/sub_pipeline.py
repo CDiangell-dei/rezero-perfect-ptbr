@@ -42,7 +42,7 @@ AN_TAG_RE = re.compile(r"\\an([1-9])")
 DRAWING_TAG_RE = re.compile(r"\\p([1-9]\d*)")
 SIGN_TAG_RE = re.compile(r"\\(?:pos|move)\b")
 HTML_TAG_RE = re.compile(r"<(\/?)(i|b|u|s|font|c)\b[^>]*>", re.IGNORECASE)
-ROMAJI_STYLE_RE = re.compile(r"\b(?:romaji|karaoke)\b", re.IGNORECASE)
+ROMAJI_STYLE_RE = re.compile(r"(?:\b(?:romaji|karaoke)\b|(?:^|[-_\s])(?:op|ed|insert|song)\d*\s*[-_]\s*r\b)", re.IGNORECASE)
 ANIMATED_STYLE_RE = re.compile(r"(?:sign|title|caption|\bop\d*\b|\bed\d*\b|song|lyric|insert|kfx)", re.IGNORECASE)
 INLINE_STYLE_TAG_RE = re.compile(r"\\([ib][01])(?![0-9a-zA-Z])")
 K_TAG_RE = re.compile(r"\\(?:k[fo]?|K)(\d+)")
@@ -440,7 +440,7 @@ def _looks_like_english_lyric(text: str) -> bool:
 
 
 def _song_style_prefix(style: str) -> str:
-    return re.sub(r"\s*-\s*(?:romaji|karaoke|english|pt|br)\b.*$", "", style, flags=re.IGNORECASE).strip().lower()
+    return re.sub(r"\s*-\s*(?:romaji|karaoke|english|pt|br|r|e)\b.*$", "", style, flags=re.IGNORECASE).strip().lower()
 
 
 def _resolve_lyric_tr_style(romaji_style: str, style_alignments: dict[str, int]) -> str:
@@ -896,6 +896,54 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                             "isKaraoke": True,
                             "lines": [[{"text": joined, "i": False, "b": False}]],
                             "karaoke": syls_out,
+                        }
+                    )
+            continue
+
+        # Format 3 fallback / Format 4: static per-syllable \pos(x, y) spans held >= 0.4s (e.g. ED - R)
+        pos_span_groups: dict[tuple[float, float], dict[tuple[float, float, str], tuple[float, float, str]]] = {}
+        for ev in evs:
+            if float(ev["end"]) - float(ev["start"]) < 0.4:
+                continue
+            raw_text = ev.get("raw_text", "")
+            plain = ASS_BLOCK_RE.sub("", raw_text).replace(r"\N", " ").replace(r"\n", " ").strip()
+            m_pos = POS_TAG_RE.search(raw_text)
+            if not plain or not m_pos:
+                continue
+            x = float(m_pos.group(1))
+            y = float(m_pos.group(2))
+            span_key = (round(float(ev["start"]), 2), round(float(ev["end"]), 2))
+            grp = pos_span_groups.setdefault(span_key, {})
+            item_key = (round(x, 1), round(y, 1), plain)
+            if item_key not in grp:
+                grp[item_key] = (x, y, plain)
+
+        if pos_span_groups and any(len(g) >= 2 for g in pos_span_groups.values()):
+            row_band = max(20.0, fs * 0.35)
+            for (st_s, en_s), grp in sorted(pos_span_groups.items()):
+                items = sorted(grp.values(), key=lambda t: (round(t[1] / row_band), t[0]))
+                parts_out: list[str] = []
+                for s_idx, (x, y, raw_p) in enumerate(items):
+                    if s_idx > 0:
+                        px, py, prev_p = items[s_idx - 1]
+                        if abs(y - py) > row_band:
+                            parts_out.append(" ")
+                        else:
+                            expected_dx = (_est_glyph_width(prev_p, fs) + _est_glyph_width(raw_p, fs)) / 2.0
+                            if (x - px) - expected_dx > 0.125 * fs and not prev_p.endswith(":"):
+                                parts_out.append(" ")
+                    parts_out.append(raw_p)
+                joined = "".join(parts_out).strip()
+                if joined:
+                    karaoke_cues.append(
+                        {
+                            "start": st_s,
+                            "end": en_s,
+                            "align": align,
+                            "style": style,
+                            "isSign": False,
+                            "isKaraoke": True,
+                            "lines": [[{"text": joined, "i": False, "b": False}]],
                         }
                     )
             continue
