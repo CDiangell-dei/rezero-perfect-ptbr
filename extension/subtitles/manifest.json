@@ -1,9 +1,9 @@
 {
   "version": 1,
   "language": "pt-BR",
-  "generatedAt": "2026-11-21T00:42:05.775306+00:00",
+  "generatedAt": "2026-11-21T00:54:44.081253+00:00",
   "totalEpisodes": 60,
-  "availableEpisodes": 7,
+  "availableEpisodes": 16,
   "arcs": [
     {
       "id": "arc01",
@@ -145,9 +145,9 @@
           ],
           "label": "EP 1",
           "file": "subtitles/arc03/ep01.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 452,
+          "updatedAt": "2026-11-21T00:49:31.705542+00:00"
         },
         {
           "episodeKey": "arc03-ep02",
@@ -160,9 +160,9 @@
           ],
           "label": "EP 2",
           "file": "subtitles/arc03/ep02.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 433,
+          "updatedAt": "2026-11-21T00:49:31.887577+00:00"
         },
         {
           "episodeKey": "arc03-ep03",
@@ -175,9 +175,9 @@
           ],
           "label": "EP 3",
           "file": "subtitles/arc03/ep03.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 566,
+          "updatedAt": "2026-11-21T00:49:32.835351+00:00"
         },
         {
           "episodeKey": "arc03-ep04",
@@ -190,9 +190,9 @@
           ],
           "label": "EP 4",
           "file": "subtitles/arc03/ep04.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 427,
+          "updatedAt": "2026-11-21T00:54:41.731903+00:00"
         },
         {
           "episodeKey": "arc03-ep05",
@@ -205,9 +205,9 @@
           ],
           "label": "EP 5",
           "file": "subtitles/arc03/ep05.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 272,
+          "updatedAt": "2026-11-21T00:54:43.129136+00:00"
         },
         {
           "episodeKey": "arc03-ep06",
@@ -220,9 +220,9 @@
           ],
           "label": "EP 6",
           "file": "subtitles/arc03/ep06.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 314,
+          "updatedAt": "2026-11-21T00:51:50.330860+00:00"
         },
         {
           "episodeKey": "arc03-ep07",
@@ -235,9 +235,9 @@
           ],
           "label": "EP 7",
           "file": "subtitles/arc03/ep07.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 489,
+          "updatedAt": "2026-11-21T00:54:43.434061+00:00"
         },
         {
           "episodeKey": "arc03-ep08",
@@ -250,9 +250,9 @@
           ],
           "label": "EP 8",
           "file": "subtitles/arc03/ep08.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 434,
+          "updatedAt": "2026-11-21T00:54:43.804230+00:00"
         },
         {
           "episodeKey": "arc03-ep09",
@@ -265,9 +265,9 @@
           ],
           "label": "EP 9",
           "file": "subtitles/arc03/ep09.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 333,
+          "updatedAt": "2026-11-21T00:54:44.081141+00:00"
         }
       ]
     },

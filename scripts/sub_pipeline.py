@@ -42,7 +42,7 @@ AN_TAG_RE = re.compile(r"\\an([1-9])")
 DRAWING_TAG_RE = re.compile(r"\\p([1-9]\d*)")
 SIGN_TAG_RE = re.compile(r"\\(?:pos|move)\b")
 HTML_TAG_RE = re.compile(r"<(\/?)(i|b|u|s|font|c)\b[^>]*>", re.IGNORECASE)
-ROMAJI_STYLE_RE = re.compile(r"(?:\b(?:romaji|karaoke)\b|(?:^|[-_\s])(?:op|ed|insert|song)\d*\s*[-_]\s*r\b)", re.IGNORECASE)
+ROMAJI_STYLE_RE = re.compile(r"(?:\b(?:roman?ji|karaoke)\b|(?:^|[-_\s])(?:op|ed|insert|song)\d*\s*[-_]\s*r\b)", re.IGNORECASE)
 ANIMATED_STYLE_RE = re.compile(r"(?:sign|title|caption|\bop\d*\b|\bed\d*\b|song|lyric|insert|kfx)", re.IGNORECASE)
 INLINE_STYLE_TAG_RE = re.compile(r"\\([ib][01])(?![0-9a-zA-Z])")
 K_TAG_RE = re.compile(r"\\(?:k[fo]?|K)(\d+)")
@@ -425,11 +425,13 @@ ENGLISH_LYRIC_WORDS = {
     "was", "were", "been", "have", "has", "had", "all", "and", "but",
     "not", "if", "when", "what", "who", "why", "how", "love", "heart",
     "world", "light", "dark", "night", "sky", "tears", "eyes", "soul",
-    "pain", "away", "here", "there", "inside", "down", "give", "see",
-    "off", "start", "let", "hold", "stay", "believe", "feel", "know",
+    "pain", "away", "here", "there", "inside", "down", "up", "in", "i",
+    "give", "see", "off", "start", "let", "hold", "stay", "alive", "grew",
+    "loneliness", "scar", "deep", "black", "forgot", "close", "first",
+    "memories", "around", "spinning", "try", "believe", "feel", "know",
     "time", "dream", "dreams", "again", "forever", "tonight",
 }
-ENGLISH_CONTRACTION_RE = re.compile(r"\b[a-z]+(?:'t|'ll|'re|'ve|'m|'d)\b", re.IGNORECASE)
+ENGLISH_CONTRACTION_RE = re.compile(r"\b[a-z]+(?:['\u2019](?:t|ll|re|ve|m|d))\b", re.IGNORECASE)
 
 
 def _looks_like_english_lyric(text: str) -> bool:
@@ -440,12 +442,12 @@ def _looks_like_english_lyric(text: str) -> bool:
 
 
 def _song_style_prefix(style: str) -> str:
-    return re.sub(r"\s*-\s*(?:romaji|karaoke|english|pt|br|r|e)\b.*$", "", style, flags=re.IGNORECASE).strip().lower()
+    return re.sub(r"\s*-\s*(?:roman?ji|karaoke|english|pt|br|r|e)\b.*$", "", style, flags=re.IGNORECASE).strip().lower()
 
 
 def _resolve_lyric_tr_style(romaji_style: str, style_alignments: dict[str, int]) -> str:
-    candidate = re.sub(r"\b(?:romaji|karaoke)\b", "English", romaji_style, flags=re.IGNORECASE)
-    if candidate in style_alignments:
+    candidate = re.sub(r"\b(?:roman?ji|karaoke)\b", "English", romaji_style, flags=re.IGNORECASE)
+    if candidate != romaji_style and candidate in style_alignments:
         return candidate
     prefix = _song_style_prefix(romaji_style)
     for st in style_alignments:
@@ -689,7 +691,8 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
             omit_web = _is_romaji_style(style)
             leading_tags, body_text = _split_leading_ass_tags(raw_text)
             encoded_en, inline_tags = _encode_ass_inline(body_text)
-            skip = is_comment or is_drawing or omit_web or (encoded_en.strip() == "")
+            is_author_marker = encoded_en.strip().startswith("##")
+            skip = is_comment or is_drawing or omit_web or is_author_marker or (encoded_en.strip() == "")
 
             events.append(
                 {

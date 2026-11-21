@@ -1,0 +1,352 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: .0000
+WrapStyle: 0
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Signs,Arial,102,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,23,23,23,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:23.19,0:00:26.87,Default,Crusch,0,0,0,,Não parece muito feliz, Rem.
+Dialogue: 0,0:00:26.87,0:00:29.54,Default,Crusch,0,0,0,,Ainda está preocupada?
+Dialogue: 0,0:00:29.54,0:00:31.36,Default,Rem,0,0,0,,Crusch-sama.
+Dialogue: 0,0:00:31.36,0:00:35.79,Default,Crusch,0,0,0,,Ferris, Wilhelm e todos os voluntários\Nlutando ao nosso lado são os melhores dos melhores.
+Dialogue: 0,0:00:36.61,0:00:39.75,Default,Crusch,0,0,0,,Ricardo e o Presas de Ferro também nos emprestam seu auxílio.
+Dialogue: 0,0:00:39.75,0:00:41.96,Default,Crusch,0,0,0,,Tal reunião não pode perder.
+Dialogue: 0,0:00:41.96,0:00:46.56,Default,Rem,0,0,0,,É egoísmo meu me preocupar apesar de tudo isso?
+Dialogue: 0,0:00:48.12,0:00:50.64,Default,Crusch,0,0,0,,Natsuki Subaru disse bem.
+Dialogue: 0,0:00:51.46,0:00:55.23,Default,Crusch,0,0,0,,Fica melhor com um sorriso no rosto.
+Dialogue: 0,0:01:00.79,0:01:02.50,Default,Rem,0,0,0,,Francamente.
+Dialogue: 0,0:01:02.50,0:01:05.44,Default,Rem,0,0,0,,Aquele homem não traz nada além de problemas.
+Dialogue: 0,0:01:08.00,0:01:11.91,Default,Rem,0,0,0,,Tenho certeza de que pareceria outra mulher se sorrisse.
+Dialogue: 0,0:01:11.91,0:01:14.13,Default,Rem,0,0,0,,Ou seja, a senhora sempre se porta com tanta dignidade.
+Dialogue: 0,0:01:14.13,0:01:17.43,Default,Rem,0,0,0,,Acredito que ficaria bastante encantadora com um sorriso.
+Dialogue: 0,0:01:18.39,0:01:20.56,Default,Crusch,0,0,0,,Sim, bem...
+Dialogue: 0,0:01:20.56,0:01:23.46,Default,Crusch,0,0,0,,Sorrir não é lá uma habilidade minha.
+Dialogue: 0,0:01:23.46,0:01:27.26,Default,Crusch,0,0,0,,É algo de que me lamento até hoje.
+Dialogue: 0,0:01:39.81,0:01:39.85,Default,Chapter,0,0,0,,{Episode}
+Dialogue: 0,0:01:44.97,0:01:45.94,Default,Crusch,0,0,0,,Ataque inimigo!
+Dialogue: 0,0:01:45.94,0:01:47.24,Default,Crusch,0,0,0,,Ataque inimigo!
+Dialogue: 0,0:02:00.04,0:02:00.92,Default,Crusch,0,0,0,,Passem por cima dele!
+Dialogue: 0,0:02:02.38,0:02:03.25,Default,Rem,0,0,0,,Crusch-sama!
+Dialogue: 0,0:02:14.61,0:02:16.52,Default,Regulus,0,0,0,,Isso não foi nada gentil da sua parte.
+Dialogue: 0,0:02:16.52,0:02:19.54,Default,Regulus,0,0,0,,Mandar pisotearem-me quando estou apenas cuidando da minha vida?
+Dialogue: 0,0:02:19.54,0:02:23.96,Default,Regulus,0,0,0,,Não é algo que alguém com o mínimo de decência faria.
+Dialogue: 0,0:02:23.96,0:02:27.56,Default,Crusch,0,0,0,,Como ousa brutalizar meus vassalos.
+Dialogue: 0,0:02:27.56,0:02:29.53,Default,Crusch,0,0,0,,Afinal, quem é você?
+Dialogue: 0,0:02:30.02,0:02:32.02,Default,Regulus,0,0,0,,Entendo, entendo.
+Dialogue: 0,0:02:32.02,0:02:34.92,Default,Regulus,0,0,0,,Não sabe quem eu sou.
+Dialogue: 0,0:02:34.92,0:02:38.34,Default,Regulus,0,0,0,,Mas eu sei quem você é.
+Dialogue: 0,0:02:38.34,0:02:41.17,Default,Regulus,0,0,0,,Você é uma candidata a próxima governante desta nação.
+Dialogue: 0,0:02:41.17,0:02:43.40,Default,Crusch,0,0,0,,Fala demais.
+Dialogue: 0,0:02:43.40,0:02:45.27,Default,Crusch,0,0,0,,Responda à minha pergunta!
+Dialogue: 0,0:02:45.27,0:02:46.92,Default,Crusch,0,0,0,,Última chance antes que eu o abata!
+Dialogue: 0,0:02:47.41,0:02:50.05,Default,Regulus,0,0,0,,Ora, isso é simplesmente maldoso.
+Dialogue: 0,0:02:50.05,0:02:55.38,Default,Regulus,0,0,0,,Mas suponho que jamais se esperaria governar um país\Nsem algum grau de arrogância.
+Dialogue: 0,0:02:55.38,0:02:59.02,Default,Regulus,0,0,0,,Eu mesmo não consigo entender essa mentalidade, mas...
+Dialogue: 0,0:02:57.12,0:03:00.12,Default,Crusch,0,0,0,,{\an8}Eu disse que era sua última chance!
+Dialogue: 0,0:03:04.88,0:03:06.10,Default,Regulus,0,0,0,,Ora, veja só!
+Dialogue: 0,0:03:06.10,0:03:11.70,Default,Regulus,0,0,0,,Quem lhe ensinou que é aceitável brandir uma espada\Npara alguém conversando alegremente?
+Dialogue: 0,0:03:11.70,0:03:15.70,Default,Regulus,0,0,0,,Eu diria que isso é uma clara violação\Ndo meu direito à liberdade de expressão!
+Dialogue: 0,0:03:19.03,0:03:20.32,Default,Rem,0,0,0,,Crusch-sama!
+Dialogue: 0,0:03:23.88,0:03:25.38,Default,Crusch,0,0,0,,Ferris...
+Dialogue: 0,0:03:27.71,0:03:28.92,Default,Ley,0,0,0,,Ah...
+Dialogue: 0,0:03:28.92,0:03:33.64,Default,Ley,0,0,0,,Continuo comendo e comendo, mas nunca basta!
+Dialogue: 0,0:03:33.64,0:03:40.98,Default,Ley,0,0,0,,Eu como, devoro, mastigo, mordo, empanturro-me,\Nroo, saboreio, trituro...
+Dialogue: 0,0:03:40.98,0:03:43.27,Default,Ley,0,0,0,,Pura gula!
+Dialogue: 0,0:03:43.27,0:03:46.98,Default,Ley,0,0,0,,Ah, obrigado por este banquete!
+Dialogue: 0,0:03:50.31,0:03:52.65,Default,Rem,0,0,0,,Vocês dois são...
+Dialogue: 0,0:03:55.48,0:03:59.73,Default,Ley,0,0,0,,Arcebispo do Pecado do Culto da Bruxa, representando a Gula,
+Dialogue: 0,0:03:59.73,0:04:02.46,Default,Ley,0,0,0,,Lye Batenkaitos.
+Dialogue: 0,0:04:02.46,0:04:07.12,Default,Regulus,0,0,0,,E o Arcebispo do Pecado do Culto da Bruxa, representando a Ganância,
+Dialogue: 0,0:04:07.12,0:04:09.05,Default,Regulus,0,0,0,,Regulus Corneas.
+Dialogue: 0,0:04:09.59,0:04:14.68,Default,Ley,0,0,0,,Viemos até aqui pois soubemos que nosso animalzinho fora abatido,\Ne olhe só esta fartura!
+Dialogue: 0,0:04:14.68,0:04:19.48,Default,Ley,0,0,0,,Esperava que fossem um bando bom e maduro,\Nconsiderando que conseguiram matar
+Dialogue: 0,0:04:19.48,0:04:24.31,Default,Ley,0,0,0,,uma fera que assolava sem freio há 400 anos...
+Dialogue: 0,0:04:24.31,0:04:27.12,Default,Ley,0,0,0,,Mas isto supera meus sonhos mais selvagens!
+Dialogue: 0,0:04:27.12,0:04:33.81,Default,Ley,0,0,0,,Sensacional! Soberbo! Sublime! Suntuoso! Surpreendente!\NSaboroso! Supremo! Superlativo!
+Dialogue: 0,0:04:33.81,0:04:37.09,Default,Ley,0,0,0,,Há quanto tempo nossa fome não era tão bem saciada!
+Dialogue: 0,0:04:37.09,0:04:41.88,Default,Regulus,0,0,0,,Pode relaxar. Não sou nada parecido com aquele sujeito ali.
+Dialogue: 0,0:04:41.88,0:04:44.31,Default,Regulus,0,0,0,,Detesto lutas e essas coisas.
+Dialogue: 0,0:04:44.31,0:04:46.80,Default,Regulus,0,0,0,,Toda essa bobagem de "fome" e "sede"?
+Dialogue: 0,0:04:46.80,0:04:49.84,Default,Regulus,0,0,0,,Tais indulgências mesquinhas estão abaixo de mim.
+Dialogue: 0,0:04:53.30,0:04:55.96,Default,Regulus,0,0,0,,Estava sequer ouvindo?
+Dialogue: 0,0:04:55.96,0:05:00.08,Default,Regulus,0,0,0,,Não acabei de dizer que detesto lutar?
+Dialogue: 0,0:05:00.08,0:05:02.95,Default,Rem,0,0,0,,Isso é tudo que deseja dizer,
+Dialogue: 0,0:05:03.72,0:05:05.18,Default,Rem,0,0,0,,cultista da bruxa?
+Dialogue: 0,0:05:08.68,0:05:12.95,Default,Rem,0,0,0,,Muito em breve, um herói aparecerá e nos livrará de todos vocês.
+Dialogue: 0,0:05:14.55,0:05:18.07,Default,Rem,0,0,0,,Aquele a quem amo. O herói de todos nós.
+Dialogue: 0,0:05:18.07,0:05:22.36,Default,Ley,0,0,0,,Oh? Um herói? Parece divertidíssimo.
+Dialogue: 0,0:05:22.36,0:05:23.87,Default,Ley,0,0,0,,E quem é você?
+Dialogue: 0,0:05:25.01,0:05:29.28,Default,Rem,0,0,0,,A governanta principal da mansão do Marquês Roswaal L. Mathers...
+Dialogue: 0,0:05:31.17,0:05:34.00,Default,Rem,0,0,0,,e atualmente, a cuidadora do meu único e verdadeiro amor,
+Dialogue: 0,0:05:34.00,0:05:39.43,Default,Rem,0,0,0,,meu amado Natsuki Subaru, que um dia será esse herói...
+Dialogue: 0,0:05:39.81,0:05:40.98,Default,Rem,0,0,0,,Rem!
+Dialogue: 0,0:05:45.16,0:05:47.66,Default,Rem,0,0,0,,É melhor se prepararem, Arcebispos do Pecado!
+Dialogue: 0,0:05:48.31,0:05:51.89,Default,Rem,0,0,0,,Eu prometo a vocês, meu herói logo estará aqui
+Dialogue: 0,0:05:51.89,0:05:54.69,Default,Rem,0,0,0,,para trazê-los à justiça!
+Dialogue: 0,0:06:01.92,0:06:04.37,Default,Ley,0,0,0,,Ah, que bravura!
+Dialogue: 0,0:06:04.37,0:06:07.25,Default,Ley,0,0,0,,Eu certamente irei saborear...
+Dialogue: 0,0:06:07.25,0:06:10.17,Default,Ley,0,0,0,,este banquete farto!
+Dialogue: 0,0:06:33.28,0:06:37.11,Default,Ley,0,0,0,,Obrigado pelo banquete.
+Dialogue: 0,0:07:23.46,0:07:25.21,Default,Subaru,0,0,0,,Então, hã, ei...
+Dialogue: 0,0:07:25.21,0:07:26.89,Default,Subaru,0,0,0,,Um pouco perto demais aí, não acha, Petra?
+Dialogue: 0,0:07:26.89,0:07:29.78,Default,Petra,0,0,0,,Ué, ela teve você só pra ela mais cedo.
+Dialogue: 0,0:07:29.78,0:07:31.38,Default,Petra,0,0,0,,Não foi justo!
+Dialogue: 0,0:07:31.38,0:07:32.70,Default,Petra,0,0,0,,Você não se importa, né?
+Dialogue: 0,0:07:32.70,0:07:35.38,Default,Emilia,0,0,0,,Hã... Não interprete errado demais, Petra-chan.
+Dialogue: 0,0:07:35.38,0:07:36.90,Default,Emilia,0,0,0,,Nós dois só...
+Dialogue: 0,0:07:36.90,0:07:39.30,Default,Emilia,0,0,0,,Sabe, tínhamos coisas importantes para conversar.
+Dialogue: 0,0:07:41.18,0:07:44.22,Default,Petra,0,0,0,,Não vou perder pra você nem em um zilhão de anos!
+Dialogue: 0,0:07:45.43,0:07:49.08,Default,Subaru,0,0,0,,Emilia-tan, ela é só uma criança.
+Dialogue: 0,0:07:49.08,0:07:52.60,Default,Subaru,0,0,0,,Você só tem que sorrir e rir das coisas que criança fala.
+Dialogue: 0,0:07:52.60,0:07:54.18,Default,Emilia,0,0,0,,De jeito nenhum.
+Dialogue: 0,0:07:54.18,0:07:58.62,Default,Emilia,0,0,0,,Criança ou não, não posso aceitar uma atitude tão leviana.
+Dialogue: 0,0:07:58.62,0:08:01.24,Default,Subaru,0,0,0,,"Leviana"? Eis algo que não se ouve todo dia.
+Dialogue: 0,0:08:02.86,0:08:04.37,Default,Emilia,0,0,0,,Lá vem você zombando de mim de novo!
+Dialogue: 0,0:08:04.37,0:08:06.83,Default,Petra,0,0,0,,Eu não sou criança!
+Dialogue: 0,0:08:06.83,0:08:09.24,Default,Subaru,0,0,0,,Tá bom, tá bom. Desculpa.
+Dialogue: 0,0:08:09.24,0:08:12.04,Default,Subaru,0,0,0,,Devo um grande obrigado a você, Petra.
+Dialogue: 0,0:08:12.82,0:08:17.63,Default,Subaru,0,0,0,,Você cumpriu a promessa de não deixar a Emilia-tan sozinha.
+Dialogue: 0,0:08:18.89,0:08:23.51,Default,Subaru,0,0,0,,Tenho uma tonelada de agradecimentos pra dar quando tudo acalmar.
+Dialogue: 0,0:08:24.43,0:08:27.06,Default,Subaru,0,0,0,,Sou muito grato à Crusch-san e ao pessoal dela,
+Dialogue: 0,0:08:27.06,0:08:29.35,Default,Subaru,0,0,0,,e a Anastasia-san e a gente dela ajudaram demais também.
+Dialogue: 0,0:08:29.35,0:08:31.40,Default,Subaru,0,0,0,,E detesto admitir,
+Dialogue: 0,0:08:31.40,0:08:33.48,Default,Subaru,0,0,0,,{\3c&H492E3D&\4c&H492E3D&\t(1481,2065,\3c&HFFFFFF&\4c&HFFFFFF&)}mas o mesmo vale pro Julius e todos eles.
+Dialogue: 0,0:08:34.98,0:08:38.10,Default,Subaru,0,0,0,,Devo até ao Otto.
+Dialogue: 0,0:08:38.10,0:08:41.16,Default,Otto,0,0,0,,Disse alguma coisa, Natsuki-san?
+Dialogue: 0,0:08:41.16,0:08:42.74,Default,Subaru,0,0,0,,Nada demais.
+Dialogue: 0,0:08:42.74,0:08:45.66,Default,Subaru,0,0,0,,Só que sou supergrato a você também!
+Dialogue: 0,0:08:46.44,0:08:48.79,Default,Otto,0,0,0,,Nossa, de onde veio isso?
+Dialogue: 0,0:08:48.79,0:08:50.20,Default,Otto,0,0,0,,Vai me deixar sem jeito.
+Dialogue: 0,0:08:50.20,0:08:51.00,Default,Subaru,0,0,0,,E...
+Dialogue: 0,0:08:59.01,0:09:00.11,Default,Emilia,0,0,0,,Você está bem?
+Dialogue: 0,0:09:00.11,0:09:02.13,Default,Emilia,0,0,0,,Subaru, o que houve?
+Dialogue: 0,0:09:05.54,0:09:06.54,Default,Subaru,0,0,0,,Onde está a Rem?
+Dialogue: 0,0:09:07.30,0:09:08.83,Default,Subaru,0,0,0,,O que aconteceu com a Rem?
+Dialogue: 0,0:09:12.43,0:09:14.05,Default,Emilia,0,0,0,,Subaru...
+Dialogue: 0,0:09:15.55,0:09:17.09,Default,Emilia,0,0,0,,Rem...
+Dialogue: 0,0:09:19.65,0:09:20.76,Default,Emilia,0,0,0,,Esse é um nome que eu deveria conhecer?
+Dialogue: 0,0:09:29.90,0:09:35.06,Default,Subaru,0,0,0,,Pensando bem, eu nunca tinha te visto dormindo antes.
+Dialogue: 0,0:09:35.74,0:09:39.25,Default,Subaru,0,0,0,,Você sempre acordava antes de mim.
+Dialogue: 0,0:09:39.25,0:09:44.16,Default,Subaru,0,0,0,,Quando eu acordava, você já estava no meu quarto me vendo dormir.
+Dialogue: 0,0:09:45.17,0:09:46.35,Default,Subaru,0,0,0,,Rem...
+Dialogue: 0,0:09:47.58,0:09:49.71,Default,Subaru,0,0,0,,Desculpa, Rem.
+Dialogue: 0,0:09:50.62,0:09:52.64,Default,Subaru,0,0,0,,Tentei posar todo corajoso,
+Dialogue: 0,0:09:52.64,0:09:55.54,Default,Subaru,0,0,0,,dizendo que morreria quantas vezes fossem precisas pra salvar você...
+Dialogue: 0,0:09:56.56,0:09:58.90,Default,Subaru,0,0,0,,Mas acho que não importa quantas vezes eu morra,
+Dialogue: 0,0:09:58.90,0:10:00.88,Default,Subaru,0,0,0,,eu nunca vou chegar a tempo.
+Dialogue: 0,0:10:07.84,0:10:09.97,Default,Subaru,0,0,0,,Ah, é só você, Puck.
+Dialogue: 0,0:10:09.97,0:10:12.18,Default,Puck,0,0,0,,Precisava falar desse jeito?
+Dialogue: 0,0:10:12.18,0:10:13.65,Default,Puck,0,0,0,,Você me fere.
+Dialogue: 0,0:10:13.65,0:10:17.70,Default,Subaru,0,0,0,,A que devo a honra?
+Dialogue: 0,0:10:17.70,0:10:20.59,Default,Puck,0,0,0,,Também tenho uma ligação com essa garota, lembra?
+Dialogue: 0,0:10:20.59,0:10:24.28,Default,Puck,0,0,0,,O que há de mal em dar uma passada para ver como ela está?
+Dialogue: 0,0:10:24.86,0:10:26.66,Default,Subaru,0,0,0,,Puck, você não poderia—
+Dialogue: 0,0:10:26.66,0:10:32.86,Default,Puck,0,0,0,,Desculpe, mas nem o meu poder consegue despertá-la desse sono.
+Dialogue: 0,0:10:35.07,0:10:38.13,Default,Puck,0,0,0,,Talvez não compense muito,
+Dialogue: 0,0:10:38.13,0:10:41.25,Default,Puck,0,0,0,,mas posso contar um pouco sobre a Gula.
+Dialogue: 0,0:10:41.25,0:10:42.26,Default,Subaru,0,0,0,,Gula?
+Dialogue: 0,0:10:42.69,0:10:46.72,Default,Puck,0,0,0,,Aquele que devorou o nome e as memórias dela.
+Dialogue: 0,0:10:49.49,0:10:51.98,Default,Puck,0,0,0,,Em termos simples, a Autoridade da Gula
+Dialogue: 0,0:10:51.98,0:10:53.92,Default,Puck,0,0,0,,é o poder de consumir.
+Dialogue: 0,0:10:53.92,0:10:56.98,Default,Puck,0,0,0,,Ele pode comer o nome de alguém junto com a memória que todos\Ntêm da pessoa,
+Dialogue: 0,0:10:56.98,0:11:00.62,Default,Puck,0,0,0,,ou fazer a própria pessoa perder as memórias ao comê-las.
+Dialogue: 0,0:11:00.62,0:11:06.90,Default,Puck,0,0,0,,Se tanto o nome quanto as memórias forem tirados,\Nvocê é reduzido a uma casca vazia.
+Dialogue: 0,0:11:06.90,0:11:10.24,Default,Puck,0,0,0,,Foi o que aconteceu com essa garota.
+Dialogue: 0,0:11:11.52,0:11:12.50,Default,Puck,0,0,0,,Subaru.
+Dialogue: 0,0:11:12.50,0:11:14.10,Default,Subaru,0,0,0,,O quê?!
+Dialogue: 0,0:11:14.10,0:11:18.48,Default,Puck,0,0,0,,Detesto pedir um favor quando você já tem tanto na cabeça...
+Dialogue: 0,0:11:20.75,0:11:24.37,Default,Puck,0,0,0,,Mas conto com você para cuidar da Lia.
+Dialogue: 0,0:11:32.35,0:11:34.85,Default,Crusch,0,0,0,,Então era aqui que estava.
+Dialogue: 0,0:11:34.85,0:11:36.02,Default,Crusch,0,0,0,,Como ela está?
+Dialogue: 0,0:11:36.64,0:11:38.93,Default,Subaru,0,0,0,,Sem mudança nenhuma.
+Dialogue: 0,0:11:38.93,0:11:41.89,Default,Subaru,0,0,0,,Não é como se houvesse algo que eu sequer possa fazer.
+Dialogue: 0,0:11:41.89,0:11:44.74,Default,Subaru,0,0,0,,Sei que sou fraco e patético, e ainda assim...
+Dialogue: 0,0:11:45.23,0:11:47.44,Default,Crusch,0,0,0,,Isso não é verdade de modo algum.
+Dialogue: 0,0:11:47.44,0:11:50.62,Default,Crusch,0,0,0,,Acredito que a fez bastante feliz, na verdade.
+Dialogue: 0,0:11:53.07,0:11:55.89,Default,Crusch,0,0,0,,Desculpe. Isso foi passar dos limites.
+Dialogue: 0,0:11:55.89,0:11:57.78,Default,Crusch,0,0,0,,Deixei-o chateado, não foi?
+Dialogue: 0,0:11:57.78,0:11:59.22,Default,Subaru,0,0,0,,Não.
+Dialogue: 0,0:11:59.22,0:12:02.77,Default,Subaru,0,0,0,,Enfim, estava me procurando por algum motivo específico?
+Dialogue: 0,0:12:02.77,0:12:07.68,Default,Crusch,0,0,0,,Sim. Todos se reuniram no salão para conversar.
+Dialogue: 0,0:12:07.68,0:12:10.32,Default,Crusch,0,0,0,,E, bem... hã...
+Dialogue: 0,0:12:14.14,0:12:17.28,Default,Subaru,0,0,0,,É Natsuki Subaru.
+Dialogue: 0,0:12:17.28,0:12:20.56,Default,Crusch,0,0,0,,Desculpe. Claro, você é Natsuki Subaru-sama.
+Dialogue: 0,0:12:20.56,0:12:22.91,Default,Crusch,0,0,0,,Disseram-me que lhe devo muito,
+Dialogue: 0,0:12:22.91,0:12:25.54,Default,Crusch,0,0,0,,e mesmo assim só tenho sido rude. Por favor, perdoe-me.
+Dialogue: 0,0:12:25.54,0:12:27.68,Default,Subaru,0,0,0,,Sério, não esquenta.
+Dialogue: 0,0:12:27.68,0:12:30.77,Default,Subaru,0,0,0,,Sei que você tem muita coisa pra assimilar agora.
+Dialogue: 0,0:12:30.77,0:12:34.02,Default,Subaru,0,0,0,,Não me incomoda, Crusch-san.
+Dialogue: 0,0:12:35.44,0:12:38.54,Default,Felis,0,0,0,,Crusch-sama, desculpe fazê-la entregar esse recado.
+Dialogue: 0,0:12:38.54,0:12:41.25,Default,Crusch,0,0,0,,Não, está tudo bem, Ferris-san.
+Dialogue: 0,0:12:41.25,0:12:42.96,Default,Felis,0,0,0,,É só Ferris para você.
+Dialogue: 0,0:12:43.30,0:12:45.98,Default,Felis,0,0,0,,Você e eu nos conhecemos há séculos.
+Dialogue: 0,0:12:45.98,0:12:49.73,Default,Felis,0,0,0,,Parte meu coração quando fala como se fôssemos estranhos.
+Dialogue: 0,0:12:49.73,0:12:51.41,Default,Crusch,0,0,0,,Desculpe.
+Dialogue: 0,0:12:51.41,0:12:56.60,Default,Crusch,0,0,0,,Sei que não vai ser como antes, mas vou dar meu melhor, Ferris.
+Dialogue: 0,0:12:57.17,0:12:59.50,Default,Felis,0,0,0,,Não há motivo para pressa.
+Dialogue: 0,0:12:59.50,0:13:03.06,Default,Felis,0,0,0,,Sempre estarei do seu lado, Crusch-sama!
+Dialogue: 0,0:13:03.06,0:13:07.49,Default,Felis,0,0,0,,Além disso, é como se estivesse vendo um lado todo novo seu agora!
+Dialogue: 0,0:13:09.39,0:13:10.67,Default,Emilia,0,0,0,,Subaru?
+Dialogue: 0,0:13:10.67,0:13:14.35,Default,Subaru,0,0,0,,Tudo bem. Já me acalmei agora, Emilia-tan.
+Dialogue: 0,0:13:14.35,0:13:15.87,Default,Subaru,0,0,0,,Estou ótimo.
+Dialogue: 0,0:13:16.26,0:13:20.22,Default,Wilhelm,0,0,0,,Bem, agora que Subaru-dono e Crusch-sama voltaram,
+Dialogue: 0,0:13:20.22,0:13:21.84,Default,Wilhelm,0,0,0,,vamos conversar.
+Dialogue: 0,0:13:22.34,0:13:25.78,Default,Felis,0,0,0,,Vamos começar revisando nossa situação atual.
+Dialogue: 0,0:13:25.78,0:13:30.74,Default,Felis,0,0,0,,Quando os membros do Presas de Ferro que escaparam\Ntrouxeram reforços da capital,
+Dialogue: 0,0:13:30.74,0:13:34.02,Default,Felis,0,0,0,,os únicos que restavam eram as baixas e...
+Dialogue: 0,0:13:34.02,0:13:37.23,Default,Crusch,0,0,0,,...aqueles em situação parecida com a minha.
+Dialogue: 0,0:13:38.00,0:13:40.53,Default,Subaru,0,0,0,,As memórias de Crusch-san foram comidas,
+Dialogue: 0,0:13:40.53,0:13:44.48,Default,Subaru,0,0,0,,e a Rem perdeu tanto o nome quanto as memórias...
+Dialogue: 0,0:13:44.48,0:13:50.66,Default,Felis,0,0,0,,A capital também teve muitos casos de perda de memória\Nque nenhum curandeiro resolveu, como Crusch-sama,
+Dialogue: 0,0:13:50.66,0:13:55.38,Default,Felis,0,0,0,,e um mal inexplicável que apelidaram de "mal da Bela Adormecida".
+Dialogue: 0,0:13:55.38,0:13:59.21,Default,Felis,0,0,0,,Mas agora, tudo isso...
+Dialogue: 0,0:13:59.81,0:14:03.94,Default,Wilhelm,0,0,0,,...deve ser considerado obra do Culto da Bruxa.
+Dialogue: 0,0:14:05.26,0:14:08.99,Default,Wilhelm,0,0,0,,Ah, não tive intenção de ofender, Crusch-sama.
+Dialogue: 0,0:14:08.99,0:14:12.14,Default,Wilhelm,0,0,0,,Peço desculpas por assustá-la.
+Dialogue: 0,0:14:12.14,0:14:16.43,Default,Crusch,0,0,0,,Não, eu é que peço desculpas por ser uma senhora tão incapaz.
+Dialogue: 0,0:14:16.43,0:14:20.88,Default,Crusch,0,0,0,,Tenho tentado ao máximo lembrar-me do senhor também, mas...
+Dialogue: 0,0:14:23.02,0:14:27.42,Default,Felis,0,0,0,,Finalmente demos conta da Preguiça, e agora há outro\NArcebispo do Pecado?
+Dialogue: 0,0:14:27.42,0:14:29.38,Default,Felis,0,0,0,,Isso é uma droga mesmo.
+Dialogue: 0,0:14:29.38,0:14:32.90,Default,Felis,0,0,0,,Claro, no momento em que Emilia-sama se tornou\Ncandidata na seleção real,
+Dialogue: 0,0:14:32.90,0:14:35.81,Default,Felis,0,0,0,,sabíamos que o Culto da Bruxa ia se meter.
+Dialogue: 0,0:14:36.91,0:14:40.30,Default,Emilia,0,0,0,,Talvez seja mesmo culpa minha.
+Dialogue: 0,0:14:40.30,0:14:41.94,Default,Felis,0,0,0,,Bom, é verdade.
+Dialogue: 0,0:14:41.94,0:14:46.67,Default,Felis,0,0,0,,Eles são obcecados em se livrar de Emilia-sama, a meio-elfa.
+Dialogue: 0,0:14:47.15,0:14:49.58,Default,Felis,0,0,0,,O que está acontecendo agora é só uma pequena parte de—
+Dialogue: 0,0:14:49.58,0:14:51.09,Default,Subaru,0,0,0,,Chega dessa besteira, quer fazer o favor?!
+Dialogue: 0,0:14:51.09,0:14:53.10,Default,Subaru,0,0,0,,Pensa um pouco antes de abrir a boca!
+Dialogue: 0,0:14:53.10,0:14:56.38,Default,Subaru,0,0,0,,Os únicos culpados aqui são aqueles canalhas!
+Dialogue: 0,0:14:56.38,0:14:58.83,Default,Subaru,0,0,0,,Para de jogar a culpa na pessoa errada!
+Dialogue: 0,0:14:58.83,0:15:01.58,Default,Subaru,0,0,0,,Ferir seus próprios aliados com culpa mal direcionada\Nnão vai ajudar nada!
+Dialogue: 0,0:15:01.58,0:15:05.95,Default,Felis,0,0,0,,Oh? Vindo de você, Subaru-kyun, soa tão mais convincente.
+Dialogue: 0,0:15:05.95,0:15:08.16,Default,Felis,0,0,0,,Acho que é a diferença de experiência?
+Dialogue: 0,0:15:08.16,0:15:09.57,Default,Crusch,0,0,0,,Ferris.
+Dialogue: 0,0:15:10.24,0:15:13.06,Default,Crusch,0,0,0,,Não posso ignorar o comentário que acabou de fazer.
+Dialogue: 0,0:15:13.06,0:15:14.74,Default,Crusch,0,0,0,,Peça desculpas.
+Dialogue: 0,0:15:17.01,0:15:19.41,Default,Crusch,0,0,0,,Natsuki Subaru-sama tem razão.
+Dialogue: 0,0:15:19.41,0:15:22.27,Default,Crusch,0,0,0,,Está claro como cristal sobre quem a culpa deve recair.
+Dialogue: 0,0:15:22.27,0:15:28.37,Default,Crusch,0,0,0,,Além disso, você não tem o direito de ridicularizar\Nalguém que apenas declarou a verdade.
+Dialogue: 0,0:15:29.15,0:15:31.84,Default,Felis,0,0,0,,Sim, Crusch-sama.
+Dialogue: 0,0:15:32.98,0:15:35.90,Default,Felis,0,0,0,,Emilia-sama, peço desculpas.
+Dialogue: 0,0:15:35.90,0:15:38.37,Default,Felis,0,0,0,,A você também, Subaru-kyun.
+Dialogue: 0,0:15:38.37,0:15:41.50,Default,Subaru,0,0,0,,Esquece. Vamos só voltar ao assunto.
+Dialogue: 0,0:15:41.50,0:15:44.81,Default,Felis,0,0,0,,Mas só me deixem dizer isto.
+Dialogue: 0,0:15:45.79,0:15:48.77,Default,Felis,0,0,0,,Aquela aliança de que falamos...
+Dialogue: 0,0:15:52.37,0:15:54.15,Default,Felis,0,0,0,,Podemos simplesmente descartar essa ideia?
+Dialogue: 0,0:15:56.40,0:15:59.34,Default,Subaru,0,0,0,,O que quer dizer com isso?
+Dialogue: 0,0:15:59.34,0:16:03.12,Default,Subaru,0,0,0,,Como tudo isto levou ao assunto de dissolver a aliança?
+Dialogue: 0,0:16:03.12,0:16:07.04,Default,Felis,0,0,0,,Uma aliança é firmada quando beneficia todas as partes envolvidas.
+Dialogue: 0,0:16:07.04,0:16:11.13,Default,Felis,0,0,0,,Espera que nos aliemos à Emilia-sama, o alvo do Culto da Bruxa?
+Dialogue: 0,0:16:11.54,0:16:16.38,Default,Felis,0,0,0,,Pode prometer que Crusch-sama não será ferida de novo\Nse fizermos isso?
+Dialogue: 0,0:16:18.00,0:16:20.14,Default,Subaru,0,0,0,,Bem...
+Dialogue: 0,0:16:20.14,0:16:23.39,Default,Wilhelm,0,0,0,,Sou contrário a essa opinião.
+Dialogue: 0,0:16:23.39,0:16:25.89,Default,Felis,0,0,0,,Por que seria contra, Velho Wil?!
+Dialogue: 0,0:16:25.89,0:16:28.18,Default,Felis,0,0,0,,Olhe o que aconteceu com Crusch-sama!
+Dialogue: 0,0:16:28.18,0:16:32.70,Default,Felis,0,0,0,,Que sentido há em continuar ajudando Emilia-sama e seus amigos?!
+Dialogue: 0,0:16:32.70,0:16:37.04,Default,Wilhelm,0,0,0,,Quanto a essa "Gula", aquela que atacou Crusch-sama...
+Dialogue: 0,0:16:37.04,0:16:39.49,Default,Wilhelm,0,0,0,,Podemos ter uma oportunidade de vingança.
+Dialogue: 0,0:16:39.49,0:16:43.01,Default,Felis,0,0,0,,Isso é mais importante que a vida de Crusch-sama?!
+Dialogue: 0,0:16:43.01,0:16:44.11,Default,Crusch,0,0,0,,Ferris...
+Dialogue: 0,0:16:44.11,0:16:46.75,Default,Felis,0,0,0,,Sei que isso é duro para Crusch-sama também!
+Dialogue: 0,0:16:46.75,0:16:50.30,Default,Felis,0,0,0,,Ela não faz ideia do que está havendo, não lembra de nada.
+Dialogue: 0,0:16:50.30,0:16:52.86,Default,Felis,0,0,0,,Então como esperam que ela lute?!
+Dialogue: 0,0:16:52.86,0:16:56.14,Default,Felis,0,0,0,,Não é verdade? Não é?!
+Dialogue: 0,0:16:56.14,0:16:59.47,Default,Felis,0,0,0,,Tenho certeza de que posso fazer algo quanto às suas memórias!
+Dialogue: 0,0:16:59.47,0:17:03.86,Default,Felis,0,0,0,,Mesmo se não puder agora, vou consertar isso com a minha magia!
+Dialogue: 0,0:17:03.86,0:17:06.77,Default,Felis,0,0,0,,Então, por favor, não se coloque em mais perigo!
+Dialogue: 0,0:17:11.84,0:17:15.49,Default,Crusch,0,0,0,,Ferris, obrigada por se preocupar comigo.
+Dialogue: 0,0:17:16.74,0:17:20.93,Default,Crusch,0,0,0,,Neste momento, há simplesmente coisas demais que não entendo.
+Dialogue: 0,0:17:20.93,0:17:25.50,Default,Crusch,0,0,0,,Não me lembro de um único detalhe sobre quem eu costumava ser.
+Dialogue: 0,0:17:25.50,0:17:30.33,Default,Crusch,0,0,0,,Certa estou de que todos ficam perplexos\Nsobre como devem interagir comigo também.
+Dialogue: 0,0:17:30.77,0:17:35.10,Default,Crusch,0,0,0,,Mas a todos que ainda mantêm o respeito por mim\Napesar de tudo isso,
+Dialogue: 0,0:17:35.10,0:17:37.05,Default,Crusch,0,0,0,,devo expressar meu agradecimento.
+Dialogue: 0,0:17:40.08,0:17:43.22,Default,Crusch,0,0,0,,Ferris, sei que sua preocupação comigo é genuína,
+Dialogue: 0,0:17:43.22,0:17:46.80,Default,Crusch,0,0,0,,e que está tentando me guiar.
+Dialogue: 0,0:17:46.80,0:17:51.73,Default,Crusch,0,0,0,,Eu poderia fazer como diz e seguir pelo caminho mais seguro.
+Dialogue: 0,0:17:51.73,0:17:56.48,Default,Crusch,0,0,0,,Mas detesto a ideia de seguir com minha vida sem saber de nada.
+Dialogue: 0,0:17:57.20,0:18:01.14,Default,Crusch,0,0,0,,Se tenho escolha, prefiro escolher por mim mesma
+Dialogue: 0,0:18:01.14,0:18:03.33,Default,Crusch,0,0,0,,a simplesmente fazer o que alguém manda.
+Dialogue: 0,0:18:12.13,0:18:14.54,Default,Felis,0,0,0,,Crusch-sama...
+Dialogue: 0,0:18:22.30,0:18:23.57,Default,Crusch,0,0,0,,Ferris...
+Dialogue: 0,0:18:36.86,0:18:39.58,Default,Wilhelm,0,0,0,,Se esta é a vontade de Crusch-sama,
+Dialogue: 0,0:18:39.58,0:18:42.28,Default,Wilhelm,0,0,0,,certamente ninguém seria a favor de dissolver a aliança.
+Dialogue: 0,0:18:42.78,0:18:43.82,Default,Crusch,0,0,0,,Certo.
+Dialogue: 0,0:18:43.82,0:18:48.50,Default,Crusch,0,0,0,,Sei que serei um grande estorvo para vocês,\NEmilia-sama e Natsuki Subaru-sama.
+Dialogue: 0,0:18:49.10,0:18:51.38,Default,Emilia,0,0,0,,Não, está tudo bem.
+Dialogue: 0,0:18:51.38,0:18:55.30,Default,Emilia,0,0,0,,Também não dá exatamente para dizer que estamos\Ntodos na mesma sintonia.
+Dialogue: 0,0:18:55.30,0:18:58.14,Default,Emilia,0,0,0,,Precisamos reencontrar Ram e todos os outros no Santuário,
+Dialogue: 0,0:18:58.14,0:19:01.47,Default,Emilia,0,0,0,,e precisamos conversar sobre tudo com o Roswaal também.
+Dialogue: 0,0:19:12.18,0:19:16.74,Default,Subaru,0,0,0,,Você disse que eu era forte,
+Dialogue: 0,0:19:16.74,0:19:18.19,Default,Subaru,0,0,0,,mas sem você,
+Dialogue: 0,0:19:18.90,0:19:24.08,Default,Subaru,0,0,0,,eu não consigo nem encontrar o Subaru\Nque sabia bancar o durão, Rem.
+Dialogue: 0,0:19:25.23,0:19:27.10,Default,Emilia,0,0,0,,Sabia que encontraria você aqui.
+Dialogue: 0,0:19:29.57,0:19:31.98,Default,Subaru,0,0,0,,Ah, Emilia.
+Dialogue: 0,0:19:31.98,0:19:33.87,Default,Subaru,0,0,0,,Precisava de alguma coisa?
+Dialogue: 0,0:19:34.70,0:19:36.67,Default,Emilia,0,0,0,,Não tenho permissão para estar aqui se não precisar?
+Dialogue: 0,0:19:37.62,0:19:42.29,Default,Emilia,0,0,0,,Eu conheço essa garota—Rem-san, também, não conheço?
+Dialogue: 0,0:19:42.29,0:19:45.22,Default,Subaru,0,0,0,,"Rem-san", é?
+Dialogue: 0,0:19:45.22,0:19:47.01,Default,Emilia,0,0,0,,Ah, é mesmo.
+Dialogue: 0,0:19:47.01,0:19:50.39,Default,,0,0,0,,Chamei ela só de "Rem" antes.
+Dialogue: 0,0:19:50.82,0:19:54.11,Default,Subaru,0,0,0,,Bom, você é basicamente hóspede do Roswaal.
+Dialogue: 0,0:19:54.11,0:19:57.38,Default,Subaru,0,0,0,,Não preciso explicar que ela é irmã da Ram, né?
+Dialogue: 0,0:19:57.38,0:19:59.36,Default,Emilia,0,0,0,,Sim, dá para perceber.
+Dialogue: 0,0:19:59.36,0:20:01.76,Default,Emilia,0,0,0,,Ela é igualzinha a ela.
+Dialogue: 0,0:20:01.76,0:20:03.86,Default,Emilia,0,0,0,,Não há como confundir.
+Dialogue: 0,0:20:04.66,0:20:08.11,Default,Emilia,0,0,0,,Subaru, você não dormiu nada, dormiu?
+Dialogue: 0,0:20:08.11,0:20:10.48,Default,Emilia,0,0,0,,Devia descansar um pouco.
+Dialogue: 0,0:20:10.48,0:20:14.66,Default,Subaru,0,0,0,,Não é como se eu estivesse fazendo algo que canse.
+Dialogue: 0,0:20:14.66,0:20:16.46,Default,Subaru,0,0,0,,Nem é como se eu {\i1}pudesse{\i0} fazer alguma coisa.
+Dialogue: 0,0:20:16.46,0:20:19.98,Default,Emilia,0,0,0,,Mas é verdade que você quer fazer algo, não é?
+Dialogue: 0,0:20:19.98,0:20:23.31,Default,Emilia,0,0,0,,Se o seu espírito continuar se esforçando tanto por tanto tempo,
+Dialogue: 0,0:20:23.31,0:20:26.08,Default,Emilia,0,0,0,,o seu corpo vai se desgastar primeiro.
+Dialogue: 0,0:20:26.08,0:20:28.16,Default,Emilia,0,0,0,,Então... por favor.
+Dialogue: 0,0:20:30.46,0:20:33.52,Default,Subaru,0,0,0,,Eu sou tão patético.
+Dialogue: 0,0:20:33.52,0:20:35.56,Default,Emilia,0,0,0,,Não, não é.
+Dialogue: 0,0:20:35.94,0:20:39.92,Default,Emilia,0,0,0,,Você sempre faz tanto por mim, Subaru.
+Dialogue: 0,0:20:39.92,0:20:41.90,Default,Emilia,0,0,0,,Digo isso de verdade.
+Dialogue: 0,0:20:42.48,0:20:44.69,Default,Emilia,0,0,0,,Vai ficar tudo bem...
+Dialogue: 0,0:20:44.69,0:20:48.51,Default,Emilia,0,0,0,,Não que eu tenha o direito de falar como se soubesse disso.
+Dialogue: 0,0:20:48.51,0:20:52.14,Default,Emilia,0,0,0,,Quero entender como se sente,
+Dialogue: 0,0:20:52.14,0:20:57.23,Default,Emilia,0,0,0,,mas já que não me lembro de nada dessa garota,
+Dialogue: 0,0:20:57.23,0:21:00.08,Default,Emilia,0,0,0,,sei que qualquer coisa que eu diga só vai machucá-lo.
+Dialogue: 0,0:21:03.90,0:21:05.28,Default,Emilia,0,0,0,,Mas...
+Dialogue: 0,0:21:05.28,0:21:07.34,Default,Emilia,0,0,0,,Só saiba disto, por favor.
+Dialogue: 0,0:21:08.22,0:21:12.64,Default,Emilia,0,0,0,,Não carregue sozinho o peso da Rem.
+Dialogue: 0,0:21:12.64,0:21:17.14,Default,Emilia,0,0,0,,Deixe-me carregar seus fardos com você.
+Dialogue: 0,0:21:17.62,0:21:19.12,Default,Subaru,0,0,0,,Emilia...
+Dialogue: 0,0:21:20.13,0:21:23.78,Default,Subaru,0,0,0,,Mas você não se lembra nem um pouco da Rem.
+Dialogue: 0,0:21:24.35,0:21:28.32,Default,Emilia,0,0,0,,É errado querer fazer algo se não me lembro dela?
+Dialogue: 0,0:21:28.32,0:21:33.73,Default,Emilia,0,0,0,,Ela é importante o bastante para deixá-lo triste assim, não é?
+Dialogue: 0,0:21:33.73,0:21:38.98,Default,Emilia,0,0,0,,É tão estranho que isso me dê vontade de ajudá-la também?
+Dialogue: 0,0:21:40.18,0:21:42.25,Default,Emilia,0,0,0,,Assim como você me salvou,
+Dialogue: 0,0:21:42.25,0:21:45.47,Default,Emilia,0,0,0,,eu quero salvar você desta vez.
+Dialogue: 0,0:21:45.47,0:21:49.34,Default,Emilia,0,0,0,,Se está sofrendo, quero fazer algo por você.
+Dialogue: 0,0:22:01.04,0:22:03.97,Default,Subaru,0,0,0,,Você é incrível, Emilia-tan.
+Dialogue: 0,0:22:03.97,0:22:08.37,Default,Emilia,0,0,0,,Sério? Acho você muito mais incrível do que eu.
+Dialogue: 0,0:22:08.37,0:22:11.36,Default,Subaru,0,0,0,,Não, não sou mesmo.
+Dialogue: 0,0:22:12.75,0:22:15.20,Default,Subaru,0,0,0,,Ainda bem que foi você.
+Dialogue: 0,0:22:19.82,0:22:23.71,Default,Subaru,0,0,0,,Emilia... Tenho um favor a pedir.
+Dialogue: 0,0:22:24.38,0:22:25.17,Default,Emilia,0,0,0,,O que é?
+Dialogue: 0,0:22:26.40,0:22:28.58,Default,Subaru,0,0,0,,Poderia se virar?
+Dialogue: 0,0:22:29.26,0:22:30.38,Default,Subaru,0,0,0,,Eu vou chorar.
+Dialogue: 0,0:22:31.82,0:22:34.22,Default,Emilia,0,0,0,,Está bem.
+Dialogue: 0,0:23:20.64,0:23:22.90,Default,Subaru,0,0,0,,Eu juro...
+Dialogue: 0,0:23:22.90,0:23:24.69,Default,,0,0,0,,Vou trazer você de volta.
+Dialogue: 0,0:23:25.47,0:23:26.90,Default,Subaru,0,0,0,,Eu juro.
+Dialogue: 0,0:23:27.79,0:23:29.94,Default,Subaru,0,0,0,,Eu vou...
+Dialogue: 0,0:23:30.58,0:23:33.38,Default,Subaru,0,0,0,,O seu herói vai buscar você!
+Dialogue: 0,0:23:33.38,0:23:35.87,Default,Subaru,0,0,0,,Eu juro!
+Dialogue: 0,0:23:37.23,0:23:38.74,Default,Subaru,0,0,0,,{\pos(960,978)}Apenas espere por mim,
+Dialogue: 0,0:23:38.74,0:23:38.79,Default,Chapter,0,0,0,,{Preview}
+Dialogue: 0,0:23:38.74,0:23:41.75,Signs,Title,0,0,0,,A Promessa de Cada Um
+Dialogue: 0,0:23:39.50,0:23:40.63,Default,,0,0,0,,Rem.

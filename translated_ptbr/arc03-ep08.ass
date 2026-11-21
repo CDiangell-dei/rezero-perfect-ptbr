@@ -1,0 +1,683 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,-1,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - margin,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Episode Title,Open Sans Semibold,122,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6.8,0,5,45,45,93,1
+Style: SignA,Arial,33,&H00070701,&H000000FF,&H00AC4D65,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,60,60,30,1
+Style: Default - upper,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Signs,Arial,102,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,23,23,23,1
+Style: Re:Zero OP2 - Romaji,SF Hollywood Hills,69,&H00000000,&H000000FF,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,8,60,60,33,1
+Style: Re:Zero OP2 - English,SF Hollywood Hills,69,&H00000000,&H00000000,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,2,60,60,45,1
+Style: Re:Zerob ED02 - Romaji,Oneleigh Black,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,2.3,0,7,75,75,27,1
+Style: Re:Zerob ED02 - English,Oneleigh Black,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,2.3,0,1,75,75,24,1
+Style: Ending - Romanji,Lora,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.3,0,8,75,75,45,1
+Style: Ending - English,Lora,68,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.3,0,2,75,75,54,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.02,Default,Chapter,0,0,0,,{Intro}
+Dialogue: 0,0:00:03.18,0:00:05.90,Default,Wilhelm,0,0,0,,Há uma leve inquietação pesando em minha mente.
+Dialogue: 0,0:00:06.75,0:00:10.03,Default,Wilhelm,0,0,0,,Gostaria de destacar um pequeno grupo\Nde nossas forças para eliminá-la.
+Dialogue: 0,0:00:12.44,0:00:14.91,Default,Emilia,0,0,0,,Há alguma forma em que eu possa ajudar?
+Dialogue: 0,0:00:16.88,0:00:20.64,Default,Wilhelm,0,0,0,,Emilia-sama, siga em segurança na carruagem.
+Dialogue: 0,0:00:20.64,0:00:23.75,Default,Wilhelm,0,0,0,,Não solte as mãos das crianças.
+Dialogue: 0,0:00:26.80,0:00:29.63,Default,Wilhelm,0,0,0,,Vocês são mesmo senhora e servo.
+Dialogue: 0,0:00:29.63,0:00:32.80,Default,Wilhelm,0,0,0,,Seus olhos se parecem muito com os dele.
+Dialogue: 0,0:00:38.92,0:00:41.46,Default,Emilia,0,0,0,,Wilhelm-san, eu—
+Dialogue: 0,0:00:51.02,0:00:51.06,Default,Chapter,0,0,0,,{Episode}
+Dialogue: 0,0:01:09.79,0:01:12.09,Default,Betel,0,0,0,,Isso não pode ser!
+Dialogue: 0,0:01:12.09,0:01:14.66,Default,Betel,0,0,0,,Não pode usar tais meios, tais truques,
+Dialogue: 0,0:01:14.66,0:01:19.26,Default,Betel,0,0,0,,para zombar de mim e da minha devoção!
+Dialogue: 0,0:01:28.24,0:01:31.49,Default,Subaru,0,0,0,,Isso aqui é um jogo porcaria em que, se for pego, já era.
+Dialogue: 0,0:01:31.49,0:01:34.65,Default,Subaru,0,0,0,,Devemos ser malucos pra confiar nossas vidas a ele,
+Dialogue: 0,0:01:34.65,0:01:36.19,Default,Subaru,0,0,0,,eu e você!
+Dialogue: 0,0:01:36.19,0:01:38.44,Default,Julius,0,0,0,,Meu corpo está se acostumando a isto aos poucos.
+Dialogue: 0,0:01:38.44,0:01:39.71,Default,Julius,0,0,0,,Devemos acelerar?
+Dialogue: 0,0:01:39.71,0:01:42.19,Default,Subaru,0,0,0,,Manda ver! Não esquenta, eu acompanho!
+Dialogue: 0,0:01:48.58,0:01:50.50,Default,Subaru,0,0,0,,Uau.
+Dialogue: 0,0:01:50.50,0:01:51.72,Default,Betel,0,0,0,,Impossível.
+Dialogue: 0,0:01:51.72,0:01:54.24,Default,Betel,0,0,0,,Impossível, impossível, impossível, impossível.
+Dialogue: 0,0:01:54.24,0:01:55.97,Default,Betel,0,0,0,,Impossível!
+Dialogue: 0,0:01:56.92,0:01:59.26,Default,Betel,0,0,0,,Por quê? Como pode ser?
+Dialogue: 0,0:01:59.26,0:02:03.32,Default,Betel,0,0,0,,Pensei que era amado! Eu sou amado!
+Dialogue: 0,0:02:03.32,0:02:06.10,Default,Betel,0,0,0,,Pela bruxa, a bruxa, a bruxa, a bruxa!
+Dialogue: 0,0:02:06.10,0:02:07.85,Default,Betel,0,0,0,,A bruxa!
+Dialogue: 0,0:02:07.85,0:02:11.27,Default,Julius,0,0,0,,É hora de dar um fim em você de uma vez por todas!
+Dialogue: 0,0:02:18.24,0:02:20.29,Default,Julius,0,0,0,,{\i1}Al Clauseria!{\i0}
+Dialogue: 0,0:02:34.13,0:02:36.44,Default,Betel,0,0,0,,Não permitirei que faça isso.
+Dialogue: 0,0:02:36.44,0:02:38.15,Default,Betel,0,0,0,,{\i1}Ul Dona!{\i0}
+Dialogue: 0,0:02:41.34,0:02:44.33,Default,Subaru,0,0,0,,Arde, espírito de luta! Uive, bola mágica!
+Dialogue: 0,0:02:44.33,0:02:47.26,Default,Subaru,0,0,0,,Quando levo a sério, arremesso a mais de 120 por hora!
+Dialogue: 0,0:02:48.26,0:02:49.72,Default,Betel,0,0,0,,O que é isto?
+Dialogue: 0,0:02:55.60,0:02:59.83,Default,Julius,0,0,0,,Você perdeu por menosprezá-lo como alguém sem poder.
+Dialogue: 0,0:02:59.83,0:03:04.15,Default,Julius,0,0,0,,Minha lâmina, com todos os seis elementos unidos,\Nfenderá a sua própria alma.
+Dialogue: 0,0:03:04.15,0:03:05.87,Default,Julius,0,0,0,,Disperse-se até o fim do arco-íris.
+Dialogue: 0,0:03:05.87,0:03:07.87,Default,Betel,0,0,0,,Não deixarei acabar!
+Dialogue: 0,0:03:07.87,0:03:11.12,Default,Betel,0,0,0,,Não fui nada além de diligente.
+Dialogue: 0,0:03:11.12,0:03:13.79,Default,Betel,0,0,0,,O amor da bruxa banha todo o meu corpo!
+Dialogue: 0,0:03:15.13,0:03:17.17,Default,Subaru,0,0,0,,Julius, desfaz o Nect!
+Dialogue: 0,0:03:17.64,0:03:18.59,Default,Julius,0,0,0,,Pois bem.
+Dialogue: 0,0:03:21.51,0:03:24.22,Default,Subaru,0,0,0,,Ah... Meu cérebro...
+Dialogue: 0,0:03:24.22,0:03:26.20,Default,Subaru,0,0,0,,está tremendo!
+Dialogue: 0,0:03:26.20,0:03:29.04,Default,Subaru,0,0,0,,É, fica tremendo aí enquanto espera.
+Dialogue: 0,0:03:29.04,0:03:31.86,Default,Subaru,0,0,0,,Vou entrar na sua onda, só desta vez...
+Dialogue: 0,0:03:31.86,0:03:35.51,Default,Subaru,0,0,0,,O que tá dizendo? Com quem tá falando?
+Dialogue: 0,0:03:35.51,0:03:38.31,Default,Subaru,0,0,0,,Com a bruxa que você ficou esperando!
+Dialogue: 0,0:03:40.80,0:03:44.03,Default,Subaru,0,0,0,,Eu consigo Retornar através da Morte—
+Dialogue: 0,0:03:56.13,0:03:57.12,Default,Betel,0,0,0,,Finalmente.
+Dialogue: 0,0:03:57.60,0:03:59.84,Default,Betel,0,0,0,,Esperei tanto tempo.
+Dialogue: 0,0:03:59.84,0:04:05.10,Default,Betel,0,0,0,,Pelo seu amor, seu amor misericordioso, seu amor afetuoso...
+Dialogue: 0,0:04:10.41,0:04:11.76,Default,Satella,0,0,0,,Não.
+Dialogue: 0,0:04:12.30,0:04:13.35,Default,Satella,0,0,0,,Você não é ele.
+Dialogue: 0,0:04:16.84,0:04:19.51,Default,Subaru,0,0,0,,Voltei!
+Dialogue: 0,0:04:19.51,0:04:24.11,Default,Betel,0,0,0,,{\an8}Isso... não... pode ser...
+Dialogue: 0,0:04:22.72,0:04:27.24,Default,Subaru,0,0,0,,Eu tava pronto pra continuar tentando até você me largar,
+Dialogue: 0,0:04:27.24,0:04:31.24,Default,Subaru,0,0,0,,mas desistiu na primeira tentativa? Dá pra ser mais covarde?
+Dialogue: 0,0:04:31.52,0:04:34.01,Default,Julius,0,0,0,,Desta vez, guiarei você ao seu fim.
+Dialogue: 0,0:04:37.28,0:04:38.92,Default,Betel,0,0,0,,Por que...
+Dialogue: 0,0:04:38.92,0:04:42.32,Default,Betel,0,0,0,,Por que, por que, por quê?
+Dialogue: 0,0:04:42.32,0:04:47.62,Default,Betel,0,0,0,,Depois de tudo o que fiz por você!
+Dialogue: 0,0:04:47.62,0:04:53.02,Default,Betel,0,0,0,,Bruxa! Bruxa!
+Dialogue: 0,0:04:57.44,0:05:00.16,Default,Betel,0,0,0,,Dê-me o seu amor...
+Dialogue: 0,0:05:06.28,0:05:08.91,Default,Subaru,0,0,0,,Petelgeuse Romanée-Conti...
+Dialogue: 0,0:05:10.04,0:05:13.28,Default,Subaru,0,0,0,,Você era mesmo a Preguiça.
+Dialogue: 0,0:05:21.56,0:05:24.30,Default,Julius,0,0,0,,Subaru, apressemo-nos de volta à aldeia.
+Dialogue: 0,0:05:25.00,0:05:26.86,Default,Julius,0,0,0,,Ferris acabou de entrar em contato comigo.
+Dialogue: 0,0:05:26.86,0:05:28.63,Default,Julius,0,0,0,,Parece que há um problema.
+Dialogue: 0,0:05:32.24,0:05:36.92,Default,Felis,0,0,0,,As pedras de fogo que estavam no estoque\Ndos mercadores sumiram.
+Dialogue: 0,0:05:36.92,0:05:41.38,Default,Otto,0,0,0,,Descarregamos toda a nossa carga para transportar\Nos aldeões,
+Dialogue: 0,0:05:41.38,0:05:43.88,Default,Otto,0,0,0,,mas só as pedras de fogo estão faltando.
+Dialogue: 0,0:05:43.88,0:05:45.75,Default,Subaru,0,0,0,,O que isso quer dizer?
+Dialogue: 0,0:05:45.75,0:05:50.25,Default,Felis,0,0,0,,Alguém deixou as pedras a bordo quando embarcaram os aldeões.
+Dialogue: 0,0:05:50.25,0:05:51.61,Default,Otto,0,0,0,,Estavam na carruagem do Ketty-san.
+Dialogue: 0,0:05:52.24,0:05:56.23,Default,Otto,0,0,0,,Há pedras mágicas suficientes lá pra mandar\Num vilarejo inteiro pelos ares sem esforço.
+Dialogue: 0,0:05:57.30,0:06:02.65,Default,Felis,0,0,0,,A carruagem do Ketty está levando Emilia-sama\Ne as crianças para a capital.
+Dialogue: 0,0:06:09.81,0:06:11.41,Default,Guy,0,0,0,,Emilia-sama...
+Dialogue: 0,0:06:12.02,0:06:13.41,Default,Guy,0,0,0,,Está na hora.
+Dialogue: 0,0:06:14.36,0:06:15.77,Default,Dyne,0,0,0,,O que houve?
+Dialogue: 0,0:06:15.77,0:06:17.52,Default,Mildo,0,0,0,,Você está bem?
+Dialogue: 0,0:06:17.52,0:06:18.38,Default,Emilia,0,0,0,,Desculpem.
+Dialogue: 0,0:06:18.68,0:06:19.88,Default,Emilia,0,0,0,,Não é nada.
+Dialogue: 0,0:06:19.88,0:06:21.75,Default,Emilia,0,0,0,,Vamos, temos que nos apressar!
+Dialogue: 0,0:06:27.85,0:06:29.03,Default,Subaru,0,0,0,,Droga!
+Dialogue: 0,0:06:29.03,0:06:32.45,Default,,0,0,0,,Minha mania de pobre de aproveitar tudo que tá à mão\Nsaiu pela culatra!
+Dialogue: 0,0:06:32.45,0:06:35.06,Default,Julius,0,0,0,,Verificamos que nenhum feitiço foi usado\Npara armar uma armadilha,
+Dialogue: 0,0:06:35.06,0:06:39.74,Default,Julius,0,0,0,,mas se algo foi montado mecanicamente na carruagem...
+Dialogue: 0,0:06:39.74,0:06:43.00,Default,Subaru,0,0,0,,Ferris, um dragão terrestre conseguiria alcançar eles?
+Dialogue: 0,0:06:43.47,0:06:46.71,Default,Felis,0,0,0,,Depois que saírem do domínio Mathers\Ne pegarem a Estrada de Lifaus,
+Dialogue: 0,0:06:46.71,0:06:49.18,Default,Felis,0,0,0,,vai ser difícil alcançar.
+Dialogue: 0,0:06:49.18,0:06:51.16,Default,Subaru,0,0,0,,Isso ainda não bastou?
+Dialogue: 0,0:06:51.16,0:06:54.18,Default,Subaru,0,0,0,,Mesmo depois de tudo aquilo, eu ainda não consigo...
+Dialogue: 0,0:06:54.18,0:06:56.67,Default,Otto,0,0,0,,Posso dizer uma coisa?
+Dialogue: 0,0:06:57.16,0:07:00.56,Default,Otto,0,0,0,,Pra falar a verdade, estou numa situação bem desesperadora agora.
+Dialogue: 0,0:07:00.56,0:07:03.04,Default,Otto,0,0,0,,Se aceitasse um acordo comercial,
+Dialogue: 0,0:07:03.04,0:07:05.02,Default,Otto,0,0,0,,eu prometo alcançar a carruagem que part—
+Dialogue: 0,0:07:05.02,0:07:07.14,Default,Subaru,0,0,0,,Se tiver qualquer coisa que eu possa fazer, eu faço!
+Dialogue: 0,0:07:08.52,0:07:12.35,Default,Otto,0,0,0,,Decisão firme é uma ótima qualidade, Natsuki-san!
+Dialogue: 0,0:07:14.05,0:07:16.34,Default,Julius,0,0,0,,Mandarei Ia com você.
+Dialogue: 0,0:07:16.34,0:07:19.56,Default,Julius,0,0,0,,Queria poder acompanhá-lo pessoalmente, mas...
+Dialogue: 0,0:07:20.01,0:07:21.47,Default,Felis,0,0,0,,Você fica para trás, Julius.
+Dialogue: 0,0:07:21.47,0:07:24.13,Default,Felis,0,0,0,,Como espera ajudar com todos esses ferimentos?
+Dialogue: 0,0:07:24.13,0:07:26.41,Default,Felis,0,0,0,,Sem falar que sua mana {\i1}nyem{\i0} se regenerou por completo ainda.
+Dialogue: 0,0:07:26.41,0:07:28.54,Default,Subaru,0,0,0,,Só descansa.
+Dialogue: 0,0:07:28.54,0:07:30.62,Default,Subaru,0,0,0,,Quando isso acabar, a gente comemora!
+Dialogue: 0,0:07:30.62,0:07:33.16,Default,Subaru,0,0,0,,Vou garantir que você seja convidado, então não morre.
+Dialogue: 0,0:07:33.72,0:07:36.13,Default,Felis,0,0,0,,Não morra você também!
+Dialogue: 0,0:07:36.13,0:07:37.87,Default,Julius,0,0,0,,Que a sorte o acompanhe.
+Dialogue: 0,0:07:39.58,0:07:40.71,Default,Otto,0,0,0,,Em vez de seguir por esta estrada,
+Dialogue: 0,0:07:41.73,0:07:44.68,Default,Otto,0,0,0,,é mais rápido cortar pela clareira à esquerda.
+Dialogue: 0,0:07:44.68,0:07:46.34,Default,Otto,0,0,0,,É o caminho mais curto!
+Dialogue: 0,0:07:48.66,0:07:51.49,Default,Subaru,0,0,0,,Cara, sua proteção divina da "alma da linguagem" é incrível.
+Dialogue: 0,0:07:51.49,0:07:54.43,Default,Otto,0,0,0,,Deu um trabalhão aprender a controlar.
+Dialogue: 0,0:07:54.43,0:07:59.20,Default,Otto,0,0,0,,Já que consigo ouvir a voz de toda criatura,\Nde dragões terrestres a insetos.
+Dialogue: 0,0:07:59.20,0:08:02.19,Default,Subaru,0,0,0,,Mas se escolhermos o caminho pelo que eles dizem,
+Dialogue: 0,0:08:02.19,0:08:05.90,Default,Subaru,0,0,0,,esse atalho vai funcionar e alcançar a Emilia\Ne as crianças vai ser moleza!
+Dialogue: 0,0:08:05.90,0:08:07.52,Default,Otto,0,0,0,,Do que está falando?
+Dialogue: 0,0:08:07.52,0:08:09.07,Default,,0,0,0,,Não vai ser fácil coisa nenhuma!
+Dialogue: 0,0:08:14.69,0:08:16.66,Default,Subaru,0,0,0,,A gente vai morrer!
+Dialogue: 0,0:08:17.06,0:08:18.80,Default,Subaru,0,0,0,,Nesse ritmo, a gente vai morrer sério mesmo.
+Dialogue: 0,0:08:18.80,0:08:19.65,Default,,0,0,0,,É o nosso fim!
+Dialogue: 0,0:08:19.65,0:08:22.51,Default,Otto,0,0,0,,O que é isto? Sinto um vento batendo em mim.
+Dialogue: 0,0:08:22.51,0:08:26.31,Default,Otto,0,0,0,,Sinceramente, nem eu fazia ideia de que era capaz disso—
+Dialogue: 0,0:08:27.30,0:08:29.39,Default,Subaru,0,0,0,,Que foi? O que há de errado?
+Dialogue: 0,0:08:29.39,0:08:31.89,Default,Otto,0,0,0,,As árvores estão barulhentas demais.
+Dialogue: 0,0:08:31.89,0:08:35.58,Default,Otto,0,0,0,,Os pássaros e os insetos começaram a fazer um alvoroço\Ne depois sumiram de vez.
+Dialogue: 0,0:08:36.10,0:08:37.78,Default,Otto,0,0,0,,Alguma coisa...
+Dialogue: 0,0:08:37.78,0:08:39.40,Default,Otto,0,0,0,,Alguma coisa está vindo!
+Dialogue: 0,0:08:47.54,0:08:48.92,Default,Subaru,0,0,0,,Mais rápido, Otto!
+Dialogue: 0,0:08:48.92,0:08:50.70,Default,Subaru,0,0,0,,Não seja pego de jeito nenhum!
+Dialogue: 0,0:08:50.70,0:08:52.32,Default,Otto,0,0,0,,Natsuki-san?
+Dialogue: 0,0:08:55.03,0:08:59.65,Default,Subaru,0,0,0,,O quão insistente você consegue ser, droga?!
+Dialogue: 0,0:09:00.47,0:09:02.64,Default,Betel,0,0,0,,Meu corpo!
+Dialogue: 0,0:09:02.64,0:09:06.46,Default,Betel,0,0,0,,Meu corpo de carne!
+Dialogue: 0,0:09:12.63,0:09:15.00,Default,Emilia,0,0,0,,Está tudo bem. Segurem firme.
+Dialogue: 0,0:09:15.00,0:09:17.72,Default,Emilia,0,0,0,,Não há nada a temer.
+Dialogue: 0,0:09:19.85,0:09:23.48,Default,Puck,0,0,0,,{\i1}Aquele senhor acabou de topar com alguém atrás de nós.{\i0}
+Dialogue: 0,0:09:23.48,0:09:25.07,Default,Puck,0,0,0,,{\i1}Estão lutando.{\i0}
+Dialogue: 0,0:09:25.07,0:09:26.40,Default,Emilia,0,0,0,,{\i1}Sabe quantos são?{\i0}
+Dialogue: 0,0:09:26.74,0:09:28.48,Default,Puck,0,0,0,,{\i1}Muitos.{\i0}
+Dialogue: 0,0:09:28.48,0:09:31.90,Default,Puck,0,0,0,,{\i1}Mas a força daquele senhor não é brincadeira.{\i0}
+Dialogue: 0,0:09:31.90,0:09:34.92,Default,Puck,0,0,0,,{\i1}Parece que nós dois não seremos necessários desta vez.{\i0}
+Dialogue: 0,0:09:34.92,0:09:37.33,Default,Puck,0,0,0,,{\i1}Tomar forma física sem motivo gasta mana,{\i0}
+Dialogue: 0,0:09:37.33,0:09:40.00,Default,Puck,0,0,0,,{\i1}e eu não ia querer virar brinquedo dessas crianças.{\i0}
+Dialogue: 0,0:09:40.00,0:09:42.99,Default,Emilia,0,0,0,,{\i1}Embora usar sua fofura para distraí-las do medo{\i0}
+Dialogue: 0,0:09:42.99,0:09:45.04,Default,Emilia,0,0,0,,{\i1}fosse bom do seu próprio jeito.{\i0}
+Dialogue: 0,0:09:45.04,0:09:47.75,Default,Puck,0,0,0,,{\i1}Você diz coisas assustadoras, minha filha.{\i0}
+Dialogue: 0,0:09:49.84,0:09:50.96,Default,Emilia,0,0,0,,Não se preocupem.
+Dialogue: 0,0:09:50.96,0:09:54.35,Default,,0,0,0,,Aconteça o que acontecer, eu protegerei vocês.
+Dialogue: 0,0:09:54.35,0:09:55.79,Default,Mildo,0,0,0,,N-Nós estamos bem!
+Dialogue: 0,0:09:55.79,0:09:58.81,Default,Dyne,0,0,0,,Não precisa se preocupar com a gente!
+Dialogue: 0,0:09:59.54,0:10:02.24,Default,Lucas,0,0,0,,N-Nós fizemos uma promessa, então isto não é nada!
+Dialogue: 0,0:10:02.24,0:10:03.63,Default,Emilia,0,0,0,,Uma promessa?
+Dialogue: 0,0:10:03.63,0:10:06.04,Default,Mildo,0,0,0,,De que não deixaríamos você ir!
+Dialogue: 0,0:10:06.04,0:10:08.57,Default,Dyne,0,0,0,,Porque se não ficarmos com você, vai fazer alguma loucura!
+Dialogue: 0,0:10:08.88,0:10:11.94,Default,Lucas,0,0,0,,E ele vai ficar preocupado se ninguém ficar de olho em você!
+Dialogue: 0,0:10:12.76,0:10:15.91,Default,Emilia,0,0,0,,Preocupado comigo? Quem contou isso a vocês?
+Dialogue: 0,0:10:16.47,0:10:17.19,Default,Petra,0,0,0,,Não conta! Não podemos contar—
+Dialogue: 0,0:10:17.19,0:10:18.28,Default,Mildo,0,0,0,,O Subaru!
+Dialogue: 0,0:10:18.28,0:10:19.77,Default,Lucas,0,0,0,,O Subaru que disse.
+Dialogue: 0,0:10:19.77,0:10:22.55,Default,Lucas,0,0,0,,Ele disse que você se sente sozinha fácil, então tava preocupado!
+Dialogue: 0,0:10:22.55,0:10:24.08,Default,Dyne,0,0,0,,O Subaru disse...
+Dialogue: 0,0:10:24.08,0:10:26.79,Default,Dyne,0,0,0,,Espera, não era pra gente contar pra ela.
+Dialogue: 0,0:10:27.12,0:10:28.75,Default,Petra,0,0,0,,Ai, ai...
+Dialogue: 0,0:10:33.20,0:10:36.20,Default,Otto,0,0,0,,Natsuki-san, tem alguma coisa vindo atrás da gente?
+Dialogue: 0,0:10:36.20,0:10:39.43,Default,Subaru,0,0,0,,Só um bicho grande e preto.
+Dialogue: 0,0:10:39.91,0:10:43.21,Default,Subaru,0,0,0,,Tem voz selvagem e cara feia, então melhor nem olhar.
+Dialogue: 0,0:10:43.21,0:10:46.02,Default,Otto,0,0,0,,Essas coisas só me deixam mais curioso!
+Dialogue: 0,0:10:46.02,0:10:47.56,Default,Subaru,0,0,0,,Esquece! Só dirige!
+Dialogue: 0,0:10:47.56,0:10:50.31,Default,Subaru,0,0,0,,Se ele me devorar, você vai ser o próximo prato!
+Dialogue: 0,0:10:50.31,0:10:51.32,Default,Otto,0,0,0,,Socorro!
+Dialogue: 0,0:10:53.04,0:10:55.62,Default,Subaru,0,0,0,,Quantas vezes tenho que jogar a última fase?!
+Dialogue: 0,0:10:55.62,0:10:59.14,Default,Subaru,0,0,0,,O que há de preguiçoso em você agora, seu esforçado inútil?!
+Dialogue: 0,0:10:59.14,0:11:02.20,Default,Betel,0,0,0,,Bruxa! Satella! Dê-me...
+Dialogue: 0,0:11:02.20,0:11:03.60,Default,Betel,0,0,0,,{\an8}Amor! Amor!
+Dialogue: 0,0:11:02.91,0:11:05.66,Default,Subaru,0,0,0,,Ela não ama nem você nem eu...
+Dialogue: 0,0:11:03.60,0:11:07.79,Default,Betel,0,0,0,,{\an8}Amor! Amor! Amor! Amor! Amor!
+Dialogue: 0,0:11:05.66,0:11:09.52,Default,Subaru,0,0,0,,Em que tipo de comédia romântica alguém tenta esmagar\No coração da pessoa amada?
+Dialogue: 0,0:11:07.81,0:11:11.61,Default,Betel,0,0,0,,{\an8}Satella! Satella! Satella!
+Dialogue: 0,0:11:11.61,0:11:13.70,Default,Subaru,0,0,0,,O seu oponente sou eu.
+Dialogue: 0,0:11:13.70,0:11:15.63,Default,Subaru,0,0,0,,Não vou deixar você passar de mim.
+Dialogue: 0,0:11:15.63,0:11:19.89,Default,Subaru,0,0,0,,E não vou deixar chegar perto de quem tá lá na frente.\NPode apostar nisso.
+Dialogue: 0,0:11:19.89,0:11:23.84,Default,Otto,0,0,0,,Natsuki-san, você se importa tanto assim comigo?
+Dialogue: 0,0:11:22.45,0:11:23.84,Default,Subaru,0,0,0,,{\an8}Dá pra ficar quieto?
+Dialogue: 0,0:11:23.84,0:11:26.17,Default,,0,0,0,,Tô tentando fazer uma cena maneira aqui.
+Dialogue: 0,0:11:32.32,0:11:33.23,Default,Subaru,0,0,0,,Toma essa!
+Dialogue: 0,0:11:33.64,0:11:35.44,Default,Otto,0,0,0,,Natsuki-san, estamos saindo da floresta!
+Dialogue: 0,0:11:41.51,0:11:42.33,Default,Betel,0,0,0,,Amor...
+Dialogue: 0,0:11:42.33,0:11:43.83,Default,Betel,0,0,0,,Amor... Ame-me.
+Dialogue: 0,0:11:43.99,0:11:47.04,Default,Betel,0,0,0,,Apenas o amor é tudo!
+Dialogue: 0,0:11:47.41,0:11:51.42,Default,Subaru,0,0,0,,Não posso levar você comigo até onde a Emilia está!
+Dialogue: 0,0:11:58.55,0:12:00.63,Default,Subaru,0,0,0,,Vou precisar da sua força,
+Dialogue: 0,0:12:00.63,0:12:02.95,Default,Subaru,0,0,0,,Julius Juukulius!
+Dialogue: 0,0:12:04.02,0:12:06.96,Default,Subaru,0,0,0,,{\i1}Rental Goa!{\i0}
+Dialogue: 0,0:12:14.90,0:12:17.57,Default,Subaru,0,0,0,,Droga, isso dói...
+Dialogue: 0,0:12:17.57,0:12:19.48,Default,Betel,0,0,0,,Dê para mim.
+Dialogue: 0,0:12:19.48,0:12:20.93,Default,Betel,0,0,0,,Entregue.
+Dialogue: 0,0:12:20.93,0:12:22.23,Default,Subaru,0,0,0,,Eu te disse...
+Dialogue: 0,0:12:20.93,0:12:23.33,Default,Betel,0,0,0,,{\an8}Ceda-me!
+Dialogue: 0,0:12:22.23,0:12:26.75,Default,Subaru,0,0,0,,Se tentar entrar no meu corpo, quem vai se dar mal é você!
+Dialogue: 0,0:12:27.10,0:12:28.14,Default,Betel,0,0,0,,A bruxa...
+Dialogue: 0,0:12:28.14,0:12:29.11,Default,Betel,0,0,0,,Satella...
+Dialogue: 0,0:12:29.11,0:12:30.52,Default,Betel,0,0,0,,Satella!
+Dialogue: 0,0:12:30.52,0:12:35.50,Default,Betel,0,0,0,,Não esqueci um único instante das coisas que fez por mim!
+Dialogue: 0,0:12:35.93,0:12:37.52,Default,Betel,0,0,0,,Mesmo que tenha esquecido,
+Dialogue: 0,0:12:37.52,0:12:39.88,Default,Betel,0,0,0,,eu... eu...
+Dialogue: 0,0:12:39.88,0:12:42.29,Default,Betel,0,0,0,,{\an8}Com toda a minha diligência,
+Dialogue: 0,0:12:42.29,0:12:46.14,Default,Betel,0,0,0,,{\an8}abandonarei meu eu preguiçoso, para retribuir seu amor...
+Dialogue: 0,0:12:44.00,0:12:46.14,Default,Subaru,0,0,0,,Se tivesse continuado sendo um monstro...
+Dialogue: 0,0:12:47.04,0:12:49.06,Default,Subaru,0,0,0,,Talvez tivesse me vencido!
+Dialogue: 0,0:12:53.24,0:12:54.11,Default,Betel,0,0,0,,Satella...
+Dialogue: 0,0:13:06.56,0:13:10.16,Default,Betel,0,0,0,,Eu... não vou... Não vou... deixar acabar.
+Dialogue: 0,0:13:10.16,0:13:12.15,Default,Betel,0,0,0,,Isto ainda não acabou...
+Dialogue: 0,0:13:13.08,0:13:15.51,Default,Betel,0,0,0,,Não acabou.
+Dialogue: 0,0:13:15.51,0:13:17.68,Default,Subaru,0,0,0,,Não, acabou sim.
+Dialogue: 0,0:13:17.68,0:13:19.22,Default,Subaru,0,0,0,,A partir de agora, você está
+Dialogue: 0,0:13:20.05,0:13:22.18,Default,Subaru,0,0,0,,"terminado"!
+Dialogue: 0,0:13:33.44,0:13:38.87,Default,Betel,0,0,0,,Natsuki Subaru!
+Dialogue: 0,0:13:45.45,0:13:49.95,Default,Subaru,0,0,0,,Desta vez, durma para sempre, Petelgeuse.
+Dialogue: 0,0:13:49.95,0:13:51.41,Default,Otto,0,0,0,,Natsuki-san, olhe!
+Dialogue: 0,0:13:58.48,0:14:00.27,Default,Subaru,0,0,0,,Wilhelm-san!
+Dialogue: 0,0:14:00.27,0:14:01.34,Default,Wilhelm,0,0,0,,Subaru-dono!
+Dialogue: 0,0:14:01.86,0:14:02.93,Default,Subaru,0,0,0,,Onde está a Emilia?!
+Dialogue: 0,0:14:08.20,0:14:09.01,Default,Wilhelm,0,0,0,,Logo à frente.
+Dialogue: 0,0:14:09.42,0:14:12.02,Default,Wilhelm,0,0,0,,Siga reto, em direção à grande árvore.
+Dialogue: 0,0:14:14.16,0:14:16.44,Default,Wilhelm,0,0,0,,Esta é a chance perfeita para pagar minha dívida.
+Dialogue: 0,0:14:17.28,0:14:21.40,Default,Wilhelm,0,0,0,,Quem pode ficar no caminho de um homem\Nindo encontrar uma mulher?
+Dialogue: 0,0:14:27.10,0:14:28.75,Default,Otto,0,0,0,,Natsuki-san, estou vendo eles!
+Dialogue: 0,0:14:28.75,0:14:30.31,Default,Otto,0,0,0,,São as carruagens com os refugiados!
+Dialogue: 0,0:14:35.92,0:14:38.47,Default,Subaru,0,0,0,,Não importa o que custe...
+Dialogue: 0,0:14:40.25,0:14:42.68,Default,Subaru,0,0,0,,Eu {\i1}vou{\i0} salvar você.
+Dialogue: 0,0:14:47.17,0:14:49.19,Default,Puck,0,0,0,,{\i1}Está pensando no Subaru?{\i0}
+Dialogue: 0,0:14:50.17,0:14:51.33,Default,Emilia,0,0,0,,{\i1}Sim.{\i0}
+Dialogue: 0,0:14:51.33,0:14:54.33,Default,Emilia,0,0,0,,{\i1}Mas ainda não consigo acreditar.{\i0}
+Dialogue: 0,0:14:54.33,0:14:57.06,Default,Puck,0,0,0,,{\i1}Se o Subaru está mesmo liderando essas forças,{\i0}
+Dialogue: 0,0:14:57.06,0:14:59.09,Default,Puck,0,0,0,,{\i1}muita coisa faria sentido.{\i0}
+Dialogue: 0,0:14:59.09,0:15:01.24,Default,Puck,0,0,0,,{\i1}Como a Ram não ter discutido,{\i0}
+Dialogue: 0,0:15:01.24,0:15:04.41,Default,Puck,0,0,0,,{\i1}e os aldeões terem concordado em evacuar.{\i0}
+Dialogue: 0,0:15:04.93,0:15:07.26,Default,Emilia,0,0,0,,{\i1}Mas por quê?{\i0}
+Dialogue: 0,0:15:07.26,0:15:09.91,Default,Emilia,0,0,0,,{\i1}Depois de toda a dor e sofrimento por que ele passou...{\i0}
+Dialogue: 0,0:15:10.96,0:15:13.42,Default,Emilia,0,0,0,,{\i1}Depois de eu fazê-lo ficar com aquele olhar tão triste...{\i0}
+Dialogue: 0,0:15:14.61,0:15:16.24,Default,Emilia,0,0,0,,{\i1}Por que ele...{\i0}
+Dialogue: 0,0:15:18.30,0:15:20.51,Default,Puck,0,0,0,,{\i1}Lia, tem alguma coisa vindo atrás de nós.{\i0}
+Dialogue: 0,0:15:54.15,0:15:55.92,Default,Subaru,0,0,0,,Achei eles!
+Dialogue: 0,0:15:57.63,0:16:00.51,Default,Puck,0,0,0,,Achei esse reencontro repentino demais. Então é por isso que está aqui.
+Dialogue: 0,0:16:04.12,0:16:05.55,Default,Emilia,0,0,0,,Espera! Por quê?!
+Dialogue: 0,0:16:12.73,0:16:14.02,Default,Emilia,0,0,0,,Por quê?!
+Dialogue: 0,0:16:16.60,0:16:18.73,Default,Subaru,0,0,0,,Eu amo você, Emilia.
+Dialogue: 0,0:16:40.01,0:16:40.92,Default,Subaru,0,0,0,,Droga!
+Dialogue: 0,0:16:41.24,0:16:44.16,Default,Subaru,0,0,0,,Chega a tempo!
+Dialogue: 0,0:16:57.48,0:16:59.65,Default,Emilia,0,0,0,,Obrigada, Subaru.
+Dialogue: 0,0:16:59.65,0:17:01.19,Default,,0,0,0,,Obrigada por me salvar.
+Dialogue: 0,0:17:25.81,0:17:28.13,Default,Subaru,0,0,0,,{\i1}Onde eu tô?{\i0}
+Dialogue: 0,0:17:28.13,0:17:30.17,Default,Subaru,0,0,0,,{\i1}Não consigo ver nada.{\i0}
+Dialogue: 0,0:17:30.17,0:17:31.73,Default,Subaru,0,0,0,,{\i1}Não consigo ouvir nada.{\i0}
+Dialogue: 0,0:17:32.57,0:17:36.73,Default,Subaru,0,0,0,,{\i1}Aquela moça bruxa vem agarrar meu coração de novo?{\i0}
+Dialogue: 0,0:17:36.73,0:17:39.55,Default,Subaru,0,0,0,,{\i1}Embora não seja uma sensação tão ruim assim.{\i0}
+Dialogue: 0,0:17:38.17,0:17:39.55,Default,Emilia,0,0,0,,{\an8}Subaru!
+Dialogue: 0,0:17:39.55,0:17:41.33,Default,Emilia,0,0,0,,{\an8}Subaru!
+Dialogue: 0,0:17:41.33,0:17:42.94,Default,Emilia,0,0,0,,{\an8}Subaru!
+Dialogue: 0,0:17:42.94,0:17:44.67,Default,Subaru,0,0,0,,{\i1}Ah, olha só.{\i0}
+Dialogue: 0,0:17:44.67,0:17:46.36,Default,Subaru,0,0,0,,{\i1}Eu consigo ouvir, afinal.{\i0}
+Dialogue: 0,0:18:18.94,0:18:20.34,Default,Emilia,0,0,0,,Subaru!
+Dialogue: 0,0:18:41.92,0:18:44.44,Default,Emilia,0,0,0,,{\blur12\alpha&HFE&\shad0.15\4a&H00&\t(24,1817,\blur0)}Subaru, você acordou?
+Dialogue: 1,0:18:41.92,0:18:44.44,Default,Emilia,0,0,0,,{\blur12\bord0\t(24,1817,\blur0)}Subaru, você acordou?
+Dialogue: 0,0:18:44.44,0:18:45.71,Default,Emilia,0,0,0,,Graças a Deus...
+Dialogue: 0,0:18:45.71,0:18:46.89,Default,Emilia,0,0,0,,Fico tão feliz.
+Dialogue: 0,0:18:47.66,0:18:50.48,Default,Subaru,0,0,0,,Estou deitado,
+Dialogue: 0,0:18:50.48,0:18:53.01,Default,Subaru,0,0,0,,e a Emilia-tan está ajoelhada.
+Dialogue: 0,0:18:53.01,0:18:58.31,Default,Subaru,0,0,0,,E considerando nossa distância e a sensação celestial\Nsob a minha cabeça...
+Dialogue: 0,0:18:58.84,0:19:01.03,Default,Emilia,0,0,0,,Não precisa passar por essa lista boba de checagem.
+Dialogue: 0,0:19:01.03,0:19:04.25,Default,Emilia,0,0,0,,Sua cabeça está no meu colo. Não está desconfortável, está?
+Dialogue: 0,0:19:04.25,0:19:07.81,Default,Subaru,0,0,0,,Não conheço travesseiro mais fino nem mais divino.
+Dialogue: 0,0:19:09.99,0:19:10.78,Default,Subaru,0,0,0,,Hã...
+Dialogue: 0,0:19:11.54,0:19:14.53,Default,Subaru,0,0,0,,Posso perguntar como as coisas terminaram?
+Dialogue: 0,0:19:15.21,0:19:16.59,Default,Emilia,0,0,0,,Sinceramente...
+Dialogue: 0,0:19:16.59,0:19:20.12,Default,Emilia,0,0,0,,Eu é que quero perguntar o que está acontecendo.
+Dialogue: 0,0:19:20.56,0:19:22.51,Default,Subaru,0,0,0,,A Patrasche está bem?
+Dialogue: 0,0:19:22.51,0:19:25.85,Default,Subaru,0,0,0,,Quero virar o vento com a minha amiguinha de novo.
+Dialogue: 0,0:19:25.85,0:19:27.74,Default,Emilia,0,0,0,,Ela ficou bem queimada,
+Dialogue: 0,0:19:27.74,0:19:30.19,Default,,0,0,0,,mas não corre risco de vida.
+Dialogue: 0,0:19:30.19,0:19:31.98,Default,Emilia,0,0,0,,O Ferris está cuidando dela.
+Dialogue: 0,0:19:31.98,0:19:34.33,Default,Subaru,0,0,0,,Ah, o Ferris se juntou a nós?
+Dialogue: 0,0:19:34.33,0:19:37.87,Default,Subaru,0,0,0,,Preciso perguntar, fiquei apagado por muito tempo?
+Dialogue: 0,0:19:39.05,0:19:41.15,Default,Emilia,0,0,0,,Cerca de uma ou duas horas.
+Dialogue: 0,0:19:41.15,0:19:43.65,Default,Subaru,0,0,0,,Então está todo mundo junto agora?
+Dialogue: 0,0:19:44.57,0:19:46.77,Default,Emilia,0,0,0,,O Julius também.
+Dialogue: 0,0:19:46.77,0:19:49.54,Default,Emilia,0,0,0,,Fiquei muito surpresa.
+Dialogue: 0,0:19:49.54,0:19:53.57,Default,Emilia,0,0,0,,Nunca esperava ver vocês dois juntos.
+Dialogue: 0,0:19:54.05,0:20:00.29,Default,Subaru,0,0,0,,Foi por razões mais azuis que as montanhas e mais altas\Nque os mares, Emilia-tan.
+Dialogue: 0,0:20:09.84,0:20:13.37,Default,Subaru,0,0,0,,Finalmente consegui voltar.
+Dialogue: 0,0:20:14.38,0:20:17.16,Default,Subaru,0,0,0,,Sinto como se estivesse tendo um sonho bem longo.
+Dialogue: 0,0:20:18.03,0:20:20.06,Default,Subaru,0,0,0,,Um sonho terrível...
+Dialogue: 0,0:20:20.06,0:20:22.02,Default,Subaru,0,0,0,,Não, não foi.
+Dialogue: 0,0:20:22.39,0:20:24.32,Default,Emilia,0,0,0,,Um sonho bom, então?
+Dialogue: 0,0:20:25.73,0:20:27.85,Default,Subaru,0,0,0,,Uma realidade boa.
+Dialogue: 0,0:20:29.64,0:20:33.85,Default,Subaru,0,0,0,,Naquela época, você me perguntou o porquê...
+Dialogue: 0,0:20:33.85,0:20:36.14,Default,Subaru,0,0,0,,Por que eu salvei você...
+Dialogue: 0,0:20:36.14,0:20:38.49,Default,Subaru,0,0,0,,Por que eu me esforço tanto em tudo...
+Dialogue: 0,0:20:39.21,0:20:41.45,Default,Subaru,0,0,0,,Você me perguntou por quê.
+Dialogue: 0,0:20:41.45,0:20:42.93,Default,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:20:42.93,0:20:48.24,Default,Emilia,0,0,0,,E você disse que foi porque eu salvei você...
+Dialogue: 0,0:20:48.24,0:20:52.29,Default,Emilia,0,0,0,,Mas eu não fiz nada disso.
+Dialogue: 0,0:20:52.29,0:20:54.45,Default,Emilia,0,0,0,,Nunca fui capaz de fazer.
+Dialogue: 0,0:20:54.45,0:20:57.62,Default,Emilia,0,0,0,,Você é quem está sempre me salvando.
+Dialogue: 0,0:20:57.62,0:21:00.10,Default,Emilia,0,0,0,,Eu nunca consegui fazer nada por você.
+Dialogue: 0,0:21:00.10,0:21:04.09,Default,Emilia,0,0,0,,E mesmo assim, você se machucava e dizia\Nque era pelo meu bem...
+Dialogue: 0,0:21:04.09,0:21:06.61,Default,Subaru,0,0,0,,Não, tinha subido alguma coisa à minha cabeça naquela—
+Dialogue: 0,0:21:09.77,0:21:12.37,Default,Subaru,0,0,0,,Eu estava pensando só em mim mesmo.
+Dialogue: 0,0:21:12.37,0:21:14.41,Default,Subaru,0,0,0,,Eu dizia que era tudo por você,
+Dialogue: 0,0:21:14.41,0:21:17.93,Default,Subaru,0,0,0,,quando na verdade estava embriagado com a ideia de fazer por você.
+Dialogue: 0,0:21:17.93,0:21:22.56,Default,Subaru,0,0,0,,Meti na cabeça que, se falasse aquilo, você aceitaria.
+Dialogue: 0,0:21:22.56,0:21:24.49,Default,Emilia,0,0,0,,Subaru...
+Dialogue: 0,0:21:24.49,0:21:26.22,Default,Subaru,0,0,0,,Desculpa.
+Dialogue: 0,0:21:26.22,0:21:29.38,Default,Subaru,0,0,0,,Eu usei você para minha própria autossatisfação.
+Dialogue: 0,0:21:30.33,0:21:33.93,Default,Subaru,0,0,0,,Tudo o que você disse naquele dia era verdade.
+Dialogue: 0,0:21:33.93,0:21:36.02,Default,Subaru,0,0,0,,Eu estava errado.
+Dialogue: 0,0:21:36.02,0:21:36.97,Default,Subaru,0,0,0,,Mas...
+Dialogue: 0,0:21:37.85,0:21:40.10,Default,Subaru,0,0,0,,Tem uma coisa em que eu não estava errado.
+Dialogue: 0,0:21:40.81,0:21:41.85,Default,Subaru,0,0,0,,Eu quero salvar você.
+Dialogue: 0,0:21:42.41,0:21:44.40,Default,Subaru,0,0,0,,Quero ajudar você.
+Dialogue: 0,0:21:44.40,0:21:46.64,Default,Subaru,0,0,0,,Digo isso do fundo do coração.
+Dialogue: 0,0:21:46.64,0:21:48.19,Default,Subaru,0,0,0,,{\t(981,1523,0.9,\c&HFFFFFF&\3c&HFFFFFF&)}Não é mentira.
+Dialogue: 0,0:21:48.71,0:21:50.08,Default,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:21:50.08,0:21:51.36,Default,Emilia,0,0,0,,Eu sei.
+Dialogue: 0,0:21:53.84,0:21:57.28,Default,Emilia,0,0,0,,Por que você sempre me salva?
+Dialogue: 0,0:21:59.25,0:22:01.93,Default,Subaru,0,0,0,,Porque eu amo você.
+Dialogue: 0,0:22:01.93,0:22:04.66,Default,Subaru,0,0,0,,E quero ser a sua força.
+Dialogue: 0,0:22:12.85,0:22:15.25,Default,Emilia,0,0,0,,Eu sou uma meio-elfa...
+Dialogue: 0,0:22:15.25,0:22:16.65,Default,Subaru,0,0,0,,Eu sei disso.
+Dialogue: 0,0:22:16.65,0:22:20.01,Default,Emilia,0,0,0,,Sou uma meio-elfa de cabelos prateados,
+Dialogue: 0,0:22:20.01,0:22:24.53,Default,Emilia,0,0,0,,e muitas pessoas me odeiam porque me pareço com a bruxa.
+Dialogue: 0,0:22:24.53,0:22:26.38,Default,Emilia,0,0,0,,Elas me desprezam...
+Dialogue: 0,0:22:26.38,0:22:28.53,Default,Emilia,0,0,0,,Elas me detestam completamente!
+Dialogue: 0,0:22:28.53,0:22:30.10,Default,Subaru,0,0,0,,Eu vi. Eu sei.
+Dialogue: 0,0:22:30.10,0:22:32.11,Default,Subaru,0,0,0,,Aquelas pessoas são todas cegas.
+Dialogue: 0,0:22:32.68,0:22:35.09,Default,Emilia,0,0,0,,Não tenho muita experiência com pessoas,
+Dialogue: 0,0:22:35.09,0:22:36.97,Default,Emilia,0,0,0,,por isso não tenho amigos.
+Dialogue: 0,0:22:36.97,0:22:41.21,Default,Emilia,0,0,0,,Sou ingênua e sem noção de muitas coisas,\Nentão falo coisas estranhas às vezes.
+Dialogue: 0,0:22:41.21,0:22:46.04,Default,Emilia,0,0,0,,E o motivo pelo qual quero ser a governante do reino\Né muito, muito egoísta.
+Dialogue: 0,0:22:46.97,0:22:49.35,Default,Subaru,0,0,0,,Não importa o que qualquer um diga sobre você,
+Dialogue: 0,0:22:49.35,0:22:51.85,Default,Subaru,0,0,0,,não importa o que você pense de si mesma,
+Dialogue: 0,0:22:51.85,0:22:53.71,Default,Subaru,0,0,0,,eu amo você.
+Dialogue: 0,0:22:53.71,0:22:56.05,Default,Subaru,0,0,0,,Eu amo você de verdade! Pra valer!
+Dialogue: 0,0:22:56.49,0:22:58.39,Default,Subaru,0,0,0,,Quero ficar com você o tempo todo.
+Dialogue: 0,0:22:58.39,0:23:00.26,Default,,0,0,0,,Quero segurar sua mão o tempo todo.
+Dialogue: 0,0:23:01.07,0:23:04.48,Default,Subaru,0,0,0,,Se você citar dez coisas que odeia em si mesma,
+Dialogue: 0,0:23:04.48,0:23:07.73,Default,Subaru,0,0,0,,eu listo duas mil coisas que amo em você.
+Dialogue: 0,0:23:08.90,0:23:12.04,Default,Subaru,0,0,0,,É esse tipo de
+Dialogue: 0,0:23:13.61,0:23:16.20,Default,Subaru,0,0,0,,tratamento especial que eu quero te dar.
+Dialogue: 0,0:23:19.13,0:23:24.16,Default,Emilia,0,0,0,,É a primeira vez que recebo um tratamento especial que me fez feliz...
+Dialogue: 0,0:23:29.28,0:23:32.12,Default,Emilia,0,0,0,,Por que duas mil?
+Dialogue: 0,0:23:32.12,0:23:36.96,Default,Subaru,0,0,0,,Porque cem vezes não bastam pra expressar o que sinto por você.
+Dialogue: 0,0:23:38.25,0:23:39.36,Default,Emilia,0,0,0,,Estou feliz...
+Dialogue: 0,0:23:40.23,0:23:42.09,Default,Emilia,0,0,0,,Estou tão feliz.
+Dialogue: 0,0:23:43.22,0:23:47.12,Default,Emilia,0,0,0,,Nunca sequer imaginei que veria o dia
+Dialogue: 0,0:23:47.12,0:23:48.93,Default,,0,0,0,,em que alguém me diria que me ama.
+Dialogue: 0,0:23:50.05,0:23:52.94,Default,Emilia,0,0,0,,O que devo fazer?
+Dialogue: 0,0:23:52.94,0:23:58.22,Default,Emilia,0,0,0,,Você me declarou tantos sentimentos,
+Dialogue: 0,0:23:58.22,0:24:01.99,Default,Emilia,0,0,0,,mas eu não sei o que fazer...
+Dialogue: 0,0:24:01.99,0:24:03.93,Default,Subaru,0,0,0,,Não precisa se estressar com isso.
+Dialogue: 0,0:24:03.93,0:24:06.73,Default,Subaru,0,0,0,,Não estou exigindo uma resposta agora.
+Dialogue: 0,0:24:06.73,0:24:10.29,Default,Subaru,0,0,0,,Para mim, já está escrito em pedra que você vai me dar uma resposta.
+Dialogue: 0,0:24:10.29,0:24:12.42,Default,Subaru,0,0,0,,E vai ser positiva, ainda por cima.
+Dialogue: 0,0:24:12.42,0:24:14.97,Default,Emilia,0,0,0,,Está mesmo tudo bem?
+Dialogue: 0,0:24:14.97,0:24:16.61,Default,Emilia,0,0,0,,Para mim...
+Dialogue: 0,0:24:16.61,0:24:21.41,Default,Emilia,0,0,0,,Para alguém como eu receber tanta felicidade assim o tempo todo?
+Dialogue: 0,0:24:21.41,0:24:23.89,Default,Emilia,0,0,0,,Ficar tão radiante assim...
+Dialogue: 0,0:24:23.89,0:24:25.68,Default,,0,0,0,,Eu até sinto que é demais.
+Dialogue: 0,0:24:25.68,0:24:28.95,Default,Subaru,0,0,0,,Claro que está. Pode aproveitar sem medo.
+Dialogue: 0,0:24:28.95,0:24:32.29,Default,Subaru,0,0,0,,Nunca existe felicidade demais.
+Dialogue: 0,0:24:32.29,0:24:35.65,Default,Subaru,0,0,0,,Se tiver tanta que transborde, você sempre pode dividir.
+Dialogue: 0,0:24:37.67,0:24:41.11,Default,Subaru,0,0,0,,Pode levar o tempo que precisar, Emilia.
+Dialogue: 0,0:24:41.78,0:24:47.39,Default,Subaru,0,0,0,,Pode levar o seu tempo e, devagarinho, se apaixonar por mim.
+Dialogue: 0,0:24:47.39,0:24:49.53,Default,Subaru,0,0,0,,Enquanto caminho ao seu lado,
+Dialogue: 0,0:24:49.53,0:24:52.83,Default,Subaru,0,0,0,,vou dar o meu melhor pra fazer você se apaixonar perdidamente por mim.
+Dialogue: 0,0:25:03.15,0:25:05.45,Default,Emilia,0,0,0,,Obrigada, Subaru...
+Dialogue: 0,0:25:05.45,0:25:07.00,Default,Emilia,0,0,0,,Obrigada
+Dialogue: 0,0:25:07.00,0:25:08.66,Default,Emilia,0,0,0,,por me salvar.
+Dialogue: 0,0:25:26.24,0:25:28.74,Episode Title,Title,0,0,0,,É Tudo Sobre Esta História
+Dialogue: 0,0:25:28.74,0:25:28.79,Default,Chapter,0,0,0,,{ED}
+Dialogue: 2,0:25:28.74,0:25:29.21,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(652.043,78.75)\t(184,470,\fscx140\fscy140)\fad(200,220)}my
+Dialogue: 2,0:25:28.74,0:25:29.46,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(762.597,78.75)\t(395,720,\fscx140\fscy140)\fad(200,250)}time
+Dialogue: 2,0:25:28.74,0:25:29.71,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(855.784,78.75)\t(645,970,\fscx140\fscy140)\fad(200,250)}is
+Dialogue: 2,0:25:28.74,0:25:30.07,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(945.024,78.75)\t(862,1330,\fscx140\fscy140)\fad(200,360)}spin
+Dialogue: 2,0:25:28.74,0:25:30.44,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1055.789,78.75)\t(1219,1700,\fscx140\fscy140)\fad(200,370)}ning
+Dialogue: 2,0:25:28.74,0:25:30.69,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1140.27,78.75)\t(1625,1950,\fscx140\fscy140)\fad(200,250)}a
+Dialogue: 2,0:25:28.74,0:25:32.28,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1230.399,78.75)\t(1473,3540,\fscx140\fscy140)\fad(200,1590)}round
+Dialogue: 3,0:25:28.74,0:25:32.41,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3475,3675,\blur12)}{\1c&HB66489&\t(184,360,\1c&HE7BDCF&)\t(294,470,\1c&HB66489&)}my {\1c&HB66489&\t(395,595,\1c&HE7BDCF&)\t(520,720,\1c&HB66489&)}time {\1c&HB66489&\t(645,845,\1c&HE7BDCF&)\t(770,970,\1c&HB66489&)}is {\1c&HB66489&\t(862,1150,\1c&HE7BDCF&)\t(1042,1330,\1c&HB66489&)}spin{\1c&HB66489&\t(1219,1515,\1c&HE7BDCF&)\t(1404,1700,\1c&HB66489&)}ning {\1c&HB66489&\t(1625,1825,\1c&HE7BDCF&)\t(1750,1950,\1c&HB66489&)}a{\1c&HB66489&\t(1473,2745,\1c&HE7BDCF&)\t(2268,3540,\1c&HB66489&)}round
+Dialogue: 0,0:25:28.74,0:26:58.75,Ending - English,,0,0,0,,{\p1\an7\pos(0,0)\1c&HFFFFFF&\bord0\blur12}m 1560 -30 l 360 -30 l 360 150 l 1560 150
+Dialogue: 0,0:25:28.74,0:26:58.75,Ending - English,,0,0,0,,{\p1\an7\pos(0,0)\1c&HFFFFFF&\bord0\blur12}m 1950 930 l -30 930 l -30 1110 l 1950 1110
+Dialogue: 0,0:25:28.99,0:25:32.28,Ending - Romanji,,0,0,0,,{\k22}my {\k25}time {\k25}is {\k36}spin{\k37}ning {\k25}a{\k159}round
+Dialogue: 2,0:25:32.41,0:25:33.63,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(757.242,78.75)\t(-189,1215,\fscx140\fscy140)\fad(200,1080)}your
+Dialogue: 2,0:25:32.41,0:25:34.57,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(889.371,78.75)\t(933,2155,\fscx140\fscy140)\fad(200,940)}deep
+Dialogue: 2,0:25:32.41,0:25:35.58,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1029.55,78.75)\t(1852,3165,\fscx140\fscy140)\fad(200,1010)}black
+Dialogue: 2,0:25:32.41,0:25:36.50,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1165.476,78.75)\t(2889,4085,\fscx140\fscy140)\fad(200,920)}eyes
+Dialogue: 3,0:25:32.41,0:25:36.62,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(4010,4210,\blur12)}{\1c&HB66489&\t(-189,675,\1c&HE7BDCF&)\t(351,1215,\1c&HB66489&)}your {\1c&HB66489&\t(933,1685,\1c&HE7BDCF&)\t(1403,2155,\1c&HB66489&)}deep {\1c&HB66489&\t(1852,2660,\1c&HE7BDCF&)\t(2357,3165,\1c&HB66489&)}black {\1c&HB66489&\t(2889,3625,\1c&HE7BDCF&)\t(3349,4085,\1c&HB66489&)}eyes
+Dialogue: 0,0:25:32.55,0:25:36.50,Ending - Romanji,,0,0,0,,{\k108}your {\k94}deep {\k101}black {\k92}eyes
+Dialogue: 2,0:25:36.62,0:25:36.98,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(686.367,78.75)\t(56,355,\fscx140\fscy140)\fad(200,230)}I
+Dialogue: 2,0:25:36.62,0:25:37.24,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(747.703,78.75)\t(277,615,\fscx140\fscy140)\fad(200,260)}for
+Dialogue: 2,0:25:36.62,0:25:37.47,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(825.433,78.75)\t(546,845,\fscx140\fscy140)\fad(200,230)}got
+Dialogue: 2,0:25:36.62,0:25:37.86,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(942.164,78.75)\t(728,1235,\fscx140\fscy140)\fad(200,390)}what
+Dialogue: 2,0:25:36.62,0:25:38.26,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1076.367,78.75)\t(1115,1635,\fscx140\fscy140)\fad(200,400)}time
+Dialogue: 2,0:25:36.62,0:25:38.65,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1167.668,78.75)\t(1518,2025,\fscx140\fscy140)\fad(200,390)}it
+Dialogue: 2,0:25:36.62,0:25:39.86,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1222.429,78.75)\t(1662,3235,\fscx140\fscy140)\fad(200,1210)}is
+Dialogue: 3,0:25:36.62,0:25:40.11,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3285,3485,\blur12)}{\1c&HB66489&\t(56,240,\1c&HE7BDCF&)\t(171,355,\1c&HB66489&)}I {\1c&HB66489&\t(277,485,\1c&HE7BDCF&)\t(407,615,\1c&HB66489&)}for{\1c&HB66489&\t(546,730,\1c&HE7BDCF&)\t(661,845,\1c&HB66489&)}got {\1c&HB66489&\t(728,1040,\1c&HE7BDCF&)\t(923,1235,\1c&HB66489&)}what {\1c&HB66489&\t(1115,1435,\1c&HE7BDCF&)\t(1315,1635,\1c&HB66489&)}time {\1c&HB66489&\t(1518,1830,\1c&HE7BDCF&)\t(1713,2025,\1c&HB66489&)}it {\1c&HB66489&\t(1662,2630,\1c&HE7BDCF&)\t(2267,3235,\1c&HB66489&)}is
+Dialogue: 0,0:25:36.75,0:25:39.86,Ending - Romanji,,0,0,0,,{\k23}I {\k26}for{\k23}got {\k39}what {\k40}time {\k39}it {\k121}is
+Dialogue: 2,0:25:40.15,0:25:40.80,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(627.797,78.75)\t(130,650,\fscx140\fscy140)\fad(200,400)}and
+Dialogue: 2,0:25:40.15,0:25:41.08,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(719.145,78.75)\t(566,930,\fscx140\fscy140)\fad(200,280)}ou
+Dialogue: 2,0:25:40.15,0:25:41.36,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(762.996,78.75)\t(846,1210,\fscx140\fscy140)\fad(200,280)}r
+Dialogue: 2,0:25:40.15,0:25:41.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(827.954,78.75)\t(1132,1470,\fscx140\fscy140)\fad(200,260)}me
+Dialogue: 2,0:25:40.15,0:25:41.76,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(905.532,78.75)\t(1428,1610,\fscx140\fscy140)\fad(200,140)}mo
+Dialogue: 2,0:25:40.15,0:25:42.16,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(992.907,78.75)\t(1490,2010,\fscx140\fscy140)\fad(200,400)}ries
+Dialogue: 2,0:25:40.15,0:25:42.39,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1095.657,78.75)\t(1941,2240,\fscx140\fscy140)\fad(200,230)}are
+Dialogue: 2,0:25:40.15,0:25:44.25,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1244.332,78.75)\t(1682,4100,\fscx140\fscy140)\fad(200,1860)}gone…?
+Dialogue: 3,0:25:40.15,0:25:44.50,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(4150,4350,\blur12)}{\1c&HB66489&\t(130,450,\1c&HE7BDCF&)\t(330,650,\1c&HB66489&)}and {\1c&HB66489&\t(566,790,\1c&HE7BDCF&)\t(706,930,\1c&HB66489&)}ou{\1c&HB66489&\t(846,1070,\1c&HE7BDCF&)\t(986,1210,\1c&HB66489&)}r {\1c&HB66489&\t(1132,1340,\1c&HE7BDCF&)\t(1262,1470,\1c&HB66489&)}me{\1c&HB66489&\t(1428,1540,\1c&HE7BDCF&)\t(1498,1610,\1c&HB66489&)}mo{\1c&HB66489&\t(1490,1810,\1c&HE7BDCF&)\t(1690,2010,\1c&HB66489&)}ries {\1c&HB66489&\t(1941,2125,\1c&HE7BDCF&)\t(2056,2240,\1c&HB66489&)}are {\1c&HB66489&\t(1682,3170,\1c&HE7BDCF&)\t(2612,4100,\1c&HB66489&)}gone…?
+Dialogue: 0,0:25:40.40,0:25:44.25,Ending - Romanji,,0,0,0,,{\k40}and {\k28}ou{\k28}r {\k26}me{\k14}mo{\k40}ries {\k23}are {\k186}gone…?
+Dialogue: 2,0:25:44.97,0:25:45.69,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(733.125,78.75)\t(109,720,\fscx140\fscy140)\fad(200,470)}a
+Dialogue: 2,0:25:44.97,0:25:46.41,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(793.617,78.75)\t(504,1440,\fscx140\fscy140)\fad(200,720)}mai
+Dialogue: 2,0:25:44.97,0:25:46.67,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(883.629,78.75)\t(1362,1700,\fscx140\fscy140)\fad(200,260)}ka
+Dialogue: 2,0:25:44.97,0:25:47.15,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(927.996,78.75)\t(1556,2180,\fscx140\fscy140)\fad(200,480)}o
+Dialogue: 2,0:25:44.97,0:25:47.64,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(964.171,78.75)\t(2033,2670,\fscx140\fscy140)\fad(200,490)}ri
+Dialogue: 2,0:25:44.97,0:25:48.34,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1029.48,78.75)\t(2460,3370,\fscx140\fscy140)\fad(200,700)}ha
+Dialogue: 2,0:25:44.97,0:25:48.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1090.219,78.75)\t(3286,3650,\fscx140\fscy140)\fad(200,280)}na
+Dialogue: 2,0:25:44.97,0:25:48.88,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1160.742,78.75)\t(3572,3910,\fscx140\fscy140)\fad(200,260)}tsu
+Dialogue: 3,0:25:44.97,0:25:49.00,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3830,4030,\blur12)}{\1c&HB66489&\t(109,485,\1c&HE7BDCF&)\t(344,720,\1c&HB66489&)}a{\1c&HB66489&\t(504,1080,\1c&HE7BDCF&)\t(864,1440,\1c&HB66489&)}mai {\1c&HB66489&\t(1362,1570,\1c&HE7BDCF&)\t(1492,1700,\1c&HB66489&)}ka{\1c&HB66489&\t(1556,1940,\1c&HE7BDCF&)\t(1796,2180,\1c&HB66489&)}o{\1c&HB66489&\t(2033,2425,\1c&HE7BDCF&)\t(2278,2670,\1c&HB66489&)}ri {\1c&HB66489&\t(2460,3020,\1c&HE7BDCF&)\t(2810,3370,\1c&HB66489&)}ha{\1c&HB66489&\t(3286,3510,\1c&HE7BDCF&)\t(3426,3650,\1c&HB66489&)}na{\1c&HB66489&\t(3572,3780,\1c&HE7BDCF&)\t(3702,3910,\1c&HB66489&)}tsu
+Dialogue: 0,0:25:44.97,0:25:49.00,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}a armadilha chamada memórias
+Dialogue: 0,0:25:44.97,0:25:49.00,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(3830,4030,\blur12)}a armadilha chamada memórias
+Dialogue: 0,0:25:45.22,0:25:48.88,Ending - Romanji,,0,0,0,,{\k47}a{\k72}mai {\k26}ka{\k48}o{\k49}ri {\k70}ha{\k28}na{\k26}tsu
+Dialogue: 0,0:25:45.22,0:25:48.88,Ending - English,,0,0,0,,a armadilha chamada memórias
+Dialogue: 2,0:25:49.00,0:25:49.59,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(691.183,78.75)\t(-21,590,\fscx140\fscy140)\fad(200,470)}tsu
+Dialogue: 2,0:25:49.00,0:25:50.32,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(739.746,78.75)\t(371,1320,\fscx140\fscy140)\fad(200,730)}i
+Dialogue: 2,0:25:49.00,0:25:50.45,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(763.266,78.75)\t(1281,1450,\fscx140\fscy140)\fad(200,130)}o
+Dialogue: 2,0:25:49.00,0:25:50.60,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(810.105,78.75)\t(1405,1600,\fscx140\fscy140)\fad(200,150)}ku
+Dialogue: 2,0:25:49.00,0:25:51.30,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(881.707,78.75)\t(1390,2300,\fscx140\fscy140)\fad(200,700)}to
+Dialogue: 2,0:25:49.00,0:25:51.43,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(929.988,78.75)\t(2261,2430,\fscx140\fscy140)\fad(200,130)}i
+Dialogue: 2,0:25:49.00,0:25:51.57,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(954.891,78.75)\t(2388,2570,\fscx140\fscy140)\fad(200,140)}u
+Dialogue: 2,0:25:49.00,0:25:52.25,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1015.629,78.75)\t(2366,3250,\fscx140\fscy140)\fad(200,680)}na
+Dialogue: 2,0:25:49.00,0:25:52.42,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1091.742,78.75)\t(3199,3420,\fscx140\fscy140)\fad(200,170)}no
+Dialogue: 2,0:25:49.00,0:25:52.56,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1172.45,78.75)\t(3378,3560,\fscx140\fscy140)\fad(200,140)}wa
+Dialogue: 2,0:25:49.00,0:25:52.83,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1238.191,78.75)\t(3479,3830,\fscx140\fscy140)\fad(200,270)}na
+Dialogue: 3,0:25:49.00,0:25:52.92,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3720,3920,\blur12)}{\1c&HB66489&\t(-21,355,\1c&HE7BDCF&)\t(214,590,\1c&HB66489&)}tsu{\1c&HB66489&\t(371,955,\1c&HE7BDCF&)\t(736,1320,\1c&HB66489&)}i{\1c&HB66489&\t(1281,1385,\1c&HE7BDCF&)\t(1346,1450,\1c&HB66489&)}o{\1c&HB66489&\t(1405,1525,\1c&HE7BDCF&)\t(1480,1600,\1c&HB66489&)}ku {\1c&HB66489&\t(1390,1950,\1c&HE7BDCF&)\t(1740,2300,\1c&HB66489&)}to {\1c&HB66489&\t(2261,2365,\1c&HE7BDCF&)\t(2326,2430,\1c&HB66489&)}i{\1c&HB66489&\t(2388,2500,\1c&HE7BDCF&)\t(2458,2570,\1c&HB66489&)}u {\1c&HB66489&\t(2366,2910,\1c&HE7BDCF&)\t(2706,3250,\1c&HB66489&)}na {\1c&HB66489&\t(3199,3335,\1c&HE7BDCF&)\t(3284,3420,\1c&HB66489&)}no {\1c&HB66489&\t(3378,3490,\1c&HE7BDCF&)\t(3448,3560,\1c&HB66489&)}wa{\1c&HB66489&\t(3479,3695,\1c&HE7BDCF&)\t(3614,3830,\1c&HB66489&)}na
+Dialogue: 0,0:25:49.00,0:25:52.92,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}exala um doce perfume
+Dialogue: 0,0:25:49.00,0:25:52.92,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(3720,3920,\blur12)}exala um doce perfume
+Dialogue: 0,0:25:49.12,0:25:52.83,Ending - Romanji,,0,0,0,,{\k47}tsu{\k73}i{\k13}o{\k15}ku {\k70}to {\k13}i{\k14}u {\k68}na {\k17}no {\k14}wa{\k27}na
+Dialogue: 0,0:25:49.12,0:25:52.83,Ending - English,,0,0,0,,exala um doce perfume
+Dialogue: 2,0:25:52.92,0:25:53.50,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(749.109,78.75)\t(-57,580,\fscx140\fscy140)\fad(200,490)}sa
+Dialogue: 2,0:25:52.92,0:25:54.23,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(803.379,78.75)\t(361,1310,\fscx140\fscy140)\fad(200,730)}so
+Dialogue: 2,0:25:52.92,0:25:54.48,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(866.226,78.75)\t(1235,1560,\fscx140\fscy140)\fad(200,250)}wa
+Dialogue: 2,0:25:52.92,0:25:54.97,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(928.23,78.75)\t(1413,2050,\fscx140\fscy140)\fad(200,490)}re
+Dialogue: 2,0:25:52.92,0:25:55.45,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(994.734,78.75)\t(1906,2530,\fscx140\fscy140)\fad(200,480)}to
+Dialogue: 2,0:25:52.92,0:25:56.18,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1047,78.75)\t(2311,3260,\fscx140\fscy140)\fad(200,730)}ra
+Dialogue: 2,0:25:52.92,0:25:56.43,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1108.641,78.75)\t(3185,3510,\fscx140\fscy140)\fad(200,250)}wa
+Dialogue: 2,0:25:52.92,0:25:56.73,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1170.645,78.75)\t(3420,3810,\fscx140\fscy140)\fad(200,300)}re
+Dialogue: 3,0:25:52.92,0:25:56.82,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3700,3900,\blur12)}{\1c&HB66489&\t(-57,335,\1c&HE7BDCF&)\t(188,580,\1c&HB66489&)}sa{\1c&HB66489&\t(361,945,\1c&HE7BDCF&)\t(726,1310,\1c&HB66489&)}so{\1c&HB66489&\t(1235,1435,\1c&HE7BDCF&)\t(1360,1560,\1c&HB66489&)}wa{\1c&HB66489&\t(1413,1805,\1c&HE7BDCF&)\t(1658,2050,\1c&HB66489&)}re {\1c&HB66489&\t(1906,2290,\1c&HE7BDCF&)\t(2146,2530,\1c&HB66489&)}to{\1c&HB66489&\t(2311,2895,\1c&HE7BDCF&)\t(2676,3260,\1c&HB66489&)}ra{\1c&HB66489&\t(3185,3385,\1c&HE7BDCF&)\t(3310,3510,\1c&HB66489&)}wa{\1c&HB66489&\t(3420,3660,\1c&HE7BDCF&)\t(3570,3810,\1c&HB66489&)}re
+Dialogue: 0,0:25:52.92,0:25:56.82,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}ela me tenta e toma conta de mim
+Dialogue: 0,0:25:52.92,0:25:56.82,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(3700,3900,\blur12)}ela me tenta e toma conta de mim
+Dialogue: 0,0:25:53.01,0:25:56.73,Ending - Romanji,,0,0,0,,{\k49}sa{\k73}so{\k25}wa{\k49}re {\k48}to{\k73}ra{\k25}wa{\k30}re
+Dialogue: 0,0:25:53.01,0:25:56.73,Ending - English,,0,0,0,,ela me tenta e toma conta de mim
+Dialogue: 2,0:25:56.82,0:25:57.41,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(662.871,78.75)\t(-60,590,\fscx140\fscy140)\fad(200,500)}na
+Dialogue: 2,0:25:56.82,0:25:59.01,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(721.172,78.75)\t(110,2190,\fscx140\fscy140)\fad(200,1600)}ze
+Dialogue: 2,0:25:56.82,0:25:59.36,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(776.591,78.75)\t(2085,2540,\fscx140\fscy140)\fad(200,350)}a
+Dialogue: 2,0:25:56.82,0:25:59.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(816.879,78.75)\t(2462,2800,\fscx140\fscy140)\fad(200,260)}ra
+Dialogue: 2,0:25:56.82,0:25:59.84,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(871.829,78.75)\t(2734,3020,\fscx140\fscy140)\fad(200,220)}ga
+Dialogue: 2,0:25:56.82,0:26:00.08,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(914.484,78.75)\t(2948,3260,\fscx140\fscy140)\fad(200,240)}e
+Dialogue: 2,0:25:56.82,0:26:00.33,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(981.692,78.75)\t(3185,3510,\fscx140\fscy140)\fad(200,250)}mo
+Dialogue: 2,0:25:56.82,0:26:00.82,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1061.671,78.75)\t(3363,4000,\fscx140\fscy140)\fad(200,490)}se
+Dialogue: 2,0:25:56.82,0:26:01.06,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1118.461,78.75)\t(3928,4240,\fscx140\fscy140)\fad(200,240)}zu
+Dialogue: 2,0:25:56.82,0:26:01.29,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1200.234,78.75)\t(4171,4470,\fscx140\fscy140)\fad(200,230)}ma
+Dialogue: 2,0:25:56.82,0:26:01.73,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1263,78.75)\t(4338,4910,\fscx140\fscy140)\fad(200,440)}ta
+Dialogue: 3,0:25:56.82,0:26:01.98,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(4960,5160,\blur12)}{\1c&HB66489&\t(-60,340,\1c&HE7BDCF&)\t(190,590,\1c&HB66489&)}na{\1c&HB66489&\t(110,1390,\1c&HE7BDCF&)\t(910,2190,\1c&HB66489&)}ze {\1c&HB66489&\t(2085,2365,\1c&HE7BDCF&)\t(2260,2540,\1c&HB66489&)}a{\1c&HB66489&\t(2462,2670,\1c&HE7BDCF&)\t(2592,2800,\1c&HB66489&)}ra{\1c&HB66489&\t(2734,2910,\1c&HE7BDCF&)\t(2844,3020,\1c&HB66489&)}ga{\1c&HB66489&\t(2948,3140,\1c&HE7BDCF&)\t(3068,3260,\1c&HB66489&)}e {\1c&HB66489&\t(3185,3385,\1c&HE7BDCF&)\t(3310,3510,\1c&HB66489&)}mo {\1c&HB66489&\t(3363,3755,\1c&HE7BDCF&)\t(3608,4000,\1c&HB66489&)}se{\1c&HB66489&\t(3928,4120,\1c&HE7BDCF&)\t(4048,4240,\1c&HB66489&)}zu {\1c&HB66489&\t(4171,4355,\1c&HE7BDCF&)\t(4286,4470,\1c&HB66489&)}ma{\1c&HB66489&\t(4338,4690,\1c&HE7BDCF&)\t(4558,4910,\1c&HB66489&)}ta
+Dialogue: 0,0:25:56.82,0:26:01.98,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}e mais uma vez, de algum jeito, não consigo resistir
+Dialogue: 0,0:25:56.82,0:26:01.98,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(4960,5160,\blur12)}e mais uma vez, de algum jeito, não consigo resistir
+Dialogue: 0,0:25:56.91,0:26:01.73,Ending - Romanji,,0,0,0,,{\k50}na{\k160}ze {\k35}a{\k26}ra{\k22}ga{\k24}e {\k25}mo {\k49}se{\k24}zu {\k23}ma{\k44}ta
+Dialogue: 0,0:25:56.91,0:26:01.73,Ending - English,,0,0,0,,e mais uma vez, de algum jeito, não consigo resistir
+Dialogue: 2,0:26:03.43,0:26:04.23,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(747.409,78.75)\t(85,800,\fscx140\fscy140)\fad(200,550)}o
+Dialogue: 2,0:26:03.43,0:26:04.73,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(792.317,78.75)\t(650,1300,\fscx140\fscy140)\fad(200,500)}bo
+Dialogue: 2,0:26:03.43,0:26:05.21,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(849.153,78.75)\t(1156,1780,\fscx140\fscy140)\fad(200,480)}re
+Dialogue: 2,0:26:03.43,0:26:06.06,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(901.054,78.75)\t(1525,2630,\fscx140\fscy140)\fad(200,850)}te
+Dialogue: 2,0:26:03.43,0:26:06.18,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(963.855,78.75)\t(2594,2750,\fscx140\fscy140)\fad(200,120)}shi
+Dialogue: 2,0:26:03.43,0:26:06.92,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1039.653,78.75)\t(2528,3490,\fscx140\fscy140)\fad(200,740)}ma
+Dialogue: 2,0:26:03.43,0:26:07.18,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1094.004,78.75)\t(3412,3750,\fscx140\fscy140)\fad(200,260)}u
+Dialogue: 2,0:26:03.43,0:26:08.86,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1155.832,78.75)\t(3246,5430,\fscx140\fscy140)\fad(200,1680)}no
+Dialogue: 3,0:26:03.43,0:26:08.97,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(5340,5540,\blur12)}{\1c&HB66489&\t(85,525,\1c&HE7BDCF&)\t(360,800,\1c&HB66489&)}o{\1c&HB66489&\t(650,1050,\1c&HE7BDCF&)\t(900,1300,\1c&HB66489&)}bo{\1c&HB66489&\t(1156,1540,\1c&HE7BDCF&)\t(1396,1780,\1c&HB66489&)}re{\1c&HB66489&\t(1525,2205,\1c&HE7BDCF&)\t(1950,2630,\1c&HB66489&)}te{\1c&HB66489&\t(2594,2690,\1c&HE7BDCF&)\t(2654,2750,\1c&HB66489&)}shi{\1c&HB66489&\t(2528,3120,\1c&HE7BDCF&)\t(2898,3490,\1c&HB66489&)}ma{\1c&HB66489&\t(3412,3620,\1c&HE7BDCF&)\t(3542,3750,\1c&HB66489&)}u {\1c&HB66489&\t(3246,4590,\1c&HE7BDCF&)\t(4086,5430,\1c&HB66489&)}no
+Dialogue: 0,0:26:03.43,0:26:08.97,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}enquanto começo a me afogar nelas
+Dialogue: 0,0:26:03.43,0:26:08.97,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(5340,5540,\blur12)}enquanto começo a me afogar nelas
+Dialogue: 0,0:26:03.68,0:26:08.86,Ending - Romanji,,0,0,0,,{\k55}o{\k50}bo{\k48}re{\k85}te{\k12}shi{\k74}ma{\k26}u {\k168}no
+Dialogue: 0,0:26:03.68,0:26:08.86,Ending - English,,0,0,0,,enquanto começo a me afogar nelas
+Dialogue: 2,0:26:08.97,0:26:09.37,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(707.73,78.75)\t(23,400,\fscx140\fscy140)\fad(200,290)}I
+Dialogue: 2,0:26:08.97,0:26:09.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(790.875,78.75)\t(325,650,\fscx140\fscy140)\fad(200,250)}wish
+Dialogue: 2,0:26:08.97,0:26:09.79,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(909.539,78.75)\t(599,820,\fscx140\fscy140)\fad(200,170)}you
+Dialogue: 2,0:26:08.97,0:26:09.97,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1031.484,78.75)\t(766,1000,\fscx140\fscy140)\fad(200,180)}were
+Dialogue: 2,0:26:08.97,0:26:10.23,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1165.091,78.75)\t(922,1260,\fscx140\fscy140)\fad(200,260)}here
+Dialogue: 3,0:26:08.97,0:26:10.27,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(1100,1300,\blur12)}{\1c&HB66489&\t(23,255,\1c&HE7BDCF&)\t(168,400,\1c&HB66489&)}I {\1c&HB66489&\t(325,525,\1c&HE7BDCF&)\t(450,650,\1c&HB66489&)}wish {\1c&HB66489&\t(599,735,\1c&HE7BDCF&)\t(684,820,\1c&HB66489&)}you {\1c&HB66489&\t(766,910,\1c&HE7BDCF&)\t(856,1000,\1c&HB66489&)}were {\1c&HB66489&\t(922,1130,\1c&HE7BDCF&)\t(1052,1260,\1c&HB66489&)}here
+Dialogue: 0,0:26:09.08,0:26:10.23,Ending - Romanji,,0,0,0,,{\k29}I {\k25}wish {\k17}you {\k18}were {\k26}here
+Dialogue: 2,0:26:10.27,0:26:10.61,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(682.594,78.75)\t(-50,340,\fscx140\fscy140)\fad(200,300)}oh,
+Dialogue: 2,0:26:10.27,0:26:10.84,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(765.246,78.75)\t(271,570,\fscx140\fscy140)\fad(200,230)}ne
+Dialogue: 2,0:26:10.27,0:26:11.07,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(837.188,78.75)\t(501,800,\fscx140\fscy140)\fad(200,230)}ver
+Dialogue: 2,0:26:10.27,0:26:11.55,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(955.782,78.75)\t(656,1280,\fscx140\fscy140)\fad(200,480)}close
+Dialogue: 2,0:26:10.27,0:26:12.03,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1091.73,78.75)\t(1136,1760,\fscx140\fscy140)\fad(200,480)}your
+Dialogue: 2,0:26:10.27,0:26:12.40,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1219.605,78.75)\t(1649,2130,\fscx140\fscy140)\fad(200,370)}eyes
+Dialogue: 3,0:26:10.27,0:26:12.46,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(1990,2190,\blur12)}{\1c&HB66489&\t(-50,190,\1c&HE7BDCF&)\t(100,340,\1c&HB66489&)}oh, {\1c&HB66489&\t(271,455,\1c&HE7BDCF&)\t(386,570,\1c&HB66489&)}ne{\1c&HB66489&\t(501,685,\1c&HE7BDCF&)\t(616,800,\1c&HB66489&)}ver {\1c&HB66489&\t(656,1040,\1c&HE7BDCF&)\t(896,1280,\1c&HB66489&)}close {\1c&HB66489&\t(1136,1520,\1c&HE7BDCF&)\t(1376,1760,\1c&HB66489&)}your {\1c&HB66489&\t(1649,1945,\1c&HE7BDCF&)\t(1834,2130,\1c&HB66489&)}eyes
+Dialogue: 0,0:26:10.31,0:26:12.40,Ending - Romanji,,0,0,0,,{\k30}oh, {\k23}ne{\k23}ver {\k48}close {\k48}your {\k37}eyes
+Dialogue: 2,0:26:12.46,0:26:12.72,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(708.528,78.75)\t(0,260,\fscx140\fscy140)\fad(200,200)}sear
+Dialogue: 2,0:26:12.46,0:26:13.01,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(831.972,78.75)\t(173,550,\fscx140\fscy140)\fad(200,290)}ching
+Dialogue: 2,0:26:12.46,0:26:13.26,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(953.145,78.75)\t(475,800,\fscx140\fscy140)\fad(200,250)}for
+Dialogue: 2,0:26:12.46,0:26:13.51,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1018.113,78.75)\t(725,1050,\fscx140\fscy140)\fad(200,250)}a
+Dialogue: 2,0:26:12.46,0:26:13.99,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1099.816,78.75)\t(906,1530,\fscx140\fscy140)\fad(200,480)}true
+Dialogue: 2,0:26:12.46,0:26:14.33,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1216.3,78.75)\t(1428,1870,\fscx140\fscy140)\fad(200,340)}fate
+Dialogue: 3,0:26:12.46,0:26:14.52,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(1860,2060,\blur12)}{\1c&HB66489&\t(0,160,\1c&HE7BDCF&)\t(100,260,\1c&HB66489&)}sear{\1c&HB66489&\t(173,405,\1c&HE7BDCF&)\t(318,550,\1c&HB66489&)}ching {\1c&HB66489&\t(475,675,\1c&HE7BDCF&)\t(600,800,\1c&HB66489&)}for {\1c&HB66489&\t(725,925,\1c&HE7BDCF&)\t(850,1050,\1c&HB66489&)}a {\1c&HB66489&\t(906,1290,\1c&HE7BDCF&)\t(1146,1530,\1c&HB66489&)}true {\1c&HB66489&\t(1428,1700,\1c&HE7BDCF&)\t(1598,1870,\1c&HB66489&)}fate
+Dialogue: 0,0:26:12.52,0:26:14.33,Ending - Romanji,,0,0,0,,{\k20}sear{\k29}ching {\k25}for {\k25}a {\k48}true {\k34}fate
+Dialogue: 2,0:26:14.52,0:26:14.99,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(601.957,78.75)\t(106,470,\fscx140\fscy140)\fad(200,280)}do
+Dialogue: 2,0:26:14.52,0:26:15.25,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(663.117,78.75)\t(392,730,\fscx140\fscy140)\fad(200,260)}ko
+Dialogue: 2,0:26:14.52,0:26:15.68,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(723.129,78.75)\t(601,1160,\fscx140\fscy140)\fad(200,430)}ka
+Dialogue: 2,0:26:14.52,0:26:16.01,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(790.722,78.75)\t(1061,1490,\fscx140\fscy140)\fad(200,330)}ki
+Dialogue: 2,0:26:14.52,0:26:16.17,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(829.159,78.75)\t(1442,1650,\fscx140\fscy140)\fad(200,160)}e
+Dialogue: 2,0:26:14.52,0:26:16.67,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(868.043,78.75)\t(1500,2150,\fscx140\fscy140)\fad(200,500)}ta
+Dialogue: 2,0:26:14.52,0:26:17.15,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(920.438,78.75)\t(2006,2630,\fscx140\fscy140)\fad(200,480)}a
+Dialogue: 2,0:26:14.52,0:26:17.36,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(965.918,78.75)\t(2567,2840,\fscx140\fscy140)\fad(200,210)}no
+Dialogue: 2,0:26:14.52,0:26:17.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1044.504,78.75)\t(2762,3100,\fscx140\fscy140)\fad(200,260)}nu
+Dialogue: 2,0:26:14.52,0:26:17.79,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1109.484,78.75)\t(3049,3270,\fscx140\fscy140)\fad(200,170)}ku
+Dialogue: 2,0:26:14.52,0:26:17.95,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1180.571,78.75)\t(3222,3430,\fscx140\fscy140)\fad(200,160)}mo
+Dialogue: 2,0:26:14.52,0:26:18.38,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1240.992,78.75)\t(3301,3860,\fscx140\fscy140)\fad(200,430)}ri
+Dialogue: 2,0:26:14.52,0:26:18.75,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1312.395,78.75)\t(3749,4230,\fscx140\fscy140)\fad(200,370)}wo
+Dialogue: 3,0:26:14.52,0:26:18.92,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(4205,4405,\blur12)}{\1c&HB66489&\t(106,330,\1c&HE7BDCF&)\t(246,470,\1c&HB66489&)}do{\1c&HB66489&\t(392,600,\1c&HE7BDCF&)\t(522,730,\1c&HB66489&)}ko{\1c&HB66489&\t(601,945,\1c&HE7BDCF&)\t(816,1160,\1c&HB66489&)}ka {\1c&HB66489&\t(1061,1325,\1c&HE7BDCF&)\t(1226,1490,\1c&HB66489&)}ki{\1c&HB66489&\t(1442,1570,\1c&HE7BDCF&)\t(1522,1650,\1c&HB66489&)}e{\1c&HB66489&\t(1500,1900,\1c&HE7BDCF&)\t(1750,2150,\1c&HB66489&)}ta {\1c&HB66489&\t(2006,2390,\1c&HE7BDCF&)\t(2246,2630,\1c&HB66489&)}a{\1c&HB66489&\t(2567,2735,\1c&HE7BDCF&)\t(2672,2840,\1c&HB66489&)}no {\1c&HB66489&\t(2762,2970,\1c&HE7BDCF&)\t(2892,3100,\1c&HB66489&)}nu{\1c&HB66489&\t(3049,3185,\1c&HE7BDCF&)\t(3134,3270,\1c&HB66489&)}ku{\1c&HB66489&\t(3222,3350,\1c&HE7BDCF&)\t(3302,3430,\1c&HB66489&)}mo{\1c&HB66489&\t(3301,3645,\1c&HE7BDCF&)\t(3516,3860,\1c&HB66489&)}ri {\1c&HB66489&\t(3749,4045,\1c&HE7BDCF&)\t(3934,4230,\1c&HB66489&)}wo
+Dialogue: 0,0:26:14.52,0:26:18.92,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}continuo buscando o calor que sumiu por aí
+Dialogue: 0,0:26:14.52,0:26:18.92,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(4205,4405,\blur12)}continuo buscando o calor que sumiu por aí
+Dialogue: 0,0:26:14.71,0:26:18.75,Ending - Romanji,,0,0,0,,{\k28}do{\k26}ko{\k43}ka {\k33}ki{\k16}e{\k50}ta {\k48}a{\k21}no {\k26}nu{\k17}ku{\k16}mo{\k43}ri {\k37}wo
+Dialogue: 0,0:26:14.71,0:26:18.75,Ending - English,,0,0,0,,continuo buscando o calor que sumiu por aí
+Dialogue: 2,0:26:18.92,0:26:19.35,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(495.058,78.75)\t(100,425,\fscx140\fscy140)\fad(200,250)}o
+Dialogue: 2,0:26:18.92,0:26:19.84,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(518.578,78.75)\t(278,915,\fscx140\fscy140)\fad(200,490)}i
+Dialogue: 2,0:26:18.92,0:26:20.08,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(556.653,78.75)\t(843,1155,\fscx140\fscy140)\fad(200,240)}ka
+Dialogue: 2,0:26:18.92,0:26:20.57,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(615.938,78.75)\t(1008,1645,\fscx140\fscy140)\fad(200,490)}ke
+Dialogue: 2,0:26:18.92,0:26:20.82,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(685.712,78.75)\t(1570,1895,\fscx140\fscy140)\fad(200,250)}tsu
+Dialogue: 2,0:26:18.92,0:26:21.01,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(755.496,78.75)\t(1838,2085,\fscx140\fscy140)\fad(200,190)}zu
+Dialogue: 2,0:26:18.92,0:26:21.31,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(815.157,78.75)\t(1995,2385,\fscx140\fscy140)\fad(200,300)}ke
+Dialogue: 2,0:26:18.92,0:26:21.80,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(870.046,78.75)\t(2238,2875,\fscx140\fscy140)\fad(200,490)}te
+Dialogue: 2,0:26:18.92,0:26:22.09,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(941.847,78.75)\t(2788,3165,\fscx140\fscy140)\fad(200,290)}mi
+Dialogue: 2,0:26:18.92,0:26:22.53,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(990.996,78.75)\t(3033,3605,\fscx140\fscy140)\fad(200,440)}u
+Dialogue: 2,0:26:18.92,0:26:22.77,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1045.02,78.75)\t(3533,3845,\fscx140\fscy140)\fad(200,240)}shi
+Dialogue: 2,0:26:18.92,0:26:24.15,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1129.617,78.75)\t(3431,5225,\fscx140\fscy140)\fad(200,1380)}nau
+Dialogue: 2,0:26:18.92,0:26:24.72,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1240.278,78.75)\t(5470,5795,\fscx140\fscy140)\fad(200,250)}“Re:
+Dialogue: 2,0:26:18.92,0:26:25.49,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1365.024,78.75)\t(5564,6565,\fscx140\fscy140)\fad(200,770)}Start”
+Dialogue: 3,0:26:18.92,0:26:25.67,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(6550,6750,\blur12)}{\1c&HB66489&\t(100,300,\1c&HE7BDCF&)\t(225,425,\1c&HB66489&)}o{\1c&HB66489&\t(278,670,\1c&HE7BDCF&)\t(523,915,\1c&HB66489&)}i{\1c&HB66489&\t(843,1035,\1c&HE7BDCF&)\t(963,1155,\1c&HB66489&)}ka{\1c&HB66489&\t(1008,1400,\1c&HE7BDCF&)\t(1253,1645,\1c&HB66489&)}ke{\1c&HB66489&\t(1570,1770,\1c&HE7BDCF&)\t(1695,1895,\1c&HB66489&)}tsu{\1c&HB66489&\t(1838,1990,\1c&HE7BDCF&)\t(1933,2085,\1c&HB66489&)}zu{\1c&HB66489&\t(1995,2235,\1c&HE7BDCF&)\t(2145,2385,\1c&HB66489&)}ke{\1c&HB66489&\t(2238,2630,\1c&HE7BDCF&)\t(2483,2875,\1c&HB66489&)}te {\1c&HB66489&\t(2788,3020,\1c&HE7BDCF&)\t(2933,3165,\1c&HB66489&)}mi{\1c&HB66489&\t(3033,3385,\1c&HE7BDCF&)\t(3253,3605,\1c&HB66489&)}u{\1c&HB66489&\t(3533,3725,\1c&HE7BDCF&)\t(3653,3845,\1c&HB66489&)}shi{\1c&HB66489&\t(3431,4535,\1c&HE7BDCF&)\t(4121,5225,\1c&HB66489&)}nau {\1c&HB66489&\t(5470,5670,\1c&HE7BDCF&)\t(5595,5795,\1c&HB66489&)}“Re:{\1c&HB66489&\t(5564,6180,\1c&HE7BDCF&)\t(5949,6565,\1c&HB66489&)}Start”
+Dialogue: 0,0:26:18.92,0:26:25.74,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}mas depois que os últimos vestígios se desfazem, eu "Re:Começo"
+Dialogue: 0,0:26:18.92,0:26:25.74,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(6615,6815,\blur12)}mas depois que os últimos vestígios se desfazem, eu "Re:Começo"
+Dialogue: 0,0:26:19.10,0:26:25.49,Ending - Romanji,,0,0,0,,{\k25}o{\k49}i{\k24}ka{\k49}ke{\k25}tsu{\k19}zu{\k30}ke{\k49}te {\k29}mi{\k44}u{\k24}shi{\k138}nau{\k32} {\k25}“Re:{\k77}Start”
+Dialogue: 0,0:26:19.10,0:26:25.49,Ending - English,,0,0,0,,mas depois que os últimos vestígios se desfazem, eu "Re:Começo"
+Dialogue: 2,0:26:25.67,0:26:26.18,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(764.192,78.75)\t(89,505,\fscx140\fscy140)\fad(200,320)}so,
+Dialogue: 2,0:26:25.67,0:26:26.43,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(845.613,78.75)\t(430,755,\fscx140\fscy140)\fad(200,250)}let
+Dialogue: 2,0:26:25.67,0:26:26.67,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(921.832,78.75)\t(683,995,\fscx140\fscy140)\fad(200,240)}us
+Dialogue: 2,0:26:25.67,0:26:27.13,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1002.821,78.75)\t(857,1455,\fscx140\fscy140)\fad(200,460)}try
+Dialogue: 2,0:26:25.67,0:26:27.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1068.563,78.75)\t(1308,1945,\fscx140\fscy140)\fad(200,490)}a
+Dialogue: 2,0:26:25.67,0:26:27.90,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1136.226,78.75)\t(1861,2225,\fscx140\fscy140)\fad(200,280)}gain
+Dialogue: 3,0:26:25.67,0:26:28.01,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(2140,2340,\blur12)}{\1c&HB66489&\t(89,345,\1c&HE7BDCF&)\t(249,505,\1c&HB66489&)}so, {\1c&HB66489&\t(430,630,\1c&HE7BDCF&)\t(555,755,\1c&HB66489&)}let {\1c&HB66489&\t(683,875,\1c&HE7BDCF&)\t(803,995,\1c&HB66489&)}us {\1c&HB66489&\t(857,1225,\1c&HE7BDCF&)\t(1087,1455,\1c&HB66489&)}try {\1c&HB66489&\t(1308,1700,\1c&HE7BDCF&)\t(1553,1945,\1c&HB66489&)}a{\1c&HB66489&\t(1861,2085,\1c&HE7BDCF&)\t(2001,2225,\1c&HB66489&)}gain
+Dialogue: 0,0:26:25.86,0:26:27.90,Ending - Romanji,,0,0,0,,{\k32}so, {\k25}let {\k24}us {\k46}try {\k49}a{\k28}gain
+Dialogue: 2,0:26:28.01,0:26:28.37,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(722.754,78.75)\t(43,355,\fscx140\fscy140)\fad(200,240)}from
+Dialogue: 2,0:26:28.01,0:26:28.63,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(839.567,78.75)\t(277,615,\fscx140\fscy140)\fad(200,260)}the
+Dialogue: 2,0:26:28.01,0:26:28.86,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(923.204,78.75)\t(546,845,\fscx140\fscy140)\fad(200,230)}ve
+Dialogue: 2,0:26:28.01,0:26:29.11,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(978.716,78.75)\t(770,1095,\fscx140\fscy140)\fad(200,250)}ry
+Dialogue: 2,0:26:28.01,0:26:29.60,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1074.399,78.75)\t(948,1585,\fscx140\fscy140)\fad(200,490)}first
+Dialogue: 2,0:26:28.01,0:26:29.93,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1200.844,78.75)\t(1486,1915,\fscx140\fscy140)\fad(200,330)}time
+Dialogue: 3,0:26:28.01,0:26:30.10,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(1890,2090,\blur12)}{\1c&HB66489&\t(43,235,\1c&HE7BDCF&)\t(163,355,\1c&HB66489&)}from {\1c&HB66489&\t(277,485,\1c&HE7BDCF&)\t(407,615,\1c&HB66489&)}the {\1c&HB66489&\t(546,730,\1c&HE7BDCF&)\t(661,845,\1c&HB66489&)}ve{\1c&HB66489&\t(770,970,\1c&HE7BDCF&)\t(895,1095,\1c&HB66489&)}ry {\1c&HB66489&\t(948,1340,\1c&HE7BDCF&)\t(1193,1585,\1c&HB66489&)}first {\1c&HB66489&\t(1486,1750,\1c&HE7BDCF&)\t(1651,1915,\1c&HB66489&)}time
+Dialogue: 0,0:26:28.13,0:26:29.93,Ending - Romanji,,0,0,0,,{\k24}from {\k26}the {\k23}ve{\k25}ry {\k49}first {\k33}time
+Dialogue: 0,0:26:30.03,0:26:34.63,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}"Vai dar certo; eu sei que vai" assim mesmo, ainda agora
+Dialogue: 0,0:26:30.03,0:26:34.63,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(4400,4600,\blur12)}"Vai dar certo; eu sei que vai" assim mesmo, ainda agora
+Dialogue: 2,0:26:30.10,0:26:30.58,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(625.043,78.75)\t(85,475,\fscx140\fscy140)\fad(200,300)}"ki
+Dialogue: 2,0:26:30.10,0:26:30.84,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(668.766,78.75)\t(397,735,\fscx140\fscy140)\fad(200,260)}t
+Dialogue: 2,0:26:30.10,0:26:31.30,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(705.446,78.75)\t(597,1195,\fscx140\fscy140)\fad(200,460)}to
+Dialogue: 2,0:26:30.10,0:26:31.55,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(769.371,78.75)\t(1120,1445,\fscx140\fscy140)\fad(200,250)}ki
+Dialogue: 2,0:26:30.10,0:26:31.80,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(804.516,78.75)\t(1370,1695,\fscx140\fscy140)\fad(200,250)}t
+Dialogue: 2,0:26:30.10,0:26:32.28,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(849.774,78.75)\t(1551,2175,\fscx140\fscy140)\fad(200,480)}to"
+Dialogue: 2,0:26:30.10,0:26:32.74,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(925.7,78.75)\t(2037,2635,\fscx140\fscy140)\fad(200,460)}so
+Dialogue: 2,0:26:30.10,0:26:32.99,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(969.668,78.75)\t(2560,2885,\fscx140\fscy140)\fad(200,250)}u
+Dialogue: 2,0:26:30.10,0:26:33.24,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1028.157,78.75)\t(2810,3135,\fscx140\fscy140)\fad(200,250)}ya
+Dialogue: 2,0:26:30.10,0:26:33.38,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1092.434,78.75)\t(3093,3275,\fscx140\fscy140)\fad(200,140)}tte
+Dialogue: 2,0:26:30.10,0:26:33.51,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1150.875,78.75)\t(3236,3405,\fscx140\fscy140)\fad(200,130)}i
+Dialogue: 2,0:26:30.10,0:26:33.98,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1197.55,78.75)\t(3264,3875,\fscx140\fscy140)\fad(200,470)}ma
+Dialogue: 2,0:26:30.10,0:26:34.38,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1288.641,78.75)\t(3755,4275,\fscx140\fscy140)\fad(200,400)}mo
+Dialogue: 3,0:26:30.10,0:26:34.63,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(4325,4525,\blur12)}{\1c&HB66489&\t(85,325,\1c&HE7BDCF&)\t(235,475,\1c&HB66489&)}"ki{\1c&HB66489&\t(397,605,\1c&HE7BDCF&)\t(527,735,\1c&HB66489&)}t{\1c&HB66489&\t(597,965,\1c&HE7BDCF&)\t(827,1195,\1c&HB66489&)}to {\1c&HB66489&\t(1120,1320,\1c&HE7BDCF&)\t(1245,1445,\1c&HB66489&)}ki{\1c&HB66489&\t(1370,1570,\1c&HE7BDCF&)\t(1495,1695,\1c&HB66489&)}t{\1c&HB66489&\t(1551,1935,\1c&HE7BDCF&)\t(1791,2175,\1c&HB66489&)}to" {\1c&HB66489&\t(2037,2405,\1c&HE7BDCF&)\t(2267,2635,\1c&HB66489&)}so{\1c&HB66489&\t(2560,2760,\1c&HE7BDCF&)\t(2685,2885,\1c&HB66489&)}u {\1c&HB66489&\t(2810,3010,\1c&HE7BDCF&)\t(2935,3135,\1c&HB66489&)}ya{\1c&HB66489&\t(3093,3205,\1c&HE7BDCF&)\t(3163,3275,\1c&HB66489&)}tte {\1c&HB66489&\t(3236,3340,\1c&HE7BDCF&)\t(3301,3405,\1c&HB66489&)}i{\1c&HB66489&\t(3264,3640,\1c&HE7BDCF&)\t(3499,3875,\1c&HB66489&)}ma {\1c&HB66489&\t(3755,4075,\1c&HE7BDCF&)\t(3955,4275,\1c&HB66489&)}mo
+Dialogue: 0,0:26:30.28,0:26:34.38,Ending - Romanji,,0,0,0,,{\k30}"ki{\k26}t{\k46}to {\k25}ki{\k25}t{\k48}to" {\k46}so{\k25}u {\k25}ya{\k14}tte {\k13}i{\k47}ma {\k40}mo
+Dialogue: 0,0:26:30.28,0:26:34.38,Ending - English,,0,0,0,,"Vai dar certo; eu sei que vai" assim mesmo, ainda agora
+Dialogue: 2,0:26:34.69,0:26:35.93,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(706.77,78.75)\t(-47,1240,\fscx140\fscy140)\fad(200,990)}da
+Dialogue: 2,0:26:34.69,0:26:36.42,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(763.125,78.75)\t(1093,1730,\fscx140\fscy140)\fad(200,490)}re
+Dialogue: 2,0:26:34.69,0:26:37.40,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(829.113,78.75)\t(1436,2710,\fscx140\fscy140)\fad(200,980)}mo
+Dialogue: 2,0:26:34.69,0:26:37.79,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(915,78.75)\t(2593,3100,\fscx140\fscy140)\fad(200,390)}mi
+Dialogue: 2,0:26:34.69,0:26:38.10,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(978.433,78.75)\t(3007,3410,\fscx140\fscy140)\fad(200,310)}na
+Dialogue: 2,0:26:34.69,0:26:38.38,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1037.063,78.75)\t(3326,3690,\fscx140\fscy140)\fad(200,280)}e
+Dialogue: 2,0:26:34.69,0:26:39.09,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1068,78.75)\t(3477,4400,\fscx140\fscy140)\fad(200,710)}n
+Dialogue: 2,0:26:34.69,0:26:39.23,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1101.129,78.75)\t(4358,4540,\fscx140\fscy140)\fad(200,140)}ji
+Dialogue: 2,0:26:34.69,0:26:39.40,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1142.566,78.75)\t(4489,4710,\fscx140\fscy140)\fad(200,170)}te
+Dialogue: 2,0:26:34.69,0:26:39.84,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1205.191,78.75)\t(4578,5150,\fscx140\fscy140)\fad(200,440)}iru
+Dialogue: 3,0:26:34.69,0:26:39.95,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(5065,5265,\blur12)}{\1c&HB66489&\t(-47,745,\1c&HE7BDCF&)\t(448,1240,\1c&HB66489&)}da{\1c&HB66489&\t(1093,1485,\1c&HE7BDCF&)\t(1338,1730,\1c&HB66489&)}re{\1c&HB66489&\t(1436,2220,\1c&HE7BDCF&)\t(1926,2710,\1c&HB66489&)}mo {\1c&HB66489&\t(2593,2905,\1c&HE7BDCF&)\t(2788,3100,\1c&HB66489&)}mi{\1c&HB66489&\t(3007,3255,\1c&HE7BDCF&)\t(3162,3410,\1c&HB66489&)}na {\1c&HB66489&\t(3326,3550,\1c&HE7BDCF&)\t(3466,3690,\1c&HB66489&)}e{\1c&HB66489&\t(3477,4045,\1c&HE7BDCF&)\t(3832,4400,\1c&HB66489&)}n{\1c&HB66489&\t(4358,4470,\1c&HE7BDCF&)\t(4428,4540,\1c&HB66489&)}ji{\1c&HB66489&\t(4489,4625,\1c&HE7BDCF&)\t(4574,4710,\1c&HB66489&)}te{\1c&HB66489&\t(4578,4930,\1c&HE7BDCF&)\t(4798,5150,\1c&HB66489&)}iru
+Dialogue: 0,0:26:34.69,0:26:39.95,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}cada um de nós está fingindo coragem
+Dialogue: 0,0:26:34.69,0:26:39.95,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(5065,5265,\blur12)}cada um de nós está fingindo coragem
+Dialogue: 0,0:26:34.94,0:26:39.84,Ending - Romanji,,0,0,0,,{\k99}da{\k49}re{\k98}mo {\k39}mi{\k31}na {\k28}e{\k71}n{\k14}ji{\k17}te{\k44}iru
+Dialogue: 0,0:26:34.94,0:26:39.84,Ending - English,,0,0,0,,cada um de nós está fingindo coragem
+Dialogue: 2,0:26:39.95,0:26:40.33,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(712.383,78.75)\t(37,375,\fscx140\fscy140)\fad(200,260)}for
+Dialogue: 2,0:26:39.95,0:26:41.25,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(823.137,78.75)\t(99,1295,\fscx140\fscy140)\fad(200,920)}now,
+Dialogue: 2,0:26:39.95,0:26:42.04,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(928.77,78.75)\t(1058,2085,\fscx140\fscy140)\fad(200,790)}I’ll
+Dialogue: 2,0:26:39.95,0:26:42.16,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1015.933,78.75)\t(2049,2205,\fscx140\fscy140)\fad(200,120)}see
+Dialogue: 2,0:26:39.95,0:26:42.28,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1116.645,78.75)\t(2169,2325,\fscx140\fscy140)\fad(200,120)}you
+Dialogue: 2,0:26:39.95,0:26:43.89,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1210.559,78.75)\t(1842,3935,\fscx140\fscy140)\fad(200,1610)}off
+Dialogue: 3,0:26:39.95,0:26:44.14,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3985,4185,\blur12)}{\1c&HB66489&\t(37,245,\1c&HE7BDCF&)\t(167,375,\1c&HB66489&)}for {\1c&HB66489&\t(99,835,\1c&HE7BDCF&)\t(559,1295,\1c&HB66489&)}now, {\1c&HB66489&\t(1058,1690,\1c&HE7BDCF&)\t(1453,2085,\1c&HB66489&)}I’ll {\1c&HB66489&\t(2049,2145,\1c&HE7BDCF&)\t(2109,2205,\1c&HB66489&)}see {\1c&HB66489&\t(2169,2265,\1c&HE7BDCF&)\t(2229,2325,\1c&HB66489&)}you {\1c&HB66489&\t(1842,3130,\1c&HE7BDCF&)\t(2647,3935,\1c&HB66489&)}off
+Dialogue: 0,0:26:40.07,0:26:43.89,Ending - Romanji,,0,0,0,,{\k26}for {\k92}now, {\k79}I’ll {\k12}see {\k12}you {\k161}off
+Dialogue: 2,0:26:45.43,0:26:46.18,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(573.328,78.75)\t(100,750,\fscx140\fscy140)\fad(200,500)}and
+Dialogue: 2,0:26:45.43,0:26:46.67,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(690.984,78.75)\t(603,1240,\fscx140\fscy140)\fad(200,490)}we’ll
+Dialogue: 2,0:26:45.43,0:26:46.98,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(800.859,78.75)\t(1147,1550,\fscx140\fscy140)\fad(200,310)}die
+Dialogue: 2,0:26:45.43,0:26:47.40,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(897.012,78.75)\t(1645,1970,\fscx140\fscy140)\fad(200,250)}wai
+Dialogue: 2,0:26:45.43,0:26:47.65,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(991.711,78.75)\t(1895,2220,\fscx140\fscy140)\fad(200,250)}ting
+Dialogue: 2,0:26:45.43,0:26:47.90,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1093.782,78.75)\t(2145,2470,\fscx140\fscy140)\fad(200,250)}for
+Dialogue: 2,0:26:45.43,0:26:48.14,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1158.75,78.75)\t(2398,2710,\fscx140\fscy140)\fad(200,240)}a
+Dialogue: 2,0:26:45.43,0:26:48.62,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1238.73,78.75)\t(2566,3190,\fscx140\fscy140)\fad(200,480)}new
+Dialogue: 2,0:26:45.43,0:26:49.11,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1348.921,78.75)\t(3043,3680,\fscx140\fscy140)\fad(200,490)}day
+Dialogue: 3,0:26:45.43,0:26:49.23,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3600,3800,\blur12)}{\1c&HB66489&\t(100,500,\1c&HE7BDCF&)\t(350,750,\1c&HB66489&)}and {\1c&HB66489&\t(603,995,\1c&HE7BDCF&)\t(848,1240,\1c&HB66489&)}we’ll {\1c&HB66489&\t(1147,1395,\1c&HE7BDCF&)\t(1302,1550,\1c&HB66489&)}die {\1c&HB66489&\t(1645,1845,\1c&HE7BDCF&)\t(1770,1970,\1c&HB66489&)}wai{\1c&HB66489&\t(1895,2095,\1c&HE7BDCF&)\t(2020,2220,\1c&HB66489&)}ting {\1c&HB66489&\t(2145,2345,\1c&HE7BDCF&)\t(2270,2470,\1c&HB66489&)}for {\1c&HB66489&\t(2398,2590,\1c&HE7BDCF&)\t(2518,2710,\1c&HB66489&)}a {\1c&HB66489&\t(2566,2950,\1c&HE7BDCF&)\t(2806,3190,\1c&HB66489&)}new {\1c&HB66489&\t(3043,3435,\1c&HE7BDCF&)\t(3288,3680,\1c&HB66489&)}day
+Dialogue: 0,0:26:45.68,0:26:49.11,Ending - Romanji,,0,0,0,,{\k50}and {\k49}we’ll {\k31}die {\k17}{\k25}wai{\k25}ting {\k25}for {\k24}a {\k48}new {\k49}day
+Dialogue: 2,0:26:49.23,0:26:49.59,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(903.597,78.75)\t(48,360,\fscx140\fscy140)\fad(200,240)}ni
+Dialogue: 2,0:26:49.23,0:26:49.83,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(959.579,78.75)\t(288,600,\fscx140\fscy140)\fad(200,240)}do
+Dialogue: 2,0:26:49.23,0:26:50.15,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1015.98,78.75)\t(504,920,\fscx140\fscy140)\fad(200,320)}to
+Dialogue: 3,0:26:49.23,0:26:50.40,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(970,1170,\blur12)}{\1c&HB66489&\t(48,240,\1c&HE7BDCF&)\t(168,360,\1c&HB66489&)}ni{\1c&HB66489&\t(288,480,\1c&HE7BDCF&)\t(408,600,\1c&HB66489&)}do{\1c&HB66489&\t(504,760,\1c&HE7BDCF&)\t(664,920,\1c&HB66489&)}to
+Dialogue: 0,0:26:49.23,0:26:50.40,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}nunca mais
+Dialogue: 0,0:26:49.23,0:26:50.40,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(970,1170,\blur12)}nunca mais
+Dialogue: 0,0:26:49.35,0:26:50.15,Ending - Romanji,,0,0,0,,{\k24}ni{\k24}do{\k32}to
+Dialogue: 0,0:26:49.35,0:26:50.15,Ending - English,,0,0,0,,nunca mais
+Dialogue: 2,0:26:53.25,0:26:53.97,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(550.804,78.75)\t(109,720,\fscx140\fscy140)\fad(200,470)}and
+Dialogue: 2,0:26:53.25,0:26:54.46,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(668.462,78.75)\t(573,1210,\fscx140\fscy140)\fad(200,490)}we’ll
+Dialogue: 2,0:26:53.25,0:26:54.70,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(800.859,78.75)\t(1138,1450,\fscx140\fscy140)\fad(200,240)}start
+Dialogue: 2,0:26:53.25,0:26:55.19,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(919.534,78.75)\t(1628,1940,\fscx140\fscy140)\fad(200,240)}wai
+Dialogue: 2,0:26:53.25,0:26:55.44,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1014.234,78.75)\t(1865,2190,\fscx140\fscy140)\fad(200,250)}ting
+Dialogue: 2,0:26:53.25,0:26:55.69,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1116.304,78.75)\t(2115,2440,\fscx140\fscy140)\fad(200,250)}for
+Dialogue: 2,0:26:53.25,0:26:55.93,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1181.274,78.75)\t(2368,2680,\fscx140\fscy140)\fad(200,240)}a
+Dialogue: 2,0:26:53.25,0:26:56.41,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1261.254,78.75)\t(2536,3160,\fscx140\fscy140)\fad(200,480)}new
+Dialogue: 2,0:26:53.25,0:26:56.88,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1371.446,78.75)\t(3019,3630,\fscx140\fscy140)\fad(200,470)}day
+Dialogue: 3,0:26:53.25,0:26:57.00,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(3550,3750,\blur12)}{\1c&HB66489&\t(109,485,\1c&HE7BDCF&)\t(344,720,\1c&HB66489&)}and {\1c&HB66489&\t(573,965,\1c&HE7BDCF&)\t(818,1210,\1c&HB66489&)}we’ll {\1c&HB66489&\t(1138,1330,\1c&HE7BDCF&)\t(1258,1450,\1c&HB66489&)}start {\1c&HB66489&\t(1628,1820,\1c&HE7BDCF&)\t(1748,1940,\1c&HB66489&)}wai{\1c&HB66489&\t(1865,2065,\1c&HE7BDCF&)\t(1990,2190,\1c&HB66489&)}ting {\1c&HB66489&\t(2115,2315,\1c&HE7BDCF&)\t(2240,2440,\1c&HB66489&)}for {\1c&HB66489&\t(2368,2560,\1c&HE7BDCF&)\t(2488,2680,\1c&HB66489&)}a {\1c&HB66489&\t(2536,2920,\1c&HE7BDCF&)\t(2776,3160,\1c&HB66489&)}new {\1c&HB66489&\t(3019,3395,\1c&HE7BDCF&)\t(3254,3630,\1c&HB66489&)}day
+Dialogue: 0,0:26:53.50,0:26:56.88,Ending - Romanji,,0,0,0,,{\k47}and {\k49}we’ll {\k24}start {\k25}{\k24}wai{\k25}ting {\k25}for {\k24}a {\k48}new {\k47}day
+Dialogue: 2,0:26:57.00,0:26:57.39,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(874.032,78.75)\t(39,390,\fscx140\fscy140)\fad(200,270)}ki
+Dialogue: 2,0:26:57.00,0:26:57.64,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(931.149,78.75)\t(315,640,\fscx140\fscy140)\fad(200,250)}mi
+Dialogue: 2,0:26:57.00,0:26:58.09,Ending - Romanji,,0,0,0,,{\an5\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\pos(1024.054,78.75)\t(505,1090,\fscx140\fscy140)\fad(200,450)}to…
+Dialogue: 3,0:26:57.00,0:26:58.34,Ending - Romanji,,0,0,0,,{\pos(960,45)\fad(200,200)\bord0\blur12\t(0,200,\blur0.75)\t(1140,1340,\blur12)}{\1c&HB66489&\t(39,255,\1c&HE7BDCF&)\t(174,390,\1c&HB66489&)}ki{\1c&HB66489&\t(315,515,\1c&HE7BDCF&)\t(440,640,\1c&HB66489&)}mi {\1c&HB66489&\t(505,865,\1c&HE7BDCF&)\t(730,1090,\1c&HB66489&)}to…
+Dialogue: 0,0:26:57.00,0:26:58.34,Ending - English,,0,0,0,,{\pos(960,1026)\1c&HC800FF&\3c&HC800FF&\blur7.5\bord6\alpha&DD&\fad(200,200)}junto com você...
+Dialogue: 0,0:26:57.00,0:26:58.34,Ending - English,,0,0,0,,{\pos(960,1026)\fad(200,200)\bord0\1c&HB66489&\blur12\t(0,200,\blur0.75)\t(1140,1340,\blur12)}junto com você...
+Dialogue: 0,0:26:57.12,0:26:58.09,Ending - Romanji,,0,0,0,,{\k27}ki{\k25}mi {\k45}to…
+Dialogue: 0,0:26:57.12,0:26:58.09,Ending - English,,0,0,0,,junto com você...
+Dialogue: 0,0:25:28.99,0:25:32.28,Ending - English,lyric-en,0,0,0,,meu tempo está girando ao redor
+Dialogue: 0,0:25:32.55,0:25:36.50,Ending - English,lyric-en,0,0,0,,dos seus olhos negros e profundos
+Dialogue: 0,0:25:36.75,0:25:39.86,Ending - English,lyric-en,0,0,0,,esqueci até que horas são
+Dialogue: 0,0:25:40.40,0:25:44.25,Ending - English,lyric-en,0,0,0,,e nossas memórias se foram…?
+Dialogue: 0,0:26:09.08,0:26:10.23,Ending - English,lyric-en,0,0,0,,queria que você estivesse aqui
+Dialogue: 0,0:26:10.31,0:26:12.40,Ending - English,lyric-en,0,0,0,,ah, nunca feche os olhos
+Dialogue: 0,0:26:25.86,0:26:27.90,Ending - English,lyric-en,0,0,0,,então, vamos tentar de novo
+Dialogue: 0,0:26:28.13,0:26:29.93,Ending - English,lyric-en,0,0,0,,desde a primeiríssima vez
+Dialogue: 0,0:26:40.07,0:26:43.89,Ending - English,lyric-en,0,0,0,,por enquanto, vou me despedir de você
+Dialogue: 0,0:26:45.68,0:26:49.11,Ending - English,lyric-en,0,0,0,,e morreremos esperando um novo dia
+Dialogue: 0,0:26:53.50,0:26:56.88,Ending - English,lyric-en,0,0,0,,e começaremos a esperar um novo dia

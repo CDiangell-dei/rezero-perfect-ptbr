@@ -1,0 +1,344 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Cronos Pro,81,&H00FFFFFF,&HFF0000FF,&H00000000,&H7A000000,-1,0,0,0,100,100,0.8,0,1,3.9,0,2,135,135,56,1
+Style: Default - italics,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,-1,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - flashback,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Default - margin,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Episode Title,Open Sans Semibold,122,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6.8,0,5,45,45,93,1
+Style: SignA,Arial,33,&H00070701,&H000000FF,&H00AC4D65,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,60,60,30,1
+Style: Default - upper,Cronos Pro,81,&H00FFFFFF,&H000000FF,&H00492E3D,&H00000000,-1,0,0,0,100,100,0,0,1,4.1,0,2,135,135,56,1
+Style: Signs,Arial,102,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,23,23,23,1
+Style: Re:Zero OP2 - Romaji,SF Hollywood Hills,69,&H00000000,&H000000FF,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,8,60,60,33,1
+Style: Re:Zero OP2 - English,SF Hollywood Hills,69,&H00000000,&H00000000,&H00FFFFFF,&HC82400FF,0,0,0,0,100,100,0,0,1,0,0,2,60,60,45,1
+Style: Re:Zerob ED02 - Romaji,Oneleigh Black,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,2.3,0,7,75,75,27,1
+Style: Re:Zerob ED02 - English,Oneleigh Black,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,2.3,0,1,75,75,24,1
+Style: Signs - Preview,Franklin Gothic Book,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.02,Default,Chapter,0,0,0,,{Intro}
+Dialogue: 0,0:00:06.99,0:00:08.98,Default,Mimi,0,0,0,,Capitão?
+Dialogue: 0,0:00:12.89,0:00:14.04,Default,Guy,0,0,0,,Como?
+Dialogue: 0,0:00:14.04,0:00:15.47,Default,Guy,0,0,0,,Acabou tudo...
+Dialogue: 0,0:00:15.47,0:00:16.66,Default,Guy,0,0,0,,Estamos mortos.
+Dialogue: 0,0:00:19.93,0:00:21.91,Default,Subaru,0,0,0,,Não deixem que ela engula ele!
+Dialogue: 0,0:00:23.56,0:00:27.09,Default,Subaru,0,0,0,,Se soltarmos ele antes de ser engolido, dá pra salvar!
+Dialogue: 0,0:00:34.71,0:00:35.51,Default,Rem,0,0,0,,Subaru-kun...
+Dialogue: 0,0:00:37.53,0:00:42.23,Default,Subaru,0,0,0,,Não ache que um pouco de desespero basta pra me parar!
+Dialogue: 0,0:00:42.58,0:00:44.61,Default,Subaru,0,0,0,,Desistir não combina com a gente!
+Dialogue: 0,0:00:44.61,0:00:46.48,Default,Subaru,0,0,0,,Nem comigo, nem com você!
+Dialogue: 0,0:00:46.48,0:00:48.31,Default,Subaru,0,0,0,,Nem com nenhum de nós!
+Dialogue: 0,0:00:56.03,0:00:56.07,Default,Chapter,0,0,0,,{Part A}
+Dialogue: 0,0:01:11.96,0:01:13.87,Default,Subaru,0,0,0,,Vamos, Patrasche!
+Dialogue: 0,0:01:13.87,0:01:16.30,Default,Subaru,0,0,0,,Corre bem debaixo do focinho da Baleia!
+Dialogue: 0,0:01:20.64,0:01:24.60,Default,Rem,0,0,0,,A única que pode cheirar o Subaru-kun sou eu!
+Dialogue: 0,0:01:33.40,0:01:34.65,Default,Crusch,0,0,0,,Feche a boca!
+Dialogue: 0,0:01:37.79,0:01:40.70,Default,Crusch,0,0,0,,À primeira vista, a situação parece sombria.
+Dialogue: 0,0:01:40.70,0:01:41.94,Default,Crusch,0,0,0,,Onde está Wilhelm?
+Dialogue: 0,0:01:41.94,0:01:44.02,Default,Subaru,0,0,0,,Se você se lembra dele,
+Dialogue: 0,0:01:44.02,0:01:46.79,Default,,0,0,0,,ao menos sabemos que a névoa não o apagou.
+Dialogue: 0,0:01:47.37,0:01:50.31,Default,Subaru,0,0,0,,Tudo depende de quão bem a Rem lutar.
+Dialogue: 0,0:01:52.17,0:01:54.27,Default,Crusch,0,0,0,,O que acha, Natsuki Subaru?
+Dialogue: 0,0:01:54.27,0:01:55.85,Default,Crusch,0,0,0,,Nada lhe parece estranho?
+Dialogue: 0,0:01:55.85,0:01:57.15,Default,Subaru,0,0,0,,Estranho?
+Dialogue: 0,0:01:57.15,0:01:59.28,Default,Crusch,0,0,0,,Agora há três Baleias Brancas.
+Dialogue: 0,0:01:59.28,0:02:03.72,Default,Crusch,0,0,0,,Se fosse mesmo uma mabesta que vive em bando,\Ncomo não saberíamos disso até hoje?
+Dialogue: 0,0:02:04.35,0:02:05.93,Default,Crusch,0,0,0,,Deve haver algum truque por trás disso.
+Dialogue: 0,0:02:07.06,0:02:09.40,Default,Subaru,0,0,0,,E precisamos descobrir qual é, né?
+Dialogue: 0,0:02:10.35,0:02:12.59,Default,Crusch,0,0,0,,Se não descobrirmos, não aguentaremos por muito tempo.
+Dialogue: 0,0:02:12.59,0:02:14.01,Default,Crusch,0,0,0,,Precisamos fazer algo.
+Dialogue: 0,0:02:14.01,0:02:17.10,Default,,0,0,0,,Recuar já não é mais uma opção.
+Dialogue: 0,0:02:18.56,0:02:19.71,Default,Crusch,0,0,0,,Fogo!
+Dialogue: 0,0:02:22.68,0:02:24.66,Default,Crusch,0,0,0,,"Fogo", eu disse!
+Dialogue: 0,0:02:29.80,0:02:31.42,Default,Subaru,0,0,0,,Crusch-san!
+Dialogue: 0,0:02:54.46,0:02:56.94,Default,Subaru,0,0,0,,Força de vontade!
+Dialogue: 0,0:02:59.40,0:03:02.17,Default,Subaru,0,0,0,,Droga... Ser só destemido não basta!
+Dialogue: 0,0:03:02.17,0:03:03.48,Default,Subaru,0,0,0,,Tenho que usar a cabeça!
+Dialogue: 0,0:03:03.48,0:03:04.98,Default,,0,0,0,,Por que existem três delas?
+Dialogue: 0,0:03:04.98,0:03:06.20,Default,Crusch,0,0,0,,Abaixe-se!
+Dialogue: 0,0:03:22.33,0:03:23.47,Default,Subaru,0,0,0,,Uau!
+Dialogue: 0,0:03:23.47,0:03:26.26,Default,Subaru,0,0,0,,Incrível!
+Dialogue: 0,0:03:27.81,0:03:30.94,Default,Hetaro,0,0,0,,Todos nós daremos cobertura a Natsuki-san e Crusch-san
+Dialogue: 0,0:03:31.54,0:03:34.69,Default,Hetaro,0,0,0,,até o capitão ser totalmente curado e podermos nos reagrupar.
+Dialogue: 0,0:03:35.03,0:03:37.19,Default,Subaru,0,0,0,,O Ricardo ainda está vivo?
+Dialogue: 0,0:03:37.19,0:03:41.93,Default,Hetaro,0,0,0,,Sim, minha irmã o levou até Felix-san.
+Dialogue: 0,0:03:41.93,0:03:43.66,Default,Mimi,0,0,0,,Ele se debateu um montão! Não foi fácil!
+Dialogue: 0,0:03:43.66,0:03:46.60,Default,Subaru,0,0,0,,Entendi... Que alívio.
+Dialogue: 0,0:03:46.60,0:03:49.12,Default,Hetaro,0,0,0,,À beira da morte, nosso capitão mandou um recado.
+Dialogue: 0,0:03:49.64,0:03:51.58,Default,Hetaro,0,0,0,,"Ei, tá ficando bem mais leve.
+Dialogue: 0,0:03:51.58,0:03:55.77,Default,Hetaro,0,0,0,,O fato de eu não ter morrido prova isso!"
+Dialogue: 0,0:03:55.77,0:03:56.75,Default,Hetaro,0,0,0,,Foi o que ele disse.
+Dialogue: 0,0:03:56.75,0:03:58.30,Default,Subaru,0,0,0,,"Mais leve"?
+Dialogue: 0,0:04:00.19,0:04:04.40,Default,Subaru,0,0,0,,{\fad(1,500)}O que tem de leve numa situação dura e pesada como esta?
+Dialogue: 0,0:04:07.93,0:04:08.85,Default,Subaru,0,0,0,,Leve?
+Dialogue: 0,0:04:17.94,0:04:21.53,Default,Subaru,0,0,0,,É isso... Saquei!
+Dialogue: 0,0:04:21.53,0:04:22.49,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:04:30.11,0:04:30.83,Default,,0,0,0,,O quê?
+Dialogue: 0,0:04:59.06,0:04:59.98,Default,Subaru,0,0,0,,Wilhelm-san!
+Dialogue: 0,0:05:02.15,0:05:04.06,Default,Wilhelm,0,0,0,,Ainda tenho muito a aprender.
+Dialogue: 0,0:05:04.06,0:05:06.18,Default,,0,0,0,,Fui descuidado...
+Dialogue: 0,0:05:06.18,0:05:07.70,Default,Hetaro,0,0,0,,Ele está bem?!
+Dialogue: 0,0:05:08.14,0:05:10.67,Default,Subaru,0,0,0,,Sim, só está inconsciente!
+Dialogue: 0,0:05:10.67,0:05:12.87,Default,Subaru,0,0,0,,Desculpe, mas pode levar ele pro Ferris?
+Dialogue: 0,0:05:12.87,0:05:14.83,Default,Hetaro,0,0,0,,Claro! E quanto a você?
+Dialogue: 0,0:05:16.17,0:05:17.88,Default,Subaru,0,0,0,,Eu percebi uma coisa...
+Dialogue: 0,0:05:25.07,0:05:26.72,Default,Crusch,0,0,0,,Ela se dividiu?
+Dialogue: 0,0:05:27.12,0:05:28.31,Default,Subaru,0,0,0,,É.
+Dialogue: 0,0:05:28.31,0:05:32.58,Default,,0,0,0,,A força de combate dela e o olho esquerdo\Nque Wilhelm-san arrancou me convenceram.
+Dialogue: 0,0:05:32.58,0:05:36.23,Default,Subaru,0,0,0,,Seu grupo tem lutado de frente com ela, então devem ter notado.
+Dialogue: 0,0:05:36.90,0:05:39.28,Default,Rem,0,0,0,,Eu estava absorta na batalha, mas...
+Dialogue: 0,0:05:39.28,0:05:40.34,Default,,0,0,0,,Você tem razão.
+Dialogue: 0,0:05:40.34,0:05:44.66,Default,Crusch,0,0,0,,Concordo com sua hipótese de que estas\Nsão mais fracas que a primeira que enfrentamos.
+Dialogue: 0,0:05:44.66,0:05:47.53,Default,Crusch,0,0,0,,Mas de que adianta saber disso?
+Dialogue: 0,0:05:47.53,0:05:51.99,Default,Crusch,0,0,0,,Matar três Baleias Brancas é muito mais fácil falar do que fazer.
+Dialogue: 0,0:05:52.42,0:05:54.83,Default,Subaru,0,0,0,,Não precisamos matar todas as três.
+Dialogue: 0,0:05:54.83,0:05:57.02,Default,Subaru,0,0,0,,Só uma já deve bastar.
+Dialogue: 0,0:05:57.02,0:05:59.80,Default,Subaru,0,0,0,,Aquela desgraçada pôs as duas cópias pra lutar,
+Dialogue: 0,0:05:59.80,0:06:02.71,Default,Subaru,0,0,0,,enquanto fica pairando lá em cima, só assistindo.
+Dialogue: 0,0:06:03.22,0:06:05.92,Default,Subaru,0,0,0,,O que exatamente acha que ela está fazendo com isso?
+Dialogue: 0,0:06:07.11,0:06:09.14,Default,Crusch,0,0,0,,Aquela é a verdadeira?
+Dialogue: 0,0:06:09.14,0:06:14.03,Default,Subaru,0,0,0,,Ela não desce porque sabe que não pode se dar ao luxo de morrer.
+Dialogue: 0,0:06:14.03,0:06:15.14,Default,Crusch,0,0,0,,Mas...
+Dialogue: 0,0:06:16.48,0:06:19.85,Default,Crusch,0,0,0,,Não posso contar com minha espada para acertar a essa distância.
+Dialogue: 0,0:06:20.25,0:06:23.22,Default,Crusch,0,0,0,,Se eu tivesse um golpe que alcançasse, talvez fosse possível...
+Dialogue: 0,0:06:24.16,0:06:26.19,Default,Subaru,0,0,0,,Eu tenho um plano.
+Dialogue: 0,0:06:26.78,0:06:30.28,Default,Subaru,0,0,0,,Pra falar a verdade, é uma aposta bem alta, porém.
+Dialogue: 0,0:06:30.28,0:06:31.91,Default,Subaru,0,0,0,,Você topa?
+Dialogue: 0,0:06:43.04,0:06:44.80,Default,Crusch,0,0,0,,Acho que você é louco.
+Dialogue: 0,0:06:45.29,0:06:50.18,Default,Subaru,0,0,0,,Já somos loucos só por encarar aquela coisa enorme.
+Dialogue: 0,0:06:52.18,0:06:53.70,Default,Crusch,0,0,0,,Talvez.
+Dialogue: 0,0:06:53.70,0:06:55.69,Default,,0,0,0,,Não, tem razão.
+Dialogue: 0,0:06:55.69,0:06:58.31,Default,Crusch,0,0,0,,Isso vale para todos aqui neste momento.
+Dialogue: 0,0:07:00.71,0:07:01.94,Default,Guy,0,0,0,,Saiam da frente!
+Dialogue: 0,0:07:09.19,0:07:11.20,Default,Crusch,0,0,0,,Nós seguraremos as duas cópias.
+Dialogue: 0,0:07:12.95,0:07:14.66,Default,Crusch,0,0,0,,Eu topo. Aceito a sua aposta.
+Dialogue: 0,0:07:20.79,0:07:22.33,Default,Guy,0,0,0,,Estão vindo pra cá...
+Dialogue: 0,0:07:22.33,0:07:24.25,Default,Guy,0,0,0,,Fiquem longe!
+Dialogue: 0,0:07:24.25,0:07:25.67,Default,Guy,0,0,0,,Corram!
+Dialogue: 0,0:07:25.67,0:07:27.24,Default,Guy,0,0,0,,Vamos ser dizimados...
+Dialogue: 0,0:07:55.18,0:07:56.58,Default,Guy,0,0,0,,Crusch-sama!
+Dialogue: 0,0:07:59.50,0:08:02.25,Default,Crusch,0,0,0,,Levantem-se! Ergam as cabeças!
+Dialogue: 0,0:08:02.25,0:08:03.21,Default,,0,0,0,,Empunhem suas armas!
+Dialogue: 0,0:08:04.17,0:08:05.67,Default,Crusch,0,0,0,,Olhem para aquele rapaz.
+Dialogue: 0,0:08:05.67,0:08:10.18,Default,Crusch,0,0,0,,É tão fraco e frágil que um sopro poderia derrubá-lo, e está desarmado!
+Dialogue: 0,0:08:10.18,0:08:13.59,Default,Crusch,0,0,0,,É um rapaz sem poder, cuja derrota eu vi com meus próprios olhos!
+Dialogue: 0,0:08:14.35,0:08:17.78,Default,Crusch,0,0,0,,Ele é mais fraco do que qualquer um aqui!
+Dialogue: 0,0:08:17.78,0:08:19.56,Default,Crusch,0,0,0,,Ainda assim, grita mais alto do que todos
+Dialogue: 0,0:08:20.58,0:08:22.27,Default,,0,0,0,,que ainda podemos vencer!
+Dialogue: 0,0:08:23.48,0:08:26.98,Default,Crusch,0,0,0,,Então como podemos ficar aqui sentados, encarando o chão?
+Dialogue: 0,0:08:26.98,0:08:29.95,Default,Crusch,0,0,0,,Se o mais fraco entre nós não desistiu,
+Dialogue: 0,0:08:29.95,0:08:33.53,Default,Crusch,0,0,0,,como podemos abaixar a cabeça e aceitar a derrota?
+Dialogue: 0,0:08:38.07,0:08:40.41,Default,Crusch,0,0,0,,Vieram todos tão longe
+Dialogue: 0,0:08:42.58,0:08:45.21,Default,Crusch,0,0,0,,para chafurdar na própria vergonha?!
+Dialogue: 0,0:09:13.35,0:09:14.66,Default,Crusch,0,0,0,,Avançar!
+Dialogue: 0,0:09:28.00,0:09:32.59,Default,Subaru,0,0,0,,Ela tem coragem de sobra, me chamando de fracote e perdedor...
+Dialogue: 0,0:09:34.72,0:09:36.22,Default,Subaru,0,0,0,,Vamos nessa, Rem.
+Dialogue: 0,0:09:36.55,0:09:37.75,Default,,0,0,0,,Hora do clímax!
+Dialogue: 0,0:09:37.75,0:09:40.18,Default,Rem,0,0,0,,Certo, Subaru-kun.
+Dialogue: 0,0:09:47.32,0:09:48.35,Default,Rem,0,0,0,,{\i1}Al Huma!{\i0}
+Dialogue: 0,0:09:55.05,0:09:55.74,Default,Rem,0,0,0,,Por favor!
+Dialogue: 0,0:10:05.27,0:10:06.46,Default,Crusch,0,0,0,,Conto com você.
+Dialogue: 0,0:10:08.31,0:10:13.94,Default,Subaru,0,0,0,,Ei... Agora que te vejo de perto, você é bem nojenta, sabia?
+Dialogue: 0,0:10:18.68,0:10:20.60,Default,Subaru,0,0,0,,Tenta acompanhar meu ritmo.
+Dialogue: 0,0:10:20.60,0:10:26.14,Default,Subaru,0,0,0,,Pra constar, sou famoso por ser chato a ponto de ninguém me ignorar!
+Dialogue: 0,0:10:30.27,0:10:33.17,Default,Subaru,0,0,0,,Certo, vamos lá!
+Dialogue: 0,0:10:35.69,0:10:38.86,Default,Subaru,0,0,0,,Estou te fazendo um baita favor! Escuta aqui!
+Dialogue: 0,0:10:39.20,0:10:41.31,Default,Subaru,0,0,0,,É por tua causa que a Rem morreu
+Dialogue: 0,0:10:41.31,0:10:45.62,Default,Subaru,0,0,0,,e que eu passei por um trauma horrível daqueles!
+Dialogue: 0,0:10:53.93,0:10:57.21,Default,Subaru,0,0,0,,Eu voltei!
+Dialogue: 0,0:11:08.03,0:11:08.77,Default,Subaru,0,0,0,,Rem!
+Dialogue: 0,0:11:09.18,0:11:09.89,Default,Rem,0,0,0,,Sim!
+Dialogue: 0,0:11:23.10,0:11:24.41,Default,Subaru,0,0,0,,Você me salvou.
+Dialogue: 0,0:11:24.41,0:11:25.72,Default,Rem,0,0,0,,Obrigada pelo banquete.
+Dialogue: 0,0:11:25.72,0:11:27.24,Default,Subaru,0,0,0,,Do que você tá falando?
+Dialogue: 0,0:11:35.96,0:11:38.10,Default,Subaru,0,0,0,,Não me decepcione, Patrasche.
+Dialogue: 0,0:11:38.10,0:11:39.51,Default,,0,0,0,,Você é um dragão, não é?
+Dialogue: 0,0:11:39.51,0:11:41.72,Default,Subaru,0,0,0,,Mostra o quanto você é incrível!
+Dialogue: 0,0:11:48.49,0:11:50.39,Default,Subaru,0,0,0,,Toma essa!
+Dialogue: 0,0:11:50.39,0:11:52.17,Default,Crusch,0,0,0,,Fogo!
+Dialogue: 0,0:12:52.08,0:12:55.46,Default,Wilhelm,0,0,0,,Isto é pela minha esposa, Theresia van Astrea.
+Dialogue: 0,0:13:16.72,0:13:17.90,Default,Wilhelm,0,0,0,,Eu venci.
+Dialogue: 0,0:13:18.57,0:13:22.23,Default,Wilhelm,0,0,0,,Como espadachim inferior, você já não tem razão para empunhar uma espada.
+Dialogue: 0,0:13:22.68,0:13:25.87,Default,Theresia,0,0,0,,Se eu não empunhar, quem vai?
+Dialogue: 0,0:13:26.75,0:13:31.45,Default,Wilhelm,0,0,0,,Eu herdarei sua razão para empunhar a espada.
+Dialogue: 0,0:13:32.58,0:13:33.86,Default,Wilhelm,0,0,0,,Você precisa apenas
+Dialogue: 0,0:13:35.13,0:13:37.67,Default,Wilhelm,0,0,0,,se tornar minha razão para empunhá-la.
+Dialogue: 0,0:13:42.73,0:13:46.43,Default,Theresia,0,0,0,,Ei, você gosta de flores?
+Dialogue: 0,0:13:46.43,0:13:48.09,Default,Wilhelm,0,0,0,,Eu não as odeio mais.
+Dialogue: 0,0:13:48.09,0:13:51.06,Default,Theresia,0,0,0,,Por que você empunha a espada?
+Dialogue: 0,0:13:51.93,0:13:52.93,Default,Wilhelm,0,0,0,,Eu a empunho...
+Dialogue: 0,0:13:56.47,0:13:57.89,Default,Wilhelm,0,0,0,,para proteger você.
+Dialogue: 0,0:14:01.47,0:14:03.78,Default,Theresia,0,0,0,,Você me ama?
+Dialogue: 0,0:14:05.54,0:14:06.36,Default,Wilhelm,0,0,0,,Você sabe que sim.
+Dialogue: 0,0:14:07.96,0:14:10.32,Default,Theresia,0,0,0,,Eu ainda quero ouvir você dizer às vezes.
+Dialogue: 0,0:14:11.53,0:14:13.11,Default,Wilhelm,0,0,0,,Pois bem.
+Dialogue: 0,0:14:13.11,0:14:14.04,Default,,0,0,0,,Algum dia...
+Dialogue: 0,0:14:15.85,0:14:17.29,Default,Wilhelm,0,0,0,,Quando eu tiver vontade.
+Dialogue: 0,0:14:34.64,0:14:37.23,Default,Wilhelm,0,0,0,,Durma por toda a eternidade.
+Dialogue: 0,0:14:52.80,0:14:55.33,Default,Wilhelm,0,0,0,,Está feito, Theresia.
+Dialogue: 0,0:14:56.73,0:14:58.04,Default,Wilhelm,0,0,0,,Finalmente...
+Dialogue: 0,0:14:58.63,0:15:01.48,Default,Wilhelm,0,0,0,,Theresia, eu...
+Dialogue: 0,0:15:03.83,0:15:04.50,Default,Wilhelm,0,0,0,,Eu...
+Dialogue: 0,0:15:08.76,0:15:12.85,Default,Wilhelm,0,0,0,,Eu te amo!
+Dialogue: 0,0:15:19.48,0:15:22.31,Default,Crusch,0,0,0,,A Baleia Branca caiu!
+Dialogue: 0,0:15:22.97,0:15:25.37,Default,Crusch,0,0,0,,A mabesta da névoa,
+Dialogue: 0,0:15:25.37,0:15:28.28,Default,,0,0,0,,que aterrorizou o mundo por quatro séculos,
+Dialogue: 0,0:15:29.08,0:15:33.72,Default,Crusch,0,0,0,,foi abatida por Wilhelm van Astrea!
+Dialogue: 0,0:15:41.39,0:15:44.84,Default,Crusch,0,0,0,,Esta batalha é a nossa vitória!
+Dialogue: 0,0:15:49.05,0:15:49.09,Default,Chapter,0,0,0,,{Part B}
+Dialogue: 0,0:15:58.12,0:16:00.39,Default,Crusch,0,0,0,,Está bem, Natsuki Subaru?
+Dialogue: 0,0:16:03.26,0:16:05.48,Default,Subaru,0,0,0,,De um jeito ou de outro...
+Dialogue: 0,0:16:06.25,0:16:08.75,Default,Subaru,0,0,0,,Fico feliz que você também esteja bem, Crusch-san.
+Dialogue: 0,0:16:08.75,0:16:10.07,Default,Crusch,0,0,0,,Estou, sim.
+Dialogue: 0,0:16:10.49,0:16:14.00,Default,Crusch,0,0,0,,Mas nossas perdas não são poucas.
+Dialogue: 0,0:16:14.00,0:16:16.03,Default,Crusch,0,0,0,,Mesmo com a derrota da Baleia Branca,
+Dialogue: 0,0:16:16.03,0:16:18.16,Default,,0,0,0,,aqueles que desapareceram não retornarão.
+Dialogue: 0,0:16:22.49,0:16:25.45,Default,Subaru,0,0,0,,Acho que mandou muito bem, Crusch-san.
+Dialogue: 0,0:16:25.45,0:16:27.78,Default,Subaru,0,0,0,,Sua popularidade vai disparar às—
+Dialogue: 0,0:16:27.78,0:16:32.06,Default,Subaru,0,0,0,,Espera, acabei de dar um impulso pra você\Nna seleção real que não devia?!
+Dialogue: 0,0:16:32.06,0:16:34.98,Default,Crusch,0,0,0,,Essa expressão no seu rosto está bastante sombria.
+Dialogue: 0,0:16:34.98,0:16:37.72,Default,Crusch,0,0,0,,Não parece o herói que derrubou a Baleia Branca.
+Dialogue: 0,0:16:37.72,0:16:42.10,Default,Subaru,0,0,0,,A primeira coisa que Emilia-tan vai fazer é me chamar de traidor...
+Dialogue: 0,0:16:42.47,0:16:43.85,Default,Subaru,0,0,0,,Espera, do que acabou de me chamar?
+Dialogue: 0,0:16:44.42,0:16:46.87,Default,Crusch,0,0,0,,O herói que derrubou a Baleia Branca.
+Dialogue: 0,0:16:47.48,0:16:49.06,Default,Crusch,0,0,0,,Não gostaria de ser
+Dialogue: 0,0:16:49.06,0:16:53.86,Default,,0,0,0,,descarada a ponto de reivindicar sua conquista como minha.
+Dialogue: 0,0:16:54.36,0:16:56.45,Default,Subaru,0,0,0,,Não, eu não fiz nada mesmo.
+Dialogue: 0,0:17:03.00,0:17:05.64,Default,Subaru,0,0,0,,Parece que sua opinião sobre mim melhorou bastante.
+Dialogue: 0,0:17:05.64,0:17:06.58,Default,,0,0,0,,Estou surpreso.
+Dialogue: 0,0:17:07.08,0:17:08.96,Default,Crusch,0,0,0,,Não há motivo para modéstia.
+Dialogue: 0,0:17:08.96,0:17:11.85,Default,Crusch,0,0,0,,Na verdade, adoraria acolhê-lo
+Dialogue: 0,0:17:11.85,0:17:15.43,Default,,0,0,0,,em minha casa e recompensar seus feitos.
+Dialogue: 0,0:17:15.43,0:17:17.43,Default,Subaru,0,0,0,,Por favor, não me peça isso!
+Dialogue: 0,0:17:17.43,0:17:19.80,Default,Subaru,0,0,0,,Não é questão de lealdade ou obediência,
+Dialogue: 0,0:17:19.80,0:17:22.89,Default,Subaru,0,0,0,,mas minha fé já está exatamente onde deve estar.
+Dialogue: 0,0:17:24.11,0:17:26.10,Default,Subaru,0,0,0,,Eu vou tornar a Emilia a governante.
+Dialogue: 0,0:17:28.26,0:17:30.04,Default,Subaru,0,0,0,,Não pelo bem de ninguém.
+Dialogue: 0,0:17:30.04,0:17:31.53,Default,,0,0,0,,É simplesmente o que eu quero fazer.
+Dialogue: 0,0:17:34.99,0:17:37.29,Default,Crusch,0,0,0,,Eu já tinha ciência disso,
+Dialogue: 0,0:17:37.29,0:17:39.03,Default,,0,0,0,,mas ainda arde um pouco.
+Dialogue: 0,0:17:40.75,0:17:43.45,Default,Subaru,0,0,0,,Sinceramente, acho você uma pessoa incrível.
+Dialogue: 0,0:17:43.45,0:17:47.25,Default,Subaru,0,0,0,,Se eu estivesse sozinho, quase certeza\Nque teria aceitado sua oferta.
+Dialogue: 0,0:17:47.70,0:17:50.46,Default,Subaru,0,0,0,,Contarei com você para manter a aliança.
+Dialogue: 0,0:17:50.46,0:17:53.00,Default,Subaru,0,0,0,,Mesmo que acabemos como inimigos,
+Dialogue: 0,0:17:53.00,0:17:56.17,Default,Subaru,0,0,0,,acredito que possamos nos dar bem até lá.
+Dialogue: 0,0:17:57.87,0:18:01.89,Default,Crusch,0,0,0,,Natsuki Subaru, permita-me corrigir uma ideia que você tem.
+Dialogue: 0,0:18:02.81,0:18:05.69,Default,crusch,0,0,0,,Mesmo que nos encontremos em conflito um dia,
+Dialogue: 0,0:18:05.69,0:18:08.60,Default,Crusch,0,0,0,,permanecerei amigável com você.
+Dialogue: 0,0:18:09.05,0:18:12.14,Default,Crusch,0,0,0,,Mesmo que o dia em que devamos acertar as contas chegue,
+Dialogue: 0,0:18:12.14,0:18:15.07,Default,Crusch,0,0,0,,não esquecerei a dívida que contraí hoje.
+Dialogue: 0,0:18:15.66,0:18:18.03,Default,Crusch,0,0,0,,Portanto, mesmo se nos tornarmos inimigos,
+Dialogue: 0,0:18:18.58,0:18:22.99,Default,Crusch,0,0,0,,eu o respeitarei e lhe mostrarei estima até o fim.
+Dialogue: 0,0:18:27.32,0:18:30.65,Default,Subaru,0,0,0,,Se eu já não tivesse a número um e a número dois no coração,
+Dialogue: 0,0:18:30.65,0:18:32.42,Default,Subaru,0,0,0,,estaria em apuros agora.
+Dialogue: 0,0:18:34.50,0:18:38.52,Default,Crusch,0,0,0,,Não fui tão longe a ponto de pensar em você como uma mulher pensaria.
+Dialogue: 0,0:18:38.52,0:18:42.01,Default,Crusch,0,0,0,,Não nego que houve ocasiões em que meu coração se sentiu tocado,
+Dialogue: 0,0:18:42.01,0:18:44.68,Default,Crusch,0,0,0,,mas meu coração repousa ao fim do meu sonho.
+Dialogue: 0,0:18:54.09,0:18:54.78,Default,Crusch,0,0,0,,Agora...
+Dialogue: 0,0:18:55.39,0:19:00.74,Default,Crusch,0,0,0,,Partirei para levar nossos feridos e a carcaça\Nda Baleia Branca à capital.
+Dialogue: 0,0:19:01.46,0:19:04.95,Default,Crusch,0,0,0,,Mas parece que você ainda tem um dever a cumprir.
+Dialogue: 0,0:19:04.95,0:19:06.38,Default,Subaru,0,0,0,,É.
+Dialogue: 0,0:19:06.38,0:19:07.74,Default,Subaru,0,0,0,,Pode soar grosseiro,
+Dialogue: 0,0:19:07.74,0:19:10.67,Default,,0,0,0,,mas, de certo modo, essa caçada à baleia era sobre isso mesmo.
+Dialogue: 0,0:19:10.67,0:19:11.64,Default,Crusch,0,0,0,,Oh?
+Dialogue: 0,0:19:11.64,0:19:14.02,Default,Crusch,0,0,0,,Subjugar a Baleia Branca era secundário?
+Dialogue: 0,0:19:14.02,0:19:15.53,Default,Crusch,0,0,0,,Intrigante.
+Dialogue: 0,0:19:16.60,0:19:17.63,Default,Crusch,0,0,0,,Precisa de assistência?
+Dialogue: 0,0:19:18.02,0:19:19.74,Default,Subaru,0,0,0,,Preciso.
+Dialogue: 0,0:19:19.74,0:19:20.59,Default,Subaru,0,0,0,,Mas...
+Dialogue: 0,0:19:21.08,0:19:24.52,Default,Subaru,0,0,0,,Francamente, não esperava que a caçada cobrasse um preço desses.
+Dialogue: 0,0:19:25.36,0:19:26.06,Default,Subaru,0,0,0,,Além disso—
+Dialogue: 0,0:19:26.06,0:19:29.94,Default,Wilhelm,0,0,0,,Nesse caso, por que não faz uso deste velho?
+Dialogue: 0,0:19:34.28,0:19:35.94,Default,Wilhelm,0,0,0,,Natsuki Subaru-dono,
+Dialogue: 0,0:19:36.73,0:19:38.36,Default,Wilhelm,0,0,0,,com esta subjugação,
+Dialogue: 0,0:19:38.87,0:19:43.82,Default,Wilhelm,0,0,0,,foi por sua causa que pude cumprir a razão
+Dialogue: 0,0:19:43.82,0:19:45.69,Default,,0,0,0,,de eu ter vivido por todo este tempo.
+Dialogue: 0,0:19:45.69,0:19:47.46,Default,Wilhelm,0,0,0,,Eu lhe agradeço...
+Dialogue: 0,0:19:47.46,0:19:48.33,Default,Wilhelm,0,0,0,,Eu lhe agradeço.
+Dialogue: 0,0:19:49.61,0:19:53.29,Default,Wilhelm,0,0,0,,Agradeço-lhe com todo o meu ser!
+Dialogue: 0,0:19:56.98,0:20:00.89,Default,Subaru,0,0,0,,Foi a sua força que tornou isso possível, Wilhelm-san.
+Dialogue: 0,0:20:00.89,0:20:04.30,Default,Subaru,0,0,0,,O senhor estava tão decidido a derrotar\Na Baleia Branca que lutou sem descanso.
+Dialogue: 0,0:20:05.36,0:20:08.24,Default,Subaru,0,0,0,,Não sei se cabe a mim dizer isso, mas...
+Dialogue: 0,0:20:08.24,0:20:09.88,Default,Subaru,0,0,0,,Parabéns.
+Dialogue: 0,0:20:09.88,0:20:13.30,Default,Subaru,0,0,0,,E obrigado pelo seu serviço.
+Dialogue: 0,0:20:13.30,0:20:17.23,Default,Subaru,0,0,0,,Acredito que conseguiu fazer isso porque amava sua esposa loucamente.
+Dialogue: 0,0:20:19.47,0:20:20.84,Default,Wilhelm,0,0,0,,Eu lhe agradeço...
+Dialogue: 0,0:20:25.92,0:20:30.39,Default,Crusch,0,0,0,,Fique com essa sua estimada espada por um tempo.
+Dialogue: 0,0:20:30.39,0:20:33.12,Default,Crusch,0,0,0,,Nos dias que virão, estar desarmado pouco lhe servirá.
+Dialogue: 0,0:20:33.12,0:20:34.99,Default,Wilhelm,0,0,0,,Sim, minha senhora. Obrigado.
+Dialogue: 0,0:20:34.99,0:20:38.49,Default,Crusch,0,0,0,,Leve Ferris e metade dos ilesos.
+Dialogue: 0,0:20:38.49,0:20:40.39,Default,Crusch,0,0,0,,Devem somar cerca de vinte.
+Dialogue: 0,0:20:40.39,0:20:41.26,Default,Subaru,0,0,0,,Tem certeza?
+Dialogue: 0,0:20:41.84,0:20:44.87,Default,Crusch,0,0,0,,Eu lhe disse que não desejo ser descarada.
+Dialogue: 0,0:20:44.87,0:20:46.39,Default,Crusch,0,0,0,,E que o respeitaria.
+Dialogue: 0,0:20:50.32,0:20:51.47,Default,Subaru,0,0,0,,Obrigado.
+Dialogue: 0,0:20:54.75,0:20:55.77,Default,Rem,0,0,0,,Por quê?
+Dialogue: 0,0:20:56.24,0:20:58.15,Default,Felix,0,0,0,,Você{\i1} nyão{\i0} consegue se mexer, certo?
+Dialogue: 0,0:20:59.86,0:21:03.96,Default,Felix,0,0,0,,Como usuário de magia de cura, não posso deixá-la se forçar mais!
+Dialogue: 0,0:21:03.96,0:21:05.08,Default,Felix,0,0,0,,Você vai ficar para trás—
+Dialogue: 0,0:21:05.08,0:21:06.03,Default,Rem,0,0,0,,Mas...
+Dialogue: 0,0:21:06.03,0:21:08.43,Default,Subaru,0,0,0,,E-Ei, cuidado!
+Dialogue: 0,0:21:08.43,0:21:11.66,Default,Subaru,0,0,0,,Por favor, obedeça ao Ferris e não exagere.
+Dialogue: 0,0:21:11.66,0:21:12.92,Default,Rem,0,0,0,,Não vou.
+Dialogue: 0,0:21:12.92,0:21:15.29,Default,,0,0,0,,Dói demais... Não aguento.
+Dialogue: 0,0:21:15.64,0:21:17.62,Default,Rem,0,0,0,,Quando você estiver em apuros,
+Dialogue: 0,0:21:17.62,0:21:20.96,Default,,0,0,0,,eu quero ser a primeira a estender a mão para você.
+Dialogue: 0,0:21:21.42,0:21:24.44,Default,Rem,0,0,0,,Isso é tudo o que quero! Então, por favor...
+Dialogue: 0,0:21:24.44,0:21:27.00,Default,Subaru,0,0,0,,Nesse caso, não precisa se preocupar.
+Dialogue: 0,0:21:28.52,0:21:31.43,Default,Subaru,0,0,0,,Você já me salvou tantas vezes.
+Dialogue: 0,0:21:32.86,0:21:37.35,Default,Subaru,0,0,0,,Não percebe o quanto já fez por mim até agora?
+Dialogue: 0,0:21:37.35,0:21:40.57,Default,Subaru,0,0,0,,Quero que me ajude daqui pra frente também.
+Dialogue: 0,0:21:40.57,0:21:43.65,Default,Subaru,0,0,0,,{\t(2066,3067,0.9,\c&HFFFFFF&\3c&HFFFFFF&)}Então, desta vez, deixe tudo comigo.
+Dialogue: 0,0:21:45.96,0:21:49.12,Default,Rem,0,0,0,,Depois disso, ainda vai me manter ao seu lado?
+Dialogue: 0,0:21:50.66,0:21:52.87,Default,Subaru,0,0,0,,Eu é que deveria estar implorando pra você ficar.
+Dialogue: 0,0:21:56.59,0:21:59.04,Default,Rem,0,0,0,,Vou tomar isso como uma promessa.
+Dialogue: 0,0:21:59.04,0:22:01.75,Default,Rem,0,0,0,,Não pode mais voltar atrás agora.
+Dialogue: 0,0:22:06.20,0:22:08.00,Default,Subaru,0,0,0,,Vai ficar tudo bem, Rem.
+Dialogue: 0,0:22:08.00,0:22:10.39,Default,Subaru,0,0,0,,Vou dar um jeito de cuidar de tudo!
+Dialogue: 0,0:22:10.97,0:22:13.12,Default,Subaru,0,0,0,,Sou o seu herói!
+Dialogue: 0,0:22:13.12,0:22:16.09,Default,Subaru,0,0,0,,Decidi dar esse primeiro passo!
+Dialogue: 0,0:22:16.09,0:22:17.64,Default,Subaru,0,0,0,,Então não se preocupe com nada!
+Dialogue: 0,0:22:18.17,0:22:20.39,Default,Subaru,0,0,0,,Consegui dar conta da caçada à baleia.
+Dialogue: 0,0:22:20.39,0:22:23.99,Default,Subaru,0,0,0,,Agora mesmo, o seu herói está possuído pelo espírito da batalha.
+Dialogue: 0,0:22:24.70,0:22:26.19,Default,Rem,0,0,0,,Subaru-kun...
+Dialogue: 0,0:22:31.22,0:22:32.14,Default,Rem,0,0,0,,Tudo bem!
+Dialogue: 0,0:22:32.98,0:22:36.82,Default,Rem,0,0,0,,Meu herói é o maior do mundo!
+Dialogue: 0,0:22:53.72,0:22:58.73,Default,Ricardo,0,0,0,,Rapaz, você roubou todas as melhores partes lá atrás, viu?
+Dialogue: 0,0:22:59.04,0:23:01.26,Default,Mimi,0,0,0,,Capitão... A Mimi também! A Mimi também!
+Dialogue: 0,0:23:01.26,0:23:03.48,Default,Mimi,0,0,0,,Eu mandei superbem demais!
+Dialogue: 0,0:23:03.48,0:23:05.96,Default,Subaru,0,0,0,,Você não quase morreu?
+Dialogue: 0,0:23:05.96,0:23:08.56,Default,Subaru,0,0,0,,E seu irmão ficou exausto.
+Dialogue: 0,0:23:08.56,0:23:10.63,Default,,0,0,0,,Como você tem tanta energia?
+Dialogue: 0,0:23:10.63,0:23:13.19,Default,Mimi,0,0,0,,O Hetaro é só um bebê. Ele é fraquinho.
+Dialogue: 0,0:23:13.19,0:23:15.66,Default,Mimi,0,0,0,,Sério, é tão patético...
+Dialogue: 0,0:23:16.11,0:23:19.36,Default,Ricardo,0,0,0,,Mais pro fim da batalha com a Baleia não fiz muita coisa,
+Dialogue: 0,0:23:19.36,0:23:21.03,Default,Ricardo,0,0,0,,mas não esquenta.
+Dialogue: 0,0:23:21.03,0:23:23.68,Default,Ricardo,0,0,0,,A patroa me pediu um favor, afinal.
+Dialogue: 0,0:23:23.68,0:23:26.75,Default,Ricardo,0,0,0,,Na batalha de verdade que vem aí, vou te mostrar do que sou capaz.
+Dialogue: 0,0:23:26.75,0:23:29.63,Default,Subaru,0,0,0,,A batalha de verdade? O que acha que estou tentando fazer aqui?
+Dialogue: 0,0:23:29.63,0:23:31.84,Default,Ricardo,0,0,0,,Você tá indo encarar o Culto da Bruxa, não tá?
+Dialogue: 0,0:23:33.23,0:23:36.58,Default,Ricardo,0,0,0,,Nunca subestime a rede de informações dos mercadores.
+Dialogue: 0,0:23:36.58,0:23:37.77,Default,Ricardo,0,0,0,,Ah, lá vêm eles.
+Dialogue: 0,0:23:42.31,0:23:44.74,Default,Ricardo,0,0,0,,Essa é a metade do nosso grupo de mercenários.
+Dialogue: 0,0:23:44.74,0:23:45.77,Default,Subaru,0,0,0,,Metade?
+Dialogue: 0,0:23:45.77,0:23:49.06,Default,Ricardo,0,0,0,,Metade deles foi mandada pra bloquear a estrada,
+Dialogue: 0,0:23:49.06,0:23:51.28,Default,,0,0,0,,em vez de lutar com a Baleia.
+Dialogue: 0,0:23:51.77,0:23:54.27,Default,Subaru,0,0,0,,Eles vão nos ajudar também?
+Dialogue: 0,0:23:54.27,0:23:55.74,Default,Subaru,0,0,0,,Quem está liderando eles?
+Dialogue: 0,0:23:55.74,0:23:58.45,Default,Mimi,0,0,0,,Meu irmão mais novo, Tivey!
+Dialogue: 0,0:23:58.45,0:24:00.98,Default,Subaru,0,0,0,,Você tem outro irmão mais novo?
+Dialogue: 0,0:24:00.98,0:24:05.21,Default,Subaru,0,0,0,,Tô bem curioso pra saber se ele é mais parecido com você ou com o Hetaro.
+Dialogue: 0,0:24:11.10,0:24:12.51,Default,Mimi,0,0,0,,Ei!
+Dialogue: 0,0:24:17.40,0:24:19.52,Default,Subaru,0,0,0,,{\i1}Por que {\i0}ele{\i1} tá com eles?{\i0}
+Dialogue: 0,0:24:22.02,0:24:25.02,Episode Title,Title,0,0,0,,Uma Aposta
+Dialogue: 0,0:24:22.02,0:24:25.02,Episode Title,Title,0,0,0,,que Desafia
+Dialogue: 0,0:24:22.02,0:24:25.02,Episode Title,Title,0,0,0,,o Desespero
