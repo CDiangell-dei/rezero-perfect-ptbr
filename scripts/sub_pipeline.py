@@ -1313,10 +1313,11 @@ def cmd_prepare(args: argparse.Namespace) -> int:
         "translatableEvents": sum(1 for e in entries if not e["skip"]),
     }
     (ep_work_dir / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    ctx_path, block_count = _write_script_context(ep_work_dir, episode_key, entries)
 
     print(
         f"Preparação concluída para {episode_key}: {meta['translatableEvents']} falas em "
-        f"{len(chunk_files)} arquivo(s) em {ep_work_dir}"
+        f"{len(chunk_files)} arquivo(s) ({block_count} blocos contínuos em {ctx_path.name}) em {ep_work_dir}"
     )
     return 0
 
@@ -1334,6 +1335,166 @@ def _load_work(episode_key: str) -> tuple[dict[str, Any], list[dict[str, Any]]]:
             raise SystemExit(f"Chunk ausente: {cpath}")
         entries.extend(json.loads(cpath.read_text(encoding="utf-8")))
     return meta, entries
+
+
+def _entry_context_kind(item: dict[str, Any]) -> str:
+    style = str(item.get("style", ""))
+    if item.get("karaoke_tr") or re.search(r"\b(?:op\d*|ed\d*|song|lyric|insert)\b", style, re.IGNORECASE):
+        return "song"
+    if re.search(r"(?:sign|title|caption|note)", style, re.IGNORECASE) or SIGN_TAG_RE.search(
+        str(item.get("leading_tags", ""))
+    ):
+        return "sign"
+    return "dialogue"
+
+
+def _group_context_blocks(entries: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
+    """Group chronologically ordered active entries into continuous phrases or song stanzas."""
+    active = [e for e in entries if not e.get("skip") and str(e.get("en", "")).strip()]
+    active.sort(key=lambda e: (float(e["start"]), float(e["end"]), int(e["id"])))
+
+    blocks: list[list[dict[str, Any]]] = []
+    cur: list[dict[str, Any]] = []
+    for item in active:
+        if not cur:
+            cur = [item]
+            continue
+
+        prev = cur[-1]
+        prev_kind = _entry_context_kind(prev)
+        curr_kind = _entry_context_kind(item)
+        if prev_kind != curr_kind:
+            blocks.append(cur)
+            cur = [item]
+            continue
+
+        gap = float(item["start"]) - float(prev["end"])
+        prev_plain = _normalize_ass_plain(str(prev["en"])).replace(r"\N", " ").strip()
+        curr_plain = _normalize_ass_plain(str(item["en"])).replace(r"\N", " ").strip()
+
+        if curr_kind == "song":
+            same_song = _song_style_prefix(str(prev.get("style", ""))) == _song_style_prefix(str(item.get("style", "")))
+            should_join = same_song and len(cur) < 4 and gap <= 4.0
+        elif curr_kind == "dialogue":
+            prev_actor = str(prev.get("actor", "")).strip()
+            curr_actor = str(item.get("actor", "")).strip()
+            same_actor = (not curr_actor) or (curr_actor == prev_actor)
+            open_sentence = bool(prev_plain) and prev_plain[-1] not in '.?!"”'
+            starts_cont = bool(curr_plain) and (curr_plain[0].islower() or curr_plain.startswith("..."))
+            should_join = same_actor and len(cur) < 5 and gap <= 2.0 and (open_sentence or starts_cont or gap <= 0.6)
+        else:
+            should_join = False
+
+        if should_join:
+            cur.append(item)
+        else:
+            blocks.append(cur)
+            cur = [item]
+
+    if cur:
+        blocks.append(cur)
+    return blocks
+
+
+def _write_script_context(ep_work_dir: Path, episode_key: str, entries: list[dict[str, Any]]) -> tuple[Path, int]:
+    blocks = _group_context_blocks(entries)
+    lines = [
+        f"# Contexto contínuo de tradução — {episode_key}",
+        "# Edite cada linha `PT: [id] texto 1 / [id] texto 2` preservando os marcadores `[id]` e `\\N` se quiser quebra manual.",
+        "# Depois aplique com: python scripts/sub_pipeline.py import-context --arc <arc> --ep <ep>",
+        "",
+    ]
+    for idx, grp in enumerate(blocks, start=1):
+        kind = _entry_context_kind(grp[0])
+        t_start = _format_ass_time(float(grp[0]["start"]))
+        t_end = _format_ass_time(max(float(x["end"]) for x in grp))
+        actors = []
+        for x in grp:
+            a = str(x.get("actor", "")).strip()
+            if a and a not in actors:
+                actors.append(a)
+        tag = f"Música: {grp[0].get('style', '')}" if kind == "song" else (", ".join(actors) or grp[0].get("style", "Default"))
+
+        en_parts = []
+        pt_parts = []
+        for x in grp:
+            en_clean = re.sub(r"[ \t]+", " ", str(x["en"]).replace(r"\N", " ").replace(r"\n", " ")).strip()
+            pt_val = str(x.get("pt") or "").strip() or "..."
+            en_parts.append(f"[{x['id']}] {en_clean}")
+            pt_parts.append(f"[{x['id']}] {pt_val}")
+
+        lines.append(f"=== BLOCO {idx:03d} ({t_start} -> {t_end}) | {tag} ===")
+        lines.append("EN: " + " / ".join(en_parts))
+        lines.append("PT: " + " / ".join(pt_parts))
+        lines.append("")
+
+    out_path = ep_work_dir / "script_context.txt"
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+    return out_path, len(blocks)
+
+
+def _parse_context_pt_blocks(text: str) -> dict[int, str]:
+    updates: dict[int, str] = {}
+    id_marker_re = re.compile(r"\[(\d+)\]\s*")
+    for raw_line in text.splitlines():
+        if not raw_line.startswith("PT:"):
+            continue
+        body = raw_line[3:].strip()
+        matches = list(id_marker_re.finditer(body))
+        for i, m in enumerate(matches):
+            cid = int(m.group(1))
+            seg_start = m.end()
+            seg_end = matches[i + 1].start() if i + 1 < len(matches) else len(body)
+            val = re.sub(r"\s*/\s*$", "", body[seg_start:seg_end]).strip()
+            if val == "...":
+                continue
+            updates[cid] = val
+    return updates
+
+
+def cmd_context(args: argparse.Namespace) -> int:
+    _, ep_obj = resolve_arc_episode(args.arc, args.ep)
+    episode_key = ep_obj["episodeKey"]
+    _, entries = _load_work(episode_key)
+    out_path, block_count = _write_script_context(WORK_DIR / episode_key, episode_key, entries)
+    print(f"Contexto contínuo gerado para {episode_key}: {block_count} bloco(s) -> {out_path}")
+    return 0
+
+
+def cmd_import_context(args: argparse.Namespace) -> int:
+    _, ep_obj = resolve_arc_episode(args.arc, args.ep)
+    episode_key = ep_obj["episodeKey"]
+    ep_work_dir = WORK_DIR / episode_key
+    meta, _ = _load_work(episode_key)
+
+    src_file = Path(args.file) if args.file else (ep_work_dir / "script_context.txt")
+    if not src_file.is_file():
+        raise SystemExit(f"Arquivo de contexto não encontrado: {src_file}")
+
+    updates = _parse_context_pt_blocks(src_file.read_text(encoding="utf-8-sig"))
+    if not updates:
+        raise SystemExit(f"Nenhuma linha `PT: [id] ...` preenchida encontrada em {src_file}")
+
+    applied = 0
+    for cname in meta["chunks"]:
+        cpath = ep_work_dir / cname
+        data = json.loads(cpath.read_text(encoding="utf-8"))
+        changed = False
+        for item in data:
+            if item.get("skip"):
+                continue
+            cid = int(item["id"])
+            if cid in updates:
+                if not updates[cid]:
+                    raise SystemExit(f"Tradução vazia para ID {cid} em {src_file}")
+                item["pt"] = updates[cid]
+                applied += 1
+                changed = True
+        if changed:
+            cpath.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    print(f"Contexto aplicado para {episode_key}: {applied} legenda(s) atualizada(s) a partir de {src_file.name}")
+    return 0
 
 
 def validate_episode_data(meta: dict[str, Any], entries: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
@@ -1632,6 +1793,17 @@ def build_parser() -> argparse.ArgumentParser:
     p_prepare.add_argument("--chunk-size", type=int, default=80)
     p_prepare.add_argument("--force", action="store_true", help="Sobrescreve traduções já preenchidas nos chunks")
     p_prepare.set_defaults(func=cmd_prepare)
+
+    p_ctx = sub.add_parser("context", help="Gera script_context.txt agrupando frases contínuas e letras de música.")
+    p_ctx.add_argument("--arc", required=True)
+    p_ctx.add_argument("--ep", required=True)
+    p_ctx.set_defaults(func=cmd_context)
+
+    p_imp_ctx = sub.add_parser("import-context", help="Aplica traduções editadas em script_context.txt de volta aos chunks.")
+    p_imp_ctx.add_argument("--arc", required=True)
+    p_imp_ctx.add_argument("--ep", required=True)
+    p_imp_ctx.add_argument("--file", default=None, help="Arquivo alternativo (padrão: work/<ep>/script_context.txt)")
+    p_imp_ctx.set_defaults(func=cmd_import_context)
 
     p_val = sub.add_parser("validate", help="Valida tradução PT-BR (tags, placeholders, timestamps).")
     p_val.add_argument("--arc", required=True)

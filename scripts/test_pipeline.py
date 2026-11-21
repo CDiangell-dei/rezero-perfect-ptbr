@@ -555,6 +555,63 @@ class PipelineTestCase(unittest.TestCase):
             self.assertIn("legendas/arc01-ep01.vtt", names)
             self.assertFalse(any("chunk_001" in n for n in names))
 
+    def test_continuous_context_roundtrip(self) -> None:
+        sp.RAW_EN_DIR.mkdir(parents=True, exist_ok=True)
+        ass_path = sp.RAW_EN_DIR / "arc01-ep02.ass"
+        ass_content = "\n".join(
+            [
+                "[Script Info]",
+                "ScriptType: v4.00+",
+                "",
+                "[V4+ Styles]",
+                "Format: Name, Fontname, Fontsize, Alignment",
+                "Style: Default,Arial,20,2",
+                "Style: Re:Zero ED01 - English,Arial,20,7",
+                "Style: Re:Zero ED01 - Romaji,Arial,20,7",
+                "",
+                "[Events]",
+                "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
+                "Dialogue: 0,0:00:01.00,0:00:03.00,Default,Subaru,0,0,0,,Even if I fail,",
+                "Dialogue: 0,0:00:03.10,0:00:05.00,Default,Subaru,0,0,0,,I won't give up.",
+                "Dialogue: 0,0:00:10.00,0:00:12.00,Default,Emilia,0,0,0,,Stay safe.",
+                r"Dialogue: 0,0:01:00.00,0:01:02.00,Re:Zero ED01 - Romaji,,0,0,0,,{\k50}no, don't {\k50}give up",
+                r"Dialogue: 0,0:01:02.20,0:01:04.50,Re:Zero ED01 - Romaji,,0,0,0,,{\k50}this endless {\k50}dead end",
+            ]
+        )
+        ass_path.write_text(ass_content + "\n", encoding="utf-8")
+
+        self.assertEqual(sp.main(["prepare", "--arc", "arc01", "--ep", "2"]), 0)
+        ctx_path = sp.WORK_DIR / "arc01-ep02" / "script_context.txt"
+        self.assertTrue(ctx_path.is_file())
+        ctx_text = ctx_path.read_text(encoding="utf-8")
+        # Consecutive dialogue lines by Subaru are grouped cleanly into one block
+        self.assertIn("[1] Even if I fail, / [2] I won't give up.", ctx_text)
+        # Consecutive song lines (synthesized from English karaoke) are grouped in one block
+        self.assertIn("[6] no, don't give up / [7] this endless dead end", ctx_text)
+
+        edited = (
+            ctx_text.replace(
+                "PT: [1] ... / [2] ...",
+                r"PT: [1] Mesmo que eu falhe,\Ne eu não / [2] vou desistir.",
+            )
+            .replace("PT: [3] ...", "PT: [3] Fique seguro.")
+            .replace(
+                "PT: [6] ... / [7] ...",
+                "PT: [6] não desista / [7] neste beco sem saída",
+            )
+        )
+        ctx_path.write_text(edited, encoding="utf-8")
+
+        self.assertEqual(sp.main(["import-context", "--arc", "arc01", "--ep", "2"]), 0)
+        self.assertEqual(sp.main(["validate", "--arc", "arc01", "--ep", "2"]), 0)
+
+        chunk_data = json.loads((sp.WORK_DIR / "arc01-ep02" / "chunk_001.json").read_text(encoding="utf-8"))
+        by_id = {item["id"]: item["pt"] for item in chunk_data}
+        self.assertEqual(by_id[1], r"Mesmo que eu falhe,\Ne eu não")
+        self.assertEqual(by_id[2], "vou desistir.")
+        self.assertEqual(by_id[6], "não desista")
+        self.assertEqual(by_id[7], "neste beco sem saída")
+
 
 if __name__ == "__main__":
     unittest.main()
