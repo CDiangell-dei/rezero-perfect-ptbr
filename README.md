@@ -2,7 +2,7 @@
 
 Pipeline episódio por episódio (baixo uso de disco) e extensão Chrome/Edge Manifest V3 para assistir ao **[rezeroperfect.run](https://rezeroperfect.run/)** com legendas em Português do Brasil (PT-BR).
 
-> **Para a equipe do `rezeroperfect.run`:** os arquivos finais de legenda em Português (BR) prontos para integração estão em [`translated_ptbr/`](translated_ptbr/) (`.ass` com estilos e karaokê preservados + `.vtt`), e a padronização dos termos está documentada em [`GLOSSARIO.md`](GLOSSARIO.md).
+> **For the `rezeroperfect.run` team:** The final Brazilian Portuguese (PT-BR) subtitle files ready for site integration are located in [`translated_ptbr/`](translated_ptbr/) (`.ass` with original styles and karaoke preserved + `.vtt`), and terminology standardization is documented in [`GLOSSARIO.md`](GLOSSARIO.md).
 
 ---
 
