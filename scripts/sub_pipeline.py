@@ -53,6 +53,7 @@ ANIMATED_STYLE_RE = re.compile(
 INLINE_STYLE_TAG_RE = re.compile(r"\\([ib][01])(?![0-9a-zA-Z])")
 K_TAG_RE = re.compile(r"\\(?:k[fo]?|K)(\d+)")
 POS_TAG_RE = re.compile(r"\\pos\(\s*([0-9.+-]+)\s*,\s*([0-9.+-]+)\s*\)")
+POS_OR_MOVE_RE = re.compile(r"\\(?:pos|move)\(\s*([0-9.+-]+)\s*,\s*([0-9.+-]+)")
 
 
 def _build_catalog() -> list[dict[str, Any]]:
@@ -571,7 +572,27 @@ def _ev_layer(ev: dict[str, Any]) -> int:
         return 0
 
 
-def _reconstruct_pos_line(items: list[tuple[float, float, str]], fs: float, gap_ratio: float | None = None) -> str:
+def _style_width_params(fontname: str) -> tuple[float, float | None]:
+    if "qtype" in (fontname or "").lower():
+        return 1.58, 0.20
+    return 1.0, None
+
+
+def _spans_overlap_same_cue(s1: float, e1: float, s2: float, e2: float) -> bool:
+    d1 = max(0.01, e1 - s1)
+    d2 = max(0.01, e2 - s2)
+    if d1 <= 0.25:
+        return s1 >= s2 - 0.15 and e1 <= e2 + 0.15
+    ov = min(e1, e2) - max(s1, s2)
+    return ov >= 0.4 * min(d1, d2)
+
+
+def _reconstruct_pos_line(
+    items: list[tuple[float, float, str]],
+    fs: float,
+    gap_ratio: float | None = None,
+    width_scale: float = 1.0,
+) -> str:
     if not items:
         return ""
     row_band = max(20.0, fs * 0.35)
@@ -586,7 +607,7 @@ def _reconstruct_pos_line(items: list[tuple[float, float, str]], fs: float, gap_
             if abs(y - py) > row_band:
                 parts_out.append(" ")
             else:
-                expected_dx = (_est_glyph_width(prev_p, fs) + _est_glyph_width(raw_p, fs)) / 2.0
+                expected_dx = (_est_glyph_width(prev_p, fs) + _est_glyph_width(raw_p, fs)) * width_scale / 2.0
                 if (x - px) - expected_dx > gap_ratio * fs and not prev_p.endswith(":"):
                     parts_out.append(" ")
         parts_out.append(raw_p)
@@ -596,11 +617,13 @@ def _reconstruct_pos_line(items: list[tuple[float, float, str]], fs: float, gap_
 def _collapse_animated_events(
     events: list[dict[str, Any]],
     style_fontsizes: dict[str, float] | None = None,
+    style_fontnames: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
     """Collapse frame-by-frame animated Signs/OP/ED lines into clean single entries."""
     non_skipped = [e for e in events if not e.get("skip")]
     skipped = [e for e in events if e.get("skip")]
     fontsizes = style_fontsizes or {}
+    fontnames = style_fontnames or {}
 
     # Identify short-frame duplicate bursts even outside named Sign/OP/ED styles
     short_counts: dict[tuple[str, str], int] = {}
@@ -631,19 +654,19 @@ def _collapse_animated_events(
         by_style.setdefault(ev["style"], []).append(ev)
 
     for style, style_evs in by_style.items():
-        # Fix A: drop short/pos animated layers when the same style has >=0.4s full master lines without \pos (e.g. ed1-tl)
+        # Fix A: drop short/pos/move animated layers overlapping >=0.4s full master lines without \pos/\move
         no_pos_masters = [
             (float(e["start"]), float(e["end"]))
             for e in style_evs
             if (float(e["end"]) - float(e["start"])) >= 0.4
-            and not POS_TAG_RE.search(e.get("raw_text", ""))
+            and not POS_OR_MOVE_RE.search(e.get("raw_text", ""))
             and len(_normalize_ass_plain(e.get("raw_text", e["en"]))) >= 3
         ]
         if no_pos_masters:
             style_evs = [
                 e for e in style_evs
-                if not POS_TAG_RE.search(e.get("raw_text", ""))
-                or not any(float(e["start"]) < me + 0.5 and float(e["end"]) > ms - 0.5 for ms, me in no_pos_masters)
+                if not POS_OR_MOVE_RE.search(e.get("raw_text", ""))
+                or not any(_spans_overlap_same_cue(float(e["start"]), float(e["end"]), ms, me) for ms, me in no_pos_masters)
             ]
         else:
             master_spans = [
@@ -656,23 +679,24 @@ def _collapse_animated_events(
                 kept: list[dict[str, Any]] = []
                 for ev in style_evs:
                     dur = float(ev["end"]) - float(ev["start"])
-                    if dur <= 0.25 and any(float(ev["start"]) < me + 0.5 and float(ev["end"]) > ms - 0.5 for ms, me in master_spans):
+                    if dur <= 0.25 and any(_spans_overlap_same_cue(float(ev["start"]), float(ev["end"]), ms, me) for ms, me in master_spans):
                         continue
                     kept.append(ev)
                 style_evs = kept
 
-        # Fix B: for song/lyric styles (not general screen signs), reconstruct static split-syllable \pos(x,y) rows (e.g. OPE)
+        # Fix B: for song/lyric styles (not general screen signs), reconstruct static split-syllable \pos/\move rows (e.g. OPE)
         is_song_style = bool(re.search(r"(?:\bop\d*[re]?\b|\bed\d*[re]?\b|song|lyric|insert|-tl\b)", style, re.IGNORECASE)) and not bool(
             re.search(r"sign", style, re.IGNORECASE)
         )
         if is_song_style:
             fs = float(fontsizes.get(style, 70.0) or 70.0)
+            w_scale, g_ratio = _style_width_params(fontnames.get(style, ""))
             row_tol = max(30.0, fs * 0.6)
             by_span: dict[tuple[float, float], list[dict[str, Any]]] = {}
             other_evs: list[dict[str, Any]] = []
             for ev in style_evs:
                 dur = float(ev["end"]) - float(ev["start"])
-                m_pos = POS_TAG_RE.search(ev.get("raw_text", ""))
+                m_pos = POS_OR_MOVE_RE.search(ev.get("raw_text", ""))
                 if dur >= 0.4 and m_pos:
                     by_span.setdefault((round(float(ev["start"]), 2), round(float(ev["end"]), 2)), []).append(ev)
                 else:
@@ -686,7 +710,7 @@ def _collapse_animated_events(
                 pos_items: list[tuple[float, float, str]] = []
                 seen_pos: set[tuple[float, float, str]] = set()
                 for e in top_evs:
-                    m_p = POS_TAG_RE.search(e.get("raw_text", ""))
+                    m_p = POS_OR_MOVE_RE.search(e.get("raw_text", ""))
                     pl = _normalize_ass_plain(e.get("raw_text", e["en"])).replace(r"\N", " ").strip()
                     if not m_p or not pl:
                         continue
@@ -698,7 +722,9 @@ def _collapse_animated_events(
                 ys = [t[1] for t in pos_items]
                 xs = {round(t[0], 1) for t in pos_items}
                 if len(pos_items) >= 2 and len(xs) >= 2 and (max(ys) - min(ys) <= row_tol):
-                    line_txt = _reconstruct_pos_line(pos_items, fs, gap_ratio=0.60)
+                    line_txt = _reconstruct_pos_line(
+                        pos_items, fs, gap_ratio=(g_ratio if g_ratio is not None else 0.60), width_scale=w_scale
+                    )
                     first = top_evs[0]
                     merged = dict(first)
                     merged["start"] = min(float(e["start"]) for e in top_evs)
@@ -841,6 +867,7 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
     style_fields: list[str] = []
     style_alignments: dict[str, int] = {}
     style_fontsizes: dict[str, float] = {}
+    style_fontnames: dict[str, str] = {}
     event_fields: list[str] = []
     header_lines: list[str] = []
     events: list[dict[str, Any]] = []
@@ -874,6 +901,7 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
                         style_fontsizes[sname] = float(row.get("fontsize", "72"))
                     except ValueError:
                         style_fontsizes[sname] = 72.0
+                    style_fontnames[sname] = row.get("fontname", "")
             continue
 
         # Inside [Events]
@@ -955,6 +983,7 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
         or ["layer", "start", "end", "style", "name", "marginl", "marginr", "marginv", "effect", "text"],
         "style_alignments": style_alignments,
         "style_fontsizes": style_fontsizes,
+        "style_fontnames": style_fontnames,
         "events": events,
     }
 
@@ -1011,12 +1040,14 @@ def _parse_native_k_karaoke(start_s: float, raw_text: str) -> tuple[str, list[di
 
 
 def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
-    """Extract clean timed Romaji karaoke cues (line-level or per-syllable) from raw .ass."""
+    """Extract clean timed Romaji/sung-English karaoke cues (line-level or per-syllable) from raw .ass."""
     parsed = parse_ass_file(raw_ass_path)
     style_alignments = parsed.get("style_alignments", {})
     style_fontsizes = parsed.get("style_fontsizes", {})
+    style_fontnames = parsed.get("style_fontnames", {})
 
     by_style: dict[str, list[dict[str, Any]]] = {}
+    by_eng_song_style: dict[str, list[dict[str, Any]]] = {}
     for ev in parsed["events"]:
         if ev.get("kind", "Dialogue").lower() == "comment":
             continue
@@ -1026,17 +1057,49 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
         if float(ev["end"]) <= float(ev["start"]):
             continue
         style = ev.get("style", "Default")
-        if not _is_romaji_style(style):
-            continue
         if not _normalize_ass_plain(raw_text):
             continue
-        by_style.setdefault(style, []).append(ev)
+        if _is_romaji_style(style):
+            by_style.setdefault(style, []).append(ev)
+        elif re.match(r"^(?:op|ed)\d*e$", style.strip(), re.IGNORECASE):
+            by_eng_song_style.setdefault(style, []).append(ev)
 
     karaoke_cues: list[dict[str, Any]] = []
+
+    def _collect_pos_move_spans(evs_in: list[dict[str, Any]]) -> dict[tuple[float, float], list[tuple[float, float, str]]]:
+        pos_span_raw: dict[tuple[float, float], list[tuple[int, float, float, str]]] = {}
+        for ev in evs_in:
+            if float(ev["end"]) - float(ev["start"]) < 0.4:
+                continue
+            rt = ev.get("raw_text", "")
+            pl = ASS_BLOCK_RE.sub("", rt).replace(r"\N", " ").replace(r"\n", " ").strip()
+            m_pm = POS_OR_MOVE_RE.search(rt)
+            if not pl or not m_pm:
+                continue
+            x = float(m_pm.group(1))
+            y = float(m_pm.group(2))
+            span_key = (round(float(ev["start"]), 2), round(float(ev["end"]), 2))
+            pos_span_raw.setdefault(span_key, []).append((_ev_layer(ev), x, y, pl))
+
+        groups: dict[tuple[float, float], list[tuple[float, float, str]]] = {}
+        for span_key, raw_items in pos_span_raw.items():
+            max_l = max(t[0] for t in raw_items)
+            seen_pos: set[tuple[float, float, str]] = set()
+            items: list[tuple[float, float, str]] = []
+            for lyr, x, y, plain in raw_items:
+                if lyr != max_l:
+                    continue
+                pk = (round(x, 1), round(y, 1), plain)
+                if pk not in seen_pos:
+                    seen_pos.add(pk)
+                    items.append((x, y, plain))
+            groups[span_key] = items
+        return groups
 
     for style, evs in by_style.items():
         align = style_alignments.get(style, 8)
         fs = float(style_fontsizes.get(style, 72.0) or 72.0)
+        w_scale, g_ratio = _style_width_params(style_fontnames.get(style, ""))
 
         # Inspect Format 1 (native ASS \k tags with >0 duration) and Format 2 (\fad(200,0)+\pos frames)
         native_k_evs = [
@@ -1062,13 +1125,16 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 fad_out_spans.append((ev["start"], ev["end"]))
 
         is_per_syllable_fad = any(len(g) >= 2 for g in fad_in_groups.values())
+        pos_span_groups = _collect_pos_move_spans(evs)
+        multi_pos_spans = sum(1 for g in pos_span_groups.values() if len(g) >= 2)
+        has_format4 = bool(pos_span_groups and multi_pos_spans >= max(1, int(0.5 * len(pos_span_groups))))
 
         # Prefer Format 2 when it covers at least as many lyric lines as sparse native \k templates (e.g. ED01)
         if native_k_evs and not (is_per_syllable_fad and len(fad_in_groups) >= len(native_k_evs)):
             # When master lines (>=0.4s) coexist with short animated \pos+\k frames (e.g. OP2), keep masters only
             no_pos_masters = [
                 e for e in native_k_evs
-                if (float(e["end"]) - float(e["start"])) >= 0.4 and not POS_TAG_RE.search(e.get("raw_text", ""))
+                if (float(e["end"]) - float(e["start"])) >= 0.4 and not POS_OR_MOVE_RE.search(e.get("raw_text", ""))
             ]
             dur_masters = [e for e in native_k_evs if (float(e["end"]) - float(e["start"])) >= 0.4]
             if no_pos_masters and len(native_k_evs) > len(no_pos_masters):
@@ -1077,6 +1143,7 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 native_k_evs = dur_masters
 
             seen_native: set[tuple[float, float, str]] = set()
+            native_spans: list[tuple[float, float]] = []
             for ev in sorted(native_k_evs, key=lambda e: (e["start"], e["end"], e["id"])):
                 raw_text = ev.get("raw_text", "")
                 joined, syls = _parse_native_k_karaoke(ev["start"], raw_text)
@@ -1086,6 +1153,7 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 if sig in seen_native:
                     continue
                 seen_native.add(sig)
+                native_spans.append((float(ev["start"]), float(ev["end"])))
                 cue: dict[str, Any] = {
                     "start": ev["start"],
                     "end": ev["end"],
@@ -1098,6 +1166,25 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 if syls:
                     cue["karaoke"] = syls
                 karaoke_cues.append(cue)
+
+            # Merge any missing spans that exist only in Format 4 \pos/\move layers (e.g. partial \k in Arc 06 EDR)
+            if has_format4:
+                for (st_s, en_s), items in sorted(pos_span_groups.items()):
+                    if any(_spans_overlap_same_cue(st_s, en_s, ns, ne) for ns, ne in native_spans):
+                        continue
+                    joined = _reconstruct_pos_line(items, fs, gap_ratio=g_ratio, width_scale=w_scale)
+                    if joined:
+                        karaoke_cues.append(
+                            {
+                                "start": st_s,
+                                "end": en_s,
+                                "align": align,
+                                "style": style,
+                                "isSign": False,
+                                "isKaraoke": True,
+                                "lines": [[{"text": joined, "i": False, "b": False}]],
+                            }
+                        )
             continue
 
         # Format 2: per-syllable \fad(200,0) + \pos(x, y) pre-rendered frames (e.g. ED01)
@@ -1146,39 +1233,10 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                     )
             continue
 
-        # Format 4: static per-syllable/per-char \pos(x, y) spans held >= 0.4s (e.g. ED - R, OPR, EDR)
-        pos_span_raw: dict[tuple[float, float], list[tuple[int, float, float, str]]] = {}
-        for ev in evs:
-            if float(ev["end"]) - float(ev["start"]) < 0.4:
-                continue
-            raw_text = ev.get("raw_text", "")
-            plain = ASS_BLOCK_RE.sub("", raw_text).replace(r"\N", " ").replace(r"\n", " ").strip()
-            m_pos = POS_TAG_RE.search(raw_text)
-            if not plain or not m_pos:
-                continue
-            x = float(m_pos.group(1))
-            y = float(m_pos.group(2))
-            span_key = (round(float(ev["start"]), 2), round(float(ev["end"]), 2))
-            pos_span_raw.setdefault(span_key, []).append((_ev_layer(ev), x, y, plain))
-
-        pos_span_groups: dict[tuple[float, float], list[tuple[float, float, str]]] = {}
-        for span_key, raw_items in pos_span_raw.items():
-            max_l = max(t[0] for t in raw_items)
-            seen_pos: set[tuple[float, float, str]] = set()
-            items: list[tuple[float, float, str]] = []
-            for lyr, x, y, plain in raw_items:
-                if lyr != max_l:
-                    continue
-                pk = (round(x, 1), round(y, 1), plain)
-                if pk not in seen_pos:
-                    seen_pos.add(pk)
-                    items.append((x, y, plain))
-            pos_span_groups[span_key] = items
-
-        multi_pos_spans = sum(1 for g in pos_span_groups.values() if len(g) >= 2)
-        if pos_span_groups and multi_pos_spans >= max(1, int(0.5 * len(pos_span_groups))):
+        # Format 4: static per-syllable/per-char \pos/\move spans held >= 0.4s (e.g. ED - R, OPR, EDR)
+        if has_format4:
             for (st_s, en_s), items in sorted(pos_span_groups.items()):
-                joined = _reconstruct_pos_line(items, fs)
+                joined = _reconstruct_pos_line(items, fs, gap_ratio=g_ratio, width_scale=w_scale)
                 if joined:
                     karaoke_cues.append(
                         {
@@ -1292,6 +1350,38 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                             "lines": lines_runs,
                         }
                     )
+
+    # Bilingual songs (e.g. Arc 06 OPE): emit multi-piece per-syllable sung-English lines as top karaoke cues
+    # whenever no Romaji karaoke cue already covers that timestamp
+    romaji_spans = [(float(c["start"]), float(c["end"])) for c in karaoke_cues]
+    for style, evs in by_eng_song_style.items():
+        align = style_alignments.get(style, 8)
+        fs = float(style_fontsizes.get(style, 70.0) or 70.0)
+        w_scale, g_ratio = _style_width_params(style_fontnames.get(style, ""))
+        row_tol = max(30.0, fs * 0.6)
+        pos_span_groups = _collect_pos_move_spans(evs)
+        for (st_s, en_s), items in sorted(pos_span_groups.items()):
+            ys = [t[1] for t in items]
+            xs = {round(t[0], 1) for t in items}
+            if len(items) < 2 or len(xs) < 2 or (max(ys) - min(ys) > row_tol):
+                continue
+            if any(abs(st_s - rs) <= 0.15 and abs(en_s - re_) <= 0.15 for rs, re_ in romaji_spans):
+                continue
+            joined = _reconstruct_pos_line(
+                items, fs, gap_ratio=(g_ratio if g_ratio is not None else 0.60), width_scale=w_scale
+            )
+            if joined:
+                karaoke_cues.append(
+                    {
+                        "start": st_s,
+                        "end": en_s,
+                        "align": align,
+                        "style": style,
+                        "isSign": False,
+                        "isKaraoke": True,
+                        "lines": [[{"text": joined, "i": False, "b": False}]],
+                    }
+                )
 
     karaoke_cues.sort(key=lambda c: (c["start"], c["end"]))
     return karaoke_cues
@@ -1581,7 +1671,9 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     src_path = _find_raw_source(episode_key)
     parsed = parse_subtitle_file(src_path)
     events_list = (
-        _collapse_animated_events(parsed["events"], parsed.get("style_fontsizes"))
+        _collapse_animated_events(
+            parsed["events"], parsed.get("style_fontsizes"), parsed.get("style_fontnames")
+        )
         if parsed["format"] == "ass"
         else parsed["events"]
     )

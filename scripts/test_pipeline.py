@@ -650,21 +650,28 @@ class PipelineTestCase(unittest.TestCase):
                 r"Dialogue: 10,0:00:30.00,0:00:32.00,OP2 - Romaji (v0),,0,0,0,,{\k30}Watch {\k30}my {\k30}long {\k30}shot",
                 r"Dialogue: 0,0:00:30.00,0:00:30.04,OP2 - Romaji (v0),,0,0,0,,{\k30\pos(960,35)}Watch {\k30}my {\k30}long {\k30}shot",
                 r"Dialogue: 0,0:00:30.04,0:00:30.08,OP2 - Romaji (v0),,0,0,0,,{\k30\pos(961,36)}Watch {\k30}my {\k30}long {\k30}shot",
-                # OPR static layered syllables + OPE split-syllable words + EDR \ko0 chars
-                r"Dialogue: 2,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(751,122)}ze",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(749,120)}ze",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(797,120)}ro",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(425,60)}Trans",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(558,60)}form",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(655,60)}ing",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(752,60)}the",
-                r"Dialogue: 5,0:00:40.00,0:00:42.00,OPE,,0,0,0,,{\pos(864,60)}pain",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(87,74)}T",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(119,74)}h",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(145,74)}e",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(182,74)}e",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(212,74)}n",
-                r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(244,74)}d",
+        # OPR static layered syllables + OPE split-syllable sung-English words + EDR \ko0 chars (pos + move) + partial \k
+        r"Dialogue: 2,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(751,122)}ze",
+        r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(749,120)}ze",
+        r"Dialogue: 5,0:00:40.00,0:00:42.00,OPR,,0,0,0,,{\pos(797,120)}ro",
+        r"Dialogue: 5,0:00:44.00,0:00:46.00,OPE,,0,0,0,,{\pos(425,60)}Trans",
+        r"Dialogue: 5,0:00:44.00,0:00:46.00,OPE,,0,0,0,,{\pos(558,60)}form",
+        r"Dialogue: 5,0:00:44.00,0:00:46.00,OPE,,0,0,0,,{\pos(655,60)}ing",
+        r"Dialogue: 5,0:00:44.00,0:00:46.00,OPE,,0,0,0,,{\pos(752,60)}the",
+        r"Dialogue: 5,0:00:44.00,0:00:46.00,OPE,,0,0,0,,{\pos(864,60)}pain",
+        r"Dialogue: 0,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\k40}The {\k40}end",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(87,74)}T",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(119,74)}h",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(145,74)}e",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(182,74)}e",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(212,74)}n",
+        r"Dialogue: 4,0:00:50.00,0:00:52.00,EDR,,0,0,0,,{\ko0\pos(244,74)}d",
+        r"Dialogue: 4,0:00:52.00,0:00:54.00,EDR,,0,0,0,,{\ko0\move(87,74,87,120,0,500)}y",
+        r"Dialogue: 4,0:00:52.00,0:00:54.00,EDR,,0,0,0,,{\ko0\move(119,74,119,120,0,500)}u",
+        r"Dialogue: 4,0:00:52.00,0:00:54.00,EDR,,0,0,0,,{\ko0\move(151,74,151,120,0,500)}m",
+        r"Dialogue: 4,0:00:52.00,0:00:54.00,EDR,,0,0,0,,{\ko0\move(185,74,185,120,0,500)}e",
+        r"Dialogue: 4,0:00:52.00,0:00:54.00,EDE,,0,0,0,,{\move(200,900,200,950,0,500)}Dream",
+        r"Dialogue: 4,0:00:54.00,0:00:56.00,EDE,,0,0,0,,{\pos(200,900)}Next line",
             ]
         )
         ass_path.write_text(ass_content + "\n", encoding="utf-8")
@@ -675,19 +682,25 @@ class PipelineTestCase(unittest.TestCase):
         self.assertIn(("OP2 - Romaji (v0)", "Watch my long shot"), kc_texts)
         self.assertEqual(sum(1 for st, _ in kc_texts if st == "OP2 - Romaji (v0)"), 1)
         self.assertIn(("OPR", "zero"), kc_texts)
+        self.assertIn(("OPE", "Transforming the pain"), kc_texts)
         self.assertIn(("EDR", "The end"), kc_texts)
+        self.assertIn(("EDR", "yume"), kc_texts)
 
         parsed = sp.parse_ass_file(ass_path)
-        evs = sp._collapse_animated_events(parsed["events"], parsed.get("style_fontsizes"))
+        evs = sp._collapse_animated_events(
+            parsed["events"], parsed.get("style_fontsizes"), parsed.get("style_fontnames")
+        )
         synth = sp._synthesize_english_karaoke_entries(ass_path, evs, parsed["style_alignments"])
         evs.extend(synth)
         active = [e for e in evs if not e.get("skip")]
         active_texts = [(e["style"], e["en"]) for e in active]
         self.assertIn(("ed1-tl", "I take the time"), active_texts)
         self.assertEqual(sum(1 for st, _ in active_texts if st == "ed1-tl"), 1)
-        self.assertIn(("OPE", "Trans forming the pain"), active_texts)
+        self.assertIn(("OPE", "Transforming the pain"), active_texts)
         self.assertIn(("OP2 - English (v0)", "Watch my long shot"), active_texts)
-        self.assertEqual(sum(1 for st, _ in active_texts if st in ("EDR", "EDE")), 1)
+        self.assertIn(("EDE", "Dream"), active_texts)
+        self.assertIn(("EDE", "Next line"), active_texts)
+        self.assertIn(("EDE", "The end"), active_texts)
 
     def test_zero_duration_lua_script_dialogue_skipped(self) -> None:
         ass_path = self.root / "raw_en" / "arc06-ep07.ass"
