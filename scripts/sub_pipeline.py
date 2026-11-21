@@ -415,6 +415,120 @@ def _is_romaji_style(style: str) -> bool:
     )
 
 
+# Uniquely English lyric tokens (intentionally excludes common Romaji homographs like no/me/to/ni/wa)
+ENGLISH_LYRIC_WORDS = {
+    "the", "you", "your", "yours", "my", "mine", "we", "our", "ours",
+    "for", "of", "with", "from", "this", "that", "these", "those",
+    "please", "wait", "waiting", "die", "dying", "life", "live", "living",
+    "wish", "now", "new", "day", "days", "touch", "end", "endless", "dead",
+    "never", "always", "will", "would", "could", "should", "are", "is",
+    "was", "were", "been", "have", "has", "had", "all", "and", "but",
+    "not", "if", "when", "what", "who", "why", "how", "love", "heart",
+    "world", "light", "dark", "night", "sky", "tears", "eyes", "soul",
+    "pain", "away", "here", "there", "inside", "down", "give", "see",
+    "off", "start", "let", "hold", "stay", "believe", "feel", "know",
+    "time", "dream", "dreams", "again", "forever", "tonight",
+}
+ENGLISH_CONTRACTION_RE = re.compile(r"\b[a-z]+(?:'t|'ll|'re|'ve|'m|'d)\b", re.IGNORECASE)
+
+
+def _looks_like_english_lyric(text: str) -> bool:
+    words = set(re.findall(r"[a-z]+", text.lower()))
+    hits = len(words & ENGLISH_LYRIC_WORDS)
+    has_contraction = bool(ENGLISH_CONTRACTION_RE.search(text))
+    return hits >= 2 or (hits >= 1 and has_contraction)
+
+
+def _song_style_prefix(style: str) -> str:
+    return re.sub(r"\s*-\s*(?:romaji|karaoke|english|pt|br)\b.*$", "", style, flags=re.IGNORECASE).strip().lower()
+
+
+def _resolve_lyric_tr_style(romaji_style: str, style_alignments: dict[str, int]) -> str:
+    candidate = re.sub(r"\b(?:romaji|karaoke)\b", "English", romaji_style, flags=re.IGNORECASE)
+    if candidate in style_alignments:
+        return candidate
+    prefix = _song_style_prefix(romaji_style)
+    for st in style_alignments:
+        if not _is_romaji_style(st) and _song_style_prefix(st) == prefix:
+            return st
+    return "Default"
+
+
+def _synthesize_english_karaoke_entries(
+    src_path: Path,
+    events_list: list[dict[str, Any]],
+    style_alignments: dict[str, int],
+) -> list[dict[str, Any]]:
+    """Create translatable lyric entries for untranslated English lines embedded in Romaji karaoke."""
+    karaoke_cues = _extract_karaoke_web_cues(src_path)
+    if not karaoke_cues:
+        return []
+
+    song_tr_spans: list[tuple[str, float, float]] = []
+    for ev in events_list:
+        if ev.get("skip"):
+            continue
+        st = str(ev.get("style", ""))
+        if re.search(r"\b(?:op|ed\d*|lyric|song|insert|english)\b", st, re.IGNORECASE):
+            song_tr_spans.append((_song_style_prefix(st), float(ev["start"]), float(ev["end"])))
+
+    next_id = max((int(e["id"]) for e in events_list), default=0) + 1
+    out: list[dict[str, Any]] = []
+    for kcue in karaoke_cues:
+        kplain = _runs_to_plain_text(kcue["lines"]).replace("\n", r"\N").strip()
+        if not kplain or not _looks_like_english_lyric(kplain):
+            continue
+        ks, ke = float(kcue["start"]), float(kcue["end"])
+        if ke <= ks:
+            continue
+        kpref = _song_style_prefix(str(kcue.get("style", "")))
+        covered = False
+        for spref, es, ee in song_tr_spans:
+            if kpref and spref and spref != kpref:
+                continue
+            ov = min(ke, ee) - max(ks, es)
+            if ov >= 0.4 * max(0.2, min(ke - ks, ee - es)):
+                covered = True
+                break
+        if covered:
+            continue
+
+        tr_style = _resolve_lyric_tr_style(str(kcue.get("style", "")), style_alignments)
+        out.append(
+            {
+                "id": next_id,
+                "kind": "Dialogue",
+                "start": ks,
+                "end": ke,
+                "style": tr_style,
+                "actor": "lyric-en",
+                "leading_tags": "",
+                "inline_tags": [],
+                "en": kplain,
+                "pt": "",
+                "skip": False,
+                "omit_web": False,
+                "collapsed": False,
+                "karaoke_tr": True,
+                "fields": {
+                    "layer": "0",
+                    "start": _format_ass_time(ks),
+                    "end": _format_ass_time(ke),
+                    "style": tr_style,
+                    "name": "lyric-en",
+                    "marginl": "0",
+                    "marginr": "0",
+                    "marginv": "0",
+                    "effect": "",
+                    "text": kplain,
+                },
+                "raw_line": "",
+            }
+        )
+        next_id += 1
+    return out
+
+
 def _normalize_ass_plain(raw_text: str) -> str:
     plain = ASS_BLOCK_RE.sub("", raw_text)
     plain = plain.replace(r"\n", r"\N").replace("\n", r"\N")
@@ -748,10 +862,12 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                 items = sorted(fad_in_groups[st_s].values(), key=lambda t: (round(t[1] / row_band), t[0]))
                 max_k = max(t[2] for t in items)
                 next_st = starts_sorted[idx + 1] if idx + 1 < len(starts_sorted) else max_k + 5.0
-                cand_ends = [e for (s, e) in fad_out_spans if s >= st_s - 0.01 and e <= next_st + 0.5]
+                cand_ends = [e for (s, e) in fad_out_spans if s >= st_s and e > st_s + 0.1 and e <= next_st + 0.5]
                 line_end = max(cand_ends) if cand_ends else round(max_k + 0.6, 3)
                 if line_end < max_k:
                     line_end = round(max_k + 0.3, 3)
+                if line_end <= st_s + 0.05:
+                    continue
 
                 # Build spaced syllables: attach trailing space to preceding syllable
                 syls_out: list[dict[str, Any]] = []
@@ -1112,18 +1228,27 @@ def cmd_prepare(args: argparse.Namespace) -> int:
         if parsed["format"] == "ass"
         else parsed["events"]
     )
+    if parsed["format"] == "ass":
+        events_list.extend(
+            _synthesize_english_karaoke_entries(src_path, events_list, parsed["style_alignments"])
+        )
 
     ep_work_dir = WORK_DIR / episode_key
     ep_work_dir.mkdir(parents=True, exist_ok=True)
 
     # Preserve existing translations unless --force is passed
     existing_pt: dict[int, str] = {}
+    existing_kar_pt: dict[tuple[str, float, str], str] = {}
     if not args.force:
         for chunk_path in sorted(ep_work_dir.glob("chunk_*.json")):
             chunk_data = json.loads(chunk_path.read_text(encoding="utf-8"))
             for item in chunk_data:
                 if item.get("pt") and not item.get("skip"):
-                    existing_pt[int(item["id"])] = str(item["pt"])
+                    if item.get("karaoke_tr"):
+                        sig = (str(item.get("style", "")), round(float(item["start"]), 2), str(item.get("en", "")))
+                        existing_kar_pt[sig] = str(item["pt"])
+                    else:
+                        existing_pt[int(item["id"])] = str(item["pt"])
 
     for old_chunk in ep_work_dir.glob("chunk_*.json"):
         old_chunk.unlink()
@@ -1131,27 +1256,33 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     entries = []
     for ev in events_list:
         pt_val = ev["pt"]
-        if not ev["skip"] and ev["id"] in existing_pt:
-            pt_val = existing_pt[ev["id"]]
-        entries.append(
-            {
-                "id": ev["id"],
-                "kind": ev["kind"],
-                "start": ev["start"],
-                "end": ev["end"],
-                "style": ev["style"],
-                "actor": ev["actor"],
-                "leading_tags": ev["leading_tags"],
-                "inline_tags": ev["inline_tags"],
-                "en": ev["en"],
-                "pt": pt_val,
-                "skip": ev["skip"],
-                "omit_web": ev.get("omit_web", False),
-                "collapsed": ev.get("collapsed", False),
-                "fields": ev.get("fields", {}),
-                "raw_line": ev.get("raw_line", ""),
-            }
-        )
+        if not ev["skip"]:
+            if ev.get("karaoke_tr"):
+                sig = (str(ev.get("style", "")), round(float(ev["start"]), 2), str(ev.get("en", "")))
+                if sig in existing_kar_pt:
+                    pt_val = existing_kar_pt[sig]
+            elif ev["id"] in existing_pt:
+                pt_val = existing_pt[ev["id"]]
+        entry_obj = {
+            "id": ev["id"],
+            "kind": ev["kind"],
+            "start": ev["start"],
+            "end": ev["end"],
+            "style": ev["style"],
+            "actor": ev["actor"],
+            "leading_tags": ev["leading_tags"],
+            "inline_tags": ev["inline_tags"],
+            "en": ev["en"],
+            "pt": pt_val,
+            "skip": ev["skip"],
+            "omit_web": ev.get("omit_web", False),
+            "collapsed": ev.get("collapsed", False),
+            "fields": ev.get("fields", {}),
+            "raw_line": ev.get("raw_line", ""),
+        }
+        if ev.get("karaoke_tr"):
+            entry_obj["karaoke_tr"] = True
+        entries.append(entry_obj)
 
     chunk_size = max(1, int(args.chunk_size))
     chunk_files: list[str] = []

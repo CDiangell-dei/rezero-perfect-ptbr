@@ -489,11 +489,21 @@ class PipelineTestCase(unittest.TestCase):
                 r"Dialogue: 0,0:03:00.00,0:03:01.00,EDMixed - Romaji,,0,0,0,,{\pos(160,90)\fad(200,0)}rt",
                 r"Dialogue: 0,0:03:02.00,0:03:02.50,EDMixed - Romaji,,0,0,0,,{\pos(100,90)\fad(200,0)}en",
                 r"Dialogue: 0,0:03:02.00,0:03:03.00,EDMixed - Romaji,,0,0,0,,{\pos(160,90)\fad(200,0)}d",
+                # Degenerate zero-duration fade collision should be skipped cleanly
+                r"Dialogue: 0,0:01:00.00,0:01:00.00,ED - Romaji,,0,0,0,,{\pos(100,90)\fad(0,200)\bord0}oh,",
             ]
         )
         ass_path.write_text(ass_content + "\n", encoding="utf-8")
         cues = sp._extract_karaoke_web_cues(ass_path)
         self.assertEqual(len(cues), 5)
+
+        # English karaoke lines without a matching - English event synthesize translatable cues; pure Romaji does not
+        parsed = sp.parse_ass_file(ass_path)
+        evs = sp._collapse_animated_events(parsed["events"])
+        synthesized = sp._synthesize_english_karaoke_entries(ass_path, evs, parsed["style_alignments"])
+        self.assertEqual([s["en"] for s in synthesized], ["oh, please stay"])
+        self.assertEqual(synthesized[0]["style"], "Default")
+
 
         native = cues[0]
         self.assertTrue(native["isKaraoke"])
