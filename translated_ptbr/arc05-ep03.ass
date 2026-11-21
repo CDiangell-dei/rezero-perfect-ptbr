@@ -1,0 +1,401 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScaledBorderAndShadow: yes
+Original Script: rzpc  [http://www.crunchyroll.com/user/rzpc]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: main,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: top,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: italicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: flashback,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashback italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashbacktop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,8,60,60,54,1
+Style: flashbackitalicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: overlaptop,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap italics,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: sign_Arial,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ArialBlack,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_CourierNew,Courier New,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ComicSansMS,Comic Sans MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Georgia,Georgia,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Impact,Impact,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TimesNewRoman,Times New Roman,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TrebuchetMS,Trebuchet MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Verdana,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: Episode Title,Times New Roman,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.21,0:00:15.41,main,Garfiel,0,0,0,,Isso é...
+Dialogue: 0,0:00:18.31,0:00:19.49,main,Mimi,0,0,0,,Garf!
+Dialogue: 0,0:00:23.05,0:00:23.91,main,Mimi,0,0,0,,Esses dois...
+Dialogue: 0,0:00:24.69,0:00:26.22,main,Mimi,0,0,0,,são bem fortes.
+Dialogue: 0,0:00:28.90,0:00:30.05,main,Garfiel,0,0,0,,Parece divertido.
+Dialogue: 0,0:00:30.05,0:00:30.92,main,Mimi,0,0,0,,Não!
+Dialogue: 0,0:00:31.62,0:00:33.33,main,Mimi,0,0,0,,Não faz isso, Garf!
+Dialogue: 0,0:00:33.33,0:00:35.60,main,Mimi,0,0,0,,Só nós dois não damos conta deles!
+Dialogue: 0,0:00:35.60,0:00:37.43,main,Garfiel,0,0,0,,Mas mesmo que a gente tente dar no pé,
+Dialogue: 0,0:00:37.91,0:00:39.83,main,Garfiel,0,0,0,,eles não vão deixar.
+Dialogue: 0,0:00:39.83,0:00:40.99,main,Garfiel,0,0,0,,Temos que lutar!
+Dialogue: 0,0:00:40.99,0:00:42.68,main,Mimi,0,0,0,,T-Tá bom, só uma vez...
+Dialogue: 0,0:00:43.63,0:00:46.18,main,Mimi,0,0,0,,A gente investe uma vez, desvia e foge!
+Dialogue: 0,0:00:46.18,0:00:47.15,main,Mimi,0,0,0,,É o único jeito!
+Dialogue: 0,0:00:47.98,0:00:49.36,main,Mimi,0,0,0,,Por que você está aqui?!
+Dialogue: 0,0:00:53.69,0:00:54.86,main,Garfiel,0,0,0,,Certo.
+Dialogue: 0,0:00:55.34,0:00:58.51,main,Garfiel,0,0,0,,Vou investir uma vez e recuar por enquanto.
+Dialogue: 0,0:00:58.51,0:01:00.00,main,Garfiel,0,0,0,,Assim está bom, né?
+Dialogue: 0,0:01:00.00,0:01:02.50,main,Mimi,0,0,0,,Sim! Isso mesmo! Vamos fazer isso!
+Dialogue: 0,0:01:03.28,0:01:04.33,main,Garfiel,0,0,0,,Lá vou eu!
+Dialogue: 0,0:01:14.28,0:01:17.64,main,Reinhard,0,0,0,,Vice-Capitão, o que significa isso?
+Dialogue: 0,0:01:18.01,0:01:20.32,main,Heinkel,0,0,0,,Não é óbvio?
+Dialogue: 0,0:01:20.32,0:01:22.85,main,Heinkel,0,0,0,,Fique bem aí. Não se mexa.
+Dialogue: 0,0:01:22.85,0:01:25.94,main,Heinkel,0,0,0,,Você sabe bem como o Culto da Bruxa dá trabalho.
+Dialogue: 0,0:01:26.47,0:01:30.67,main,Heinkel,0,0,0,,Vai abandonar sua amada mestra\Ne seu pai de sangue
+Dialogue: 0,0:01:30.67,0:01:34.35,main,Heinkel,0,0,0,,para sair correndo e ajudar gente\Nque você nem conhece?
+Dialogue: 0,0:01:34.35,0:01:37.28,main,Felt,0,0,0,,Ei, fracassado. O que você está fazendo?
+Dialogue: 0,0:01:37.65,0:01:40.01,main,Felt,0,0,0,,Isso é só papo para te assustar.
+Dialogue: 0,0:01:40.01,0:01:41.73,main,Felt,0,0,0,,Não precisa se preocupar.
+Dialogue: 0,0:01:41.73,0:01:43.80,main,Heinkel,0,0,0,,Quer pagar para ver?
+Dialogue: 0,0:01:43.80,0:01:45.96,main,Heinkel,0,0,0,,Não é difícil.
+Dialogue: 0,0:01:46.24,0:01:49.90,main,Heinkel,0,0,0,,Só estou mandando você\Ncumprir seu dever como cavaleiro.
+Dialogue: 0,0:01:49.90,0:01:53.44,main,Heinkel,0,0,0,,Você quer falar sobre a sucessão\Nda família Astrea, não é?
+Dialogue: 0,0:01:53.44,0:01:54.62,main,Felt,0,0,0,,Vai logo, eu disse!
+Dialogue: 0,0:01:55.21,0:01:55.88,main,Felt,0,0,0,,Vai!
+Dialogue: 0,0:01:57.15,0:01:58.59,main,Reinhard,0,0,0,,Felt-sama...
+Dialogue: 0,0:01:59.94,0:02:00.90,main,Reinhard,0,0,0,,Eu...
+Dialogue: 0,0:02:03.33,0:02:04.77,main,Subaru,0,0,0,,Os restos mortais da bruxa?
+Dialogue: 0,0:02:05.57,0:02:07.90,main,Subaru,0,0,0,,Mas a Bruxa da Inveja não está morta.
+Dialogue: 0,0:02:08.48,0:02:08.98,main,Subaru,0,0,0,,Quer dizer...
+Dialogue: 0,0:02:09.77,0:02:12.78,flashback,Satella,0,0,0,,Você precisa vir... para me matar.
+Dialogue: 0,0:02:14.77,0:02:15.36,main,Subaru,0,0,0,,Quer dizer—
+Dialogue: 0,0:02:15.36,0:02:17.57,main,Al,0,0,0,,Relaxa, irmão.
+Dialogue: 0,0:02:17.87,0:02:20.09,main,Al,0,0,0,,Só porque falam "os restos mortais da bruxa"
+Dialogue: 0,0:02:20.09,0:02:23.77,main,Al,0,0,0,,não significa que estejam falando\Nespecificamente da Bruxa da Inveja.
+Dialogue: 0,0:02:23.77,0:02:27.35,main,Anastasia,0,0,0,,É verdade. Não tem muita coisa\Nsobre isso nos registros,
+Dialogue: 0,0:02:27.35,0:02:29.71,main,Anastasia,0,0,0,,mas esse tipo de história boca a boca\Nnão é nada incomum.
+Dialogue: 0,0:02:30.22,0:02:32.21,main,Anastasia,0,0,0,,E nesta cidade...
+Dialogue: 0,0:02:32.72,0:02:36.17,main,Crusch,0,0,0,,Existem restos mortais pertencentes\Na outra que não a Bruxa da Inveja?
+Dialogue: 0,0:02:37.20,0:02:39.49,main,Crusch,0,0,0,,Você sabe onde estão?
+Dialogue: 0,0:02:39.49,0:02:40.53,main,Anastasia,0,0,0,,Não.
+Dialogue: 0,0:02:41.20,0:02:44.89,main,Anastasia,0,0,0,,Os restos mortais da bruxa são um segredo\Ncrucial da Cidade das Comportas.
+Dialogue: 0,0:02:44.89,0:02:48.00,main,Anastasia,0,0,0,,Se alguém souber deles,\Nvai ser o Conselho dos Dez.
+Dialogue: 0,0:02:48.00,0:02:51.02,main,Subaru,0,0,0,,O Conselho dos Dez... Então, o Kiritaka?
+Dialogue: 0,0:02:53.95,0:02:59.36,main,Subaru,0,0,0,,E qual é a dessa Capella Emerada Lugunica\Nque está exigindo isso?
+Dialogue: 0,0:03:00.10,0:03:04.64,main,Subaru,0,0,0,,Só membros da família real não deviam\Nter o sobrenome "Lugunica"?
+Dialogue: 0,0:03:04.64,0:03:06.60,main,Al,0,0,0,,Ela provavelmente usou isso como provocação.
+Dialogue: 0,0:03:06.60,0:03:09.96,main,Al,0,0,0,,Todo mundo conhece a história de como\Ntodos os membros da realeza morreram de doença.
+Dialogue: 0,0:03:10.27,0:03:13.17,main,Wilhelm,0,0,0,,Não tenho certeza quanto às\Norigens do nome de Capella,
+Dialogue: 0,0:03:13.17,0:03:19.26,main,Wilhelm,0,0,0,,mas houve outrora um membro da\Nfamília real chamada Emerada Lugunica.
+Dialogue: 0,0:03:19.68,0:03:23.45,main,Wilhelm,0,0,0,,Ela viveu há mais de cinquenta anos.
+Dialogue: 0,0:03:23.98,0:03:27.26,main,Wilhelm,0,0,0,,Dizem que era uma mulher muito\Nbela e inteligente,
+Dialogue: 0,0:03:27.26,0:03:30.23,main,Wilhelm,0,0,0,,mas também a mais implacável que já existiu.
+Dialogue: 0,0:03:30.23,0:03:32.60,main,Wilhelm,0,0,0,,Todo o povo a temia.
+Dialogue: 0,0:03:32.60,0:03:35.45,main,Felis,0,0,0,,Espera, espera! O espelho está reagindo!
+Dialogue: 0,0:03:36.47,0:03:37.44,main,Felis,0,0,0,,Julius?
+Dialogue: 0,0:03:40.79,0:03:42.88,main,Julius,0,0,0,,Parece que todos estão presentes.
+Dialogue: 0,0:03:42.88,0:03:44.32,main,Julius,0,0,0,,Conseguem me ver?
+Dialogue: 0,0:03:44.72,0:03:47.21,main,Anastasia,0,0,0,,Fiquei preocupada quando não deu notícias!
+Dialogue: 0,0:03:47.21,0:03:49.04,main,Anastasia,0,0,0,,Como estão as coisas aí fora?
+Dialogue: 0,0:03:49.04,0:03:49.84,main,Julius,0,0,0,,Bem...
+Dialogue: 0,0:03:49.84,0:03:51.54,main,Tivey,0,0,0,,S-Senhorita!
+Dialogue: 0,0:03:51.54,0:03:52.88,main,Hetaro,0,0,0,,Temos um problema!
+Dialogue: 0,0:03:52.88,0:03:55.00,main,Hetaro,0,0,0,,Nossa irmã já chegou aí?!
+Dialogue: 0,0:03:55.37,0:03:59.16,main,Anastasia,0,0,0,,Não, ela não chegou. Também estamos preocupados.
+Dialogue: 0,0:03:59.16,0:04:01.08,main,Ricardo,0,0,0,,Senhorita! Senhorita, está aí?!
+Dialogue: 0,0:04:01.08,0:04:01.97,main,Ricardo,0,0,0,,É o Hetaro!
+Dialogue: 0,0:04:02.60,0:04:05.94,main,Hetaro,0,0,0,,Maninha... A maninha, ela está...
+Dialogue: 0,0:04:05.94,0:04:09.01,main,Anastasia,0,0,0,,Hetaro, se acalme. O que aconteceu?
+Dialogue: 0,0:04:09.01,0:04:10.37,main,Anastasia,0,0,0,,Fale devagar.
+Dialogue: 0,0:04:10.37,0:04:14.48,main,Hetaro,0,0,0,,O-Os efeitos da nossa proteção divina\Nfluíram dela para nós...
+Dialogue: 0,0:04:14.48,0:04:16.90,main,Hetaro,0,0,0,,F-Foi um ferimento tão grave...
+Dialogue: 0,0:04:16.90,0:04:20.10,main,Anastasia,0,0,0,,Proteção divina? Quer dizer a Trisseção?
+Dialogue: 0,0:04:20.10,0:04:22.88,main,Anastasia,0,0,0,,Então onde quer que a Mimi esteja,\Nela está ferida—
+Dialogue: 0,0:04:21.41,0:04:24.82,italicstop,Capella,0,0,0,,Olá! Olá! Olá, olá, olá!
+Dialogue: 0,0:04:25.13,0:04:29.58,italics,Capella,0,0,0,,Todos vocês, pedaços de carne, estão bem?
+Dialogue: 0,0:04:29.85,0:04:35.00,italics,Capella,0,0,0,,Estão todos arrepiados com o\Nlindo som da minha voz?
+Dialogue: 0,0:04:35.99,0:04:38.37,italics,Capella,0,0,0,,A verdade é que...
+Dialogue: 0,0:04:38.37,0:04:43.31,italics,Capella,0,0,0,,Umas pessoas más atacaram\Na sede do governo da cidade,
+Dialogue: 0,0:04:39.59,0:04:40.71,italicstop,Wilhelm,0,0,0,,Quem está aí?!
+Dialogue: 0,0:04:43.31,0:04:46.27,main,Capella,0,0,0,,e eu estou completamente arrasada!
+Dialogue: 0,0:04:45.01,0:04:45.88,top,Garfiel,0,0,0,,Desculpa...
+Dialogue: 0,0:04:46.27,0:04:48.78,top,Garfiel,0,0,0,,D-Desculpa, capitão...
+Dialogue: 0,0:04:46.27,0:04:50.41,italics,Capella,0,0,0,,Sério, vocês, pedaços de carne ignorantes,\Nme decepcionaram tanto,
+Dialogue: 0,0:04:50.41,0:04:52.64,top,Garfiel,0,0,0,,Eu... Eu...
+Dialogue: 0,0:04:50.41,0:04:54.60,italics,Capella,0,0,0,,que estou totalmente perplexa!
+Dialogue: 0,0:04:53.08,0:04:54.60,top,Subaru,0,0,0,,Eu sou só um inútil...
+Dialogue: 0,0:04:53.59,0:04:54.60,overlap,Subaru,0,0,0,,Garfiel?
+Dialogue: 0,0:04:54.60,0:04:56.81,main,Garfiel,0,0,0,,...que não presta para nada!
+Dialogue: 0,0:05:05.77,0:05:08.99,main,Felis,0,0,0,,Por quê? A ferida não está fechando!
+Dialogue: 0,0:05:08.99,0:05:10.27,main,Felis,0,0,0,,Preciso de ataduras!
+Dialogue: 0,0:05:18.89,0:05:24.88,italics,Capella,0,0,0,,Espero que vocês, invasores, já tenham percebido\Nque isso não adiantou de nada!
+Dialogue: 0,0:05:29.55,0:05:31.80,italics,Capella,0,0,0,,Como representantes desses invasores,
+Dialogue: 0,0:05:31.80,0:05:34.92,italics,Capella,0,0,0,,vou começar fatiando aqueles que\Nainda estão neste prédio
+Dialogue: 0,0:05:34.92,0:05:38.33,italics,Capella,0,0,0,,em pedaços de carne ainda menores!
+Dialogue: 0,0:05:42.17,0:05:43.39,main,Subaru,0,0,0,,Que diabos...
+Dialogue: 0,0:05:43.99,0:05:48.28,italics,Capella,0,0,0,,Se não gostarem disso,\Neu tenho apenas uma exigência!
+Dialogue: 0,0:05:48.28,0:05:49.96,italics,Capella,0,0,0,,Os restos mortais da bruxa!
+Dialogue: 0,0:05:49.96,0:05:52.18,italics,Capella,0,0,0,,É só isso! Fim de papo!
+Dialogue: 0,0:05:52.18,0:05:57.60,italics,Capella,0,0,0,,Ah, meu pessoal e eu nos posicionamos\Nem cada torre de controle das comportas,
+Dialogue: 0,0:05:57.60,0:06:00.31,italics,Capella,0,0,0,,então é bom não tentarem nenhuma gracinha!
+Dialogue: 0,0:06:04.91,0:06:07.23,main,Subaru,0,0,0,,Ela acha que isso é um jogo?
+Dialogue: 0,0:06:08.72,0:06:10.50,main,Kiritaka,0,0,0,,Vocês estão todos bem?
+Dialogue: 0,0:06:10.50,0:06:11.14,main,Subaru,0,0,0,,Kiritaka!
+Dialogue: 0,0:06:11.51,0:06:12.60,main,Subaru,0,0,0,,Você está vivo?!
+Dialogue: 0,0:06:13.46,0:06:14.35,main,Kiritaka,0,0,0,,Por pouco.
+Dialogue: 0,0:06:14.65,0:06:17.46,main,Subaru,0,0,0,,O Otto não está com você?
+Dialogue: 0,0:06:17.46,0:06:19.76,main,Kiritaka,0,0,0,,Sinto muito, mas não.
+Dialogue: 0,0:06:19.76,0:06:20.56,main,Subaru,0,0,0,,Entendi...
+Dialogue: 0,0:06:21.20,0:06:23.77,main,Subaru,0,0,0,,Conhecendo ele, não é\Ntão inesperado assim, mas...
+Dialogue: 0,0:06:27.68,0:06:30.07,main,Kiritaka,0,0,0,,Pessoal, o que ouviram é verdade.
+Dialogue: 0,0:06:30.80,0:06:34.29,main,Kiritaka,0,0,0,,Não temos um segundo a perder\Npara salvar os reféns.
+Dialogue: 0,0:06:34.29,0:06:36.62,main,Anastasia,0,0,0,,Vou direto ao ponto.
+Dialogue: 0,0:06:36.62,0:06:39.40,main,Anastasia,0,0,0,,Esses restos mortais da bruxa\Nexistem mesmo, não existem?
+Dialogue: 0,0:06:39.40,0:06:40.83,main,Kiritaka,0,0,0,,Sim, existem.
+Dialogue: 0,0:06:41.48,0:06:44.46,main,Kiritaka,0,0,0,,Mas não há como movê-los.
+Dialogue: 0,0:06:45.00,0:06:48.66,main,Kiritaka,0,0,0,,Portanto, não podemos dar\Na ela o que está exigindo.
+Dialogue: 0,0:06:48.66,0:06:52.68,main,Crusch,0,0,0,,Quando diz que não podem ser movidos,\Nisso é apenas sua opinião?
+Dialogue: 0,0:06:53.24,0:06:55.01,main,Kiritaka,0,0,0,,Não, falei literalmente.
+Dialogue: 0,0:06:55.60,0:06:57.98,main,Kiritaka,0,0,0,,É fisicamente impossível movê-los.
+Dialogue: 0,0:06:59.36,0:07:03.06,main,Kiritaka,0,0,0,,Os restos mortais da bruxa guardam\Num poder especial.
+Dialogue: 0,0:07:03.06,0:07:04.46,main,Kiritaka,0,0,0,,Se os movermos,
+Dialogue: 0,0:07:04.46,0:07:07.99,main,Kiritaka,0,0,0,,o estrago rivalizaria com a época em que\Na cidade foi inundada para matar a bruxa—
+Dialogue: 0,0:07:07.99,0:07:11.34,main,Kiritaka,0,0,0,,não, seria ainda pior.
+Dialogue: 0,0:07:13.84,0:07:16.16,main,Kiritaka,0,0,0,,Destruiria a cidade.
+Dialogue: 0,0:07:16.16,0:07:20.47,main,Al,0,0,0,,Tipo o que aconteceu quando\Nafogaram a Typhon, é?
+Dialogue: 0,0:07:20.47,0:07:22.68,main,Ricardo,0,0,0,,Não podemos dar os restos a ela.
+Dialogue: 0,0:07:22.68,0:07:24.46,main,Ricardo,0,0,0,,E não vamos atender às exigências idiotas dela.
+Dialogue: 0,0:07:24.77,0:07:26.36,main,Ricardo,0,0,0,,Isso não vai mudar.
+Dialogue: 0,0:07:26.36,0:07:28.09,main,Tivey/Hetaro,0,0,0,,Maninha!
+Dialogue: 0,0:07:28.87,0:07:31.93,main,Tivey/Hetaro,0,0,0,,Maninha! Maninha!
+Dialogue: 0,0:07:41.39,0:07:43.02,main,Ricardo,0,0,0,,Eu ainda não tinha agradecido a você.
+Dialogue: 0,0:07:43.84,0:07:46.81,main,Ricardo,0,0,0,,Se você não a tivesse trazido de volta,
+Dialogue: 0,0:07:46.81,0:07:48.86,main,Ricardo,0,0,0,,não há dúvida de que a Mimi teria morrido.
+Dialogue: 0,0:07:50.01,0:07:51.82,main,Ricardo,0,0,0,,Então... estamos em dívida com você.
+Dialogue: 0,0:07:52.46,0:07:55.03,main,Ricardo,0,0,0,,Obrigado. Muito obrigado mesmo.
+Dialogue: 0,0:07:55.76,0:07:58.29,main,Garfiel,0,0,0,,Para com isso! Eu só...
+Dialogue: 0,0:07:58.29,0:07:59.75,main,Subaru,0,0,0,,Garfiel.
+Dialogue: 0,0:08:00.39,0:08:01.87,main,Subaru,0,0,0,,Me conta o que aconteceu.
+Dialogue: 0,0:08:01.87,0:08:06.71,main,Subaru,0,0,0,,Tenho que acabar com todos os idiotas\Nque estão atacando esta cidade.
+Dialogue: 0,0:08:07.10,0:08:10.20,main,Subaru,0,0,0,,Para isso, eu preciso da sua força.
+Dialogue: 0,0:08:10.20,0:08:12.47,main,Subaru,0,0,0,,Não posso deixar você se lamentando pra sempre.
+Dialogue: 0,0:08:17.76,0:08:19.81,main,Garfiel,0,0,0,,Nós ouvimos... a transmissão.
+Dialogue: 0,0:08:20.65,0:08:24.52,main,Garfiel,0,0,0,,Então a nanica e eu fomos\Nem direção à sede do governo.
+Dialogue: 0,0:08:34.60,0:08:35.36,flashback,Garfiel,0,0,0,,Você é mi—
+Dialogue: 0,0:08:42.87,0:08:47.43,flashback,Elsa,0,0,0,,Só vou amar você depois de\Nmatá-lo, Garfiel Tinsel.
+Dialogue: 0,0:08:54.70,0:08:55.38,flashback,Garfiel,0,0,0,,O quê?!
+Dialogue: 0,0:09:04.26,0:09:05.89,flashback,Mimi,0,0,0,,Com tudo!
+Dialogue: 0,0:09:20.25,0:09:21.12,flashback,Garfiel,0,0,0,,Nanica?
+Dialogue: 0,0:09:32.45,0:09:34.26,main,Subaru,0,0,0,,Um homem enorme com braços extras...
+Dialogue: 0,0:09:35.20,0:09:36.09,main,Subaru,0,0,0,,e uma mulher?
+Dialogue: 0,0:09:36.78,0:09:38.12,main,Anastasia,0,0,0,,Wilhelm-san?
+Dialogue: 0,0:09:41.68,0:09:44.06,main,Wilhelm,0,0,0,,Esta ferida que não fecha
+Dialogue: 0,0:09:44.50,0:09:47.77,main,Wilhelm,0,0,0,,provavelmente foi obra da proteção\Ndivina do Deus da Morte.
+Dialogue: 0,0:09:48.29,0:09:52.10,main,Garfiel,0,0,0,,A nanica... Ela estava tentando me proteger...
+Dialogue: 0,0:09:52.10,0:09:54.15,main,Ricardo,0,0,0,,Foi escolha da Mimi.
+Dialogue: 0,0:09:54.55,0:09:57.04,main,Garfiel,0,0,0,,Eu sei! Eu sei disso!
+Dialogue: 0,0:09:57.70,0:10:01.52,main,Garfiel,0,0,0,,Ninguém... Ninguém vai me culpar.
+Dialogue: 0,0:10:01.52,0:10:04.82,main,Garfiel,0,0,0,,Mas comigo não é assim!
+Dialogue: 0,0:10:04.82,0:10:05.70,main,Ricardo,0,0,0,,Ah, é?
+Dialogue: 0,0:10:06.08,0:10:10.29,main,Garfiel,0,0,0,,Então eu vou acabar com a raça\Ndaquele desgraçado!
+Dialogue: 0,0:10:10.88,0:10:12.66,main,Ricardo,0,0,0,,Belo rugido!
+Dialogue: 0,0:10:13.14,0:10:14.76,main,Ricardo,0,0,0,,Um homem nunca volta atrás em sua palavra.
+Dialogue: 0,0:10:16.47,0:10:18.93,main,Ricardo,0,0,0,,Então você vai se levantar e lutar, não vai?
+Dialogue: 0,0:10:20.76,0:10:23.12,main,Garfiel,0,0,0,,Vou! Pode apostar!
+Dialogue: 0,0:10:23.12,0:10:25.97,main,Garfiel,0,0,0,,Eu vou pegar eles!
+Dialogue: 0,0:10:27.05,0:10:28.52,main,Julius,0,0,0,,Então, Subaru...
+Dialogue: 0,0:10:29.66,0:10:31.98,main,Julius,0,0,0,,O que você pretende fazer agora?
+Dialogue: 0,0:10:31.98,0:10:35.90,main,Subaru,0,0,0,,Você está sendo vago demais de novo, caramba.
+Dialogue: 0,0:10:36.31,0:10:38.88,main,Julius,0,0,0,,Lembrei-me da batalha contra a Preguiça.
+Dialogue: 0,0:10:38.88,0:10:41.62,main,Julius,0,0,0,,Talvez você seja o\N"remédio milagroso". Lembra disso?
+Dialogue: 0,0:10:42.88,0:10:44.70,main,Subaru,0,0,0,,Não peça o impossível de mim!
+Dialogue: 0,0:10:44.70,0:10:46.70,main,Subaru,0,0,0,,Se eu fosse o remédio milagroso do Culto da Bruxa,
+Dialogue: 0,0:10:46.70,0:10:49.26,main,Subaru,0,0,0,,minha perna não estaria assim!
+Dialogue: 0,0:10:50.40,0:10:53.04,main,Subaru,0,0,0,,Foi a Ganância quem levou a Emilia.
+Dialogue: 0,0:10:53.46,0:10:57.64,main,Subaru,0,0,0,,Não quero deixá-la nas mãos imundas dele\Nnem um segundo a mais que o necessário.
+Dialogue: 0,0:10:57.64,0:11:03.05,main,Julius,0,0,0,,Com isso quer dizer que sua prioridade\Né trazer a Emilia-sama de volta?
+Dialogue: 0,0:11:05.19,0:11:06.53,main,Subaru,0,0,0,,É claro que sim.
+Dialogue: 0,0:11:09.89,0:11:12.74,main,Subaru,0,0,0,,Ou pelo menos gostaria de dizer isso, mas...
+Dialogue: 0,0:11:12.74,0:11:14.73,main,Subaru,0,0,0,,Aquele metia é um problema.
+Dialogue: 0,0:11:15.96,0:11:16.94,main,Julius,0,0,0,,Concordo.
+Dialogue: 0,0:11:17.73,0:11:22.94,main,Julius,0,0,0,,A voz que corrói a mente de todos\Nos que a ouvem, o metia,
+Dialogue: 0,0:11:22.94,0:11:26.33,main,Julius,0,0,0,,está servindo como a corrente que\Nprende todos nesta cidade.
+Dialogue: 0,0:11:27.69,0:11:32.12,main,Subaru,0,0,0,,Nossa primeira prioridade tem que ser a\Nsede do governo, onde está a Luxúria.
+Dialogue: 0,0:11:33.60,0:11:37.84,main,Ricardo,0,0,0,,Vendo você andar normalmente assim,\Naté parece que está tudo bem.
+Dialogue: 0,0:11:37.84,0:11:41.07,main,Subaru,0,0,0,,Quer dizer, a rigor,\Nnão estou nada bem...
+Dialogue: 0,0:11:41.68,0:11:45.08,main,Subaru,0,0,0,,Mas o Ferris precisa tratar os moradores,
+Dialogue: 0,0:11:45.08,0:11:46.68,main,Subaru,0,0,0,,e o Hetaro e o Tivey não podem agir,\Njá que estão
+Dialogue: 0,0:11:46.68,0:11:48.89,main,Subaru,0,0,0,,dividindo o ferimento da Mimi pela proteção divina.
+Dialogue: 0,0:11:49.50,0:11:52.30,main,Subaru,0,0,0,,Precisamos de toda a ajuda possível.
+Dialogue: 0,0:11:52.76,0:11:53.85,main,Subaru,0,0,0,,Por falar nisso...
+Dialogue: 0,0:11:54.66,0:11:57.46,main,Subaru,0,0,0,,Desculpe perguntar depois de nos trazer até aqui,
+Dialogue: 0,0:11:57.46,0:11:59.19,main,Subaru,0,0,0,,mas você consegue lutar, Crusch-san?
+Dialogue: 0,0:11:59.85,0:12:02.32,main,Crusch,0,0,0,,Voltei a treinar sob a tutela de Wilhelm.
+Dialogue: 0,0:12:03.23,0:12:05.93,main,Crusch,0,0,0,,No mínimo, não serei um estorvo.
+Dialogue: 0,0:12:05.93,0:12:08.66,main,Wilhelm,0,0,0,,Os talentos naturais da Crusch-sama\Nnão diminuíram.
+Dialogue: 0,0:12:09.73,0:12:11.37,main,Wilhelm,0,0,0,,Posso garantir isso.
+Dialogue: 0,0:12:13.24,0:12:14.76,main,Subaru,0,0,0,,E quanto a você?
+Dialogue: 0,0:12:15.92,0:12:18.31,main,Subaru,0,0,0,,Na verdade, eu nunca vi você lutar.
+Dialogue: 0,0:12:18.31,0:12:21.38,main,Al,0,0,0,,Ah... Bem, sobre isso, irmão...
+Dialogue: 0,0:12:21.38,0:12:24.48,main,Al,0,0,0,,Vai exigir certa coragem para\Ndizer isso agora, mas...
+Dialogue: 0,0:12:24.48,0:12:25.09,main,Subaru,0,0,0,,O quê?
+Dialogue: 0,0:12:26.03,0:12:29.89,main,Al,0,0,0,,Desculpa, mas tenho que me juntar a outro\Ngrupo para procurar a princesa.
+Dialogue: 0,0:12:29.89,0:12:31.37,main,Al,0,0,0,,É aqui que nossos caminhos se separam.
+Dialogue: 0,0:12:31.37,0:12:34.04,main,Subaru,0,0,0,,Hã?! Que diabos você está dizendo?!
+Dialogue: 0,0:12:34.04,0:12:36.72,main,Al,0,0,0,,Qual é, eu já pedi desculpas.
+Dialogue: 0,0:12:36.72,0:12:39.19,main,Al,0,0,0,,Peço desculpas ao resto de vocês também.
+Dialogue: 0,0:12:39.65,0:12:43.60,main,Julius,0,0,0,,É perfeitamente natural que um servo\Ncoloque seu mestre em primeiro lugar.
+Dialogue: 0,0:12:43.60,0:12:45.77,main,Julius,0,0,0,,Não o criticaria por isso.
+Dialogue: 0,0:12:45.77,0:12:47.24,main,Al,0,0,0,,Agradeço.
+Dialogue: 0,0:12:48.31,0:12:49.82,main,Subaru,0,0,0,,Tá falando sério?
+Dialogue: 0,0:12:49.82,0:12:53.24,main,Subaru,0,0,0,,Então agora eu sou o único que\Ngarantidamente vai atrapalhar, é isso?
+Dialogue: 0,0:12:53.24,0:12:56.71,main,Ricardo,0,0,0,,Por que diz isso? Com você aqui,\Ntemos a força de cem homens!
+Dialogue: 0,0:12:56.71,0:12:57.84,main,Ricardo,0,0,0,,Contamos com você!
+Dialogue: 0,0:12:57.84,0:12:58.38,main,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:12:59.12,0:13:01.49,main,Ricardo,0,0,0,,Tanto contra a Baleia Branca\Nquanto contra a Preguiça,
+Dialogue: 0,0:13:01.49,0:13:04.01,main,Ricardo,0,0,0,,todos vimos o quanto você se esforçou.
+Dialogue: 0,0:13:04.63,0:13:06.98,main,Crusch,0,0,0,,Eu também me sinto mais tranquila.
+Dialogue: 0,0:13:06.98,0:13:09.10,main,Crusch,0,0,0,,Conto com você, Subaru-sama.
+Dialogue: 0,0:13:09.10,0:13:11.36,main,Subaru,0,0,0,,S-Sério?
+Dialogue: 0,0:13:11.36,0:13:14.01,main,Subaru,0,0,0,,Bem, agora até fiquei meio sem jeito...
+Dialogue: 0,0:13:14.01,0:13:16.52,main,Al,0,0,0,,Deixa eu te dar um conselho, então.
+Dialogue: 0,0:13:17.02,0:13:20.36,main,Al,0,0,0,,Se cruzar com a Gula,\Nnão diga seu nome verdadeiro a ele.
+Dialogue: 0,0:13:21.57,0:13:26.18,main,Al,0,0,0,,É bem possível que todos os Arcebispos do\NPecado estejam nesta cidade agora.
+Dialogue: 0,0:13:26.18,0:13:27.03,main,Subaru,0,0,0,,O quê?!
+Dialogue: 0,0:13:30.02,0:13:33.37,main,Al,0,0,0,,Se nós dois tivermos sorte,\Nnos vemos de novo, irmão.
+Dialogue: 0,0:13:43.12,0:13:44.51,main,Ricardo,0,0,0,,Sinto cheiro de sangue.
+Dialogue: 0,0:13:45.36,0:13:47.34,main,Ricardo,0,0,0,,Muito sangue mesmo.
+Dialogue: 0,0:13:48.49,0:13:49.36,main,Julius,0,0,0,,Subaru.
+Dialogue: 0,0:13:50.04,0:13:51.34,main,Julius,0,0,0,,Você está se exaltando demais.
+Dialogue: 0,0:13:52.74,0:13:53.93,main,Subaru,0,0,0,,Desculpa.
+Dialogue: 0,0:13:54.45,0:13:55.93,main,Subaru,0,0,0,,Tem razão. Estou exaltado demais.
+Dialogue: 0,0:13:56.58,0:13:59.98,main,Julius,0,0,0,,Não o culpo. Você tem\Ncontas a acertar com a Gula.
+Dialogue: 0,0:14:00.65,0:14:03.23,main,Julius,0,0,0,,Se eu estivesse no seu lugar,
+Dialogue: 0,0:14:03.23,0:14:05.65,main,Julius,0,0,0,,não sei se conseguiria manter a compostura.
+Dialogue: 0,0:14:05.65,0:14:08.94,main,Subaru,0,0,0,,Cara, qual é a sua? Está me dando calafrios.
+Dialogue: 0,0:14:17.36,0:14:19.44,main,Subaru,0,0,0,,Vamos fazer exatamente como combinamos.
+Dialogue: 0,0:14:19.44,0:14:21.38,main,Subaru,0,0,0,,No geral, vamos derrubar\Num por um em grupo.
+Dialogue: 0,0:14:21.88,0:14:25.28,main,Subaru,0,0,0,,Lidamos com cada um individualmente\Ne retomamos a sede do governo.
+Dialogue: 0,0:14:25.28,0:14:26.05,main,Subaru,0,0,0,,Mas...
+Dialogue: 0,0:14:26.53,0:14:31.72,main,Crusch,0,0,0,,Se sentirmos desvantagem, ordenamos a retirada\Nde imediato. Certo?
+Dialogue: 0,0:14:38.41,0:14:41.27,main,Garfiel,0,0,0,,A praça está coberta de corpos dos guardas.
+Dialogue: 0,0:14:41.27,0:14:43.34,main,Garfiel,0,0,0,,Não deixem que isso assuste vocês!
+Dialogue: 0,0:14:44.03,0:14:44.86,main,Subaru,0,0,0,,Vamos!
+Dialogue: 0,0:14:48.53,0:14:51.78,main,Ricardo,0,0,0,,Ei, parceiro... com licença um minutinho!
+Dialogue: 0,0:14:51.78,0:14:54.08,top,Ricardo,0,0,0,,Vamos lá!
+Dialogue: 0,0:14:51.78,0:14:54.90,main,Subaru,0,0,0,,Opa, opa, opa!
+Dialogue: 0,0:15:06.88,0:15:08.06,main,Subaru,0,0,0,,O que é...
+Dialogue: 0,0:15:10.34,0:15:11.48,main,Garfiel,0,0,0,,São eles!
+Dialogue: 0,0:15:13.74,0:15:14.68,main,Crusch,0,0,0,,Vamos!
+Dialogue: 0,0:15:37.69,0:15:38.83,main,Wilhelm,0,0,0,,Então é verdade...
+Dialogue: 0,0:15:45.54,0:15:48.59,main,Ricardo,0,0,0,,Quatro braços não são nada!
+Dialogue: 0,0:15:50.30,0:15:51.97,main,Ricardo,0,0,0,,Você é meu!
+Dialogue: 0,0:15:55.06,0:15:56.30,main,Ricardo,0,0,0,,Peguei você.
+Dialogue: 0,0:16:02.24,0:16:03.10,main,Garfiel,0,0,0,,Agora!
+Dialogue: 0,0:16:07.83,0:16:09.57,main,Ricardo,0,0,0,,Que diabos?!
+Dialogue: 0,0:16:09.57,0:16:11.18,main,Subaru,0,0,0,,Acho que não!
+Dialogue: 0,0:16:13.13,0:16:14.24,main,Julius,0,0,0,,Magia Composta:
+Dialogue: 0,0:16:14.86,0:16:16.16,main,Julius,0,0,0,,Ul Gora!
+Dialogue: 0,0:16:22.46,0:16:25.46,main,Subaru,0,0,0,,Acertamos eles com tudo que tínhamos\Ne não deu em nada?
+Dialogue: 0,0:16:26.05,0:16:28.17,main,Subaru,0,0,0,,Estou bem chocado agora.
+Dialogue: 0,0:16:28.56,0:16:30.70,main,Subaru,0,0,0,,Certo, pessoal, mais uma vez!
+Dialogue: 0,0:16:30.70,0:16:33.94,main,Subaru,0,0,0,,Os ataques à distância do Julius e da Crusch-san\Nserão nosso foco—
+Dialogue: 0,0:16:35.30,0:16:38.64,italics,Capella,0,0,0,,Ora, olhem só! Vocês apareceram mesmo!
+Dialogue: 0,0:16:41.02,0:16:44.91,italics,Capella,0,0,0,,Pois bem, então deixem eu me apresentar de novo!
+Dialogue: 0,0:16:44.91,0:16:49.25,italics,Capella,0,0,0,,Eu sou a Arcebispa do Pecado do\NCulto da Bruxa que representa a Luxúria,
+Dialogue: 0,0:16:49.25,0:16:53.13,italics,Capella,0,0,0,,Capella Emerada Lugunica-chan-sama!
+Dialogue: 0,0:16:54.12,0:16:57.45,italics,Capella,0,0,0,,Morram! Seus pedaços de carne podres!
+Dialogue: 0,0:16:57.45,0:16:59.25,main,Subaru,0,0,0,,Sério isso?
+Dialogue: 0,0:16:59.25,0:17:02.08,main,Subaru,0,0,0,,Esse dragão é expressivo até demais, que medo.
+Dialogue: 0,0:17:02.08,0:17:03.70,main,Capella,0,0,0,,O que é isso?
+Dialogue: 0,0:17:03.70,0:17:08.31,main,Capella,0,0,0,,Você aí. Então não é um cão acuado,\Nmas um gatinho acuado?
+Dialogue: 0,0:17:08.31,0:17:09.96,main,Capella,0,0,0,,Miau, miau, miau, miau!
+Dialogue: 0,0:17:09.96,0:17:14.00,main,Capella,0,0,0,,Está chorando porque sua\Ncompanheirinha gata morreu?
+Dialogue: 0,0:17:16.36,0:17:17.48,main,Garfiel,0,0,0,,Capitão...
+Dialogue: 0,0:17:18.09,0:17:19.91,main,Subaru,0,0,0,,Ah, cala a boca.
+Dialogue: 0,0:17:19.91,0:17:24.02,main,Subaru,0,0,0,,Toda vez que você fala, estraga a imagem\Nque eu tinha de dragões na minha cabeça.
+Dialogue: 0,0:17:24.56,0:17:25.57,italics,Capella,0,0,0,,Hã?
+Dialogue: 0,0:17:26.05,0:17:27.60,italics,Capella,0,0,0,,E quem exatamente é você?
+Dialogue: 0,0:17:27.60,0:17:32.07,italics,Capella,0,0,0,,Você tem um cheiro particularmente deslocado\Nentre todos os pedaços de carne aqui.
+Dialogue: 0,0:17:32.07,0:17:35.29,main,Subaru,0,0,0,,Primeiro de tudo, o jeito que você\Nfaz as coisas é desleixado demais!
+Dialogue: 0,0:17:35.29,0:17:38.48,main,Subaru,0,0,0,,Os chefões deveriam aparecer um de cada vez\Ncomo os figurões que acham que são!
+Dialogue: 0,0:17:38.48,0:17:41.34,main,Subaru,0,0,0,,Claramente você não tem noção alguma\Nde estética!
+Dialogue: 0,0:17:41.34,0:17:45.00,main,Subaru,0,0,0,,Quem você pensa que é?! Alguma aspirante a deus?!
+Dialogue: 0,0:17:45.84,0:17:48.11,main,Subaru,0,0,0,,Pronto. Já ganhei tempo o bastante.
+Dialogue: 0,0:17:48.11,0:17:49.46,main,Subaru,0,0,0,,Acaba com ela, Julius!
+Dialogue: 0,0:17:50.62,0:17:52.42,main,Julius,0,0,0,,Do fundo do meu coração,
+Dialogue: 0,0:17:53.19,0:17:56.01,main,Julius,0,0,0,,sua imprudência às vezes realmente me espanta.
+Dialogue: 0,0:17:56.49,0:17:59.09,main,Julius,0,0,0,,Arda em um clarão de luz arco-íris!
+Dialogue: 0,0:17:59.48,0:18:02.35,main,Julius,0,0,0,,Al Clauseria!
+Dialogue: 0,0:18:02.35,0:18:04.56,italics,Capella,0,0,0,,Ousa usar truques tão medíocres contra mim?!
+Dialogue: 0,0:18:10.11,0:18:12.01,italics,Capella,0,0,0,,Ai, meu Deus.
+Dialogue: 0,0:18:12.01,0:18:17.92,italics,Capella,0,0,0,,Não se deve olhar para alguém desse\Nângulo e ficar tão excitado assim.
+Dialogue: 0,0:18:22.35,0:18:24.74,main,Crusch,0,0,0,,Os ferimentos dela... estão se curando?
+Dialogue: 0,0:18:24.74,0:18:26.53,main,Subaru,0,0,0,,Só pode ser brincadeira!
+Dialogue: 0,0:18:26.53,0:18:28.26,italics,Capella,0,0,0,,Ops, ops...
+Dialogue: 0,0:18:33.98,0:18:37.17,italics,Capella,0,0,0,,Ah, veja só! A hora chegou.
+Dialogue: 0,0:18:37.17,0:18:40.01,italics,Capella,0,0,0,,Vou voltar para dentro agora.
+Dialogue: 0,0:18:40.35,0:18:42.10,main,Subaru,0,0,0,,Hã?! Espera aí!
+Dialogue: 0,0:18:42.47,0:18:48.33,italics,Capella,0,0,0,,Aguardem ansiosos para ver como\Nos insetinhos nesta gaiola sofrem!
+Dialogue: 0,0:18:52.55,0:18:54.47,main,Julius,0,0,0,,Ela pretende executar os reféns?
+Dialogue: 0,0:18:54.47,0:18:58.70,main,Subaru,0,0,0,,Droga! Então não temos escolha\Na não ser entrar agora?
+Dialogue: 0,0:18:58.70,0:19:01.05,main,Ricardo,0,0,0,,Não temos tempo a perder!
+Dialogue: 0,0:19:01.05,0:19:03.53,main,Ricardo,0,0,0,,Nós cuidamos desses dois!
+Dialogue: 0,0:19:05.56,0:19:07.78,main,Subaru,0,0,0,,Garfiel! Nem ouse perder!
+Dialogue: 0,0:19:07.78,0:19:10.08,main,Garfiel,0,0,0,,Pode deixar! Manda ver, capitão!
+Dialogue: 0,0:19:10.40,0:19:12.58,main,Crusch,0,0,0,,Wilhelm, deixo isso com você.
+Dialogue: 0,0:19:13.06,0:19:14.42,main,Wilhelm,0,0,0,,Entendido.
+Dialogue: 0,0:19:16.27,0:19:16.88,main,Julius,0,0,0,,Subaru!
+Dialogue: 0,0:19:17.36,0:19:18.80,main,Julius,0,0,0,,Cuide da Crusch-sama!
+Dialogue: 0,0:19:18.80,0:19:20.05,main,Subaru,0,0,0,,Opa, espe—
+Dialogue: 0,0:19:21.84,0:19:23.29,main,Subaru,0,0,0,,Seu maldito...
+Dialogue: 0,0:19:23.29,0:19:25.56,main,Subaru,0,0,0,,Desculpe por isso, Crusch-san!
+Dialogue: 0,0:19:30.19,0:19:31.74,main,Subaru,0,0,0,,Segure firme!
+Dialogue: 0,0:19:31.74,0:19:32.52,main,Crusch,0,0,0,,Certo!
+Dialogue: 0,0:19:42.61,0:19:45.94,main,Subaru,0,0,0,,C-Crusch-san, tudo bem?
+Dialogue: 0,0:19:45.94,0:19:50.42,main,Crusch,0,0,0,,E-Estou bem... mas,\NSubaru-sama, sua perna...
+Dialogue: 0,0:19:50.42,0:19:53.54,main,Subaru,0,0,0,,E-Eu estou ótimo. Não dói nada.
+Dialogue: 0,0:20:01.72,0:20:06.13,main,Roy,0,0,0,,Ei, calma aí, rapazes e minha senhorita.
+Dialogue: 0,0:20:06.13,0:20:08.77,main,Roy,0,0,0,,Estamos tão felizes. Tão felizes.
+Dialogue: 0,0:20:09.12,0:20:12.23,main,Roy,0,0,0,,Felizes de verdade. Claro que estamos felizes.
+Dialogue: 0,0:20:12.23,0:20:14.42,main,Roy,0,0,0,,Estamos felizes demais...
+Dialogue: 0,0:20:14.42,0:20:16.60,main,Roy,0,0,0,,Tão felizes por sermos felizes,
+Dialogue: 0,0:20:16.60,0:20:18.96,main,Roy,0,0,0,,por sentirmos felicidade...
+Dialogue: 0,0:20:18.96,0:20:23.54,main,Roy,0,0,0,,E isso é motivo de sobra para\Ncomer e beber em excesso!
+Dialogue: 0,0:20:23.54,0:20:25.92,main,Roy,0,0,0,,Quanto mais se espera por algo,
+Dialogue: 0,0:20:25.92,0:20:28.62,main,Roy,0,0,0,,quanto mais tempo se passa fome...
+Dialogue: 0,0:20:30.10,0:20:34.17,main,Roy,0,0,0,,mais deliciosa fica a primeira mordida!
+Dialogue: 0,0:20:35.00,0:20:36.49,main,Roy,0,0,0,,O que temos aqui?
+Dialogue: 0,0:20:36.49,0:20:42.53,main,Roy,0,0,0,,Rapaz, por acaso você é alguém\Nque tem algo contra nós?
+Dialogue: 0,0:20:42.53,0:20:45.63,main,Roy,0,0,0,,Quer dizer, sabe, nós não somos muito espertos,
+Dialogue: 0,0:20:45.63,0:20:48.93,main,Roy,0,0,0,,e também não temos uma memória muito boa.
+Dialogue: 0,0:20:50.64,0:20:52.73,main,Subaru,0,0,0,,Olha aqui, seu merdinha.
+Dialogue: 0,0:20:52.73,0:20:57.08,main,Subaru,0,0,0,,Se você só acabou vindo parar aqui porque\Nnão tem senso de direção,
+Dialogue: 0,0:20:57.08,0:20:59.17,main,Subaru,0,0,0,,então desembucha logo.
+Dialogue: 0,0:20:59.17,0:21:01.57,main,Subaru,0,0,0,,Ainda posso te perdoar. Mas se—
+Dialogue: 0,0:21:01.57,0:21:07.62,main,Roy,0,0,0,,Nós somos o Arcebispo do Pecado do\NCulto da Bruxa que representa a Gula,
+Dialogue: 0,0:21:07.62,0:21:09.95,main,Roy,0,0,0,,Roy Alphard.
+Dialogue: 0,0:21:14.01,0:21:17.25,main,Subaru,0,0,0,,Gula!
+Dialogue: 0,0:21:15.92,0:21:18.92,Episode Title,Title,0,0,0,,Operação: {\c&H6B6F6C&}Retomar {\c&HFFFFFF&}a Sede do Governo
+Dialogue: 0,0:22:55.79,0:22:58.56,main,Emilia,0,0,0,,Onde... eu estou?
+Dialogue: 0,0:23:00.04,0:23:06.40,main,Emilia,0,0,0,,Verdade... Eu lutei com aquela mulher\Nenfaixada na praça da cidade...
+Dialogue: 0,0:23:06.99,0:23:08.61,main,Emilia,0,0,0,,Espera, hã?
+Dialogue: 0,0:23:08.61,0:23:09.99,main,Emilia,0,0,0,,Eu estou pelada?!
+Dialogue: 0,0:23:12.47,0:23:14.70,main,Regulus,0,0,0,,Ah, parece que você acordou.
+Dialogue: 0,0:23:14.70,0:23:17.50,main,Regulus,0,0,0,,Ainda bem que está sã e salva.
+Dialogue: 0,0:23:17.93,0:23:19.96,main,Regulus,0,0,0,,Estou aliviado do fundo do coração.
+Dialogue: 0,0:23:20.74,0:23:22.92,main,Emilia,0,0,0,,Hum... E você é...
+Dialogue: 0,0:23:22.92,0:23:27.20,main,Regulus,0,0,0,,Antes de me apresentar, gostaria que\Nrespondesse a uma pergunta importante.
+Dialogue: 0,0:23:27.20,0:23:30.32,main,Regulus,0,0,0,,Afinal, é vital para o nosso futuro.
+Dialogue: 0,0:23:30.32,0:23:31.38,main,Emilia,0,0,0,,"Nosso" futuro?
+Dialogue: 0,0:23:31.83,0:23:35.08,main,Regulus,0,0,0,,Emilia, você é virgem?
+Dialogue: 0,0:23:35.08,0:23:38.67,main,Regulus,0,0,0,,Essa é a única coisa que realmente importa.

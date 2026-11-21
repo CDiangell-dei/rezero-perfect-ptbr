@@ -1,0 +1,308 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScaledBorderAndShadow: yes
+Original Script: rzpc  [http://www.crunchyroll.com/user/rzpc]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: main,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: top,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: italicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: flashback,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashback italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashbacktop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,8,60,60,54,1
+Style: flashbackitalicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: overlaptop,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap italics,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: sign_Arial,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ArialBlack,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_CourierNew,Courier New,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ComicSansMS,Comic Sans MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Georgia,Georgia,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Impact,Impact,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TimesNewRoman,Times New Roman,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TrebuchetMS,Trebuchet MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Verdana,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: Episode Title,Times New Roman,90,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.72,0:00:05.78,italics,Corpse Theresia,0,0,0,,O quão surpreso você teria ficado\Nse descobrisse
+Dialogue: 0,0:00:06.59,0:00:10.37,italics,Corpse Theresia,0,0,0,,que eu me apaixonei por você à primeira vista?
+Dialogue: 0,0:00:16.79,0:00:18.00,flashback,Wilhelm,0,0,0,,Nunca vi você por aqui.
+Dialogue: 0,0:00:18.86,0:00:21.96,flashback,Wilhelm,0,0,0,,O que uma mulher está fazendo aqui\Nlogo de manhã cedo?
+Dialogue: 0,0:00:28.42,0:00:30.14,flashback,Theresia,0,0,0,,Ah, isso não importa.
+Dialogue: 0,0:00:30.63,0:00:31.85,flashback,Theresia,0,0,0,,Venha até aqui.
+Dialogue: 0,0:00:45.32,0:00:46.08,flashback,Theresia,0,0,0,,Diga...
+Dialogue: 0,0:00:50.29,0:00:52.26,flashbacktop,Theresia,0,0,0,,Você gosta de flores?
+Dialogue: 0,0:01:07.08,0:01:09.65,main,Wilhelm,0,0,0,,Pode-se hesitar antes de empunhar uma espada,
+Dialogue: 0,0:01:09.65,0:01:12.00,main,Wilhelm,0,0,0,,mas nunca depois que ela está em suas mãos.
+Dialogue: 0,0:01:12.38,0:01:16.01,main,Wilhelm,0,0,0,,Eu sei que você entendia isso\Nmuito melhor do que eu.
+Dialogue: 0,0:01:26.69,0:01:28.85,main,Wilhelm,0,0,0,,Você se lembra de como nos despedimos?
+Dialogue: 0,0:01:30.06,0:01:31.92,main,Wilhelm,0,0,0,,Quando você partiu para a Grande Conquista,
+Dialogue: 0,0:01:31.92,0:01:34.58,main,Wilhelm,0,0,0,,tentei impedi-la, e você se desvencilhou de mim,
+Dialogue: 0,0:01:34.58,0:01:37.51,main,Wilhelm,0,0,0,,deixando uma cicatriz em meu ombro\Nque nunca se curou.
+Dialogue: 0,0:01:37.51,0:01:42.23,main,Wilhelm,0,0,0,,Não esqueci uma única palavra\Ndo que você me disse naquele dia.
+Dialogue: 0,0:01:44.51,0:01:45.87,main,Theresia,0,0,0,,Quando eu voltar...
+Dialogue: 0,0:01:47.88,0:01:51.62,main,Wilhelm,0,0,0,,Eu vim para cumprir aquela promessa!
+Dialogue: 0,0:02:22.66,0:02:23.74,main,Wilhelm,0,0,0,,Theresia!
+Dialogue: 0,0:02:24.21,0:02:24.87,main,Heinkel,0,0,0,,Pai!
+Dialogue: 0,0:02:34.77,0:02:37.09,main,Wilhelm,0,0,0,,A-Ainda não acabou...
+Dialogue: 0,0:02:39.05,0:02:41.81,main,Wilhelm,0,0,0,,Theresia! Eu...
+Dialogue: 0,0:02:43.72,0:02:44.97,main,Heinkel,0,0,0,,Theresia?
+Dialogue: 0,0:02:48.40,0:02:50.93,main,Wilhelm,0,0,0,,E-Espere! Por favor, espere!
+Dialogue: 0,0:02:50.93,0:02:52.64,main,Wilhelm,0,0,0,,Pare, Theresia!
+Dialogue: 0,0:02:52.64,0:02:53.69,main,Wilhelm,0,0,0,,Você acha...
+Dialogue: 0,0:02:53.69,0:02:57.63,main,Wilhelm,0,0,0,,Você acha que eu vou permitir\Nque faça uma coisa dessas?!
+Dialogue: 0,0:02:57.63,0:02:59.36,main,Heinkel,0,0,0,,Não pode ser verdade...
+Dialogue: 0,0:02:59.92,0:03:02.01,main,Heinkel,0,0,0,,V-Você não pode ser minha mãe!
+Dialogue: 0,0:03:02.01,0:03:05.35,main,Heinkel,0,0,0,,Mesmo que seja, é impossível o meu pai perder!
+Dialogue: 0,0:03:05.35,0:03:07.66,main,Wilhelm,0,0,0,,Heinkel! Você não dá conta disso!
+Dialogue: 0,0:03:07.66,0:03:09.29,main,Wilhelm,0,0,0,,Fuja imediatamente!
+Dialogue: 0,0:03:16.96,0:03:19.07,main,Heinkel,0,0,0,,N-Não...
+Dialogue: 0,0:03:19.07,0:03:22.05,main,Heinkel,0,0,0,,Por favor, não faça isso, M-Mãe!
+Dialogue: 0,0:03:25.44,0:03:26.81,main,Wilhelm,0,0,0,,Theresia!
+Dialogue: 0,0:03:26.81,0:03:28.35,main,Wilhelm,0,0,0,,Lute {\i1}comigo{\i0}!
+Dialogue: 0,0:03:28.85,0:03:31.76,main,Wilhelm,0,0,0,,Olhe... Olhe para mim!
+Dialogue: 0,0:03:31.76,0:03:34.23,main,Wilhelm,0,0,0,,Para mim! Olhe para {\i1}mim{\i0}!
+Dialogue: 0,0:03:34.61,0:03:36.65,main,Wilhelm,0,0,0,,Theresia!
+Dialogue: 0,0:03:36.65,0:03:37.60,main,Reinhard,0,0,0,,Já basta.
+Dialogue: 0,0:03:48.89,0:03:51.16,main,Wilhelm,0,0,0,,Reinhard...
+Dialogue: 0,0:03:53.62,0:03:56.24,main,Heinkel,0,0,0,,O-O que diabos está acontecendo?!
+Dialogue: 0,0:03:56.24,0:03:58.17,main,Heinkel,0,0,0,,Por quê... O que foi que eu...
+Dialogue: 0,0:03:58.77,0:04:00.96,main,Heinkel,0,0,0,,O que eu fiz de errado?!
+Dialogue: 0,0:04:08.22,0:04:09.68,main,Wilhelm,0,0,0,,Reinhar—
+Dialogue: 0,0:04:08.84,0:04:10.64,top,Reinhard,0,0,0,,Os mortos não se movem.
+Dialogue: 0,0:04:10.64,0:04:12.64,main,Reinhard,0,0,0,,Os mortos não têm futuro.
+Dialogue: 0,0:04:12.93,0:04:15.48,main,Reinhard,0,0,0,,Não permitirei tal absurdo.
+Dialogue: 0,0:04:31.27,0:04:33.24,main,Wilhelm,0,0,0,,P-Pare com isso!
+Dialogue: 0,0:04:34.37,0:04:35.90,main,Wilhelm,0,0,0,,Por favor, pare!
+Dialogue: 0,0:04:38.36,0:04:40.34,main,Wilhelm,0,0,0,,Por favor, não a mate!
+Dialogue: 0,0:04:40.34,0:04:43.25,main,Wilhelm,0,0,0,,Aquela é... Aquela é a minha...
+Dialogue: 0,0:04:43.25,0:04:46.70,main,Wilhelm,0,0,0,,a minha Theresia!
+Dialogue: 0,0:04:48.49,0:04:52.55,main,Reinhard,0,0,0,,Minha avó morreu há quinze anos\Npela minha própria mão.
+Dialogue: 0,0:04:59.61,0:05:02.23,main,Reinhard,0,0,0,,O que vê aqui é uma mera farsa.
+Dialogue: 0,0:05:13.85,0:05:17.00,flashback italics,Theresia,0,0,0,,A Proteção Divina do Santo da Espada
+Dialogue: 0,0:05:17.86,0:05:20.30,flashback italics,Theresia,0,0,0,,veio até mim quando eu tinha doze anos.
+Dialogue: 0,0:05:20.30,0:06:46.64,flashback italics,,0,0,0,,
+Dialogue: 0,0:05:46.64,0:05:48.15,flashback italics,Theresia,0,0,0,,Eu a recebi?
+Dialogue: 0,0:06:04.92,0:06:06.65,flashback,Freibel,0,0,0,,Não há dúvidas quanto a isso.
+Dialogue: 0,0:06:07.01,0:06:09.34,flashback,Freibel,0,0,0,,Você é a próxima Santa da Espada.
+Dialogue: 0,0:06:16.89,0:06:18.54,flashback,Freibel,0,0,0,,Empunhe a sua espada,
+Dialogue: 0,0:06:20.72,0:06:21.85,flashback,Freibel,0,0,0,,Theresia.
+Dialogue: 0,0:06:25.39,0:06:30.09,flashback,Theresia,0,0,0,,Meu irmão mais velho se esforçava\Nmuito mais do que eu.
+Dialogue: 0,0:06:30.72,0:06:35.34,flashback,Theresia,0,0,0,,Não passava um único dia\Nem que ele não treinasse com a espada.
+Dialogue: 0,0:06:36.21,0:06:41.88,flashback,Theresia,0,0,0,,Eu amava o meu irmão por sua\Ndedicação e esforço.
+Dialogue: 0,0:06:43.77,0:06:47.98,flashback,Freibel,0,0,0,,Empunhe a sua espada, Theresia.
+Dialogue: 0,0:06:49.11,0:06:53.34,flashback,Theresia,0,0,0,,Eu destruí o sonho do meu irmão.
+Dialogue: 0,0:06:56.41,0:06:58.83,flashback,Theresia,0,0,0,,Minha primeira campanha veio dois anos depois.
+Dialogue: 0,0:06:59.42,0:07:03.28,flashback,Theresia,0,0,0,,Foi a maior e mais horrenda\Nguerra civil do reino,
+Dialogue: 0,0:07:03.28,0:07:05.41,flashback,Theresia,0,0,0,,a Guerra Semi-Humana.
+Dialogue: 0,0:07:28.98,0:07:31.32,flashback,Thames,0,0,0,,Theresia, você está com medo?
+Dialogue: 0,0:07:35.82,0:07:36.78,flashback,Thames,0,0,0,,Eu entendo.
+Dialogue: 0,0:07:37.33,0:07:42.48,flashback,Thames,0,0,0,,Afinal, você sempre foi uma garota gentil\Nque não faria mal nem a uma mosca.
+Dialogue: 0,0:07:44.42,0:07:47.68,flashback,Thames,0,0,0,,Quando me derrotou há dois anos,\Nfiquei muito frustrado.
+Dialogue: 0,0:07:48.13,0:07:51.62,flashback,Thames,0,0,0,,Mas, no fim, eu ainda amava a espada.
+Dialogue: 0,0:07:52.09,0:07:55.21,flashback,Thames,0,0,0,,Nasci na família Astrea,\Ntive meus irmãos mais novos,
+Dialogue: 0,0:07:55.76,0:07:57.84,flashback,Thames,0,0,0,,e tive você como minha irmãzinha.
+Dialogue: 0,0:07:57.84,0:07:59.15,flashback,Thames,0,0,0,,Sou grato por isso.
+Dialogue: 0,0:08:01.21,0:08:03.56,flashback,Thames,0,0,0,,Sou grato à espada.
+Dialogue: 0,0:08:04.35,0:08:06.14,flashback,Theresia,0,0,0,,Irmão...
+Dialogue: 0,0:08:06.69,0:08:10.79,flashback,Thames,0,0,0,,Se estiver com medo e não quiser fazer isso,
+Dialogue: 0,0:08:10.79,0:08:12.65,flashback,Thames,0,0,0,,eu vou proteger você.
+Dialogue: 0,0:08:14.42,0:08:17.34,flashback,Thames,0,0,0,,Sou o seu irmão mais velho, afinal.
+Dialogue: 0,0:08:21.37,0:08:25.58,flashback,Thames,0,0,0,,Não há necessidade de você lutar.
+Dialogue: 0,0:08:25.58,0:08:29.07,flashback,Theresia,0,0,0,,Me desculpe. Me desculpe.
+Dialogue: 0,0:08:31.13,0:08:33.20,italics,Theresia,0,0,0,,Naquela primeira campanha,
+Dialogue: 0,0:08:33.20,0:08:36.06,italics,Theresia,0,0,0,,não empunhei minha espada nenhuma única vez.
+Dialogue: 0,0:08:36.73,0:08:38.88,italics,Theresia,0,0,0,,Eu não consegui.
+Dialogue: 0,0:08:39.39,0:08:43.35,italics,Theresia,0,0,0,,Não consegui sequer pisar\Nno campo de batalha.
+Dialogue: 0,0:08:46.18,0:08:50.77,italics,Theresia,0,0,0,,Meu irmão mais velho liderou\Na vanguarda em meu lugar...
+Dialogue: 0,0:08:52.35,0:08:53.41,italics,Theresia,0,0,0,,e morreu.
+Dialogue: 0,0:08:54.76,0:08:59.74,italics,Theresia,0,0,0,,Mas, mesmo assim, não me foi permitido\Nabdicar do posto de Santa da Espada.
+Dialogue: 0,0:09:00.49,0:09:04.89,italics,Theresia,0,0,0,,A Santa da Espada é um pilar de\Napoio moral para todo o reino.
+Dialogue: 0,0:09:05.50,0:09:09.75,italics,Theresia,0,0,0,,O fato de eu ter fugido diante\Ndo inimigo foi ocultado,
+Dialogue: 0,0:09:09.75,0:09:11.74,italics,Theresia,0,0,0,,e a guerra continuou a se alastrar.
+Dialogue: 0,0:09:13.24,0:09:14.18,italics,Theresia,0,0,0,,Carlan...
+Dialogue: 0,0:09:14.65,0:09:15.90,italics,Theresia,0,0,0,,Cajiress...
+Dialogue: 0,0:09:15.90,0:09:18.00,italics,Theresia,0,0,0,,Todos os meus irmãos...
+Dialogue: 0,0:09:18.00,0:09:20.86,italics,Theresia,0,0,0,,Até o meu tio, o Santo da Espada\Nanterior a mim...
+Dialogue: 0,0:09:21.47,0:09:24.39,italics,Theresia,0,0,0,,Todos morreram no campo de batalha.
+Dialogue: 0,0:09:26.43,0:09:29.12,flashback,Freibel,0,0,0,,Empunhe a sua espada, Theresia.
+Dialogue: 0,0:09:30.02,0:09:32.41,flashback,Freibel,0,0,0,,Você é a próxima Santa da Espada.
+Dialogue: 0,0:09:32.41,0:09:33.02,flashback,Theresia,0,0,0,,Não...
+Dialogue: 0,0:09:41.70,0:09:44.03,flashback,Freibel,0,0,0,,Naquela época, você deve ter pensado:
+Dialogue: 0,0:09:44.52,0:09:47.24,flashback,Freibel,0,0,0,,"Ele está cheio de brechas."
+Dialogue: 0,0:09:51.35,0:09:55.83,flashback,Freibel,0,0,0,,Empunhe a sua espada, Theresia.
+Dialogue: 0,0:10:05.43,0:10:08.16,flashback,Freibel,0,0,0,,Empunhe a sua espada, Theresia.
+Dialogue: 0,0:10:05.90,0:10:08.16,flashbacktop,Theresia,0,0,0,,"Empunhe a sua espada, Theresia."
+Dialogue: 0,0:10:09.50,0:10:11.05,flashback,Theresia,0,0,0,,Eu sou da espada...
+Dialogue: 0,0:10:11.88,0:10:14.78,flashback,Theresia,0,0,0,,Eu preciso empunhar minha espada.
+Dialogue: 0,0:10:21.65,0:10:25.11,flashback,Wilhelm,0,0,0,,O que uma mulher está fazendo aqui\Nlogo de manhã cedo?
+Dialogue: 0,0:10:32.04,0:10:33.66,flashback,Wilhelm,0,0,0,,Eu venci.
+Dialogue: 0,0:10:34.00,0:10:37.81,flashback,Wilhelm,0,0,0,,Você é mais fraca do que eu. Não há mais\Nmotivo para empunhar uma espada.
+Dialogue: 0,0:10:38.30,0:10:41.66,flashback,Theresia,0,0,0,,Se eu não empunhá-la, quem irá?
+Dialogue: 0,0:10:42.40,0:10:46.93,flashback,Wilhelm,0,0,0,,Eu herdarei o seu motivo\Npara empunhar uma espada.
+Dialogue: 0,0:10:47.81,0:10:48.94,flashback,Wilhelm,0,0,0,,E você...
+Dialogue: 0,0:10:50.43,0:10:52.81,flashback,Wilhelm,0,0,0,,só precisa se tornar o {\i1}meu{\i0} motivo\Npara empunhar uma espada.
+Dialogue: 0,0:10:57.45,0:10:58.24,flashback,Theresia,0,0,0,,Diga...
+Dialogue: 0,0:10:58.91,0:11:00.33,flashback,Theresia,0,0,0,,Você gosta de flores?
+Dialogue: 0,0:11:01.14,0:11:02.73,flashback,Wilhelm,0,0,0,,Não as odeio mais.
+Dialogue: 0,0:11:03.25,0:11:05.65,flashback,Theresia,0,0,0,,Por que você empunha uma espada?
+Dialogue: 0,0:11:10.73,0:11:14.40,flashback,Wilhelm,0,0,0,,Para proteger você.
+Dialogue: 0,0:11:17.60,0:11:19.79,flashback,Theresia,0,0,0,,Você me ama?
+Dialogue: 0,0:11:21.41,0:11:22.25,flashback,Wilhelm,0,0,0,,Você deveria saber.
+Dialogue: 0,0:11:23.94,0:11:26.30,flashback,Theresia,0,0,0,,Há certas coisas que eu gostaria\Nde ouvir em voz alta.
+Dialogue: 0,0:11:28.61,0:11:29.39,flashback,Wilhelm,0,0,0,,Algum dia...
+Dialogue: 0,0:11:30.99,0:11:33.01,flashback,Wilhelm,0,0,0,,Quando eu estiver com vontade.
+Dialogue: 0,0:11:34.54,0:11:39.74,italics,Theresia,0,0,0,,No fim, ele nunca me deu\Numa resposta para aquela pergunta.
+Dialogue: 0,0:11:44.48,0:11:48.36,italics,Theresia,0,0,0,,Mas, a partir dali, fomos tão felizes.
+Dialogue: 0,0:11:48.36,0:11:49.68,italics,Theresia,0,0,0,,Tão felizes...
+Dialogue: 0,0:11:50.78,0:11:53.20,italics,Theresia,0,0,0,,Passamos por muitas coisas,
+Dialogue: 0,0:11:53.20,0:11:57.29,italics,Theresia,0,0,0,,mas não havia dúvida de que éramos felizes.
+Dialogue: 0,0:11:57.79,0:11:59.34,flashback,Wilhelm,0,0,0,,Eu sou contra isso!
+Dialogue: 0,0:11:59.93,0:12:01.42,flashback,Wilhelm,0,0,0,,O que você está pensando?!
+Dialogue: 0,0:12:02.23,0:12:03.88,flashback,Theresia,0,0,0,,Já me decidi.
+Dialogue: 0,0:12:03.88,0:12:05.85,flashback,Wilhelm,0,0,0,,Foi o Heinkel?!
+Dialogue: 0,0:12:05.85,0:12:08.69,flashback,Wilhelm,0,0,0,,Aquele idiota, colocando ideias\Nsem sentido na sua cabeça!
+Dialogue: 0,0:12:08.69,0:12:12.18,flashback,Theresia,0,0,0,,Nem você nem eu temos o direito de dizer isso.
+Dialogue: 0,0:12:12.73,0:12:16.25,flashback,Theresia,0,0,0,,É uma caçada à Baleia Branca,\Nque surgiu repentinamente.
+Dialogue: 0,0:12:16.25,0:12:19.79,flashback,Theresia,0,0,0,,Mas agora que a princesa foi sequestrada,
+Dialogue: 0,0:12:19.79,0:12:21.48,flashback,Theresia,0,0,0,,o líder da Guarda Real —
+Dialogue: 0,0:12:22.17,0:12:25.30,flashback,Theresia,0,0,0,,o Demônio da Espada — não tem escolha\Na não ser agir.
+Dialogue: 0,0:12:25.30,0:12:27.86,flashback,Theresia,0,0,0,,Então, como Santa da Espada, eu devo agir.
+Dialogue: 0,0:12:29.36,0:12:32.46,flashback,Theresia,0,0,0,,O que ele disse faz sentido.
+Dialogue: 0,0:12:32.94,0:12:35.98,flashback,Wilhelm,0,0,0,,O título de Santa da Espada\Né meramente ornamental!
+Dialogue: 0,0:12:36.50,0:12:39.50,flashback,Theresia,0,0,0,,De fato. Graças a você.
+Dialogue: 0,0:12:41.28,0:12:45.09,flashback,Theresia,0,0,0,,Wilhelm, você me ama?
+Dialogue: 0,0:12:45.09,0:12:45.71,flashback,Wilhelm,0,0,0,,O q—
+Dialogue: 0,0:12:54.44,0:12:55.51,flashback,Wilhelm,0,0,0,,Theresia...
+Dialogue: 0,0:13:02.56,0:13:04.15,flashback,Theresia,0,0,0,,A Proteção Divina do Deus da Morte...
+Dialogue: 0,0:13:04.77,0:13:07.78,flashback,Theresia,0,0,0,,Agora você não pode me seguir.
+Dialogue: 0,0:13:07.78,0:13:11.01,flashback,Theresia,0,0,0,,Se tentar, seu ferimento nunca vai se fechar.
+Dialogue: 0,0:13:11.58,0:13:15.05,flashback,Wilhelm,0,0,0,,Eu a seguirei mesmo que\No sangue nunca pare de jorrar.
+Dialogue: 0,0:13:15.05,0:13:18.04,flashback,Theresia,0,0,0,,Mas então não faria sentido algum.
+Dialogue: 0,0:13:18.62,0:13:19.66,flashback,Theresia,0,0,0,,Eu vou ficar bem.
+Dialogue: 0,0:13:20.25,0:13:22.64,flashback,Theresia,0,0,0,,Quem você pensa que eu sou?
+Dialogue: 0,0:13:22.64,0:13:25.50,flashback,Theresia,0,0,0,,Sou a segunda espadachim mais forte,\Nlogo atrás de você.
+Dialogue: 0,0:13:26.16,0:13:28.73,flashback,Theresia,0,0,0,,Mesmo que isso seja meramente ornamental.
+Dialogue: 0,0:13:28.73,0:13:32.18,flashback,Wilhelm,0,0,0,,Você já tem quase cinquenta anos!\NAcha mesmo que pode competir com jovens—
+Dialogue: 0,0:13:32.95,0:13:35.51,flashback,Theresia,0,0,0,,Não precisa dizer mais nada.
+Dialogue: 0,0:13:39.30,0:13:41.73,flashback,Theresia,0,0,0,,Eu amo você, Wilhelm.
+Dialogue: 0,0:13:43.78,0:13:46.11,flashback,Theresia,0,0,0,,Sim, tudo bem.
+Dialogue: 0,0:13:46.56,0:13:49.18,flashback,Theresia,0,0,0,,Pode me responder da próxima vez.
+Dialogue: 0,0:13:49.18,0:13:50.11,flashback,Wilhelm,0,0,0,,Da próxima vez?
+Dialogue: 0,0:13:50.79,0:13:52.25,flashback,Theresia,0,0,0,,Quando eu voltar...
+Dialogue: 0,0:13:53.17,0:13:57.50,flashback,Theresia,0,0,0,,Deixe-me ouvir as palavras que você\Nnão quis dizer naquela época.
+Dialogue: 0,0:14:32.30,0:14:34.30,flashback,Theresia,0,0,0,,Sigam-me!
+Dialogue: 0,0:14:48.42,0:14:50.50,flashback,Soldier,0,0,0,,R-Recuar!
+Dialogue: 0,0:15:17.63,0:15:19.36,flashback,Theresia,0,0,0,,A Proteção Divina do Santo da Espada...
+Dialogue: 0,0:15:20.70,0:15:22.39,flashback,Theresia,0,0,0,,Reinhard...
+Dialogue: 0,0:15:22.39,0:15:25.90,flashback,Pandora,0,0,0,,Ora, o que temos aqui? Uma mulher\Nsozinha num lugar tão distante?
+Dialogue: 0,0:15:26.58,0:15:28.58,flashback,Pandora,0,0,0,,Deve ser deveras corajosa.
+Dialogue: 0,0:15:31.82,0:15:33.96,flashback,Pandora,0,0,0,,Vejo que agora não gosta de mim.
+Dialogue: 0,0:15:37.08,0:15:39.44,flashback italics,Theresia,0,0,0,,Você não precisa ficar preso a isso.
+Dialogue: 0,0:15:39.44,0:15:44.56,flashback italics,Theresia,0,0,0,,Rogo para que tenha novos encontros em sua vida\Ncom muito mais do que apenas a espada,
+Dialogue: 0,0:15:45.39,0:15:46.56,flashback italics,Theresia,0,0,0,,assim como eu tive.
+Dialogue: 0,0:15:50.12,0:15:51.48,flashback,Pandora,0,0,0,,Eu quero...
+Dialogue: 0,0:15:53.76,0:15:56.19,flashback,Pandora,0,0,0,,compreendê-la.
+Dialogue: 0,0:15:59.43,0:16:00.80,main,Theresia,0,0,0,,Wilhelm...
+Dialogue: 0,0:16:12.93,0:16:15.51,main,Theresia,0,0,0,,Você parece... tão desolado...
+Dialogue: 0,0:16:16.00,0:16:18.95,main,Wilhelm,0,0,0,,Theresia... Eu...
+Dialogue: 0,0:16:19.54,0:16:21.97,main,Theresia,0,0,0,,Diga-me, Wilhelm...
+Dialogue: 0,0:16:26.40,0:16:31.82,main,Wilhelm,0,0,0,,Há algo que eu preciso... dizer a você.
+Dialogue: 0,0:16:34.93,0:16:37.01,main,Wilhelm,0,0,0,,Não sou bom com palavras,
+Dialogue: 0,0:16:37.01,0:16:42.13,main,Wilhelm,0,0,0,,e minha incapacidade de expressar\No que eu sentia fez você sofrer.
+Dialogue: 0,0:16:44.30,0:16:45.26,main,Wilhelm,0,0,0,,Por isso...
+Dialogue: 0,0:16:46.59,0:16:50.31,main,Wilhelm,0,0,0,,Por mais de vinte anos, nunca lhe disse...
+Dialogue: 0,0:16:53.60,0:16:57.58,main,Wilhelm,0,0,0,,Posso tê-la deixado preocupada\Ndurante os últimos vinte anos...
+Dialogue: 0,0:16:58.29,0:17:00.99,main,Wilhelm,0,0,0,,Mas eu...
+Dialogue: 0,0:17:04.16,0:17:05.82,main,Theresia,0,0,0,,Bobo.
+Dialogue: 0,0:17:07.00,0:17:10.31,main,Theresia,0,0,0,,Você realmente nunca percebeu?
+Dialogue: 0,0:17:11.02,0:17:14.91,main,Theresia,0,0,0,,Você esteve dizendo isso o tempo todo.
+Dialogue: 0,0:17:18.46,0:17:20.17,main,Theresia,0,0,0,,Com seus olhos,
+Dialogue: 0,0:17:20.91,0:17:22.75,main,Theresia,0,0,0,,sua voz,
+Dialogue: 0,0:17:23.24,0:17:25.20,main,Theresia,0,0,0,,sua postura,
+Dialogue: 0,0:17:25.84,0:17:29.08,main,Theresia,0,0,0,,suas ações... o tempo todo.
+Dialogue: 0,0:17:33.04,0:17:35.88,main,Wilhelm,0,0,0,,Theresia, eu...
+Dialogue: 0,0:17:36.79,0:17:40.39,main,Theresia,0,0,0,,E... eu...
+Dialogue: 0,0:17:40.39,0:17:41.71,main,Wilhelm/Theresia,0,0,0,,...amo você.
+Dialogue: 0,0:17:52.91,0:17:57.93,italics,Theresia,0,0,0,,Sei que a minha vida foi abençoada\Ndo começo ao fim.
+Dialogue: 0,0:17:58.99,0:18:02.02,italics,Theresia,0,0,0,,Tive tantas pessoas me ajudando,
+Dialogue: 0,0:18:02.02,0:18:03.32,italics,Theresia,0,0,0,,e conheci você.
+Dialogue: 0,0:18:04.71,0:18:07.95,italics,Theresia,0,0,0,,Tenho fé de que todos vocês ficarão bem.
+Dialogue: 0,0:18:08.84,0:18:12.33,italics,Theresia,0,0,0,,E eu sempre, sempre amarei você.
+Dialogue: 0,0:18:14.46,0:18:19.61,italics,Theresia,0,0,0,,No fim, houve apenas uma coisa\Nque me arrependi de nunca ter perguntado.
+Dialogue: 0,0:18:21.17,0:18:26.01,italics,Theresia,0,0,0,,O quão surpreso você teria ficado\Nse descobrisse
+Dialogue: 0,0:18:26.01,0:18:31.02,Episode Title,Title,0,0,0,,{\c&HF9F9F9&}Theresia van Astrea
+Dialogue: 0,0:18:26.75,0:18:30.30,italics,Theresia,0,0,0,,que eu me apaixonei por você à primeira vista?
+Dialogue: 0,0:20:05.08,0:20:06.94,main,Heinkel,0,0,0,,Está satisfeito agora?
+Dialogue: 0,0:20:07.84,0:20:09.05,main,Reinhard,0,0,0,,Satisfeito?
+Dialogue: 0,0:20:09.05,0:20:11.91,main,Heinkel,0,0,0,,Não se faça de desentendido!\NFoi exatamente o que acabei de ver!
+Dialogue: 0,0:20:11.91,0:20:16.25,main,Heinkel,0,0,0,,Agora o posto de Santo da Espada\Né seu em nome e em essência!
+Dialogue: 0,0:20:16.25,0:20:18.00,main,Heinkel,0,0,0,,Parabéns!
+Dialogue: 0,0:20:18.00,0:20:22.38,main,Heinkel,0,0,0,,Agora não há como negar o rumor\Nde que deixou a Santa da Espada anterior morrer
+Dialogue: 0,0:20:22.38,0:20:24.22,main,Heinkel,0,0,0,,e roubou a Proteção Divina dela!
+Dialogue: 0,0:20:24.22,0:20:25.88,main,Heinkel,0,0,0,,Então agora você está satisfeito, certo?
+Dialogue: 0,0:20:26.27,0:20:28.15,main,Heinkel,0,0,0,,Você está satisfeito, não está?!
+Dialogue: 0,0:20:29.00,0:20:32.85,main,Reinhard,0,0,0,,Receio não compreender\No que está dizendo.
+Dialogue: 0,0:20:34.24,0:20:37.68,main,Heinkel,0,0,0,,Pare de me olhar com essa expressão\Npretensiosa, seu pirralho maldito!
+Dialogue: 0,0:20:39.67,0:20:41.78,main,Heinkel,0,0,0,,Não fique se achando!
+Dialogue: 0,0:20:41.78,0:20:45.83,main,Heinkel,0,0,0,,Não importa o que diga,\Nisso não muda o que eu vi!
+Dialogue: 0,0:20:45.83,0:20:51.13,main,Heinkel,0,0,0,,É verdade que você abateu minha mãe,\NTheresia van Astrea!
+Dialogue: 0,0:20:51.13,0:20:52.38,main,Heinkel,0,0,0,,Eu vou contar para todo mundo!
+Dialogue: 0,0:20:52.38,0:20:53.89,main,Heinkel,0,0,0,,Vou fazer o mundo inteiro saber
+Dialogue: 0,0:20:53.89,0:20:58.01,main,Heinkel,0,0,0,,e garantir que ninguém o aceite\Ncomo o Santo da Espada!
+Dialogue: 0,0:20:59.28,0:21:04.39,main,Heinkel,0,0,0,,Tenho certeza de que dirá qualquer coisa\Npara se agarrar ao título,
+Dialogue: 0,0:21:04.39,0:21:07.58,main,Heinkel,0,0,0,,mas um Santo da Espada que matou\No próprio sangue?
+Dialogue: 0,0:21:07.58,0:21:09.50,main,Heinkel,0,0,0,,A espada do reino?!
+Dialogue: 0,0:21:10.10,0:21:13.22,main,Heinkel,0,0,0,,Não me faça rir, seu assassino!
+Dialogue: 0,0:21:13.77,0:21:18.00,main,Reinhard,0,0,0,,Vice-Capitão, não importa quantas vezes\Ndiga tudo isso, eu não compreendo.
+Dialogue: 0,0:21:18.00,0:21:18.93,main,Reinhard,0,0,0,,O senhor está enganado.
+Dialogue: 0,0:21:21.13,0:21:25.89,main,Reinhard,0,0,0,,Aquele inimigo era apenas um cadáver\Nreanimado por meio de artes secretas.
+Dialogue: 0,0:21:25.89,0:21:29.99,main,Reinhard,0,0,0,,Não poderia ter sido a antiga\NSanta da Espada — minha avó.
+Dialogue: 0,0:21:31.56,0:21:33.45,main,Heinkel,0,0,0,,Então... Então...
+Dialogue: 0,0:21:33.76,0:21:35.88,main,Heinkel,0,0,0,,O que foi aquilo no final?!
+Dialogue: 0,0:21:35.88,0:21:38.29,main,Heinkel,0,0,0,,Quando ela olhou com reprovação\Npara você e para mim?!
+Dialogue: 0,0:21:38.29,0:21:41.12,main,Heinkel,0,0,0,,Se aquela não era minha mãe...\NSe aquela não era a mamãe—
+Dialogue: 0,0:21:41.12,0:21:43.00,main,Wilhelm,0,0,0,,Pare com isso, Heinkel.
+Dialogue: 0,0:21:44.88,0:21:46.24,main,Heinkel,0,0,0,,Parar?
+Dialogue: 0,0:21:47.34,0:21:48.09,main,Heinkel,0,0,0,,Pai...
+Dialogue: 0,0:21:49.01,0:21:51.10,main,Heinkel,0,0,0,,Está dizendo que aceita isso? E—
+Dialogue: 0,0:21:51.10,0:21:52.05,main,Wilhelm,0,0,0,,Pare.
+Dialogue: 0,0:21:53.67,0:21:57.22,main,Wilhelm,0,0,0,,Pare, Heinkel. Pare.
+Dialogue: 0,0:22:04.23,0:22:04.90,main,Wilhelm,0,0,0,,Fique para trás!
+Dialogue: 0,0:22:07.74,0:22:09.33,main,Wilhelm,0,0,0,,Reinhard.
+Dialogue: 0,0:22:09.33,0:22:10.11,main,Reinhard,0,0,0,,Sim.
+Dialogue: 0,0:22:11.15,0:22:15.67,main,Wilhelm,0,0,0,,Você se arrepende de ter matado sua avó—
+Dialogue: 0,0:22:16.93,0:22:18.56,main,Wilhelm,0,0,0,,de ter matado Theresia?
+Dialogue: 0,0:22:21.13,0:22:24.45,main,Reinhard,0,0,0,,Não. Fiz o que era certo.
+Dialogue: 0,0:22:25.43,0:22:27.67,main,Reinhard,0,0,0,,Jamais me arrependeria disso.
+Dialogue: 0,0:22:28.92,0:22:30.10,main,Wilhelm,0,0,0,,De fato.
+Dialogue: 0,0:22:31.76,0:22:33.28,main,Wilhelm,0,0,0,,Está certo.
+Dialogue: 0,0:22:36.03,0:22:40.14,main,Wilhelm,0,0,0,,Você está certo. E eu estou errado.
+Dialogue: 0,0:22:41.07,0:22:44.39,main,Wilhelm,0,0,0,,Portanto, não tenho mais nada a lhe dizer.
+Dialogue: 0,0:22:44.80,0:22:50.48,main,Wilhelm,0,0,0,,Sua força certamente será necessária\Nem outro lugar desta batalha.
+Dialogue: 0,0:22:51.46,0:22:55.09,main,Wilhelm,0,0,0,,Por favor, Santo da Espada Reinhard-dono...
+Dialogue: 0,0:23:01.99,0:23:03.79,main,Heinkel,0,0,0,,Pai! Não pode ir sozinho!
+Dialogue: 0,0:23:04.25,0:23:06.38,main,Wilhelm,0,0,0,,Não precisa se preocupar comigo.
+Dialogue: 0,0:23:06.99,0:23:10.05,main,Wilhelm,0,0,0,,Precisa pensar apenas na sua própria segurança.
+Dialogue: 0,0:23:11.41,0:23:12.78,main,Wilhelm,0,0,0,,Isso já basta.
+Dialogue: 0,0:23:13.21,0:23:15.19,main,Heinkel,0,0,0,,Que... diabos?
+Dialogue: 0,0:23:15.19,0:23:16.13,main,Heinkel,0,0,0,,Que diabos?
+Dialogue: 0,0:23:16.47,0:23:17.71,main,Heinkel,0,0,0,,Que diabos?!
+Dialogue: 0,0:23:17.71,0:23:19.85,main,Heinkel,0,0,0,,O quê?! O quê?! Maldição!
+Dialogue: 0,0:23:20.31,0:23:21.81,main,Heinkel,0,0,0,,Que diabos?!
+Dialogue: 0,0:23:22.13,0:23:25.02,main,Heinkel,0,0,0,,Maldição! Maldição! Maldição! Maldição!
+Dialogue: 0,0:23:25.29,0:23:26.64,main,Heinkel,0,0,0,,Todos vocês...
+Dialogue: 0,0:23:31.55,0:23:34.49,main,Heinkel,0,0,0,,Todos vocês deviam simplesmente morrer!
+Dialogue: 0,0:23:34.49,0:23:37.48,main,Heinkel,0,0,0,,Morram de uma vez!

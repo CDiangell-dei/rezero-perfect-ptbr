@@ -1,0 +1,245 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScaledBorderAndShadow: yes
+Original Script: rzpc  [http://www.crunchyroll.com/user/rzpc]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: main,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: top,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: italicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: flashback,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashback italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashbacktop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,8,60,60,54,1
+Style: flashbackitalicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: overlaptop,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap italics,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: sign_Arial,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ArialBlack,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_CourierNew,Courier New,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ComicSansMS,Comic Sans MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Georgia,Georgia,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Impact,Impact,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TimesNewRoman,Times New Roman,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TrebuchetMS,Trebuchet MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Verdana,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: Episode Title,Times New Roman,90,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.24,0:00:31.51,main,Elsa,0,0,0,,Você os mataria, então?
+Dialogue: 0,0:00:32.38,0:00:35.72,main,Elsa,0,0,0,,Esses seres que nunca guardaram rancor...
+Dialogue: 0,0:00:42.98,0:00:44.89,main,Elsa,0,0,0,,que um dia foram simples humanos.
+Dialogue: 0,0:03:04.56,0:03:08.70,flashback,Lye,0,0,0,,No fim, este mundo inteiro\Ngira em torno da gula.
+Dialogue: 0,0:03:09.17,0:03:11.25,flashback,Lye,0,0,0,,Hora do banquete!
+Dialogue: 0,0:03:11.25,0:03:13.13,flashback,Otto,0,0,0,,Ao negociar com um comerciante,
+Dialogue: 0,0:03:13.13,0:03:15.59,flashback,Otto,0,0,0,,é bom ouvi-lo até que\Nele termine de falar!
+Dialogue: 0,0:03:20.42,0:03:22.89,flashback,Otto,0,0,0,,Pois um comerciante sempre\Ntem uma carta na manga.
+Dialogue: 0,0:03:25.54,0:03:28.31,main,Otto,0,0,0,,Dragões aquáticos são caçadores impiedosos.
+Dialogue: 0,0:03:39.40,0:03:44.20,main,Felt,0,0,0,,Isso foi incrível! Foi você quem fez isso?
+Dialogue: 0,0:03:44.20,0:03:47.53,main,Dynas,0,0,0,,Sinto muito por terem precisado nos salvar.
+Dialogue: 0,0:03:47.84,0:03:51.16,main,Otto,0,0,0,,Não vou perguntar como\Ncontrolou essas criaturas.
+Dialogue: 0,0:03:51.72,0:03:54.04,main,Otto,0,0,0,,Eu agradeceria por isso.
+Dialogue: 0,0:03:54.04,0:03:56.63,main,Otto,0,0,0,,Enfim, o que a traz aqui, Felt-sama?
+Dialogue: 0,0:03:56.97,0:03:57.63,main,Otto,0,0,0,,O Heinkel-san...
+Dialogue: 0,0:03:57.63,0:04:01.07,main,Felt,0,0,0,,Deixei o Camberley vigiando\Naquele velho rabugento.
+Dialogue: 0,0:04:01.07,0:04:04.13,main,Felt,0,0,0,,Estávamos voltando para pegar\Nalgo que deixamos na estalagem.
+Dialogue: 0,0:04:04.48,0:04:07.10,main,Otto,0,0,0,,Algo que deixaram... na estalagem?
+Dialogue: 0,0:04:07.38,0:04:12.22,main,Felt,0,0,0,,É. Uma arma secreta que um\Nfeiticeiro nosso me deu.
+Dialogue: 0,0:04:12.22,0:04:15.55,main,Felt,0,0,0,,Dizem que é um metia bem poderoso.
+Dialogue: 0,0:04:15.55,0:04:16.31,main,Otto,0,0,0,,Espere um momento.
+Dialogue: 0,0:04:40.75,0:04:41.84,main,Otto,0,0,0,,Felt-sama...
+Dialogue: 0,0:04:42.11,0:04:44.88,main,Otto,0,0,0,,Esse metia é confiável?
+Dialogue: 0,0:04:44.88,0:04:46.77,main,Felt,0,0,0,,Pelo que o Velho Rom disse,
+Dialogue: 0,0:04:46.77,0:04:50.12,main,Felt,0,0,0,,nem mesmo o Reinhard sairia\Nileso dessa coisa.
+Dialogue: 0,0:04:50.12,0:04:53.84,main,Otto,0,0,0,,Bem, esse parece ser um\Nparâmetro bem claro.
+Dialogue: 0,0:04:53.84,0:04:54.69,main,Otto,0,0,0,,Muito bem, então.
+Dialogue: 0,0:04:55.49,0:04:57.56,main,Otto,0,0,0,,Nós ficaremos aqui e ganharemos tempo.
+Dialogue: 0,0:04:59.85,0:05:04.01,main,Felt,0,0,0,,Enquanto eu vou buscar o metia?\NVocês conseguem aguentar até lá?
+Dialogue: 0,0:05:04.01,0:05:07.28,main,Otto,0,0,0,,Suponho que tudo dependa da\Nvelocidade com que correr, não é?
+Dialogue: 0,0:05:07.57,0:05:10.00,main,Felt,0,0,0,,Certo, você me provocou.
+Dialogue: 0,0:05:10.00,0:05:12.75,main,Felt,0,0,0,,Vou deixar o Gaston aqui.\NUsem-no como precisarem.
+Dialogue: 0,0:05:12.75,0:05:13.87,main,Gaston,0,0,0,,Eu também tenho que ficar?!
+Dialogue: 0,0:05:16.62,0:05:20.06,main,Lye,0,0,0,,Parece que vocês são mais\Ncapazes do que pensávamos,
+Dialogue: 0,0:05:20.06,0:05:24.01,main,Lye,0,0,0,,mas uns lagartos d'água\Nnão vão dar conta do recado.
+Dialogue: 0,0:05:24.65,0:05:30.19,main,Lye,0,0,0,,Gourmets como nós costumam ser\Nexigentes com os aperitivos.
+Dialogue: 0,0:05:29.35,0:05:30.19,top,Felt,0,0,0,,Gaston!
+Dialogue: 0,0:05:30.19,0:05:33.20,main,Gaston,0,0,0,,Se eu morrer fazendo isso,\Nvou voltar para assombrar você!
+Dialogue: 0,0:05:39.35,0:05:41.44,main,Lye,0,0,0,,Saia do nosso cam—
+Dialogue: 0,0:05:43.18,0:05:47.40,main,Lye,0,0,0,,Ah, o fluxo de mana! Nada mal\Npara um cabeça-oca como você!
+Dialogue: 0,0:05:47.40,0:05:50.16,main,Gaston,0,0,0,,Quem você está chamando de cabeça-oca?!
+Dialogue: 0,0:05:54.91,0:05:56.70,main,Lye,0,0,0,,Ah, entendemos.
+Dialogue: 0,0:05:56.70,0:05:59.79,main,Lye,0,0,0,,Então foi com esse tipo de\Nplano que vieram até aqui.
+Dialogue: 0,0:06:01.75,0:06:03.59,main,Otto,0,0,0,,Você está bem calmo.
+Dialogue: 0,0:06:03.59,0:06:06.52,main,Otto,0,0,0,,Percebe que nada saiu a seu\Nfavor até agora, certo?
+Dialogue: 0,0:06:09.03,0:06:11.85,main,Lye,0,0,0,,Agora que aquela garota se foi,
+Dialogue: 0,0:06:11.85,0:06:15.06,main,Lye,0,0,0,,achamos que restam três aqui\Nde que a Rui pode gostar.
+Dialogue: 0,0:06:17.95,0:06:22.27,main,Otto,0,0,0,,Só neste ano tive que lutar mais\Nque muito guerreiro de baixo escalão.
+Dialogue: 0,0:06:22.27,0:06:25.19,main,Otto,0,0,0,,Que tipo de comerciante isso faz de mim?
+Dialogue: 0,0:06:45.13,0:06:48.50,main,Al,0,0,0,,Bem, isso não podia ser mais nojento.
+Dialogue: 0,0:06:48.50,0:06:51.18,main,Al,0,0,0,,Eu não curto muito banho de sangue, sabe.
+Dialogue: 0,0:06:53.16,0:06:55.71,main,Capella,0,0,0,,Ousa chamar uma garota de 'nojenta'?
+Dialogue: 0,0:06:55.71,0:06:58.81,main,Capella,0,0,0,,Ninguém gosta de rapazes que\Nfalam sem rodeios demais.
+Dialogue: 0,0:06:59.33,0:07:04.06,main,Capella,0,0,0,,Será que todos que tramam nas\Nsombras são desse jeito?
+Dialogue: 0,0:07:04.71,0:07:05.40,main,Al,0,0,0,,Hã?
+Dialogue: 0,0:07:06.00,0:07:09.47,main,Capella,0,0,0,,Estive pensando o tempo todo
+Dialogue: 0,0:07:09.47,0:07:13.12,main,Capella,0,0,0,,sobre a identidade do cretino\Nque abriu a comporta
+Dialogue: 0,0:07:13.12,0:07:16.33,main,Capella,0,0,0,,só um pouquinho e inundou\Ncerca de metade da cidade.
+Dialogue: 0,0:07:16.73,0:07:18.33,main,Capella,0,0,0,,Se não fosse por isso,
+Dialogue: 0,0:07:18.33,0:07:23.33,main,Capella,0,0,0,,o rumo desta cidade já estaria\Npraticamente selado.
+Dialogue: 0,0:07:25.73,0:07:28.76,main,Al,0,0,0,,Não faço ideia do que você está falando.
+Dialogue: 0,0:07:29.14,0:07:31.09,main,Capella,0,0,0,,E além disso!
+Dialogue: 0,0:07:31.09,0:07:34.06,main,Capella,0,0,0,,Os restos da bruxa que eu estava procurando?
+Dialogue: 0,0:07:34.06,0:07:36.68,main,Capella,0,0,0,,As pessoas que sabem onde eles estão
+Dialogue: 0,0:07:36.68,0:07:42.49,main,Capella,0,0,0,,parecem morrer uma a uma,\Nsem nenhum envolvimento meu!
+Dialogue: 0,0:07:42.49,0:07:45.20,main,Al,0,0,0,,Bem, sinto muito ouvir isso.
+Dialogue: 0,0:07:45.20,0:07:48.94,main,Al,0,0,0,,Mas coisas infelizes acabam\Nacontecendo em tempos caóticos assim.
+Dialogue: 0,0:07:49.28,0:07:52.62,main,Capella,0,0,0,,Ah, vai se fazer de desentendido?
+Dialogue: 0,0:07:52.62,0:07:55.69,main,Capella,0,0,0,,Tudo bem. Mesmo que aja assim,
+Dialogue: 0,0:07:55.69,0:08:00.54,main,Capella,0,0,0,,meu amor magnífico ainda vai\Nabraçar você com ternura...
+Dialogue: 0,0:08:01.29,0:08:04.45,main,Capella,0,0,0,,contanto que tire esse elmo,\Nmostre o seu rosto,
+Dialogue: 0,0:08:04.45,0:08:07.44,main,Capella,0,0,0,,leve-me para a cama e me ame, claro.
+Dialogue: 0,0:08:09.01,0:08:12.30,main,Al,0,0,0,,Foi mal! Agradeço o sentimento,
+Dialogue: 0,0:08:12.30,0:08:15.05,main,Al,0,0,0,,mas acho que ainda não nos\Nconhecemos bem o bastante.
+Dialogue: 0,0:08:15.61,0:08:20.72,main,Al,0,0,0,,E não quero meus amigos espalhando\Nboatos estranhos, então vou recusar.
+Dialogue: 0,0:08:20.98,0:08:26.48,main,Capella,0,0,0,,Não me acho uma escolha tão ruim para\Num pedaço de carne macho masoquista
+Dialogue: 0,0:08:26.48,0:08:29.94,main,Capella,0,0,0,,que gosta de ser feito de\Ncapacho por mulheres.
+Dialogue: 0,0:08:30.24,0:08:31.66,main,Al,0,0,0,,Hã? O que você...
+Dialogue: 0,0:08:31.66,0:08:35.28,main,Capella,0,0,0,,Olhar severo e um corpo voluptuoso...
+Dialogue: 0,0:08:35.28,0:08:38.53,main,Capella,0,0,0,,Temperamental e audaciosa por natureza,
+Dialogue: 0,0:08:38.53,0:08:41.25,main,Capella,0,0,0,,fala pelos cotovelos, mas tem cérebro...
+Dialogue: 0,0:08:41.55,0:08:43.21,main,Capella,0,0,0,,Algo assim?
+Dialogue: 0,0:08:43.21,0:08:45.76,main,Capella,0,0,0,,E o comprimento do cabelo...
+Dialogue: 0,0:08:45.76,0:08:48.97,main,Capella,0,0,0,,Ah, mas a cor não é loira?
+Dialogue: 0,0:08:48.97,0:08:51.89,main,Capella,0,0,0,,E também não é ruiva...
+Dialogue: 0,0:08:51.89,0:08:53.42,main,Capella,0,0,0,,É laranja!
+Dialogue: 0,0:08:53.72,0:08:57.51,main,Capella,0,0,0,,Quanto à idade... Ah!\NAlgo mais ou menos assim, não é?
+Dialogue: 0,0:08:59.49,0:09:01.31,main,Capella (Priscilla),0,0,0,,E quanto à voz?
+Dialogue: 0,0:09:02.64,0:09:04.56,main,Al,0,0,0,,Que coisa mais repulsiva de se fazer.
+Dialogue: 0,0:09:05.06,0:09:07.54,main,Al,0,0,0,,Onde foi que você viu a princesa antes?!
+Dialogue: 0,0:09:07.54,0:09:11.11,main,Capella (Priscilla),0,0,0,,Nunca a vi e nem sequer\Nsabia da existência dela,
+Dialogue: 0,0:09:11.11,0:09:15.76,main,Capella (Priscilla),0,0,0,,mas captar cada mínimo detalhe\Nseu além do rosto —
+Dialogue: 0,0:09:15.76,0:09:21.03,main,Capella (Priscilla),0,0,0,,seus gestos, suas reações,\Nsua postura — é o que faço de melhor.
+Dialogue: 0,0:09:21.03,0:09:25.12,main,Capella (Priscilla),0,0,0,,Olhe para mim. Olhe apenas para mim.
+Dialogue: 0,0:09:25.85,0:09:30.09,main,Capella (Priscilla),0,0,0,,Meu rosto, meu corpo, minha voz,\Nmeus trejeitos, tudo isso...
+Dialogue: 0,0:09:30.45,0:09:33.84,main,Capella (Priscilla),0,0,0,,deve estar perfeitamente de\Nacordo com suas preferências!
+Dialogue: 0,0:09:36.29,0:09:40.93,main,Al,0,0,0,,Desculpa, mas a raça humana ainda não\Ntá pronta pra essa demonstração de amor.
+Dialogue: 0,0:09:40.93,0:09:44.08,main,Capella (Priscilla),0,0,0,,Por que você resiste a mim?
+Dialogue: 0,0:09:44.08,0:09:48.15,main,Capella (Priscilla),0,0,0,,O que exatamente em mim\Nnão lhe agrada?
+Dialogue: 0,0:09:48.15,0:09:50.24,main,Al,0,0,0,,Não entenda errado.
+Dialogue: 0,0:09:50.24,0:09:54.16,main,Al,0,0,0,,Não gosto nem odeio você. Nem me importo.
+Dialogue: 0,0:09:55.27,0:09:56.49,main,Al,0,0,0,,Ah, desculpa. É mentira.
+Dialogue: 0,0:09:57.04,0:10:00.49,main,Al,0,0,0,,Você é nojenta, então eu te odeio mesmo!
+Dialogue: 0,0:10:00.49,0:10:02.70,main,Al,0,0,0,,Seu hálito faz meus olhos arderem!
+Dialogue: 0,0:10:03.90,0:10:07.62,main,Capella (Priscilla),0,0,0,,Seu pedaço de carne podre e adúltero!
+Dialogue: 0,0:10:13.56,0:10:14.62,main,Al,0,0,0,,Dona!
+Dialogue: 0,0:10:24.11,0:10:24.91,main,Capella (Priscilla),0,0,0,,Hã?
+Dialogue: 0,0:10:27.93,0:10:30.27,main,Al,0,0,0,,Hora de transformar você em\Nuns fogos de artifício imundos!
+Dialogue: 0,0:10:30.59,0:10:32.08,main,Al,0,0,0,,El Dona!
+Dialogue: 0,0:10:44.55,0:10:47.11,main,Al,0,0,0,,E aí? Depois disso tudo...
+Dialogue: 0,0:10:46.24,0:10:48.41,top,Capella (Priscilla),0,0,0,,Ora, isso foi bem maldoso.
+Dialogue: 0,0:10:50.40,0:10:51.63,main,Al,0,0,0,,Merda!
+Dialogue: 0,0:10:51.89,0:10:55.60,main,Capella (Priscilla),0,0,0,,Não precisava mesmo ter\Nido tão longe, não é?
+Dialogue: 0,0:10:56.72,0:10:59.01,main,Al,0,0,0,,Qual é, isso não pode ser permitido!
+Dialogue: 0,0:10:59.30,0:11:05.32,main,Capella (Priscilla),0,0,0,,Oh, céus! Que corajoso continuar lutando\Nmesmo quando a coisa aperta tanto!
+Dialogue: 0,0:11:05.32,0:11:07.58,main,Capella,0,0,0,,Minha opinião sobre você\Nacaba de ir às alturas!
+Dialogue: 0,0:11:09.29,0:11:14.38,main,Al,0,0,0,,Azar o seu. A princesa deixou claro\Nque eu tenho que cuidar disso.
+Dialogue: 0,0:11:14.38,0:11:17.35,main,Al,0,0,0,,Uma mulher que vive mudando de\Naparência dá medo,
+Dialogue: 0,0:11:17.35,0:11:21.21,main,Al,0,0,0,,mas deixar a princesa de mau humor\Nme dá muito mais medo.
+Dialogue: 0,0:11:21.21,0:11:24.83,main,Capella,0,0,0,,Ainda tem a audácia de falar\Nde outra mulher?
+Dialogue: 0,0:11:24.83,0:11:30.79,main,Capella,0,0,0,,Parece que vou ter que lhe ensinar\Nbom comportamento de verdade.
+Dialogue: 0,0:11:30.79,0:11:32.95,main,Al,0,0,0,,Ah, droga.
+Dialogue: 0,0:11:33.45,0:11:36.37,main,Al,0,0,0,,Os astros estão mesmo contra mim hoje.
+Dialogue: 0,0:11:46.84,0:11:48.39,main,Garfiel,0,0,0,,Onde...
+Dialogue: 0,0:12:00.86,0:12:05.16,flashback,Subaru,0,0,0,,Certo, então como é esse\Ntal de Kurgan 'Oito-Braços'?
+Dialogue: 0,0:12:05.80,0:12:09.79,flashback,Garfiel,0,0,0,,Resumindo, ele é uma lenda viva.
+Dialogue: 0,0:12:10.33,0:12:11.67,flashback,Subaru,0,0,0,,Lenda?
+Dialogue: 0,0:12:11.67,0:12:12.50,flashback,Garfiel,0,0,0,,É.
+Dialogue: 0,0:12:13.08,0:12:18.32,flashback,Garfiel,0,0,0,,Nós, semi-humanos, normalmente temos\Numa alta aptidão para magia,
+Dialogue: 0,0:12:18.32,0:12:22.72,flashback,Garfiel,0,0,0,,mas a raça de muitos braços é uma\Nexceção com aptidão bem baixa.
+Dialogue: 0,0:12:23.09,0:12:28.18,flashback,Garfiel,0,0,0,,Por isso, até no Império de Vollachia,\Nonde semi-humanos são protegidos,
+Dialogue: 0,0:12:28.18,0:12:31.54,flashback,Garfiel,0,0,0,,eles sofriam muita\Ndiscriminação e escárnio.
+Dialogue: 0,0:12:31.54,0:12:33.94,flashback,Garfiel,0,0,0,,Foi o Kurgan quem mudou tudo isso.
+Dialogue: 0,0:12:34.73,0:12:37.87,flashback,Garfiel,0,0,0,,Quando os soldados do senhor\Nlocal tentaram matá-los,
+Dialogue: 0,0:12:37.87,0:12:40.38,flashback,Garfiel,0,0,0,,ele virou o jogo contra todos sozinho
+Dialogue: 0,0:12:40.38,0:12:43.95,flashback,Garfiel,0,0,0,,e fez o lorde reconhecer o\Npovo de muitos braços.
+Dialogue: 0,0:12:44.44,0:12:49.58,flashback,Wilhelm,0,0,0,,A maioria dos de muitos braços nasce\Ncom quatro ou cinco braços,
+Dialogue: 0,0:12:50.12,0:12:55.17,flashback,Wilhelm,0,0,0,,mas Kurgan, com seus oito braços,\Nfoi desprezado desde jovem
+Dialogue: 0,0:12:55.17,0:12:58.46,flashback,Wilhelm,0,0,0,,e até isolado dentro da\nprópria tribo, ao que dizem.
+Dialogue: 0,0:12:59.01,0:13:02.42,flashback,Wilhelm,0,0,0,,Apesar disso, ele empunhou a\Nespada pelo bem do seu povo.
+Dialogue: 0,0:13:02.42,0:13:05.13,flashback,Garfiel,0,0,0,,Fala dos Cutelos Demoníacos dele.
+Dialogue: 0,0:13:05.60,0:13:06.34,flashback,Wilhelm,0,0,0,,Sim.
+Dialogue: 0,0:13:06.95,0:13:10.39,flashback,Wilhelm,0,0,0,,Kurgan empunha múltiplas espadas\Nconhecidas como Cutelos Demoníacos,
+Dialogue: 0,0:13:10.96,0:13:14.64,flashback,Wilhelm,0,0,0,,mas só as usa contra oponentes\Nque reconhece como dignos.
+Dialogue: 0,0:13:15.07,0:13:17.92,flashback,Wilhelm,0,0,0,,Diz-se que, se ele sacar\Ntodas as suas espadas,
+Dialogue: 0,0:13:17.92,0:13:21.61,flashback,Wilhelm,0,0,0,,só isso já traz grande honra\Nao seu adversário.
+Dialogue: 0,0:13:21.61,0:13:26.20,main,Garfiel,0,0,0,,Ou seja, ele ainda me vê\Ncomo um pirralho, não é?
+Dialogue: 0,0:15:14.59,0:15:16.31,main,Garfiel,0,0,0,,O abrigo?
+Dialogue: 0,0:15:17.45,0:15:18.75,main,Garfiel,0,0,0,,Por quê...
+Dialogue: 0,0:15:18.75,0:15:20.24,main,Fred,0,0,0,,Tigre Magnífico?
+Dialogue: 0,0:15:31.04,0:15:32.78,main,Fred,0,0,0,,Tigre Magnífico...
+Dialogue: 0,0:16:12.96,0:16:16.78,main,Elsa,0,0,0,,Eu amo você, Garfiel Tinsel.
+Dialogue: 0,0:16:17.60,0:16:19.90,main,Garfiel,0,0,0,,Pois eu não amo você.
+Dialogue: 0,0:16:19.90,0:16:24.04,main,Garfiel,0,0,0,,Você não é ela.
+Dialogue: 0,0:16:38.52,0:16:40.77,main,Fred's Sister,0,0,0,,O-Obrigada...
+Dialogue: 0,0:16:45.30,0:16:46.48,main,Garfiel,0,0,0,,Fiquem atrás.
+Dialogue: 0,0:17:00.24,0:17:01.91,main,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:17:02.66,0:17:04.74,top,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:17:04.00,0:17:07.27,main,Garfiel,0,0,0,,Escuta, garoto, o que você—
+Dialogue: 0,0:17:06.19,0:17:08.42,top,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:17:09.32,0:17:11.44,main,Fred,0,0,0,,T-Tigre Magnífico!
+Dialogue: 0,0:17:11.44,0:17:14.22,main,Garfiel,0,0,0,,Dá pra ficar quieto de uma—
+Dialogue: 0,0:17:12.59,0:17:14.22,top,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:17:14.67,0:17:15.96,main,People,0,0,0,,Por favor, vença!
+Dialogue: 0,0:17:15.96,0:17:17.53,main,People,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:17:17.53,0:17:19.64,main,People,0,0,0,,Tudo o que podemos fazer é assistir...
+Dialogue: 0,0:17:19.64,0:17:21.66,top,People,0,0,0,,Mas você tem que lutar e vencer!
+Dialogue: 0,0:17:20.34,0:17:22.16,main,Garfiel,0,0,0,,Ora, não precisam fazer isso...
+Dialogue: 0,0:17:21.66,0:17:23.28,top,People,0,0,0,,Você consegue, Tigre!
+Dialogue: 0,0:17:24.06,0:17:24.99,main,People,0,0,0,,Por favor!
+Dialogue: 0,0:17:24.99,0:17:26.62,main,People,0,0,0,,Você dá conta!
+Dialogue: 0,0:17:26.62,0:17:31.48,main,Garfiel,0,0,0,,Chefe, aquele seu discurso\Nfuncionou bem demais.
+Dialogue: 0,0:17:32.94,0:17:38.28,main,Garfiel,0,0,0,,Desculpe, mas está barulhento\Ndemais aqui para um duelo.
+Dialogue: 0,0:17:38.28,0:17:40.74,main,Garfiel,0,0,0,,E os mais barulhentos de todos
+Dialogue: 0,0:17:40.74,0:17:44.29,main,Garfiel,0,0,0,,são o meu irmãozinho e minha irmãzinha ali.
+Dialogue: 0,0:17:44.67,0:17:47.93,main,Garfiel,0,0,0,,Vou dar um jeito de falar com eles depois.
+Dialogue: 0,0:17:52.99,0:17:55.34,main,Fred,0,0,0,,Você consegue, Tigre Magnífico!
+Dialogue: 0,0:18:17.74,0:18:21.09,main,Garfiel,0,0,0,,Obrigado, garoto! Eu...
+Dialogue: 0,0:18:25.73,0:18:29.04,main,Garfiel,0,0,0,,Eu sou o escudo supremo...
+Dialogue: 0,0:18:29.52,0:18:30.79,main,Garfiel,0,0,0,,Não.
+Dialogue: 0,0:18:30.79,0:18:34.84,main,Garfiel,0,0,0,,Eu sou o 'Tigre Magnífico', Garfiel Tinsel!
+Dialogue: 0,0:20:28.37,0:20:29.74,main,Kurgan,0,0,0,,Muito bem.
+Dialogue: 0,0:20:31.16,0:20:34.96,Episode Title,Title,0,0,0,,O Elogio do Guerreiro
+Dialogue: 0,0:22:09.92,0:22:12.77,main,Garfiel,0,0,0,,'Nobre' nem chega perto de descrever...
+Dialogue: 0,0:22:13.63,0:22:15.43,main,Fred,0,0,0,,Tigre Magnífico...
+Dialogue: 0,0:22:19.52,0:22:21.40,main,Garfiel,0,0,0,,Vamos, pare de chorar.
+Dialogue: 0,0:22:21.99,0:22:24.38,main,Fred's Sister,0,0,0,,V-Você é idiota?!
+Dialogue: 0,0:22:24.91,0:22:27.36,main,Fred's Sister,0,0,0,,Como se eu fosse chorar!
+Dialogue: 0,0:22:28.00,0:22:30.06,main,Fred's Sister,0,0,0,,Que seja! Apenas descanse!
+Dialogue: 0,0:22:30.58,0:22:34.69,main,Fred's Sister,0,0,0,,Vamos chamar alguém para\Ncurar você... agora mesmo.
+Dialogue: 0,0:22:34.69,0:22:37.50,main,Garfiel,0,0,0,,Droga... Isso não é bom...
+Dialogue: 0,0:22:37.50,0:22:38.33,main,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:22:39.82,0:22:41.81,main,Fred,0,0,0,,Tigre Magnífico! Aguente firme!
+Dialogue: 0,0:22:41.81,0:22:44.01,main,Fred's Sister,0,0,0,,Alguém chame um curandeiro!
+Dialogue: 0,0:22:44.01,0:22:45.51,main,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:22:44.59,0:22:45.51,top,Fred's Sister,0,0,0,,Alguém!
+Dialogue: 0,0:22:45.99,0:22:47.66,main,Fred,0,0,0,,Tigre Magnífico!
+Dialogue: 0,0:22:45.99,0:22:49.23,italicstop,Garfiel,0,0,0,,Será que... eles estão bem...
+Dialogue: 0,0:22:59.89,0:23:02.06,main,Wilhelm,0,0,0,,A Proteção Divina do Deus da Morte...
+Dialogue: 0,0:23:02.49,0:23:06.53,main,Wilhelm,0,0,0,,Eu nunca esperei durar muito nesta luta.
+Dialogue: 0,0:23:07.29,0:23:09.58,main,Wilhelm,0,0,0,,Não estou convencido de que você hesitaria,
+Dialogue: 0,0:23:10.32,0:23:12.99,main,Wilhelm,0,0,0,,nem alimento esperança de que\Nos céus sejam misericordiosos.
+Dialogue: 0,0:23:13.55,0:23:16.70,main,Wilhelm,0,0,0,,Terei bastante tempo com minha esposa\Nquando me juntar a ela do outro lado.
+Dialogue: 0,0:23:17.77,0:23:19.66,main,Wilhelm,0,0,0,,Não vou sonhar.
+Dialogue: 0,0:23:20.39,0:23:21.87,main,Wilhelm,0,0,0,,Esta é a realidade.
+Dialogue: 0,0:23:22.90,0:23:26.34,main,Wilhelm,0,0,0,,Theresia, você é linda.
+Dialogue: 0,0:23:27.53,0:23:30.55,main,Wilhelm,0,0,0,,E é exatamente por isso que\Nvocê não deve existir aqui!

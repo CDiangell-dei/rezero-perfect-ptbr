@@ -1,0 +1,380 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScaledBorderAndShadow: yes
+Original Script: rzpc  [http://www.crunchyroll.com/user/rzpc]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: main,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: top,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: italicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: flashback,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashback italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashbacktop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,8,60,60,54,1
+Style: flashbackitalicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: overlaptop,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap italics,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: sign_Arial,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ArialBlack,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_CourierNew,Courier New,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ComicSansMS,Comic Sans MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Georgia,Georgia,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Impact,Impact,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TimesNewRoman,Times New Roman,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TrebuchetMS,Trebuchet MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Verdana,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: Episode Title,Times New Roman,90,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:33.19,0:01:34.87,main,Dynas,0,0,0,,É só um pirralho!
+Dialogue: 0,0:01:34.87,0:01:37.79,main,Dynas,0,0,0,,Cerquem-no e detenham-no!\NNão o deixem escapar!
+Dialogue: 0,0:01:39.90,0:01:43.09,main,Lye,0,0,0,,Isso mesmo. É só um pirralho.
+Dialogue: 0,0:01:43.41,0:01:46.66,main,Lye,0,0,0,,Vamos lá, tentem agarrá-lo\Ne fazê-lo em pedaços!
+Dialogue: 0,0:01:47.52,0:01:50.97,main,Gaston,0,0,0,,Vamos ter que dar tudo de nós!
+Dialogue: 0,0:01:50.97,0:01:53.66,main,Gaston,0,0,0,,Droga! Seu moleque...
+Dialogue: 0,0:01:53.66,0:01:55.59,main,Lye,0,0,0,,Golpe do Senhor dos Punhos.
+Dialogue: 0,0:02:02.60,0:02:03.59,main,Otto,0,0,0,,Dona!
+Dialogue: 0,0:02:06.76,0:02:09.53,main,Otto,0,0,0,,Estou surpreso com a falta de\Ngolpes decisivos de vocês.
+Dialogue: 0,0:02:09.91,0:02:15.53,main,Lye,0,0,0,,Todos vocês, adultos, contra um só pirralho,\Ne ainda não conseguem pegá-lo?
+Dialogue: 0,0:02:16.05,0:02:19.00,main,Lye,0,0,0,,Que bando de inúteis! Tão inúteis!\NClaramente inúteis!
+Dialogue: 0,0:02:19.00,0:02:22.24,main,Lye,0,0,0,,Completamente inúteis! Só inúteis!
+Dialogue: 0,0:02:22.24,0:02:29.40,main,Lye,0,0,0,,Digo, não somos nada comparados\Nao glutão indiscriminado, Roy!
+Dialogue: 0,0:02:30.75,0:02:36.81,flashback,Roy,0,0,0,,Bom! Ótimo! Maravilhoso!\NAgradável! Aceitável! Satisfatório!
+Dialogue: 0,0:02:36.81,0:02:39.06,flashback,Roy,0,0,0,,E é exatamente isso que faz disso...
+Dialogue: 0,0:02:39.65,0:02:42.52,flashback,Roy,0,0,0,,gula!
+Dialogue: 0,0:02:42.92,0:02:45.84,flashback,Julius,0,0,0,,Eu sou o cavaleiro espiritual,\NJulius Juukulius!
+Dialogue: 0,0:02:45.84,0:02:47.02,flashback,Julius,0,0,0,,Não vou baixar a guarda!
+Dialogue: 0,0:02:48.22,0:02:50.67,flashback,Julius,0,0,0,,Al Clauseria!
+Dialogue: 0,0:02:52.41,0:02:57.49,flashback,Roy,0,0,0,,Você é exatamente como\Nimaginávamos. Esplêndido.
+Dialogue: 0,0:03:00.55,0:03:01.16,main,Julius,0,0,0,,O quê?!
+Dialogue: 0,0:03:07.06,0:03:13.05,main,Roy,0,0,0,,Nós o idolatrávamos, Irmão, e essa é\Numa magia que deu tudo para criar.
+Dialogue: 0,0:03:13.05,0:03:16.30,main,Roy,0,0,0,,Não há como não\Na conhecermos!
+Dialogue: 0,0:03:17.71,0:03:20.22,main,Ricardo,0,0,0,,Cala essa maldita boca, seu idiota!
+Dialogue: 0,0:03:20.22,0:03:21.55,main,Roy,0,0,0,,Uau!
+Dialogue: 0,0:03:21.55,0:03:24.96,main,Roy,0,0,0,,Toma! Carne de cachorro\Né melhor no espeto!
+Dialogue: 0,0:03:24.96,0:03:29.92,main,Roy,0,0,0,,Carne dura e fibrosa precisa ser espetada\Naté ficar macia e fácil de comer,
+Dialogue: 0,0:03:29.92,0:03:32.23,main,Roy,0,0,0,,e virar adubo facilmente,
+Dialogue: 0,0:03:32.23,0:03:35.99,main,Roy,0,0,0,,mantendo a cadeia alimentar\Nem um ciclo sem fim!
+Dialogue: 0,0:03:35.99,0:03:38.08,main,Roy,0,0,0,,Não é, Ricardo-san?!
+Dialogue: 0,0:03:38.82,0:03:39.89,main,Julius,0,0,0,,Afaste-se!
+Dialogue: 0,0:03:39.89,0:03:41.41,main,Julius,0,0,0,,Ia! Alo!
+Dialogue: 0,0:03:43.96,0:03:47.95,main,Roy,0,0,0,,Sim, sim! Já sabíamos que esse belo\Ntrabalho em equipe viria!
+Dialogue: 0,0:03:50.08,0:03:51.58,main,Roy,0,0,0,,Ótimo! Ótimo!
+Dialogue: 0,0:03:51.91,0:03:56.37,main,Roy,0,0,0,,Estamos travando uma grande\Nbatalha contra vocês dois!
+Dialogue: 0,0:03:56.37,0:03:59.35,main,Roy,0,0,0,,Esse é o mundo do qual\Nhavíamos desistido um dia...
+Dialogue: 0,0:03:59.67,0:04:03.56,main,Roy,0,0,0,,Oh, que injusto! Que injusto!\NQue tremendamente injusto!
+Dialogue: 0,0:04:03.56,0:04:05.57,main,Ricardo,0,0,0,,Do que diabos você está tagarelando?
+Dialogue: 0,0:04:05.57,0:04:07.43,main,Ricardo,0,0,0,,Pirralho sinistro.
+Dialogue: 0,0:04:07.84,0:04:10.48,main,Ricardo,0,0,0,,E como é que você sabe o meu nome?!
+Dialogue: 0,0:04:11.41,0:04:14.40,main,Julius,0,0,0,,Precisa ficar quieto até\No sangramento parar.
+Dialogue: 0,0:04:15.57,0:04:16.86,main,Roy,0,0,0,,Isso não vai...
+Dialogue: 0,0:04:16.86,0:04:17.36,main,Roy,0,0,0,,Oh?
+Dialogue: 0,0:04:17.95,0:04:19.45,main,Julius,0,0,0,,Esta aqui é novidade para você, não é?
+Dialogue: 0,0:04:22.35,0:04:23.53,main,Roy,0,0,0,,E aí está!
+Dialogue: 0,0:04:23.96,0:04:26.96,main,Roy,0,0,0,,O gênio do esforço e o\Nmaior dos cavaleiros!
+Dialogue: 0,0:04:26.96,0:04:32.08,main,Roy,0,0,0,,Você ainda é cheio de encantos\Nque ainda não conhecemos!
+Dialogue: 0,0:04:34.12,0:04:35.42,main,Roy,0,0,0,,Eclipse.
+Dialogue: 0,0:04:41.77,0:04:43.95,main,Roy,0,0,0,,Nós usamos este golpe
+Dialogue: 0,0:04:43.95,0:04:48.05,main,Roy,0,0,0,,para matar outros 88\Nrostinhos bonitos como você.
+Dialogue: 0,0:04:48.05,0:04:52.90,main,Roy,0,0,0,,Sentiu até a medula\Ndos seus ossos, Irmão?
+Dialogue: 0,0:04:55.67,0:04:57.57,main,Ricardo,0,0,0,,Seu moleque...
+Dialogue: 0,0:05:00.05,0:05:02.03,main,Roy,0,0,0,,Bem-vindo de volta!
+Dialogue: 0,0:05:03.52,0:05:05.00,main,Roy,0,0,0,,Gostaria de ser uma refeição?
+Dialogue: 0,0:05:05.00,0:05:06.85,main,Roy,0,0,0,,Um festim?
+Dialogue: 0,0:05:06.85,0:05:08.21,main,Roy,0,0,0,,Ou talvez...
+Dialogue: 0,0:05:08.21,0:05:10.92,main,Roy,0,0,0,,Um grande banquete?!
+Dialogue: 0,0:05:15.01,0:05:18.30,main,Ricardo,0,0,0,,Artes da espada, artes marciais\Ne agora magia?
+Dialogue: 0,0:05:18.30,0:05:20.75,main,Ricardo,0,0,0,,O que diabos é você?!
+Dialogue: 0,0:05:20.75,0:05:24.10,main,Roy,0,0,0,,Somos apenas um humilde mago sem nome.
+Dialogue: 0,0:05:24.10,0:05:26.91,main,Roy,0,0,0,,Um pária do qual nem nossa\Nfamília se orgulha.
+Dialogue: 0,0:05:27.76,0:05:29.22,main,Roy,0,0,0,,Ou será que somos?!
+Dialogue: 0,0:05:38.26,0:05:41.69,main,Roy,0,0,0,,Uau! Incrível! Incrível! Incrível!
+Dialogue: 0,0:05:41.69,0:05:44.29,main,Roy,0,0,0,,Faz tanto tempo que alguém\Nsobreviveu a isso!
+Dialogue: 0,0:05:44.29,0:05:47.65,main,Ricardo,0,0,0,,Fazia séculos que não doía\Nassim, seu merdinha!
+Dialogue: 0,0:05:48.14,0:05:53.16,main,Julius,0,0,0,,Você domina a espada, as artes\Nmarciais e até a magia.
+Dialogue: 0,0:05:53.16,0:05:55.17,main,Julius,0,0,0,,Por que escolheu o mal?
+Dialogue: 0,0:05:55.17,0:05:56.37,main,Julius,0,0,0,,Com a sua força...
+Dialogue: 0,0:05:56.37,0:05:58.01,main,Roy,0,0,0,,Sabíamos que diria isso!
+Dialogue: 0,0:05:58.53,0:06:01.47,main,Roy,0,0,0,,Sabíamos que diria isso, Irmão.
+Dialogue: 0,0:06:01.47,0:06:06.27,main,Roy,0,0,0,,Você é o irmão que conhecemos,\No irmão em quem confiamos.
+Dialogue: 0,0:06:06.27,0:06:08.76,main,Roy,0,0,0,,É claro que esperávamos\Nque dissesse isso.
+Dialogue: 0,0:06:08.76,0:06:10.48,main,Roy,0,0,0,,Nós esperávamos!
+Dialogue: 0,0:06:11.14,0:06:13.93,main,Roy,0,0,0,,Lembra de quando éramos crianças?
+Dialogue: 0,0:06:14.44,0:06:17.96,main,Roy,0,0,0,,Quando estávamos doentes e debilitados,
+Dialogue: 0,0:06:17.96,0:06:22.91,main,Roy,0,0,0,,e pedimos para você pegar uma appa\Npara nós na árvore do quintal?!
+Dialogue: 0,0:06:24.11,0:06:27.73,main,Roy,0,0,0,,Ainda éramos tão pequenos,\Ne você também!
+Dialogue: 0,0:06:27.73,0:06:30.69,main,Roy,0,0,0,,No começo, você disse que não conseguia!
+Dialogue: 0,0:06:31.47,0:06:33.13,main,Roy,0,0,0,,Você se lembra?!
+Dialogue: 0,0:06:33.53,0:06:35.63,main,Roy,0,0,0,,Você realmente não se lembra?!
+Dialogue: 0,0:06:37.66,0:06:41.09,main,Julius,0,0,0,,O que... Do que você está falando?
+Dialogue: 0,0:06:42.05,0:06:45.72,main,Julius,0,0,0,,Não sei nada sobre isso. Nada!
+Dialogue: 0,0:06:46.17,0:06:50.93,main,Roy,0,0,0,,Nós sempre acreditamos! Sempre sentimos!
+Dialogue: 0,0:06:51.48,0:06:55.40,main,Roy,0,0,0,,Que éramos diferentes...\NQue éramos um fardo!
+Dialogue: 0,0:06:55.86,0:06:59.11,main,Roy,0,0,0,,E o que restou disso agora?!
+Dialogue: 0,0:06:59.11,0:07:02.82,main,Roy,0,0,0,,Que sensação maravilhosa!\NEntão é assim que é!
+Dialogue: 0,0:07:02.82,0:07:05.99,main,Roy,0,0,0,,Ah, deve ter sido maravilhoso!
+Dialogue: 0,0:07:07.38,0:07:11.45,main,Roy,0,0,0,,Agora finalmente entendemos!
+Dialogue: 0,0:07:12.32,0:07:16.12,main,Julius,0,0,0,,Não entendo nada sobre você!
+Dialogue: 0,0:07:22.13,0:07:23.96,main,Julius,0,0,0,,Venham, meus brotos!
+Dialogue: 0,0:07:23.96,0:07:25.45,main,Ricardo,0,0,0,,Julius!
+Dialogue: 0,0:07:25.45,0:07:26.96,main,Julius,0,0,0,,Isso acaba agora!
+Dialogue: 0,0:07:30.63,0:07:33.93,main,Roy,0,0,0,,Você pegou aquela appa para nós.
+Dialogue: 0,0:07:34.34,0:07:38.90,main,Roy,0,0,0,,E foi por isso que o odiamos tanto.
+Dialogue: 0,0:07:46.98,0:07:52.70,main,Capella,0,0,0,,Então, quantas vezes mais vai levar\Naté você conseguir mesmo me matar?
+Dialogue: 0,0:07:52.70,0:07:58.40,main,Al,0,0,0,,Verdade, mesmo se eu morrer cem vezes,\Nnão sei se algum dia te mataria.
+Dialogue: 0,0:07:58.40,0:08:01.71,main,Al,0,0,0,,Mas não acha que talvez\Nnão tenha pensado direito nisso?
+Dialogue: 0,0:08:02.92,0:08:05.78,main,Al,0,0,0,,Eu sabia que você viria aqui,
+Dialogue: 0,0:08:05.78,0:08:09.21,main,Al,0,0,0,,o que significa que nos preparamos\Npara te dar boas-vindas calorosas.
+Dialogue: 0,0:08:09.21,0:08:15.06,main,Al,0,0,0,,Tínhamos o ataque mais insano e aterrorizante\Npronto pra estilhaçar sua alma...
+Dialogue: 0,0:08:13.59,0:08:16.60,top,Capella,0,0,0,,Então vá em frente e faça logo!
+Dialogue: 0,0:08:16.60,0:08:20.19,main,Capella,0,0,0,,Vocês se deram todo esse trabalho\Npreparando boas-vindas calorosas...
+Dialogue: 0,0:08:20.19,0:08:25.03,main,Capella,0,0,0,,E fizeram tudo isso só por mim, né?
+Dialogue: 0,0:08:25.03,0:08:26.99,main,Capella,0,0,0,,Meus princípios nunca me permitiriam
+Dialogue: 0,0:08:26.99,0:08:30.57,main,Capella,0,0,0,,recusar tanta consideração!
+Dialogue: 0,0:08:30.57,0:08:33.20,main,Al,0,0,0,,Calma aí! Você vai mesmo morrer!
+Dialogue: 0,0:08:33.20,0:08:35.34,main,Al,0,0,0,,Morrer dói e dá medo, sabia?
+Dialogue: 0,0:08:35.34,0:08:37.14,main,Al,0,0,0,,Ainda mais na primeira vez.
+Dialogue: 0,0:08:37.14,0:08:38.38,main,Al,0,0,0,,Você não vai querer isso.
+Dialogue: 0,0:08:39.61,0:08:43.59,main,Al,0,0,0,,Devia mesmo guardar suas primeiras\Nvezes para a hora certa.
+Dialogue: 0,0:08:43.85,0:08:47.71,main,Capella,0,0,0,,Você até se deu ao trabalho\Nde fazer uma piada suja!
+Dialogue: 0,0:08:47.97,0:08:50.93,main,Capella,0,0,0,,Você realmente se importa comigo, não é?
+Dialogue: 0,0:08:50.93,0:08:52.81,main,Capella,0,0,0,,Até parece!
+Dialogue: 0,0:08:52.81,0:08:56.14,main,Capella,0,0,0,,Era tudo mentira para me enganar,\Nnão era?!
+Dialogue: 0,0:08:56.14,0:08:59.60,main,Capella,0,0,0,,Não vou deixar você escapar dessa!
+Dialogue: 0,0:09:03.59,0:09:09.03,main,Capella,0,0,0,,E então? De qual de mim você mais gosta?
+Dialogue: 0,0:09:14.61,0:09:17.71,main,Al,0,0,0,,Não consigo amar ninguém.
+Dialogue: 0,0:09:21.49,0:09:23.19,main,Capella,0,0,0,,Tinha mesmo uma armadilha!
+Dialogue: 0,0:09:23.87,0:09:27.04,main,Al,0,0,0,,Pensamos bastante no que você é\Nao preparar isso para você.
+Dialogue: 0,0:09:27.04,0:09:30.23,main,Al,0,0,0,,Nem foi por amor. Só pura animosidade.
+Dialogue: 0,0:09:34.01,0:09:37.96,main,Capella,0,0,0,,Ora, ora. Só para mim, é?
+Dialogue: 0,0:09:38.42,0:09:40.28,main,Capella,0,0,0,,Isso não...
+Dialogue: 0,0:09:41.12,0:09:42.98,main,Capella,0,0,0,,faz disso amor?
+Dialogue: 0,0:10:05.29,0:10:07.58,main,Anastasia,0,0,0,,Não tem motivo para se segurar.
+Dialogue: 0,0:10:08.15,0:10:10.19,main,Anastasia,0,0,0,,Não vou pensar nada demais nisso.
+Dialogue: 0,0:10:10.19,0:10:12.24,main,Al,0,0,0,,É que eu tenho vergonha, sabe.
+Dialogue: 0,0:10:12.24,0:10:16.63,main,Al,0,0,0,,Não curto a ideia de todo mundo\Nfalando do meu rosto depois.
+Dialogue: 0,0:10:16.63,0:10:17.36,main,Anastasia,0,0,0,,Oh?
+Dialogue: 0,0:10:18.57,0:10:21.57,main,Anastasia,0,0,0,,Nunca imaginei que ela realmente\Nfosse derrubar o lugar inteiro.
+Dialogue: 0,0:10:22.29,0:10:25.23,main,Anastasia,0,0,0,,Ainda bem que você está inteiro.
+Dialogue: 0,0:10:25.23,0:10:28.20,main,Al,0,0,0,,Acho que fui esmagado umas três vezes\Nescondido, mas tudo bem.
+Dialogue: 0,0:10:28.63,0:10:30.64,main,Al,0,0,0,,Como está o femboy de orelhas de gato?
+Dialogue: 0,0:10:30.64,0:10:32.41,main,Ferris,0,0,0,,Obrigado pela preocupação.
+Dialogue: 0,0:10:32.73,0:10:33.91,main,Ferris,0,0,0,,Estou bem.
+Dialogue: 0,0:10:35.12,0:10:36.52,main,Ferris,0,0,0,,E a Luxúria?
+Dialogue: 0,0:10:36.52,0:10:40.36,main,Al,0,0,0,,Ela com certeza está soterrada\Nsob tudo aquilo, mas...
+Dialogue: 0,0:10:40.36,0:10:44.49,main,Ferris,0,0,0,,É perda de tempo esperar que ela\Ntenha morrido lá embaixo, né?
+Dialogue: 0,0:10:45.07,0:10:49.47,main,Ferris,0,0,0,,Anastasia-sama explodiu o rosto dela\Ncom magia e ela ficou perfeitamente bem.
+Dialogue: 0,0:10:50.56,0:10:51.99,main,Al,0,0,0,,Magia?
+Dialogue: 0,0:10:51.99,0:10:54.08,main,Ferris,0,0,0,,E logo depois de afirmar\Nque não sabia lutar.
+Dialogue: 0,0:10:54.08,0:10:55.48,main,Ferris,0,0,0,,Nada legal da parte dela, né?
+Dialogue: 0,0:10:56.47,0:10:58.06,main,Ferris,0,0,0,,O-O que você está fazendo?!
+Dialogue: 0,0:10:58.74,0:11:01.68,main,Anastasia,0,0,0,,Se isso é uma piada, não tem graça.
+Dialogue: 0,0:11:01.68,0:11:03.51,main,Anastasia,0,0,0,,Qual é a sua ideia, Al-san?
+Dialogue: 0,0:11:03.75,0:11:06.39,main,Al,0,0,0,,Não vem com essa.
+Dialogue: 0,0:11:06.39,0:11:09.74,main,Al,0,0,0,,Você fez algo que Anastasia Hoshin\Nnão é capaz de fazer.
+Dialogue: 0,0:11:10.39,0:11:12.91,main,Al,0,0,0,,Qual é o seu jogo aqui?
+Dialogue: 0,0:11:13.37,0:11:16.10,main,Ferris,0,0,0,,Já chega! O que significa tudo isso?!
+Dialogue: 0,0:11:16.10,0:11:17.79,main,Al,0,0,0,,Ei, o que você está fazendo?
+Dialogue: 0,0:11:17.79,0:11:21.25,main,Ferris,0,0,0,,Não percebem que não é hora\Nde brigarmos entre nós?!
+Dialogue: 0,0:11:21.64,0:11:23.21,main,Ferris,0,0,0,,Nada acabou ainda!
+Dialogue: 0,0:11:23.21,0:11:25.26,main,Ferris,0,0,0,,Não podemos nos dar ao luxo de brigar!
+Dialogue: 0,0:11:26.95,0:11:29.51,main,Al,0,0,0,,Certo, entendi. Não se arrisque desse jeito.
+Dialogue: 0,0:11:29.51,0:11:34.28,main,Capella,0,0,0,,Ah, qual é. Não vão começar\Na se matar?
+Dialogue: 0,0:11:49.98,0:11:52.32,main,Capella,0,0,0,,Tã-dã-dã-dã!
+Dialogue: 0,0:12:00.04,0:12:03.80,main,Capella,0,0,0,,A Capella-chan voltou!
+Dialogue: 0,0:12:03.80,0:12:07.01,main,Al,0,0,0,,Hah! Nunca acreditei mesmo\Nque estivesse morta,
+Dialogue: 0,0:12:07.01,0:12:09.27,main,Al,0,0,0,,mas dói um pouco ver que\Nnão sofreu dano nenhum.
+Dialogue: 0,0:12:09.27,0:12:11.04,main,Capella,0,0,0,,Não, não, não!
+Dialogue: 0,0:12:11.04,0:12:14.52,main,Capella,0,0,0,,Até eu já estava me preparando\Npara morrer dessa vez.
+Dialogue: 0,0:12:14.52,0:12:17.03,main,Capella,0,0,0,,Na verdade, não estava nem um pouco!
+Dialogue: 0,0:12:17.03,0:12:19.06,main,Capella,0,0,0,,Mas meu coração deu mesmo um salto!
+Dialogue: 0,0:12:19.34,0:12:24.33,main,Capella,0,0,0,,Digo, depois de me acertarem com\Num ataque apaixonado desses?
+Dialogue: 0,0:12:24.33,0:12:26.03,main,Capella,0,0,0,,Claro que disparou!
+Dialogue: 0,0:12:26.36,0:12:29.21,main,Capella,0,0,0,,Ah, poderiam não tirar conclusões\Nprecipitadas, por favor?
+Dialogue: 0,0:12:29.21,0:12:34.44,main,Capella,0,0,0,,Adoro tolos como vocês que não veem\Nnem leem a situação em que estão!
+Dialogue: 0,0:12:34.84,0:12:38.21,main,Capella,0,0,0,,Vou me retirar por hoje.
+Dialogue: 0,0:12:38.21,0:12:38.96,main,Al,0,0,0,,Hã?
+Dialogue: 0,0:12:39.24,0:12:43.15,main,Capella,0,0,0,,Eu disse que não vou mais lutar.
+Dialogue: 0,0:12:43.15,0:12:47.23,main,Capella,0,0,0,,Afinal, já fiz o que queria fazer,
+Dialogue: 0,0:12:47.23,0:12:50.71,main,Capella,0,0,0,,e gravei os seus rostinhos doces\Ne fofos na memória.
+Dialogue: 0,0:12:50.71,0:12:52.41,main,Capella,0,0,0,,E acima de tudo...
+Dialogue: 0,0:12:51.19,0:12:53.16,top,Anastasia,0,0,0,,Foi isso que o Evangelho ordenou que fizesse?
+Dialogue: 0,0:12:54.02,0:12:54.83,main,Capella,0,0,0,,Hein?
+Dialogue: 0,0:12:57.99,0:13:02.08,main,Capella,0,0,0,,"Ordenou"? Isso faz parecer que estou\Nfazendo as vontades de um livro,
+Dialogue: 0,0:13:02.08,0:13:04.06,main,Capella,0,0,0,,e eu não gosto disso.
+Dialogue: 0,0:13:04.42,0:13:09.76,main,Capella,0,0,0,,Meus sentimentos por vocês não são ordens\Nde um livro qualquer. São reais.
+Dialogue: 0,0:13:09.76,0:13:11.92,main,Capella,0,0,0,,Amor puro!
+Dialogue: 0,0:13:13.45,0:13:14.82,main,Ferris,0,0,0,,Como isso é amor puro?!
+Dialogue: 0,0:13:15.17,0:13:19.39,main,Ferris,0,0,0,,Se a matarmos, aposto que\No corpo da Crusch-sama vai...
+Dialogue: 0,0:13:19.39,0:13:24.17,main,Capella,0,0,0,,Confundir esperança com ilusão\Né coisa de idiotas.
+Dialogue: 0,0:13:24.48,0:13:27.63,main,Capella,0,0,0,,Meu sangue de dragão e eu\Nsomos coisas separadas.
+Dialogue: 0,0:13:27.63,0:13:30.34,main,Capella,0,0,0,,Então, mesmo se eu morrer...
+Dialogue: 0,0:13:31.54,0:13:33.83,main,Capella,0,0,0,,o sangue não vai sumir!
+Dialogue: 0,0:13:35.05,0:13:39.82,main,Capella,0,0,0,,Mas se ainda quiserem vir\Natrás de mim, não posso impedi-los.
+Dialogue: 0,0:13:43.03,0:13:44.27,main,Al,0,0,0,,Tá de brincadeira comigo?!
+Dialogue: 0,0:13:44.71,0:13:45.76,main,Anastasia,0,0,0,,Semibestas?
+Dialogue: 0,0:13:46.15,0:13:49.86,main,Capella,0,0,0,,Hein? O que disse? Não é um nome ruim!
+Dialogue: 0,0:13:50.31,0:13:55.22,main,Capella,0,0,0,,São incompletos e feios, vivos mas mortos.\NÉ isso que os torna tão incríveis!
+Dialogue: 0,0:13:56.81,0:14:00.54,main,Ferris,0,0,0,,Como você consegue fazer isso?
+Dialogue: 0,0:14:01.02,0:14:04.54,main,Ferris,0,0,0,,Como pode fazer algo tão cruel?!
+Dialogue: 0,0:14:04.81,0:14:06.22,main,Capella,0,0,0,,Hum...
+Dialogue: 0,0:14:06.85,0:14:10.76,main,Capella,0,0,0,,Porque ninguém nunca me disse para\Nnão brincar com cadáveres, acho?
+Dialogue: 0,0:14:11.73,0:14:13.50,main,Al,0,0,0,,Não! Não se deixe provocar por ela!
+Dialogue: 0,0:14:13.50,0:14:14.50,main,Al,0,0,0,,Corram!
+Dialogue: 0,0:14:14.50,0:14:15.59,main,Anastasia,0,0,0,,Por aqui!
+Dialogue: 0,0:14:16.89,0:14:18.14,main,Al,0,0,0,,Desgraçados!
+Dialogue: 0,0:14:19.10,0:14:22.47,main,Capella,0,0,0,,Isso, isso mesmo! Podem fugir!
+Dialogue: 0,0:14:22.47,0:14:24.58,main,Capella,0,0,0,,Se não continuarem lutando,\Nmais vão morrer,
+Dialogue: 0,0:14:24.58,0:14:27.22,main,Capella,0,0,0,,e mais cadáveres significa\Nmais semibestas!
+Dialogue: 0,0:14:27.59,0:14:31.04,main,Capella,0,0,0,,Então deem tudo de si e\Nmassacrem todos eles!
+Dialogue: 0,0:14:36.91,0:14:38.87,main,Al,0,0,0,,Corram! Corram! Corram!
+Dialogue: 0,0:14:38.87,0:14:40.12,main,Al,0,0,0,,Temos que sair daqui!
+Dialogue: 0,0:14:42.72,0:14:44.87,main,Ferris,0,0,0,,Alguém... Alguém, por favor...
+Dialogue: 0,0:14:45.87,0:14:47.13,italics,Reinhard,0,0,0,,Entendido.
+Dialogue: 0,0:14:50.15,0:14:53.97,main,Reinhard,0,0,0,,Ferris, eu ouvi a sua voz.
+Dialogue: 0,0:14:53.97,0:14:55.26,main,Ferris,0,0,0,,Reinhard!
+Dialogue: 0,0:14:56.88,0:14:57.80,main,Ferris,0,0,0,,Mate-os!
+Dialogue: 0,0:14:58.29,0:15:01.26,main,Ferris,0,0,0,,Todos eles! Mate todos eles!
+Dialogue: 0,0:15:01.51,0:15:04.65,main,Ferris,0,0,0,,Você precisa dar a morte a eles!
+Dialogue: 0,0:15:06.60,0:15:10.32,main,Reinhard,0,0,0,,Sim. Cumprirei meu dever\Ncomo Santo da Espada.
+Dialogue: 0,0:15:28.57,0:15:31.21,main,Lye,0,0,0,,Bem, vamos lá! Tentem nos acertar!
+Dialogue: 0,0:15:31.21,0:15:32.61,main,Otto,0,0,0,,Você está bem?
+Dialogue: 0,0:15:32.61,0:15:35.74,main,Gaston,0,0,0,,Esse pirralho é bom de briga pra valer!
+Dialogue: 0,0:15:36.08,0:15:37.70,main,Otto,0,0,0,,Bom de briga?
+Dialogue: 0,0:15:37.92,0:15:41.83,main,Gaston,0,0,0,,Fui treinado pelo velho jardineiro\Nda casa do Reinhard, então sei reconhecer.
+Dialogue: 0,0:15:42.46,0:15:45.45,main,Gaston,0,0,0,,Os movimentos dele não são talento nato.
+Dialogue: 0,0:15:45.45,0:15:47.75,main,Gaston,0,0,0,,São movimentos de quem\Ntreinou por anos.
+Dialogue: 0,0:15:47.75,0:15:50.81,main,Otto,0,0,0,,Treinou? Tão jovem assim?
+Dialogue: 0,0:15:51.40,0:15:54.22,main,Otto,0,0,0,,O Arcebispo do Pecado da Gula...
+Dialogue: 0,0:15:54.79,0:15:56.60,main,Otto,0,0,0,,Espera, então quem quer que ele devore...
+Dialogue: 0,0:16:01.32,0:16:07.27,main,Lye,0,0,0,,Pela reação, acho que descobriu\Ncomo funcionamos, né?
+Dialogue: 0,0:16:07.27,0:16:11.91,main,Otto,0,0,0,,Descobri? Não faço ideia\Ndo que você está falando.
+Dialogue: 0,0:16:11.91,0:16:15.05,main,Lye,0,0,0,,Mensagens implícitas não são mesmo\No seu ponto forte, sabia?
+Dialogue: 0,0:16:15.05,0:16:19.18,main,Lye,0,0,0,,Talvez devesse desistir de ser\Nmercador antes que se machuque.
+Dialogue: 0,0:16:20.78,0:16:23.05,main,Lye,0,0,0,,Hicks Faltman.
+Dialogue: 0,0:16:27.63,0:16:30.44,main,Otto,0,0,0,,Dynas-san, quem é aquele\Ncaído no chão ali?
+Dialogue: 0,0:16:32.87,0:16:36.15,main,Lye,0,0,0,,Que triste. Que trágico.
+Dialogue: 0,0:16:36.15,0:16:39.71,main,Lye,0,0,0,,Que desolador. Que sombrio.\NQue lamentável.
+Dialogue: 0,0:16:39.71,0:16:41.77,main,Lye,0,0,0,,E por ser tão triste...
+Dialogue: 0,0:16:41.77,0:16:44.49,main,Lye,0,0,0,,Por ser triste demais...
+Dialogue: 0,0:16:44.49,0:16:49.50,main,Lye,0,0,0,,é exatamente por isso que temos que nos\Nentregar a esses reencontros unilaterais!
+Dialogue: 0,0:16:49.50,0:16:51.88,main,Otto,0,0,0,,Dynas-san! Quem é aquele?!
+Dialogue: 0,0:16:51.88,0:16:53.01,main,Otto,0,0,0,,Quem é?!
+Dialogue: 0,0:16:53.01,0:16:54.06,main,Dynas,0,0,0,,Não sei...
+Dialogue: 0,0:16:54.63,0:16:56.42,main,Dynas,0,0,0,,Nunca vi o rosto dele antes!
+Dialogue: 0,0:16:56.90,0:17:00.50,main,Dynas,0,0,0,,Nunca... vi...\NTenho certeza que não...
+Dialogue: 0,0:17:00.50,0:17:02.40,main,Lye,0,0,0,,Muito engraçado, Dynas.
+Dialogue: 0,0:17:03.51,0:17:05.39,main,Lye,0,0,0,,Somos amigos de longa data.
+Dialogue: 0,0:17:05.71,0:17:08.74,main,Lye,0,0,0,,Estávamos tão perto de deixar\Nnossa cidade natal toda limpa.
+Dialogue: 0,0:17:08.74,0:17:11.75,main,Lye,0,0,0,,Dói quando você diz coisas assim.
+Dialogue: 0,0:17:11.75,0:17:13.33,main,Dynas,0,0,0,,Onde diabos você...
+Dialogue: 0,0:17:13.33,0:17:16.38,main,Lye,0,0,0,,Sabemos o quanto você se esforçou.
+Dialogue: 0,0:17:16.38,0:17:20.24,main,Lye,0,0,0,,Não é culpa sua não ter conseguido\Nproteger Miriam e Meili.
+Dialogue: 0,0:17:21.52,0:17:22.53,main,Lye,0,0,0,,Foi apenas...
+Dialogue: 0,0:17:23.81,0:17:26.06,main,Lye,0,0,0,,um golpe de azar!
+Dialogue: 0,0:17:26.06,0:17:27.85,main,Dynas,0,0,0,,Cala a boca! Cala a boca! Cala a boca!
+Dialogue: 0,0:17:28.16,0:17:33.16,main,Dynas,0,0,0,,O que você sabe de mim,\Nseu monstro maldito?!
+Dialogue: 0,0:17:34.25,0:17:37.71,main,Otto,0,0,0,,Ele devora as memórias das pessoas\Ne adquire suas habilidades.
+Dialogue: 0,0:17:37.71,0:17:40.76,main,Otto,0,0,0,,Essa é a Autoridade da Gula\Nque consome o nome das pessoas!
+Dialogue: 0,0:17:40.76,0:17:43.54,main,Lye,0,0,0,,Bom! Ótimo! Maravilhoso!
+Dialogue: 0,0:17:43.54,0:17:45.93,main,Lye,0,0,0,,Agradável! Aceitável! Satisfatório!
+Dialogue: 0,0:17:45.93,0:17:48.77,main,Lye,0,0,0,,E é exatamente isso que faz disso...
+Dialogue: 0,0:17:48.77,0:17:50.63,main,Lye,0,0,0,,gula!
+Dialogue: 0,0:17:52.73,0:17:55.72,main,Lye,0,0,0,,Emoções fortes não são incríveis?
+Dialogue: 0,0:17:55.72,0:17:57.23,main,Lye,0,0,0,,São tão intensas.
+Dialogue: 0,0:17:57.68,0:18:00.84,main,Lye,0,0,0,,A doce fragrância simplesmente exala delas,
+Dialogue: 0,0:18:00.84,0:18:05.11,main,Lye,0,0,0,,e parece fazer o corpo\Ninteiro formigar.
+Dialogue: 0,0:18:05.11,0:18:07.05,main,Lye,0,0,0,,Você entende, não é?
+Dialogue: 0,0:18:07.05,0:18:09.53,main,Otto,0,0,0,,Desculpe, mas sou só um sujeito normal.
+Dialogue: 0,0:18:09.53,0:18:13.32,main,Otto,0,0,0,,Não consigo pensar nas pessoas\Npelo quão deliciosas elas são.
+Dialogue: 0,0:18:17.45,0:18:19.21,main,Otto,0,0,0,,Preciso que todos me façam um favor!
+Dialogue: 0,0:18:19.21,0:18:21.59,main,Otto,0,0,0,,Por favor, ninguém diga o meu nome!
+Dialogue: 0,0:18:23.63,0:18:28.44,main,Otto,0,0,0,,Será que nos deixar revidar\Ntodo esse tempo
+Dialogue: 0,0:18:28.44,0:18:33.85,main,Otto,0,0,0,,era a sua ideia de preparo,\Ncomo pôr a mesa para uma refeição?
+Dialogue: 0,0:18:33.85,0:18:38.13,main,Lye,0,0,0,,Gente com instintos aguçados\Né tão difícil de finalizar.
+Dialogue: 0,0:18:38.13,0:18:42.87,main,Lye,0,0,0,,Eles se safam porque isso os torna ainda\Nmais saborosos, mas ainda assim...
+Dialogue: 0,0:18:44.01,0:18:47.53,main,Otto,0,0,0,,Sei que podem achar que estou me\Ncolocando em primeiro lugar com isso,
+Dialogue: 0,0:18:47.89,0:18:49.59,main,Otto,0,0,0,,mas, por favor, evitem dizer o meu nome!
+Dialogue: 0,0:18:49.59,0:18:51.24,main,Gaston,0,0,0,,Desculpa aí, companheiro,
+Dialogue: 0,0:18:51.56,0:18:54.81,main,Gaston,0,0,0,,mas eu nunca soube o seu nome,\Nem primeiro lugar.
+Dialogue: 0,0:18:55.37,0:18:56.17,main,Otto,0,0,0,,Hã?
+Dialogue: 0,0:18:58.72,0:19:01.12,main,Dynas,0,0,0,,Peço desculpas, oficial de assuntos internos.
+Dialogue: 0,0:19:01.12,0:19:03.78,main,Dynas,0,0,0,,Eu também havia esquecido o seu nome.
+Dialogue: 0,0:19:04.51,0:19:07.07,main,Otto,0,0,0,,Sim, sim, claro!
+Dialogue: 0,0:19:07.07,0:19:09.97,main,Otto,0,0,0,,Não é como se fôssemos amigos mesmo,
+Dialogue: 0,0:19:09.97,0:19:12.78,main,Otto,0,0,0,,ou como se eu fosse tão importante assim!
+Dialogue: 0,0:19:12.78,0:19:14.76,main,Otto,0,0,0,,Eu venci, droga!
+Dialogue: 0,0:19:14.76,0:19:16.89,main,Lye,0,0,0,,Dynas e Gaston.
+Dialogue: 0,0:19:18.00,0:19:21.11,main,Lye,0,0,0,,Nada mal, mas não dignos\Nde um prato principal.
+Dialogue: 0,0:19:21.11,0:19:25.43,main,Lye,0,0,0,,Mas a Felt-chan escapou,\Ne perder você também...
+Dialogue: 0,0:19:25.43,0:19:27.78,main,Lye,0,0,0,,Seria demais.
+Dialogue: 0,0:19:28.13,0:19:31.53,main,Lye,0,0,0,,Sem falar que a Rui acabaria conosco.
+Dialogue: 0,0:19:31.90,0:19:34.00,main,Otto,0,0,0,,Outro nome que não conheço...
+Dialogue: 0,0:19:34.00,0:19:35.79,main,Otto,0,0,0,,Isso não me tranquiliza nem um pouco.
+Dialogue: 0,0:19:36.24,0:19:37.58,main,Otto,0,0,0,,Escutem todos.
+Dialogue: 0,0:19:37.58,0:19:41.34,main,Otto,0,0,0,,Ele pode devorar qualquer coisa que tocar.\NSe tocar em vocês, considerem-se mortos.
+Dialogue: 0,0:19:42.88,0:19:45.30,main,Otto,0,0,0,,Obrigado pela consideração\Nde esperar.
+Dialogue: 0,0:19:45.64,0:19:47.58,main,Otto,0,0,0,,Que boas maneiras impecáveis você tem.
+Dialogue: 0,0:19:47.58,0:19:51.55,main,Lye,0,0,0,,Todo bom apreciador sabe esperar\Naté a mesa estar posta.
+Dialogue: 0,0:19:51.83,0:19:56.79,main,Lye,0,0,0,,Ser exigente com a comida\Ntorna a vida muito mais rica.
+Dialogue: 0,0:19:56.79,0:19:59.77,main,Lye,0,0,0,,Agora, então... hora do banquete!
+Dialogue: 0,0:20:10.35,0:20:12.24,main,Lye,0,0,0,,Ei, nada mal!
+Dialogue: 0,0:20:12.24,0:20:15.15,main,Lye,0,0,0,,Mas criar uma abertura não vai...
+Dialogue: 0,0:20:20.21,0:20:23.00,main,Lye,0,0,0,,Tudo depende de ter a pessoa\Ncerta para o trabalho!
+Dialogue: 0,0:20:23.00,0:20:24.96,main,Lye,0,0,0,,Não importa quem você seja, devia saber
+Dialogue: 0,0:20:24.96,0:20:27.88,main,Lye,0,0,0,,que há uma ordem certa para\Ntrazer a comida à mesa!
+Dialogue: 0,0:20:28.23,0:20:29.97,main,Lye,0,0,0,,Se ignorar isso...
+Dialogue: 0,0:20:29.97,0:20:32.35,main,Otto,0,0,0,,O quê? Estraga tudo?
+Dialogue: 0,0:20:35.68,0:20:37.79,main,Lye,0,0,0,,Uau, impressionante!
+Dialogue: 0,0:20:47.62,0:20:50.63,main,Otto,0,0,0,,Isso devia tê-lo pego de surpresa também.
+Dialogue: 0,0:20:53.44,0:20:55.99,main,Lye,0,0,0,,Ah, isso é pura maldade.
+Dialogue: 0,0:20:56.52,0:21:00.61,main,Lye,0,0,0,,Você estragou nossas melhores roupas.
+Dialogue: 0,0:21:01.74,0:21:05.80,main,Otto,0,0,0,,Se essas cicatrizes foram o que\Nfizeram você ficar assim...
+Dialogue: 0,0:21:07.84,0:21:10.35,main,Lye,0,0,0,,Vai nos oferecer sua compaixão?!
+Dialogue: 0,0:21:10.35,0:21:12.72,main,Lye,0,0,0,,Isso é muito barato da sua parte!
+Dialogue: 0,0:21:12.72,0:21:15.09,main,Lye,0,0,0,,Se vai ter pena de nós, diga seu nome!
+Dialogue: 0,0:21:15.09,0:21:19.14,main,Lye,0,0,0,,Claro, há outros jeitos de\Narrancar isso de você...
+Dialogue: 0,0:21:21.16,0:21:23.60,main,Lye,0,0,0,,Vamos pegar um de cada vez?
+Dialogue: 0,0:21:25.54,0:21:27.94,main,Lye,0,0,0,,Hora do banquete!
+Dialogue: 0,0:21:27.94,0:21:38.35,Episode Title,Title,0,0,0,,Um Jantar Hediondo
+Dialogue: 0,0:21:30.24,0:21:38.37,main,Beatrice,0,0,0,,É falta de educação começar a comer antes\Nde todos chegarem à mesa, eu suponho.
+Dialogue: 0,0:21:55.30,0:21:56.99,main,Beatrice,0,0,0,,Seu dedo está bem, eu suponho?
+Dialogue: 0,0:21:56.99,0:21:59.59,main,Otto,0,0,0,,Sim, embora ele tenha deixado marcas de dentes.
+Dialogue: 0,0:21:59.59,0:22:00.10,main,Beatrice,0,0,0,,Ótimo.
+Dialogue: 0,0:22:01.16,0:22:04.00,main,Beatrice,0,0,0,,Então preciso me livrar\Ndesse pirralho podre rápido
+Dialogue: 0,0:22:04.00,0:22:06.38,main,Beatrice,0,0,0,,e voltar para o Subaru\Nme carregar, eu suponho.
+Dialogue: 0,0:22:06.38,0:22:09.52,main,Otto,0,0,0,,Concordo. Obrigado pela ajuda, Bea...
+Dialogue: 0,0:22:10.66,0:22:15.14,main,Lye,0,0,0,,O que faz andando sozinha\Nlá fora, Beatrice-sama?
+Dialogue: 0,0:22:16.90,0:22:22.00,main,Lye,0,0,0,,Você era tão teimosa sobre nunca\Nsair da biblioteca proibida antes.
+Dialogue: 0,0:22:22.00,0:22:26.58,main,Lye,0,0,0,,Só saía para as refeições e para\Npassar tempo com o grande espírito.
+Dialogue: 0,0:22:27.32,0:22:30.80,main,Lye,0,0,0,,Bem, talvez houvesse algumas exceções, né?
+Dialogue: 0,0:22:31.54,0:22:35.26,main,Beatrice,0,0,0,,Entendi, eu suponho. Então é esse o truque.
+Dialogue: 0,0:22:35.52,0:22:40.45,main,Beatrice,0,0,0,,Quantas pessoas está carregando\Ndentro de si, eu suponho?!
+Dialogue: 0,0:22:40.45,0:22:41.13,main,Lye,0,0,0,,Bem...
+Dialogue: 0,0:22:41.78,0:22:42.73,main,Otto,0,0,0,,Não me diga...
+Dialogue: 0,0:22:44.05,0:22:48.19,main,Lye,0,0,0,,Uma funcionária exemplar do\NMargrave Roswaal L. Mathers,
+Dialogue: 0,0:22:48.63,0:22:51.33,main,Lye,0,0,0,,e atualmente atendente do nosso\Núnico e amado,
+Dialogue: 0,0:22:51.33,0:22:57.01,main,Lye,0,0,0,,nosso querido Natsuki Subaru,\Nque um dia será um herói...
+Dialogue: 0,0:22:57.50,0:22:58.20,main,Lye,0,0,0,,Rem.
+Dialogue: 0,0:22:59.36,0:23:01.60,main,Lye,0,0,0,,É isso mesmo?
+Dialogue: 0,0:23:01.87,0:23:05.83,main,Lye,0,0,0,,Deixe-nos ver nosso amado herói!
+Dialogue: 0,0:23:05.83,0:23:11.17,main,Lye,0,0,0,,Nosso herói deveria vir\Ne nos julgar!
+Dialogue: 0,0:23:11.44,0:23:14.13,main,Lye,0,0,0,,O Arcebispo do Pecado da Gula,
+Dialogue: 0,0:23:14.13,0:23:17.97,main,Lye,0,0,0,,Lye Batenkaitos!
+Dialogue: 0,0:23:19.36,0:23:20.78,main,Beatrice,0,0,0,,Este...
+Dialogue: 0,0:23:21.82,0:23:25.77,main,Beatrice,0,0,0,,Este é o único que não podemos\Ndeixar ver o Subaru, eu suponho!
+Dialogue: 0,0:23:25.77,0:23:28.64,main,Beatrice,0,0,0,,Se o Subaru o vir, ele vai se machucar.
+Dialogue: 0,0:23:28.64,0:23:30.94,main,Beatrice,0,0,0,,O dano será irreparável.
+Dialogue: 0,0:23:32.21,0:23:33.15,main,Beatrice,0,0,0,,É por isso que...
+Dialogue: 0,0:23:33.80,0:23:34.86,main,Otto,0,0,0,,Nós dois...
+Dialogue: 0,0:23:36.19,0:23:38.42,main,Otto,0,0,0,,temos que detê-lo nós mesmos, bem aqui!

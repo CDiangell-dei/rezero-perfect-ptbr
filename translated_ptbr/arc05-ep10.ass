@@ -1,0 +1,274 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScaledBorderAndShadow: yes
+Original Script: rzpc  [http://www.crunchyroll.com/user/rzpc]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
+Style: main,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: top,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: italicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: flashback,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashback italics,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: flashbacktop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,6,3,8,60,60,54,1
+Style: flashbackitalicstop,Trebuchet MS,72,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: overlaptop,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,8,30,30,54,1
+Style: overlap italics,Trebuchet MS,72,&H007FD3F2,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,30,30,54,1
+Style: sign_Arial,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ArialBlack,Arial Black,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_CourierNew,Courier New,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_ComicSansMS,Comic Sans MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Georgia,Georgia,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Impact,Impact,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TimesNewRoman,Times New Roman,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_TrebuchetMS,Trebuchet MS,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: sign_Verdana,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,6,2,90,90,60,1
+Style: Episode Title,Times New Roman,90,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,90,90,900,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.33,0:00:03.85,flashback,Liliana,0,0,0,,Aproximem-se todos!
+Dialogue: 0,0:00:03.85,0:00:07.37,flashback,Liliana,0,0,0,,Somos os bardos que vão\Npara onde o vento soprar:
+Dialogue: 0,0:00:07.37,0:00:09.19,flashback,Liliana,0,0,0,,a Trupe Masquerade!
+Dialogue: 0,0:00:09.19,0:00:11.78,flashback,Liliana,0,0,0,,Quanto ao espetáculo de hoje, logo verã...
+Dialogue: 0,0:00:11.78,0:00:12.83,flashback,Liliana,0,0,0,,Ai!
+Dialogue: 0,0:00:12.83,0:00:14.66,flashback,Liliana's Mom,0,0,0,,Não faça cena só porque mordeu a língua!
+Dialogue: 0,0:00:15.18,0:00:17.37,flashback,Liliana,0,0,0,,Peço mil desculpas.
+Dialogue: 0,0:00:19.58,0:00:23.17,flashback,Liliana's Mom,0,0,0,,Quem estiver longe, escute bem,
+Dialogue: 0,0:00:23.17,0:00:25.33,flashback,Liliana's Mom,0,0,0,,e quem estiver perto, venha dançar!
+Dialogue: 0,0:00:25.67,0:00:29.59,flashback,Liliana's Mom,0,0,0,,A Trupe Masquerade vai agora\Ncantar e dançar para vocês!
+Dialogue: 0,0:00:30.34,0:00:33.59,flashback italics,Liliana's Mom,0,0,0,,Bebam e cantem, sem jamais cansar
+Dialogue: 0,0:00:33.84,0:00:37.32,flashback italics,Liliana's Mom,0,0,0,,Esqueçam as mágoas de hoje\Nantes do dia terminar
+Dialogue: 0,0:00:37.32,0:00:40.47,flashback italics,Liliana's Mom,0,0,0,,Bebam e cantem, e mesmo\Nque a noite vá avançar
+Dialogue: 0,0:00:40.47,0:00:44.59,flashback italics,Liliana's Mom,0,0,0,,Seguiremos todos bebendo
+Dialogue: 0,0:00:44.59,0:00:48.08,flashback italics,Liliana's Mom,0,0,0,,Sim, cantem uma canção de alegria
+Dialogue: 0,0:00:48.08,0:00:51.61,flashback italics,Liliana's Mom,0,0,0,,Sim, que ela alcance a lua
+Dialogue: 0,0:00:51.61,0:01:00.29,flashback italics,Liliana's Mom,0,0,0,,Sim, amanhã outra vez iremos\Nbeber, cantar e gargalhar
+Dialogue: 0,0:01:15.23,0:01:18.47,flashback,Liliana,0,0,0,,Quando ligo aquela estrela àquela outra,
+Dialogue: 0,0:01:18.47,0:01:21.74,flashback,Liliana,0,0,0,,parece direitinho a presa de um guiltylowe.
+Dialogue: 0,0:01:23.17,0:01:24.92,flashback,Liliana,0,0,0,,Veio uma canção na minha cabeça!
+Dialogue: 0,0:01:24.92,0:01:27.48,flashback,Liliana,0,0,0,,"O Guiltylowe Não Desiste"!
+Dialogue: 0,0:01:27.75,0:01:32.51,flashback italics,Liliana,0,0,0,,Ah, marche rumo ao fogo, rumo à água
+Dialogue: 0,0:01:32.51,0:01:34.48,flashback italics,Liliana,0,0,0,,Enquanto tiver suas presas...
+Dialogue: 0,0:01:34.48,0:01:37.84,flashback,Liliana's Mom,0,0,0,,Pare de cantar essas bobagens\Ne vá logo dormir!
+Dialogue: 0,0:01:37.84,0:01:39.53,flashback,Liliana's Mom,0,0,0,,Temos que acordar cedo amanhã de novo.
+Dialogue: 0,0:01:58.44,0:02:00.47,flashback,Liliana,0,0,0,,Ah, por quê?!
+Dialogue: 0,0:02:00.78,0:02:04.43,flashback,Liliana's Dad,0,0,0,,Numa cidade grande, quem manda\Nsão os donos dos espetáculos.
+Dialogue: 0,0:02:04.43,0:02:07.18,flashback,Liliana's Dad,0,0,0,,Nós só cantamos em vilarejos\Nonde podemos fazer do nosso jeito.
+Dialogue: 0,0:02:11.89,0:02:13.36,flashback,Liliana,0,0,0,,Ei, mãe!
+Dialogue: 0,0:02:13.79,0:02:16.19,flashback,Liliana,0,0,0,,Vamos fazer "Reid, o Mestre Espadachim" depois!
+Dialogue: 0,0:02:21.39,0:02:25.45,flashback,Liliana's Mom,0,0,0,,Vai levar uns bons dez anos até\Nvocê poder escolher nossas apresentações.
+Dialogue: 0,0:02:25.85,0:02:27.41,flashback,Liliana,0,0,0,,Ah, qual é!
+Dialogue: 0,0:02:29.08,0:02:33.88,flashback,Liliana's Dad,0,0,0,,Não vou dividir esse coelho que cacei\Ncom uma pirralha insolente dessas.
+Dialogue: 0,0:02:34.51,0:02:35.63,flashback,Liliana,0,0,0,,Chega! Cansei!
+Dialogue: 0,0:02:36.97,0:02:37.94,flashback,Liliana's Mom,0,0,0,,Liliana!
+Dialogue: 0,0:02:37.94,0:02:39.16,flashback,Liliana's Dad,0,0,0,,O que significa isso?!
+Dialogue: 0,0:02:39.16,0:02:42.39,flashback,Liliana,0,0,0,,Vocês que façam o que quiserem!
+Dialogue: 0,0:02:42.72,0:02:44.94,flashback,Liliana,0,0,0,,Eu vou para a cidade grande!
+Dialogue: 0,0:02:49.29,0:02:50.85,flashback,Liliana,0,0,0,,Só me aguardem!
+Dialogue: 0,0:02:51.58,0:02:55.02,flashback,Liliana,0,0,0,,Vou me tornar o rei dos bardos!
+Dialogue: 0,0:04:28.93,0:04:30.79,main,Liliana,0,0,0,,Priscilla-sama!
+Dialogue: 0,0:04:37.65,0:04:38.98,main,Priscilla,0,0,0,,Não faça alarde.
+Dialogue: 0,0:04:43.74,0:04:47.05,main,Priscilla,0,0,0,,Quebrar meu colar cobra\Num preço altíssimo.
+Dialogue: 0,0:04:47.29,0:04:48.69,main,Sirius,0,0,0,,Entendi.
+Dialogue: 0,0:04:48.69,0:04:52.81,main,Sirius,0,0,0,,Você faz um objeto que julga\Nvalioso receber o dano no seu lugar.
+Dialogue: 0,0:04:53.47,0:04:56.37,main,Sirius,0,0,0,,Quanta arrogância a sua!
+Dialogue: 0,0:04:56.37,0:04:59.82,main,Sirius,0,0,0,,Até "Íris e o Rei dos Espinhos"\Nficaria pálida como a morte!
+Dialogue: 0,0:05:01.82,0:05:05.07,main,Priscilla,0,0,0,,Criatura desprezível que vasculha\No passado dos outros...
+Dialogue: 0,0:05:05.32,0:05:09.45,main,Priscilla,0,0,0,,Nem a morte bastaria para expiar\Num gosto tão vulgar!
+Dialogue: 0,0:05:09.76,0:05:12.23,main,Sirius,0,0,0,,Ora, não fique tão furiosa.
+Dialogue: 0,0:05:12.23,0:05:16.00,main,Sirius,0,0,0,,A ira é a emoção mais\Ndetestável que existe.
+Dialogue: 0,0:05:16.00,0:05:20.66,main,Sirius,0,0,0,,O coração das pessoas deveria estar\Nsempre repleto de alegria!
+Dialogue: 0,0:05:20.66,0:05:24.42,main,Sirius,0,0,0,,Por isso uso minha Autoridade\Npara abrir seus corações,
+Dialogue: 0,0:05:24.42,0:05:27.43,main,Sirius,0,0,0,,para que todos compartilhem a alegria\Ne se compreendam mutuamente!
+Dialogue: 0,0:05:27.43,0:05:32.77,main,Sirius,0,0,0,,É isso que se chama compreensão mútua:\No primeiro passo rumo ao amor!
+Dialogue: 0,0:05:33.30,0:05:35.64,main,Liliana,0,0,0,,O quê? Você é idiota?
+Dialogue: 0,0:05:37.64,0:05:38.60,main,Sirius,0,0,0,,Como disse?
+Dialogue: 0,0:05:39.10,0:05:41.57,main,Liliana,0,0,0,,Está vendo as pessoas ao seu redor?
+Dialogue: 0,0:05:41.92,0:05:44.32,main,Liliana,0,0,0,,É isso que você chama de\N"compreensão mútua"?
+Dialogue: 0,0:05:44.32,0:05:47.28,main,Liliana,0,0,0,,É esse o estado ideal alcançado\Nao compartilhar emoções?
+Dialogue: 0,0:05:47.79,0:05:49.24,main,Liliana,0,0,0,,Você é nojenta!
+Dialogue: 0,0:05:49.84,0:05:51.95,main,Liliana,0,0,0,,Se quiser mesmo se compreender\Ncom alguém,
+Dialogue: 0,0:05:52.41,0:05:55.58,main,Liliana,0,0,0,,cale essa boca e escute a minha canção!
+Dialogue: 0,0:06:00.40,0:06:02.50,main,Priscilla,0,0,0,,Enfim revelou sua verdadeira face.
+Dialogue: 0,0:06:03.07,0:06:03.96,main,Sirius,0,0,0,,O quê?
+Dialogue: 0,0:06:03.96,0:06:07.30,main,Priscilla,0,0,0,,Você só queria silenciar\No que lhe era inconveniente.
+Dialogue: 0,0:06:07.30,0:06:12.30,main,Priscilla,0,0,0,,Deixando-me de lado, o fato de não ter\Nfuncionado na cantora claramente a irrita.
+Dialogue: 0,0:06:13.08,0:06:13.87,main,Sirius,0,0,0,,Não...
+Dialogue: 0,0:06:13.87,0:06:15.81,main,Sirius,0,0,0,,Não, não! Não, não, não, não!
+Dialogue: 0,0:06:15.81,0:06:17.64,main,Sirius,0,0,0,,Por favor! Não seja ridícula!
+Dialogue: 0,0:06:18.00,0:06:21.36,main,Sirius,0,0,0,,Eu jamais cederia a um impulso como...
+Dialogue: 0,0:06:21.61,0:06:25.19,main,Priscilla,0,0,0,,Bastou ouvir algo que soou\Ndesagradável aos seus ouvidos
+Dialogue: 0,0:06:25.56,0:06:27.11,main,Priscilla,0,0,0,,para cair em fúria.
+Dialogue: 0,0:06:27.61,0:06:30.82,main,Priscilla,0,0,0,,Sua "ira" barata não vale\Nmais do que isso.
+Dialogue: 0,0:06:31.95,0:06:37.50,main,Sirius,0,0,0,,Não reduza a nossa ira\Na algo tão vulgar!
+Dialogue: 0,0:06:38.00,0:06:43.00,main,Sirius,0,0,0,,Esta ira é o único presente que recebi\Ndele... do meu marido!
+Dialogue: 0,0:06:43.00,0:06:47.13,main,Priscilla,0,0,0,,A única coisa que seu marido lhe deu\Nfoi raiva? Patético.
+Dialogue: 0,0:06:47.46,0:06:49.75,main,Priscilla,0,0,0,,Eu tive oito maridos,
+Dialogue: 0,0:06:49.75,0:06:54.10,main,Priscilla,0,0,0,,e cada um deles me cumulou de presentes\Npara atrair o meu interesse.
+Dialogue: 0,0:06:54.10,0:06:55.43,main,Sirius,0,0,0,,Oito?!
+Dialogue: 0,0:06:55.85,0:06:59.98,main,Sirius,0,0,0,,Enquanto eu dediquei tanto\Nde mim e do meu tempo
+Dialogue: 0,0:06:59.98,0:07:02.77,main,Sirius,0,0,0,,para forjar um laço com\No coração de um único homem?!
+Dialogue: 0,0:07:02.77,0:07:06.48,main,Priscilla,0,0,0,,Não me culpe pela sua falta de encanto.
+Dialogue: 0,0:07:06.48,0:07:12.99,main,Priscilla,0,0,0,,Duvido até que o pobre homem que você\Ntanto ama sequer a enxergue.
+Dialogue: 0,0:07:12.99,0:07:18.20,main,Sirius,0,0,0,,Meu marido e eu nos amamos profundamente!
+Dialogue: 0,0:07:36.50,0:07:37.39,main,Liliana,0,0,0,,Priscilla-sama!
+Dialogue: 0,0:07:39.66,0:07:41.14,main,Sirius,0,0,0,,Não ouse desviar o olhar!
+Dialogue: 0,0:07:41.14,0:07:45.44,main,Sirius,0,0,0,,Minha ira estava prestes a\Nreduzir você a cinzas!
+Dialogue: 0,0:07:46.08,0:07:48.44,main,Priscilla,0,0,0,,Enfrentar você é algo que posso\Nfazer no meu próprio tempo.
+Dialogue: 0,0:07:48.92,0:07:51.93,main,Priscilla,0,0,0,,Não se atreva a palpitar sobre meus atos.
+Dialogue: 0,0:07:58.38,0:08:00.45,main,Priscilla,0,0,0,,Que labareda mais deselegante.
+Dialogue: 0,0:08:01.17,0:08:05.63,main,Priscilla,0,0,0,,Como desbravadora das chamas,\Npermita-me mostrar como se faz.
+Dialogue: 0,0:08:12.93,0:08:16.90,main,Priscilla,0,0,0,,Este fogo queima apenas o que eu desejo.
+Dialogue: 0,0:08:17.56,0:08:19.38,main,Priscilla,0,0,0,,O palco está armado.
+Dialogue: 0,0:08:19.38,0:08:21.56,main,Priscilla,0,0,0,,Vá em frente e me entretenha.
+Dialogue: 0,0:08:24.43,0:08:26.77,main,Liliana,0,0,0,,Pode deixar!
+Dialogue: 0,0:08:32.55,0:08:34.63,main,Liliana,0,0,0,,Ai! Quente, quente, quente!
+Dialogue: 0,0:08:37.74,0:08:41.20,main,Liliana,0,0,0,,Só corri um pouquinho e\Njá estou exausta.
+Dialogue: 0,0:08:41.96,0:08:45.49,main,Liliana,0,0,0,,Andei levando vida mansa demais nesta cidade!
+Dialogue: 0,0:08:46.17,0:08:51.92,main,Liliana,0,0,0,,E a culpa é toda do Kiritaka-san\Ne dos outros!
+Dialogue: 0,0:08:51.92,0:08:53.26,main,Liliana,0,0,0,,Mas...
+Dialogue: 0,0:08:53.26,0:08:58.38,main,Liliana,0,0,0,,É exatamente por isso que\Nnão posso desanimar agora!
+Dialogue: 0,0:08:59.02,0:09:03.46,main,Liliana,0,0,0,,Esta vai ser a apresentação da minha vida!
+Dialogue: 0,0:09:05.64,0:09:10.36,main,Liliana,0,0,0,,Eu... vou... despejar...
+Dialogue: 0,0:09:10.97,0:09:13.74,main,Liliana,0,0,0,,toda a paixão do meu corpo nela!
+Dialogue: 0,0:09:14.34,0:09:18.00,main,Liliana,0,0,0,,Quem estiver longe, escute bem,
+Dialogue: 0,0:09:18.00,0:09:20.08,main,Liliana,0,0,0,,e quem estiver perto, venha dançar!
+Dialogue: 0,0:09:20.65,0:09:24.45,main,Liliana,0,0,0,,E para quem está {\i1}bem{\i0} longe,\Nvou cantar ainda mais alto,
+Dialogue: 0,0:09:24.45,0:09:25.87,main,Liliana,0,0,0,,então escutem com atenção!
+Dialogue: 0,0:09:26.28,0:09:28.71,main,Liliana,0,0,0,,Eu, Liliana Masquerade,
+Dialogue: 0,0:09:29.07,0:09:31.72,main,Liliana,0,0,0,,vou agora cantar e dançar para vocês!
+Dialogue: 0,0:09:31.72,0:09:33.13,main,Liliana,0,0,0,,Escutem a minha canção!
+Dialogue: 0,0:09:33.86,0:09:35.97,main,Liliana,0,0,0,,"Enquanto o Céu Supera a Alvorada"!
+Dialogue: 0,0:11:12.15,0:11:15.61,flashback,Liliana,0,0,0,,É assim que uma barda deve ser...
+Dialogue: 0,0:11:15.61,0:11:17.50,flashback,Liliana,0,0,0,,caminhar lado a lado com a música,
+Dialogue: 0,0:11:17.50,0:11:20.03,flashback,Liliana,0,0,0,,viver junto de sua canção.
+Dialogue: 0,0:11:20.53,0:11:23.53,flashback,Liliana,0,0,0,,Meu coração... parece que vai explodir...
+Dialogue: 0,0:11:24.00,0:11:27.22,flashback,Liliana,0,0,0,,Bem, não vai explodir, mas...
+Dialogue: 0,0:11:31.78,0:11:33.32,flashback,Liliana,0,0,0,,Nenhum herói...
+Dialogue: 0,0:11:34.04,0:11:37.75,flashback,Liliana,0,0,0,,morreria... numa hora dessas...
+Dialogue: 0,0:11:38.57,0:11:41.09,flashback,Liliana,0,0,0,,É verdade... Um herói...
+Dialogue: 0,0:11:44.54,0:11:47.72,flashback,Liliana,0,0,0,,Eu não sou nenhuma heroína.
+Dialogue: 0,0:11:48.70,0:11:53.34,flashback,Liliana,0,0,0,,Isso nunca aconteceria com Reid ou Flügel.
+Dialogue: 0,0:11:53.98,0:11:59.92,flashback,Liliana,0,0,0,,Só andei tomando a liberdade\Nde contar as histórias deles.
+Dialogue: 0,0:11:59.92,0:12:01.58,flashback,Liliana,0,0,0,,Não passo de uma ladra.
+Dialogue: 0,0:12:02.81,0:12:05.50,flashback,Liliana,0,0,0,,Então... então...
+Dialogue: 0,0:12:06.74,0:12:11.32,flashback,Liliana,0,0,0,,O que é exatamente uma barda?
+Dialogue: 0,0:13:09.97,0:13:13.00,flashback,Liliana,0,0,0,,Isto... é uma canção.
+Dialogue: 0,0:13:32.33,0:13:33.90,flashback,Liliana,0,0,0,,Veio uma canção na minha cabeça!
+Dialogue: 0,0:13:43.30,0:13:50.01,italics,Liliana,0,0,0,,Mesmo assim, a manhã vem
+Dialogue: 0,0:13:50.01,0:13:56.61,italics,Liliana,0,0,0,,Ela vem para todos nós
+Dialogue: 0,0:13:56.61,0:14:07.22,italics,Liliana,0,0,0,,O céu azul sempre supera a alvorada
+Dialogue: 0,0:14:30.17,0:14:39.27,italics,Liliana,0,0,0,,Uma nova manhã tinge o céu\Nem rubi e ouro
+Dialogue: 0,0:14:40.00,0:14:52.20,italics,Liliana,0,0,0,,Em silêncio, como se esquecesse\No alvoroço de ontem
+Dialogue: 0,0:14:50.31,0:14:52.20,top,Sirius,0,0,0,,Isso não vai adiantar!
+Dialogue: 0,0:14:52.88,0:14:58.46,main,Sirius,0,0,0,,Quem vai ouvir uma canção cantada com\Numa voz dessas de um lugar tão distante?!
+Dialogue: 0,0:14:59.58,0:15:09.34,italics,Liliana,0,0,0,,Um novo dia começa, afugentando a noite
+Dialogue: 0,0:15:09.60,0:15:19.52,italics,Liliana,0,0,0,,Superando a alvorada rubro-dourada
+Dialogue: 0,0:15:20.48,0:15:30.86,italics,Liliana,0,0,0,,A verdadeira manhã enfim chegou
+Dialogue: 0,0:15:31.59,0:15:37.54,italics,Liliana,0,0,0,,Enquanto o céu supera a alvorada
+Dialogue: 0,0:15:32.71,0:15:36.00,flashbacktop,Kiritaka,0,0,0,,Quero ter a sua imagem só para mim,
+Dialogue: 0,0:15:36.93,0:15:40.62,flashbacktop,Kiritaka,0,0,0,,mas não devo monopolizar a sua voz.
+Dialogue: 0,0:15:37.54,0:15:42.33,italics,Liliana,0,0,0,,Não importa o que a noite traga
+Dialogue: 0,0:15:41.34,0:15:43.19,flashbacktop,Kiritaka,0,0,0,,A cantora pertence a todos,
+Dialogue: 0,0:15:42.33,0:15:49.88,italics,Liliana,0,0,0,,Mesmo se me torturar um sonho indesejado
+Dialogue: 0,0:15:43.19,0:15:45.01,flashbacktop,Kiritaka,0,0,0,,e Liliana pertence só a mim.
+Dialogue: 0,0:15:45.01,0:15:47.10,flashbacktop,Kiritaka,0,0,0,,É errado desejar algo assim?
+Dialogue: 0,0:15:50.38,0:15:56.35,italics,Liliana,0,0,0,,Mesmo assim, a manhã vem
+Dialogue: 0,0:15:53.13,0:15:56.35,flashbacktop,Kiritaka,0,0,0,,Liliana, você é a minha própria cantora!
+Dialogue: 0,0:15:57.20,0:16:02.00,italics,Liliana,0,0,0,,Ela vem para todos nós
+Dialogue: 0,0:15:57.20,0:16:02.00,flashbacktop,Kiritaka,0,0,0,,Sua canção pode trazer felicidade a todos!
+Dialogue: 0,0:16:03.68,0:16:14.17,italics,Liliana,0,0,0,,O céu azul sempre supera a alvorada
+Dialogue: 0,0:16:23.59,0:16:27.71,main,Priscilla,0,0,0,,Vejo que minha avaliação dela\Nnão estava equivocada.
+Dialogue: 0,0:16:26.01,0:16:34.41,italicstop,Liliana,0,0,0,,Uma nova manhã tinge o céu\Nem rubi e ouro
+Dialogue: 0,0:16:27.71,0:16:28.61,main,Sirius,0,0,0,,Como...
+Dialogue: 0,0:16:28.61,0:16:31.28,main,Priscilla,0,0,0,,A tolice dela é encantadora.
+Dialogue: 0,0:16:31.28,0:16:33.72,main,Priscilla,0,0,0,,Uma ingênua e uma tola são\Nsemelhantes, mas não iguais.
+Dialogue: 0,0:16:34.41,0:16:36.89,main,Priscilla,0,0,0,,Uma tola não tem o direito de viver,
+Dialogue: 0,0:16:36.89,0:16:39.60,main,Priscilla,0,0,0,,mas uma ingênua pode ao menos divertir.
+Dialogue: 0,0:16:40.05,0:16:45.52,main,Priscilla,0,0,0,,E ela provou seu valor como algo\Nmuito além de mero divertimento.
+Dialogue: 0,0:16:45.52,0:16:49.98,main,Priscilla,0,0,0,,Logo, recompensarei seus esforços!
+Dialogue: 0,0:16:50.26,0:16:53.32,main,Sirius,0,0,0,,Cale-se!
+Dialogue: 0,0:16:53.68,0:16:58.87,main,Sirius,0,0,0,,Despedace-se e vire cinzas,\Nsua cantora fajuta!
+Dialogue: 0,0:17:06.33,0:17:09.13,main,Priscilla,0,0,0,,Tola! O que pensa que está fazendo\Ncom uma propriedade minha?!
+Dialogue: 0,0:17:09.13,0:17:11.63,main,Sirius,0,0,0,,E você também, sua vadia arrogante!
+Dialogue: 0,0:17:23.52,0:17:24.73,main,Priscilla,0,0,0,,Ora, sua...
+Dialogue: 0,0:17:34.93,0:17:37.28,main,Priscilla,0,0,0,,Louvo a sua determinação.
+Dialogue: 0,0:17:37.28,0:17:39.32,main,Sirius,0,0,0,,Não me faça rir!
+Dialogue: 0,0:17:40.16,0:17:43.75,main,Sirius,0,0,0,,Compreender uns aos outros e tornar-se\Num só é o que as pessoas desejam!
+Dialogue: 0,0:17:43.75,0:17:45.29,main,Priscilla,0,0,0,,Sua ignorante.
+Dialogue: 0,0:17:45.29,0:17:47.54,main,Sirius,0,0,0,,Amor significa tornar-se um só!
+Dialogue: 0,0:17:47.84,0:17:48.79,main,Priscilla,0,0,0,,Errado.
+Dialogue: 0,0:17:49.18,0:17:52.42,main,Priscilla,0,0,0,,Amor é aceitar o outro com tolerância,\Napesar das diferenças.
+Dialogue: 0,0:17:53.01,0:17:56.74,main,Priscilla,0,0,0,,Todos olhando na mesma direção,\Npensando as mesmas coisas
+Dialogue: 0,0:17:56.74,0:17:59.76,main,Priscilla,0,0,0,,e sentindo o mesmo é repulsivo!
+Dialogue: 0,0:18:03.83,0:18:05.27,main,Priscilla,0,0,0,,Isto acabou.
+Dialogue: 0,0:18:05.58,0:18:08.23,main,Sirius,0,0,0,,Será mesmo?
+Dialogue: 0,0:18:14.86,0:18:17.64,main,Sirius,0,0,0,,Sua compaixão por essa garotinha...
+Dialogue: 0,0:18:17.64,0:18:22.64,main,Sirius,0,0,0,,isso sim é o amor que\Ndesabrochou dentro do seu...
+Dialogue: 0,0:18:22.64,0:18:23.66,main,Priscilla,0,0,0,,Já chega.
+Dialogue: 0,0:18:29.01,0:18:30.63,main,Sirius,0,0,0,,Oh... céus...
+Dialogue: 0,0:18:33.41,0:18:36.17,main,Priscilla,0,0,0,,Minha Espada Yang queima quem\Neu quero queimar
+Dialogue: 0,0:18:36.49,0:18:38.38,main,Priscilla,0,0,0,,e corta quem eu quero cortar.
+Dialogue: 0,0:18:39.68,0:18:44.22,main,Sirius,0,0,0,,Você... compreende a minha dor?
+Dialogue: 0,0:18:44.88,0:18:46.68,main,Priscilla,0,0,0,,Eu não poderia me importar menos.
+Dialogue: 0,0:18:47.14,0:18:49.31,main,Priscilla,0,0,0,,Pode morrer completamente só,
+Dialogue: 0,0:18:49.84,0:18:51.90,main,Priscilla,0,0,0,,ainda agarrada às suas mentiras.
+Dialogue: 0,0:19:07.91,0:19:11.42,main,Priscilla,0,0,0,,A luz do sol se apaga. O sol está à sombra.
+Dialogue: 0,0:19:12.08,0:19:14.60,main,Priscilla,0,0,0,,Dê-se por feliz, sua grosseira.
+Dialogue: 0,0:19:24.15,0:19:25.68,main,People,0,0,0,,Você está bem?!
+Dialogue: 0,0:19:26.20,0:19:29.81,main,Priscilla,0,0,0,,Multidão barulhenta em noite barulhenta...
+Dialogue: 0,0:19:29.81,0:19:33.15,main,Priscilla,0,0,0,,Não é esta a hora para uma canção?
+Dialogue: 0,0:19:33.15,0:19:35.03,main,People,0,0,0,,A cantora está a salvo?!
+Dialogue: 0,0:19:34.08,0:19:36.86,top,Priscilla,0,0,0,,Só posso chamar isso de negligência.
+Dialogue: 0,0:19:37.92,0:19:39.59,main,Priscilla,0,0,0,,Quanta insensatez.
+Dialogue: 0,0:19:40.34,0:19:42.70,main,Priscilla,0,0,0,,Mas não foi nada mal.
+Dialogue: 0,0:19:43.23,0:19:45.03,main,Priscilla,0,0,0,,Tem os meus cumprimentos.
+Dialogue: 0,0:19:50.32,0:19:53.19,main,Liliana,0,0,0,,Acho que cheguei ao meu limite.
+Dialogue: 0,0:19:53.19,0:19:57.53,main,Liliana,0,0,0,,Passei por muita coisa, mas no geral,\Nfoi uma vida bem divertida.
+Dialogue: 0,0:19:58.61,0:20:01.47,main,Kiritaka,0,0,0,,Liliana!
+Dialogue: 0,0:20:06.16,0:20:08.18,main,Kiritaka,0,0,0,,Você está bem, Liliana?!
+Dialogue: 0,0:20:08.18,0:20:11.90,main,Liliana,0,0,0,,K-Kiritaka-san! O que você andou fazendo?!
+Dialogue: 0,0:20:11.90,0:20:15.27,main,Kiritaka,0,0,0,,Correndo em pânico enquanto\Nsemibestas me perseguiam.
+Dialogue: 0,0:20:15.27,0:20:17.07,main,Kiritaka,0,0,0,,Mas a sua canção me trouxe de volta a mim!
+Dialogue: 0,0:20:17.34,0:20:21.60,main,Liliana,0,0,0,,B-Bem, parece que você realmente\Nsujou a sua... honra...
+Dialogue: 0,0:20:22.34,0:20:23.40,main,Kiritaka,0,0,0,,Liliana?!
+Dialogue: 0,0:20:24.01,0:20:25.00,main,Kiritaka,0,0,0,,Liliana!
+Dialogue: 0,0:20:25.00,0:20:29.13,main,Liliana,0,0,0,,Estou com muito sono agora,\Nentão vou tirar um cochilo.
+Dialogue: 0,0:20:29.13,0:20:33.20,main,Liliana,0,0,0,,Estou no meu limite. Mas não se\Npreocupe, não vou morrer.
+Dialogue: 0,0:20:33.20,0:20:34.50,main,Kiritaka,0,0,0,,Liliana!
+Dialogue: 0,0:20:35.29,0:20:39.46,italics,Liliana,0,0,0,,Não pretendo nunca dizer\Nisso em voz alta...
+Dialogue: 0,0:20:39.46,0:20:43.97,Episode Title,Title,0,0,0,,{\c&HFAFFFA&}Li{\c&H3993F2&}li{\c&HFAFFFA&}ana Masquerade
+Dialogue: 0,0:20:40.23,0:20:43.97,italics,Liliana,0,0,0,,mas fico muito feliz por ser sua cantora.
+Dialogue: 0,0:22:14.64,0:22:17.06,main,Subaru,0,0,0,,Todos vocês, Arcebispos do Pecado,
+Dialogue: 0,0:22:17.06,0:22:19.69,main,Subaru,0,0,0,,têm os mesmos nomes que estrelas do meu mundo.
+Dialogue: 0,0:22:20.09,0:22:24.90,main,Subaru,0,0,0,,E suas Autoridades têm relação\Ncom as origens dos nomes dessas estrelas.
+Dialogue: 0,0:22:25.63,0:22:28.51,main,Subaru,0,0,0,,O nome de Petelgeuse vem de\N"a mão de al-Jawza".
+Dialogue: 0,0:22:28.51,0:22:30.91,main,Subaru,0,0,0,,Em outras palavras, "Mão Oculta".
+Dialogue: 0,0:22:31.67,0:22:34.72,main,Subaru,0,0,0,,E Regulus, parte da\Nconstelação de Leão,
+Dialogue: 0,0:22:34.72,0:22:37.86,main,Subaru,0,0,0,,também é conhecido como "pequeno rei" e...
+Dialogue: 0,0:22:37.86,0:22:39.40,main,Subaru,0,0,0,,"Cor Leonis",
+Dialogue: 0,0:22:41.06,0:22:43.34,main,Subaru,0,0,0,,que significa "coração de leão".
+Dialogue: 0,0:22:43.81,0:22:46.79,main,Subaru,0,0,0,,Sua Autoridade não é invencibilidade.
+Dialogue: 0,0:22:46.79,0:22:49.22,main,Subaru,0,0,0,,É parar o tempo, não é?
+Dialogue: 0,0:22:50.01,0:22:54.84,main,Subaru,0,0,0,,Com o tempo parado para o seu corpo,\Nvocê não sofre mudanças.
+Dialogue: 0,0:22:54.84,0:22:57.60,main,Subaru,0,0,0,,Não se fere, e nem a água\Nconsegue molhar você.
+Dialogue: 0,0:22:57.60,0:23:00.76,main,Subaru,0,0,0,,Como o tempo está parado, qualquer\Nareia ou água jogada em você...
+Dialogue: 0,0:23:00.76,0:23:02.16,main,Regulus,0,0,0,,Escute aqui!
+Dialogue: 0,0:23:02.16,0:23:05.82,main,Regulus,0,0,0,,Não tenho o menor interesse\Nnas suas ideias!
+Dialogue: 0,0:23:06.37,0:23:09.86,main,Regulus,0,0,0,,Perdi meu tempo ouvindo você! Francamente!
+Dialogue: 0,0:23:17.76,0:23:22.96,italics,Subaru,0,0,0,,Aquele lugar é o pequeno reino\Nonde vivem as esposas do Pequeno Rei.
+Dialogue: 0,0:23:23.46,0:23:26.92,italics,Subaru,0,0,0,,Até a Autoridade do Regulus\Nprecisa ter limites!
+Dialogue: 0,0:23:27.34,0:23:29.51,italics,Subaru,0,0,0,,O número de esposas, ou a distância\Nque ele está delas...
+Dialogue: 0,0:23:29.51,0:23:31.88,italics,Subaru,0,0,0,,Deve existir alguma condição para isso!
+Dialogue: 0,0:23:32.36,0:23:34.22,italics,Subaru,0,0,0,,Conto com você, Emilia!
+Dialogue: 0,0:23:34.54,0:23:38.63,italics,Subaru,0,0,0,,Você precisa tirar essas esposas\Ndo pequeno reino!
