@@ -321,7 +321,7 @@
   text-shadow: 0 1px 2px #000000, 0 0 10px #fbbf24, 0 0 16px rgba(249, 115, 22, 0.95);
 }
 
-/* OP 5 — Reweave (Arcs 5 & 6 | QType wide geometric tech + sunset/indigo) */
+/* OP 5 — Reweave (Arc 5 | QType wide geometric tech + sunset/indigo) */
 .rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op5-reweave {
   font-family: "Bahnschrift", "Trebuchet MS", "Segoe UI Semibold", sans-serif;
   font-style: normal;
@@ -352,6 +352,41 @@
 .rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op5-reweave .rzpt-k-syl.is-active {
   color: #ffffff;
   text-shadow: 0 1px 2px #000000, 0 0 10px #f97316, 0 0 16px rgba(129, 140, 248, 0.95);
+}
+
+/* OP 6 — Recollect (Arc 6 | Watchtower serif small-caps + desert-gold / astral-emerald) */
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op6-recollect {
+  font-family: "Palatino Linotype", "Cinzel", "Trebuchet MS", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.06em;
+  color: #fefce8;
+  background-color: rgba(10, 20, 18, var(--rzpt-bg-opacity, 0.76));
+  border-color: rgba(250, 204, 21, 0.55);
+  text-shadow:
+    -1px -1px 0 #071411,
+     1px -1px 0 #071411,
+    -1px  1px 0 #071411,
+     1px  1px 0 #071411,
+     0 0 8px rgba(45, 212, 191, 0.72);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op6-recollect.rzpt-role-song {
+  font-style: italic;
+  font-variant-caps: normal;
+  letter-spacing: 0.025em;
+  color: #fde047;
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op6-recollect .rzpt-k-syl {
+  color: rgba(254, 252, 232, 0.64);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op6-recollect .rzpt-k-syl.is-sung {
+  color: #2dd4bf;
+  text-shadow: 0 1px 2px #000000, 0 0 7px rgba(250, 204, 21, 0.7);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-op6-recollect .rzpt-k-syl.is-active {
+  color: #ffffff;
+  text-shadow: 0 1px 2px #000000, 0 0 10px #facc15, 0 0 16px rgba(45, 212, 191, 0.95);
 }
 
 /* ED 1 — STYX HELIX (Arcs 1 & 2 | Adobe Caslon classic dramatic serif + sapphire) */
@@ -458,32 +493,62 @@
   text-shadow: 0 1px 2px #000000, 0 0 10px #6ee7b7;
 }
 
-/* ED 5 — NOX LUX (Arcs 5 & 6 | Minion Pro dark-fantasy serif + blood crimson) */
+/* ED 5 — NOX LUX (Arc 5 | MYTH & ROID gothic serif + nocturnal violet-crimson / silver) */
 .rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux {
-  font-family: "Garamond", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: "Palatino Linotype", "Garamond", "Times New Roman", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  color: #e2e8f0;
+  background-color: rgba(14, 6, 20, var(--rzpt-bg-opacity, 0.78));
+  border-color: rgba(225, 29, 72, 0.58);
+  text-shadow:
+    -1px -1px 0 #16041c,
+     1px -1px 0 #16041c,
+    -1px  1px 0 #16041c,
+     1px  1px 0 #16041c,
+     0 0 9px rgba(225, 29, 72, 0.72);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux.rzpt-role-song {
+  color: #fda4af;
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl {
+  color: rgba(226, 232, 240, 0.68);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl.is-sung {
+  color: #e11d48;
+  text-shadow: 0 1px 2px #000000, 0 0 8px rgba(192, 38, 211, 0.6);
+}
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl.is-active {
+  color: #ffffff;
+  text-shadow: 0 1px 2px #000000, 0 0 10px #e11d48, 0 0 16px rgba(226, 232, 240, 0.9);
+}
+
+/* ED 6 — Corridor of Memories (Arc 6 | Minion Pro dark-fantasy serif + blood crimson) */
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed6-corridor {
+  font-family: "Minion Pro", "Garamond", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #f1f5f9;
   background-color: rgba(20, 6, 8, var(--rzpt-bg-opacity, 0.76));
   border-color: rgba(239, 68, 68, 0.55);
   text-shadow:
-    -1px -1px 0 #1f0404,
-     1px -1px 0 #1f0404,
-    -1px  1px 0 #1f0404,
-     1px  1px 0 #1f0404,
-     0 0 8px rgba(208, 28, 14, 0.75);
+    -1px -1px 0 #5c0700,
+     1px -1px 0 #5c0700,
+    -1px  1px 0 #5c0700,
+     1px  1px 0 #5c0700,
+     0 0 8px rgba(208, 28, 14, 0.78);
 }
-.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux.rzpt-role-song {
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed6-corridor.rzpt-role-song {
   color: #fca5a5;
 }
-.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl {
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed6-corridor .rzpt-k-syl {
   color: rgba(226, 232, 240, 0.72);
 }
-.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl.is-sung {
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed6-corridor .rzpt-k-syl.is-sung {
   color: #ef4444;
   text-shadow: 0 1px 2px #000000, 0 0 7px rgba(208, 28, 14, 0.85);
 }
-.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed5-noxlux .rzpt-k-syl.is-active {
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-song-ed6-corridor .rzpt-k-syl.is-active {
   color: #ffffff;
   text-shadow: 0 1px 2px #000000, 0 0 10px #ef4444, 0 0 16px rgba(208, 28, 14, 0.95);
 }

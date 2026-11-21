@@ -13,6 +13,7 @@
 
   function detectSongTheme(cue, arcId, episodeKey) {
     const style = String(cue?.style || '').trim().toLowerCase();
+    const isArc5 = arcId === 'arc05' || String(episodeKey || '').startsWith('arc05');
     if (style.includes('re:zero op2')) return 'op2-paradisus';
     if (style.includes('re:zero op')) return 'op1-redo';
     if (style.startsWith('op1-')) return 'op3-realize';
@@ -22,14 +23,14 @@
     ) {
       return 'op4-longshot';
     }
-    if (style === 'opr' || style === 'ope') return 'op5-reweave';
+    if (style === 'opr' || style === 'ope') return isArc5 ? 'op5-reweave' : 'op6-recollect';
     if (style.includes('ed01')) return 'ed1-styx';
     if (style === 'insert') return 'ova-memories';
     if (style === 'ed - r' || style === 'ed - e') return 'ova-snow';
     if (style.includes('ed02') || style.startsWith('ending -')) return 'ed2-stayalive';
     if (style.startsWith('ed1-')) return 'ed3-memento';
     if (style.startsWith('ed2 -') || style.startsWith('insert ed')) return 'ed4-believe';
-    if (style === 'edr' || style === 'ede') return 'ed5-noxlux';
+    if (style === 'edr' || style === 'ede') return isArc5 ? 'ed5-noxlux' : 'ed6-corridor';
     return null;
   }
 

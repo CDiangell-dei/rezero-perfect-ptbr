@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language": "pt-BR",
-  "generatedAt": "2026-11-21T16:12:53.318792+00:00",
+  "generatedAt": "2026-11-21T16:42:02.325958+00:00",
   "totalEpisodes": 60,
   "availableEpisodes": 60,
   "arcs": [
@@ -567,8 +567,8 @@
           "label": "EP 2",
           "file": "subtitles/arc05/ep02.json",
           "available": true,
-          "cueCount": 455,
-          "updatedAt": "2026-11-21T16:12:43.094333+00:00"
+          "cueCount": 432,
+          "updatedAt": "2026-11-21T16:41:59.782337+00:00"
         },
         {
           "episodeKey": "arc05-ep03",
@@ -582,8 +582,8 @@
           "label": "EP 3",
           "file": "subtitles/arc05/ep03.json",
           "available": true,
-          "cueCount": 409,
-          "updatedAt": "2026-11-21T16:09:28.312467+00:00"
+          "cueCount": 405,
+          "updatedAt": "2026-11-21T16:42:00.049461+00:00"
         },
         {
           "episodeKey": "arc05-ep04",
@@ -597,8 +597,8 @@
           "label": "EP 4",
           "file": "subtitles/arc05/ep04.json",
           "available": true,
-          "cueCount": 408,
-          "updatedAt": "2026-11-21T16:12:43.964865+00:00"
+          "cueCount": 381,
+          "updatedAt": "2026-11-21T16:42:00.230829+00:00"
         },
         {
           "episodeKey": "arc05-ep05",
@@ -612,8 +612,8 @@
           "label": "EP 5",
           "file": "subtitles/arc05/ep05.json",
           "available": true,
-          "cueCount": 400,
-          "updatedAt": "2026-11-21T16:09:29.557557+00:00"
+          "cueCount": 396,
+          "updatedAt": "2026-11-21T16:42:00.421625+00:00"
         },
         {
           "episodeKey": "arc05-ep06",
@@ -627,8 +627,8 @@
           "label": "EP 6",
           "file": "subtitles/arc05/ep06.json",
           "available": true,
-          "cueCount": 556,
-          "updatedAt": "2026-11-21T16:12:44.692550+00:00"
+          "cueCount": 533,
+          "updatedAt": "2026-11-21T16:42:00.668351+00:00"
         },
         {
           "episodeKey": "arc05-ep07",
@@ -657,8 +657,8 @@
           "label": "EP 8",
           "file": "subtitles/arc05/ep08.json",
           "available": true,
-          "cueCount": 441,
-          "updatedAt": "2026-11-21T16:12:45.513708+00:00"
+          "cueCount": 414,
+          "updatedAt": "2026-11-21T16:42:00.931731+00:00"
         },
         {
           "episodeKey": "arc05-ep09",
@@ -672,8 +672,8 @@
           "label": "EP 9",
           "file": "subtitles/arc05/ep09.json",
           "available": true,
-          "cueCount": 413,
-          "updatedAt": "2026-11-21T16:12:46.337553+00:00"
+          "cueCount": 386,
+          "updatedAt": "2026-11-21T16:42:01.173716+00:00"
         },
         {
           "episodeKey": "arc05-ep10",
@@ -687,8 +687,8 @@
           "label": "EP 10",
           "file": "subtitles/arc05/ep10.json",
           "available": true,
-          "cueCount": 343,
-          "updatedAt": "2026-11-21T16:12:47.149966+00:00"
+          "cueCount": 316,
+          "updatedAt": "2026-11-21T16:42:01.414050+00:00"
         },
         {
           "episodeKey": "arc05-ep11",
@@ -702,8 +702,8 @@
           "label": "EP 11",
           "file": "subtitles/arc05/ep11.json",
           "available": true,
-          "cueCount": 488,
-          "updatedAt": "2026-11-21T16:09:33.018119+00:00"
+          "cueCount": 484,
+          "updatedAt": "2026-11-21T16:42:01.627918+00:00"
         },
         {
           "episodeKey": "arc05-ep12",
@@ -717,8 +717,8 @@
           "label": "EP 12",
           "file": "subtitles/arc05/ep12.json",
           "available": true,
-          "cueCount": 253,
-          "updatedAt": "2026-11-21T16:09:33.411854+00:00"
+          "cueCount": 249,
+          "updatedAt": "2026-11-21T16:42:01.839184+00:00"
         },
         {
           "episodeKey": "arc05-ep13",
@@ -732,8 +732,8 @@
           "label": "EP 13",
           "file": "subtitles/arc05/ep13.json",
           "available": true,
-          "cueCount": 315,
-          "updatedAt": "2026-11-21T16:09:33.793692+00:00"
+          "cueCount": 311,
+          "updatedAt": "2026-11-21T16:42:02.118774+00:00"
         },
         {
           "episodeKey": "arc05-ep14",
@@ -747,8 +747,8 @@
           "label": "EP 14",
           "file": "subtitles/arc05/ep14.json",
           "available": true,
-          "cueCount": 403,
-          "updatedAt": "2026-11-21T16:12:47.753334+00:00"
+          "cueCount": 380,
+          "updatedAt": "2026-11-21T16:42:02.325813+00:00"
         },
         {
           "episodeKey": "arc05-ep15",
