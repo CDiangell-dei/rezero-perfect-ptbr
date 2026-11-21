@@ -2079,7 +2079,7 @@ def cmd_export_release(args: argparse.Namespace) -> int:
 
     ext_dir = PROJECT_ROOT / "extension"
     manifest_file = ext_dir / "manifest.json"
-    version = "0.2.0"
+    version = "1.0.0"
     if manifest_file.is_file():
         version = str(json.loads(manifest_file.read_text(encoding="utf-8")).get("version", version))
 

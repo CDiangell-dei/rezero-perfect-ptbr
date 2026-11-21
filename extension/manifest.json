@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Re:ZERO Perfect Run — Legendas PT-BR",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Exibe legendas em Português (BR) sincronizadas no player do rezeroperfect.run, com atualização via GitHub, janela, tela cheia e arquivos locais (.ass, .srt, .vtt).",
   "permissions": [
     "storage"
