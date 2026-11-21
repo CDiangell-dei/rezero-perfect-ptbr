@@ -1,9 +1,9 @@
 {
   "version": 1,
   "language": "pt-BR",
-  "generatedAt": "2026-11-21T09:51:56.953959+00:00",
+  "generatedAt": "2026-11-21T14:07:12.577146+00:00",
   "totalEpisodes": 60,
-  "availableEpisodes": 31,
+  "availableEpisodes": 33,
   "arcs": [
     {
       "id": "arc01",
@@ -498,9 +498,9 @@
           ],
           "label": "EP 15",
           "file": "subtitles/arc04/ep15.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 367,
+          "updatedAt": "2026-11-21T14:07:12.410035+00:00"
         },
         {
           "episodeKey": "arc04-ep16",
@@ -513,9 +513,9 @@
           ],
           "label": "EP 16",
           "file": "subtitles/arc04/ep16.json",
-          "available": false,
-          "cueCount": 0,
-          "updatedAt": null
+          "available": true,
+          "cueCount": 407,
+          "updatedAt": "2026-11-21T14:07:12.576925+00:00"
         },
         {
           "episodeKey": "arc04-ep17",
