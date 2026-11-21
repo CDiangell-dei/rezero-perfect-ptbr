@@ -70,14 +70,18 @@
     return null;
   }
 
-  function classifyCueRole(styleName, isKaraoke = false) {
+  function classifyCueRole(styleName, isKaraoke = false, actorName = '') {
     const low = String(styleName || '').trim().toLowerCase();
+    const actorLow = String(actorName || '').trim().toLowerCase();
     if (low.includes('title')) return 'title';
     if (low.includes('overlap')) return 'overlap';
     if (low.includes('flashback')) return 'flashback';
     if (
       !isKaraoke &&
-      /(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)/i.test(low)
+      (actorLow.includes('lyric') ||
+        low.includes('opening') ||
+        low.includes('ending') ||
+        /(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)/i.test(low))
     ) {
       return 'song';
     }
@@ -272,7 +276,10 @@
           const style = (row.style || 'Default').trim();
           const lowerStyle = style.toLowerCase();
           let align = styleAlignments.has(style) ? styleAlignments.get(style) : 2;
-          const nonSignDialogue = /(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert)\b|[-_](?:tl|e|r)\b)/i.test(lowerStyle);
+          const nonSignDialogue =
+            /(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|opening|ending)\b|[-_](?:tl|e|r)\b)/i.test(
+              lowerStyle
+            ) || classifyCueRole(style, false, row.name || '') === 'song';
           let isSign = /(?:sign|title|note|caption)/i.test(lowerStyle);
 
           const overrideBlocks = rawText.match(/\{([^}]*)\}/g) || [];
@@ -310,7 +317,7 @@
             isSign,
             lines: parsedLines,
           };
-          const role = classifyCueRole(style, false);
+          const role = classifyCueRole(style, false, row.name || '');
           if (role) cueObj.role = role;
           cues.push(cueObj);
         }

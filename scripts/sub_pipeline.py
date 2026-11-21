@@ -313,17 +313,23 @@ def _ass_bgr_to_hex(raw_col: str, *, skip_near_black: bool = False) -> str | Non
     return hex_col
 
 
-def _classify_cue_role(style_name: str, is_sign: bool, is_karaoke: bool) -> str | None:
+def _classify_cue_role(style_name: str, is_sign: bool = False, is_karaoke: bool = False, actor: str = "") -> str | None:
     low = (style_name or "").strip().lower()
+    actor_low = (actor or "").strip().lower()
     if "title" in low:
         return "title"
     if "overlap" in low:
         return "overlap"
     if "flashback" in low:
         return "flashback"
-    if not is_karaoke and re.search(
-        r"(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)",
-        low,
+    if not is_karaoke and (
+        "lyric" in actor_low
+        or "opening" in low
+        or "ending" in low
+        or re.search(
+            r"(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)",
+            low,
+        )
     ):
         return "song"
     return None
@@ -341,9 +347,10 @@ def _ass_text_to_runs_lines(
     lower_style = (style_name or "").strip().lower()
     non_sign_dialogue = bool(
         re.search(
-            r"(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert)\b|[-_](?:tl|e|r)\b)",
+            r"(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|opening|ending)\b|[-_](?:tl|e|r)\b)",
             lower_style,
         )
+        or _classify_cue_role(style_name, False, False) == "song"
     )
     is_sign = bool(re.search(r"(?:sign|title|note|caption)", lower_style))
 
@@ -504,8 +511,16 @@ ENGLISH_LYRIC_WORDS = {
     "time", "dream", "dreams", "again", "forever", "tonight",
     "watch", "long", "shot", "ever", "sands", "desert", "guiding",
     "path", "ahead", "storm", "feelings", "arise", "grain", "hope", "remains",
+    "searching", "true", "fate", "maybe", "already", "too", "late", "regain",
+    "falling", "into", "flame", "lies", "tell", "want", "trying", "step",
+    "back", "where", "used", "belong", "looking", "escape", "cross",
+    "fingers", "hoping", "sacrificed", "made", "promise", "get", "way",
+    "ready", "come", "chase", "silhouette", "emerges", "drop", "reason",
+    "standing", "alone", "lose", "destiny", "lit", "right", "wrongs",
+    "save", "enough", "break", "rule", "upon", "war", "leave", "gonna",
+    "wanna", "make", "backing", "real", "trace", "someone", "else",
 }
-ENGLISH_CONTRACTION_RE = re.compile(r"\b[a-z]+(?:['\u2019](?:t|ll|re|ve|m|d))\b", re.IGNORECASE)
+ENGLISH_CONTRACTION_RE = re.compile(r"\b[a-z]+(?:['\u2019](?:t|ll|re|ve|m|d|s))\b", re.IGNORECASE)
 
 
 def _looks_like_english_lyric(text: str) -> bool:
@@ -553,7 +568,7 @@ def _synthesize_english_karaoke_entries(
     style_alignments: dict[str, int],
 ) -> list[dict[str, Any]]:
     """Create translatable lyric entries for untranslated English lines embedded in Romaji karaoke."""
-    karaoke_cues = _extract_karaoke_web_cues(src_path)
+    karaoke_cues = _extract_karaoke_web_cues(src_path, include_bilingual_romaji_en=True)
     if not karaoke_cues:
         return []
 
@@ -1113,7 +1128,7 @@ def _parse_native_k_karaoke(start_s: float, raw_text: str) -> tuple[str, list[di
     return joined, syls
 
 
-def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
+def _extract_karaoke_web_cues(raw_ass_path: Path, *, include_bilingual_romaji_en: bool = False) -> list[dict[str, Any]]:
     """Extract clean timed Romaji/sung-English karaoke cues (line-level or per-syllable) from raw .ass."""
     parsed = parse_ass_file(raw_ass_path)
     style_alignments = parsed.get("style_alignments", {})
@@ -1168,6 +1183,73 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                     seen_pos.add(pk)
                     items.append((x, y, plain))
             groups[span_key] = items
+
+        # Split single-syllable holds (e.g. op1-rom) break exact (start, end) grouping;
+        # merge contiguous per-syllable holds and cluster by anchor verse duration instead.
+        if sum(1 for g in groups.values() if len(g) == 1) >= 5:
+            raw_holds: list[tuple[float, float, float, float, str]] = []
+            for ev in evs_in:
+                s_v = float(ev["start"])
+                e_v = float(ev["end"])
+                if e_v - s_v < 0.25:
+                    continue
+                rt = ev.get("raw_text", "")
+                pl = ASS_BLOCK_RE.sub("", rt).replace(r"\N", " ").replace(r"\n", " ").strip()
+                m_pm = POS_OR_MOVE_RE.search(rt)
+                if not pl or not m_pm:
+                    continue
+                raw_holds.append((round(s_v, 2), round(e_v, 2), float(m_pm.group(1)), float(m_pm.group(2)), pl))
+
+            raw_holds.sort(key=lambda t: (t[0], t[1]))
+            clusters: list[dict[str, Any]] = []
+            for s_v, e_v, x, y, pl in raw_holds:
+                matched = False
+                for c in clusters:
+                    if (
+                        c["pl"] == pl
+                        and abs(c["x"] - x) <= 4.0
+                        and abs(c["y"] - y) <= 4.0
+                        and s_v <= c["e"] + 1.2
+                        and e_v >= c["s"] - 1.2
+                    ):
+                        c["s"] = min(c["s"], s_v)
+                        c["e"] = max(c["e"], e_v)
+                        matched = True
+                        break
+                if not matched:
+                    clusters.append({"s": s_v, "e": e_v, "x": x, "y": y, "pl": pl})
+
+            clusters.sort(key=lambda c: -(c["e"] - c["s"]))
+            verses: list[dict[str, Any]] = []
+            for c in clusters:
+                if c["e"] - c["s"] < 1.0:
+                    continue
+                placed = False
+                for v in verses:
+                    if (
+                        (abs(c["s"] - v["s"]) <= 0.15 or abs(c["e"] - v["e"]) <= 0.15)
+                        and c["s"] >= v["s"] - 0.15
+                        and c["e"] <= v["e"] + 0.15
+                    ):
+                        v["items"].append((c["x"], c["y"], c["pl"]))
+                        placed = True
+                        break
+                if not placed:
+                    verses.append({"s": c["s"], "e": c["e"], "items": [(c["x"], c["y"], c["pl"])]})
+
+            if verses and any(len(v["items"]) >= 2 for v in verses):
+                verse_groups: dict[tuple[float, float], list[tuple[float, float, str]]] = {}
+                for v in verses:
+                    seen_v: set[tuple[float, float, str]] = set()
+                    items_v: list[tuple[float, float, str]] = []
+                    for x, y, pl in v["items"]:
+                        pk = (round(x, 1), round(y, 1), pl)
+                        if pk not in seen_v:
+                            seen_v.add(pk)
+                            items_v.append((x, y, pl))
+                    verse_groups[(round(v["s"], 2), round(v["e"], 2))] = items_v
+                return verse_groups
+
         return groups
 
     for style, evs in by_style.items():
@@ -1424,6 +1506,26 @@ def _extract_karaoke_web_cues(raw_ass_path: Path) -> list[dict[str, Any]]:
                             "lines": lines_runs,
                         }
                     )
+
+    # Drop English translation cues accidentally embedded inside a Romaji style at the same timestamp (e.g. OP2 Credits)
+    if not include_bilingual_romaji_en:
+        romaji_pair_drop: set[int] = set()
+        for i, c1 in enumerate(karaoke_cues):
+            st1 = str(c1.get("style", ""))
+            if not _is_romaji_style(st1):
+                continue
+            t1 = _runs_to_plain_text(c1["lines"])
+            if _looks_like_english_lyric(t1):
+                continue
+            for j, c2 in enumerate(karaoke_cues):
+                if i == j or str(c2.get("style", "")) != st1:
+                    continue
+                if abs(float(c1["start"]) - float(c2["start"])) <= 0.15 and abs(float(c1["end"]) - float(c2["end"])) <= 0.15:
+                    t2 = _runs_to_plain_text(c2["lines"])
+                    if _looks_like_english_lyric(t2):
+                        romaji_pair_drop.add(j)
+        if romaji_pair_drop:
+            karaoke_cues = [c for idx, c in enumerate(karaoke_cues) if idx not in romaji_pair_drop]
 
     # Bilingual songs (e.g. Arc 06 OPE): emit multi-piece per-syllable sung-English lines as top karaoke cues
     # whenever no Romaji karaoke cue already covers that timestamp
@@ -2165,7 +2267,7 @@ def cmd_build(args: argparse.Namespace) -> int:
                     "isSign": is_sign,
                     "lines": cue_lines,
                 }
-                role = _classify_cue_role(st_name, is_sign, False)
+                role = _classify_cue_role(st_name, is_sign, False, str(item.get("actor", "")))
                 if role:
                     cue_obj["role"] = role
                 ext_cues.append(cue_obj)
@@ -2214,6 +2316,10 @@ def cmd_build(args: argparse.Namespace) -> int:
         if prev is not None and float(cue["start"]) < float(prev["end"]) - 0.01:
             if float(cue["end"]) > float(prev["end"]):
                 prev["end"] = cue["end"]
+            prev_colored = any("color" in r for ln in prev["lines"] for r in ln)
+            cue_colored = any("color" in r for ln in cue["lines"] for r in ln)
+            if prev_colored and not cue_colored:
+                prev["lines"] = cue["lines"]
             continue
         dedup_cues.append(cue)
         last_by_key[k_sig] = cue

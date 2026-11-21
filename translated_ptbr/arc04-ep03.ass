@@ -14285,7 +14285,7 @@ Dialogue: 2,0:28:46.06,0:28:46.10,ed1-rom,,0,0,0,,{\an5\pos(1547.321,49.508)\bor
 Dialogue: 3,0:28:46.06,0:28:46.10,ed1-rom,,0,0,0,,{\an5\pos(1547.321,49.508)\bord3\alpha&H06&\blur1.5}i
 Dialogue: 2,0:28:46.06,0:28:46.10,ed1-rom,,0,0,0,,{\an5\pos(1579.359,49.508)\bord6\c&H07110E&\3c&H07110E&\alpha&H06&\blur5.55}te
 Dialogue: 3,0:28:46.06,0:28:46.10,ed1-rom,,0,0,0,,{\an5\pos(1579.359,49.508)\bord3\alpha&H06&\blur1.5}te
-Dialogue: 0,0:28:46.07,0:28:53.61,ed1-rom,,0,0,0,,{\k36}na{\k21}n{\k23}do {\k25}de{\k50}mo{\k23}do{\k24}or {\k43}wo {\k22}to{\k30}ji{\k24}ta {\k24}ki{\k24}o{\k24}ku {\k48}wo {\k48}ta{\k73}ta{\k23}i{\k74}te {\k23}ta{\k26}ta{\k20}i{\k26}te
+Dialogue: 0,0:28:46.07,0:28:53.61,ed1-rom,,0,0,0,,{\k36}na{\k21}n{\k23}do {\k25}de{\k50}mo {\k23}do{\k24}or {\k43}wo {\k22}to{\k30}ji{\k24}ta {\k24}ki{\k24}o{\k24}ku {\k48}wo {\k48}ta{\k73}ta{\k23}i{\k74}te {\k23}ta{\k26}ta{\k20}i{\k26}te
 Dialogue: 0,0:28:46.07,0:28:53.61,ed1-tl,,0,0,0,,Batem à porta das minhas memórias sem parar
 Dialogue: 3,0:28:46.10,0:28:46.43,ed1-rom,,0,0,0,,{\an5\pos(395.585,49.508)\bord3\blur1.2}n
 Dialogue: 3,0:28:46.10,0:28:46.64,ed1-rom,,0,0,0,,{\an5\pos(442.881,49.508)\bord3\blur1.2}do
@@ -28302,7 +28302,7 @@ Dialogue: 2,0:29:09.21,0:29:09.25,ed1-rom,,0,0,0,,{\an5\pos(1568.162,49.508)\bor
 Dialogue: 3,0:29:09.21,0:29:09.25,ed1-rom,,0,0,0,,{\an5\pos(1568.162,49.508)\bord3\alpha&H06&\blur1.5}you
 Dialogue: 2,0:29:09.21,0:29:09.25,ed1-rom,,0,0,0,,{\an5\pos(1652.769,49.508)\bord6\c&H102A13&\3c&H102A13&\alpha&H06&\blur5.55}ni
 Dialogue: 3,0:29:09.21,0:29:09.25,ed1-rom,,0,0,0,,{\an5\pos(1652.769,49.508)\bord3\alpha&H06&\blur1.5}ni
-Dialogue: 0,0:29:09.22,0:29:17.77,ed1-rom,,0,0,0,,{\k21}fu{\k26}sa{\k23}gu{\k24}re{\k43}ta {\k27}mi{\k27}chi {\k47}ga {\k24}i{\k25}no{\k24}chi {\k21}no {\k27}a{\k24}to {\k94}ga {\k71}tsu{\k13}zu{\k13}ki{\k67}ma{\k16}su {\k17}you {\k181}ni
+Dialogue: 0,0:29:09.22,0:29:17.77,ed1-rom,,0,0,0,,{\k21}fu{\k26}sa{\k23}ga{\k24}re{\k43}ta {\k27}mi{\k27}chi {\k47}ga {\k24}i{\k25}no{\k24}chi {\k21}no {\k27}a{\k24}to {\k94}ga {\k71}tsu{\k13}zu{\k13}ki{\k67}ma{\k16}su {\k17}you {\k181}ni
 Dialogue: 2,0:29:09.25,0:29:09.29,ed1-rom,,0,0,0,,{\an5\pos(266.719,49.508)\bord6\c&H123517&\3c&H123517&\blur5.25}fu
 Dialogue: 3,0:29:09.25,0:29:09.29,ed1-rom,,0,0,0,,{\an5\pos(266.719,49.508)\bord3\c&H020202&\blur1.2}fu
 Dialogue: 2,0:29:09.25,0:29:09.29,ed1-rom,,0,0,0,,{\an5\pos(319.749,49.508)\bord6\c&H123517&\3c&H123517&\blur5.25}sa
