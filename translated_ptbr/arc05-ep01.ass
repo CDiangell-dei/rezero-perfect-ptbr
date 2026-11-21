@@ -177,9 +177,9 @@ Dialogue: 0,0:07:56.79,0:08:03.04,main,Joshua,0,0,0,,Anastasia-sama gostaria de 
 Dialogue: 0,0:08:03.04,0:08:05.52,main,Emilia,0,0,0,,Cidade das Comportas de Priestella?
 Dialogue: 0,0:08:05.52,0:08:07.76,main,Otto,0,0,0,,E que assunto exatamente\Nela tem com a senhorita?
 Dialogue: 0,0:08:08.25,0:08:10.23,main,Joshua,0,0,0,,Trata-se de um convite para uma festa.
-Dialogue: 0,0:08:10.71,0:08:14.56,main,Joshua,0,0,0,,Anastasia-sama diz que, pela bondade de seu\Ncoração, encontrou o que Emilia-sama procura.
-Dialogue: 0,0:08:14.56,0:08:16.52,main,Joshua,0,0,0,,O que eu... procuro?
-Dialogue: 0,0:08:17.15,0:08:19.48,main,Emilia,0,0,0,,Sim.
+Dialogue: 0,0:08:10.71,0:08:14.56,main,Joshua,0,0,0,,Anastasia-sama diz que,\Npela bondade de seu coração,
+Dialogue: 0,0:08:14.56,0:08:16.52,main,Joshua,0,0,0,,encontrou o que Emilia-sama procura.
+Dialogue: 0,0:08:17.15,0:08:19.48,main,Emilia,0,0,0,,O que eu... procuro?
 Dialogue: 0,0:08:19.84,0:08:20.83,main,Joshua,0,0,0,,Sim.
 Dialogue: 0,0:08:20.83,0:08:25.45,main,Joshua,0,0,0,,Parece que um mercador em Priestella\Npossui o cristal mágico que deseja.
 Dialogue: 0,0:08:26.58,0:08:27.78,main,Subaru,0,0,0,,Cristal mágico?
@@ -223,106 +223,106 @@ Dialogue: 0,0:10:22.94,0:10:26.90,main,Subaru,0,0,0,,Eu também tenho um monte d
 Dialogue: 0,0:10:33.48,0:10:37.29,main,Emilia,0,0,0,,Sinto muito ter que deixar a mansão\Nem um momento tão importante.
 Dialogue: 0,0:10:37.91,0:10:39.20,main,Roswaal,0,0,0,,Oh, de modo algum.
 Dialogue: 0,0:10:39.20,0:10:44.00,main,Roswaal,0,0,0,,Tenho toda a intenção de honrar\Na sua vontade, Emilia-sama.
-Dialogue: 0,0:10:44.33,0:10:47.23,main,Roswaal,0,0,0,,Mesmo que este seja um período terrivelmente\Nocupado, com a assembleia dos nobres do oeste.
-Dialogue: 0,0:10:47.23,0:10:50.72,main,Roswaal,0,0,0,,De fato, Mestre, o senhor não demonstra\Nsinal algum de remorso.
-Dialogue: 0,0:10:52.53,0:10:57.95,main,Frederica,0,0,0,,Ora, que severidade a sua, Frederica.
-Dialogue: 0,0:10:57.95,0:11:00.93,main,Roswaal,0,0,0,,Mas é claro.
-Dialogue: 0,0:11:00.93,0:11:02.65,main,Frederica,0,0,0,,Francamente, preocupa-me um pouco mandar\Nvocê e Subaru-kun sozinhos até lá,
-Dialogue: 0,0:11:02.93,0:11:08.46,main,Roswaal,0,0,0,,mas se Garfiel e Otto-kun estiverem\Ncom vocês, tudo ficará bem.
-Dialogue: 0,0:11:08.46,0:11:12.11,main,Roswaal,0,0,0,,Não preciso me preocupar que Otto-kun\Ncometa erros bobos nas negociações,
-Dialogue: 0,0:11:12.11,0:11:16.56,main,Roswaal,0,0,0,,e no pior dos casos, Garfiel pode\Ndestruir qualquer coisa para ajudá-los a fugir.
-Dialogue: 0,0:11:16.56,0:11:20.08,main,Roswaal,0,0,0,,Isso parece que causaria grandes\Nproblemas por si só!
-Dialogue: 0,0:11:20.66,0:11:23.84,main,Emilia,0,0,0,,Farei o meu melhor, eu prometo!
-Dialogue: 0,0:11:23.84,0:11:26.40,main,Emilia,0,0,0,,Não precisa se preocupar com nada, Emilia-tan.
-Dialogue: 0,0:11:26.40,0:11:29.27,main,Subaru,0,0,0,,Seja contra a Anastasia-san ou contra o Julius,
-Dialogue: 0,0:11:29.27,0:11:32.61,main,Subaru,0,0,0,,quando o assunto é enrolar numa conversa,\Neu sou de primeira classe!
-Dialogue: 0,0:11:32.61,0:11:36.12,main,Subaru,0,0,0,,Não tenho certeza se isso é algo\Nde que se gabar.
-Dialogue: 0,0:11:36.12,0:11:39.60,main,Emilia,0,0,0,,Então é seguro presumir que Ram\Nficará na mansão cuidando das coisas?
-Dialogue: 0,0:11:39.60,0:11:45.56,main,Roswaal,0,0,0,,Sim, como desejar, Roswaal-sama.
-Dialogue: 0,0:11:45.56,0:11:48.23,main,Ram,0,0,0,,Parece que está tudo decidido.
-Dialogue: 0,0:11:48.67,0:11:50.67,main,Roswaal,0,0,0,,Contarei com você, Beatrice, para\Ntomar conta dos quatro.
-Dialogue: 0,0:11:50.67,0:11:55.52,main,Roswaal,0,0,0,,Miau?!
-Dialogue: 0,0:11:55.52,0:11:56.12,main,Beatrice,0,0,0,,Não preciso que me diga isso, eu suponho!
-Dialogue: 0,0:11:56.59,0:11:59.37,main,Beatrice,0,0,0,,Quer saber de uma coisa?!
-Dialogue: 0,0:12:04.12,0:12:05.38,main,Otto,0,0,0,,Apesar da minha aparência, estou sempre\Npensando no bem de todos vocês!
-Dialogue: 0,0:12:05.38,0:12:09.96,main,Otto,0,0,0,,Você já virou praticamente o diretor\Nde assuntos internos, né?
-Dialogue: 0,0:12:09.96,0:12:14.16,main,Subaru,0,0,0,,Por que está olhando pra mim com tanta pena?
-Dialogue: 0,0:12:14.73,0:12:17.28,main,Otto,0,0,0,,Ei, relaxa, Otto-nii.
-Dialogue: 0,0:12:17.28,0:12:19.68,main,Garfiel,0,0,0,,O Chefe não é do tipo que provoca muito.
-Dialogue: 0,0:12:19.96,0:12:23.76,main,Garfiel,0,0,0,,Ele fechou em dez Ottos por dia\Nda última vez, lembra?
-Dialogue: 0,0:12:23.76,0:12:26.94,main,Garfiel,0,0,0,,O que diabos "dez Ottos por dia" quer dizer?!
-Dialogue: 0,0:12:26.94,0:12:31.28,main,Otto,0,0,0,,Com licença.
-Dialogue: 0,0:12:49.50,0:12:51.05,main,Subaru,0,0,0,,Rem...
-Dialogue: 0,0:13:07.42,0:13:08.30,main,Subaru,0,0,0,,Parece que não vou poder\Nver você por um tempo.
-Dialogue: 0,0:13:10.68,0:13:13.57,main,Subaru,0,0,0,,Mas tenho um montão de coisas\Npra te contar hoje.
-Dialogue: 0,0:13:14.79,0:13:17.66,main,Subaru,0,0,0,,Uma visita sem convite trouxe um\Nproblemão novo pra gente resolver, sabe...
-Dialogue: 0,0:13:18.22,0:13:23.23,main,Subaru,0,0,0,,Antes de encontrarmos Anastasia-sama,
-Dialogue: 0,0:13:39.76,0:13:41.76,main,Otto,0,0,0,,deixem-me contar como anda a\Nsituação atual da Seleção Real.
-Dialogue: 0,0:13:41.76,0:13:46.23,main,Otto,0,0,0,,Certo.
-Dialogue: 0,0:13:46.66,0:13:47.29,main,Emilia,0,0,0,,No começo,
-Dialogue: 0,0:13:49.49,0:13:50.15,main,Otto,0,0,0,,a Duquesa Crusch Karsten e\NAnastasia Hoshin-sama
-Dialogue: 0,0:13:50.74,0:13:55.00,main,Otto,0,0,0,,eram vistas como a favorita e a principal rival.
-Dialogue: 0,0:13:55.00,0:13:57.28,main,Otto,0,0,0,,As outras três, incluindo Emilia-sama...
-Dialogue: 0,0:13:57.64,0:14:00.46,main,Otto,0,0,0,,Se me permite a franqueza,
-Dialogue: 0,0:14:01.08,0:14:03.33,main,Otto,0,0,0,,a maioria achava que estavam lá\Napenas para preencher o número.
-Dialogue: 0,0:14:03.33,0:14:05.62,main,Otto,0,0,0,,Sim, acho que isso é inegável.
-Dialogue: 0,0:14:05.62,0:14:08.04,main,Emilia,0,0,0,,Mas ao longo deste último ano, no mínimo,
-Dialogue: 0,0:14:08.88,0:14:11.11,main,Otto,0,0,0,,a opinião das ruas sobre você mudou.
-Dialogue: 0,0:14:11.11,0:14:13.88,main,Otto,0,0,0,,Seus feitos ao trabalhar com\Nduas forças poderosas
-Dialogue: 0,0:14:14.71,0:14:17.84,main,Otto,0,0,0,,para derrotar a Baleia Branca e um Arcebispo\Ndo Pecado tiveram grande papel nisso.
-Dialogue: 0,0:14:17.84,0:14:21.60,main,Otto,0,0,0,,As outras duas candidatas que pareciam\Nfiguração, especialmente Priscilla,
-Dialogue: 0,0:14:23.08,0:14:28.32,main,Otto,0,0,0,,também fizeram avanços notáveis.
-Dialogue: 0,0:14:28.32,0:14:29.98,main,Otto,0,0,0,,Depois que ela herdou o território\Nde seu falecido marido,
-Dialogue: 0,0:14:30.98,0:14:33.88,main,Otto,0,0,0,,figuras influentes que temiam o estado\Ndas coisas ao seu redor
-Dialogue: 0,0:14:33.88,0:14:37.19,main,Otto,0,0,0,,rapidamente se juntaram ao lado dela.
-Dialogue: 0,0:14:37.19,0:14:38.45,main,Otto,0,0,0,,E dada a beleza e o temperamento que\Npermitem que ela manipule todos tão fácil,
-Dialogue: 0,0:14:39.04,0:14:42.91,main,Otto,0,0,0,,agora é reverenciada como a "Princesa do Sol"\Ne ganha força a cada dia.
-Dialogue: 0,0:14:43.25,0:14:47.37,main,Otto,0,0,0,,E no início a única força de Felt\Nera seu cavaleiro,
-Dialogue: 0,0:14:47.78,0:14:51.35,main,Otto,0,0,0,,o Santo da Espada, Reinhard van Astrea.
-Dialogue: 0,0:14:51.35,0:14:54.50,main,Otto,0,0,0,,Mas aqueles em quem ela pôs os olhos
-Dialogue: 0,0:14:55.16,0:14:57.29,main,Otto,0,0,0,,eram pessoas com talentos notáveis,\Nmas personalidades problemáticas,
-Dialogue: 0,0:14:57.29,0:15:00.22,main,Otto,0,0,0,,e aqueles que já carregavam feridas.
-Dialogue: 0,0:15:00.22,0:15:02.74,main,Otto,0,0,0,,Ela os trouxe ativamente para seu lado,
-Dialogue: 0,0:15:02.74,0:15:04.70,main,Otto,0,0,0,,e com suas ideias e visões flexíveis,
-Dialogue: 0,0:15:04.70,0:15:06.30,main,Otto,0,0,0,,iniciou reformas imensas em seu domínio.
-Dialogue: 0,0:15:06.30,0:15:08.93,main,Otto,0,0,0,,Então, durante o último ano, nenhuma peça\Ncaiu do tabuleiro.
-Dialogue: 0,0:15:09.39,0:15:14.02,main,Otto,0,0,0,,Exceto...
-Dialogue: 0,0:15:14.96,0:15:15.76,main,Otto,0,0,0,,Desde que a Duquesa Crusch Karsten\Nperdeu suas memórias
-Dialogue: 0,0:15:17.79,0:15:21.09,main,Otto,0,0,0,,na batalha contra o Culto da Bruxa,
-Dialogue: 0,0:15:21.09,0:15:23.32,main,Otto,0,0,0,,suas perspectivas não são favoráveis.
-Dialogue: 0,0:15:23.32,0:15:25.20,main,Otto,0,0,0,,Enquanto isso, Anastasia é a única candidata\Nque não perdeu nenhum ímpeto,
-Dialogue: 0,0:15:25.51,0:15:32.03,main,Otto,0,0,0,,nem antes nem depois do início\Nda Seleção Real.
-Dialogue: 0,0:15:32.03,0:15:35.88,main,Otto,0,0,0,,Anastasia-san tem uma grande empresa chamada\NCompanhia Hoshin por trás dela, certo?
-Dialogue: 0,0:15:35.88,0:15:42.59,main,Emilia,0,0,0,,Sim.
-Dialogue: 0,0:15:42.59,0:15:43.05,main,Otto,0,0,0,,A arma deles é a riqueza.
-Dialogue: 0,0:15:43.77,0:15:46.21,main,Otto,0,0,0,,Atacar com seu poder financeiro\Né a melhor jogada deles.
-Dialogue: 0,0:15:46.21,0:15:50.09,main,Otto,0,0,0,,Então este convite de Anastasia,
-Dialogue: 0,0:15:50.09,0:15:52.78,main,Otto,0,0,0,,e além disso, a probabilidade\Nde ficarmos em dívida com ela...
-Dialogue: 0,0:15:52.78,0:15:55.34,main,Otto,0,0,0,,Entendem agora por que meu estômago\Nestá doendo tanto?
-Dialogue: 0,0:15:55.34,0:15:58.74,main,Otto,0,0,0,,Finalmente tenho uma boa noção agora.
-Dialogue: 0,0:15:58.74,0:16:01.42,main,Emilia,0,0,0,,Peço desculpas pelas minhas ações teimosas.
-Dialogue: 0,0:16:01.42,0:16:03.36,main,Emilia,0,0,0,,Contanto que compreenda, está tudo bem.
-Dialogue: 0,0:16:03.90,0:16:07.09,main,Otto,0,0,0,,E não há necessidade de se preocupar\Ncom tudo isso sozinha.
-Dialogue: 0,0:16:07.09,0:16:10.69,main,Otto,0,0,0,,É igualzinho a esta carruagem de dragão.
-Dialogue: 0,0:16:10.69,0:16:12.33,main,Otto,0,0,0,,Como a carruagem de dragão? Como assim?
-Dialogue: 0,0:16:12.72,0:16:14.67,main,Emilia,0,0,0,,Natsuki-san é quem está\Nsegurando as rédeas agora.
-Dialogue: 0,0:16:15.00,0:16:18.35,main,Otto,0,0,0,,Beatrice-chan está de olho nele para garantir\Nque não negligencie seu dever.
-Dialogue: 0,0:16:18.35,0:16:21.92,main,Otto,0,0,0,,Garfiel está vigiando os arredores.
-Dialogue: 0,0:16:22.65,0:16:25.43,main,Otto,0,0,0,,Eu fui quem planejou o itinerário da carruagem.
-Dialogue: 0,0:16:25.87,0:16:28.76,main,Otto,0,0,0,,E você conversa com todos nós, dizendo\Nque estamos fazendo um bom trabalho,
-Dialogue: 0,0:16:29.13,0:16:33.87,main,Otto,0,0,0,,enquanto avançamos arduamente\Nrumo a Priestella.
-Dialogue: 0,0:16:33.87,0:16:37.18,main,Otto,0,0,0,,O jeito que você disse isso\Npareceu muito com o Subaru.
-Dialogue: 0,0:16:37.18,0:16:41.28,main,Emilia,0,0,0,,O quê?! Sério?!
-Dialogue: 0,0:16:41.28,0:16:43.60,main,Otto,0,0,0,,Não gosto nada disso...
-Dialogue: 0,0:16:43.60,0:16:45.26,main,Otto,0,0,0,,Ei, Otto, qual é? Que injustiça!
-Dialogue: 0,0:16:46.88,0:16:49.12,main,Subaru,0,0,0,,Do que você tá falando todo animado\Nassim com a minha Emilia-tan?
-Dialogue: 0,0:16:49.12,0:16:52.32,main,Subaru,0,0,0,,Beako, segura as rédeas um minutinho!
-Dialogue: 0,0:16:52.32,0:16:54.32,top,Subaru,0,0,0,,Espere! Eu não consigo!
-Dialogue: 0,0:16:53.13,0:16:55.12,main,Beatrice,0,0,0,,Pare com isso, eu suponho! Subaru! Subaru!
-Dialogue: 0,0:16:55.12,0:16:57.60,main,Beatrice,0,0,0,,Ei, Chefe! O que tá fazendo?!
-Dialogue: 0,0:16:57.60,0:16:59.71,main,Garfiel,0,0,0,,Tem certeza de que isso é boa ideia?!
-Dialogue: 0,0:17:00.08,0:17:02.22,main,Garfiel,0,0,0,,Subaru! Espere!
-Dialogue: 0,0:17:00.08,0:17:02.22,top,Beatrice,0,0,0,,Subaru!
+Dialogue: 0,0:10:44.33,0:10:47.23,main,Roswaal,0,0,0,,Mesmo que este seja um período terrivelmente ocupado,
+Dialogue: 0,0:10:47.23,0:10:50.72,main,Roswaal,0,0,0,,com a assembleia dos nobres do oeste e tudo mais.
+Dialogue: 0,0:10:52.53,0:10:57.95,main,Frederica,0,0,0,,De fato, Mestre, o senhor não demonstra\Nsinal algum de remorso.
+Dialogue: 0,0:10:57.95,0:11:00.93,main,Roswaal,0,0,0,,Ora, que severidade a sua, Frederica.
+Dialogue: 0,0:11:00.93,0:11:02.65,main,Frederica,0,0,0,,Mas é claro.
+Dialogue: 0,0:11:02.93,0:11:08.46,main,Roswaal,0,0,0,,Francamente, preocupa-me um pouco mandar\Nvocê e Subaru-kun sozinhos até lá,
+Dialogue: 0,0:11:08.46,0:11:12.11,main,Roswaal,0,0,0,,mas se Garfiel e Otto-kun estiverem\Ncom vocês, tudo ficará bem.
+Dialogue: 0,0:11:12.11,0:11:16.56,main,Roswaal,0,0,0,,Não preciso me preocupar que Otto-kun\Ncometa erros bobos nas negociações,
+Dialogue: 0,0:11:16.56,0:11:20.08,main,Roswaal,0,0,0,,e no pior dos casos, Garfiel pode\Ndestruir qualquer coisa para ajudá-los a fugir.
+Dialogue: 0,0:11:20.66,0:11:23.84,main,Emilia,0,0,0,,Isso parece que causaria grandes\Nproblemas por si só!
+Dialogue: 0,0:11:23.84,0:11:26.40,main,Emilia,0,0,0,,Farei o meu melhor, eu prometo!
+Dialogue: 0,0:11:26.40,0:11:29.27,main,Subaru,0,0,0,,Não precisa se preocupar com nada, Emilia-tan.
+Dialogue: 0,0:11:29.27,0:11:32.61,main,Subaru,0,0,0,,Seja contra a Anastasia-san ou contra o Julius,
+Dialogue: 0,0:11:32.61,0:11:36.12,main,Subaru,0,0,0,,quando o assunto é enrolar numa conversa,\Neu sou de primeira classe!
+Dialogue: 0,0:11:36.12,0:11:39.60,main,Emilia,0,0,0,,Não tenho certeza se isso é algo\Nde que se gabar.
+Dialogue: 0,0:11:39.60,0:11:45.56,main,Roswaal,0,0,0,,Então é seguro presumir que Ram\Nficará na mansão cuidando das coisas?
+Dialogue: 0,0:11:45.56,0:11:48.23,main,Ram,0,0,0,,Sim, como desejar, Roswaal-sama.
+Dialogue: 0,0:11:48.67,0:11:50.67,main,Roswaal,0,0,0,,Parece que está tudo decidido.
+Dialogue: 0,0:11:50.67,0:11:55.52,main,Roswaal,0,0,0,,Contarei com você, Beatrice, para\Ntomar conta dos quatro.
+Dialogue: 0,0:11:55.52,0:11:56.12,main,Beatrice,0,0,0,,Miau?!
+Dialogue: 0,0:11:56.59,0:11:59.37,main,Beatrice,0,0,0,,Não preciso que me diga isso, eu suponho!
+Dialogue: 0,0:12:04.12,0:12:05.38,main,Otto,0,0,0,,Quer saber de uma coisa?!
+Dialogue: 0,0:12:05.38,0:12:09.96,main,Otto,0,0,0,,Apesar da minha aparência, estou sempre\Npensando no bem de todos vocês!
+Dialogue: 0,0:12:09.96,0:12:14.16,main,Subaru,0,0,0,,Você já virou praticamente o diretor\Nde assuntos internos, né?
+Dialogue: 0,0:12:14.73,0:12:17.28,main,Otto,0,0,0,,Por que está olhando pra mim com tanta pena?
+Dialogue: 0,0:12:17.28,0:12:19.68,main,Garfiel,0,0,0,,Ei, relaxa, Otto-nii.
+Dialogue: 0,0:12:19.96,0:12:23.76,main,Garfiel,0,0,0,,O Chefe não é do tipo que provoca muito.
+Dialogue: 0,0:12:23.76,0:12:26.94,main,Garfiel,0,0,0,,Ele fechou em dez Ottos por dia\Nda última vez, lembra?
+Dialogue: 0,0:12:26.94,0:12:31.28,main,Otto,0,0,0,,O que diabos "dez Ottos por dia" quer dizer?!
+Dialogue: 0,0:12:49.50,0:12:51.05,main,Subaru,0,0,0,,Com licença.
+Dialogue: 0,0:13:07.42,0:13:08.30,main,Subaru,0,0,0,,Rem...
+Dialogue: 0,0:13:10.68,0:13:13.57,main,Subaru,0,0,0,,Parece que não vou poder\Nver você por um tempo.
+Dialogue: 0,0:13:14.79,0:13:17.66,main,Subaru,0,0,0,,Mas tenho um montão de coisas\Npra te contar hoje.
+Dialogue: 0,0:13:18.22,0:13:23.23,main,Subaru,0,0,0,,Uma visita sem convite trouxe um\Nproblemão novo pra gente resolver, sabe...
+Dialogue: 0,0:13:39.76,0:13:41.76,main,Otto,0,0,0,,Antes de encontrarmos Anastasia-sama,
+Dialogue: 0,0:13:41.76,0:13:46.23,main,Otto,0,0,0,,deixem-me contar como anda a\Nsituação atual da Seleção Real.
+Dialogue: 0,0:13:46.66,0:13:47.29,main,Emilia,0,0,0,,Certo.
+Dialogue: 0,0:13:49.49,0:13:50.15,main,Otto,0,0,0,,No começo,
+Dialogue: 0,0:13:50.74,0:13:55.00,main,Otto,0,0,0,,a Duquesa Crusch Karsten e\NAnastasia Hoshin-sama
+Dialogue: 0,0:13:55.00,0:13:57.28,main,Otto,0,0,0,,eram vistas como a favorita e a principal rival.
+Dialogue: 0,0:13:57.64,0:14:00.46,main,Otto,0,0,0,,As outras três, incluindo Emilia-sama...
+Dialogue: 0,0:14:01.08,0:14:03.33,main,Otto,0,0,0,,Se me permite a franqueza,
+Dialogue: 0,0:14:03.33,0:14:05.62,main,Otto,0,0,0,,a maioria achava que estavam lá\Napenas para preencher o número.
+Dialogue: 0,0:14:05.62,0:14:08.04,main,Emilia,0,0,0,,Sim, acho que isso é inegável.
+Dialogue: 0,0:14:08.88,0:14:11.11,main,Otto,0,0,0,,Mas ao longo deste último ano, no mínimo,
+Dialogue: 0,0:14:11.11,0:14:13.88,main,Otto,0,0,0,,a opinião das ruas sobre você mudou.
+Dialogue: 0,0:14:14.71,0:14:17.84,main,Otto,0,0,0,,Seus feitos ao trabalhar com\Nduas forças poderosas
+Dialogue: 0,0:14:17.84,0:14:21.60,main,Otto,0,0,0,,para derrotar a Baleia Branca e um Arcebispo\Ndo Pecado tiveram grande papel nisso.
+Dialogue: 0,0:14:23.08,0:14:28.32,main,Otto,0,0,0,,As outras duas candidatas que pareciam\Nfiguração, especialmente Priscilla,
+Dialogue: 0,0:14:28.32,0:14:29.98,main,Otto,0,0,0,,também fizeram avanços notáveis.
+Dialogue: 0,0:14:30.98,0:14:33.88,main,Otto,0,0,0,,Depois que ela herdou o território\Nde seu falecido marido,
+Dialogue: 0,0:14:33.88,0:14:37.19,main,Otto,0,0,0,,figuras influentes que temiam o estado\Ndas coisas ao seu redor
+Dialogue: 0,0:14:37.19,0:14:38.45,main,Otto,0,0,0,,rapidamente se juntaram ao lado dela.
+Dialogue: 0,0:14:39.04,0:14:42.91,main,Otto,0,0,0,,E dada a beleza e o temperamento que\Npermitem que ela manipule todos tão fácil,
+Dialogue: 0,0:14:43.25,0:14:47.37,main,Otto,0,0,0,,agora é reverenciada como a "Princesa do Sol"\Ne ganha força a cada dia.
+Dialogue: 0,0:14:47.78,0:14:51.35,main,Otto,0,0,0,,E no início a única força de Felt\Nera seu cavaleiro,
+Dialogue: 0,0:14:51.35,0:14:54.50,main,Otto,0,0,0,,o Santo da Espada, Reinhard van Astrea.
+Dialogue: 0,0:14:55.16,0:14:57.29,main,Otto,0,0,0,,Mas aqueles em quem ela pôs os olhos
+Dialogue: 0,0:14:57.29,0:15:00.22,main,Otto,0,0,0,,eram pessoas com talentos notáveis,\Nmas personalidades problemáticas,
+Dialogue: 0,0:15:00.22,0:15:02.74,main,Otto,0,0,0,,e aqueles que já carregavam feridas.
+Dialogue: 0,0:15:02.74,0:15:04.70,main,Otto,0,0,0,,Ela os trouxe ativamente para seu lado,
+Dialogue: 0,0:15:04.70,0:15:06.30,main,Otto,0,0,0,,e com suas ideias e visões flexíveis,
+Dialogue: 0,0:15:06.30,0:15:08.93,main,Otto,0,0,0,,iniciou reformas imensas em seu domínio.
+Dialogue: 0,0:15:09.39,0:15:14.02,main,Otto,0,0,0,,Então, durante o último ano, nenhuma peça\Ncaiu do tabuleiro.
+Dialogue: 0,0:15:14.96,0:15:15.76,main,Otto,0,0,0,,Exceto...
+Dialogue: 0,0:15:17.79,0:15:21.09,main,Otto,0,0,0,,Desde que a Duquesa Crusch Karsten\Nperdeu suas memórias
+Dialogue: 0,0:15:21.09,0:15:23.32,main,Otto,0,0,0,,na batalha contra o Culto da Bruxa,
+Dialogue: 0,0:15:23.32,0:15:25.20,main,Otto,0,0,0,,suas perspectivas não são favoráveis.
+Dialogue: 0,0:15:25.51,0:15:32.03,main,Otto,0,0,0,,Enquanto isso, Anastasia é a única candidata\Nque não perdeu nenhum ímpeto,
+Dialogue: 0,0:15:32.03,0:15:35.88,main,Otto,0,0,0,,nem antes nem depois do início\Nda Seleção Real.
+Dialogue: 0,0:15:35.88,0:15:42.59,main,Emilia,0,0,0,,Anastasia-san tem uma grande empresa chamada\NCompanhia Hoshin por trás dela, certo?
+Dialogue: 0,0:15:42.59,0:15:43.05,main,Otto,0,0,0,,Sim.
+Dialogue: 0,0:15:43.77,0:15:46.21,main,Otto,0,0,0,,A arma deles é a riqueza.
+Dialogue: 0,0:15:46.21,0:15:50.09,main,Otto,0,0,0,,Atacar com seu poder financeiro\Né a melhor jogada deles.
+Dialogue: 0,0:15:50.09,0:15:52.78,main,Otto,0,0,0,,Então este convite de Anastasia,
+Dialogue: 0,0:15:52.78,0:15:55.34,main,Otto,0,0,0,,e além disso, a probabilidade\Nde ficarmos em dívida com ela...
+Dialogue: 0,0:15:55.34,0:15:58.74,main,Otto,0,0,0,,Entendem agora por que meu estômago\Nestá doendo tanto?
+Dialogue: 0,0:15:58.74,0:16:01.42,main,Emilia,0,0,0,,Finalmente tenho uma boa noção agora.
+Dialogue: 0,0:16:01.42,0:16:03.36,main,Emilia,0,0,0,,Peço desculpas pelas minhas ações teimosas.
+Dialogue: 0,0:16:03.90,0:16:07.09,main,Otto,0,0,0,,Contanto que compreenda, está tudo bem.
+Dialogue: 0,0:16:07.09,0:16:10.69,main,Otto,0,0,0,,E não há necessidade de se preocupar\Ncom tudo isso sozinha.
+Dialogue: 0,0:16:10.69,0:16:12.33,main,Otto,0,0,0,,É igualzinho a esta carruagem de dragão.
+Dialogue: 0,0:16:12.72,0:16:14.67,main,Emilia,0,0,0,,Como a carruagem de dragão? Como assim?
+Dialogue: 0,0:16:15.00,0:16:18.35,main,Otto,0,0,0,,Natsuki-san é quem está\Nsegurando as rédeas agora.
+Dialogue: 0,0:16:18.35,0:16:21.92,main,Otto,0,0,0,,Beatrice-chan está de olho nele para garantir\Nque não negligencie seu dever.
+Dialogue: 0,0:16:22.65,0:16:25.43,main,Otto,0,0,0,,Garfiel está vigiando os arredores.
+Dialogue: 0,0:16:25.87,0:16:28.76,main,Otto,0,0,0,,Eu fui quem planejou o itinerário da carruagem.
+Dialogue: 0,0:16:29.13,0:16:33.87,main,Otto,0,0,0,,E você conversa com todos nós, dizendo\Nque estamos fazendo um bom trabalho,
+Dialogue: 0,0:16:33.87,0:16:37.18,main,Otto,0,0,0,,enquanto avançamos arduamente\Nrumo a Priestella.
+Dialogue: 0,0:16:37.18,0:16:41.28,main,Emilia,0,0,0,,O jeito que você disse isso\Npareceu muito com o Subaru.
+Dialogue: 0,0:16:41.28,0:16:43.60,main,Otto,0,0,0,,O quê?! Sério?!
+Dialogue: 0,0:16:43.60,0:16:45.26,main,Otto,0,0,0,,Não gosto nada disso...
+Dialogue: 0,0:16:46.88,0:16:49.12,main,Subaru,0,0,0,,Ei, Otto, qual é? Que injustiça!
+Dialogue: 0,0:16:49.12,0:16:52.32,main,Subaru,0,0,0,,Do que você tá falando todo animado\Nassim com a minha Emilia-tan?
+Dialogue: 0,0:16:52.32,0:16:54.32,top,Subaru,0,0,0,,Beako, segura as rédeas um minutinho!
+Dialogue: 0,0:16:53.13,0:16:55.12,main,Beatrice,0,0,0,,Espere! Eu não consigo!
+Dialogue: 0,0:16:55.12,0:16:57.60,main,Beatrice,0,0,0,,Pare com isso, eu suponho! Subaru! Subaru!
+Dialogue: 0,0:16:57.60,0:16:59.71,main,Garfiel,0,0,0,,Ei, Chefe! O que tá fazendo?!
+Dialogue: 0,0:17:00.08,0:17:02.22,main,Garfiel,0,0,0,,Tem certeza de que isso é boa ideia?!
+Dialogue: 0,0:17:00.08,0:17:02.22,top,Beatrice,0,0,0,,Subaru! Espere!
 Dialogue: 0,0:17:07.55,0:17:09.93,main,Beatrice,0,0,0,,Subaru!
 Dialogue: 0,0:17:09.93,0:18:27.00,main,,0,0,0,,
 Dialogue: 0,0:17:16.98,0:17:19.66,main,Subaru,0,0,0,,Eles são rígidos pra caramba até só\Npra deixar o povo entrar e sair.
@@ -690,7 +690,7 @@ Dialogue: 0,0:36:45.48,0:36:48.46,main,Subaru,0,0,0,,Ele é meu... amigo.
 Dialogue: 0,0:36:48.46,0:36:49.81,main,Subaru,0,0,0,,Não precisa se preocupar.
 Dialogue: 0,0:36:50.65,0:36:54.52,main,Reinhard,0,0,0,,Como ele disse, sou Reinhard van Astrea.
 Dialogue: 0,0:36:55.19,0:36:57.94,main,Reinhard,0,0,0,,Agradeceria se me dissesse seu nome.
-Dialogue: 0,0:36:59.52,0:37:01.24,main,Garfiel,0,0,0,,Garfiel Tinzel.
+Dialogue: 0,0:36:59.52,0:37:01.24,main,Garfiel,0,0,0,,Garfiel Tinsel.
 Dialogue: 0,0:37:01.24,0:37:05.26,main,Reinhard,0,0,0,,Ah, então você é o conhecido\Ncomo o escudo da Emilia-sama?
 Dialogue: 0,0:37:05.26,0:37:06.24,main,Reinhard,0,0,0,,Prazer em conhecê-lo.
 Dialogue: 0,0:37:07.62,0:37:08.58,main,Reinhard,0,0,0,,Hã?!

@@ -299,54 +299,111 @@ def _decode_ass_inline(text: str, placeholders: list[str]) -> str:
     return TOKEN_RE.sub(_repl, restored)
 
 
+def _ass_bgr_to_hex(raw_col: str, *, skip_near_black: bool = False) -> str | None:
+    digits = re.sub(r"[^0-9A-Fa-f]", "", raw_col or "")
+    if len(digits) < 2:
+        return None
+    bbggrr = digits.zfill(6)[-6:]
+    bb, gg, rr = bbggrr[0:2], bbggrr[2:4], bbggrr[4:6]
+    hex_col = f"#{rr}{gg}{bb}".lower()
+    if hex_col in ("#ffffff", "#000000"):
+        return None
+    if skip_near_black and max(int(rr, 16), int(gg, 16), int(bb, 16)) < 35:
+        return None
+    return hex_col
+
+
+def _classify_cue_role(style_name: str, is_sign: bool, is_karaoke: bool) -> str | None:
+    low = (style_name or "").strip().lower()
+    if "title" in low:
+        return "title"
+    if "overlap" in low:
+        return "overlap"
+    if "flashback" in low:
+        return "flashback"
+    if not is_karaoke and re.search(
+        r"(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)",
+        low,
+    ):
+        return "song"
+    return None
+
+
 def _ass_text_to_runs_lines(
-    raw_ass_text: str, style_name: str, style_alignments: dict[str, int]
+    raw_ass_text: str,
+    style_name: str,
+    style_alignments: dict[str, int],
+    style_italics: dict[str, bool] | None = None,
+    style_colors: dict[str, str] | None = None,
 ) -> tuple[int, bool, list[list[dict[str, Any]]]]:
     """Convert raw ASS text (with tags) into normalized extension cue fields."""
     align = style_alignments.get(style_name, 2)
-    is_sign = False
-
-    lower_style = style_name.lower()
-    if any(k in lower_style for k in ("sign", "title", "note", "caption", "top")):
-        is_sign = True
+    lower_style = (style_name or "").strip().lower()
+    non_sign_dialogue = bool(
+        re.search(
+            r"(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert)\b|[-_](?:tl|e|r)\b)",
+            lower_style,
+        )
+    )
+    is_sign = bool(re.search(r"(?:sign|title|note|caption)", lower_style))
 
     for m in ASS_BLOCK_RE.finditer(raw_ass_text):
         tag_body = m.group(1)
         an_matches = AN_TAG_RE.findall(tag_body)
         if an_matches:
             align = int(an_matches[-1])
-        if SIGN_TAG_RE.search(tag_body):
+        if SIGN_TAG_RE.search(tag_body) and not non_sign_dialogue:
             is_sign = True
 
-    if align in (7, 8, 9):
-        is_sign = True
+    default_italic = bool((style_italics or {}).get(style_name, False) or "italic" in lower_style)
+    default_color = (style_colors or {}).get(style_name)
 
-    # Normalize line breaks first; keep track of inline italics/bold across ASS blocks & HTML tags
+    # Normalize line breaks first; keep track of inline italics/bold/color/alpha across ASS blocks & HTML tags
     normalized = raw_ass_text.replace(r"\N", "\n").replace(r"\n", "\n").replace(r"\h", "\u00A0")
 
     lines: list[list[dict[str, Any]]] = []
     for raw_line in normalized.split("\n"):
         runs: list[dict[str, Any]] = []
-        italic = False
+        italic = default_italic
         bold = False
+        color = default_color
+        hidden = False
         pos = 0
         # Walk {ass} and <i>/<b> tags sequentially
         combined_re = re.compile(r"\{([^}]*)\}|<(/?)(i|b)\b[^>]*>", re.IGNORECASE)
         for m in combined_re.finditer(raw_line):
-            if m.start() > pos:
+            if m.start() > pos and not hidden:
                 chunk = raw_line[pos : m.start()]
                 if chunk:
-                    runs.append({"text": chunk, "i": italic, "b": bold})
+                    run_obj: dict[str, Any] = {"text": chunk, "i": italic, "b": bold}
+                    if color:
+                        run_obj["color"] = color
+                    runs.append(run_obj)
             if m.group(1) is not None:
                 body = m.group(1)
                 if r"\i1" in body:
                     italic = True
-                if r"\i0" in body or body.strip() == r"\r":
+                if r"\i0" in body:
                     italic = False
                 if r"\b1" in body:
                     bold = True
-                if r"\b0" in body or body.strip() == r"\r":
+                if r"\b0" in body:
                     bold = False
+                if re.search(r"\\r(?![a-zA-Z0-9])", body):
+                    italic = default_italic
+                    bold = False
+                    color = default_color
+                    hidden = False
+                if re.search(r"\\(?:1a|alpha)&H[0-9A-Fa-f]*FF&?", body, re.IGNORECASE):
+                    hidden = True
+                elif re.search(r"\\(?:1a|alpha)(?:&H00&?|(?![&0-9A-Za-z]))", body, re.IGNORECASE):
+                    hidden = False
+                col_matches = re.findall(r"\\1?c&H([0-9A-Fa-f]{2,8})&?", body)
+                if col_matches:
+                    parsed_hex = _ass_bgr_to_hex(col_matches[-1])
+                    color = parsed_hex if parsed_hex else default_color
+                elif re.search(r"\\1?c(?![&0-9A-Za-z])", body):
+                    color = default_color
             else:
                 closing = m.group(2) == "/"
                 tag = m.group(3).lower()
@@ -356,17 +413,25 @@ def _ass_text_to_runs_lines(
                     bold = not closing
             pos = m.end()
 
-        if pos < len(raw_line):
+        if pos < len(raw_line) and not hidden:
             tail = raw_line[pos:]
             if tail:
-                runs.append({"text": tail, "i": italic, "b": bold})
+                run_obj = {"text": tail, "i": italic, "b": bold}
+                if color:
+                    run_obj["color"] = color
+                runs.append(run_obj)
 
         # Merge adjacent runs with identical styles
         merged: list[dict[str, Any]] = []
         for r in runs:
             if not r["text"]:
                 continue
-            if merged and merged[-1]["i"] == r["i"] and merged[-1]["b"] == r["b"]:
+            if (
+                merged
+                and merged[-1]["i"] == r["i"]
+                and merged[-1]["b"] == r["b"]
+                and merged[-1].get("color") == r.get("color")
+            ):
                 merged[-1]["text"] += r["text"]
             else:
                 merged.append(r)
@@ -868,6 +933,8 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
     style_alignments: dict[str, int] = {}
     style_fontsizes: dict[str, float] = {}
     style_fontnames: dict[str, str] = {}
+    style_italics: dict[str, bool] = {}
+    style_colors: dict[str, str] = {}
     event_fields: list[str] = []
     header_lines: list[str] = []
     events: list[dict[str, Any]] = []
@@ -902,6 +969,11 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
                     except ValueError:
                         style_fontsizes[sname] = 72.0
                     style_fontnames[sname] = row.get("fontname", "")
+                    it_raw = row.get("italic", "0").strip()
+                    style_italics[sname] = (it_raw not in ("", "0")) or ("italic" in sname.lower())
+                    pcol = _ass_bgr_to_hex(row.get("primarycolour", ""), skip_near_black=True)
+                    if pcol:
+                        style_colors[sname] = pcol
             continue
 
         # Inside [Events]
@@ -984,6 +1056,8 @@ def parse_ass_file(path: Path) -> dict[str, Any]:
         "style_alignments": style_alignments,
         "style_fontsizes": style_fontsizes,
         "style_fontnames": style_fontnames,
+        "style_italics": style_italics,
+        "style_colors": style_colors,
         "events": events,
     }
 
@@ -1757,6 +1831,8 @@ def cmd_prepare(args: argparse.Namespace) -> int:
         "event_fields": parsed["event_fields"],
         "style_alignments": parsed["style_alignments"],
         "style_fontsizes": parsed.get("style_fontsizes", {}),
+        "style_italics": parsed.get("style_italics", {}),
+        "style_colors": parsed.get("style_colors", {}),
         "chunks": chunk_files,
         "totalEvents": len(entries),
         "translatableEvents": sum(1 for e in entries if not e["skip"]),
@@ -2035,6 +2111,18 @@ def cmd_build(args: argparse.Namespace) -> int:
 
     TRANSLATED_DIR.mkdir(parents=True, exist_ok=True)
     style_alignments = meta.get("style_alignments", {"Default": 2})
+    style_italics = meta.get("style_italics")
+    style_colors = meta.get("style_colors")
+    source_rel = meta.get("sourceFile")
+    raw_ass_path = (PROJECT_ROOT / source_rel) if source_rel else None
+    if meta["format"] == "ass" and (style_italics is None or style_colors is None) and raw_ass_path and raw_ass_path.is_file():
+        raw_parsed = parse_ass_file(raw_ass_path)
+        if style_italics is None:
+            style_italics = raw_parsed.get("style_italics", {})
+        if style_colors is None:
+            style_colors = raw_parsed.get("style_colors", {})
+    style_italics = style_italics or {}
+    style_colors = style_colors or {}
 
     ext_cues: list[dict[str, Any]] = []
     vtt_blocks: list[str] = ["WEBVTT"]
@@ -2064,29 +2152,29 @@ def cmd_build(args: argparse.Namespace) -> int:
             ordered = [str(fields_map.get(f, "")) for f in event_fields]
             ass_lines.append(f"{item['kind']}: " + ",".join(ordered))
 
+            st_name = item.get("style", "Default")
             align, is_sign, cue_lines = _ass_text_to_runs_lines(
-                full_ass_text, item.get("style", "Default"), style_alignments
+                full_ass_text, st_name, style_alignments, style_italics, style_colors
             )
             if cue_lines and not item.get("omit_web"):
-                ext_cues.append(
-                    {
-                        "start": item["start"],
-                        "end": item["end"],
-                        "align": align,
-                        "style": item.get("style", "Default"),
-                        "isSign": is_sign,
-                        "lines": cue_lines,
-                    }
-                )
+                cue_obj: dict[str, Any] = {
+                    "start": item["start"],
+                    "end": item["end"],
+                    "align": align,
+                    "style": st_name,
+                    "isSign": is_sign,
+                    "lines": cue_lines,
+                }
+                role = _classify_cue_role(st_name, is_sign, False)
+                if role:
+                    cue_obj["role"] = role
+                ext_cues.append(cue_obj)
 
         ass_out = TRANSLATED_DIR / f"{episode_key}.ass"
         ass_out.write_text("\n".join(ass_lines) + "\n", encoding="utf-8")
 
-        source_rel = meta.get("sourceFile")
-        if source_rel:
-            raw_ass_path = PROJECT_ROOT / source_rel
-            if raw_ass_path.is_file():
-                ext_cues.extend(_extract_karaoke_web_cues(raw_ass_path))
+        if raw_ass_path and raw_ass_path.is_file():
+            ext_cues.extend(_extract_karaoke_web_cues(raw_ass_path))
     else:
         srt_blocks: list[str] = []
         cue_idx = 0
@@ -2117,16 +2205,22 @@ def cmd_build(args: argparse.Namespace) -> int:
     # Sort karaoke cues ahead of translation cues at the same timestamp so Romaji sits cleanly above PT-BR
     ext_cues.sort(key=lambda c: (c["start"], 0 if c.get("isKaraoke") else 1, c["end"]))
     dedup_cues: list[dict[str, Any]] = []
-    seen_cues: set[tuple[float, float, bool, str]] = set()
+    last_by_key: dict[tuple[bool, int, bool, str | None, str], dict[str, Any]] = {}
     for cue in ext_cues:
         plain_text = _runs_to_plain_text(cue["lines"])
         is_k = bool(cue.get("isKaraoke"))
-        sig = (round(cue["start"], 2), round(cue["end"], 2), is_k, plain_text)
-        if sig in seen_cues:
+        k_sig = (is_k, int(cue.get("align", 2)), bool(cue.get("isSign")), cue.get("role"), plain_text)
+        prev = last_by_key.get(k_sig)
+        if prev is not None and float(cue["start"]) < float(prev["end"]) - 0.01:
+            if float(cue["end"]) > float(prev["end"]):
+                prev["end"] = cue["end"]
             continue
-        seen_cues.add(sig)
         dedup_cues.append(cue)
-        if not is_k:
+        last_by_key[k_sig] = cue
+
+    for cue in dedup_cues:
+        if not cue.get("isKaraoke"):
+            plain_text = _runs_to_plain_text(cue["lines"])
             vtt_blocks.append(f"{_format_vtt_time(cue['start'])} --> {_format_vtt_time(cue['end'])}\n{plain_text}")
     ext_cues = dedup_cues
 

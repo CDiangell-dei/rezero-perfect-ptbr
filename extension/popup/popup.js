@@ -22,6 +22,11 @@ const ui = {
   localSubInput: document.getElementById('local-sub-input'),
   clearLocalBtn: document.getElementById('clear-local-btn'),
   localFileStatus: document.getElementById('local-file-status'),
+  boxStyleSelect: document.getElementById('box-style-select'),
+  fontFamilySelect: document.getElementById('font-family-select'),
+  textColorInput: document.getElementById('text-color-input'),
+  colorSwatches: Array.from(document.querySelectorAll('.swatch-btn')),
+  toggleStyleColors: document.getElementById('toggle-style-colors'),
   fontScaleRange: document.getElementById('font-scale-range'),
   fontScaleVal: document.getElementById('font-scale-val'),
   bgOpacityRange: document.getElementById('bg-opacity-range'),
@@ -66,6 +71,14 @@ function renderSettings(settings) {
   ui.toggleSigns.checked = Boolean(settings.showSigns);
   ui.toggleKaraoke.checked = Boolean(settings.showKaraoke ?? true);
   ui.toggleRemoteSync.checked = Boolean(settings.autoRemoteSync ?? true);
+  ui.boxStyleSelect.value = settings.boxStyle || 'box';
+  ui.fontFamilySelect.value = settings.fontFamily || 'sans';
+  const curColor = String(settings.textColor || '#ffffff').toLowerCase();
+  ui.textColorInput.value = /^#[0-9a-f]{6}$/.test(curColor) ? curColor : '#ffffff';
+  for (const btn of ui.colorSwatches) {
+    btn.classList.toggle('is-active', btn.dataset.color?.toLowerCase() === curColor);
+  }
+  ui.toggleStyleColors.checked = settings.styleColors !== false;
 
   const fontPct = Math.round((settings.fontScale || 1.0) * 100);
   ui.fontScaleRange.value = String(fontPct);
@@ -213,6 +226,30 @@ function wireEvents() {
 
   ui.toggleKaraoke.addEventListener('change', async () => {
     await saveSettingsPatch({ showKaraoke: ui.toggleKaraoke.checked });
+  });
+
+  ui.boxStyleSelect.addEventListener('change', async () => {
+    await saveSettingsPatch({ boxStyle: ui.boxStyleSelect.value });
+  });
+
+  ui.fontFamilySelect.addEventListener('change', async () => {
+    await saveSettingsPatch({ fontFamily: ui.fontFamilySelect.value });
+  });
+
+  ui.textColorInput.addEventListener('input', async () => {
+    await saveSettingsPatch({ textColor: ui.textColorInput.value });
+  });
+
+  for (const btn of ui.colorSwatches) {
+    btn.addEventListener('click', async () => {
+      if (btn.dataset.color) {
+        await saveSettingsPatch({ textColor: btn.dataset.color });
+      }
+    });
+  }
+
+  ui.toggleStyleColors.addEventListener('change', async () => {
+    await saveSettingsPatch({ styleColors: ui.toggleStyleColors.checked });
   });
 
   ui.toggleRemoteSync.addEventListener('change', async () => {

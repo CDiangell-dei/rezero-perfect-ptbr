@@ -741,6 +741,79 @@ class PipelineTestCase(unittest.TestCase):
         )
         self.assertEqual(sp._extract_karaoke_web_cues(ass_path), [])
 
+    def test_styling_alpha_roles_colors_and_overlap_dedup(self) -> None:
+        sp.RAW_EN_DIR.mkdir(parents=True, exist_ok=True)
+        ass_path = sp.RAW_EN_DIR / "arc05-ep01.ass"
+        ass_content = "\n".join(
+            [
+                "[Script Info]",
+                "ScriptType: v4.00+",
+                "",
+                "[V4+ Styles]",
+                "Format: Name, Fontname, Fontsize, PrimaryColour, Italic, Alignment",
+                "Style: main,Arial,54,&H00FFFFFF,0,2",
+                "Style: top,Arial,54,&H00FFFFFF,0,8",
+                "Style: italics,Arial,54,&H00FFFFFF,-1,2",
+                "Style: flashback,Arial,54,&H00FFFFFF,0,2",
+                "Style: overlap italics,Arial,54,&H007FD3F2,-1,2",
+                "Style: Episode Title,Arial,60,&H00FFFFFF,0,2",
+                "Style: OPE,QType,70,&H00FFFFFF,0,8",
+                "",
+                "[Events]",
+                "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
+                r"Dialogue: 0,0:00:01.00,0:00:03.00,main,,0,0,0,,{\alpha&HFF&}hidden {\alpha}visible {\c&H0000FF&}red",
+                r"Dialogue: 0,0:00:04.00,0:00:06.00,top,,0,0,0,,Top dialogue",
+                r"Dialogue: 0,0:00:07.00,0:00:09.00,italics,,0,0,0,,Inner thought",
+                r"Dialogue: 0,0:00:10.00,0:00:12.00,flashback,,0,0,0,,Past memory",
+                r"Dialogue: 0,0:00:13.00,0:00:15.00,overlap italics,,0,0,0,,Second voice",
+                r"Dialogue: 0,0:00:16.00,0:00:18.00,Episode Title,,0,0,0,,{\pos(960,540)}Arc Title",
+                r"Dialogue: 0,0:00:20.00,0:00:22.00,OPE,,0,0,0,,{\pos(500,60)}Song translation",
+                r"Dialogue: 0,0:00:25.00,0:00:27.00,main,,0,0,0,,Repeated shake",
+                r"Dialogue: 0,0:00:25.50,0:00:28.00,main,,0,0,0,,Repeated shake",
+            ]
+        )
+        ass_path.write_text(ass_content + "\n", encoding="utf-8")
+
+        self.assertEqual(sp.main(["prepare", "--arc", "5", "--ep", "1"]), 0)
+        chunk_path = sp.WORK_DIR / "arc05-ep01" / "chunk_001.json"
+        cdata = json.loads(chunk_path.read_text(encoding="utf-8"))
+        for item in cdata:
+            if not item["skip"]:
+                item["pt"] = item["en"]
+        chunk_path.write_text(json.dumps(cdata, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        self.assertEqual(sp.main(["build", "--arc", "5", "--ep", "1"]), 0)
+        ext_data = json.loads((sp.EXT_SUBS_DIR / "arc05" / "ep01.json").read_text(encoding="utf-8"))
+        cues = ext_data["cues"]
+        self.assertEqual(len(cues), 8)  # 9 minus 1 merged overlapping duplicate
+
+        # Cue 0: invisible alpha omitted + inline red color
+        self.assertEqual(
+            cues[0]["lines"],
+            [[{"text": "visible ", "i": False, "b": False}, {"text": "red", "i": False, "b": False, "color": "#ff0000"}]],
+        )
+        # Cue 1: 'top' aligns 8 but is NOT a sign
+        self.assertEqual(cues[1]["align"], 8)
+        self.assertFalse(cues[1]["isSign"])
+        # Cue 2: 'italics' style sets i=True
+        self.assertEqual(cues[2]["lines"], [[{"text": "Inner thought", "i": True, "b": False}]])
+        # Cue 3: flashback role
+        self.assertEqual(cues[3].get("role"), "flashback")
+        # Cue 4: overlap italics sets i=True, color=#f2d37f, role=overlap
+        self.assertEqual(cues[4].get("role"), "overlap")
+        self.assertEqual(
+            cues[4]["lines"],
+            [[{"text": "Second voice", "i": True, "b": False, "color": "#f2d37f"}]],
+        )
+        # Cue 5: Episode Title is sign + role=title
+        self.assertTrue(cues[5]["isSign"])
+        self.assertEqual(cues[5].get("role"), "title")
+        # Cue 6: OPE song translation is NOT sign + role=song
+        self.assertFalse(cues[6]["isSign"])
+        self.assertEqual(cues[6].get("role"), "song")
+        # Cue 7: overlapping duplicates merged into 25.0 -> 28.0
+        self.assertEqual((cues[7]["start"], cues[7]["end"]), (25.0, 28.0))
+
 
 if __name__ == "__main__":
     unittest.main()

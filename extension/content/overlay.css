@@ -14,7 +14,7 @@
   justify-content: space-between;
   padding: 3% 4% var(--rzpt-bottom-offset, 5%);
   transition: padding-bottom 180ms ease;
-  font-family: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: var(--rzpt-font-family, "Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif);
   font-size: clamp(13px, 2.2vw, 30px);
   user-select: none;
   -webkit-user-select: none;
@@ -81,7 +81,7 @@
   font-size: calc(1em * var(--rzpt-font-scale, 1));
   line-height: 1.32;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--rzpt-text-color, #ffffff);
   background-color: rgba(10, 10, 16, var(--rzpt-bg-opacity, 0.68));
   padding: 0.14em 0.44em;
   border-radius: 4px;
@@ -107,6 +107,60 @@
   font-style: italic;
   letter-spacing: 0.015em;
   font-size: calc(0.92em * var(--rzpt-font-scale, 1));
+}
+
+.rzpt-role-song {
+  font-style: italic;
+}
+
+.rzpt-role-title {
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-role-overlap {
+  color: #fde68a;
+}
+
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-role-flashback {
+  color: #e9d5ff;
+  border-left: 3px solid rgba(167, 139, 250, 0.75);
+}
+
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-role-title {
+  color: #fef08a;
+  background-color: rgba(18, 14, 32, var(--rzpt-bg-opacity, 0.82));
+  border: 1px solid rgba(250, 204, 21, 0.4);
+}
+
+.rzpt-overlay:not(.rzpt-no-role-colors) .rzpt-role-song {
+  color: #f5d0fe;
+}
+
+.rzpt-style-outline .rzpt-cue {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0.06em 0.25em;
+  text-shadow:
+    -2px -2px 0 #000000,
+     0px -2px 0 #000000,
+     2px -2px 0 #000000,
+    -2px  0px 0 #000000,
+     2px  0px 0 #000000,
+    -2px  2px 0 #000000,
+     0px  2px 0 #000000,
+     2px  2px 0 #000000,
+     0px  3px 6px rgba(0, 0, 0, 0.9);
+}
+
+.rzpt-style-shadow .rzpt-cue {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0.06em 0.25em;
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.95),
+    0 0 10px rgba(0, 0, 0, 0.9),
+    0 0 2px rgba(0, 0, 0, 0.95);
 }
 
 .rzpt-k-syl {

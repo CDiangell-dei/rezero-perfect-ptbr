@@ -79,6 +79,44 @@
       <section class="card stack-sm">
         <span class="section-label">Aparência e Sincronia</span>
 
+        <div class="field-row">
+          <div class="field-col">
+            <label class="field-label" for="box-style-select">Estilo da legenda</label>
+            <select id="box-style-select" class="select-input">
+              <option value="box">Caixa translúcida</option>
+              <option value="outline">Contorno clássico</option>
+              <option value="shadow">Sombra limpa</option>
+            </select>
+          </div>
+          <div class="field-col">
+            <label class="field-label" for="font-family-select">Fonte</label>
+            <select id="font-family-select" class="select-input">
+              <option value="sans">Padrão (Sans)</option>
+              <option value="rounded">Arredondada</option>
+              <option value="serif">Clássica (Serif)</option>
+              <option value="mono">Monoespaçada</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="color-row">
+          <span class="field-label-inline">Cor do texto</span>
+          <div class="color-controls">
+            <input type="color" id="text-color-input" value="#ffffff" class="color-input" title="Escolher cor personalizada">
+            <div class="color-presets" role="group" aria-label="Cores rápidas">
+              <button type="button" class="swatch-btn" data-color="#ffffff" style="background:#ffffff" title="Branco"></button>
+              <button type="button" class="swatch-btn" data-color="#ffe066" style="background:#ffe066" title="Amarelo"></button>
+              <button type="button" class="swatch-btn" data-color="#a5f3fc" style="background:#a5f3fc" title="Ciano"></button>
+              <button type="button" class="swatch-btn" data-color="#ddd6fe" style="background:#ddd6fe" title="Lilás"></button>
+            </div>
+          </div>
+        </div>
+
+        <label class="check-label" for="toggle-style-colors">
+          <input type="checkbox" id="toggle-style-colors" class="rz-check">
+          <span>Destacar 2ª voz, flashbacks e títulos</span>
+        </label>
+
         <div class="slider-group">
           <div class="slider-head">
             <label for="font-scale-range">Tamanho da fonte</label>

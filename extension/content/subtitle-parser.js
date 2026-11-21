@@ -40,38 +40,106 @@
     return Math.round((h * 3600 + m * 60 + s + ms / 1000) * 1000) / 1000;
   }
 
+  function assBgrToHex(rawCol, skipNearBlack = false) {
+    const digits = String(rawCol || '').replace(/[^0-9A-Fa-f]/g, '');
+    if (digits.length < 2) return null;
+    const bbggrr = digits.padStart(6, '0').slice(-6);
+    const bb = bbggrr.slice(0, 2);
+    const gg = bbggrr.slice(2, 4);
+    const rr = bbggrr.slice(4, 6);
+    const hex = `#${rr}${gg}${bb}`.toLowerCase();
+    if (hex === '#ffffff' || hex === '#000000') return null;
+    if (
+      skipNearBlack &&
+      Math.max(Number.parseInt(rr, 16), Number.parseInt(gg, 16), Number.parseInt(bb, 16)) < 35
+    ) {
+      return null;
+    }
+    return hex;
+  }
+
+  function normalizeHtmlColor(rawCol) {
+    const c = String(rawCol || '').trim().toLowerCase();
+    if (/^#[0-9a-f]{3}$/.test(c)) {
+      const full = `#${c[1]}${c[1]}${c[2]}${c[2]}${c[3]}${c[3]}`;
+      return full === '#ffffff' || full === '#000000' ? null : full;
+    }
+    if (/^#[0-9a-f]{6}$/.test(c)) {
+      return c === '#ffffff' || c === '#000000' ? null : c;
+    }
+    return null;
+  }
+
+  function classifyCueRole(styleName, isKaraoke = false) {
+    const low = String(styleName || '').trim().toLowerCase();
+    if (low.includes('title')) return 'title';
+    if (low.includes('overlap')) return 'overlap';
+    if (low.includes('flashback')) return 'flashback';
+    if (
+      !isKaraoke &&
+      /(?:\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert|english)\b|[-_](?:tl|e)\b)/i.test(low)
+    ) {
+      return 'song';
+    }
+    return null;
+  }
+
   function mergeRuns(runs) {
     const out = [];
     for (const run of runs) {
       if (!run.text) continue;
       const last = out[out.length - 1];
-      if (last && last.i === run.i && last.b === run.b) {
+      if (last && last.i === run.i && last.b === run.b && (last.color || null) === (run.color || null)) {
         last.text += run.text;
       } else {
-        out.push({ text: run.text, i: Boolean(run.i), b: Boolean(run.b) });
+        const obj = { text: run.text, i: Boolean(run.i), b: Boolean(run.b) };
+        if (run.color) obj.color = run.color;
+        out.push(obj);
       }
     }
     return out;
   }
 
-  function parseAssLineRuns(rawLine) {
+  function parseAssLineRuns(rawLine, defaultItalic = false, defaultColor = null) {
     const tokenRe = /\{([^}]*)\}|<(\/?)(i|b)\b[^>]*>/gi;
     const runs = [];
-    let italic = false;
+    let italic = Boolean(defaultItalic);
     let bold = false;
+    let color = defaultColor || null;
+    let hidden = false;
     let lastIndex = 0;
 
     let match;
     while ((match = tokenRe.exec(rawLine)) !== null) {
-      if (match.index > lastIndex) {
-        runs.push({ text: rawLine.slice(lastIndex, match.index), i: italic, b: bold });
+      if (match.index > lastIndex && !hidden) {
+        const obj = { text: rawLine.slice(lastIndex, match.index), i: italic, b: bold };
+        if (color) obj.color = color;
+        runs.push(obj);
       }
       if (match[1] !== undefined) {
         const body = match[1];
         if (body.includes('\\i1')) italic = true;
-        if (body.includes('\\i0') || body.trim() === '\\r') italic = false;
+        if (body.includes('\\i0')) italic = false;
         if (body.includes('\\b1')) bold = true;
-        if (body.includes('\\b0') || body.trim() === '\\r') bold = false;
+        if (body.includes('\\b0')) bold = false;
+        if (/\\r(?![a-zA-Z0-9])/.test(body)) {
+          italic = Boolean(defaultItalic);
+          bold = false;
+          color = defaultColor || null;
+          hidden = false;
+        }
+        if (/\\(?:1a|alpha)&H[0-9a-f]*FF&?/i.test(body)) {
+          hidden = true;
+        } else if (/\\(?:1a|alpha)(?:&H00&?|(?![&0-9a-z]))/i.test(body)) {
+          hidden = false;
+        }
+        const colMatches = body.match(/\\1?c&H([0-9a-f]{2,8})&?/gi);
+        if (colMatches && colMatches.length > 0) {
+          const parsedHex = assBgrToHex(colMatches[colMatches.length - 1]);
+          color = parsedHex || defaultColor || null;
+        } else if (/\\1?c(?![&0-9a-z])/i.test(body)) {
+          color = defaultColor || null;
+        }
       } else {
         const closing = match[2] === '/';
         const tag = match[3].toLowerCase();
@@ -81,33 +149,51 @@
       lastIndex = tokenRe.lastIndex;
     }
 
-    if (lastIndex < rawLine.length) {
-      runs.push({ text: rawLine.slice(lastIndex), i: italic, b: bold });
+    if (lastIndex < rawLine.length && !hidden) {
+      const obj = { text: rawLine.slice(lastIndex), i: italic, b: bold };
+      if (color) obj.color = color;
+      runs.push(obj);
     }
     return mergeRuns(runs);
   }
 
   function parseHtmlLineRuns(rawLine) {
-    const tagRe = /<(\/?)(i|b|u|s|font|c(?:\.[^>]*)?)\b[^>]*>/gi;
+    const tagRe = /<(\/?)(i|b|u|s|font|c(?:\.[^>]*)?)\b([^>]*)>/gi;
     const runs = [];
     let italic = false;
     let bold = false;
+    const colorStack = [];
     let lastIndex = 0;
 
     let match;
     while ((match = tagRe.exec(rawLine)) !== null) {
       if (match.index > lastIndex) {
-        runs.push({ text: rawLine.slice(lastIndex, match.index), i: italic, b: bold });
+        const curCol = colorStack.length > 0 ? colorStack[colorStack.length - 1] : null;
+        const obj = { text: rawLine.slice(lastIndex, match.index), i: italic, b: bold };
+        if (curCol) obj.color = curCol;
+        runs.push(obj);
       }
       const closing = match[1] === '/';
       const tag = match[2].toLowerCase();
+      const attrs = match[3] || '';
       if (tag === 'i') italic = !closing;
       if (tag === 'b') bold = !closing;
+      if (tag === 'font') {
+        if (closing) {
+          if (colorStack.length > 0) colorStack.pop();
+        } else {
+          const cm = attrs.match(/\bcolor\s*=\s*["']?([^"'\s>]+)/i);
+          colorStack.push(cm ? normalizeHtmlColor(cm[1]) : null);
+        }
+      }
       lastIndex = tagRe.lastIndex;
     }
 
     if (lastIndex < rawLine.length) {
-      runs.push({ text: rawLine.slice(lastIndex), i: italic, b: bold });
+      const curCol = colorStack.length > 0 ? colorStack[colorStack.length - 1] : null;
+      const obj = { text: rawLine.slice(lastIndex), i: italic, b: bold };
+      if (curCol) obj.color = curCol;
+      runs.push(obj);
     }
     return mergeRuns(runs);
   }
@@ -118,6 +204,8 @@
     let styleFields = [];
     let eventFields = [];
     const styleAlignments = new Map();
+    const styleItalics = new Map();
+    const styleColors = new Map();
     const cues = [];
 
     for (const line of rawLines) {
@@ -145,6 +233,10 @@
           if (row.name) {
             const alignVal = Number.parseInt(row.alignment || '2', 10);
             styleAlignments.set(row.name, Number.isFinite(alignVal) ? alignVal : 2);
+            const itRaw = String(row.italic || '0').trim();
+            styleItalics.set(row.name, (itRaw !== '' && itRaw !== '0') || /italic/i.test(row.name));
+            const pcol = assBgrToHex(row.primarycolour || '', true);
+            if (pcol) styleColors.set(row.name, pcol);
           }
         }
         continue;
@@ -172,14 +264,16 @@
 
           const start = parseAssTimestamp(row.start);
           const end = parseAssTimestamp(row.end);
-          if (!Number.isFinite(start) || !Number.isFinite(end) || end < start) continue;
+          if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start) continue;
 
           const rawText = row.text || '';
           if (/\{[^}]*\\p[1-9]\d*/.test(rawText)) continue; // skip vector drawings
 
           const style = (row.style || 'Default').trim();
+          const lowerStyle = style.toLowerCase();
           let align = styleAlignments.has(style) ? styleAlignments.get(style) : 2;
-          let isSign = /(?:sign|title|note|caption|top)/i.test(style);
+          const nonSignDialogue = /(?:^default(?:\s*[-_].*)?$|^(?:main|top|italics?(?:top)?|flashback(?:\s*italics?|top|italicstop)?|overlap(?:\s*italics?|top)?)$|\b(?:op\d*[re]?|ed\d*[re]?|song|lyric|insert)\b|[-_](?:tl|e|r)\b)/i.test(lowerStyle);
+          let isSign = /(?:sign|title|note|caption)/i.test(lowerStyle);
 
           const overrideBlocks = rawText.match(/\{([^}]*)\}/g) || [];
           for (const block of overrideBlocks) {
@@ -188,13 +282,13 @@
               const lastAn = anMatches[anMatches.length - 1];
               align = Number.parseInt(lastAn.slice(3), 10);
             }
-            if (/\\(?:pos|move)\b/.test(block)) {
+            if (/\\(?:pos|move)\b/.test(block) && !nonSignDialogue) {
               isSign = true;
             }
           }
-          if (align >= 7 && align <= 9) {
-            isSign = true;
-          }
+
+          const defaultItalic = styleItalics.has(style) ? styleItalics.get(style) : /italic/i.test(lowerStyle);
+          const defaultColor = styleColors.get(style) || null;
 
           const cleanedText = rawText
             .replace(/\\N/g, '\n')
@@ -203,19 +297,22 @@
 
           const parsedLines = cleanedText
             .split('\n')
-            .map((ln) => parseAssLineRuns(ln))
+            .map((ln) => parseAssLineRuns(ln, defaultItalic, defaultColor))
             .filter((runs) => runs.length > 0);
 
           if (parsedLines.length === 0) continue;
 
-          cues.push({
+          const cueObj = {
             start,
             end,
             align,
             style,
             isSign,
             lines: parsedLines,
-          });
+          };
+          const role = classifyCueRole(style, false);
+          if (role) cueObj.role = role;
+          cues.push(cueObj);
         }
       }
     }

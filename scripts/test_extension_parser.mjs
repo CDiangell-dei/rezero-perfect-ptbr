@@ -105,3 +105,38 @@ test('normalizeEpisodeKey handles numeric episodes and special OVA titles', () =
   assert.equal(Parser.normalizeEpisodeKey('arc02', '5'), 'arc02-memory-snow');
   assert.equal(Parser.normalizeEpisodeKey('arc04', '17'), 'arc04-ep17');
 });
+
+test('parseASS handles alpha hidden spacers, style italics, role colors, and non-sign top lines', () => {
+  const sampleAss = `[Script Info]
+ScriptType: v4.00+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, Italic, Alignment
+Style: top,Arial,54,&H00FFFFFF,0,8
+Style: overlap italics,Arial,54,&H007FD3F2,-1,2
+Style: flashback,Arial,54,&H00FFFFFF,0,2
+Style: Episode Title,Arial,60,&H00FFFFFF,0,2
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.00,top,,0,0,0,,{\\alpha&HFF&}pad {\\alpha}visible {\\c&H0000FF&}vermelho
+Dialogue: 0,0:00:04.00,0:00:06.00,overlap italics,,0,0,0,,Segunda voz
+Dialogue: 0,0:00:07.00,0:00:09.00,flashback,,0,0,0,,Lembrança
+Dialogue: 0,0:00:10.00,0:00:12.00,Episode Title,,0,0,0,,Título
+`;
+  const res = Parser.parseSubtitle(sampleAss, 'ep.ass');
+  assert.equal(res.cues.length, 4);
+  assert.equal(res.cues[0].align, 8);
+  assert.equal(res.cues[0].isSign, false);
+  assert.deepEqual(res.cues[0].lines, [
+    [
+      { text: 'visible ', i: false, b: false },
+      { text: 'vermelho', i: false, b: false, color: '#ff0000' },
+    ],
+  ]);
+  assert.equal(res.cues[1].role, 'overlap');
+  assert.deepEqual(res.cues[1].lines, [[{ text: 'Segunda voz', i: true, b: false, color: '#f2d37f' }]]);
+  assert.equal(res.cues[2].role, 'flashback');
+  assert.equal(res.cues[3].isSign, true);
+  assert.equal(res.cues[3].role, 'title');
+});

@@ -15,6 +15,10 @@ const DEFAULT_SETTINGS = {
   showSigns: true,
   showKaraoke: true,
   autoRemoteSync: true,
+  boxStyle: 'box',
+  textColor: '#ffffff',
+  fontFamily: 'sans',
+  styleColors: true,
 };
 
 const STORAGE_KEYS = {

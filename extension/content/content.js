@@ -4,6 +4,13 @@
   const Parser = globalThis.RZPTSubParser;
   if (!Parser) return;
 
+  const FONT_FAMILY_MAP = {
+    sans: '"Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif',
+    rounded: '"Quicksand", "Nunito", "Varela Round", "Segoe UI Rounded", "Trebuchet MS", sans-serif',
+    serif: '"Georgia", "Palatino Linotype", "Book Antiqua", Times, serif',
+    mono: '"Cascadia Code", "Consolas", ui-monospace, SFMono-Regular, monospace',
+  };
+
   const DEFAULT_SETTINGS = {
     enabled: true,
     fontScale: 1.0,
@@ -13,6 +20,10 @@
     showSigns: true,
     showKaraoke: true,
     autoRemoteSync: true,
+    boxStyle: 'box',
+    textColor: '#ffffff',
+    fontFamily: 'sans',
+    styleColors: true,
   };
 
   const state = {
@@ -226,10 +237,17 @@
 
     applySettings() {
       const s = state.settings;
+      const boxStyle = s.boxStyle || 'box';
+      const fontFamily = FONT_FAMILY_MAP[s.fontFamily] || FONT_FAMILY_MAP.sans;
       this.overlayEl.style.setProperty('--rzpt-font-scale', String(s.fontScale));
       this.overlayEl.style.setProperty('--rzpt-bg-opacity', String(s.bgOpacity));
       this.overlayEl.style.setProperty('--rzpt-bottom-offset', `${s.bottomOffset}%`);
+      this.overlayEl.style.setProperty('--rzpt-text-color', s.textColor || '#ffffff');
+      this.overlayEl.style.setProperty('--rzpt-font-family', fontFamily);
       this.overlayEl.classList.toggle('is-hidden', !s.enabled);
+      this.overlayEl.classList.toggle('rzpt-style-outline', boxStyle === 'outline');
+      this.overlayEl.classList.toggle('rzpt-style-shadow', boxStyle === 'shadow');
+      this.overlayEl.classList.toggle('rzpt-no-role-colors', s.styleColors === false);
       this.lastSignature = '';
       this.renderAtCurrentTime();
     }
@@ -323,7 +341,7 @@
       }
 
       const sig = active
-        .map((c) => `${c.start}:${c.end}:${c.align}:${c.isSign ? 1 : 0}:${c.isKaraoke ? 1 : 0}`)
+        .map((c) => `${c.start}:${c.end}:${c.align}:${c.isSign ? 1 : 0}:${c.isKaraoke ? 1 : 0}:${c.role || ''}`)
         .join('|');
       if (sig === this.lastSignature) {
         this._updateKaraokeProgress(adjustedTime);
@@ -382,6 +400,9 @@
       } else {
         cueBox.className = 'rzpt-cue';
       }
+      if (cue.role) {
+        cueBox.classList.add(`rzpt-role-${cue.role}`);
+      }
 
       if (cue.isKaraoke && Array.isArray(cue.karaoke) && cue.karaoke.length > 0) {
         const sylRefs = [];
@@ -406,6 +427,7 @@
       }
 
       const lines = Array.isArray(cue.lines) ? cue.lines : [];
+      const useRoleColors = state.settings.styleColors !== false;
       lines.forEach((runs, lineIdx) => {
         if (lineIdx > 0) {
           cueBox.appendChild(document.createElement('br'));
@@ -413,12 +435,14 @@
         for (const run of runs) {
           const text = String(run?.text || '');
           if (!text) continue;
-          if (!run.i && !run.b) {
+          const runColor = useRoleColors && run.color ? String(run.color) : '';
+          if (!run.i && !run.b && !runColor) {
             cueBox.appendChild(document.createTextNode(text));
           } else {
             const span = document.createElement('span');
             if (run.i) span.classList.add('rzpt-italic');
             if (run.b) span.classList.add('rzpt-bold');
+            if (runColor) span.style.color = runColor;
             span.appendChild(document.createTextNode(text));
             cueBox.appendChild(span);
           }

@@ -49,7 +49,7 @@ Dialogue: 0,0:01:33.66,0:01:35.28,main,Volcanica,0,0,0,,{\i1}Satella.{\i0}
 Dialogue: 0,0:01:41.16,0:01:44.00,main,Emilia,0,0,0,,Você conhece a Bruxa da Inveja?
 Dialogue: 0,0:01:45.92,0:01:47.85,main,Volcanica,0,0,0,,{\i1}Bruxa da...{\i0}
 Dialogue: 0,0:01:47.85,0:01:48.67,main,Volcanica,0,0,0,,{\i1}Inveja!{\i0}
-Dialogue: 0,0:01:58.60,0:01:59.97,main,Emilia,0,0,0,,Icicle Line.
+Dialogue: 0,0:01:58.60,0:01:59.97,main,Emilia,0,0,0,,Linha de Sincelos.
 Dialogue: 0,0:02:02.31,0:02:04.00,main,Volcanica,0,0,0,,{\i1}Satella...{\i0}
 Dialogue: 0,0:02:04.00,0:02:05.97,main,Volcanica,0,0,0,,{\i1}Sim, Satella.{\i0}
 Dialogue: 0,0:02:06.48,0:02:09.98,main,Volcanica,0,0,0,,{\i1}Foste reduzida à Bruxa da Inveja.{\i0}
@@ -3530,7 +3530,7 @@ Dialogue: 0,0:08:26.82,0:08:28.49,main,Emilia INT,0,0,0,,{\i1}Só aquela tem uma
 Dialogue: 0,0:08:31.70,0:08:33.99,Flashback,Puck FB,0,0,0,,Para com isso, Lia!
 Dialogue: 0,0:08:33.99,0:08:39.00,Flashback,Puck FB,0,0,0,,Não consigo me concentrar\Ncom você me fazendo cócegas.
 Dialogue: 0,0:08:41.50,0:08:43.63,main,Emilia,0,0,0,,Não é, Puck?
-Dialogue: 0,0:08:49.30,0:08:51.05,main,Emilia,0,0,0,,{\i1}Absolute Zero.{\i0}
+Dialogue: 0,0:08:49.30,0:08:51.05,main,Emilia,0,0,0,,{\i1}Zero Absoluto.{\i0}
 Dialogue: 0,0:09:04.40,0:09:06.86,main,Volcanica,0,0,0,,Satella!
 Dialogue: 0,0:09:07.57,0:09:09.70,main,Emilia,0,0,0,,Não é hora de desanimar!
 Dialogue: 0,0:09:30.59,0:09:32.01,main,Emilia,0,0,0,,Aquela escama branca...
