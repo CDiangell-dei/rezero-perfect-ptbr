@@ -1,0 +1,329 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: main,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: Flashback,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H0069334F,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: overlap,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00743E15,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: Episode Title,Adobe Caslon Pro Bold,180,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,300,1
+Style: OPE,QType,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,30,30,25,1
+Style: OPR,QType,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,30,30,90,1
+Style: EDR,Minion Pro,75,&H000E1CD0,&H00C0C0C0,&H00000000,&H0000075C,0,0,0,0,100,100,0,0,1,0,0,7,70,70,37,1
+Style: EDE,Minion Pro,75,&H000E1CD0,&H00C0C0C0,&H00000000,&H0000075C,0,0,0,0,100,100,0,0,1,0,0,1,70,70,37,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.44,0:00:07.70,main,Subaru,0,0,0,,Por quê...
+Dialogue: 0,0:00:10.91,0:00:12.83,main,Subaru,0,0,0,,É um Livro dos Mortos...
+Dialogue: 0,0:00:12.83,0:00:15.91,main,Subaru,0,0,0,,O meu... não, do “Natsuki Subaru”.
+Dialogue: 0,0:00:17.04,0:00:22.88,main,Subaru,0,0,0,,Espera, um Livro dos Mortos registraria\N{\i1}todas{\i0} as vezes em que morri?
+Dialogue: 0,0:00:27.92,0:00:31.05,main,Subaru,0,0,0,,Então o que você quer fazer\Nde verdade, seu covarde?!
+Dialogue: 0,0:00:31.05,0:00:33.89,main,Subaru,0,0,0,,Vai olhar essa coisa ou não?!
+Dialogue: 0,0:00:40.40,0:00:43.57,main,Subaru,0,0,0,,“Natsuki Subaru”, você...
+Dialogue: 0,0:01:12.55,0:01:14.26,main,Subaru,0,0,0,,{\pos(960,970)}O que está acontecendo?
+Dialogue: 0,0:01:23.80,0:01:25.34,main,Subaru,0,0,0,,Sumiu...?
+Dialogue: 0,0:01:25.84,0:01:27.34,main,Subaru,0,0,0,,Sumiu... Sumiu...
+Dialogue: 0,0:01:28.72,0:01:30.47,main,Subaru,0,0,0,,Não há ferimento algum.
+Dialogue: 0,0:01:32.52,0:01:35.43,main,Subaru,0,0,0,,Uma memória de morrer com a barriga rasgada...
+Dialogue: 0,0:01:37.69,0:01:39.31,main,Subaru,0,0,0,,Não há mais dúvida.
+Dialogue: 0,0:01:39.31,0:01:42.15,main,Subaru,0,0,0,,Este é o Livro dos Mortos do “Natsuki Subaru”.
+Dialogue: 0,0:01:42.15,0:01:45.36,main,Subaru,0,0,0,,Mas começa quando cheguei a este mundo?
+Dialogue: 0,0:01:45.36,0:01:49.20,main,Subaru,0,0,0,,O da Meili começava com a primeira memória dela...
+Dialogue: 0,0:01:51.12,0:01:54.62,main,Subaru,0,0,0,,Não, a verdadeira questão é o que vem depois.
+Dialogue: 0,0:01:54.62,0:01:58.25,main,Subaru,0,0,0,,Eu sei que você também usou\No Retorno através da Morte.
+Dialogue: 0,0:01:58.25,0:02:00.96,main,Subaru,0,0,0,,Não usou, Natsuki Subaru?
+Dialogue: 0,0:02:28.36,0:02:29.74,main,Subaru,0,0,0,,Tem mais um...
+Dialogue: 0,0:02:47.12,0:02:48.54,main,Subaru,0,0,0,,Eu sabia.
+Dialogue: 0,0:02:49.08,0:02:51.46,main,Subaru,0,0,0,,Você usou de novo.
+Dialogue: 0,0:03:16.61,0:03:18.32,main,Subaru,0,0,0,,Um terceiro...
+Dialogue: 0,0:03:32.37,0:03:34.25,Flashback,Kadomon,0,0,0,,E aí, rapaz? Vai querer essa maçã?
+Dialogue: 0,0:03:35.21,0:03:36.88,Flashback,Subaru,0,0,0,,Ei, moço...
+Dialogue: 0,0:03:36.88,0:03:37.96,Flashback,Kadomon,0,0,0,,Hã?
+Dialogue: 0,0:03:37.96,0:03:40.01,Flashback,Subaru,0,0,0,,Quantas vezes já me viu até agora?
+Dialogue: 0,0:03:40.01,0:03:43.26,Flashback,Kadomon,0,0,0,,Como assim?\NEu nunca vi você antes.
+Dialogue: 0,0:03:43.26,0:03:45.29,Flashback,Kadomon,0,0,0,,Vamos lá, rapaz.\NVai comprar ou não?
+Dialogue: 0,0:03:47.05,0:03:50.35,Flashback,Subaru,0,0,0,,Desculpa, mas estou liso que dá dó!
+Dialogue: 0,0:03:50.35,0:03:52.69,Flashback,Kadomon,0,0,0,,Suma daqui agora!
+Dialogue: 0,0:03:53.81,0:03:56.90,Flashback,Reinhard,0,0,0,,...como cavaleiro, eu teria que retaliar.
+Dialogue: 0,0:03:58.23,0:04:00.36,Flashback,Felt,0,0,0,,Viva firme e forte.
+Dialogue: 0,0:04:00.36,0:04:02.49,Flashback,Elsa,0,0,0,,É assim que a Caçadora de Entranhas luta.
+Dialogue: 0,0:04:02.49,0:04:04.70,Flashback,Reinhard,0,0,0,,A esgrima da Casa Astrea.
+Dialogue: 0,0:04:04.70,0:04:06.95,Flashback,Emilia,0,0,0,,Meu nome é Emilia.
+Dialogue: 0,0:04:08.74,0:04:11.08,Flashback,Rem,0,0,0,,Nossa, que fala de derrotado.
+Dialogue: 0,0:04:11.08,0:04:12.29,Flashback,Rem,0,0,0,,Ouviu isso, irmã?
+Dialogue: 0,0:04:12.29,0:04:15.67,Flashback,Ram,0,0,0,,Sim, palavras de um verdadeiro fracassado.\NEu ouvi, Rem.
+Dialogue: 0,0:04:16.96,0:04:19.13,Flashback,Rem,0,0,0,,Minha irmã é gentil demais para o próprio bem.
+Dialogue: 0,0:04:21.68,0:04:26.58,Flashback,Subaru,0,0,0,,Eu juro que vou salvar você!
+Dialogue: 0,0:04:32.14,0:04:33.82,main,Subaru,0,0,0,,Por quê...
+Dialogue: 0,0:04:33.82,0:04:37.90,main,Subaru,0,0,0,,Por que você é tão idiota, “Natsuki Subaru”?
+Dialogue: 0,0:04:39.10,0:04:41.14,main,Subaru,0,0,0,,Você não consegue fazer nada...
+Dialogue: 0,0:04:52.28,0:04:55.08,main,Subaru,0,0,0,,Com este... são oito.
+Dialogue: 0,0:05:00.04,0:05:01.83,Flashback,Subaru,0,0,0,,Tudo isso, tudo isso, tudo isso!
+Dialogue: 0,0:05:01.83,0:05:04.96,Flashback,Subaru,0,0,0,,Tudo isso foi porque eu estava lá!
+Dialogue: 0,0:05:10.18,0:05:12.64,main,Subaru,0,0,0,,Onde... Onde está?
+Dialogue: 0,0:05:13.06,0:05:15.65,main,Subaru,0,0,0,,Mas... Mas que diabos é isso?
+Dialogue: 0,0:05:15.65,0:05:17.15,main,Subaru,0,0,0,,Tem que haver alguma coisa.
+Dialogue: 0,0:05:17.15,0:05:21.86,main,Subaru,0,0,0,,Algo que mostre a diferença\Nentre mim e o “Natsuki Subaru”!
+Dialogue: 0,0:05:25.30,0:05:30.02,Flashback,Echidna,0,0,0,,Ou talvez você me conheça melhor\Ncomo a Bruxa da Ganância?
+Dialogue: 0,0:05:30.02,0:05:31.60,Flashback,Kenichi,0,0,0,,Dê o seu melhor!
+Dialogue: 0,0:05:31.60,0:05:34.11,Flashback,Kenichi,0,0,0,,Estou esperando o melhor de você, filho.
+Dialogue: 0,0:05:35.56,0:05:36.94,Flashback,Nahoko,0,0,0,,Tome cuidado.
+Dialogue: 0,0:05:37.57,0:05:39.24,Flashback,Elsa,0,0,0,,Você prometeu, não prometeu?
+Dialogue: 0,0:05:39.24,0:05:44.82,Flashback,Elsa,0,0,0,,Que cuidaria bem das suas entranhas\Naté nos encontrarmos de novo.
+Dialogue: 0,0:05:58.05,0:06:01.26,main,Subaru,0,0,0,,Pai... Mãe...
+Dialogue: 0,0:06:13.53,0:06:16.53,main,Subaru,0,0,0,,Me diga, “Natsuki Subaru”...
+Dialogue: 0,0:06:17.16,0:06:19.66,main,Subaru,0,0,0,,O que fez de você tão especial?
+Dialogue: 0,0:06:20.37,0:06:24.12,main,Subaru,0,0,0,,Por que só você\Npode ser especial?
+Dialogue: 0,0:06:24.54,0:06:28.00,main,Subaru,0,0,0,,Deve ter... Deve ter havido alguma coisa!
+Dialogue: 0,0:06:38.30,0:06:41.18,Flashback,Subaru,0,0,0,,{\i1}Eu... juro...{\i0}
+Dialogue: 0,0:06:42.43,0:06:45.89,Flashback,Subaru,0,0,0,,{\i1}que vou salvar você.{\i0}
+Dialogue: 0,0:06:48.10,0:06:52.07,main,Subaru,0,0,0,,Porque, se não houver, então não\Ntenho escolha a não ser admitir...
+Dialogue: 0,0:06:53.78,0:07:01.03,main,Subaru,0,0,0,,...que você é tão fraco, patético\Ne impotente quanto eu.
+Dialogue: 0,0:07:02.20,0:07:04.50,Flashback,Subaru,0,0,0,,Escolha a mim, Beatrice.
+Dialogue: 0,0:07:05.12,0:07:09.33,Flashback,Beatrice,0,0,0,,Apenas continue segurando minha mão\Ne não me deixe sozinha, eu suponho.
+Dialogue: 0,0:07:09.33,0:07:11.13,Flashback,Sirius,0,0,0,,Muito obrigada! Sinto muito!
+Dialogue: 0,0:07:11.13,0:07:14.76,Flashback,Sirius,0,0,0,,Eu sou a Arcebispa do Pecado\Nda Ira do Culto da Bruxa…
+Dialogue: 0,0:07:15.26,0:07:18.80,Flashback,Sirius,0,0,0,,Sirius Romanée-Conti.
+Dialogue: 0,0:07:16.55,0:07:20.93,Flashback,Capella,0,0,0,,{\an8}Eu quero que o maior número de pessoas,\Npelo maior tempo e o mais profundamente…
+Dialogue: 0,0:07:19.30,0:07:21.68,Flashback,Regulus,0,0,0,,Quem você pensa que eu sou?!
+Dialogue: 0,0:07:20.93,0:07:23.06,Flashback,Capella,0,0,0,,{\an8}me amem!
+Dialogue: 0,0:07:21.68,0:07:25.22,Flashback,Regulus,0,0,0,,Eu sou o Arcebispo do Pecado\Nda Ganância do Culto da Bruxa,
+Dialogue: 0,0:07:25.22,0:07:27.35,Flashback,Regulus,0,0,0,,Regulus Corneas!
+Dialogue: 0,0:07:27.35,0:07:28.73,Flashback,Emilia,0,0,0,,O {*}Julius-san{*Mister Julius}…
+Dialogue: 0,0:07:28.73,0:07:30.65,Flashback,Emilia,0,0,0,,é seu amigo, Subaru?
+Dialogue: 0,0:07:30.65,0:07:31.65,Flashback,Foxidna,0,0,0,,Echidna.
+Dialogue: 0,0:07:34.44,0:07:36.53,Flashback,Beatrice,0,0,0,,Subaru! Subaru!
+Dialogue: 0,0:07:42.24,0:07:45.83,main,Subaru,0,0,0,,Estou implorando, “Natsuki Subaru”...
+Dialogue: 0,0:07:46.20,0:07:49.16,main,Subaru,0,0,0,,Por favor, me diga que você era\Nalgum tipo de super-homem!
+Dialogue: 0,0:07:52.79,0:07:58.07,main,Subaru,0,0,0,,Me convença de que você realizou coisas...
+Dialogue: 0,0:07:58.07,0:08:00.53,main,Subaru,0,0,0,,que o eu atual jamais conseguiria!
+Dialogue: 0,0:08:05.18,0:08:06.60,main,Subaru,0,0,0,,Ainda assim...
+Dialogue: 0,0:08:07.31,0:08:11.94,main,Subaru,0,0,0,,Você entende, não entende, “Natsuki Subaru”?!
+Dialogue: 0,0:08:12.48,0:08:14.06,main,SubaruA,0,0,0,,Sim, eu entendo.
+Dialogue: 0,0:08:30.66,0:08:33.50,main,SubaruA,0,0,0,,Eu entendo, Natsuki Subaru.
+Dialogue: 0,0:08:36.92,0:08:40.38,main,SubaruA,0,0,0,,Você é eu, afinal de contas.
+Dialogue: 0,0:08:40.88,0:08:42.76,main,SubaruA,0,0,0,,Vamos recomeçar.
+Dialogue: 0,0:08:44.26,0:08:46.06,main,SubaruA,0,0,0,,E aí, irmão.
+Dialogue: 0,0:08:47.14,0:08:50.68,main,SubaruA,0,0,0,,Na verdade, acho que “irmão” pode confundir.
+Dialogue: 0,0:08:50.68,0:08:52.39,main,SubaruA,0,0,0,,É melhor eu ser mais específico.
+Dialogue: 0,0:08:53.44,0:08:56.11,main,SubaruA,0,0,0,,E aí, outro eu.
+Dialogue: 0,0:08:57.61,0:09:00.49,main,Subaru,0,0,0,,”Natsuki... Subaru”?
+Dialogue: 0,0:09:00.49,0:09:02.78,main,Subaru,0,0,0,,Por que você está aqui?!
+Dialogue: 0,0:09:02.78,0:09:05.07,main,Subaru,0,0,0,,E que lugar é este, afinal?!
+Dialogue: 0,0:09:05.07,0:09:07.62,main,Subaru,0,0,0,,Por que eu estou aqui?!
+Dialogue: 0,0:09:07.62,0:09:10.54,main,SubaruA,0,0,0,,É a prova de que você me alcançou.
+Dialogue: 0,0:09:11.37,0:09:13.71,main,Subaru,0,0,0,,Eu... alcancei você?
+Dialogue: 0,0:09:13.71,0:09:14.92,main,SubaruA,0,0,0,,Pois é.
+Dialogue: 0,0:09:14.92,0:09:18.67,main,SubaruA,0,0,0,,Você me alcançou lendo\Nos meus Livros dos Mortos.
+Dialogue: 0,0:09:18.67,0:09:23.72,main,SubaruA,0,0,0,,Tudo o que você não sabia,\Nacabou vivenciando por tabela...
+Dialogue: 0,0:09:24.30,0:09:26.68,main,SubaruA,0,0,0,,Minha vida em outro mundo.
+Dialogue: 0,0:09:28.56,0:09:30.85,main,Subaru,0,0,0,,Pare de tirar onda comigo!
+Dialogue: 0,0:09:30.85,0:09:35.10,main,Subaru,0,0,0,,Eu ainda não sei a coisa\Nmais importante de todas!
+Dialogue: 0,0:09:35.10,0:09:36.19,main,Subaru,0,0,0,,Me diga...
+Dialogue: 0,0:09:36.19,0:09:38.52,main,Subaru,0,0,0,,O que transformou você em você?!
+Dialogue: 0,0:09:38.98,0:09:42.74,main,Subaru,0,0,0,,Eu não vi essa parte! Não encontrei!
+Dialogue: 0,0:09:43.99,0:09:46.20,main,SubaruA,0,0,0,,Você deve ter visto com seus próprios olhos, né?
+Dialogue: 0,0:09:46.91,0:09:50.24,main,Subaru,0,0,0,,Pare de olhar pra mim desse jeito!
+Dialogue: 0,0:09:56.29,0:09:59.59,main,Subaru,0,0,0,,Esse poder é mesmo tão grandioso assim?!
+Dialogue: 0,0:10:00.88,0:10:03.34,main,Subaru,0,0,0,,Ele só me faz recomeçar quando eu morro!
+Dialogue: 0,0:10:03.34,0:10:07.09,main,Subaru,0,0,0,,Se o cara que usa for um lixo,\No resultado vai ser um lixo também!
+Dialogue: 0,0:10:07.76,0:10:09.91,main,Subaru,0,0,0,,Por isso não consegui salvar ninguém!
+Dialogue: 0,0:10:09.91,0:10:11.72,main,Subaru,0,0,0,,Deixei todo mundo morrer!
+Dialogue: 0,0:10:11.72,0:10:16.44,main,Subaru,0,0,0,,Não salvei ninguém, não importa quantas vezes\Neu recomeçasse, porque sou fraco!
+Dialogue: 0,0:10:16.44,0:10:18.94,main,Subaru,0,0,0,,Então por que...
+Dialogue: 0,0:10:24.07,0:10:25.49,main,SubaruA,0,0,0,,Porque você ama todos eles.
+Dialogue: 0,0:10:29.45,0:10:31.83,main,SubaruA,0,0,0,,Você ama todos eles. Por isso não consegue parar.
+Dialogue: 0,0:10:32.58,0:10:35.66,main,SubaruA,0,0,0,,Eu sei o quanto esmaga estar no seu lugar.
+Dialogue: 0,0:10:36.29,0:10:38.67,main,SubaruA,0,0,0,,Senti essa mesma dor tantas vezes.
+Dialogue: 0,0:10:41.25,0:10:44.59,main,Subaru,0,0,0,,Eu nunca devia ter olhado suas memórias.
+Dialogue: 0,0:10:44.59,0:10:48.97,main,Subaru,0,0,0,,Queria dizer “você está errado”\Ne dar uma resposta cheia de moral!
+Dialogue: 0,0:10:48.97,0:10:50.10,main,Subaru,0,0,0,,Eu só...
+Dialogue: 0,0:10:50.93,0:10:54.52,main,Subaru,0,0,0,,queria encontrar alguma esperança em você.
+Dialogue: 0,0:10:54.52,0:10:56.19,main,Subaru,0,0,0,,Queria achar que você era incrível,
+Dialogue: 0,0:10:56.19,0:10:59.06,main,Subaru,0,0,0,,e que se eu descobrisse\No que faz de você incrível,
+Dialogue: 0,0:10:59.06,0:11:01.69,main,Subaru,0,0,0,,eu conseguiria fazer o que você fez!
+Dialogue: 0,0:11:02.57,0:11:04.03,main,Subaru,0,0,0,,Então por quê...
+Dialogue: 0,0:11:06.49,0:11:09.37,main,Subaru,0,0,0,,Por que você não é algum tipo de super-homem?!
+Dialogue: 0,0:11:09.37,0:11:11.70,main,Subaru,0,0,0,,Por que continua sendo só um moleque idiota?!
+Dialogue: 0,0:11:15.20,0:11:18.17,main,SubaruA,0,0,0,,Não se rebaixe desse jeito.
+Dialogue: 0,0:11:18.17,0:11:20.33,main,SubaruA,0,0,0,,Acho que é pedir demais, né?
+Dialogue: 0,0:11:21.00,0:11:22.63,main,SubaruA,0,0,0,,Você é eu, afinal de contas.
+Dialogue: 0,0:11:23.84,0:11:29.51,main,Subaru,0,0,0,,O “Natsuki Subaru” é um idiota fraco,\Npatético e sem qualidade alguma.
+Dialogue: 0,0:11:29.51,0:11:30.97,main,SubaruA,0,0,0,,Nisso você acertou em cheio.
+Dialogue: 0,0:11:33.01,0:11:34.01,main,Subaru,0,0,0,,Mesmo assim...
+Dialogue: 0,0:11:45.86,0:11:48.32,main,Subaru,0,0,0,,você é um cara incrível,
+Dialogue: 0,0:11:48.32,0:11:49.32,main,Subaru,0,0,0,,Natsuki Subaru.
+Dialogue: 0,0:11:55.54,0:11:58.21,main,Subaru,0,0,0,,O estranho mais próximo de você, né?
+Dialogue: 0,0:11:58.87,0:12:04.17,main,Subaru,0,0,0,,Você é fraco, sem jeito e não sabe fazer nada,\Nmas continua lutando.
+Dialogue: 0,0:12:04.50,0:12:07.09,main,Subaru,0,0,0,,Você ama todos eles. E por isso...
+Dialogue: 0,0:12:07.63,0:12:08.63,main,Subaru,0,0,0,,eu respeito você.
+Dialogue: 0,0:12:10.93,0:12:14.35,main,SubaruA,0,0,0,,Ah, cara, assim você me deixa sem graça.
+Dialogue: 0,0:12:14.35,0:12:16.60,main,SubaruA,0,0,0,,Não sou ninguém pra falar,
+Dialogue: 0,0:12:16.60,0:12:20.10,main,SubaruA,0,0,0,,mas não sei como você diz isso\Ndepois de ver quem eu fui até agora.
+Dialogue: 0,0:12:20.73,0:12:25.82,main,SubaruA,0,0,0,,Você basicamente assistiu a {\i1}Natsuki Subaru:\NComeçando a Vida em Outro Mundo do Zero{\i0}.
+Dialogue: 0,0:12:27.36,0:12:32.28,main,Subaru,0,0,0,,Pois é. É estranho ver um protagonista\Ncom o mesmo nome que o meu.
+Dialogue: 0,0:12:32.70,0:12:36.49,main,SubaruA,0,0,0,,Melhor do que quando a heroína\Ntem o mesmo nome da sua mãe!
+Dialogue: 0,0:12:41.08,0:12:44.38,main,Subaru,0,0,0,,Mas por que exatamente você está aqui?
+Dialogue: 0,0:12:45.21,0:12:48.09,main,Subaru,0,0,0,,Você estava... esperando por mim?
+Dialogue: 0,0:12:49.34,0:12:52.59,main,SubaruA,0,0,0,,Este lugar é o único ponto de contato\Nque existe entre nós.
+Dialogue: 0,0:12:52.59,0:12:55.22,main,Subaru,0,0,0,,Ponto de contato... entre você e eu?
+Dialogue: 0,0:12:56.68,0:12:59.52,main,SubaruA,0,0,0,,Nesta torre, o único lugar\Nonde eu, que tenho as memórias,
+Dialogue: 0,0:12:59.52,0:13:02.10,main,SubaruA,0,0,0,,consigo fazer contato com você,\Nque não as tem,
+Dialogue: 0,0:13:02.10,0:13:06.27,main,SubaruA,0,0,0,,é dentro do Livro dos Mortos que relata\Na vez em que minhas memórias foram devoradas.
+Dialogue: 0,0:13:09.36,0:13:11.70,main,SubaruA,0,0,0,,Ei, outro eu...
+Dialogue: 0,0:13:12.24,0:13:15.07,main,Subaru,0,0,0,,O que acha que vai acontecer\Nquando nossas memórias se juntarem?
+Dialogue: 0,0:13:16.03,0:13:20.00,main,Subaru,0,0,0,,Se você e eu nos chocarmos sem cuidado
+Dialogue: 0,0:13:20.00,0:13:22.25,main,Subaru,0,0,0,,e nos aniquilarmos, o que vamos fazer?
+Dialogue: 0,0:13:22.25,0:13:23.75,main,SubaruA,0,0,0,,Não diga uma coisa dessas.
+Dialogue: 0,0:13:23.75,0:13:28.05,main,SubaruA,0,0,0,,Você sabe que o que incomoda você\Nvai incomodar a mim também.
+Dialogue: 0,0:13:28.05,0:13:29.84,main,Subaru,0,0,0,,É, acho que sim.
+Dialogue: 0,0:13:29.84,0:13:32.93,main,Subaru,0,0,0,,Então devo só dizer:\N”Sem ressentimentos, ganhe quem ganhar”?
+Dialogue: 0,0:13:32.93,0:13:35.47,main,SubaruA,0,0,0,,Não, eu com certeza ficaria ressentido!
+Dialogue: 0,0:13:35.47,0:13:39.22,main,Subaru,0,0,0,,E se eu ficar ressentido,\Nquer dizer que você também vai!
+Dialogue: 0,0:13:45.23,0:13:48.37,main,Subaru,0,0,0,,Tem algumas coisas que quero dizer.
+Dialogue: 0,0:13:48.37,0:13:49.65,main,Subaru,0,0,0,,Posso?
+Dialogue: 0,0:13:49.65,0:13:52.11,main,SubaruA,0,0,0,,Chegamos até aqui. Fale o que quiser.
+Dialogue: 0,0:13:53.28,0:13:57.41,main,Subaru,0,0,0,,Certo, eis o que eu vivi\Ndesde que você perdeu suas memórias.
+Dialogue: 0,0:13:58.16,0:13:59.62,main,Subaru,0,0,0,,Chame de um capítulo desconhecido de
+Dialogue: 0,0:13:59.62,0:14:03.37,main,Subaru,0,0,0,,{\i1}Natsuki Subaru: Começando a Vida\Nem Outro Mundo do Zero{\i0}.
+Dialogue: 0,0:14:04.21,0:14:06.04,main,Subaru,0,0,0,,Primeiro, tem a Meili.
+Dialogue: 0,0:14:06.50,0:14:10.84,main,Subaru,0,0,0,,Ela é praticamente um campo minado inteiro,\Nentão foi barra pesada,
+Dialogue: 0,0:14:10.84,0:14:14.84,main,Subaru,0,0,0,,mas ela vai entender se você conversar\Ncom ela, então faça questão de falar.
+Dialogue: 0,0:14:14.84,0:14:18.35,main,Subaru,0,0,0,,A Meili-senpai está sendo quase\Numa estrela em ascensão pra mim agora.
+Dialogue: 0,0:14:19.05,0:14:20.51,main,SubaruA,0,0,0,,Certo, entendido.
+Dialogue: 0,0:14:20.85,0:14:25.14,main,Subaru,0,0,0,,Também tem um escorpião gigante\Nrondando pela torre.
+Dialogue: 0,0:14:25.14,0:14:27.48,main,Subaru,0,0,0,,Aquela é a Shaula, na verdade.
+Dialogue: 0,0:14:28.44,0:14:31.36,main,Subaru,0,0,0,,Mas ela não faz isso porque quer.
+Dialogue: 0,0:14:31.36,0:14:32.44,main,Subaru,0,0,0,,Ajude ela.
+Dialogue: 0,0:14:32.90,0:14:34.40,main,SubaruA,0,0,0,,Certo, entendido.
+Dialogue: 0,0:14:34.40,0:14:39.37,main,Subaru,0,0,0,,Ah, e quando encontrei a Rui,\Na Rem me deu um belo chute no traseiro.
+Dialogue: 0,0:14:40.08,0:14:44.83,main,Subaru,0,0,0,,Eu não me lembrava dela na hora,\Nmas agora eu sei.
+Dialogue: 0,0:14:45.87,0:14:47.37,main,Subaru,0,0,0,,Aquela é a minha Rem, sem dúvida.
+Dialogue: 0,0:14:47.37,0:14:48.75,main,SubaruA,0,0,0,,Não, ela é a minha Rem!
+Dialogue: 0,0:14:48.75,0:14:49.67,main,Subaru,0,0,0,,Não, minha!
+Dialogue: 0,0:14:49.67,0:14:52.13,main,SubaruA,0,0,0,,Eu disse que ela é {\i1}minha{\i0}!
+Dialogue: 0,0:14:57.84,0:15:01.68,main,Subaru,0,0,0,,A Ram disse mesmo que o que você não vê agora
+Dialogue: 0,0:15:01.68,0:15:05.10,main,Subaru,0,0,0,,acaba se revelando quando o inverno passa.
+Dialogue: 0,0:15:05.64,0:15:07.06,main,Subaru,0,0,0,,Parece que ela acertou em cheio.
+Dialogue: 0,0:15:07.06,0:15:09.06,main,SubaruA,0,0,0,,É, ela acertou mesmo.
+Dialogue: 0,0:15:09.06,0:15:11.73,main,Subaru,0,0,0,,E quanto ao Julius...
+Dialogue: 0,0:15:11.73,0:15:15.07,main,Subaru,0,0,0,,Bom, provavelmente nem preciso\Nfalar dele pra você.
+Dialogue: 0,0:15:15.07,0:15:19.99,main,Subaru,0,0,0,,Ele não é tão patético a ponto de precisar\Nque você ou eu digamos algo a ele.
+Dialogue: 0,0:15:19.99,0:15:21.24,main,SubaruA,0,0,0,,Concordo.
+Dialogue: 0,0:15:24.12,0:15:27.71,main,Subaru,0,0,0,,Obrigado por pedir desculpas pro Pai e pra Mãe.
+Dialogue: 0,0:15:28.00,0:15:29.92,main,SubaruA,0,0,0,,Ah... De nada.
+Dialogue: 0,0:15:30.67,0:15:34.26,main,Subaru,0,0,0,,Obrigado por salvar o Otto e o Garfiel.
+Dialogue: 0,0:15:34.80,0:15:35.51,main,SubaruA,0,0,0,,Claro.
+Dialogue: 0,0:15:36.13,0:15:38.93,main,Subaru,0,0,0,,Obrigado por salvar a Petra e a Frederica...
+Dialogue: 0,0:15:38.93,0:15:43.43,main,Subaru,0,0,0,,e todo o pessoal do Vilarejo de Arlam.
+Dialogue: 0,0:15:43.97,0:15:44.64,main,SubaruA,0,0,0,,É.
+Dialogue: 0,0:15:44.64,0:15:47.81,main,Subaru,0,0,0,,Por tirar a Beatrice de lá...
+Dialogue: 0,0:15:49.48,0:15:52.40,main,Subaru,0,0,0,,e segurar a mão dela.
+Dialogue: 0,0:15:53.82,0:15:54.61,main,Subaru,0,0,0,,Obrigado.
+Dialogue: 0,0:15:56.78,0:15:58.03,main,Subaru,0,0,0,,E a Emilia...
+Dialogue: 0,0:16:01.82,0:16:07.00,main,Subaru,0,0,0,,Obrigado por se apaixonar pela Emilia.
+Dialogue: 0,0:16:08.58,0:16:12.50,main,Subaru,0,0,0,,Eu também a amo. Muito.
+Dialogue: 0,0:16:13.71,0:16:15.42,main,SubaruA,0,0,0,,É. Eu sei.
+Dialogue: 0,0:16:23.72,0:16:25.31,main,Subaru,0,0,0,,Natsuki Subaru.
+Dialogue: 0,0:16:25.93,0:16:31.15,main,Subaru,0,0,0,,Eu sei muito bem o quanto você é incrível.
+Dialogue: 0,0:16:31.98,0:16:34.98,main,Subaru,0,0,0,,Então sei que você vai ficar muito bem.
+Dialogue: 0,0:16:36.48,0:16:37.61,main,SubaruA,0,0,0,,É.
+Dialogue: 0,0:16:42.24,0:16:44.28,main,SubaruA,0,0,0,,É. Você tem razão.
+Dialogue: 0,0:16:52.75,0:16:53.42,main,SubaruA,0,0,0,,Sim!
+Dialogue: 0,0:16:53.75,0:16:56.38,main,SubaruA,0,0,0,,Nós vamos ficar muito bem!
+Dialogue: 0,0:16:57.55,0:16:59.84,main,Subaru,0,0,0,,Muito bem, é?
+Dialogue: 0,0:16:59.84,0:17:02.89,main,Subaru,0,0,0,,Tem razão. Nós vamos ficar muito bem.
+Dialogue: 0,0:17:02.89,0:17:06.06,main,Subaru,0,0,0,,Porque eu sei o quanto você é incrível.
+Dialogue: 0,0:17:06.68,0:17:09.02,main,Subaru,0,0,0,,Ah, mas...
+Dialogue: 0,0:17:11.48,0:17:15.36,main,Subaru,0,0,0,,a frase “dê o seu melhor”\Nme irrita demais pra eu dizer.
+Dialogue: 0,0:18:06.07,0:18:09.95,main,Subaru,0,0,0,,Pelo visto você também teve\Nsua própria corda bamba insana pra atravessar.
+Dialogue: 0,0:18:11.12,0:18:11.95,main,Subaru,0,0,0,,E então?
+Dialogue: 0,0:18:11.95,0:18:14.92,main,Subaru,0,0,0,,Viu o que queria ver,
+Dialogue: 0,0:18:15.21,0:18:16.79,main,Subaru,0,0,0,,Rui Arneb?
+Dialogue: 0,0:18:19.38,0:18:21.59,main,Subaru,0,0,0,,Que diabos você está fazendo?!
+Dialogue: 0,0:18:21.88,0:18:23.55,main,Rui,0,0,0,,N-Não...
+Dialogue: 0,0:18:23.55,0:18:25.18,main,Rui,0,0,0,,Não!
+Dialogue: 0,0:18:28.18,0:18:30.14,Flashback,Subaru,0,0,0,,Hã?! O qu—
+Dialogue: 0,0:18:40.77,0:18:42.99,Flashback,Subaru,0,0,0,,Você vai se arrepender disso.
+Dialogue: 0,0:18:44.53,0:18:46.20,Flashback,Rui,0,0,0,,Hora do banquete!
+Dialogue: 0,0:18:47.95,0:18:52.45,main,Rui,0,0,0,,Não! Nós não queremos morrer!
+Dialogue: 0,0:18:52.45,0:18:55.46,main,Rui,0,0,0,,Não queremos morrer!
+Dialogue: 0,0:18:55.46,0:18:57.79,main,Rui,0,0,0,,Não! Não! Não! Não!
+Dialogue: 0,0:18:57.79,0:19:01.71,main,Rui,0,0,0,,Não tem como...\NNão tem como suportarmos isso!
+Dialogue: 0,0:19:01.71,0:19:04.17,main,Rui,0,0,0,,Essa dor... Essa perda...
+Dialogue: 0,0:19:04.55,0:19:08.01,main,Rui,0,0,0,,Não dá! Não dá! Não dá! Não tem como!
+Dialogue: 0,0:19:08.01,0:19:09.30,main,Rui,0,0,0,,Não!
+Dialogue: 0,0:19:09.80,0:19:12.68,main,Rui,0,0,0,,Nenhum humano consegue suportar isso!
+Dialogue: 0,0:19:12.68,0:19:14.77,main,Rui,0,0,0,,Você é um monstro! Um monstro!
+Dialogue: 0,0:19:14.77,0:19:16.77,overlap,Subaru,0,0,0,,{\an8}Foi por isso que eu disse...
+Dialogue: 0,0:19:14.77,0:19:19.40,main,Rui,0,0,0,,O coração de um humano jamais\Nsuportaria a própria morte!
+Dialogue: 0,0:19:17.38,0:19:19.40,overlap,Subaru,0,0,0,,{\an8}que você com certeza ia se arrepender.
+Dialogue: 0,0:19:19.40,0:19:22.69,main,Rui,0,0,0,,Não queremos morrer! Não queremos\Nmorrer! Não queremos morrer!
+Dialogue: 0,0:19:22.69,0:19:23.65,main,Subaru,0,0,0,,Ei!
+Dialogue: 0,0:19:23.65,0:19:26.03,main,Subaru,0,0,0,,Você perdeu, Rui Arneb.
+Dialogue: 0,0:19:26.90,0:19:29.95,main,Subaru,0,0,0,,Admita isso logo e liberte todo mundo.
+Dialogue: 0,0:19:29.95,0:19:33.24,main,Subaru,0,0,0,,Liberte todas as pessoas que você devorou!
+Dialogue: 0,0:19:33.24,0:19:35.12,main,Rui,0,0,0,,De jeito nenhum!
+Dialogue: 0,0:19:35.12,0:19:37.79,main,Rui,0,0,0,,Essa é a nossa linha de vida, sabia!
+Dialogue: 0,0:19:38.17,0:19:42.09,main,Rui,0,0,0,,Se perdermos isso, você vai poder nos matar!
+Dialogue: 0,0:19:42.09,0:19:45.80,main,Rui,0,0,0,,Não podemos devolvê-las se não\Nquisermos ser mortas!
+Dialogue: 0,0:19:45.80,0:19:47.59,main,Rui,0,0,0,,Não podemos!
+Dialogue: 0,0:19:47.59,0:19:48.63,main,Subaru,0,0,0,,Eu...
+Dialogue: 0,0:19:50.18,0:19:51.93,main,Subaru,0,0,0,,não vou salvar você.
+Dialogue: 0,0:19:52.43,0:19:54.10,main,Subaru,0,0,0,,E não sinto pena de você.
+Dialogue: 0,0:19:54.10,0:19:55.14,main,Rui,0,0,0,,Não...
+Dialogue: 0,0:19:55.60,0:19:56.81,main,Rui,0,0,0,,Chega!
+Dialogue: 0,0:19:57.69,0:19:59.06,main,Rui,0,0,0,,Vá embora logo!
+Dialogue: 0,0:19:59.06,0:20:04.94,main,Rui,0,0,0,,O Irmão Mais Velho ou o Segundo Irmão\Npodem ficar com você pra devorar!
+Dialogue: 0,0:20:04.94,0:20:07.03,main,Rui,0,0,0,,Pra nós já deu!
+Dialogue: 0,0:20:07.03,0:20:09.15,main,Subaru,0,0,0,,Lembre-se disso, Rui Arneb!
+Dialogue: 0,0:20:09.78,0:20:13.37,main,Subaru,0,0,0,,Tudo o que for angustiante, tudo o que for\Ndoloroso, é seu pra carregar!
+Dialogue: 0,0:20:13.37,0:20:15.16,main,Subaru,0,0,0,,Não fuja das memórias!
+Dialogue: 0,0:20:19.12,0:20:22.88,main,RuiA,0,0,0,,Ei. Isso não é diferente do que planejamos?
+Dialogue: 0,0:20:22.88,0:20:24.55,main,Rui,0,0,0,,Nós?
+Dialogue: 0,0:20:24.55,0:20:27.01,main,RuiA,0,0,0,,Isso mesmo. Somos nós.
+Dialogue: 0,0:20:27.30,0:20:32.72,main,RuiA,0,0,0,,Não criamos o ambiente perfeito pra jogarmos\Na melhor vida através do moço?
+Dialogue: 0,0:20:34.05,0:20:35.68,main,RuiA,0,0,0,,Você viu, não viu?
+Dialogue: 0,0:20:36.02,0:20:39.14,main,RuiA,0,0,0,,Você ouviu, não ouviu?\NVocê sentiu o cheiro, não sentiu?
+Dialogue: 0,0:20:39.14,0:20:43.23,main,RuiA,0,0,0,,Você sentiu na pele, não sentiu?\NVocê provou o gosto, não provou?
+Dialogue: 0,0:20:43.23,0:20:46.57,main,RuiA,0,0,0,,A Autoridade de Natsuki Subaru!
+Dialogue: 0,0:20:46.57,0:20:48.40,main,Rui,0,0,0,,Não diga esse nome!
+Dialogue: 0,0:20:49.24,0:20:53.41,main,RuiA,0,0,0,,O quê? O plano não deu certo?
+Dialogue: 0,0:20:53.41,0:20:56.87,main,RuiA,0,0,0,,O plano era entrar nele quando ficasse vazio
+Dialogue: 0,0:20:56.87,0:20:59.87,main,RuiA,0,0,0,,e fazer todo tipo de maldade, não era?
+Dialogue: 0,0:20:59.87,0:21:01.21,main,Rui,0,0,0,,Não... Não...
+Dialogue: 0,0:21:01.21,0:21:02.79,main,Rui,0,0,0,,Não!
+Dialogue: 0,0:21:02.79,0:21:07.46,main,RuiA,0,0,0,,Espera... você está planejando guardar\Na Autoridade dele só pra você?
+Dialogue: 0,0:21:07.46,0:21:11.55,main,RuiA,0,0,0,,Vai monopolizar o único jeito\Nde sermos felizes?!
+Dialogue: 0,0:21:11.55,0:21:16.31,main,Rui,0,0,0,,Não! Não, não, não! Não é isso!
+Dialogue: 0,0:21:16.31,0:21:18.93,main,RuiA,0,0,0,,Nós não vamos aceitar isso!
+Dialogue: 0,0:21:19.85,0:21:23.19,main,RuiA,0,0,0,,Natsuki Subaru pertence a nós!
+Dialogue: 0,0:21:23.19,0:21:25.40,main,Rui,0,0,0,,Não sabemos do que você está falando!
+Dialogue: 0,0:21:25.40,0:21:29.23,main,Rui,0,0,0,,Nós somos as únicas que conhecem Natsuki Subaru!
+Dialogue: 0,0:21:29.23,0:21:31.53,main,RuiA,0,0,0,,Sua destruidora de lares!
+Dialogue: 0,0:21:31.95,0:21:33.78,main,Rui,0,0,0,,Sua mulher estúpida!
+Dialogue: 0,0:21:33.78,0:21:35.44,main,RuiA,0,0,0,,Sua monopolizadora imunda!
+Dialogue: 0,0:21:35.44,0:21:37.62,overlap,Rui,0,0,0,,Você não sabe de nada!
+Dialogue: 0,0:21:37.62,0:21:42.58,main,RuiA,0,0,0,,Se não quer, então deixe a gente provar também!
+Dialogue: 0,0:21:43.96,0:21:45.71,main,Rui,0,0,0,,Nós não queremos morrer!
+Dialogue: 0,0:21:46.34,0:21:47.75,main,Emilia,0,0,0,,Icicle Line!
+Dialogue: 0,0:22:06.23,0:22:10.44,main,Rye,0,0,0,,Desculpe, senhorita. Já nos cansamos disso.
+Dialogue: 0,0:22:10.78,0:22:13.78,main,Rye,0,0,0,,Acha mesmo que vai vencer se fizer\Nisso apenas umas cem vezes?
+Dialogue: 0,0:22:13.78,0:22:16.32,main,Rye,0,0,0,,Nem mil vezes seriam suficientes.
+Dialogue: 0,0:22:16.70,0:22:19.24,main,Emilia,0,0,0,,Então eu faço dez mil vezes.
+Dialogue: 0,0:22:20.37,0:22:21.70,main,Emilia,0,0,0,,Espere aí. É perigoso demais.
+Dialogue: 0,0:22:21.70,0:22:23.66,main,Emilia,0,0,0,,Deixe isso comigo.
+Dialogue: 0,0:22:23.66,0:22:27.21,main,Emilia,0,0,0,,Quer dizer, hã... Talvez você não\Nsaiba quem eu sou, mas...
+Dialogue: 0,0:22:27.21,0:22:29.55,main,Subaru,0,0,0,,Está tudo bem, Emilia-tan!
+Dialogue: 0,0:22:36.84,0:22:39.39,main,Subaru,0,0,0,,Meu nome é Natsuki Subaru!
+Dialogue: 0,0:22:42.85,0:22:47.67,Episode Title,,0,0,0,,Natsuki Subaru
+Dialogue: 0,0:22:43.52,0:22:46.85,main,Subaru,0,0,0,,E eu sou o único cavaleiro da Emilia-tan!

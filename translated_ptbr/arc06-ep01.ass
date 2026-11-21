@@ -1,0 +1,409 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: Overlap,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00743E15,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: Episode Title,Adobe Caslon Pro Bold,180,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:26.47,0:00:29.22,Default,Subaru,0,0,0,,Sério que não tem ninguém?
+Dialogue: 0,0:00:29.85,0:00:30.93,Default,Subaru,0,0,0,,Se alguém…
+Dialogue: 0,0:00:31.36,0:00:34.10,Default,Subaru,0,0,0,,tiver sequer a menor\Nlembrança dele…
+Dialogue: 0,0:00:34.93,0:00:37.39,Default,Julius,0,0,0,,Tudo bem. Já chega, Subaru.
+Dialogue: 0,0:00:41.20,0:00:43.45,Default,Subaru,0,0,0,,Este é o Julius.
+Dialogue: 0,0:00:44.03,0:00:45.82,Default,Subaru,0,0,0,,Julius Juukulius.
+Dialogue: 0,0:00:46.42,0:00:48.56,Default,Subaru,0,0,0,,Acho que todos já perceberam,
+Dialogue: 0,0:00:48.56,0:00:51.47,Default,Subaru,0,0,0,,mas ele é uma das vítimas da Gula\Nque ficou sem nome.
+Dialogue: 0,0:00:51.47,0:00:53.99,Default,Subaru,0,0,0,,Mas ele ainda mantém a consciência.
+Dialogue: 0,0:00:54.93,0:00:56.83,Default,Subaru,0,0,0,,Todas as vítimas da Gula até agora
+Dialogue: 0,0:00:57.66,0:01:00.87,Default,Subaru,0,0,0,,ou tiveram só as memórias devoradas\Ne acabaram como a {*}Crusch-san{*Miss Crusch},
+Dialogue: 0,0:01:00.87,0:01:05.88,Default,Subaru,0,0,0,,{\t(4800,4990,\3c&HFFFFFF&\4c&HFFFFFF&)}ou tiveram tanto o nome quanto\Nas memórias devorados, como a Rem.
+Dialogue: 0,0:01:06.28,0:01:09.34,Default,Subaru,0,0,0,,Mas o Julius só teve o nome devorado.
+Dialogue: 0,0:01:09.67,0:01:12.34,Default,Ferris,0,0,0,,Quer dizer que ele é uma exceção?
+Dialogue: 0,0:01:12.34,0:01:16.81,Default,Ferris,0,0,0,,Todo mundo se esqueceu dele,\Nmas ele ainda se lembra de si mesmo?
+Dialogue: 0,0:01:17.24,0:01:20.04,Default,Reinhard,0,0,0,,Ele veste o uniforme de cavaleiro.
+Dialogue: 0,0:01:20.04,0:01:23.12,Default,Reinhard,0,0,0,,Tenho certeza de que era um conhecido\Nmeu e do Ferris,
+Dialogue: 0,0:01:23.99,0:01:27.23,Default,Reinhard,0,0,0,,ou talvez até mais próximo do que isso.
+Dialogue: 0,0:01:27.23,0:01:31.70,Default,Julius,0,0,0,,Pelo menos, eu os considerava amigos.
+Dialogue: 0,0:01:31.70,0:01:32.68,Default,Subaru,0,0,0,,Droga!
+Dialogue: 0,0:01:32.68,0:01:34.93,Default,Anastasia,0,0,0,,Só dois amigos?
+Dialogue: 0,0:01:35.93,0:01:38.66,Default,Anastasia,0,0,0,,Eu diria que tem mais coisa nessa história.
+Dialogue: 0,0:01:39.25,0:01:40.87,Default,Julius,0,0,0,,{*}Anastasia-sama{*Lady Anastasia}…
+Dialogue: 0,0:01:44.28,0:01:47.41,Default,Anastasia,0,0,0,,Eu tenho uma sugestão pra todos vocês.
+Dialogue: 0,0:01:47.41,0:01:48.17,Default,Anastasia,0,0,0,,Posso falar?
+Dialogue: 0,0:01:50.33,0:01:51.72,Default,Anastasia,0,0,0,,Tem gente nesta cidade
+Dialogue: 0,0:01:51.72,0:01:54.72,Default,Anastasia,0,0,0,,que foi transformada pela Luxúria
+Dialogue: 0,0:01:54.72,0:01:57.72,Default,Anastasia,0,0,0,,ou deixada sem nome pela Gula.
+Dialogue: 0,0:01:58.43,0:02:00.56,Default,Anastasia,0,0,0,,Claro, temos uma arcebispa\Ndo pecado sob custódia,
+Dialogue: 0,0:02:00.56,0:02:05.52,Default,Anastasia,0,0,0,,mas duvido que ela seja boazinha\No bastante pra dizer como revertê-los.
+Dialogue: 0,0:02:05.92,0:02:07.64,Default,Anastasia,0,0,0,,Então estamos de mãos atadas.
+Dialogue: 0,0:02:07.64,0:02:10.74,Default,Ferris,0,0,0,,Do que adianta mencionar isso agora?
+Dialogue: 0,0:02:09.58,0:02:10.74,Overlap,Anastasia,0,0,0,,Sendo assim…
+Dialogue: 0,0:02:11.32,0:02:14.49,Default,Anastasia,0,0,0,,só nos resta perguntar a outra\Npessoa que provavelmente saberia como.
+Dialogue: 0,0:02:14.49,0:02:17.13,Default,Emilia,0,0,0,,Outra pessoa que provavelmente saberia como?
+Dialogue: 0,0:02:17.67,0:02:19.45,Default,Emilia,0,0,0,,Tipo alguém que sabe de muita coisa?
+Dialogue: 0,0:02:19.45,0:02:21.09,Default,Anastasia,0,0,0,,Isso mesmo.
+Dialogue: 0,0:02:21.09,0:02:25.33,Default,Anastasia,0,0,0,,E existe alguém assim bem\Naqui neste país, não existe?
+Dialogue: 0,0:02:25.33,0:02:28.14,Default,Felt,0,0,0,,Para de enrolar e fala logo de uma vez!
+Dialogue: 0,0:02:28.14,0:02:29.13,Default,Reinhard,0,0,0,,Não me diga que…
+Dialogue: 0,0:02:30.46,0:02:31.84,Default,Anastasia,0,0,0,,Shaula, o Sábio.
+Dialogue: 0,0:02:32.30,0:02:33.47,Default,Subaru,0,0,0,,Shaula?
+Dialogue: 0,0:02:33.47,0:02:34.67,Default,Anastasia,0,0,0,,Isso aí.
+Dialogue: 0,0:02:35.65,0:02:37.97,Default,Anastasia,0,0,0,,Um dos três grandes\Nheróis de Lugunica…
+Dialogue: 0,0:02:41.56,0:02:43.44,Default,Anastasia,0,0,0,,Shaula, o Sábio.
+Dialogue: 0,0:02:47.38,0:02:50.09,Default,Subaru,0,0,0,,Há muito tempo, no Reino\Ndo Dragão de Lugunica,
+Dialogue: 0,0:02:50.09,0:02:52.49,Default,Subaru,0,0,0,,havia um grupo de heróis\Nque realizou grandes feitos.
+Dialogue: 0,0:02:53.18,0:02:56.95,Default,Subaru,0,0,0,,O Santo da Espada, o Dragão Divino\Ne o Sábio,
+Dialogue: 0,0:02:57.39,0:02:59.87,Default,Subaru,0,0,0,,conhecidos em conjunto como\Nos Três Grandes Heróis.
+Dialogue: 0,0:03:00.54,0:03:01.41,Default,Subaru,0,0,0,,Certo?
+Dialogue: 0,0:03:01.41,0:03:02.88,Default,Anastasia,0,0,0,,Isso aí.
+Dialogue: 0,0:03:02.88,0:03:06.16,Default,Anastasia,0,0,0,,O guardião do conhecimento que\Nprevê tudo o que há de existir.
+Dialogue: 0,0:03:06.16,0:03:10.57,Default,Anastasia,0,0,0,,Nas Dunas de Areia de Augria, no\Nextremo leste de Lugunica,
+Dialogue: 0,0:03:10.57,0:03:14.88,Default,Anastasia,0,0,0,,ergue-se a Torre de Vigia das Plêiades,\Nconstruída para vigiar a Bruxa da Inveja selada.
+Dialogue: 0,0:03:15.61,0:03:18.65,Default,Anastasia,0,0,0,,O lendário sábio que\Nvive recluso por lá
+Dialogue: 0,0:03:18.65,0:03:22.64,Default,Anastasia,0,0,0,,talvez tenha as respostas\Nque estamos procurando.
+Dialogue: 0,0:03:23.71,0:03:27.10,Default,Otto,0,0,0,,Francamente, ainda sou contra isso.
+Dialogue: 0,0:03:27.66,0:03:31.86,Default,Otto,0,0,0,,Quer dizer, é aquele lugar onde nem\Nmesmo você conseguiu chegar, certo?
+Dialogue: 0,0:03:32.82,0:03:36.72,Default,Reinhard,0,0,0,,Dois anos atrás, quando a\Nfamília real adoeceu,
+Dialogue: 0,0:03:36.72,0:03:40.58,Default,Reinhard,0,0,0,,o Conselho dos Sábios me enviou\Nà Torre de Vigia das Plêiades
+Dialogue: 0,0:03:40.58,0:03:42.83,Default,Reinhard,0,0,0,,em busca de uma cura.
+Dialogue: 0,0:03:43.62,0:03:46.41,Default,Reinhard,0,0,0,,Mas… eu nunca cheguei lá.
+Dialogue: 0,0:03:47.27,0:03:51.61,Default,Reinhard,0,0,0,,Por mais longe que eu viajasse,\Na torre à distância nunca se aproximava.
+Dialogue: 0,0:03:51.61,0:03:53.38,Default,Reinhard,0,0,0,,Deve ter havido algum tipo de barreira,
+Dialogue: 0,0:03:54.23,0:03:57.90,Default,Reinhard,0,0,0,,e eu não fui capaz de atravessá-la.
+Dialogue: 0,0:03:57.90,0:04:02.72,Default,Otto,0,0,0,,As Dunas de Areia de Augria são famosas\Npor serem um covil gigante de mabestas, não?
+Dialogue: 0,0:04:03.23,0:04:08.44,Default,Otto,0,0,0,,O {*}Natsuki-san{*Mr. Natsuki} e os outros deveriam\Nmesmo ir até lá por conta própria?
+Dialogue: 0,0:04:08.44,0:04:09.69,Default,Reinhard,0,0,0,,Tudo o que podemos fazer é acreditar.
+Dialogue: 0,0:04:10.59,0:04:14.57,Default,Reinhard,0,0,0,,Eu tenho o dever de escoltar a\N{*}Felt-sama{*Lady Felt} e aquela arcebispa do pecado.
+Dialogue: 0,0:04:16.96,0:04:18.49,Default,Reinhard,0,0,0,,Além disso…
+Dialogue: 0,0:04:18.90,0:04:23.88,Default,Reinhard,0,0,0,,ainda há pessoas nesta cidade\Nque precisam de nós.
+Dialogue: 0,0:04:41.33,0:04:45.43,Default,Subaru,0,0,0,,Um lugar onde até o Reinhard\Nfalhou em entrar, é?
+Dialogue: 0,0:04:46.46,0:04:50.14,Default,Subaru,0,0,0,,Ouvindo só essa parte,\Ntudo isso parece bem sem esperança.
+Dialogue: 0,0:04:50.45,0:04:53.58,Default,Beatrice,0,0,0,,Subaru, você está ficando com\Numa expressão assustadora.
+Dialogue: 0,0:04:54.36,0:04:57.58,Default,Beatrice,0,0,0,,Se ficar tão perdido em pensamentos que\Nnegligenciar nosso contato físico,
+Dialogue: 0,0:04:57.58,0:05:00.66,Default,Beatrice,0,0,0,,a fofura da Betty será\Ndesperdiçada, eu suponho.
+Dialogue: 0,0:05:01.06,0:05:02.56,Default,Subaru,0,0,0,,Foi mal, foi mal…
+Dialogue: 0,0:05:02.56,0:05:03.91,Default,Subaru,0,0,0,,Espera, você tem razão!
+Dialogue: 0,0:05:04.33,0:05:07.50,Default,Subaru,0,0,0,,Só me distraí por um minuto e olha\Ncomo você já ficou toda emburrada!
+Dialogue: 0,0:05:07.50,0:05:11.05,Default,Beatrice,0,0,0,,Não fiquei, não! Argh!
+Dialogue: 0,0:05:11.05,0:05:12.00,Default,Emilia,0,0,0,,Beatrice.
+Dialogue: 0,0:05:12.97,0:05:15.56,Default,Emilia,0,0,0,,Já não está quase na sua hora de dormir?
+Dialogue: 0,0:05:15.56,0:05:17.77,Default,Emilia,0,0,0,,Gostaria de dormir comigo hoje à noite?
+Dialogue: 0,0:05:19.88,0:05:21.47,Default,Beatrice,0,0,0,,Eu vou, eu suponho.
+Dialogue: 0,0:05:21.81,0:05:24.86,Default,Beatrice,0,0,0,,Ficar acordada a noite toda\Nfaz mal para a saúde.
+Dialogue: 0,0:05:38.61,0:05:40.99,Default,Anastasia,0,0,0,,{*}Natsuki-kun{*Natsuki}, você ainda está acordado?
+Dialogue: 0,0:05:41.35,0:05:42.75,Default,Subaru,0,0,0,,Tô, sim.
+Dialogue: 0,0:05:42.75,0:05:46.17,Default,Subaru,0,0,0,,Mesmo numa estrada segura, alguém\Nprecisa ficar de vigia, né?
+Dialogue: 0,0:05:46.17,0:05:48.83,Default,Anastasia,0,0,0,,É, estamos mesmo com\Npouca gente, não é?
+Dialogue: 0,0:05:48.83,0:05:52.00,Default,Anastasia,0,0,0,,Bem que o Ricardo podia ter vindo com a gente…
+Dialogue: 0,0:05:52.00,0:05:53.79,Default,Anastasia,0,0,0,,Se ao menos ele não estivesse sem um braço.
+Dialogue: 0,0:05:55.70,0:05:57.84,Default,Subaru,0,0,0,,Que tal você contar a verdade logo?
+Dialogue: 0,0:05:58.19,0:06:00.80,Default,Anastasia,0,0,0,,Hã? De onde veio isso?
+Dialogue: 0,0:06:00.80,0:06:01.45,Default,Anastasia,0,0,0,,O que cê—
+Dialogue: 0,0:06:01.45,0:06:04.15,Default,Subaru,0,0,0,,Você é uma péssima atriz. Pode parar.
+Dialogue: 0,0:06:07.67,0:06:10.06,Default,Subaru,0,0,0,,Você não é a {*}Anastasia-san{*Miss Anastasia}.
+Dialogue: 0,0:06:10.06,0:06:13.37,Default,Subaru,0,0,0,,Para de brincar com o rosto e a voz dela.
+Dialogue: 0,0:06:15.42,0:06:16.56,Default,Scarfdona,0,0,0,,Que estranho.
+Dialogue: 0,0:06:17.93,0:06:20.49,Default,Scarfdona,0,0,0,,Como descobriu que eu não era a Ana?
+Dialogue: 0,0:06:20.49,0:06:24.56,Default,Subaru,0,0,0,,Tinha algo estranho esse tempo todo,\Nmas agora tenho certeza absoluta.
+Dialogue: 0,0:06:24.56,0:06:26.45,Default,Subaru,0,0,0,,{*}A Anastasia-san{*Miss Anastasia} é realista,
+Dialogue: 0,0:06:26.89,0:06:29.67,Default,Subaru,0,0,0,,mas ela nunca falaria tão\Nfriamente sobre um amigo próximo
+Dialogue: 0,0:06:29.67,0:06:32.30,Default,Subaru,0,0,0,,com um ferimento que vai mudar a vida dele.
+Dialogue: 0,0:06:35.00,0:06:38.17,Default,Scarfdona,0,0,0,,É um pouco constrangedor continuar\Nsendo desmascarada a torto e a direito.
+Dialogue: 0,0:06:38.54,0:06:41.04,Default,Subaru,0,0,0,,A torto e a direito? Não sou o único?
+Dialogue: 0,0:06:41.04,0:06:42.85,Default,Scarfdona,0,0,0,,Priscilla {*}Barielle-san{*Barielle}.
+Dialogue: 0,0:06:42.85,0:06:45.01,Default,Scarfdona,0,0,0,,Aquela que me chamou de raposa dissimulada.
+Dialogue: 0,0:06:45.01,0:06:46.68,Default,Scarfdona,0,0,0,,Ela é realmente assustadora.
+Dialogue: 0,0:06:47.02,0:06:48.95,Default,Subaru,0,0,0,,Quem é você?
+Dialogue: 0,0:06:48.95,0:06:50.68,Default,Subaru,0,0,0,,O que você está tentando—
+Dialogue: 0,0:06:49.92,0:06:50.68,Overlap,Scarfdona,0,0,0,,Echidna.
+Dialogue: 0,0:06:54.71,0:06:55.48,Default,Subaru,0,0,0,,O quê?
+Dialogue: 0,0:06:56.12,0:06:58.50,Default,Scarfdona,0,0,0,,Meu nome é Echidna.
+Dialogue: 0,0:06:58.50,0:07:01.82,Default,Scarfdona,0,0,0,,Quanto ao que eu sou… bem,\Nsou o que chamam de espírito artificial.
+Dialogue: 0,0:07:02.68,0:07:07.92,Default,Scarfdona,0,0,0,,Francamente, não surpreende que você\Npense que tomei o corpo da Ana.
+Dialogue: 0,0:07:07.92,0:07:10.75,Default,Scarfdona,0,0,0,,Foi por isso que hesitei\Nem lhe contar a verdade.
+Dialogue: 0,0:07:13.17,0:07:16.08,Default,Subaru,0,0,0,,Que tipo de piada de mau gosto é essa?
+Dialogue: 0,0:07:16.08,0:07:18.99,Default,Subaru,0,0,0,,Você é… Echidna?
+Dialogue: 0,0:07:18.99,0:07:21.03,Default,Subaru,0,0,0,,Na forma da {*}Anastasia-san{*Miss Anastasia}?
+Dialogue: 0,0:07:21.96,0:07:26.22,Default,Subaru,0,0,0,,Espera, você estava por trás de tudo\No que acabou de acontecer em Priestella?!
+Dialogue: 0,0:07:26.22,0:07:28.80,Default,Scarfdona,0,0,0,,S-Será que poderia se acalmar?
+Dialogue: 0,0:07:28.80,0:07:30.76,Default,Scarfdona,0,0,0,,Acho que há um enorme\Nmal-entendido aqui…
+Dialogue: 0,0:07:30.76,0:07:34.53,Default,Subaru,0,0,0,,Quer que eu me acalme,\Nsua bruxa vil?!
+Dialogue: 0,0:07:34.53,0:07:36.27,Default,Subaru,0,0,0,,O que você fez com a {*}Anastasia-san{*Miss Anastasia}?!
+Dialogue: 0,0:07:36.75,0:07:39.87,Default,Scarfdona,0,0,0,,Gostaria que parasse de me tratar como\Na mente por trás de algum plano maligno.
+Dialogue: 0,0:07:39.87,0:07:43.42,Default,Scarfdona,0,0,0,,Não tenho intenção de ferir a Ana.
+Dialogue: 0,0:07:43.42,0:07:45.87,Default,Scarfdona,0,0,0,,Estou com ela há mais de dez anos.
+Dialogue: 0,0:07:45.87,0:07:47.50,Default,Subaru,0,0,0,,Que diabos é você…
+Dialogue: 0,0:07:47.50,0:07:48.99,Default,Subaru,0,0,0,,Espera, mais de dez anos?
+Dialogue: 0,0:07:50.46,0:07:53.64,Default,Scarfdona,0,0,0,,Deixe-me esclarecer o\Nmal-entendido primeiro.
+Dialogue: 0,0:07:53.64,0:07:57.58,Default,Scarfdona,0,0,0,,Eu não sou a Echidna em quem está pensando.
+Dialogue: 0,0:07:57.58,0:08:02.48,Default,Scarfdona,0,0,0,,Além do fato de que\Nsou um espírito artificial
+Dialogue: 0,0:08:02.48,0:08:04.87,Default,Scarfdona,0,0,0,,e do fato de que meu nome é Echidna,
+Dialogue: 0,0:08:04.87,0:08:07.18,Default,Scarfdona,0,0,0,,não sei nada sobre como vim a existir.
+Dialogue: 0,0:08:07.18,0:08:09.52,Default,Subaru,0,0,0,,Você é um espírito artificial?
+Dialogue: 0,0:08:09.52,0:08:11.10,Default,Subaru,0,0,0,,Tipo a Beako?
+Dialogue: 0,0:08:11.10,0:08:17.05,Default,Scarfdona,0,0,0,,A rigor, este cachecol de raposa\Nque a Ana sempre usa é meu corpo real.
+Dialogue: 0,0:08:17.64,0:08:20.86,Default,Scarfdona,0,0,0,,Então venho observando todos\Nvocês há um bom tempo.
+Dialogue: 0,0:08:22.42,0:08:24.86,Default,Subaru,0,0,0,,Está me contando isso agora
+Dialogue: 0,0:08:24.86,0:08:29.45,Default,Subaru,0,0,0,,porque finalmente se preparou de vez\Npara tomar o corpo dela, Cachecoldona?
+Dialogue: 0,0:08:29.45,0:08:31.54,Default,Scarfdona,0,0,0,,Cachecol… dona?
+Dialogue: 0,0:08:31.54,0:08:35.72,Default,Scarfdona,0,0,0,,Não sei se gosto muito desse apelido…
+Dialogue: 0,0:08:35.72,0:08:39.35,Default,Scarfdona,0,0,0,,Não tenho intenção alguma\Nde tomar o corpo da Ana.
+Dialogue: 0,0:08:39.35,0:08:41.92,Default,Scarfdona,0,0,0,,A situação atual não é\No que eu desejava.
+Dialogue: 0,0:08:42.54,0:08:44.16,Default,Subaru,0,0,0,,Se não era o que você desejava,
+Dialogue: 0,0:08:44.16,0:08:47.08,Default,Subaru,0,0,0,,por que não volta logo pra\Ndentro desse cachecol de raposa?
+Dialogue: 0,0:08:47.08,0:08:49.76,Default,Scarfdona,0,0,0,,Eu adoraria fazer exatamente isso…
+Dialogue: 0,0:08:51.03,0:08:53.77,Default,Scarfdona,0,0,0,,mas não consigo mais.
+Dialogue: 0,0:08:53.77,0:08:54.89,Default,Subaru,0,0,0,,Explique.
+Dialogue: 0,0:08:55.47,0:08:59.29,Default,Subaru,0,0,0,,Em que estado o corpo da\N{*}Anastasia-san{*Miss Anastasia} está agora?
+Dialogue: 0,0:08:59.29,0:09:00.96,Default,Scarfdona,0,0,0,,Para ser direta…
+Dialogue: 0,0:09:01.59,0:09:03.46,Default,Scarfdona,0,0,0,,estou usando o Od da Ana como meio
+Dialogue: 0,0:09:03.46,0:09:06.36,Default,Scarfdona,0,0,0,,para sobrescrever a consciência\Ndela com a minha.
+Dialogue: 0,0:09:06.81,0:09:10.16,Default,Scarfdona,0,0,0,,Enquanto isso, a consciência da Ana\Ndorme nas profundezas do seu Od,
+Dialogue: 0,0:09:10.16,0:09:12.82,Default,Scarfdona,0,0,0,,e eu tenho controle total sobre seu corpo.
+Dialogue: 0,0:09:13.45,0:09:15.95,Default,Scarfdona,0,0,0,,Posso até usar magia com o portão dela,
+Dialogue: 0,0:09:15.95,0:09:17.69,Default,Scarfdona,0,0,0,,embora seja defeituoso.
+Dialogue: 0,0:09:17.69,0:09:19.58,Default,Subaru,0,0,0,,O portão dela é defeituoso?
+Dialogue: 0,0:09:19.58,0:09:24.30,Default,Subaru,0,0,0,,Então usar magia agora não vai\Nsobrecarregar o corpo dela?!
+Dialogue: 0,0:09:24.30,0:09:26.84,Default,Scarfdona,0,0,0,,Só estou fazendo algo que\Nconsome a vida dela aos poucos
+Dialogue: 0,0:09:26.84,0:09:29.80,Default,Scarfdona,0,0,0,,porque a vida dela já corria\Nperigo desde o início.
+Dialogue: 0,0:09:30.32,0:09:34.16,Default,Scarfdona,0,0,0,,Eu, é claro, conversei com a Ana\Nsobre isso e obtive seu consentimento.
+Dialogue: 0,0:09:34.16,0:09:37.85,Default,Subaru,0,0,0,,Então essa não é a primeira vez\Nque você pega o corpo dela emprestado?
+Dialogue: 0,0:09:37.85,0:09:40.05,Default,Scarfdona,0,0,0,,Houve algumas outras ocasiões,
+Dialogue: 0,0:09:40.05,0:09:43.15,Default,Scarfdona,0,0,0,,mas nenhuma em que eu ficasse\Nimpossibilitada de devolvê-lo.
+Dialogue: 0,0:09:43.65,0:09:47.11,Default,Scarfdona,0,0,0,,Por isso eu mesma estou perdida agora.
+Dialogue: 0,0:09:52.40,0:09:55.53,Default,Scarfdona,0,0,0,,Veja bem, eu amo a Ana.
+Dialogue: 0,0:09:56.56,0:10:00.11,Default,Scarfdona,0,0,0,,Não sei se estou certa quanto a isso,\Njá que me falta experiência,
+Dialogue: 0,0:10:00.11,0:10:04.00,Default,Scarfdona,0,0,0,,mas sinto como se ela fosse algo\Nmuito próximo de uma família.
+Dialogue: 0,0:10:04.96,0:10:07.35,Default,Scarfdona,0,0,0,,Só quero que ela seja o mais saudável—
+Dialogue: 0,0:10:08.06,0:10:10.47,Default,Scarfdona,0,0,0,,e acima de tudo, o mais feliz possível.
+Dialogue: 0,0:10:12.93,0:10:16.89,Default,Subaru,0,0,0,,Então o verdadeiro motivo de você\Nquerer ver o sábio é…
+Dialogue: 0,0:10:18.65,0:10:23.46,Default,Scarfdona,0,0,0,,Eu só quero saber como devolver\No corpo da Ana para ela.
+Dialogue: 0,0:10:23.46,0:10:26.61,Default,Scarfdona,0,0,0,,Usarei você e seus companheiros\Npara isso, se for preciso.
+Dialogue: 0,0:10:27.17,0:10:32.78,Default,Subaru,0,0,0,,Pode ter certeza de que o sábio sabe\Ncomo fazer você voltar ao normal?
+Dialogue: 0,0:10:32.78,0:10:34.27,Default,Scarfdona,0,0,0,,Não tenho.
+Dialogue: 0,0:10:34.27,0:10:39.83,Default,Scarfdona,0,0,0,,Mas se esse sábio tudo vê\Ne tudo sabe, como dizem,
+Dialogue: 0,0:10:39.83,0:10:41.33,Default,Scarfdona,0,0,0,,há uma chance.
+Dialogue: 0,0:10:41.78,0:10:45.66,Default,Scarfdona,0,0,0,,Farei a escolha que oferecer a\Nmaior probabilidade de sucesso.
+Dialogue: 0,0:10:45.66,0:10:47.17,Default,Scarfdona,0,0,0,,Nada mais, nada menos.
+Dialogue: 0,0:10:49.58,0:10:54.13,Default,Subaru,0,0,0,,Não posso dizer que aceito isso,\Nmas eu entendo.
+Dialogue: 0,0:10:55.04,0:10:59.12,Default,Subaru,0,0,0,,Você tem um objetivo e sabe\No que precisa fazer,
+Dialogue: 0,0:10:59.12,0:11:02.73,Default,Subaru,0,0,0,,e isso não interfere no nosso objetivo.
+Dialogue: 0,0:11:02.73,0:11:07.36,Default,Scarfdona,0,0,0,,De fato. Ambos temos coisas\Nque desejamos perguntar ao sábio.
+Dialogue: 0,0:11:07.72,0:11:09.11,Default,Subaru,0,0,0,,Beleza, entendi.
+Dialogue: 0,0:11:09.11,0:11:14.29,Default,Subaru,0,0,0,,Só não mencione que pegou o corpo da\N{*}Anastasia-san{*Miss Anastasia} emprestado pro Julius…
+Dialogue: 0,0:11:14.89,0:11:16.75,Default,Subaru,0,0,0,,nem pra mais ninguém.
+Dialogue: 0,0:11:16.75,0:11:20.83,Default,Scarfdona,0,0,0,,Tudo bem, mas me surpreende\Nque não vá contar a eles.
+Dialogue: 0,0:11:21.22,0:11:23.48,Default,Subaru,0,0,0,,O momento já é péssimo do jeito que está.
+Dialogue: 0,0:11:23.48,0:11:26.70,Default,Subaru,0,0,0,,Só não quero causar alvoroço\Ndesnecessário agora.
+Dialogue: 0,0:11:26.70,0:11:27.50,Default,Scarfdona,0,0,0,,Entendo.
+Dialogue: 0,0:11:28.50,0:11:33.38,Default,Scarfdona,0,0,0,,Há outra pessoa sobre quem você\Nquer perguntar ao sábio, não é?
+Dialogue: 0,0:11:33.93,0:11:35.30,Default,Subaru,0,0,0,,Bem…
+Dialogue: 0,0:11:39.42,0:11:43.58,Default,Scarfdona,0,0,0,,Passaremos pela mansão do\NMarquês Mathers no caminho.
+Dialogue: 0,0:11:44.14,0:11:46.83,Default,Scarfdona,0,0,0,,Tenho certeza de que também vai querer\Nse preparar para cruzar as dunas,
+Dialogue: 0,0:11:46.83,0:11:49.40,Default,Scarfdona,0,0,0,,mas também é lá que está\Na sua bela adormecida.
+Dialogue: 0,0:11:49.99,0:11:53.27,Default,Scarfdona,0,0,0,,Você pretende levá-la com você, correto?
+Dialogue: 0,0:11:55.34,0:11:59.38,Default,Anastasia,0,0,0,,Não acho isso nada mau, pra falar a verdade.
+Dialogue: 0,0:11:59.38,0:12:01.24,Default,Anastasia,0,0,0,,Ainda vamos salvar todo mundo.
+Dialogue: 0,0:12:01.24,0:12:04.33,Default,Anastasia,0,0,0,,É só uma questão de quando\Ncada um vai ser salvo.
+Dialogue: 0,0:12:04.97,0:12:10.38,Default,Anastasia,0,0,0,,Ninguém te culparia por\Naproveitar o privilégio de ir primeiro.
+Dialogue: 0,0:12:13.66,0:12:15.01,Default,Subaru,0,0,0,,Rem…
+Dialogue: 0,0:12:15.96,0:12:18.47,Default,Roswaal,0,0,0,,Sua carta me informou da situação.
+Dialogue: 0,0:12:18.81,0:12:22.43,Default,Roswaal,0,0,0,,Então, minimizaram as baixas na\Nbatalha contra os arcebispos do pecado?
+Dialogue: 0,0:12:22.90,0:12:25.81,Default,Frederica,0,0,0,,Fico aliviada em saber que o\NGarf também foi útil.
+Dialogue: 0,0:12:26.44,0:12:29.27,Default,Frederica,0,0,0,,{*}O Otto-sama{*Master Otto} também parece estar a salvo—
+Dialogue: 0,0:12:28.62,0:12:29.27,Overlap,Petra,0,0,0,,Aff!
+Dialogue: 0,0:12:29.27,0:12:32.40,Default,Petra,0,0,0,,{*}O Otto-san{*Mr. Otto} sempre se esforça além da conta!
+Dialogue: 0,0:12:32.40,0:12:35.53,Default,Petra,0,0,0,,E logo depois que conseguimos\Nenviar notícias tão boas!
+Dialogue: 0,0:12:35.89,0:12:39.97,Default,Subaru,0,0,0,,É, ouvi dizer que a reunião com\Ntodos aqueles manipuladores foi bem.
+Dialogue: 0,0:12:40.61,0:12:43.18,Default,Subaru,0,0,0,,Você vai ter que contar tudo\Npra gente depois.
+Dialogue: 0,0:12:43.18,0:12:46.08,Default,Petra,0,0,0,,É! Quer dizer… sim!
+Dialogue: 0,0:12:46.08,0:12:49.51,Default,Anastasia,0,0,0,,Nossa, você é mesmo um galanteador, {*}Natsuki-kun{*Natsuki}.
+Dialogue: 0,0:12:49.51,0:12:54.00,Default,Julius,0,0,0,,Subaru, agora vejo por que o chamam\Nde Domador de Garotinhas.
+Dialogue: 0,0:12:54.00,0:12:57.74,Default,Subaru,0,0,0,,Só pra constar, a Petra não é\Nmais uma “garotinha”!
+Dialogue: 0,0:12:57.74,0:13:00.94,Default,Subaru,0,0,0,,E se eu domo alguma garotinha,\Né só a Beako!
+Dialogue: 0,0:13:02.79,0:13:06.67,Default,Emilia,0,0,0,,Nossa vitória em Priestella não foi\Nsó graças ao Garfiel e ao {*}Otto-kun{*Otto}.
+Dialogue: 0,0:13:06.67,0:13:09.31,Default,Emilia,0,0,0,,Todos na cidade se esforçaram\Nmuito para conquistá-la.
+Dialogue: 0,0:13:10.53,0:13:11.56,Default,Emilia,0,0,0,,Mas…
+Dialogue: 0,0:13:11.56,0:13:18.31,Default,Roswaal,0,0,0,,Estão rumando para a torre do sábio para\Nsalvar as vítimas da Gula e da Luxúria.
+Dialogue: 0,0:13:18.31,0:13:20.12,Default,Roswaal,0,0,0,,Um caminho perigoso, deveras.
+Dialogue: 0,0:13:20.12,0:13:21.78,Default,Roswaal,0,0,0,,Há sequer alguma chance de sucesso?
+Dialogue: 0,0:13:22.19,0:13:26.95,Default,Julius,0,0,0,,Tenho certeza de que isso lhe causa grande\Npreocupação, Marquês Mathers.
+Dialogue: 0,0:13:27.49,0:13:30.53,Default,Julius,0,0,0,,Contudo, ainda há muitos em Priestella
+Dialogue: 0,0:13:30.53,0:13:35.13,Default,Julius,0,0,0,,cujos corpos e mentes estão feridos\Ngraças aos atos vis do Culto da Bruxa.
+Dialogue: 0,0:13:35.48,0:13:38.36,Default,Roswaal,0,0,0,,Que maneira elegante de colocar.
+Dialogue: 0,0:13:38.36,0:13:42.05,Default,Roswaal,0,0,0,,Já que não o reconheci, presumo que…
+Dialogue: 0,0:13:42.05,0:13:44.35,Default,Roswaal,0,0,0,,você próprio seja um deles?
+Dialogue: 0,0:13:45.41,0:13:47.39,Default,Subaru,0,0,0,,Não viemos aqui para\Ndiscutir isso agora.
+Dialogue: 0,0:13:47.72,0:13:51.14,Default,Subaru,0,0,0,,Paramos na mansão pela\NRem e por mais uma coisa.
+Dialogue: 0,0:13:51.97,0:13:56.19,Default,Roswaal,0,0,0,,A pessoa atualmente no\Ncalabouço da mansão, correto?
+Dialogue: 0,0:14:03.34,0:14:06.99,Default,Meili,0,0,0,,Ora, ora, que visitante\Nincomum nós temos.
+Dialogue: 0,0:14:06.99,0:14:12.46,Default,Subaru,0,0,0,,Pois é. Tenho um assunto muito\Nsério com você, Meili.
+Dialogue: 0,0:14:12.94,0:14:14.89,Default,Meili,0,0,0,,As Dunas de Areia de Augria?
+Dialogue: 0,0:14:14.89,0:14:17.84,Default,Meili,0,0,0,,Sim, já fui lá para repor\Nminhas mabestinhas antes.
+Dialogue: 0,0:14:18.36,0:14:20.80,Default,Meili,0,0,0,,Aquele lugar é mesmo\Ninfestado delas, sabia?
+Dialogue: 0,0:14:20.80,0:14:23.32,Default,Subaru,0,0,0,,Isso, isso, exatamente isso.
+Dialogue: 0,0:14:23.32,0:14:26.64,Default,Subaru,0,0,0,,Quero aprender com a experiência\Nde quem já esteve lá!
+Dialogue: 0,0:14:26.64,0:14:31.53,Default,Subaru,0,0,0,,Tem uma diferença enorme entre\Ninformação com base em experiência
+Dialogue: 0,0:14:31.53,0:14:33.27,Default,Subaru,0,0,0,,e informação sem base, sabe?
+Dialogue: 0,0:14:33.27,0:14:37.65,Default,Subaru,0,0,0,,E dá muita segurança pra\Nquem não tem experiência!
+Dialogue: 0,0:14:38.78,0:14:41.74,Default,Meili,0,0,0,,Se tem algo que você quer\Nque eu faça, fala logo.
+Dialogue: 0,0:14:42.84,0:14:44.07,Default,Subaru,0,0,0,,Certo.
+Dialogue: 0,0:14:44.87,0:14:47.18,Default,Subaru,0,0,0,,Se tivermos uma domadora de mabestas\Ncomo você com a gente,
+Dialogue: 0,0:14:47.18,0:14:49.54,Default,Subaru,0,0,0,,talvez a gente consiga atravessar\No deserto sem um arranhão.
+Dialogue: 0,0:14:49.99,0:14:51.64,Default,Subaru,0,0,0,,Então você viria com a gente—
+Dialogue: 0,0:14:51.64,0:14:52.37,Default,Meili,0,0,0,,Claro, tô dentro.
+Dialogue: 0,0:14:52.37,0:14:56.65,Default,Subaru,0,0,0,,Eu sei que você não quer\Nsair lá fora, sei mesmo.
+Dialogue: 0,0:14:56.65,0:15:00.05,Default,Subaru,0,0,0,,Mas se você pudesse… só…
+Dialogue: 0,0:15:00.62,0:15:04.03,Default,Meili,0,0,0,,Eu disse que topo ir com vocês.
+Dialogue: 0,0:15:04.65,0:15:06.01,Default,Subaru,0,0,0,,Espera, sério mesmo?
+Dialogue: 0,0:15:06.42,0:15:10.27,Default,Meili,0,0,0,,Eu posso fazer aquelas mabestinhas\Nfofas fazerem o que eu quiser.
+Dialogue: 0,0:15:10.69,0:15:12.93,Default,Meili,0,0,0,,Posso mantê-las longe, domá-las,
+Dialogue: 0,0:15:12.93,0:15:16.86,Default,Meili,0,0,0,,fazê-las se matarem, ou até\Nfazê-las devorar o sábio.
+Dialogue: 0,0:15:16.86,0:15:19.36,Default,Subaru,0,0,0,,Não faça essas duas últimas!
+Dialogue: 0,0:15:20.20,0:15:25.04,Default,Subaru,0,0,0,,Além do mais, achei que você\Nnão quisesse sair da mansão.
+Dialogue: 0,0:15:25.04,0:15:27.76,Default,Meili,0,0,0,,Tenho medo da Mamãe me encontrar,
+Dialogue: 0,0:15:27.76,0:15:30.70,Default,Meili,0,0,0,,mas não quero ficar\Ntrancada aqui pra sempre.
+Dialogue: 0,0:15:31.30,0:15:33.33,Default,Subaru,0,0,0,,Isso não vai ser um passeio\Nno parque, sabia?
+Dialogue: 0,0:15:33.96,0:15:36.06,Default,Meili,0,0,0,,Vai ser meu primeiro passeio em tempos.
+Dialogue: 0,0:15:36.06,0:15:38.04,Default,Meili,0,0,0,,Não me faria mal um pouco de emoção.
+Dialogue: 0,0:15:38.04,0:15:40.49,Default,Subaru,0,0,0,,Beleza! Contamos com você!
+Dialogue: 0,0:15:40.49,0:15:43.01,Default,Meili,0,0,0,,Não vai ficando todo amigável comigo.
+Dialogue: 0,0:15:43.83,0:15:48.85,Default,Meili,0,0,0,,Não sou como a {*}Petra-chan{*Petra} e a\N{*}Beatrice-chan{*Beatrice}, sabia?
+Dialogue: 0,0:15:57.36,0:15:59.36,Default,Subaru,0,0,0,,Que foi, Julius?
+Dialogue: 0,0:16:01.88,0:16:03.50,Default,Julius,0,0,0,,Eu estava só pensando.
+Dialogue: 0,0:16:06.63,0:16:08.24,Default,Julius,0,0,0,,Ser esquecido,
+Dialogue: 0,0:16:09.13,0:16:10.74,Default,Julius,0,0,0,,ou esquecer…
+Dialogue: 0,0:16:11.49,0:16:13.82,Default,Julius,0,0,0,,O que você acha que é mais doloroso?
+Dialogue: 0,0:16:14.41,0:16:17.05,Default,Subaru,0,0,0,,Como diabos eu vou saber?
+Dialogue: 0,0:16:17.69,0:16:20.07,Default,Subaru,0,0,0,,Que se dane! Para de ficar todo sentimental!
+Dialogue: 0,0:16:20.07,0:16:23.30,Default,Subaru,0,0,0,,Esquecer e ser esquecido\Npodem ir pro inferno!
+Dialogue: 0,0:16:23.78,0:16:26.51,Default,Subaru,0,0,0,,Não fica tentando classificar o quanto dói!
+Dialogue: 0,0:16:27.04,0:16:28.10,Default,Julius,0,0,0,,Subaru…
+Dialogue: 0,0:16:28.10,0:16:30.86,Default,Subaru,0,0,0,,E para de fazer essa cara de derrotado!
+Dialogue: 0,0:16:30.86,0:16:33.09,Default,Subaru,0,0,0,,Você esqueceu, Julius?
+Dialogue: 0,0:16:33.09,0:16:35.27,Default,Subaru,0,0,0,,Não, nem ouse esquecer!
+Dialogue: 0,0:16:35.74,0:16:37.98,Default,Subaru,0,0,0,,Eu, mais do que ninguém,\Nsei o quão forte você é!
+Dialogue: 0,0:16:38.33,0:16:39.94,Default,Subaru,0,0,0,,A minha humilhação sabe muito bem!
+Dialogue: 0,0:16:40.55,0:16:42.65,Default,Subaru,0,0,0,,Mesmo que todo mundo se esqueça!
+Dialogue: 0,0:16:46.79,0:16:47.74,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:16:47.74,0:16:51.12,Default,Julius,0,0,0,,Nada. Você é mesmo um homem extraordinário.
+Dialogue: 0,0:16:52.09,0:16:54.28,Default,Julius,0,0,0,,Me lembrou disso mais uma vez.
+Dialogue: 0,0:16:55.33,0:16:57.87,Default,Julius,0,0,0,,Mas tem razão. Você tem toda razão.
+Dialogue: 0,0:16:58.46,0:17:01.92,Default,Julius,0,0,0,,Não é como se eu tivesse sido\Ndeixado para trás por tudo e todos.
+Dialogue: 0,0:17:02.24,0:17:03.99,Default,Subaru,0,0,0,,Eu não diria que foi deixado pra trás.
+Dialogue: 0,0:17:03.99,0:17:06.30,Default,Subaru,0,0,0,,Está mais pra três corpos\Nde cavalo na frente.
+Dialogue: 0,0:17:06.92,0:17:08.76,Default,Julius,0,0,0,,Três seriam mesmo o bastante para isso?
+Dialogue: 0,0:17:08.76,0:17:10.96,Default,Subaru,0,0,0,,Eu devia te dar uns tapas!
+Dialogue: 0,0:17:10.96,0:17:14.23,Default,Subaru,0,0,0,,Com a Beako do meu lado,\Nnão vai ser nada como da última vez!
+Dialogue: 0,0:17:25.22,0:17:26.37,Default,Subaru,0,0,0,,Ram.
+Dialogue: 0,0:17:26.37,0:17:28.50,Default,Ram,0,0,0,,Eu estava preparando nossa partida.
+Dialogue: 0,0:17:28.50,0:17:31.07,Default,Ram,0,0,0,,Troquei as roupas dela e a limpei.
+Dialogue: 0,0:17:32.50,0:17:35.33,Default,Ram,0,0,0,,Você está ficando com um\Nolhar indecente. Pervertido.
+Dialogue: 0,0:17:35.33,0:17:38.29,Default,Subaru,0,0,0,,Eu fiquei quieto porque não sabia\No que dizer, e é isso que eu ganho?
+Dialogue: 0,0:17:39.05,0:17:40.79,Default,Ram,0,0,0,,Você pode realmente morrer desta vez.
+Dialogue: 0,0:17:41.47,0:17:43.18,Default,Ram,0,0,0,,Por que está fazendo isso?
+Dialogue: 0,0:17:45.62,0:17:51.22,Default,Subaru,0,0,0,,Acho que… só quero ser a primeira\Ncoisa que ela veja quando acordar.
+Dialogue: 0,0:17:51.55,0:17:53.63,Default,Subaru,0,0,0,,Tirando toda a emoção da jogada,
+Dialogue: 0,0:17:53.63,0:17:56.38,Default,Subaru,0,0,0,,sei que não importa quem a acorde.
+Dialogue: 0,0:17:57.16,0:17:58.18,Default,Subaru,0,0,0,,Mas…
+Dialogue: 0,0:17:58.18,0:18:00.74,Default,Subaru,0,0,0,,quando as emoções entram em jogo,
+Dialogue: 0,0:18:00.74,0:18:02.79,Default,Subaru,0,0,0,,eu quero ser quem vai salvá-la.
+Dialogue: 0,0:18:02.79,0:18:06.40,Default,Subaru,0,0,0,,Quero salvá-la com tudo o que eu tenho.
+Dialogue: 0,0:18:08.99,0:18:10.08,Default,Ram,0,0,0,,Você é mesmo um idiota.
+Dialogue: 0,0:18:20.01,0:18:22.54,Default,Subaru,0,0,0,,Desculpa ter demorado tanto pra te ver.
+Dialogue: 0,0:18:22.54,0:18:25.17,Default,Subaru,0,0,0,,Tive que resolver um\Nmonte de outras coisas…
+Dialogue: 0,0:18:26.40,0:18:28.21,Default,Subaru,0,0,0,,Foi mal. Isso é só uma desculpa.
+Dialogue: 0,0:18:34.76,0:18:38.14,Default,Subaru,0,0,0,,Já estamos quase lá.
+Dialogue: 0,0:18:39.07,0:18:42.48,Default,Subaru,0,0,0,,Eu vou trazer você de volta, Rem.
+Dialogue: 0,0:18:43.31,0:18:46.42,Default,Subaru,0,0,0,,Essa é a minha promessa.
+Dialogue: 1,0:18:44.56,0:18:48.06,Episode Title,,0,0,0,,O Motivo de Eu Levar Você Comigo
+Dialogue: 0,0:18:49.10,0:18:54.49,Default,Riara,0,0,0,,Desculpe não ter nada preparado\Nquando vieram de tão longe.
+Dialogue: 0,0:18:54.49,0:18:58.20,Default,Garfiel,0,0,0,,Ah, é, desculpa aparecer\Nassim sem avisar.
+Dialogue: 0,0:18:58.64,0:19:01.04,Default,Garfiel,0,0,0,,Não queremos dar\Nnenhum trabalho pra você.
+Dialogue: 0,0:19:01.63,0:19:03.52,Default,Riara,0,0,0,,Oh, não é incômodo algum.
+Dialogue: 0,0:19:03.52,0:19:09.21,Default,Riara,0,0,0,,O fato de terem arranjado tempo para\Nnos visitar significa muito para mim.
+Dialogue: 0,0:19:12.05,0:19:13.21,Default,Riara,0,0,0,,Meu marido…
+Dialogue: 0,0:19:12.05,0:19:13.21,Overlap,Garfiel,0,0,0,,Ei—
+Dialogue: 0,0:19:14.36,0:19:16.91,Default,Riara,0,0,0,,Garek voltará para casa logo.
+Dialogue: 0,0:19:16.91,0:19:18.81,Default,Riara,0,0,0,,Eu sei que voltará.
+Dialogue: 0,0:19:19.76,0:19:21.77,Default,Riara,0,0,0,,Quando eu estava vazia e não tinha nada,
+Dialogue: 0,0:19:22.57,0:19:25.73,Default,Riara,0,0,0,,Garek me deu estes últimos dez anos.
+Dialogue: 0,0:19:26.44,0:19:29.68,Default,Riara,0,0,0,,Ele até me deu um filho\Ne uma filha adoráveis.
+Dialogue: 0,0:19:29.68,0:19:33.49,Default,Riara,0,0,0,,Então como eu poderia duvidar dele?
+Dialogue: 0,0:19:35.21,0:19:37.70,Default,Garfiel,0,0,0,,Você é forte mesmo.
+Dialogue: 0,0:19:37.70,0:19:40.00,Default,Riara,0,0,0,,Sim, é claro que sou.
+Dialogue: 0,0:19:40.00,0:19:43.91,Default,Riara,0,0,0,,Sou mãe de dois, afinal de contas.
+Dialogue: 0,0:19:43.91,0:19:45.67,Default,Riara,0,0,0,,Quase me esqueci!
+Dialogue: 0,0:19:45.67,0:19:49.25,Default,Riara,0,0,0,,Havia algo que eu queria\Nperguntar a você também.
+Dialogue: 0,0:19:50.02,0:19:56.01,Default,Riara,0,0,0,,Por que demonstra tanta preocupação\Npor nós, {*}Tigre Magnífico-san{*Mr. Gorgeous Tiger}?
+Dialogue: 0,0:19:57.41,0:19:59.38,Default,Garfiel,0,0,0,,E-Eu só…
+Dialogue: 0,0:19:59.38,0:20:02.75,Default,Garfiel,0,0,0,,não consigo deixar vocês sozinhos,\Npor algum motivo…
+Dialogue: 0,0:20:03.27,0:20:06.44,Default,Garfiel,0,0,0,,Vocês são, bem… meio avoados,\Nnão são?
+Dialogue: 0,0:20:06.86,0:20:08.32,Default,Riara,0,0,0,,Ora, que maldade!
+Dialogue: 0,0:20:08.32,0:20:11.48,Default,Riara,0,0,0,,Mas é verdade, então não posso\Nmesmo discutir com isso.
+Dialogue: 0,0:20:11.48,0:20:14.67,Default,Mimi,0,0,0,,Hã? Voados? Tipo pelo?
+Dialogue: 0,0:20:14.67,0:20:17.99,Default,Mimi,0,0,0,,Eu também! Meu pelo sai\Nvoando pra todo lado no calor!
+Dialogue: 0,0:20:24.43,0:20:27.37,Default,Riara,0,0,0,,Você está bem, {*}Tigre Magnífico-san{*Mr. Gorgeous Tiger}?
+Dialogue: 0,0:20:28.23,0:20:29.33,Default,Riara,0,0,0,,Não sei bem por quê,
+Dialogue: 0,0:20:29.93,0:20:34.52,Default,Riara,0,0,0,,mas parece uma criança\Nque está prestes a chorar.
+Dialogue: 0,0:20:40.86,0:20:42.47,Default,Garfiel,0,0,0,,Mãe…
+Dialogue: 0,0:20:43.80,0:20:46.75,Default,Garfiel,0,0,0,,Mãe… Mãe…
+Dialogue: 0,0:20:46.75,0:20:47.94,Default,Garfiel,0,0,0,,Mãe!
+Dialogue: 0,0:20:48.57,0:20:53.90,Default,Garfiel,0,0,0,,Eu… Eu… Mãe, eu…
+Dialogue: 0,0:20:57.10,0:20:58.36,Default,Mimi,0,0,0,,Garfiel.
+Dialogue: 0,0:20:59.88,0:21:01.42,Default,Mimi,0,0,0,,Ele é o Garfiel.
+Dialogue: 0,0:21:06.79,0:21:08.37,Default,Riara,0,0,0,,Garfiel.
+Dialogue: 0,0:21:09.20,0:21:11.63,Default,Garfiel,0,0,0,,M-Mãe…
+Dialogue: 0,0:21:12.60,0:21:15.34,Default,Garfiel,0,0,0,,Mãe!
+Dialogue: 0,0:21:20.82,0:21:25.90,Default,Riara,0,0,0,,Pronto, pronto, Garf. Você é um bom garoto.
+Dialogue: 0,0:21:26.44,0:21:28.52,Default,Riara,0,0,0,,Você tem se esforçado tanto esse tempo todo.
+Dialogue: 0,0:21:28.89,0:21:35.21,Default,Garfiel,0,0,0,,Eu me esforcei! Me esforcei muito,\Ndei tudo de mim…
+Dialogue: 0,0:21:35.21,0:21:38.19,Default,Garfiel,0,0,0,,Mas eu continuo estragando tudo…
+Dialogue: 0,0:21:38.53,0:21:42.20,Default,Garfiel,0,0,0,,Mas ainda assim… Ainda assim, todo mundo…
+Dialogue: 0,0:21:44.39,0:21:48.62,Default,Riara,0,0,0,,Está tudo bem. Está tudo bem, Garf.
+Dialogue: 0,0:21:49.37,0:21:52.09,Default,Garfiel,0,0,0,,A mamãe está bem aqui.
+Dialogue: 0,0:21:59.39,0:22:01.43,Default,Mimi,0,0,0,,Garf, você tá beem?
+Dialogue: 0,0:22:01.43,0:22:02.51,Default,Garfiel,0,0,0,,Tô.
+Dialogue: 0,0:22:02.97,0:22:05.30,Default,Fred,0,0,0,,Você tá bem, Tigre Magnífico?
+Dialogue: 0,0:22:05.30,0:22:08.14,Default,Rafiel,0,0,0,,Um garoto chorando rios? Que absurdo.
+Dialogue: 0,0:22:08.49,0:22:11.22,Default,Garfiel,0,0,0,,Desculpa preocupar vocês.
+Dialogue: 0,0:22:11.22,0:22:14.09,Default,Garfiel,0,0,0,,Vou indo agora, pra vocês poderem descansar.
+Dialogue: 0,0:22:14.09,0:22:16.23,Default,Riara,0,0,0,,Venha nos visitar de novo quando quiser.
+Dialogue: 0,0:22:16.78,0:22:20.03,Default,Riara,0,0,0,,Quando sentir vontade de chorar,\Neu empresto meu ombro
+Dialogue: 0,0:22:20.03,0:22:21.99,Default,Riara,0,0,0,,no lugar da sua mãe.
+Dialogue: 0,0:22:23.35,0:22:26.08,Default,Garfiel,0,0,0,,Vou tentar garantir que isso não aconteça.
+Dialogue: 0,0:22:26.49,0:22:30.04,Default,Riara,0,0,0,,Vamos, vocês dois. Digam tchau.
+Dialogue: 0,0:22:30.04,0:22:32.69,Default,Frederica,0,0,0,,Até a próxima, Tigre Magnífico!
+Dialogue: 0,0:22:33.96,0:22:35.96,Default,Riara,0,0,0,,Você também, Rafiel.
+Dialogue: 0,0:22:37.57,0:22:39.42,Default,Garfiel,0,0,0,,Ra…fiel?
+Dialogue: 0,0:22:39.80,0:22:41.92,Default,Riara,0,0,0,,Sim, Rafiel.
+Dialogue: 0,0:22:41.92,0:22:45.59,Default,Riara,0,0,0,,Oh, esqueci de apresentá-los a você?
+Dialogue: 0,0:22:46.18,0:22:48.18,Default,Riara,0,0,0,,Os nomes deles são…
+Dialogue: 0,0:22:48.93,0:22:51.14,Default,Riara,0,0,0,,Fred e Rafiel.
+Dialogue: 0,0:22:51.76,0:22:54.35,Default,Riara,0,0,0,,Eu mesma dei os nomes.
+Dialogue: 0,0:22:54.70,0:22:56.94,Default,Garfiel,0,0,0,,Você… deu os nomes?
+Dialogue: 0,0:22:57.34,0:22:58.53,Default,Riara,0,0,0,,Sim.
+Dialogue: 0,0:22:58.53,0:23:01.56,Default,Riara,0,0,0,,Quando eu estava pensando em\Nnomes bonitos para bebês,
+Dialogue: 0,0:23:01.56,0:23:03.40,Default,Riara,0,0,0,,eles simplesmente me vieram à mente.
+Dialogue: 0,0:23:03.74,0:23:07.07,Default,Garfiel,0,0,0,,Fred… Rafiel…
+Dialogue: 0,0:23:07.07,0:23:10.25,Default,Garfiel,0,0,0,,Frederica… Garfiel…
+Dialogue: 0,0:23:15.20,0:23:16.96,Default,Garfiel,0,0,0,,Certo, até mais, Rafiel e Fred!
+Dialogue: 0,0:23:17.69,0:23:19.00,Default,Garfiel,0,0,0,,Eu volto de novo!
+Dialogue: 0,0:23:19.00,0:23:21.13,Default,Fred,0,0,0,,Certo, Tigre Magnífico!
+Dialogue: 0,0:23:21.69,0:23:25.48,Default,Rafiel,0,0,0,,N-Na próxima vez, tenta não chorar, ouviu?!
+Dialogue: 0,0:23:29.43,0:23:32.27,Default,Garfiel,0,0,0,,Obrigado, Mãe.
+Dialogue: 0,0:23:34.15,0:23:36.52,Default,Garfiel,0,0,0,,Eu venho visitar de novo!
+Dialogue: 1,0:23:36.52,0:23:40.02,Episode Title,,0,0,0,,Tigre Magnífico Recarregado
+Dialogue: 0,0:23:37.04,0:23:39.21,Default,Garfiel,0,0,0,,Se cuidem até lá!

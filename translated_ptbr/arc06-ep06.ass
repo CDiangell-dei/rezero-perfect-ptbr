@@ -1,0 +1,377 @@
+[Script Info]
+Title: Re:ZERO -Perfect Run-
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,180,180,65,1
+Style: Episode Title,Adobe Caslon Pro Bold,180,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,300,1
+Style: EDR,Minion Pro,75,&H000E1CD0,&H00C0C0C0,&H00000000,&H0000075C,0,0,0,0,100,100,0,0,1,0,0,7,70,70,37,1
+Style: EDE,Minion Pro,75,&H000E1CD0,&H00C0C0C0,&H00000000,&H0000075C,0,0,0,0,100,100,0,0,1,0,0,1,70,70,37,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.00,0:00:08.20,Default,Emilia,0,0,0,,Julius, você precisa ficar aqui e\Ndescansar até seus ferimentos sararem.
+Dialogue: 0,0:00:08.20,0:00:10.04,Default,Emilia,0,0,0,,Sem mais nem menos!
+Dialogue: 0,0:00:10.04,0:00:11.60,Default,Subaru,0,0,0,,Você ouviu ela.
+Dialogue: 0,0:00:11.60,0:00:12.45,Default,Julius,0,0,0,,É claro.
+Dialogue: 0,0:00:12.98,0:00:16.76,Default,Julius,0,0,0,,Já causei problemas demais\Npara você e para a {*}Srta. Emilia{*Emilia-sama}.
+Dialogue: 0,0:00:16.76,0:00:21.09,Default,Julius,0,0,0,,Não sou desavergonhado a ponto\Nde desafiar suas palavras agora.
+Dialogue: 0,0:00:21.09,0:00:22.59,Default,Julius,0,0,0,,Farei como dizem.
+Dialogue: 0,0:00:22.95,0:00:25.42,Default,Subaru,0,0,0,,Um simples "entendi" já bastava...
+Dialogue: 0,0:00:25.42,0:00:27.10,Default,Emilia,0,0,0,,Sério mesmo!
+Dialogue: 0,0:00:27.10,0:00:28.99,Default,Emilia,0,0,0,,Não precisa se preocupar com a gente!
+Dialogue: 0,0:00:28.99,0:00:31.67,Default,Emilia,0,0,0,,Você precisa focar em descansar.
+Dialogue: 0,0:00:31.67,0:00:33.93,Default,Emilia,0,0,0,,Pode nos dar trabalho o quanto quiser.
+Dialogue: 0,0:00:33.93,0:00:35.39,Default,Emilia,0,0,0,,Afinal, somos aliados.
+Dialogue: 0,0:00:36.98,0:00:40.09,Default,Emilia,0,0,0,,{*}Pequena Patrasche{*Patrasche-chan}, vamos deixar\No Julius com você, tudo bem?
+Dialogue: 0,0:00:40.09,0:00:43.97,Default,Emilia,0,0,0,,Se acontecer algo estranho\Nde novo, chame a gente.
+Dialogue: 0,0:00:44.98,0:00:51.49,Default,Subaru,0,0,0,,Viu? Até a Patrasche está dizendo:\N"Não vos deixarei escapar da próxima vez!"
+Dialogue: 0,0:00:51.49,0:00:55.33,Default,Julius,0,0,0,,Por incrível que pareça, parece\Nmesmo que ela está dizendo isso.
+Dialogue: 0,0:00:55.33,0:00:59.08,Default,Subaru,0,0,0,,Bom, a Patrasche é uma dama, então\Naposto que fala toda elegante assim.
+Dialogue: 0,0:01:02.88,0:01:05.75,Default,Julius,0,0,0,,Vou me comportar e focar\Nna minha recuperação.
+Dialogue: 0,0:01:06.80,0:01:11.93,Default,Julius,0,0,0,,Afinal, é um grande luxo descansar\Ncercado por donzelas tão encantadoras.
+Dialogue: 0,0:01:13.39,0:01:15.97,Default,Subaru,0,0,0,,Já está se sentindo melhor, né?
+Dialogue: 0,0:01:21.01,0:01:22.94,Default,Beatrice,0,0,0,,O Julius vai ficar bem, eu suponho?
+Dialogue: 0,0:01:22.94,0:01:24.40,Default,Subaru,0,0,0,,Não se preocupe.
+Dialogue: 0,0:01:24.40,0:01:26.72,Default,Subaru,0,0,0,,Parece que o pior já passou.
+Dialogue: 0,0:01:26.72,0:01:31.39,Default,Ram,0,0,0,,Mesmo considerando a Gula, não achei que\Nele fosse do tipo que faria algo assim.
+Dialogue: 0,0:01:31.39,0:01:34.88,Default,Subaru,0,0,0,,Bom... é, eu concordo com você nisso,\Nmas a questão é que...
+Dialogue: 0,0:01:34.88,0:01:38.58,Default,Subaru,0,0,0,,É basicamente uma fase pela qual\Nos caras passam.
+Dialogue: 0,0:01:39.04,0:01:43.29,Default,Ram,0,0,0,,O egoísmo dele poderia ter reprovado\Ntodos nós no teste.
+Dialogue: 0,0:01:43.96,0:01:45.49,Default,Ram,0,0,0,,Se isso tivesse acontecido,
+Dialogue: 0,0:01:45.49,0:01:49.26,Default,Ram,0,0,0,,duvido que o examinador do segundo andar\Ntivesse nos deixado voltar vivos.
+Dialogue: 0,0:01:50.26,0:01:52.72,Default,Ram,0,0,0,,Nem mesmo aquela falsa sábia ali.
+Dialogue: 0,0:01:52.72,0:01:53.84,Default,Shaula,0,0,0,,Eu?!
+Dialogue: 0,0:01:53.84,0:01:56.89,Default,Shaula,0,0,0,,Me chamar de falsa sábia é muito rude!
+Dialogue: 0,0:01:56.89,0:01:59.52,Default,Shaula,0,0,0,,Eu nunca nem afirmei ser o Sábio!
+Dialogue: 0,0:01:59.52,0:02:03.77,Default,Shaula,0,0,0,,O único nome que tenho é "Shaula",\No nome que o Mestre me deu!
+Dialogue: 0,0:02:03.77,0:02:05.48,Default,Shaula,0,0,0,,Sou devota unicamente ao Mestre!
+Dialogue: 0,0:02:06.70,0:02:08.95,Default,Ram,0,0,0,,Ouviram ela. Quanta devoção.
+Dialogue: 0,0:02:08.95,0:02:12.56,Default,Subaru,0,0,0,,Olha, o ponto é que ele pisou na bola,\Nmas não foi fatal.
+Dialogue: 0,0:02:12.56,0:02:13.95,Default,Subaru,0,0,0,,Vamos deixar isso pra lá.
+Dialogue: 0,0:02:13.95,0:02:18.79,Default,Ram,0,0,0,,Hmph. Só não quero ninguém me atrasando.
+Dialogue: 0,0:02:18.79,0:02:21.62,Default,Meili,0,0,0,,Discutir é a única coisa\Nque vocês dois querem fazer?
+Dialogue: 0,0:02:21.62,0:02:24.58,Default,Meili,0,0,0,,Nem eu aguento mais isso.
+Dialogue: 0,0:02:26.80,0:02:28.30,Default,Subaru,0,0,0,,Você tem razão.
+Dialogue: 0,0:02:28.30,0:02:31.15,Default,Subaru,0,0,0,,Precisamos ter uma conversa séria agora.
+Dialogue: 0,0:02:31.15,0:02:33.37,Default,Subaru,0,0,0,,Antes que o Julius se recupere,
+Dialogue: 0,0:02:33.37,0:02:36.72,Default,Subaru,0,0,0,,precisamos descobrir um jeito\Nde passar no segundo teste.
+Dialogue: 0,0:02:37.23,0:02:39.68,Default,Ram,0,0,0,,{*}A Srta. Emilia{*Emilia-sama} conquistou o\Nreconhecimento do examinador
+Dialogue: 0,0:02:40.37,0:02:44.83,Default,Ram,0,0,0,,ao arrancar uma concessão dele\Ne cumprir as novas condições.
+Dialogue: 0,0:02:45.35,0:02:49.18,Default,Ram,0,0,0,,As condições para passar nesse teste\Nsão bem caprichosas, não são?
+Dialogue: 0,0:02:49.18,0:02:53.09,Default,Subaru,0,0,0,,É. Esse teste é desgraçado de um jeito\Nbem diferente do teste do terceiro andar.
+Dialogue: 0,0:02:53.09,0:02:54.57,Default,Shaula,0,0,0,,Quem se importa?
+Dialogue: 0,0:02:54.57,0:02:57.32,Default,Shaula,0,0,0,,Não tem por que ter pressa.\NEntão por que não ir com calma?
+Dialogue: 0,0:02:57.85,0:02:59.78,Default,Subaru,0,0,0,,É, mas...
+Dialogue: 0,0:02:59.78,0:03:04.71,Default,Shaula,0,0,0,,O Mestre e os amigos dele podem\Nficar aqui para todo o sempre!
+Dialogue: 0,0:03:06.69,0:03:11.00,Default,Shaula,0,0,0,,Afinal, esperei centenas de anos\Npela chegada de vocês.
+Dialogue: 0,0:03:11.00,0:03:12.46,Default,Subaru,0,0,0,,Isso é...
+Dialogue: 0,0:03:12.46,0:03:17.84,Default,Shaula,0,0,0,,Então vão com calma e passem\Npor esses testes direitinho.
+Dialogue: 0,0:03:19.10,0:03:22.56,Default,Shaula,0,0,0,,Vou ficar de olho em vocês\Na cada passo do caminho.
+Dialogue: 0,0:03:22.98,0:03:26.27,Default,Shaula,0,0,0,,Não importa quantos dias,\Nanos ou séculos leve.
+Dialogue: 0,0:03:26.57,0:03:30.73,Default,Shaula,0,0,0,,Só se divirtam aqui comigo!
+Dialogue: 0,0:03:32.04,0:03:33.43,Default,Subaru,0,0,0,,Shaula...
+Dialogue: 0,0:03:34.43,0:03:34.94,Default,Subaru,0,0,0,,Hã?
+Dialogue: 0,0:03:41.62,0:03:43.75,Default,Shaula,0,0,0,,Ooh! Isso parece delicioso!
+Dialogue: 0,0:03:44.30,0:03:45.00,Default,Beatrice,0,0,0,,Toque.
+Dialogue: 0,0:03:45.75,0:03:50.54,Default,Subaru,0,0,0,,Você deve ter ficado preocupada comigo\Npreso na cama nos últimos dois dias, né?
+Dialogue: 0,0:03:50.54,0:03:53.95,Default,Subaru,0,0,0,,Hoje pode relaxar e ficar grudada\Nem mim o quanto quiser.
+Dialogue: 0,0:03:53.95,0:03:56.55,Default,Beatrice,0,0,0,,Não seja ridículo!
+Dialogue: 0,0:03:56.55,0:03:58.65,Default,Beatrice,0,0,0,,Isso é apenas o jeito da Betty compensar
+Dialogue: 0,0:03:58.65,0:04:02.35,Default,Beatrice,0,0,0,,toda a absorção de mana que ela perdeu\Nenquanto você estava de cama, eu suponho!
+Dialogue: 0,0:04:02.35,0:04:03.98,Default,Subaru,0,0,0,,Você diz isso,
+Dialogue: 0,0:04:03.98,0:04:08.73,Default,Subaru,0,0,0,,mas não estava segurando minha mão na cama,\Nmesmo sem absorver mana?
+Dialogue: 0,0:04:10.34,0:04:12.78,Default,Beatrice,0,0,0,,Aquilo não tinha nada a ver com mana.
+Dialogue: 0,0:04:12.78,0:04:16.28,Default,Beatrice,0,0,0,,Era só para manter o coração da Betty\Npreenchido. Não tinha relação.
+Dialogue: 0,0:04:16.28,0:04:18.92,Default,Subaru,0,0,0,,Certo, Beako, não se preocupe comigo!
+Dialogue: 0,0:04:18.92,0:04:22.12,Default,Subaru,0,0,0,,Pode ir em frente e se empanturrar\Ncom o meu mana!
+Dialogue: 0,0:04:22.12,0:04:27.81,Default,Beatrice,0,0,0,,A Betty não vai ficar gorda e rechonchuda\Npor absorver muito mana, eu suponho!
+Dialogue: 0,0:04:27.81,0:04:29.00,Default,Emilia,0,0,0,,Ora, ora.
+Dialogue: 0,0:04:29.00,0:04:32.71,Default,Emilia,0,0,0,,Já chega, vocês dois. Vamos jantar.
+Dialogue: 0,0:04:33.10,0:04:35.92,Default,Emilia,0,0,0,,A Ram e eu preparamos hoje.
+Dialogue: 0,0:04:36.42,0:04:39.51,Default,Emilia,0,0,0,,Depois vamos ter que levar\Num pouco para o Julius.
+Dialogue: 0,0:04:43.97,0:04:45.68,Default,Subaru,0,0,0,,Sabe...
+Dialogue: 0,0:04:45.68,0:04:47.81,Default,Subaru,0,0,0,,Eu meio que já esperava por isso,
+Dialogue: 0,0:04:47.81,0:04:50.63,Default,Subaru,0,0,0,,mas você tem os piores modos à mesa\Nque eu já vi na vida.
+Dialogue: 0,0:04:50.63,0:04:52.69,Default,Meili,0,0,0,,Estava com tanta fome assim?
+Dialogue: 0,0:04:53.21,0:04:56.28,Default,Shaula,0,0,0,,Não é isso! É que essa comida\Né boa demais!
+Dialogue: 0,0:04:56.28,0:04:58.38,Default,Subaru,0,0,0,,O que você costuma comer, aliás?
+Dialogue: 0,0:04:58.38,0:04:59.78,Default,Shaula,0,0,0,,Mabestas e coisas assim.
+Dialogue: 0,0:04:59.78,0:05:01.78,Default,Subaru,0,0,0,,Você come aqueles vermes da areia gigantes?!
+Dialogue: 0,0:05:01.78,0:05:04.49,Default,Shaula,0,0,0,,Já comi ursos e cavalos também.
+Dialogue: 0,0:05:05.30,0:05:08.98,Default,Shaula,0,0,0,,Nunca achei que fosse tão exigente\Ncom comida,
+Dialogue: 0,0:05:08.98,0:05:12.71,Default,Shaula,0,0,0,,mas eu viraria aprendiz daquela meio-demônio\Ncom prazer se a comida for boa assim!
+Dialogue: 0,0:05:13.09,0:05:16.30,Default,Emilia,0,0,0,,Aprendiz? Minha? Para aprender a cozinhar?
+Dialogue: 0,0:05:16.68,0:05:18.75,Default,Shaula,0,0,0,,Vou aprimorar meus dotes culinários também.
+Dialogue: 0,0:05:18.75,0:05:21.17,Default,Shaula,0,0,0,,Vou conquistar o coração do Mestre\Npelo estômago,
+Dialogue: 0,0:05:21.17,0:05:24.26,Default,Shaula,0,0,0,,e ele vai dizer: "Não vou deixar\Nvocê dormir hoje à noite!"
+Dialogue: 0,0:05:24.26,0:05:26.72,Default,Meili,0,0,0,,Nem um pouco tímida quanto às suas\Nambições, não é?
+Dialogue: 0,0:05:29.68,0:05:34.06,Default,Beatrice,0,0,0,,Subaru, a Betty vai ficar na carruagem\Nde dragão com a Emilia e os outros.
+Dialogue: 0,0:05:34.06,0:05:35.90,Default,Subaru,0,0,0,,Certo, entendi.
+Dialogue: 0,0:05:35.90,0:05:37.52,Default,Subaru,0,0,0,,Não fique acordada a noite toda.
+Dialogue: 0,0:05:37.52,0:05:40.87,Default,Subaru,0,0,0,,Vai atrapalhar seu crescimento, e você\Nvai continuar pequena para sempre...
+Dialogue: 0,0:05:41.54,0:05:43.12,Default,Subaru,0,0,0,,Na real, isso é superfofo!
+Dialogue: 0,0:05:43.12,0:05:45.53,Default,Subaru,0,0,0,,Tudo bem, fique acordada a noite toda, Beako!
+Dialogue: 0,0:05:46.70,0:05:48.47,Default,Beatrice,0,0,0,,Não precisa se preocupar,
+Dialogue: 0,0:05:48.47,0:05:52.06,Default,Beatrice,0,0,0,,a Betty não vai crescer mais\Ndo que isso, eu suponho.
+Dialogue: 0,0:05:52.06,0:05:54.55,Default,Beatrice,0,0,0,,A Betty sempre será fofa assim.
+Dialogue: 0,0:05:54.55,0:05:57.21,Default,Beatrice,0,0,0,,Então não há problema se ela\Ndormir cedo, eu suponho.
+Dialogue: 0,0:05:57.21,0:05:59.50,Default,Subaru,0,0,0,,Emilia-tan, cuida da Beako.
+Dialogue: 0,0:05:59.50,0:06:01.97,Default,Emilia,0,0,0,,Uhum. Até amanhã.
+Dialogue: 0,0:06:01.97,0:06:04.36,Default,Emilia,0,0,0,,Não vá dormir tarde você também, Subaru.
+Dialogue: 0,0:06:14.58,0:06:16.21,Default,Julius,0,0,0,,Subaru, é você, hein?
+Dialogue: 0,0:06:16.21,0:06:17.73,Default,Subaru,0,0,0,,E aí. Terminou de comer?
+Dialogue: 0,0:06:18.05,0:06:20.55,Default,Julius,0,0,0,,Ah, sim, terminei.
+Dialogue: 0,0:06:20.55,0:06:22.11,Default,Julius,0,0,0,,Veio pela Srta. Rem?
+Dialogue: 0,0:06:23.06,0:06:25.93,Default,Subaru,0,0,0,,Esse era o plano, mas...
+Dialogue: 0,0:06:25.93,0:06:27.12,Default,Subaru,0,0,0,,Quer assumir hoje à noite?
+Dialogue: 0,0:06:28.95,0:06:30.00,Default,Julius,0,0,0,,Não.
+Dialogue: 0,0:06:31.02,0:06:34.29,Default,Julius,0,0,0,,Você ficou inconsciente por dois dias,\Nsó acordando hoje de manhã.
+Dialogue: 0,0:06:34.29,0:06:37.21,Default,Julius,0,0,0,,Tenho certeza de que ela também\Nanseia por esta noite.
+Dialogue: 0,0:06:37.78,0:06:42.40,Default,Subaru,0,0,0,,Bem, se você está disposto a ceder a vez\Npara mim, não vou reclamar.
+Dialogue: 0,0:06:43.04,0:06:44.51,Default,Subaru,0,0,0,,Mas tem certeza?
+Dialogue: 0,0:06:44.96,0:06:50.68,Default,Julius,0,0,0,,A verdade é que, se possível, eu gostaria\Nde estar ao lado da {*}Srta. Anastasia{*Anastasia-sama} quando ela acordar.
+Dialogue: 0,0:06:50.68,0:06:56.23,Default,Julius,0,0,0,,Porém, não faço ideia do que deveria\Ndizer a ela quando abrir os olhos.
+Dialogue: 0,0:06:56.23,0:06:57.98,Default,Julius,0,0,0,,E isso me faz hesitar.
+Dialogue: 0,0:06:57.98,0:07:03.57,Default,Subaru,0,0,0,,Não deveria ser: "Fiquei preocupado com você.\NQue bom que acordou"?
+Dialogue: 0,0:07:04.06,0:07:06.12,Default,Subaru,0,0,0,,O verdadeiro problema é\No que vem depois, né?
+Dialogue: 0,0:07:08.06,0:07:10.53,Default,Julius,0,0,0,,Seu modo de pensar é bem livre.
+Dialogue: 0,0:07:10.53,0:07:12.85,Default,Julius,0,0,0,,Eu o invejo por isso.
+Dialogue: 0,0:07:13.79,0:07:15.97,Default,Julius,0,0,0,,Vou deixar você ficar aqui esta noite.
+Dialogue: 0,0:07:15.97,0:07:18.38,Default,Julius,0,0,0,,Voltarei para a carruagem de dragão\Ne descansarei.
+Dialogue: 0,0:07:18.76,0:07:21.42,Default,Julius,0,0,0,,Hoje foi bem cansativo.
+Dialogue: 0,0:07:21.42,0:07:26.01,Default,Subaru,0,0,0,,Julius! Na real, acho que você devia estar aqui\Nquando a {*}Srta. Anastasia{*Anastasia-san} acordar!
+Dialogue: 0,0:07:26.32,0:07:28.94,Default,Subaru,0,0,0,,Eu vou te acordar assim que terminar aqui.
+Dialogue: 0,0:07:38.42,0:07:42.94,Default,Subaru,0,0,0,,O Julius disse que a Rem ansiava\Npela noite... mas...
+Dialogue: 0,0:07:58.54,0:08:00.86,Default,Subaru,0,0,0,,Droga, peguei no sono.
+Dialogue: 0,0:08:08.10,0:08:09.18,Default,Subaru,0,0,0,,Cachecoldona?
+Dialogue: 0,0:08:15.44,0:08:17.48,Default,Subaru,0,0,0,,Por que tem um pássaro dentro da torre?
+Dialogue: 0,0:08:45.36,0:08:46.42,Default,Subaru,0,0,0,,Sumiu?
+Dialogue: 0,0:08:49.43,0:08:51.18,Default,Subaru,0,0,0,,Não é possível.
+Dialogue: 0,0:08:57.28,0:08:58.39,Default,Subaru,0,0,0,,Uma pena?
+Dialogue: 0,0:09:01.35,0:09:03.73,Default,Subaru,0,0,0,,Tem algum truque na parede ou algo assim?
+Dialogue: 0,0:09:30.82,0:09:32.14,Default,Subaru,0,0,0,,Cachecoldona.
+Dialogue: 0,0:09:36.94,0:09:38.30,Default,Anastasia,0,0,0,,{*}Natsuki{*Natsuki-kun}?
+Dialogue: 0,0:09:39.09,0:09:43.18,Default,Subaru,0,0,0,,Esse é o lugar perfeito para um passeio\Nnoturno panorâmico, não é?
+Dialogue: 0,0:09:43.18,0:09:44.75,Default,Anastasia,0,0,0,,Com certeza é.
+Dialogue: 0,0:09:44.75,0:09:50.53,Default,Anastasia,0,0,0,,A vista é ótima, embora seja uma pena\Nestar escuro demais para enxergar.
+Dialogue: 0,0:09:50.53,0:09:54.65,Default,Subaru,0,0,0,,Mas tem seu próprio charme.\NÉ como o oceano à noite.
+Dialogue: 0,0:09:55.17,0:09:57.92,Default,Subaru,0,0,0,,E o melhor de tudo,
+Dialogue: 0,0:09:57.92,0:10:01.58,Default,Subaru,0,0,0,,o ar está tão fresco e limpo\Nque faz as estrelas se destacarem.
+Dialogue: 0,0:10:01.58,0:10:03.49,Default,Subaru,0,0,0,,Romântico, não é?
+Dialogue: 0,0:10:05.13,0:10:07.30,Default,Anastasia,0,0,0,,É verdade, as estrelas estão lindas mesmo.
+Dialogue: 0,0:10:07.30,0:10:10.64,Default,Subaru,0,0,0,,E aí? Quer se explicar?
+Dialogue: 0,0:10:10.64,0:10:11.55,Default,Anastasia,0,0,0,,Me explicar?
+Dialogue: 0,0:10:12.00,0:10:15.20,Default,Subaru,0,0,0,,Sair de fininho do seu quarto\Nno meio da noite,
+Dialogue: 0,0:10:15.20,0:10:18.28,Default,Subaru,0,0,0,,pegar uma passagem secreta\Nque mais ninguém conhece,
+Dialogue: 0,0:10:18.28,0:10:22.19,Default,Subaru,0,0,0,,e ficar de bobeira com esses pássaros\Nna brisa noturna.
+Dialogue: 0,0:10:23.02,0:10:24.52,Default,Subaru,0,0,0,,Isso é suspeito demais.
+Dialogue: 0,0:10:25.20,0:10:28.41,Default,Anastasia,0,0,0,,Chamar de passagem secreta já é exagero,\Nnão acha?
+Dialogue: 0,0:10:28.41,0:10:30.53,Default,Anastasia,0,0,0,,Afinal, você achou o caminho até aqui,\Nnão achou?
+Dialogue: 0,0:10:30.53,0:10:34.91,Default,Subaru,0,0,0,,Bom... meio que um pássaro me trouxe até aqui.
+Dialogue: 0,0:10:34.91,0:10:37.76,Default,Anastasia,0,0,0,,Somos dois, então.
+Dialogue: 0,0:10:37.76,0:10:41.07,Default,Anastasia,0,0,0,,Eu estava só dando uma volta sem rumo\Npela torre,
+Dialogue: 0,0:10:41.07,0:10:43.16,Default,Anastasia,0,0,0,,quando vi um pássaro voando.
+Dialogue: 0,0:10:43.61,0:10:46.50,Default,Anastasia,0,0,0,,Fiquei curiosa com o que ele fazia,\Nsegui ele e acabei parando aqui.
+Dialogue: 0,0:10:48.25,0:10:53.38,Default,Subaru,0,0,0,,Esses são os mesmos pássaros que voavam por aí\Nquando tentávamos superar o Tempo da Areia?
+Dialogue: 0,0:10:55.28,0:10:59.23,Default,Anastasia,0,0,0,,Acho que são os mesmos em que a {*}Ram{*Ram-san} usou\Nclarividência para pegar a visão emprestada.
+Dialogue: 0,0:11:01.45,0:11:03.92,Default,Anastasia,0,0,0,,Esses bichinhos ficaram assim o tempo todo.
+Dialogue: 0,0:11:03.92,0:11:06.74,Default,Anastasia,0,0,0,,Estou tão perdida quanto você.
+Dialogue: 0,0:11:06.74,0:11:10.11,Default,Subaru,0,0,0,,Agora, as únicas pessoas aqui\Nsomos você e eu.
+Dialogue: 0,0:11:10.90,0:11:12.69,Default,Subaru,0,0,0,,Então por que não falamos abertamente?
+Dialogue: 0,0:11:14.63,0:11:19.43,Default,Foxidna,0,0,0,,Não com o eu que finge ser a Anastasia,\Nmas {\i1}comigo{\i0}?
+Dialogue: 0,0:11:21.44,0:11:25.46,Default,Foxidna,0,0,0,,Perfeito. Também havia algo\Nque eu queria lhe perguntar.
+Dialogue: 0,0:11:25.89,0:11:27.87,Default,Subaru,0,0,0,,Me perguntar?
+Dialogue: 0,0:11:27.87,0:11:29.76,Default,Foxidna,0,0,0,,Natsuki Subaru.
+Dialogue: 0,0:11:29.76,0:11:31.55,Default,Foxidna,0,0,0,,Afinal, quem é você exatamente?
+Dialogue: 0,0:11:31.55,0:11:33.38,Default,Subaru,0,0,0,,Quem... sou eu?
+Dialogue: 0,0:11:33.99,0:11:39.29,Default,Foxidna,0,0,0,,Após a celebração da sua vitória sobre\Na Baleia Branca e a Preguiça,
+Dialogue: 0,0:11:39.29,0:11:41.64,Default,Foxidna,0,0,0,,a Ana investigou você.
+Dialogue: 0,0:11:42.42,0:11:45.36,Default,Foxidna,0,0,0,,Contudo, seu passado era um mistério.
+Dialogue: 0,0:11:45.36,0:11:49.98,Default,Foxidna,0,0,0,,Ela resmungava por só ter conseguido descobrir\No mínimo necessário sobre você.
+Dialogue: 0,0:11:49.98,0:11:53.96,Default,Foxidna,0,0,0,,O máximo a que chegou foi logo antes\Ndo início da Seleção Real,
+Dialogue: 0,0:11:54.57,0:11:58.62,Default,Foxidna,0,0,0,,quando você se envolveu num pequeno incidente\Nque teria ocorrido na Capital Real.
+Dialogue: 0,0:11:59.56,0:12:02.08,Default,Foxidna,0,0,0,,Afinal, quem é você exatamente?
+Dialogue: 0,0:12:05.09,0:12:08.67,Default,Subaru,0,0,0,,Você está... com medo de mim?
+Dialogue: 0,0:12:10.04,0:12:12.80,Default,Foxidna,0,0,0,,Esse é um comentário inesperadamente\Nferino, não acha?
+Dialogue: 0,0:12:13.72,0:12:17.09,Default,Foxidna,0,0,0,,Qual é a sua verdadeira relação\Ncom a Shaula?
+Dialogue: 0,0:12:17.56,0:12:20.61,Default,Subaru,0,0,0,,Nunca a conheci antes.
+Dialogue: 0,0:12:20.61,0:12:22.43,Default,Subaru,0,0,0,,Não a conheço de jeito nenhum.
+Dialogue: 0,0:12:22.43,0:12:27.75,Default,Foxidna,0,0,0,,Foi só coincidência você ter decifrado\No teste do terceiro andar tão rápido?
+Dialogue: 0,0:12:29.01,0:12:29.81,Default,Subaru,0,0,0,,Sim, foi.
+Dialogue: 0,0:12:30.67,0:12:32.47,Default,Foxidna,0,0,0,,E quanto a estes pássaros?
+Dialogue: 0,0:12:33.62,0:12:35.30,Default,Subaru,0,0,0,,Não faço ideia.
+Dialogue: 0,0:12:35.30,0:12:38.94,Default,Foxidna,0,0,0,,Tenho um certo receio de aceitar isso\Ncomo resposta.
+Dialogue: 0,0:12:38.94,0:12:42.33,Default,Subaru,0,0,0,,Agora é a minha vez: o que está\Nacontecendo com a {*}Srta. Anastasia{*Anastasia-san}?
+Dialogue: 0,0:12:45.10,0:12:47.07,Default,Foxidna,0,0,0,,Nada mudou.
+Dialogue: 0,0:12:47.69,0:12:52.24,Default,Foxidna,0,0,0,,A Ana continua dormindo nas profundezas\Ndeste corpo.
+Dialogue: 0,0:12:52.24,0:12:54.80,Default,Foxidna,0,0,0,,Não estou exatamente otimista no momento.
+Dialogue: 0,0:12:55.17,0:12:59.38,Default,Foxidna,0,0,0,,O fato de estar desgastando a vida dela\Nconstantemente pesa muito sobre mim.
+Dialogue: 0,0:13:01.48,0:13:06.72,Default,Foxidna,0,0,0,,Por isso, preciso devolver o corpo a ela\No quanto antes.
+Dialogue: 0,0:13:07.50,0:13:09.35,Default,Subaru,0,0,0,,Nesse estado?
+Dialogue: 0,0:13:09.35,0:13:12.86,Default,Subaru,0,0,0,,Você acha mesmo que ela pode ser a próxima\Ngovernante nessa condição?
+Dialogue: 0,0:13:13.18,0:13:15.24,Default,Foxidna,0,0,0,,A Ana jamais recuará.
+Dialogue: 0,0:13:15.24,0:13:17.12,Default,Foxidna,0,0,0,,Ela jamais desistirá.
+Dialogue: 0,0:13:17.98,0:13:19.36,Default,Foxidna,0,0,0,,Disso, eu tenho certeza.
+Dialogue: 0,0:13:21.00,0:13:25.18,Default,Subaru,0,0,0,,Você acha que a {*}Srta. Anastasia{*Anastasia-san} quer\Ntanto assim o próprio país?
+Dialogue: 0,0:13:25.18,0:13:28.62,Default,Subaru,0,0,0,,Mesmo se tiver que abrir mão dele\Nassim que o conseguir?!
+Dialogue: 0,0:13:28.62,0:13:32.63,Default,Foxidna,0,0,0,,A Ana tem um motivo para\Nnão poder abrir mão do trono.
+Dialogue: 0,0:13:32.63,0:13:33.84,Default,Foxidna,0,0,0,,Porque isso lhe foi desejado.
+Dialogue: 0,0:13:37.74,0:13:41.13,Default,Julius,0,0,0,,Qual... é o significado disso?
+Dialogue: 0,0:13:52.59,0:13:54.90,Default,Julius,0,0,0,,Qual é o significado disso?
+Dialogue: 0,0:13:58.05,0:13:59.57,Default,Anastasia,0,0,0,,Desculpe, Julius.
+Dialogue: 0,0:14:00.12,0:14:03.86,Default,Anastasia,0,0,0,,Mas não é como se estivéssemos tentando\Ndeixar você no escuro.
+Dialogue: 0,0:14:03.86,0:14:10.42,Default,Anastasia,0,0,0,,Eu só estava batendo um papinho com o {*}Natsuki{*Natsuki-kun}\Nsobre o que fazer quando sairmos desta torre.
+Dialogue: 0,0:14:10.42,0:14:11.46,Default,Anastasia,0,0,0,,Me perdoa?
+Dialogue: 0,0:14:12.41,0:14:15.50,Default,Julius,0,0,0,,Você não é a {*}Srta. Anastasia{*Anastasia-sama}, é?
+Dialogue: 0,0:14:16.71,0:14:19.02,Default,Julius,0,0,0,,Explique isto imediatamente.
+Dialogue: 0,0:14:19.02,0:14:21.82,Default,Julius,0,0,0,,Não pode mais me enganar nem\Nesconder segredos de mim.
+Dialogue: 0,0:14:21.82,0:14:22.80,Default,Subaru,0,0,0,,Julius, espera aí!
+Dialogue: 0,0:14:22.80,0:14:23.47,Default,Julius,0,0,0,,Subaru.
+Dialogue: 0,0:14:24.01,0:14:25.81,Default,Julius,0,0,0,,Quero ouvir de você também.
+Dialogue: 0,0:14:25.81,0:14:28.10,Default,Julius,0,0,0,,Só quero ouvir a verdade.
+Dialogue: 0,0:14:30.78,0:14:32.94,Default,Subaru,0,0,0,,Há quanto tempo você estava ouvindo?
+Dialogue: 0,0:14:32.94,0:14:35.31,Default,Julius,0,0,0,,Desde que mencionaram o corpo\Nda {*}Srta. Anastasia{*Anastasia-sama}.
+Dialogue: 0,0:14:39.62,0:14:44.09,Default,Foxidna,0,0,0,,Sou um espírito artificial que acompanha\Na Ana há muitos anos.
+Dialogue: 0,0:14:44.09,0:14:45.82,Default,Foxidna,0,0,0,,Meu nome é Echidna.
+Dialogue: 0,0:14:46.71,0:14:49.81,Default,Foxidna,0,0,0,,Desde a batalha contra o Culto da Bruxa\Nem Priestella,
+Dialogue: 0,0:14:49.81,0:14:53.41,Default,Foxidna,0,0,0,,a consciência da Ana está adormecida\Nnas profundezas de seu corpo.
+Dialogue: 0,0:14:54.29,0:14:58.37,Default,Foxidna,0,0,0,,Não é ela quem controla o próprio corpo agora.
+Dialogue: 0,0:14:58.37,0:15:02.74,Default,Foxidna,0,0,0,,Tenho fingido ser a Ana este tempo todo.
+Dialogue: 0,0:15:02.74,0:15:06.61,Default,Julius,0,0,0,,Por que compartilhou essa informação\Napenas com o Subaru?
+Dialogue: 0,0:15:07.85,0:15:12.46,Default,Foxidna,0,0,0,,Ele percebeu que eu estava apenas\Nfingindo ser a Ana.
+Dialogue: 0,0:15:12.46,0:15:13.64,Default,Foxidna,0,0,0,,Por isso eu contei a ele.
+Dialogue: 0,0:15:14.86,0:15:19.91,Default,Julius,0,0,0,,Então um forasteiro que mal a conhece\Nfoi capaz de notar,
+Dialogue: 0,0:15:19.91,0:15:23.37,Default,Julius,0,0,0,,enquanto o homem que se orgulha de ser\No cavaleiro principal dela não conseguiu?
+Dialogue: 0,0:15:23.37,0:15:27.25,Default,Subaru,0,0,0,,Espera aí, seu idiota! Olha, eu só\Ndescobri porque, bem...
+Dialogue: 0,0:15:27.25,0:15:29.32,Default,Subaru,0,0,0,,Enfim, foi só uma coincidência!
+Dialogue: 0,0:15:29.32,0:15:32.89,Default,Julius,0,0,0,,É dever do cavaleiro principal sempre\Ntransformar tais coincidências
+Dialogue: 0,0:15:32.89,0:15:34.21,Default,Julius,0,0,0,,em certezas.
+Dialogue: 0,0:15:34.21,0:15:36.14,Default,Subaru,0,0,0,,O que {\i1}é{\i0} um "cavaleiro principal", afinal?
+Dialogue: 0,0:15:36.14,0:15:37.58,Default,Subaru,0,0,0,,Quem precisa de um título idiota des—
+Dialogue: 0,0:15:37.58,0:15:41.07,Default,Julius,0,0,0,,Não me diga para me livrar dele.
+Dialogue: 0,0:15:42.71,0:15:44.05,Default,Julius,0,0,0,,Eu...
+Dialogue: 0,0:15:44.54,0:15:50.24,Default,Julius,0,0,0,,Agora, o simples pensamento de deixar sequer\Numa coisa escapar me aterroriza.
+Dialogue: 0,0:15:51.81,0:15:53.65,Default,Julius,0,0,0,,Voltemos ao assunto.
+Dialogue: 0,0:15:53.65,0:15:55.69,Default,Julius,0,0,0,,Echidna, qual é o seu objetivo?
+Dialogue: 0,0:15:57.07,0:15:59.40,Default,Foxidna,0,0,0,,Devolver este corpo à Ana.
+Dialogue: 0,0:15:59.40,0:16:03.53,Default,Julius,0,0,0,,Em resumo, esta situação também\Né indesejável para você.
+Dialogue: 0,0:16:04.42,0:16:09.66,Default,Julius,0,0,0,,E você não encontrou meios de fazer\Na {*}Srta. Anastasia{*Anastasia-sama} voltar ao normal.
+Dialogue: 0,0:16:10.34,0:16:13.93,Default,Foxidna,0,0,0,,Se a minha morte permitisse que a Ana\Nvivesse por mais tempo,
+Dialogue: 0,0:16:13.93,0:16:16.29,Default,Foxidna,0,0,0,,eu não me importaria com isso.
+Dialogue: 0,0:16:17.02,0:16:20.71,Default,Julius,0,0,0,,Por que iria tão longe pelo bem\Nda {*}Srta. Anastasia{*Anastasia-sama}?
+Dialogue: 0,0:16:21.60,0:16:23.62,Default,Foxidna,0,0,0,,Eu amo a Ana.
+Dialogue: 0,0:16:24.25,0:16:28.65,Default,Foxidna,0,0,0,,Estou ao lado dela desde que era\Numa garotinha.
+Dialogue: 0,0:16:28.65,0:16:31.68,Default,Foxidna,0,0,0,,Por isso não quero abandoná-la.\NQuero que ela seja feliz.
+Dialogue: 0,0:16:32.82,0:16:35.33,Default,Foxidna,0,0,0,,Esse é o meu motivo.
+Dialogue: 0,0:16:40.01,0:16:43.15,Default,Foxidna,0,0,0,,Fico feliz que esteja sendo racional\Nquanto a isso.
+Dialogue: 0,0:16:43.59,0:16:46.86,Default,Foxidna,0,0,0,,Tenho certeza de que a Ana\Ntambém ficaria feliz.
+Dialogue: 0,0:16:48.86,0:16:50.71,Default,Julius,0,0,0,,Deixe-me confirmar algo.
+Dialogue: 0,0:16:50.71,0:16:55.22,Default,Julius,0,0,0,,Se você se manifesta através do Od\Nda {*}Srta. Anastasia{*Anastasia-sama}, então quanto
+Dialogue: 0,0:16:55.22,0:16:59.66,Default,Julius,0,0,0,,mais você se esforça, maior o fardo\Nque impõe ao corpo dela. Correto?
+Dialogue: 0,0:16:59.66,0:17:02.82,Default,Foxidna,0,0,0,,Sim, está absolutamente correto.
+Dialogue: 0,0:17:02.82,0:17:07.34,Default,Julius,0,0,0,,Então por que agiu de forma tão\Nimprudente no segundo andar?
+Dialogue: 0,0:17:09.05,0:17:14.72,Default,Julius,0,0,0,,{\3c&HFFFFFF&\4c&HFFFFFF&\t(0,290,\3c&H000000&\4c&H000000&)}A sobrecarga no corpo da {*}Srta. Anastasia{*Anastasia-sama}\Nnão pode ter sido trivial.
+Dialogue: 0,0:17:15.77,0:17:17.40,Default,Julius,0,0,0,,Então por quê?
+Dialogue: 0,0:17:17.91,0:17:19.15,Default,Foxidna,0,0,0,,Aquilo foi...
+Dialogue: 0,0:17:20.26,0:17:21.73,Default,Foxidna,0,0,0,,Sinto muito.
+Dialogue: 0,0:17:22.82,0:17:25.94,Default,Foxidna,0,0,0,,Aquilo foi uma falha da minha parte.
+Dialogue: 0,0:17:25.94,0:17:28.61,Default,Foxidna,0,0,0,,Foi uma decisão puramente estratégica.
+Dialogue: 0,0:17:28.61,0:17:31.24,Default,Julius,0,0,0,,Uma decisão estratégica?
+Dialogue: 0,0:17:31.24,0:17:35.70,Default,Foxidna,0,0,0,,Naquele momento, eu não sabia se o examinador\Nestava sedento de sangue ou não.
+Dialogue: 0,0:17:36.20,0:17:40.66,Default,Foxidna,0,0,0,,Um passo em falso e poderíamos ter perdido\Nvocê, um recurso vital.
+Dialogue: 0,0:17:40.66,0:17:42.65,Default,Foxidna,0,0,0,,Eu queria evitar isso.
+Dialogue: 0,0:17:42.65,0:17:44.17,Default,Foxidna,0,0,0,,Naturalmente, pelo bem da Ana também.
+Dialogue: 0,0:17:45.30,0:17:49.01,Default,Julius,0,0,0,,Entendo. Por favor, abstenha-se de agir\Nprecipitadamente de agora em diante.
+Dialogue: 0,0:17:46.16,0:17:47.12,Default,Subaru,0,0,0,,{\an8}Hã?
+Dialogue: 0,0:17:49.01,0:17:51.43,Default,Julius,0,0,0,,Por ninguém além da {*}Srta. Anastasia{*Anastasia-sama}.
+Dialogue: 0,0:17:52.91,0:17:53.89,Default,Foxidna,0,0,0,,Entendido.
+Dialogue: 0,0:17:53.89,0:17:56.89,Default,Subaru,0,0,0,,Espera aí! Só isso bastou para convencer você?!
+Dialogue: 0,0:17:56.89,0:17:58.52,Default,Julius,0,0,0,,Estou convencido.
+Dialogue: 0,0:17:59.19,0:18:02.60,Default,Julius,0,0,0,,Desculpe por envolvê-lo neste\Nestranho mal-entendido.
+Dialogue: 0,0:18:03.04,0:18:06.62,Default,Julius,0,0,0,,Mas, no fim das contas, este é um problema nosso.
+Dialogue: 0,0:18:06.62,0:18:08.86,Default,Julius,0,0,0,,Não é algo com que você precise se preocupar.
+Dialogue: 0,0:18:08.86,0:18:12.11,Default,Subaru,0,0,0,,O que eu escolho me preocupar é da minha\Nmaldita conta!
+Dialogue: 0,0:18:12.11,0:18:14.12,Default,Julius,0,0,0,,E ao assumir isso para si,
+Dialogue: 0,0:18:14.12,0:18:17.46,Default,Julius,0,0,0,,pretende me poupar de enfrentar\Nos meus próprios problemas?
+Dialogue: 0,0:18:17.46,0:18:20.50,Default,Julius,0,0,0,,Assim como manteve silêncio sobre\Na {*}Srta. Anastasia{*Anastasia-sama} e a Echidna?
+Dialogue: 0,0:18:24.36,0:18:26.96,Default,Julius,0,0,0,,Perdoe-me. Fui longe demais.
+Dialogue: 0,0:18:27.75,0:18:28.84,Default,Julius,0,0,0,,Mas é a verdade.
+Dialogue: 0,0:18:31.82,0:18:34.70,Default,Julius,0,0,0,,Não há motivo para continuarmos\Naqui fora por mais tempo.
+Dialogue: 0,0:18:34.70,0:18:35.80,Default,Julius,0,0,0,,Vamos voltar para dentro.
+Dialogue: 0,0:18:36.39,0:18:39.77,Default,Julius,0,0,0,,Amanhã devemos contar à {*}Srta. Emilia{*Emilia-sama}\Ne aos outros sobre a condição da {*}Srta. Anastasia{*Anastasia-sama},
+Dialogue: 0,0:18:39.77,0:18:43.34,Default,Julius,0,0,0,,e sobre a Echidna.
+Dialogue: 0,0:18:43.34,0:18:44.15,Default,Foxidna,0,0,0,,Muito bem.
+Dialogue: 0,0:18:45.07,0:18:47.70,Default,Foxidna,0,0,0,,Vou me preparar.
+Dialogue: 0,0:18:50.53,0:18:51.40,Default,Subaru,0,0,0,,Julius!
+Dialogue: 0,0:18:53.86,0:18:57.88,Default,Subaru,0,0,0,,Não tem algo que você queira me dizer?
+Dialogue: 0,0:18:57.88,0:18:58.78,Default,Julius,0,0,0,,Tenho.
+Dialogue: 0,0:18:59.92,0:19:01.16,Default,Julius,0,0,0,,Eu sei.
+Dialogue: 0,0:19:01.98,0:19:07.79,Default,Julius,0,0,0,,Sei o que você estava pensando e por que\Nescondeu a verdade de mim.
+Dialogue: 0,0:19:08.23,0:19:10.44,Default,Julius,0,0,0,,Você não teve má intenção.
+Dialogue: 0,0:19:10.44,0:19:13.04,Default,Julius,0,0,0,,Só fez isso por consideração e preocupação.
+Dialogue: 0,0:19:13.65,0:19:15.68,Default,Julius,0,0,0,,Se nossas posições estivessem invertidas,
+Dialogue: 0,0:19:15.68,0:19:18.43,Default,Julius,0,0,0,,é provável que eu também tivesse\Nguardado silêncio.
+Dialogue: 0,0:19:20.08,0:19:22.77,Default,Julius,0,0,0,,Mas, ainda assim...
+Dialogue: 0,0:19:24.40,0:19:28.02,Default,Julius,0,0,0,,Eu não queria que você ou a {*}Srta. Anastasia{*Anastasia-sama}\Npensassem
+Dialogue: 0,0:19:29.08,0:19:32.48,Default,Julius,0,0,0,,que não sou digno de ser um cavaleiro.
+Dialogue: 0,0:19:42.34,0:19:43.16,Default,Ram,0,0,0,,Barusu.
+Dialogue: 0,0:19:45.02,0:19:47.97,Default,Subaru,0,0,0,,{*}Madame{*Big Sis}. O que está fazendo\Nacordada a esta hora?
+Dialogue: 0,0:19:47.97,0:19:48.73,Default,Ram,0,0,0,,Pervertido.
+Dialogue: 0,0:19:48.73,0:19:51.85,Default,Subaru,0,0,0,,Não tenta encerrar a conversa\Nantes mesmo de ela começar!
+Dialogue: 0,0:19:51.85,0:19:55.05,Default,Subaru,0,0,0,,Você não subiu lá sozinha, subiu?
+Dialogue: 0,0:19:55.05,0:19:58.56,Default,Ram,0,0,0,,Não subi. Apenas tentei.
+Dialogue: 0,0:19:58.56,0:19:59.76,Default,Ram,0,0,0,,Voltei no meio do caminho.
+Dialogue: 0,0:20:01.34,0:20:03.47,Default,Ram,0,0,0,,O que há com você, Barusu?
+Dialogue: 0,0:20:03.47,0:20:05.23,Default,Ram,0,0,0,,Parece terrivelmente abatido.
+Dialogue: 0,0:20:05.73,0:20:08.01,Default,Ram,0,0,0,,Brigou com aquele cavaleiro,\No Julius, ou algo assim?
+Dialogue: 0,0:20:08.01,0:20:09.32,Default,Subaru,0,0,0,,Hã?!
+Dialogue: 0,0:20:09.32,0:20:11.40,Default,Subaru,0,0,0,,Eu sou fácil de ler assim mesmo?
+Dialogue: 0,0:20:11.40,0:20:14.74,Default,Ram,0,0,0,,Isso, e eu simplesmente sou inteligente demais.
+Dialogue: 0,0:20:14.74,0:20:15.45,Default,Ram,0,0,0,,E então?
+Dialogue: 0,0:20:15.82,0:20:19.41,Default,Subaru,0,0,0,,Hã? Ah... Não foi nada.
+Dialogue: 0,0:20:19.41,0:20:21.66,Default,Subaru,0,0,0,,Quer dizer, não foi nada não, mas...
+Dialogue: 0,0:20:21.66,0:20:24.74,Default,Subaru,0,0,0,,Acho que vou conseguir falar disso\Ndireito amanhã.
+Dialogue: 0,0:20:24.74,0:20:27.48,Default,Ram,0,0,0,,Uma declaração incrivelmente vaga e evasiva.
+Dialogue: 0,0:20:27.48,0:20:29.13,Default,Ram,0,0,0,,Estou voltando para a carruagem de dragão.
+Dialogue: 0,0:20:29.13,0:20:31.13,Default,Subaru,0,0,0,,Certo... Boa noite, {*}Madame{*Big Sis}.
+Dialogue: 0,0:20:31.94,0:20:34.01,Default,Ram,0,0,0,,Não sou sua "{*}Madame{*Big Sis}".
+Dialogue: 0,0:20:34.53,0:20:36.29,Default,Ram,0,0,0,,Pare de me chamar assim.
+Dialogue: 0,0:20:39.80,0:20:42.49,Default,Subaru,0,0,0,,Bom, seria meio estranho voltar\Npara a Sala Verde.
+Dialogue: 0,0:20:42.49,0:20:45.18,Default,Subaru,0,0,0,,E agora, o que eu faço?
+Dialogue: 0,0:20:47.10,0:20:50.98,Default,Subaru,0,0,0,,Acho que vou tentar pensar em um jeito\Nde lidar com o Reid...
+Dialogue: 0,0:20:59.49,0:21:02.49,Default,Subaru,0,0,0,,É isso! Se isso der certo...
+Dialogue: 0,0:21:25.78,0:21:28.41,Default,Subaru,0,0,0,,Ah, você também está aqui?
+Dialogue: 0,0:21:29.16,0:21:31.62,Default,Subaru,0,0,0,,Eu mesmo estava procurando um livro.
+Dialogue: 0,0:21:33.87,0:21:35.71,Default,Subaru,0,0,0,,Não fique acordada a noite toda, Meili!
+Dialogue: 0,0:21:50.10,0:21:52.73,Default,Subaru (Gluttony),0,0,0,,Você é tão rasa.
+Dialogue: 0,0:21:54.06,0:21:56.94,Default,Subaru (Gluttony),0,0,0,,Não tenta flertar comigo. Isso é nojento.
+Dialogue: 0,0:21:56.94,0:22:00.69,Default,Subaru (Gluttony),0,0,0,,Ninguém quer isso de você.
+Dialogue: 0,0:22:01.03,0:22:03.95,Default,Subaru (Gluttony),0,0,0,,Tira essa expressão indiferente,\Nbonequinha.
+Dialogue: 0,0:22:03.95,0:22:08.49,Default,Subaru (Gluttony),0,0,0,,Não consegue ouvir o que você realmente quer\Nnas profundezas do seu coração?
+Dialogue: 0,0:22:08.49,0:22:10.70,Default,Meili,0,0,0,,O que eu... realmente quero?
+Dialogue: 0,0:22:10.70,0:22:13.00,Default,Subaru (Gluttony),0,0,0,,Ouça os seus desejos.
+Dialogue: 0,0:22:13.00,0:22:16.75,Default,Subaru (Gluttony),0,0,0,,Aí você vai começar a se enxergar um pouco,
+Dialogue: 0,0:22:16.75,0:22:18.92,Default,Subaru (Gluttony),0,0,0,,e vai saber ao certo o que é\Nque você quer fazer.
+Dialogue: 0,0:22:19.38,0:22:22.67,Default,Meili,0,0,0,,O que eu... quero fazer...
+Dialogue: 0,0:22:22.67,0:22:24.43,Default,Meili,0,0,0,,O meu desejo... é...
+Dialogue: 0,0:22:24.43,0:22:26.89,Default,Subaru (Gluttony),0,0,0,,Gostei dessa sua cara!
+Dialogue: 0,0:22:27.30,0:22:29.03,Default,Subaru (Gluttony),0,0,0,,É impagável!
+Dialogue: 0,0:22:30.10,0:22:34.31,Default,Subaru (Gluttony),0,0,0,,Se você sabe o que quer,\Ncomece a agir de acordo.
+Dialogue: 0,0:22:34.77,0:22:38.73,Default,Subaru (Gluttony),0,0,0,,Suas preocupações chatas, seu sofrimento\Nbobo, tudo isso—
+Dialogue: 0,0:22:38.73,0:22:40.80,Default,Subaru (Gluttony),0,0,0,,eu vou lembrar para você.
+Dialogue: 0,0:22:56.83,0:22:58.59,Default,,0,0,0,,Quem é você?
+Dialogue: 0,0:23:02.83,0:23:04.31,Default,Emilia,0,0,0,,Subaru! Ei!
+Dialogue: 0,0:23:04.61,0:23:06.98,Default,Emilia,0,0,0,,Subaru! Você está bem?
+Dialogue: 0,0:23:12.41,0:23:14.16,Default,Emilia,0,0,0,,Ah, que alívio!
+Dialogue: 0,0:23:14.16,0:23:16.04,Default,Emilia,0,0,0,,Fiquei tão preocupada com você!
+Dialogue: 0,0:23:16.04,0:23:18.91,Default,Beatrice,0,0,0,,Emilia, você precisa ser mais firme\Nou ele...
+Dialogue: 0,0:23:24.67,0:23:26.63,Default,Subaru,0,0,0,,Estou de volta.
